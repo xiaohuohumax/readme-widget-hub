@@ -1,0 +1,86 @@
+{
+  "title": "Discord Markdown Badge（gitlimes/dcbadge）",
+  "description": "可自定义的徽章，用于展示您的 Discord 账号、服务器邀请或机器人账号。",
+  "tags": {
+    "repoUrl": "https://github.com/gitlimes/dcbadge",
+    "officialDocsUrl": "https://github.com/gitlimes/dcbadge?tab=readme-ov-file#set-up"
+  },
+  "rule": {
+    "params": [
+      {
+        "name": "type",
+        "type": "string",
+        "description": "徽章类型",
+        "extDescription": "可选值：`server` `shield`"
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "description": "ID 值",
+        "extDescription": "用户 ID、机器人 ID、服务器邀请链接等"
+      }
+    ],
+    "query": [
+      {
+        "name": "style",
+        "type": "string",
+        "default": "for-the-badge",
+        "description": "徽章整体风格",
+        "extDescription": "可选值：`flat` `flat-square` `plastic` `for-the-badge` `social`"
+      },
+      {
+        "name": "theme",
+        "type": "string",
+        "description": "徽章主题",
+        "extDescription": "可选值：`default-inverted` `clean` `clean-inverted` `discord` `discord-inverted` `full-presence` `gray` `blurple`"
+      },
+      {
+        "name": "compact",
+        "type": "boolean",
+        "default": "false",
+        "description": "是否使用紧凑徽章"
+      },
+      {
+        "name": "logoColor",
+        "type": "string",
+        "description": "图标颜色",
+        "extDescription": "可选值：`presence`（根据徽标的显示情况更改颜色）`CSS 颜色值` `HEX`"
+      },
+      {
+        "name": "bot",
+        "type": "boolean",
+        "default": "false",
+        "description": "是否为机器人"
+      }
+    ],
+    "URITemplate": "https://dcbadge.limes.pink/api/{type}/{id}{?style,theme,compact,logoColor,bot}"
+  },
+  "useExamples": [
+    {
+      "explain": {
+        "annotate": "用户",
+        "alt": "Discord User Badge",
+        "src": "https://dcbadge.limes.pink/api/shield/406125028065804289"
+      },
+      "images": [
+        {
+          "alt": "Discord User Badge",
+          "src": "https://dcbadge.limes.pink/api/shield/406125028065804289"
+        }
+      ]
+    },
+    {
+      "explain": {
+        "annotate": "机器人",
+        "alt": "Discord Bot Badge",
+        "src": "https://dcbadge.limes.pink/api/shield/852977967776399400?bot=true"
+      },
+      "images": [
+        {
+          "alt": "Discord Bot Badge",
+          "src": "https://dcbadge.limes.pink/api/shield/852977967776399400?bot=true"
+        }
+      ]
+    }
+  ]
+}

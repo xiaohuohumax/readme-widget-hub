@@ -1,0 +1,43 @@
+{
+  "enabled": false,
+  "title": "",
+  "description": "",
+  "alert": {
+    "type": "Tip",
+    "message": ""
+  },
+  "tags": {
+    "repoUrl": "",
+    "onlineToolUrl": "",
+    "officialDocsUrl": "",
+    "needLogin": true
+  },
+  "rule": {
+    "params": [
+      {
+        "name": "",
+        "type": "",
+        "default": "",
+        "description": "",
+        "extDescription": ""
+      }
+    ],
+    "query": [],
+    "URITemplate": ""
+  },
+  "useExamples": [
+    {
+      "explain": {
+        "annotate": "",
+        "alt": "",
+        "src": ""
+      },
+      "images": [
+        {
+          "alt": "",
+          "src": ""
+        }
+      ]
+    }
+  ]
+}

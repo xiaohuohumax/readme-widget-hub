@@ -1,0 +1,56 @@
+{
+  "title": "Open Source Software Insight 开源软件洞察（pingcap/ossinsight）",
+  "description": "在 30 秒内即可将实时小部件嵌入到仓库的 README.md 文件中！",
+  "alert": {
+    "type": "Tip",
+    "message": "由于此项目支持的卡片种类非常多，且功能强大，这里只简单介绍－推送和提交记录卡片，其他卡片使用方式还请移步官方文档。"
+  },
+  "tags": {
+    "repoUrl": "https://github.com/pingcap/ossinsight",
+    "onlineToolUrl": "https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month?repo_id=449649595"
+  },
+  "rule": {
+    "query": [
+      {
+        "name": "repo_id",
+        "type": "string",
+        "description": "Github 仓库 ID"
+      },
+      {
+        "name": "color_scheme",
+        "type": "string",
+        "description": "卡片颜色主题",
+        "extDescription": "可选值：`light` `dark`"
+      }
+    ],
+    "URITemplate": "https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month{?repo_id,color_scheme}"
+  },
+  "useExamples": [
+    {
+      "explain": {
+        "annotate": "pingcap/ossinsight",
+        "alt": "Pushes and Commits of pingcap/ossinsight",
+        "src": "https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month/thumbnail.png?repo_id=449649595&color_scheme=dark"
+      },
+      "images": [
+        {
+          "alt": "Pushes and Commits of pingcap/ossinsight",
+          "src": "https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month/thumbnail.png?repo_id=449649595&color_scheme=dark"
+        }
+      ]
+    },
+    {
+      "explain": {
+        "annotate": "antfu",
+        "alt": "Dashboard stats of @antfu",
+        "src": "https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=11247099&image_size=auto&color_scheme=dark"
+      },
+      "images": [
+        {
+          "alt": "Dashboard stats of @antfu",
+          "src": "https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=11247099&image_size=auto&color_scheme=dark"
+        }
+      ]
+    }
+  ]
+}

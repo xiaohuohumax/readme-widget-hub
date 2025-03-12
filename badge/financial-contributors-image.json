@@ -1,0 +1,89 @@
+{
+  "title": "Financial Contributor Image 财务贡献者图片（Open Collective）",
+  "description": "创建一个 SVG，展示您的财务贡献者的图标。",
+  "tags": {
+    "repoUrl": "https://github.com/opencollective",
+    "officialDocsUrl": "https://docs.opencollective.com/help/collectives/collective-settings/data-export#contributor-image"
+  },
+  "rule": {
+    "params": [
+      {
+        "name": "collectiveName",
+        "type": "string",
+        "description": "Open Collective 组织名"
+      },
+      {
+        "name": "statisticalType",
+        "type": "string",
+        "description": "统计类型",
+        "extDescription": "可选值：`sponsors`（赞助商）、`backers`（支持者）、`contributors`（贡献者）"
+      }
+    ],
+    "query": [
+      {
+        "name": "width",
+        "type": "number",
+        "description": "图片宽度",
+        "extDescription": "单位：像素"
+      },
+      {
+        "name": "height",
+        "type": "number",
+        "description": "图片高度",
+        "extDescription": "单位：像素"
+      },
+      {
+        "name": "limit",
+        "type": "number",
+        "description": "最多显示成员数",
+        "extDescription": "空则表示：无上限"
+      },
+      {
+        "name": "avatarHeight",
+        "type": "number",
+        "description": "每个头像/标志的最大高度"
+      },
+      {
+        "name": "button",
+        "type": "boolean",
+        "default": "true",
+        "description": "显示 “成为支持者/赞助商” 按钮"
+      },
+      {
+        "name": "format",
+        "type": "string",
+        "description": "图片格式",
+        "extDescription": "将 `.svg` 替换为 `.png` 或 `.jpg`"
+      }
+    ],
+    "URITemplate": "https://opencollective.com/{collectiveName}/{statisticalType}.svg{?width,height,limit,avatarHeight,button,format}"
+  },
+  "useExamples": [
+    {
+      "explain": {
+        "annotate": "vitejs/vite",
+        "alt": "Sponsors on Open Collective",
+        "src": "https://opencollective.com/vite/sponsors.svg"
+      },
+      "images": [
+        {
+          "alt": "Sponsors on Open Collective",
+          "src": "https://opencollective.com/vite/sponsors.svg"
+        }
+      ]
+    },
+    {
+      "explain": {
+        "annotate": "vitejs/vite",
+        "alt": "Sponsors Badge on Open Collective",
+        "src": "https://opencollective.com/vite/sponsors/badge.svg"
+      },
+      "images": [
+        {
+          "alt": "Sponsors Badge on Open Collective",
+          "src": "https://opencollective.com/vite/sponsors/badge.svg"
+        }
+      ]
+    }
+  ]
+}

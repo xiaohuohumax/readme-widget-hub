@@ -1,0 +1,72 @@
+{
+  "name": "badge-collection",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "description": "这是一个徽章收集仓库：收集了一些 Github 上热门项目使用过的徽章，以及一些徽章在线制作工具链接。",
+  "author": {
+    "name": "xiaohuohumax",
+    "url": "https://github.com/xiaohuohumax"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaohuohumax/badge-collection.git"
+  },
+  "keywords": [
+    "badge",
+    "github"
+  ],
+  "scripts": {
+    "spider": "vite-node src/spider/index.ts",
+    "build": "vite-node src/build/index.ts",
+    "build:watch": "vite-node --watch src/build/index.ts",
+    "build:schema": "npm run build:badge-schema && npm run build:spider-config-schema",
+    "build:badge-schema": "npx ts-json-schema-generator --path src/build/schema.ts --type Badge -o schema/badge.schema.json",
+    "build:spider-config-schema": "npx ts-json-schema-generator --path src/spider/schema.ts --type SpiderConfig -o schema/spider-config.schema.json",
+    "commit": "git add . && cz",
+    "postinstall": "simple-git-hooks",
+    "changeset": "changeset",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "art-template": "^4.13.2",
+    "fs-extra": "^11.3.0",
+    "minimatch": "^10.0.1",
+    "octokit": "^4.1.2",
+    "rehype-parse": "^9.0.1",
+    "rehype-raw": "^7.0.0",
+    "rehype-stringify": "^10.0.1",
+    "remark-gfm": "^4.0.1",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.1.1",
+    "unified": "^11.0.5",
+    "unist-util-visit": "^5.0.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.2.1",
+    "@changesets/changelog-github": "^0.5.1",
+    "@changesets/cli": "^2.28.0",
+    "@commitlint/cli": "^19.7.1",
+    "@commitlint/config-conventional": "^19.7.1",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.13.4",
+    "commitizen": "^4.3.1",
+    "cz-git": "^1.11.0",
+    "rimraf": "^6.0.1",
+    "simple-git-hooks": "^2.11.1",
+    "ts-json-schema-generator": "^2.3.0",
+    "vite-node": "^3.0.8"
+  },
+  "simple-git-hooks": {
+    "commit-msg": "npx commitlint --edit $1",
+    "pre-commit": "npm run lint:fix && git add ."
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
+  }
+}

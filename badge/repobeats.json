@@ -1,0 +1,36 @@
+{
+  "title": "GitHub 仓库分析图（Repobeats）",
+  "description": "为你的 GitHub 仓库提供惊艳的见解，让你的 README.md 增添一些吸引眼球的精彩内容。",
+  "tags": {
+    "repoUrl": "https://github.com/axiomhq",
+    "onlineToolUrl": "https://repobeats.axiom.co/configs",
+    "officialDocsUrl": "https://repobeats.axiom.co/",
+    "needLogin": true
+  },
+  "rule": {
+    "params": [
+      {
+        "name": "configId",
+        "type": "string",
+        "description": "配置 ID",
+        "extDescription": "登录 [Repobeats](https://repobeats.axiom.co/) 后选择仓库后获取"
+      }
+    ],
+    "URITemplate": "https://repobeats.axiom.co/api/embed/{configId}.svg"
+  },
+  "useExamples": [
+    {
+      "explain": {
+        "annotate": "xiaohuohumax/badge-collection",
+        "alt": "Repobeats analytics image",
+        "src": "https://repobeats.axiom.co/api/embed/65971378c4d394852dd1d92144244cbe14f0639c.svg"
+      },
+      "images": [
+        {
+          "alt": "Repobeats analytics image",
+          "src": "https://repobeats.axiom.co/api/embed/65971378c4d394852dd1d92144244cbe14f0639c.svg"
+        }
+      ]
+    }
+  ]
+}

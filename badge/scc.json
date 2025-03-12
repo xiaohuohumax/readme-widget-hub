@@ -1,0 +1,95 @@
+{
+  "title": "Sloc Cloc and Code 代码行数统计（boyter/scc）",
+  "description": "一个可以显示代码行数、注释行数等的徽章服务。",
+  "tags": {
+    "repoUrl": "https://github.com/boyter/scc/",
+    "officialDocsUrl": "https://github.com/boyter/scc/?tab=readme-ov-file#badges-beta"
+  },
+  "rule": {
+    "params": [
+      {
+        "name": "provider",
+        "type": "string",
+        "description": "提供商",
+        "extDescription": "可选值：`github`"
+      },
+      {
+        "name": "user",
+        "type": "string",
+        "description": "用户名"
+      },
+      {
+        "name": "repo",
+        "type": "string",
+        "description": "仓库名"
+      }
+    ],
+    "query": [
+      {
+        "name": "category",
+        "type": "string",
+        "default": "code",
+        "description": "统计类别",
+        "extDescription": "可选值：`code` `blanks` `lines` `comments` `cocomo`"
+      },
+      {
+        "name": "avg-wage",
+        "type": "number",
+        "default": "56286",
+        "description": "平均工资",
+        "extDescription": "值必须为正整数，否则将恢复到默认值 `56286`"
+      },
+      {
+        "name": "lower",
+        "type": "boolean",
+        "description": "将标题文本转换为小写"
+      },
+      {
+        "name": "font-color",
+        "type": "string",
+        "description": "字体颜色",
+        "extDescription": "支持类型：`HEX`，例如：`FF0000`"
+      },
+      {
+        "name": "font-shadow-color",
+        "type": "string",
+        "description": "字体阴影颜色",
+        "extDescription": "支持类型：`HEX`，例如：`FF0000`"
+      },
+      {
+        "name": "top-shadow-accent-color",
+        "type": "string",
+        "description": "顶部阴影突出颜色",
+        "extDescription": "支持类型：`HEX`，例如：`FF0000`"
+      },
+      {
+        "name": "title-bg-color",
+        "type": "string",
+        "description": "标题背景颜色",
+        "extDescription": "支持类型：`HEX`，例如：`FF0000`"
+      },
+      {
+        "name": "badge-bg-color",
+        "type": "string",
+        "description": "徽章背景颜色",
+        "extDescription": "支持类型：`HEX`，例如：`FF0000`"
+      }
+    ],
+    "URITemplate": "https://sloc.xyz/{provider}/{user}/{repo}{?category,avg-wage,lower,font-color,font-shadow-color,top-shadow-accent-color,title-bg-color,badge-bg-color}"
+  },
+  "useExamples": [
+    {
+      "explain": {
+        "annotate": "xiaohuohumax/badge-collection",
+        "alt": "Total lines",
+        "src": "https://sloc.xyz/github/xiaohuohumax/badge-collection"
+      },
+      "images": [
+        {
+          "alt": "Total lines",
+          "src": "https://sloc.xyz/github/xiaohuohumax/badge-collection"
+        }
+      ]
+    }
+  ]
+}

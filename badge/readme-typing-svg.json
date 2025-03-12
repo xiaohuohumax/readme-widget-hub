@@ -1,0 +1,128 @@
+{
+  "title": "Readme Typing SVG（denvercoder1/readme-typing-svg）",
+  "description": "动态生成、可定制的 SVG，可模拟文本输入和删除效果，适用于个人主页、仓库或网站。",
+  "tags": {
+    "repoUrl": "https://github.com/denvercoder1/readme-typing-svg",
+    "onlineToolUrl": "https://readme-typing-svg.demolab.com/demo/",
+    "officialDocsUrl": "https://github.com/denvercoder1/readme-typing-svg?tab=readme-ov-file#-options"
+  },
+  "rule": {
+    "query": [
+      {
+        "name": "lines",
+        "type": "string",
+        "default": "",
+        "description": "显示的文本",
+        "extDescription": "多行之间用 `;` 分隔，文本中空格使用 `+` 代替"
+      },
+      {
+        "name": "height",
+        "type": "number",
+        "default": "50",
+        "description": "输出 SVG 的高度"
+      },
+      {
+        "name": "width",
+        "type": "number",
+        "default": "400",
+        "description": "输出 SVG 的宽度"
+      },
+      {
+        "name": "size",
+        "type": "number",
+        "default": "20",
+        "description": "字体大小",
+        "extDescription": "单位：像素"
+      },
+      {
+        "name": "font",
+        "type": "string",
+        "default": "monospace",
+        "description": "字体族",
+        "extDescription": "任何 Google Fonts 中的字体"
+      },
+      {
+        "name": "color",
+        "type": "string",
+        "default": "36BCF7",
+        "description": "文本颜色",
+        "extDescription": "十六进制代码不带 #"
+      },
+      {
+        "name": "background",
+        "type": "string",
+        "default": "00000000",
+        "description": "文本背景颜色",
+        "extDescription": "十六进制代码不带 #"
+      },
+      {
+        "name": "center",
+        "type": "boolean",
+        "default": "false",
+        "description": "文本水平对齐方式",
+        "extDescription": "可选值：true（水平居中）false（左对齐）"
+      },
+      {
+        "name": "vCenter",
+        "type": "boolean",
+        "default": "false",
+        "description": "文本垂直对齐方式",
+        "extDescription": "可选值：true（垂直居中）false（居中上方）"
+      },
+      {
+        "name": "multiline",
+        "type": "boolean",
+        "default": "false",
+        "description": "文本换行显示方式",
+        "extDescription": "可选值：true（换行显示）false（同一行重新显示）"
+      },
+      {
+        "name": "duration",
+        "type": "number",
+        "default": "5000",
+        "description": "单行打印持续时间"
+      },
+      {
+        "name": "pause",
+        "type": "number",
+        "default": "0",
+        "description": "行与行之间的暂停时间",
+        "extDescription": "单位：毫秒"
+      },
+      {
+        "name": "repeat",
+        "type": "boolean",
+        "default": "true",
+        "description": "在最后一行之后循环回到第一行"
+      },
+      {
+        "name": "separator",
+        "type": "string",
+        "default": ";",
+        "description": "行参数中使用的分隔符"
+      },
+      {
+        "name": "letterSpacing",
+        "type": "string",
+        "default": "normal",
+        "description": "字母间距",
+        "extDescription": "任何字母间距（letter-spacing）属性的 CSS 值"
+      }
+    ],
+    "URITemplate": "https://readme-typing-svg.demolab.com{?lines,height,width,size,font,color,background,center,vCenter,multiline,duration,pause,repeat,separator,letterSpacing}"
+  },
+  "useExamples": [
+    {
+      "explain": {
+        "alt": "Readme Typing SVG",
+        "src": "https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hello+World;Badge+Collection"
+      },
+      "images": [
+        {
+          "alt": "Readme Typing SVG",
+          "src": "https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hello+World;Badge+Collection"
+        }
+      ]
+    }
+  ]
+}

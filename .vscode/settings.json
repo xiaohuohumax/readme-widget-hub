@@ -1,0 +1,29 @@
+{
+  "cSpell.ignorePaths": [
+    ".git",
+    ".vscode",
+    ".github",
+    "node_modules",
+    "dist",
+    "/*.md",
+    "/*.json",
+    ".env*",
+    "eslint.config.mjs",
+    "commitlint.config.cjs",
+    "badge/**/*.json"
+  ],
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "/badge/**/*.json"
+      ],
+      "url": "/schema/badge.schema.json"
+    },
+    {
+      "fileMatch": [
+        "/spider-config.json"
+      ],
+      "url": "/schema/spider-config.schema.json"
+    }
+  ]
+}

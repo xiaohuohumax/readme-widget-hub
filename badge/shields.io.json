@@ -1,0 +1,157 @@
+{
+  "index": 1,
+  "title": "Shields.io（badges/shields）",
+  "description": "Shields.io 是一个提供简洁、一致和易读的 SVG 和位图格式徽章的服务，可以轻松地包含在 GitHub 的 README 文件或任何其他网页中。",
+  "alert": {
+    "type": "Tip",
+    "message": "由于此项目支持的徽章种类非常多，且功能强大，这里只简单介绍－静态徽章，其他徽章使用方式还请移步官方文档。"
+  },
+  "tags": {
+    "repoUrl": "https://github.com/badges/shields",
+    "onlineToolUrl": "https://shields.io/badges",
+    "officialDocsUrl": "https://shields.io/badges"
+  },
+  "rule": {
+    "params": [
+      {
+        "name": "badgeContent",
+        "type": "string",
+        "description": "徽章内容",
+        "extDescription": "格式：`标签-消息-消息背景颜色`"
+      }
+    ],
+    "query": [
+      {
+        "name": "style",
+        "type": "string",
+        "default": "flat",
+        "description": "徽章整体风格",
+        "extDescription": "可选值：`flat` `flat-square` `plastic` `for-the-badge` `social`"
+      },
+      {
+        "name": "logo",
+        "type": "string",
+        "default": "",
+        "description": "Logo 图标名称",
+        "extDescription": "支持 Base64，[slugs.md](https://github.com/simple-icons/simple-icons/blob/master/slugs.md)，[Simple Icons](https://simpleicons.org/)"
+      },
+      {
+        "name": "logoColor",
+        "type": "string",
+        "default": "",
+        "description": "Logo 颜色",
+        "extDescription": "支持格式：`HEX` `RGB` `RGBA` `HSL` `HSLA` `CSS颜色`"
+      },
+      {
+        "name": "logoSize",
+        "type": "string",
+        "default": "",
+        "description": "Logo 自适应大小",
+        "extDescription": "可选值：`auto`"
+      },
+      {
+        "name": "label",
+        "type": "string",
+        "default": "",
+        "description": "左侧标签文字",
+        "extDescription": "覆盖 `badgeContent` 中 `标签` 部分"
+      },
+      {
+        "name": "labelColor",
+        "type": "string",
+        "default": "",
+        "description": "左侧标签背景颜色",
+        "extDescription": "支持格式：同上 `logoColor`"
+      },
+      {
+        "name": "color",
+        "type": "string",
+        "default": "",
+        "description": "右侧消息背景颜色",
+        "extDescription": "覆盖 `badgeContent` 中 `消息背景颜色` 部分, 支持格式：同上 `logoColor`"
+      },
+      {
+        "name": "cacheSeconds",
+        "type": "string",
+        "default": "3600",
+        "description": "HTTP 缓存有效期",
+        "extDescription": "单位：秒"
+      },
+      {
+        "name": "link",
+        "type": "string[]",
+        "default": "",
+        "description": "点击徽章左右侧执行的操作",
+        "extDescription": "徽章继承到 `<object>` HTML 标签时生效"
+      }
+    ],
+    "URITemplate": "https://img.shields.io/badge/{badgeContent}{?style,logo,logoColor,logoSize,label,labelColor,color,cacheSeconds,link}"
+  },
+  "useExamples": [
+    {
+      "explain": {
+        "annotate": "badges/shields",
+        "alt": "Hello World",
+        "src": "https://img.shields.io/badge/badges/shields-555555?logo=github"
+      },
+      "images": [
+        {
+          "alt": "Hello World",
+          "src": "https://img.shields.io/badge/badges/shields-555555?logo=github"
+        }
+      ]
+    },
+    {
+      "explain": {
+        "alt": "Color Badge",
+        "src": "https://img.shields.io/badge/F94144-F94144"
+      },
+      "images": [
+        {
+          "alt": "Color Badge F94144",
+          "src": "https://img.shields.io/badge/F94144-F94144"
+        },
+        {
+          "alt": "Color Badge F3722C",
+          "src": "https://img.shields.io/badge/F3722C-F3722C"
+        },
+        {
+          "alt": "Color Badge F8961E",
+          "src": "https://img.shields.io/badge/F8961E-F8961E"
+        },
+        {
+          "alt": "Color Badge F9844A",
+          "src": "https://img.shields.io/badge/F9844A-F9844A"
+        },
+        {
+          "alt": "Color Badge F9C74F",
+          "src": "https://img.shields.io/badge/F9C74F-F9C74F"
+        },
+        {
+          "alt": "Color Badge 90BE6D",
+          "src": "https://img.shields.io/badge/90BE6D-90BE6D"
+        },
+        {
+          "alt": "Color Badge 43AA8B",
+          "src": "https://img.shields.io/badge/43AA8B-43AA8B"
+        },
+        {
+          "alt": "Color Badge 4D908E",
+          "src": "https://img.shields.io/badge/4D908E-4D908E"
+        },
+        {
+          "alt": "Color Badge 577590",
+          "src": "https://img.shields.io/badge/577590-577590"
+        },
+        {
+          "alt": "Color Badge 555555",
+          "src": "https://img.shields.io/badge/555555-555555"
+        },
+        {
+          "alt": "Color Badge 277DA1",
+          "src": "https://img.shields.io/badge/277DA1-277DA1"
+        }
+      ]
+    }
+  ]
+}

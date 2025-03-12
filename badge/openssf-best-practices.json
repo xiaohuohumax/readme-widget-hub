@@ -1,0 +1,34 @@
+{
+  "title": "OpenSSF Best Practices 开源安全基金会最佳实践徽章（coreinfrastructure/best-practices-badge）",
+  "description": "本项目确定了自由/开源软件（FLOSS）的最佳实践，并为这些最佳实践实施了一个徽章系统。",
+  "tags": {
+    "repoUrl": "https://github.com/coreinfrastructure/best-practices-badge",
+    "onlineToolUrl": "https://www.bestpractices.dev",
+    "needLogin": true
+  },
+  "rule": {
+    "params": [
+      {
+        "name": "id",
+        "type": "string",
+        "description": "项目 ID"
+      }
+    ],
+    "URITemplate": "https://www.bestpractices.dev/projects/{id}/badge"
+  },
+  "useExamples": [
+    {
+      "explain": {
+        "annotate": "best-practices-badge",
+        "alt": "OpenSSF Best Practices",
+        "src": "https://www.bestpractices.dev/projects/7652/badge"
+      },
+      "images": [
+        {
+          "alt": "OpenSSF Best Practices",
+          "src": "https://www.bestpractices.dev/projects/7652/badge"
+        }
+      ]
+    }
+  ]
+}

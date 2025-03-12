@@ -1,0 +1,80 @@
+{
+  "title": "Iconify 渲染 SVG 图标（iconify/iconify）",
+  "description": "Iconify API 可以动态生成 SVG，可用于 HTML 或 CSS。",
+  "tags": {
+    "repoUrl": "https://github.com/iconify/iconify",
+    "officialDocsUrl": "https://iconify.design/docs/api/svg.html",
+    "onlineToolUrl": "https://icon-sets.iconify.design/?category=Emoji"
+  },
+  "rule": {
+    "params": [
+      {
+        "name": "prefix",
+        "type": "string",
+        "description": "图标集前缀"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "description": "图标名称"
+      }
+    ],
+    "query": [
+      {
+        "name": "color",
+        "type": "string",
+        "description": "图标颜色",
+        "extDescription": "支持格式：`HEX` `CSS 颜色值`，例如：`#FF0000` `red` `rgb(255, 0, 0)`"
+      },
+      {
+        "name": "width",
+        "type": "number",
+        "description": "图标宽度",
+        "extDescription": "单位：像素"
+      },
+      {
+        "name": "height",
+        "type": "number",
+        "description": "图标高度",
+        "extDescription": "单位：像素"
+      },
+      {
+        "name": "flip",
+        "type": "string",
+        "description": "翻转图标",
+        "extDescription": "可选值：`horizontal` `vertical`"
+      },
+      {
+        "name": "rotate",
+        "type": "string",
+        "description": "旋转图标",
+        "extDescription": "可填类型：`deg` 或是 `number`，`1=90deg`"
+      },
+      {
+        "name": "download",
+        "type": "boolean",
+        "description": "强制浏览器下载文件"
+      },
+      {
+        "name": "box",
+        "type": "boolean",
+        "description": "是否向 SVG 添加与 viewBox 匹配的空矩形"
+      }
+    ],
+    "URITemplate": "https://api.iconify.design/{prefix}/{name}.svg{?color,width,height,flip,rotate,download,box}"
+  },
+  "useExamples": [
+    {
+      "explain": {
+        "alt": "Iconify 1st Place Medal Badge",
+        "src": "https://api.iconify.design/fluent-emoji-flat/1st-place-medal.svg?width=64"
+      },
+      "images": [
+        {
+          "alt": "Iconify 1st Place Medal Badge",
+          "src": "https://api.iconify.design/fluent-emoji-flat/1st-place-medal.svg?width=64"
+        }
+      ]
+    }
+  ]
+}

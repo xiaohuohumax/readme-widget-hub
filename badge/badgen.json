@@ -1,0 +1,154 @@
+{
+  "index": 2,
+  "title": "Badgen（badgen/badgen.net）",
+  "description": "快速徽章生成服务。",
+  "alert": {
+    "type": "Tip",
+    "message": "由于此项目支持的徽章种类非常多，且功能强大，这里只简单介绍－静态徽章，其他徽章使用方式还请移步官方文档。"
+  },
+  "tags": {
+    "repoUrl": "https://github.com/badgen/badgen.net",
+    "onlineToolUrl": "https://badgen.net/",
+    "officialDocsUrl": "https://badgen.net/help"
+  },
+  "rule": {
+    "params": [
+      {
+        "name": "badge",
+        "type": "string",
+        "default": "",
+        "description": "徽章类型",
+        "extDescription": "可选值：`/static` `/github` `/gitlab` `/https` 等等，更多类型请参考官方文档"
+      },
+      {
+        "name": "subject",
+        "type": "string",
+        "default": "",
+        "description": "徽章子信息",
+        "extDescription": "比如：`/static` 静态徽章时，`subject` 表示为徽章左侧标签"
+      },
+      {
+        "name": "status",
+        "type": "string",
+        "default": "",
+        "description": "徽章右侧消息",
+        "extDescription": "比如：`/static/Swift/4.2/orange` `status=4.2`"
+      },
+      {
+        "name": "color",
+        "type": "string",
+        "default": "",
+        "description": "徽章颜色",
+        "extDescription": "支持格式：`RGB` `CSS颜色`"
+      }
+    ],
+    "query": [
+      {
+        "name": "color",
+        "type": "string",
+        "default": "",
+        "description": "覆盖默认徽章颜色"
+      },
+      {
+        "name": "icon",
+        "type": "string",
+        "default": "",
+        "description": "徽章左侧图标",
+        "extDescription": "支持外部图标 URL"
+      },
+      {
+        "name": "label",
+        "type": "string",
+        "default": "",
+        "description": "徽章左侧标签"
+      },
+      {
+        "name": "labelColor",
+        "type": "string",
+        "default": "",
+        "description": "徽章左侧标签颜色"
+      },
+      {
+        "name": "scale",
+        "type": "number",
+        "default": "1",
+        "description": "徽章缩放比例"
+      },
+      {
+        "name": "cache",
+        "type": "number",
+        "default": "86400",
+        "description": "缓存时间",
+        "extDescription": "单位：秒"
+      }
+    ],
+    "URITemplate": "https://badgen.net/{badge}/{subject}/{status}/{color}{?color,icon,label,labelColor,scale,cache}"
+  },
+  "useExamples": [
+    {
+      "explain": {
+        "annotate": "badgen/badgen.net",
+        "alt": "Swift Version",
+        "src": "https://badgen.net/static/Swift/4.2/orange"
+      },
+      "images": [
+        {
+          "alt": "Swift Version",
+          "src": "https://badgen.net/static/Swift/4.2/orange"
+        }
+      ]
+    },
+    {
+      "explain": {
+        "alt": "Color Badge",
+        "src": "https://badgen.net/badge/color/F94144/F94144?label="
+      },
+      "images": [
+        {
+          "alt": "Color Badge F94144",
+          "src": "https://badgen.net/badge/color/F94144/F94144?label="
+        },
+        {
+          "alt": "Color Badge F3722C",
+          "src": "https://badgen.net/badge/color/F3722C/F3722C?label="
+        },
+        {
+          "alt": "Color Badge F8961E",
+          "src": "https://badgen.net/badge/color/F8961E/F8961E?label="
+        },
+        {
+          "alt": "Color Badge F9844A",
+          "src": "https://badgen.net/badge/color/F9844A/F9844A?label="
+        },
+        {
+          "alt": "Color Badge F9C74F",
+          "src": "https://badgen.net/badge/color/F9C74F/F9C74F?label="
+        },
+        {
+          "alt": "Color Badge 90BE6D",
+          "src": "https://badgen.net/badge/color/90BE6D/90BE6D?label="
+        },
+        {
+          "alt": "Color Badge 43AA8B",
+          "src": "https://badgen.net/badge/color/43AA8B/43AA8B?label="
+        },
+        {
+          "alt": "Color Badge 4D908E",
+          "src": "https://badgen.net/badge/color/4D908E/4D908E?label="
+        },
+        {
+          "alt": "Color Badge 577590",
+          "src": "https://badgen.net/badge/color/577590/577590?label="
+        },
+        {
+          "alt": "Color Badge 555555",
+          "src": "https://badgen.net/badge/color/555555/555555?label="
+        },
+        {
+          "alt": "Color Badge 277DA1",
+          "src": "https://badgen.net/badge/color/277DA1/277DA1?label="
+        }
+      ]
+    }
+  ]
+}

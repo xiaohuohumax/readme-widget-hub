@@ -1,0 +1,44 @@
+{
+  "$ref": "#/definitions/SpiderConfig",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "SpiderConfig": {
+      "additionalProperties": false,
+      "description": "爬取配置",
+      "properties": {
+        "imagePatterns": {
+          "description": "图片链接匹配规则，参考：https://www.npmjs.com/package/minimatch",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "languageReposCount": {
+          "description": "每种语言类型下需要爬取的仓库数量",
+          "type": "number"
+        },
+        "languages": {
+          "description": "爬取语言类型",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "repos": {
+          "description": "爬取仓库列表",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "languages",
+        "languageReposCount",
+        "repos",
+        "imagePatterns"
+      ],
+      "type": "object"
+    }
+  }
+}

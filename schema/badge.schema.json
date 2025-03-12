@@ -1,0 +1,211 @@
+{
+  "$ref": "#/definitions/Badge",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "Badge": {
+      "additionalProperties": false,
+      "description": "徽章数据结构",
+      "properties": {
+        "alert": {
+          "additionalProperties": false,
+          "description": "提示",
+          "properties": {
+            "message": {
+              "description": "提示内容",
+              "type": "string"
+            },
+            "type": {
+              "default": "Tip",
+              "description": "类型",
+              "enum": [
+                "Note",
+                "Tip",
+                "Important",
+                "Warning",
+                "Caution"
+              ],
+              "type": "string"
+            }
+          },
+          "required": [
+            "message"
+          ],
+          "type": "object"
+        },
+        "description": {
+          "description": "描述",
+          "type": "string"
+        },
+        "enabled": {
+          "default": true,
+          "description": "是否启用",
+          "type": "boolean"
+        },
+        "index": {
+          "default": 9999,
+          "description": "显示顺序，数字越小越靠前",
+          "type": "number"
+        },
+        "rule": {
+          "additionalProperties": false,
+          "description": "规则",
+          "properties": {
+            "URITemplate": {
+              "description": "整体URL模板 URI Template",
+              "type": "string"
+            },
+            "params": {
+              "description": "路径参数",
+              "items": {
+                "$ref": "#/definitions/RuleItem"
+              },
+              "type": "array"
+            },
+            "query": {
+              "description": "查询参数",
+              "items": {
+                "$ref": "#/definitions/RuleItem"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "URITemplate"
+          ],
+          "type": "object"
+        },
+        "tags": {
+          "additionalProperties": false,
+          "description": "标签",
+          "properties": {
+            "needLogin": {
+              "description": "是否需要登录",
+              "type": "boolean"
+            },
+            "officialDocsUrl": {
+              "description": "官方文档地址",
+              "type": "string"
+            },
+            "onlineToolUrl": {
+              "description": "在线工具地址",
+              "type": "string"
+            },
+            "repoUrl": {
+              "description": "项目地址",
+              "type": "string"
+            }
+          },
+          "type": "object"
+        },
+        "title": {
+          "description": "名称",
+          "type": "string"
+        },
+        "useExamples": {
+          "description": "示例",
+          "items": {
+            "$ref": "#/definitions/Example"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "title",
+        "description",
+        "rule",
+        "useExamples"
+      ],
+      "type": "object"
+    },
+    "Example": {
+      "additionalProperties": false,
+      "description": "示例",
+      "properties": {
+        "explain": {
+          "additionalProperties": false,
+          "description": "说明",
+          "properties": {
+            "alt": {
+              "description": "描述",
+              "type": "string"
+            },
+            "annotate": {
+              "description": "注释",
+              "type": "string"
+            },
+            "src": {
+              "description": "链接",
+              "type": "string"
+            }
+          },
+          "required": [
+            "src"
+          ],
+          "type": "object"
+        },
+        "images": {
+          "description": "图片",
+          "items": {
+            "$ref": "#/definitions/MarkdownImage"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "explain",
+        "images"
+      ],
+      "type": "object"
+    },
+    "MarkdownImage": {
+      "additionalProperties": false,
+      "description": "Markdown 图片",
+      "properties": {
+        "alt": {
+          "description": "描述",
+          "type": "string"
+        },
+        "src": {
+          "description": "链接",
+          "type": "string"
+        }
+      },
+      "required": [
+        "src"
+      ],
+      "type": "object"
+    },
+    "RuleItem": {
+      "additionalProperties": false,
+      "description": "规则参数",
+      "properties": {
+        "default": {
+          "description": "默认值",
+          "type": "string"
+        },
+        "description": {
+          "description": "说明",
+          "type": "string"
+        },
+        "extDescription": {
+          "description": "补充说明",
+          "type": "string"
+        },
+        "name": {
+          "description": "名称",
+          "type": "string"
+        },
+        "type": {
+          "description": "类型",
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "type",
+        "description"
+      ],
+      "type": "object"
+    }
+  }
+}

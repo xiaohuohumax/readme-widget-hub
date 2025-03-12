@@ -1,0 +1,53 @@
+{
+  "title": "GitHub 项目贡献者图（lacolaco/contributors-img）",
+  "description": "生成一个贡献者图片，让你的 README.md 文件保持同步。",
+  "tags": {
+    "repoUrl": "https://github.com/lacolaco/contributors-img",
+    "onlineToolUrl": "https://contrib.rocks/preview"
+  },
+  "rule": {
+    "query": [
+      {
+        "name": "repo",
+        "type": "string",
+        "description": "仓库名",
+        "extDescription": "格式：`owner/repo`"
+      },
+      {
+        "name": "max",
+        "type": "number",
+        "default": "100",
+        "description": "最大显示贡献者数"
+      },
+      {
+        "name": "columns",
+        "type": "number",
+        "default": "12",
+        "description": "显示列数"
+      },
+      {
+        "name": "anon",
+        "type": "number",
+        "default": "0",
+        "description": "是否显示匿名贡献者",
+        "extDescription": "可选值：`0` `1`"
+      }
+    ],
+    "URITemplate": "https://contrib.rocks/image{?repo,max,columns,anon}"
+  },
+  "useExamples": [
+    {
+      "explain": {
+        "annotate": "lacolaco/contributors-img",
+        "alt": "Contributors Image",
+        "src": "https://contrib.rocks/image?repo=lacolaco/contributors-img"
+      },
+      "images": [
+        {
+          "alt": "Contributors Image",
+          "src": "https://contrib.rocks/image?repo=lacolaco/contributors-img"
+        }
+      ]
+    }
+  ]
+}
