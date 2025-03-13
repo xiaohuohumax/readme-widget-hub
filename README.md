@@ -14,7 +14,7 @@
     <a href="https://github.com/xiaohuohumax/badge-collection/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection" /></a>
-    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-14-84AD64" /></a>
+    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-15-84AD64" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
   <br/>
@@ -213,7 +213,72 @@
 
 ![rl-line]
 
-### 『4』GitHub 贡献者图
+### 『4』Capsule-Render 动态彩色图像
+
+![rl-badge-introduction]
+
+**Capsule-Render 可以生成动态的彩色图像，增强视觉效果。**
+
+[![rl-repo]](https://github.com/kyechan99/capsule-render)
+[![rl-online-tool]](https://capsule-render.vercel.app/)
+[![rl-official-docs]](https://github.com/kyechan99/capsule-render?tab=readme-ov-file#how-to-use)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-query] | | | | |
+| `type` | string | `wave` | 类型数据用于更改背景图像 | 可选值：`wave` `egg` `shark` `slice` `rect` `soft` `rounded` `cylinder` `waving` `venom` `speech` `blur` `transparent` |
+| `color` | string | `B897FF` | 更改背景图像颜色 | 可选值：`auto` `timeAuto` `random` `gradient` `timeGradient` `HEX 值` `自定义渐变，格式：widthPer:color1,widthPer:color2...` |
+| `customColorList` | string |  | 从预设颜色中选择随机出现的颜色下标 | 格式：`idx1,idx2,idx3...`，如想某些颜色出现概率高可以多写几次下标，仅在 `color` 为 [auto](https://github.com/kyechan99/capsule-render/blob/master/src/pallete.json) 或 [gradient](https://github.com/kyechan99/capsule-render/blob/master/src/gradient.json) 时生效。 |
+| `theme` | string | `default` | 主题 | 可选值：`default` `dark` `radical` `merko` `gruvbox` `gruvbox_light` `tokyonight` `onedark` `cobalt` 主题颜色参考：[pallete_theme](https://github.com/kyechan99/capsule-render/blob/master/src/pallete_theme.json) |
+| `section` | string | `header` | 图像显示位置 | 可选值：`header` `footer` |
+| `reversal` | boolean | `false` | 是否左右反转图像（同时反转颜色） |  |
+| `height` | number | `120` | 图像高度 | 单位：像素 |
+| `text` | string |  | 标题 | 格式：`%20` 空格 `-nl-` 换行 |
+| `desc` | string |  | 描述 | 格式：`%20` 空格，注意：不支持 `-nl-` 换行 |
+| `animation` | string |  | 文本动画效果 | 可选值：`fadeIn` `scaleIn` `blink` `blinking` `twinkling` |
+| `fontColor` | string |  | 字体颜色 | 格式：`HEX` 例如：`FF0000` |
+| `fontSize` | number | `70` | 字体大小 |  |
+| `fontAlign` | number | `50` | 标题文字水平对齐 | 可选范围：`0` 到 `100`，`50` 为居中，多行文本会独立计算对齐值 |
+| `fontAlignY` | number | `50` | 标题文字垂直对齐 | 可选范围：`0` 到 `100`，`50` 为居中，多行文本会整体计算对齐值 |
+| `descSize` | number | `20` | 描述文字大小 |  |
+| `descAlign` | number | `50` | 描述文字水平对齐 | 可选范围：`0` 到 `100`，`50` 为居中，多行文本会独立计算对齐值 |
+| `descAlignY` | number | `60` | 描述文字垂直对齐 | 可选范围：`0` 到 `100`，`50` 为居中，多行文本会整体计算对齐值 |
+| `rotate` | number |  | 旋转文本 | 可选范围：`-360` 到 `360`，单位：度 |
+| `stroke` | string |  | 文本描边颜色 | 类型：`HEX` 例如：`FF0000`，未设置 `strokeWidth` 时，`strokeWidth` 默认为 `1` |
+| `strokeWidth` | number |  | 文本描边宽度 | 类型：`HEX` 例如：`FF0000`，未设置 `stroke` 时，`stroke` 默认为 `B897FF` |
+
+</details>
+
+```markdown
+![Alt](https://capsule-render.vercel.app/api{?type,color,customColorList,theme,section,reversal,height,text,desc,animation,fontColor,fontSize,fontAlign,fontAlignY,descSize,descAlignY,rotate,stroke,strokeWidth})
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- kyechan99/capsule-render -->
+![Capsule-Render Header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=capsule%20render&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Decorate%20GitHub%20Profile%20or%20any%20Repo%20like%20me!&descAlignY=51&descAlign=62)
+```
+
+![Capsule-Render Header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=capsule%20render&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Decorate%20GitHub%20Profile%20or%20any%20Repo%20like%20me!&descAlignY=51&descAlign=62)
+
+```markdown
+<!-- kyechan99/capsule-render -->
+![Capsule-Render Footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer)
+```
+
+![Capsule-Render Footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
+### 『5』GitHub 贡献者图
 
 ![rl-badge-introduction]
 
@@ -254,7 +319,7 @@
 
 ![rl-line]
 
-### 『5』Discord 徽章
+### 『6』Discord 徽章
 
 ![rl-badge-introduction]
 
@@ -306,7 +371,7 @@
 
 ![rl-line]
 
-### 『6』HITS 访问统计
+### 『7』HITS 访问统计
 
 ![rl-badge-introduction]
 
@@ -349,7 +414,7 @@
 
 ![rl-line]
 
-### 『7』Iconify 图标徽章
+### 『8』Iconify 图标徽章
 
 ![rl-badge-introduction]
 
@@ -396,7 +461,7 @@
 
 ![rl-line]
 
-### 『8』Open Collective 贡献者图
+### 『9』Open Collective 贡献者图
 
 ![rl-badge-introduction]
 
@@ -449,7 +514,7 @@
 
 ![rl-line]
 
-### 『9』OpenSSF Best Practices 最佳实践徽章
+### 『10』OpenSSF Best Practices 最佳实践徽章
 
 ![rl-badge-introduction]
 
@@ -488,7 +553,7 @@
 
 ![rl-line]
 
-### 『10』OSSInsight 开源软件洞察
+### 『11』OSSInsight 开源软件洞察
 
 > [!Tip]
 > 由于此项目支持的卡片种类非常多，且功能强大，这里只简单介绍－推送和提交记录卡片，其他卡片使用方式还请移步官方文档。
@@ -537,7 +602,7 @@
 
 ![rl-line]
 
-### 『11』Readme Typing SVG
+### 『12』Readme Typing SVG
 
 ![rl-badge-introduction]
 
@@ -589,7 +654,7 @@
 
 ![rl-line]
 
-### 『12』GitHub 仓库分析图
+### 『13』GitHub 仓库分析图
 
 ![rl-badge-introduction]
 
@@ -629,7 +694,7 @@
 
 ![rl-line]
 
-### 『13』SCC 代码行数统计
+### 『14』SCC 代码行数统计
 
 ![rl-badge-introduction]
 
@@ -678,7 +743,7 @@
 
 ![rl-line]
 
-### 『14』GitHub 星标历史图
+### 『15』GitHub 星标历史图
 
 ![rl-badge-introduction]
 
