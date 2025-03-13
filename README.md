@@ -22,7 +22,7 @@
 
 ## 🎖️ 徽章集合
 
-### 『1』Shields.io（badges/shields）
+### 『1』Shields.io
 
 > [!Tip]
 > 由于此项目支持的徽章种类非常多，且功能强大，这里只简单介绍－静态徽章，其他徽章使用方式还请移步官方文档。
@@ -90,7 +90,7 @@
 
 ![rl-line]
 
-### 『2』Badgen（badgen/badgen.net）
+### 『2』Badgen
 
 > [!Tip]
 > 由于此项目支持的徽章种类非常多，且功能强大，这里只简单介绍－静态徽章，其他徽章使用方式还请移步官方文档。
@@ -158,7 +158,7 @@
 
 ![rl-line]
 
-### 『3』GitHub Readme Stats（anuraghazra/github-readme-stats）
+### 『3』GitHub Readme Stats
 
 > [!Tip]
 > 由于此项目支持的卡片种类非常多，且功能强大，这里只简单介绍－GitHub 状态卡片，其他卡片使用方式还请移步官方文档。
@@ -213,7 +213,7 @@
 
 ![rl-line]
 
-### 『4』GitHub 项目贡献者图（lacolaco/contributors-img）
+### 『4』GitHub 贡献者图
 
 ![rl-badge-introduction]
 
@@ -254,7 +254,7 @@
 
 ![rl-line]
 
-### 『5』Discord Markdown Badge（gitlimes/dcbadge）
+### 『5』Discord 徽章
 
 ![rl-badge-introduction]
 
@@ -306,11 +306,101 @@
 
 ![rl-line]
 
-### 『6』Financial Contributor Image 财务贡献者图片（Open Collective）
+### 『6』HITS 访问统计
 
 ![rl-badge-introduction]
 
-**创建一个 SVG，展示您的财务贡献者的图标。**
+**一个简单的方法来查看有多少人访问了您的网站或 GitHub 仓库。**
+
+[![rl-repo]](https://github.com/gjbae1212/hit-counter)
+[![rl-online-tool]](https://hits.seeyoufarm.com/#badge)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-query] | | | | |
+| `url` | string |  | 需要统计的网站或 GitHub 仓库的 URL |  |
+| `edge_flat` | boolean |  | 徽章整体风格 | 可选值：true（Flat） false（Round） |
+| `title` | string | `hits` | 左侧标签内容 |  |
+| `title_bg` | string | `#555555` | 左侧标签背景颜色 | 支持十六进制颜色代码，例如：#FF0000 |
+| `count_bg` | string | `#79C83D` | 右侧信息背景颜色 | 支持十六进制颜色代码，例如：#FF0000 |
+| `icon_color` | string |  | 图标颜色 | 支持十六进制颜色代码，例如：#FF0000 |
+
+</details>
+
+```markdown
+![Alt](https://hits.seeyoufarm.com/api/count/incr/badge.svg{?url,edge_flat,title,title_bg,count_bg,icon_color})
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- xiaohuohumax/badge-collection -->
+![Hit Counter](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection)
+```
+
+![Hit Counter](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
+### 『7』Iconify 图标徽章
+
+![rl-badge-introduction]
+
+**Iconify API 可以动态生成 SVG，其中包含大量的图标集可供选择，可用于 HTML 或 CSS。**
+
+[![rl-repo]](https://github.com/iconify/iconify)
+[![rl-online-tool]](https://icon-sets.iconify.design/?category=Emoji)
+[![rl-official-docs]](https://iconify.design/docs/api/svg.html)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-params] | | | | |
+| `prefix` | string |  | 图标集前缀 |  |
+| `name` | string |  | 图标名称 |  |
+| ![rl-link-query] | | | | |
+| `color` | string |  | 图标颜色 | 支持格式：`HEX` `CSS 颜色值`，例如：`#FF0000` `red` `rgb(255, 0, 0)` |
+| `width` | number |  | 图标宽度 | 单位：像素 |
+| `height` | number |  | 图标高度 | 单位：像素 |
+| `flip` | string |  | 翻转图标 | 可选值：`horizontal` `vertical` |
+| `rotate` | string |  | 旋转图标 | 可填类型：`deg` 或是 `number`，`1=90deg` |
+| `download` | boolean |  | 强制浏览器下载文件 |  |
+| `box` | boolean |  | 是否向 SVG 添加与 viewBox 匹配的空矩形 |  |
+
+</details>
+
+```markdown
+![Alt](https://api.iconify.design/{prefix}/{name}.svg{?color,width,height,flip,rotate,download,box})
+```
+
+![rl-uses-examples]
+
+```markdown
+![Iconify 1st Place Medal Badge](https://api.iconify.design/fluent-emoji-flat/1st-place-medal.svg?width=64)
+```
+
+![Iconify 1st Place Medal Badge](https://api.iconify.design/fluent-emoji-flat/1st-place-medal.svg?width=64)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
+### 『8』Open Collective 贡献者图
+
+![rl-badge-introduction]
+
+**创建一个 SVG，展示您的财务贡献者的卡片。**
 
 [![rl-repo]](https://github.com/opencollective)
 [![rl-official-docs]](https://docs.opencollective.com/help/collectives/collective-settings/data-export#contributor-image)
@@ -359,97 +449,7 @@
 
 ![rl-line]
 
-### 『7』HITS 访问统计（gjbae1212/hit-counter）
-
-![rl-badge-introduction]
-
-**一个简单的方法来查看有多少人访问了您的网站或 GitHub 仓库。**
-
-[![rl-repo]](https://github.com/gjbae1212/hit-counter)
-[![rl-online-tool]](https://hits.seeyoufarm.com/#badge)
-
-![rl-badge-params]
-
-<details>
-  <summary>点击展开/收起详细参数</summary><p></p>
-
-| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
-| ------ | :--- | :----- | :--- | :------- |
-| ![rl-link-query] | | | | |
-| `url` | string |  | 需要统计的网站或 GitHub 仓库的 URL |  |
-| `edge_flat` | boolean |  | 徽章整体风格 | 可选值：true（Flat） false（Round） |
-| `title` | string | `hits` | 左侧标签内容 |  |
-| `title_bg` | string | `#555555` | 左侧标签背景颜色 | 支持十六进制颜色代码，例如：#FF0000 |
-| `count_bg` | string | `#79C83D` | 右侧信息背景颜色 | 支持十六进制颜色代码，例如：#FF0000 |
-| `icon_color` | string |  | 图标颜色 | 支持十六进制颜色代码，例如：#FF0000 |
-
-</details>
-
-```markdown
-![Alt](https://hits.seeyoufarm.com/api/count/incr/badge.svg{?url,edge_flat,title,title_bg,count_bg,icon_color})
-```
-
-![rl-uses-examples]
-
-```markdown
-<!-- xiaohuohumax/badge-collection -->
-![Hit Counter](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection)
-```
-
-![Hit Counter](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection)
-
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
-
-![rl-line]
-
-### 『8』Iconify 渲染 SVG 图标（iconify/iconify）
-
-![rl-badge-introduction]
-
-**Iconify API 可以动态生成 SVG，可用于 HTML 或 CSS。**
-
-[![rl-repo]](https://github.com/iconify/iconify)
-[![rl-online-tool]](https://icon-sets.iconify.design/?category=Emoji)
-[![rl-official-docs]](https://iconify.design/docs/api/svg.html)
-
-![rl-badge-params]
-
-<details>
-  <summary>点击展开/收起详细参数</summary><p></p>
-
-| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
-| ------ | :--- | :----- | :--- | :------- |
-| ![rl-link-params] | | | | |
-| `prefix` | string |  | 图标集前缀 |  |
-| `name` | string |  | 图标名称 |  |
-| ![rl-link-query] | | | | |
-| `color` | string |  | 图标颜色 | 支持格式：`HEX` `CSS 颜色值`，例如：`#FF0000` `red` `rgb(255, 0, 0)` |
-| `width` | number |  | 图标宽度 | 单位：像素 |
-| `height` | number |  | 图标高度 | 单位：像素 |
-| `flip` | string |  | 翻转图标 | 可选值：`horizontal` `vertical` |
-| `rotate` | string |  | 旋转图标 | 可填类型：`deg` 或是 `number`，`1=90deg` |
-| `download` | boolean |  | 强制浏览器下载文件 |  |
-| `box` | boolean |  | 是否向 SVG 添加与 viewBox 匹配的空矩形 |  |
-
-</details>
-
-```markdown
-![Alt](https://api.iconify.design/{prefix}/{name}.svg{?color,width,height,flip,rotate,download,box})
-```
-
-![rl-uses-examples]
-
-```markdown
-![Iconify 1st Place Medal Badge](https://api.iconify.design/fluent-emoji-flat/1st-place-medal.svg?width=64)
-```
-
-![Iconify 1st Place Medal Badge](https://api.iconify.design/fluent-emoji-flat/1st-place-medal.svg?width=64)
-
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
-
-![rl-line]
-
-### 『9』OpenSSF Best Practices 开源安全基金会最佳实践徽章（coreinfrastructure/best-practices-badge）
+### 『9』OpenSSF Best Practices 最佳实践徽章
 
 ![rl-badge-introduction]
 
@@ -488,7 +488,7 @@
 
 ![rl-line]
 
-### 『10』Open Source Software Insight 开源软件洞察（pingcap/ossinsight）
+### 『10』OSSInsight 开源软件洞察
 
 > [!Tip]
 > 由于此项目支持的卡片种类非常多，且功能强大，这里只简单介绍－推送和提交记录卡片，其他卡片使用方式还请移步官方文档。
@@ -537,7 +537,7 @@
 
 ![rl-line]
 
-### 『11』Readme Typing SVG（denvercoder1/readme-typing-svg）
+### 『11』Readme Typing SVG
 
 ![rl-badge-introduction]
 
@@ -589,7 +589,7 @@
 
 ![rl-line]
 
-### 『12』GitHub 仓库分析图（Repobeats）
+### 『12』GitHub 仓库分析图
 
 ![rl-badge-introduction]
 
@@ -629,7 +629,7 @@
 
 ![rl-line]
 
-### 『13』Sloc Cloc and Code 代码行数统计（boyter/scc）
+### 『13』SCC 代码行数统计
 
 ![rl-badge-introduction]
 
@@ -678,7 +678,7 @@
 
 ![rl-line]
 
-### 『14』GitHub 星标历史图（star-history/star-history）
+### 『14』GitHub 星标历史图
 
 ![rl-badge-introduction]
 
