@@ -21,7 +21,7 @@
 ## 🎖️ 徽章集合
 
 {{each badges}}
-### 『{{$index+1}}』{{@$value.title}}
+### {{@$value.title}}
 
 {{if $value.alert}}
 > [!{{$value.alert?.type || "Tip"}}]
