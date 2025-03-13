@@ -1,6 +1,6 @@
 {
-  "title": "Financial Contributor Image 财务贡献者图片（Open Collective）",
-  "description": "创建一个 SVG，展示您的财务贡献者的图标。",
+  "title": "Open Collective 贡献者图",
+  "description": "创建一个 SVG，展示您的财务贡献者的卡片。",
   "tags": {
     "repoUrl": "https://github.com/opencollective",
     "officialDocsUrl": "https://docs.opencollective.com/help/collectives/collective-settings/data-export#contributor-image"
