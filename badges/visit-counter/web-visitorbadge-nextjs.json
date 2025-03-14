@@ -1,0 +1,75 @@
+{
+  "title": "Visitor Badge 访客徽章",
+  "description": "创建一个可用于任何网站或 GitHub 个人资料的访客徽章。",
+  "tags": {
+    "repoUrl": "https://github.com/estruyf/web-visitorbadge-nextjs",
+    "onlineToolUrl": "https://visitorbadge.io/"
+  },
+  "rule": {
+    "params": [
+      {
+        "name": "type",
+        "type": "string",
+        "description": "徽章类型",
+        "extDescription": "可选值：`visitors`（总数）、`daily`（单日）、`combined`（前两个组合）"
+      }
+    ],
+    "query": [
+      {
+        "name": "path",
+        "type": "string",
+        "description": "统计路径",
+        "extDescription": "URL 或 用户名/仓库，用于唯一统计的链接或字符串。"
+      },
+      {
+        "name": "label",
+        "type": "string",
+        "description": "徽章标签"
+      },
+      {
+        "name": "labelColor",
+        "type": "string",
+        "default": "#555555",
+        "description": "徽章标签背景颜色",
+        "extDescription": "支持类型：`HEX`，例如：`#FF0000`"
+      },
+      {
+        "name": "countColor",
+        "type": "string",
+        "default": "#263759",
+        "description": "徽章数字背景颜色",
+        "extDescription": "支持类型：`HEX`，例如：`#FF0000`"
+      },
+      {
+        "name": "style",
+        "type": "string",
+        "default": "default",
+        "description": "徽章样式",
+        "extDescription": "可选值：`default`、`flat`、`flat-square`、`plastic`"
+      },
+      {
+        "name": "labelStyle",
+        "type": "string",
+        "default": "upper",
+        "description": "徽章标签大小写",
+        "extDescription": "可选值：`upper`（大写） `lower`（小写）"
+      }
+    ],
+    "URITemplate": "https://api.visitorbadge.io/api/{type}{?path,label,labelColor,countColor,style,labelStyle}"
+  },
+  "useExamples": [
+    {
+      "explain": {
+        "annotate": "xiaohuohumax/badge-collection",
+        "alt": "Visitors",
+        "src": "https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection&label=VISITORS&countColor=%23f3722c"
+      },
+      "images": [
+        {
+          "alt": "Visitors",
+          "src": "https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection&label=VISITORS&countColor=%23f3722c"
+        }
+      ]
+    }
+  ]
+}
