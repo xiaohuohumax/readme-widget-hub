@@ -1,0 +1,42 @@
+{
+  "title": "Github Chart API 个人贡献卡片",
+  "description": "",
+  "tags": {
+    "repoUrl": "https://github.com/2016rshah/githubchart-api",
+    "officialDocsUrl": "https://github.com/2016rshah/githubchart-api"
+  },
+  "rule": {
+    "params": [
+      {
+        "name": "color",
+        "type": "string",
+        "default": "default",
+        "description": "主题颜色",
+        "extDescription": "可选值：`teal` `halloween` `default` `old` `HEX 值`（例如：`FF0000`）"
+      },
+      {
+        "name": "username",
+        "type": "string",
+        "description": "Github 用户名"
+      }
+    ],
+    "URITemplates": [
+      "https://ghchart.rshah.org/{color}/{username}",
+      "https://ghchart.rshah.org/{username}"
+    ]
+  },
+  "useExamples": [
+    {
+      "explain": {
+        "alt": "Github chart",
+        "src": "https://ghchart.rshah.org/xiaohuohumax"
+      },
+      "images": [
+        {
+          "alt": "Github chart",
+          "src": "https://ghchart.rshah.org/xiaohuohumax"
+        }
+      ]
+    }
+  ]
+}
