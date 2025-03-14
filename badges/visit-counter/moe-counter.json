@@ -1,0 +1,98 @@
+{
+  "title": "Moe Counter 萌萌计数器",
+  "description": "多种风格可选的萌萌计数器。",
+  "tags": {
+    "repoUrl": "https://github.com/journey-ad/Moe-Counter",
+    "onlineToolUrl": "https://count.getloli.com/",
+    "officialDocsUrl": "https://count.getloli.com/"
+  },
+  "rule": {
+    "params": [
+      {
+        "name": "countId",
+        "type": "string",
+        "description": "计数器 ID",
+        "extDescription": "不能包含特殊字符"
+      }
+    ],
+    "query": [
+      {
+        "name": "theme",
+        "type": "string",
+        "default": "moebooru",
+        "description": "主题",
+        "extDescription": "可选值：`random` `3d-num` `ai-1` `asoul` `booru-ffsr` `moebooru`，更多主题：[More theme](https://github.com/journey-ad/Moe-Counter?tab=readme-ov-file#more-theme)"
+      },
+      {
+        "name": "padding",
+        "type": "number",
+        "default": "7",
+        "description": "最小长度",
+        "extDescription": "最小：`1` 最大：`17`"
+      },
+      {
+        "name": "offset",
+        "type": "number",
+        "default": "0",
+        "description": "像素偏移值",
+        "extDescription": "最小：`-500` 最大：`500`"
+      },
+      {
+        "name": "scale",
+        "type": "number",
+        "default": "1",
+        "description": "图像缩放比例",
+        "extDescription": "最小：`0.1` 最大：`2`"
+      },
+      {
+        "name": "align",
+        "type": "string",
+        "default": "top",
+        "description": "图像对齐方式",
+        "extDescription": "可选值：`top` `bottom` `center`"
+      },
+      {
+        "name": "pixelated",
+        "type": "boolean",
+        "default": "1",
+        "description": "是否启用像素化模式",
+        "extDescription": "可选值：`0` `1`"
+      },
+      {
+        "name": "darkmode",
+        "type": "boolean",
+        "default": "auto",
+        "description": "是否启用暗黑模式",
+        "extDescription": "可选值：`0` `1` `auto`"
+      },
+      {
+        "name": "num",
+        "type": "number",
+        "description": "统计数字",
+        "extDescription": "设置后将不再有统计计数效果，仅显示配置的数字"
+      },
+      {
+        "name": "prefix",
+        "type": "number",
+        "description": "统计数字前缀数字",
+        "extDescription": "在统计数字前添加的数字，最大：`999999`"
+      }
+    ],
+    "URITemplate": "https://count.getloli.com/@{countId}{?theme,padding,offset,scale,align,pixelated,darkmode,num,prefix}"
+  },
+  "useExamples": [
+    {
+      "explain": {
+        "annotate": "xiaohuohumax/badge-collection",
+        "alt": "Moe Counter",
+        "src": "https://count.getloli.com/@xiaohuohumax-badge-collection"
+      },
+      "images": [
+        {
+          "alt": "Moe Counter",
+          "src": "https://count.getloli.com/@xiaohuohumax-badge-collection"
+        }
+      ]
+    }
+  ]
+}
