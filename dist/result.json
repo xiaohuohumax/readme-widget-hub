@@ -1,8 +1,8 @@
 {
-  "startTime": "3/12/2025, 4:41:22 PM",
-  "endTime": "3/12/2025, 4:41:53 PM",
-  "imageCount": 1630,
-  "repoCount": 262,
+  "startTime": "2025/3/14 18:19:26",
+  "endTime": "2025/3/14 18:20:07",
+  "imageCount": 1574,
+  "repoCount": 261,
   "languageRepos": [
     {
       "language": "Python",
@@ -1650,8 +1650,8 @@
               "alt": "98%"
             },
             {
-              "src": "https://geps.dev/progress/95",
-              "alt": "95%"
+              "src": "https://geps.dev/progress/94",
+              "alt": "94%"
             },
             {
               "src": "https://geps.dev/progress/85",
@@ -1666,6 +1666,10 @@
               "alt": "84%"
             },
             {
+              "src": "https://geps.dev/progress/83",
+              "alt": "83%"
+            },
+            {
               "src": "https://geps.dev/progress/100",
               "alt": "100%"
             },
@@ -1674,20 +1678,20 @@
               "alt": "99%"
             },
             {
-              "src": "https://geps.dev/progress/97",
-              "alt": "97%"
-            },
-            {
-              "src": "https://geps.dev/progress/94",
-              "alt": "94%"
-            },
-            {
               "src": "https://geps.dev/progress/93",
               "alt": "93%"
             },
             {
+              "src": "https://geps.dev/progress/97",
+              "alt": "97%"
+            },
+            {
               "src": "https://geps.dev/progress/77",
               "alt": "77%"
+            },
+            {
+              "src": "https://geps.dev/progress/92",
+              "alt": "92%"
             },
             {
               "src": "https://geps.dev/progress/79",
@@ -1698,12 +1702,12 @@
               "alt": "63%"
             },
             {
-              "src": "https://geps.dev/progress/73",
-              "alt": "73%"
+              "src": "https://geps.dev/progress/72",
+              "alt": "72%"
             },
             {
-              "src": "https://geps.dev/progress/92",
-              "alt": "92%"
+              "src": "https://geps.dev/progress/95",
+              "alt": "95%"
             },
             {
               "src": "https://geps.dev/progress/81",
@@ -5042,64 +5046,6 @@
         },
         {
           "ownerRepo": {
-            "owner": "ChatGPTNextWeb",
-            "repo": "NextChat"
-          },
-          "images": [
-            {
-              "src": "https://trendshift.io/api/badge/repositories/5973",
-              "alt": "ChatGPTNextWeb%2FChatGPT-Next-Web | Trendshift",
-              "href": "https://trendshift.io/repositories/5973"
-            },
-            {
-              "src": "https://img.shields.io/badge/NextChat-Saas-green?logo=microsoftedge",
-              "alt": "Saas",
-              "href": "https://nextchat.club?utm_source=readme"
-            },
-            {
-              "src": "https://img.shields.io/badge/Web-PWA-orange?logo=microsoftedge",
-              "alt": "Web",
-              "href": "https://app.nextchat.dev/"
-            },
-            {
-              "src": "https://img.shields.io/badge/-Windows-blue?logo=windows",
-              "alt": "Windows",
-              "href": "https://github.com/Yidadaa/ChatGPT-Next-Web/releases"
-            },
-            {
-              "src": "https://img.shields.io/badge/-MacOS-black?logo=apple",
-              "alt": "MacOS",
-              "href": "https://github.com/Yidadaa/ChatGPT-Next-Web/releases"
-            },
-            {
-              "src": "https://img.shields.io/badge/-Linux-333?logo=ubuntu",
-              "alt": "Linux",
-              "href": "https://github.com/Yidadaa/ChatGPT-Next-Web/releases"
-            },
-            {
-              "src": "https://zeabur.com/button.svg",
-              "alt": "Deploy on Zeabur",
-              "href": "https://zeabur.com/templates/ZBUEFA"
-            },
-            {
-              "src": "https://vercel.com/button",
-              "alt": "Deploy on Vercel",
-              "href": "https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FChatGPTNextWeb%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=nextchat&repository-name=NextChat"
-            },
-            {
-              "src": "https://gitpod.io/button/open-in-gitpod.svg",
-              "alt": "Open in Gitpod",
-              "href": "https://gitpod.io/#https://github.com/ChatGPTNextWeb/NextChat"
-            },
-            {
-              "src": "https://contrib.rocks/image?repo=ChatGPTNextWeb/ChatGPT-Next-Web",
-              "alt": "",
-              "href": "https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/graphs/contributors"
-            }
-          ]
-        },
-        {
-          "ownerRepo": {
             "owner": "langgenius",
             "repo": "dify"
           },
@@ -5228,6 +5174,64 @@
               "src": "https://api.star-history.com/svg?repos=langgenius/dify&type=Date",
               "alt": "Star History Chart",
               "href": "https://star-history.com/#langgenius/dify&Date"
+            }
+          ]
+        },
+        {
+          "ownerRepo": {
+            "owner": "ChatGPTNextWeb",
+            "repo": "NextChat"
+          },
+          "images": [
+            {
+              "src": "https://trendshift.io/api/badge/repositories/5973",
+              "alt": "ChatGPTNextWeb%2FChatGPT-Next-Web | Trendshift",
+              "href": "https://trendshift.io/repositories/5973"
+            },
+            {
+              "src": "https://img.shields.io/badge/NextChat-Saas-green?logo=microsoftedge",
+              "alt": "Saas",
+              "href": "https://nextchat.club?utm_source=readme"
+            },
+            {
+              "src": "https://img.shields.io/badge/Web-PWA-orange?logo=microsoftedge",
+              "alt": "Web",
+              "href": "https://app.nextchat.dev/"
+            },
+            {
+              "src": "https://img.shields.io/badge/-Windows-blue?logo=windows",
+              "alt": "Windows",
+              "href": "https://github.com/Yidadaa/ChatGPT-Next-Web/releases"
+            },
+            {
+              "src": "https://img.shields.io/badge/-MacOS-black?logo=apple",
+              "alt": "MacOS",
+              "href": "https://github.com/Yidadaa/ChatGPT-Next-Web/releases"
+            },
+            {
+              "src": "https://img.shields.io/badge/-Linux-333?logo=ubuntu",
+              "alt": "Linux",
+              "href": "https://github.com/Yidadaa/ChatGPT-Next-Web/releases"
+            },
+            {
+              "src": "https://zeabur.com/button.svg",
+              "alt": "Deploy on Zeabur",
+              "href": "https://zeabur.com/templates/ZBUEFA"
+            },
+            {
+              "src": "https://vercel.com/button",
+              "alt": "Deploy on Vercel",
+              "href": "https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FChatGPTNextWeb%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=nextchat&repository-name=NextChat"
+            },
+            {
+              "src": "https://gitpod.io/button/open-in-gitpod.svg",
+              "alt": "Open in Gitpod",
+              "href": "https://gitpod.io/#https://github.com/ChatGPTNextWeb/NextChat"
+            },
+            {
+              "src": "https://contrib.rocks/image?repo=ChatGPTNextWeb/ChatGPT-Next-Web",
+              "alt": "",
+              "href": "https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/graphs/contributors"
             }
           ]
         },
@@ -7440,29 +7444,6 @@
         },
         {
           "ownerRepo": {
-            "owner": "FuelLabs",
-            "repo": "fuels-rs"
-          },
-          "images": [
-            {
-              "src": "https://img.shields.io/crates/v/fuels?label=latest",
-              "alt": "crates.io",
-              "href": "https://crates.io/crates/fuels"
-            },
-            {
-              "src": "https://docs.rs/fuels/badge.svg",
-              "alt": "docs",
-              "href": "https://docs.rs/fuels"
-            },
-            {
-              "src": "https://img.shields.io/badge/chat%20on-discord-orange?&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2",
-              "alt": "discord",
-              "href": "https://discord.gg/xfpK4Pe"
-            }
-          ]
-        },
-        {
-          "ownerRepo": {
             "owner": "astral-sh",
             "repo": "uv"
           },
@@ -7486,6 +7467,29 @@
               "src": "https://img.shields.io/badge/Discord-%235865F2.svg?logo=discord&logoColor=white",
               "alt": "Discord",
               "href": "https://discord.gg/astral-sh"
+            }
+          ]
+        },
+        {
+          "ownerRepo": {
+            "owner": "FuelLabs",
+            "repo": "fuels-rs"
+          },
+          "images": [
+            {
+              "src": "https://img.shields.io/crates/v/fuels?label=latest",
+              "alt": "crates.io",
+              "href": "https://crates.io/crates/fuels"
+            },
+            {
+              "src": "https://docs.rs/fuels/badge.svg",
+              "alt": "docs",
+              "href": "https://docs.rs/fuels"
+            },
+            {
+              "src": "https://img.shields.io/badge/chat%20on-discord-orange?&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2",
+              "alt": "discord",
+              "href": "https://discord.gg/xfpK4Pe"
             }
           ]
         },
@@ -7817,19 +7821,6 @@
         },
         {
           "ownerRepo": {
-            "owner": "composer",
-            "repo": "composer"
-          },
-          "images": [
-            {
-              "src": "https://getcomposer.org/img/logo-composer-transparent.png",
-              "alt": "Composer",
-              "href": "https://getcomposer.org"
-            }
-          ]
-        },
-        {
-          "ownerRepo": {
             "owner": "nextcloud",
             "repo": "server"
           },
@@ -7858,6 +7849,19 @@
               "src": "https://contribute.design/api/shield/nextcloud/server",
               "alt": "Design",
               "href": "https://contribute.design/nextcloud/server"
+            }
+          ]
+        },
+        {
+          "ownerRepo": {
+            "owner": "composer",
+            "repo": "composer"
+          },
+          "images": [
+            {
+              "src": "https://getcomposer.org/img/logo-composer-transparent.png",
+              "alt": "Composer",
+              "href": "https://getcomposer.org"
             }
           ]
         },
@@ -9576,254 +9580,6 @@
     }
   ],
   "repoInfos": [
-    {
-      "ownerRepo": {
-        "owner": "xiaohuohumax",
-        "repo": "badge-collection"
-      },
-      "images": [
-        {
-          "src": "https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&height=68&lines=%F0%9F%8E%96%EF%B8%8FBadge+Collection%F0%9F%8E%96%EF%B8%8F",
-          "alt": "",
-          "href": "https://github.com/xiaohuohumax/badge-collection"
-        },
-        {
-          "src": "https://img.shields.io/github/license/xiaohuohumax/badge-collection",
-          "alt": "",
-          "href": "https://github.com/xiaohuohumax/badge-collection?tab=MIT-1-ov-file#readme"
-        },
-        {
-          "src": "https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection",
-          "alt": "",
-          "href": "https://github.com/xiaohuohumax/badge-collection/pulls"
-        },
-        {
-          "src": "https://img.shields.io/github/issues/xiaohuohumax/badge-collection",
-          "alt": "",
-          "href": "https://github.com/xiaohuohumax/badge-collection/issues"
-        },
-        {
-          "src": "https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection",
-          "alt": "",
-          "href": "https://github.com/xiaohuohumax/badge-collection"
-        },
-        {
-          "src": "https://img.shields.io/badge/badge_count-14-84AD64",
-          "alt": "",
-          "href": "https://github.com/xiaohuohumax/badge-collection"
-        },
-        {
-          "src": "https://img.shields.io/github/stars/xiaohuohumax/badge-collection",
-          "alt": "",
-          "href": "https://github.com/xiaohuohumax/badge-collection"
-        },
-        {
-          "src": "https://img.shields.io/badge/%E3%80%8E%E5%BE%BD%E7%AB%A0%E4%BB%8B%E7%BB%8D%E3%80%8F-F9C74F?style=for-the-badge&labelColor=F3722C&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpb25pY29uIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHBhdGggZD0iTTI0OCA2NEMxNDYuMzkgNjQgNjQgMTQ2LjM5IDY0IDI0OHM4Mi4zOSAxODQgMTg0IDE4NCAxODQtODIuMzkgMTg0LTE4NFMzNDkuNjEgNjQgMjQ4IDY0eiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS13aWR0aD0iMzIiLz48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIzMiIgZD0iTTIyMCAyMjBoMzJ2MTE2Ii8+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLXdpZHRoPSIzMiIgZD0iTTIwOCAzNDBoODgiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMjQ4IDEzMGEyNiAyNiAwIDEwMjYgMjYgMjYgMjYgMCAwMC0yNi0yNnoiLz48L3N2Zz4=",
-          "alt": "rl-badge-introduction"
-        },
-        {
-          "src": "https://img.shields.io/badge/%E9%A1%B9%E7%9B%AE%E5%9C%B0%E5%9D%80-555555?style=flat-square&logo=github",
-          "alt": "rl-repo",
-          "href": "https://github.com/badges/shields"
-        },
-        {
-          "src": "https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF%E5%B7%A5%E5%85%B7-F94144?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpb25pY29uIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHBhdGggZD0iTTIwOCAzNTJoLTY0YTk2IDk2IDAgMDEwLTE5Mmg2NE0zMDQgMTYwaDY0YTk2IDk2IDAgMDEwIDE5MmgtNjRNMTYzLjI5IDI1NmgxODcuNDIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjM2Ii8+PC9zdmc+",
-          "alt": "rl-online-tool",
-          "href": "https://shields.io/badges"
-        },
-        {
-          "src": "https://img.shields.io/badge/%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3-277DA1?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpb25pY29uIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHBhdGggZD0iTTI1NiAxNjBjMTYtNjMuMTYgNzYuNDMtOTUuNDEgMjA4LTk2YTE1Ljk0IDE1Ljk0IDAgMDExNiAxNnYyODhhMTYgMTYgMCAwMS0xNiAxNmMtMTI4IDAtMTc3LjQ1IDI1LjgxLTIwOCA2NC0zMC4zNy0zOC04MC02NC0yMDgtNjQtOS44OCAwLTE2LTguMDUtMTYtMTcuOTNWODBhMTUuOTQgMTUuOTQgMCAwMTE2LTE2YzEzMS41Ny41OSAxOTIgMzIuODQgMjA4IDk2ek0yNTYgMTYwdjI4OCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMzIiLz48L3N2Zz4=",
-          "alt": "rl-official-docs",
-          "href": "https://shields.io/badges"
-        },
-        {
-          "src": "https://img.shields.io/badge/%E3%80%8E%E5%BE%BD%E7%AB%A0%E5%8F%82%E6%95%B0%E3%80%8F-F9C74F?style=for-the-badge&labelColor=F3722C&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpb25pY29uIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE5MC4wNiA0MTRsMTYzLjEyLTEzOS43OGEyNCAyNCAwIDAwMC0zNi40NEwxOTAuMDYgOThjLTE1LjU3LTEzLjM0LTM5LjYyLTIuMjgtMzkuNjIgMTguMjJ2Mjc5LjZjMCAyMC41IDI0LjA1IDMxLjU2IDM5LjYyIDE4LjE4eiIvPjwvc3ZnPg==",
-          "alt": "rl-badge-params"
-        },
-        {
-          "src": "https://img.shields.io/badge/%E8%B7%AF%E5%BE%84%E5%8F%82%E6%95%B0-526E86",
-          "alt": "rl-link-params"
-        },
-        {
-          "src": "https://img.shields.io/badge/%E6%9F%A5%E8%AF%A2%E5%8F%82%E6%95%B0-526E86",
-          "alt": "rl-link-query"
-        },
-        {
-          "src": "https://img.shields.io/badge/-%E3%80%8E%E4%BD%BF%E7%94%A8%E7%A4%BA%E4%BE%8B%E3%80%8F-F9C74F?style=for-the-badge&labelColor=F3722C&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpb25pY29uIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE5MC4wNiA0MTRsMTYzLjEyLTEzOS43OGEyNCAyNCAwIDAwMC0zNi40NEwxOTAuMDYgOThjLTE1LjU3LTEzLjM0LTM5LjYyLTIuMjgtMzkuNjIgMTguMjJ2Mjc5LjZjMCAyMC41IDI0LjA1IDMxLjU2IDM5LjYyIDE4LjE4eiIvPjwvc3ZnPg==",
-          "alt": "rl-uses-examples"
-        },
-        {
-          "src": "https://img.shields.io/badge/badges/shields-555555?logo=github",
-          "alt": "Hello World"
-        },
-        {
-          "src": "https://img.shields.io/badge/F94144-F94144",
-          "alt": "Color Badge F94144"
-        },
-        {
-          "src": "https://img.shields.io/badge/F3722C-F3722C",
-          "alt": "Color Badge F3722C"
-        },
-        {
-          "src": "https://img.shields.io/badge/F8961E-F8961E",
-          "alt": "Color Badge F8961E"
-        },
-        {
-          "src": "https://img.shields.io/badge/F9844A-F9844A",
-          "alt": "Color Badge F9844A"
-        },
-        {
-          "src": "https://img.shields.io/badge/F9C74F-F9C74F",
-          "alt": "Color Badge F9C74F"
-        },
-        {
-          "src": "https://img.shields.io/badge/90BE6D-90BE6D",
-          "alt": "Color Badge 90BE6D"
-        },
-        {
-          "src": "https://img.shields.io/badge/43AA8B-43AA8B",
-          "alt": "Color Badge 43AA8B"
-        },
-        {
-          "src": "https://img.shields.io/badge/4D908E-4D908E",
-          "alt": "Color Badge 4D908E"
-        },
-        {
-          "src": "https://img.shields.io/badge/577590-577590",
-          "alt": "Color Badge 577590"
-        },
-        {
-          "src": "https://img.shields.io/badge/555555-555555",
-          "alt": "Color Badge 555555"
-        },
-        {
-          "src": "https://img.shields.io/badge/277DA1-277DA1",
-          "alt": "Color Badge 277DA1"
-        },
-        {
-          "src": "https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge",
-          "alt": "",
-          "href": "#readme-top"
-        },
-        {
-          "src": "https://badgen.net/static/Swift/4.2/orange",
-          "alt": "Swift Version"
-        },
-        {
-          "src": "https://badgen.net/badge/color/F94144/F94144?label=",
-          "alt": "Color Badge F94144"
-        },
-        {
-          "src": "https://badgen.net/badge/color/F3722C/F3722C?label=",
-          "alt": "Color Badge F3722C"
-        },
-        {
-          "src": "https://badgen.net/badge/color/F8961E/F8961E?label=",
-          "alt": "Color Badge F8961E"
-        },
-        {
-          "src": "https://badgen.net/badge/color/F9844A/F9844A?label=",
-          "alt": "Color Badge F9844A"
-        },
-        {
-          "src": "https://badgen.net/badge/color/F9C74F/F9C74F?label=",
-          "alt": "Color Badge F9C74F"
-        },
-        {
-          "src": "https://badgen.net/badge/color/90BE6D/90BE6D?label=",
-          "alt": "Color Badge 90BE6D"
-        },
-        {
-          "src": "https://badgen.net/badge/color/43AA8B/43AA8B?label=",
-          "alt": "Color Badge 43AA8B"
-        },
-        {
-          "src": "https://badgen.net/badge/color/4D908E/4D908E?label=",
-          "alt": "Color Badge 4D908E"
-        },
-        {
-          "src": "https://badgen.net/badge/color/577590/577590?label=",
-          "alt": "Color Badge 577590"
-        },
-        {
-          "src": "https://badgen.net/badge/color/555555/555555?label=",
-          "alt": "Color Badge 555555"
-        },
-        {
-          "src": "https://badgen.net/badge/color/277DA1/277DA1?label=",
-          "alt": "Color Badge 277DA1"
-        },
-        {
-          "src": "https://github-readme-stats.vercel.app/api?username=anuraghazra",
-          "alt": "GitHub stats"
-        },
-        {
-          "src": "https://github-readme-stats.vercel.app/api?username=anuraghazra&locale=cn&theme=dark&hide_border=true",
-          "alt": "GitHub stats"
-        },
-        {
-          "src": "https://contrib.rocks/image?repo=lacolaco/contributors-img",
-          "alt": "Contributors Image"
-        },
-        {
-          "src": "https://dcbadge.limes.pink/api/shield/406125028065804289",
-          "alt": "Discord User Badge"
-        },
-        {
-          "src": "https://dcbadge.limes.pink/api/shield/852977967776399400?bot=true",
-          "alt": "Discord Bot Badge"
-        },
-        {
-          "src": "https://opencollective.com/vite/sponsors.svg",
-          "alt": "Sponsors on Open Collective"
-        },
-        {
-          "src": "https://opencollective.com/vite/sponsors/badge.svg",
-          "alt": "Sponsors Badge on Open Collective"
-        },
-        {
-          "src": "https://api.iconify.design/fluent-emoji-flat/1st-place-medal.svg?width=64",
-          "alt": "Iconify 1st Place Medal Badge"
-        },
-        {
-          "src": "https://img.shields.io/badge/%E9%9C%80%E8%A6%81%E7%99%BB%E9%99%86-E37945?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpb25pY29uIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTI1NiA0NjRjLTExNC42OSAwLTIwOC05My4zMS0yMDgtMjA4UzE0MS4zMSA0OCAyNTYgNDhzMjA4IDkzLjMxIDIwOCAyMDgtOTMuMzEgMjA4LTIwOCAyMDh6bTAtMzg0Yy05NyAwLTE3NiA3OS0xNzYgMTc2czc5IDE3NiAxNzYgMTc2IDE3Ni03OC45NSAxNzYtMTc2UzM1My4wNSA4MCAyNTYgODB6Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTMyMy42NyAyOTJjLTE3LjQgMC0zNC4yMS03LjcyLTQ3LjM0LTIxLjczYTgzLjc2IDgzLjc2IDAgMDEtMjItNTEuMzJjLTEuNDctMjAuNyA0Ljg4LTM5Ljc1IDE3Ljg4LTUzLjYyUzMwMy4zOCAxNDQgMzIzLjY3IDE0NGMyMC4xNCAwIDM4LjM3IDcuNjIgNTEuMzMgMjEuNDZzMTkuNDcgMzMgMTggNTMuNTFhODQgODQgMCAwMS0yMiA1MS4zQzM1Ny44NiAyODQuMjggMzQxLjA2IDI5MiAzMjMuNjcgMjkyem01NS44MS03NHpNMTYzLjgyIDI5NS4zNmMtMjkuNzYgMC01NS45My0yNy41MS01OC4zMy02MS4zMy0xLjIzLTE3LjMyIDQuMTUtMzMuMzMgMTUuMTctNDUuMDhzMjYuMjItMTggNDMuMTUtMTggMzIuMTIgNi40NCA0My4wNyAxOC4xNCAxNi41IDI3LjgyIDE1LjI1IDQ1Yy0yLjQ0IDMzLjc3LTI4LjYgNjEuMjctNTguMzEgNjEuMjd6TTQyMC4zNyAzNTUuMjhjLTEuNTktNC43LTUuNDYtOS43MS0xMy4yMi0xNC40Ni0yMy40Ni0xNC4zMy01Mi4zMi0yMS45MS04My40OC0yMS45MS0zMC41NyAwLTYwLjIzIDcuOS04My41MyAyMi4yNS0yNi4yNSAxNi4xNy00My44OSAzOS43NS01MSA2OC4xOC0xLjY4IDYuNjktNC4xMyAxOS4xNC0xLjUxIDI2LjExYTE5Mi4xOCAxOTIuMTggMCAwMDIzMi43NS04MC4xN3pNMTYzLjYzIDQwMS4zN2M3LjA3LTI4LjIxIDIyLjEyLTUxLjczIDQ1LjQ3LTcwLjc1YTggOCAwIDAwLTIuNTktMTMuNzdjLTEyLTMuODMtMjUuNy01Ljg4LTQyLjY5LTUuODgtMjMuODIgMC00OS4xMSA2LjQ1LTY4LjE0IDE4LjE3LTUuNCAzLjMzLTEwLjcgNC42MS0xNC43OCA1Ljc1YTE5Mi44NCAxOTIuODQgMCAwMDc3Ljc4IDg2LjY0bDEuNzktLjE0YTEwMi44MiAxMDIuODIgMCAwMTMuMTYtMjAuMDJ6Ii8+PC9zdmc+",
-          "alt": "rl-need-login"
-        },
-        {
-          "src": "https://www.bestpractices.dev/projects/7652/badge",
-          "alt": "OpenSSF Best Practices"
-        },
-        {
-          "src": "https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month/thumbnail.png?repo_id=449649595&color_scheme=dark",
-          "alt": "Pushes and Commits of pingcap/ossinsight"
-        },
-        {
-          "src": "https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=11247099&image_size=auto&color_scheme=dark",
-          "alt": "Dashboard stats of @antfu"
-        },
-        {
-          "src": "https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hello+World;Badge+Collection",
-          "alt": "Readme Typing SVG"
-        },
-        {
-          "src": "https://repobeats.axiom.co/api/embed/65971378c4d394852dd1d92144244cbe14f0639c.svg",
-          "alt": "Repobeats analytics image"
-        },
-        {
-          "src": "https://sloc.xyz/github/xiaohuohumax/badge-collection",
-          "alt": "Total lines"
-        },
-        {
-          "src": "https://api.star-history.com/svg?repos=star-history/star-history&type=Date",
-          "alt": "Star History Chart"
-        },
-        {
-          "src": "https://contrib.rocks/image?repo=xiaohuohumax/badge-collection",
-          "alt": "Contributors",
-          "href": "https://github.com/xiaohuohumax/badge-collection/contributors"
-        }
-      ]
-    },
     {
       "ownerRepo": {
         "owner": "denvercoder1",

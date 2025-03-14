@@ -1,13 +1,15 @@
+<!-- 这是由脚本自动生成的文件，请勿直接修改此文件！ -->
+
 # Java
 
-## 『1』[Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide)
+## 1. [Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide)
 
 [![](https://oss.javaguide.cn/xingqiu/xingqiu.png)](https://javaguide.cn/about-the-author/zhishixingqiu-two-years.html)
 [![logo](https://oss.javaguide.cn/github/javaguide/csdn/1c00413c65d1995993bf2b0daf7b4f03.png)](https://github.com/Snailclimb/JavaGuide)
 ![](https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png)
 ![Stars](https://api.star-history.com/svg?repos=Snailclimb/JavaGuide&#38;type=Date)
 
-## 『2』[krahets/hello-algo](https://github.com/krahets/hello-algo)
+## 2. [krahets/hello-algo](https://github.com/krahets/hello-algo)
 
 ![hello-algo-typing-svg](https://readme-typing-svg.demolab.com?font=Noto+Sans+SC&#38;weight=400&#38;duration=3500&#38;pause=2000&#38;color=21C8B8&#38;center=true&#38;vCenter=true&#38;random=false&#38;width=200&#38;lines=Hello%2C+%E7%AE%97%E6%B3%95+!)
 ![](https://img.shields.io/badge/Python-snow?logo=python&#38;logoColor=3776AB)
@@ -25,7 +27,7 @@
 ![](https://img.shields.io/badge/Dart-snow?logo=dart&#38;logoColor=0175C2)
 [![](https://contrib.rocks/image?repo=krahets/hello-algo&#38;max=300&#38;columns=16)](https://github.com/krahets/hello-algo/graphs/contributors)
 
-## 『3』[iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns)
+## 3. [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns)
 
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/iluwatar/java-design-patterns/master/LICENSE.md)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=iluwatar_java-design-patterns&#38;metric=ncloc)](https://sonarcloud.io/dashboard?id=iluwatar_java-design-patterns)
@@ -33,12 +35,12 @@
 [![Join the chat at https://gitter.im/iluwatar/java-design-patterns](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/iluwatar/java-design-patterns?utm_source=badge&#38;utm_medium=badge&#38;utm_campaign=pr-badge&#38;utm_content=badge)
 [![All Contributors](https://img.shields.io/badge/all_contributors-375-orange.svg?style=flat-square)](#contributors-)
 
-## 『4』[macrozheng/mall](https://github.com/macrozheng/mall)
+## 4. [macrozheng/mall](https://github.com/macrozheng/mall)
 
 [![后台管理系统](https://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-mall--admin--web-green.svg)](https://github.com/macrozheng/mall-admin-web)
 [![前台商城项目](https://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E5%89%8D%E5%8F%B0%E5%95%86%E5%9F%8E%E9%A1%B9%E7%9B%AE-mall--app--web-green.svg)](https://github.com/macrozheng/mall-app-web)
 
-## 『5』[doocs/advanced-java](https://github.com/doocs/advanced-java)
+## 5. [doocs/advanced-java](https://github.com/doocs/advanced-java)
 
 [![stars](https://img.shields.io/github/stars/doocs/advanced-java?color=42b883&#38;logo=github&#38;style=flat-square&#38;logoColor=ffffff)](https://github.com/doocs/advanced-java/stargazers)
 [![forks](https://img.shields.io/github/forks/doocs/advanced-java?color=42b883&#38;logo=github&#38;style=flat-square&#38;logoColor=ffffff)](https://github.com/doocs/advanced-java/network/members)
@@ -60,11 +62,11 @@
 ![](https://badgen.net/github/forks/doocs/technical-books)
 [![](https://opencollective.com/doocs/contributors.svg?width=890&#38;button=false)](https://opencollective.com/doocs/contributors.svg?width=890&#38;button=true)
 
-## 『6』[spring-projects/spring-boot](https://github.com/spring-projects/spring-boot)
+## 6. [spring-projects/spring-boot](https://github.com/spring-projects/spring-boot)
 
 No images found.
 
-## 『7』[MisterBooo/LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation)
+## 7. [MisterBooo/LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation)
 
 ![LeetCode Animation All in One](https://upload-images.jianshu.io/upload_images/1940317-e837182a805cecce.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 [![Travis](https://img.shields.io/badge/language-C++-red.svg)](https://developer.apple.com/.md)
@@ -79,30 +81,30 @@ No images found.
 ![](https://blog-1257126549.cos.ap-guangzhou.myqcloud.com/blog/4tk72.gif)
 ![](https://blog-1257126549.cos.ap-guangzhou.myqcloud.com/blog/ehgxu.gif)
 
-## 『8』[elastic/elasticsearch](https://github.com/elastic/elasticsearch)
+## 8. [elastic/elasticsearch](https://github.com/elastic/elasticsearch)
 
 No images found.
 
-## 『9』[kdn251/interviews](https://github.com/kdn251/interviews)
+## 9. [kdn251/interviews](https://github.com/kdn251/interviews)
 
 No images found.
 
-## 『10』[TheAlgorithms/Java](https://github.com/TheAlgorithms/Java)
+## 10. [TheAlgorithms/Java](https://github.com/TheAlgorithms/Java)
 
 [![codecov](https://codecov.io/gh/TheAlgorithms/Java/graph/badge.svg?token=XAdPyqTIqR)](https://codecov.io/gh/TheAlgorithms/Java)
 [![Discord chat](https://img.shields.io/discord/808045925556682782.svg?logo=discord&#38;colorB=7289DA&#38;style=flat-square)](https://discord.gg/c7MnfGFGa6)
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/TheAlgorithms/Java)
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/TheAlgorithms/Java)
 
-## 『11』[spring-projects/spring-framework](https://github.com/spring-projects/spring-framework)
+## 11. [spring-projects/spring-framework](https://github.com/spring-projects/spring-framework)
 
 [![Revved up by Develocity](https://img.shields.io/badge/Revved%20up%20by-Develocity-06A0CE?logo=Gradle&#38;labelColor=02303A)](https://ge.spring.io/scans?search.rootProjectNames=spring)
 
-## 『12』[NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra)
+## 12. [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra)
 
 No images found.
 
-## 『13』[Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)
+## 13. [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/frooodle/s-pdf)](https://hub.docker.com/r/frooodle/s-pdf)
 [![Discord](https://img.shields.io/discord/1068636748814483718?label=Discord)](https://discord.gg/HYmhKj45pU)
@@ -114,35 +116,36 @@ No images found.
 ![87%](https://geps.dev/progress/87)
 ![51%](https://geps.dev/progress/51)
 ![98%](https://geps.dev/progress/98)
-![95%](https://geps.dev/progress/95)
+![94%](https://geps.dev/progress/94)
 ![85%](https://geps.dev/progress/85)
 ![96%](https://geps.dev/progress/96)
 ![84%](https://geps.dev/progress/84)
+![83%](https://geps.dev/progress/83)
 ![100%](https://geps.dev/progress/100)
 ![99%](https://geps.dev/progress/99)
-![97%](https://geps.dev/progress/97)
-![94%](https://geps.dev/progress/94)
 ![93%](https://geps.dev/progress/93)
+![97%](https://geps.dev/progress/97)
 ![77%](https://geps.dev/progress/77)
+![92%](https://geps.dev/progress/92)
 ![79%](https://geps.dev/progress/79)
 ![63%](https://geps.dev/progress/63)
-![73%](https://geps.dev/progress/73)
-![92%](https://geps.dev/progress/92)
+![72%](https://geps.dev/progress/72)
+![95%](https://geps.dev/progress/95)
 ![81%](https://geps.dev/progress/81)
 ![78%](https://geps.dev/progress/78)
 
-## 『14』[google/guava](https://github.com/google/guava)
+## 14. [google/guava](https://github.com/google/guava)
 
 [![GitHub Release](https://img.shields.io/github/v/release/google/guava)](https://github.com/google/guava/releases/latest)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/7197/badge)](https://www.bestpractices.dev/projects/7197)
 
-## 『15』[ReactiveX/RxJava](https://github.com/ReactiveX/RxJava)
+## 15. [ReactiveX/RxJava](https://github.com/ReactiveX/RxJava)
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.reactivex.rxjava3/rxjava/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.reactivex.rxjava3/rxjava)
 [![Contribute with Gitpod](https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/ReactiveX/RxJava)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/ReactiveX/RxJava/badge)](https://securityscorecards.dev/viewer/?uri=github.com/ReactiveX/RxJava)
 
-## 『16』[skylot/jadx](https://github.com/skylot/jadx)
+## 16. [skylot/jadx](https://github.com/skylot/jadx)
 
 ![Build status](https://img.shields.io/github/actions/workflow/status/skylot/jadx/build-artifacts.yml)
 ![GitHub contributors](https://img.shields.io/github/contributors/skylot/jadx)
@@ -157,7 +160,7 @@ No images found.
 [![homebrew version](https://img.shields.io/homebrew/v/jadx)](https://formulae.brew.sh/formula/jadx)
 [![Flathub Version](https://img.shields.io/flathub/v/com.github.skylot.jadx)](https://flathub.org/apps/com.github.skylot.jadx)
 
-## 『17』[dbeaver/dbeaver](https://github.com/dbeaver/dbeaver)
+## 17. [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver)
 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/dbeaver_news.svg?style=social&#38;label=Follow%20%40dbeaver_news)](https://twitter.com/dbeaver_news)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/fa0bb9cf5a904c7d87424f8f6351ba92)](https://app.codacy.com/gh/dbeaver/dbeaver/dashboard?utm_source=gh&#38;utm_medium=referral&#38;utm_content=&#38;utm_campaign=Badge_grade)
@@ -168,7 +171,7 @@ No images found.
 [![](https://dbeaver.io/product/dbeaver-data-editor.png)](https://dbeaver.io/product/dbeaver-data-editor.png)
 [![](https://dbeaver.io/product/dbeaver-erd.png)](https://dbeaver.io/product/dbeaver-erd.png)
 
-## 『18』[jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot)
+## 18. [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot)
 
 [![AUR](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg)](https://github.com/jeecgboot/JeecgBoot/blob/master/LICENSE)
 [![](https://img.shields.io/badge/Author-%E5%8C%97%E4%BA%AC%E5%9B%BD%E7%82%AC%E8%BD%AF%E4%BB%B6-orange.svg)](http://guojusoft.com)
@@ -229,14 +232,14 @@ No images found.
 ![](https://oscimg.oschina.net/oscnet/up-4868615395272d3206dbb960ade02dbc291.png)
 ![](https://static.oschina.net/uploads/img/201903/08155608_0EFX.png)
 
-## 『19』[apache/dubbo](https://github.com/apache/dubbo)
+## 19. [apache/dubbo](https://github.com/apache/dubbo)
 
 [![Codecov](https://codecov.io/gh/apache/dubbo/branch/3.3/graph/badge.svg)](https://codecov.io/gh/apache/dubbo)
 ![Maven](https://img.shields.io/maven-central/v/org.apache.dubbo/dubbo.svg)
 [![License](https://img.shields.io/github/license/apache/dubbo.svg)](https://github.com/apache/dubbo/blob/3.3/LICENSE)
 ![Architecture](https://dubbo.apache.org/imgs/architecture.png)
 
-## 『20』[termux/termux-app](https://github.com/termux/termux-app)
+## 20. [termux/termux-app](https://github.com/termux/termux-app)
 
 [![Join the chat at https://gitter.im/termux/termux](https://badges.gitter.im/termux/termux.svg)](https://gitter.im/termux/termux)
 [![Join the Termux discord server](https://img.shields.io/discord/641256914684084234.svg?label=&#38;logo=discord&#38;logoColor=ffffff&#38;color=5865F2)](https://discord.gg/HXpF69X)

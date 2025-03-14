@@ -6,24 +6,28 @@
     "node_modules",
     "dist",
     "/*.md",
-    "/*.json",
+    "*.json",
     ".env*",
     "eslint.config.mjs",
-    "commitlint.config.cjs",
-    "badge/**/*.json"
+    "commitlint.config.cjs"
+  ],
+  "cSpell.words": [
+    "Jsons",
+    "klaw",
+    "nodir"
   ],
   "json.schemas": [
     {
       "fileMatch": [
         "/badge/**/*.json"
       ],
-      "url": "/schema/badge.schema.json"
+      "url": "/.vscode/schema/badge.schema.json"
     },
     {
       "fileMatch": [
-        "/spider-config.json"
+        "/scripts/spider/config.json"
       ],
-      "url": "/schema/spider-config.schema.json"
+      "url": "/.vscode/schema/spider.schema.json"
     }
   ]
 }

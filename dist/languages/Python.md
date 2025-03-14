@@ -1,18 +1,20 @@
+<!-- 这是由脚本自动生成的文件，请勿直接修改此文件！ -->
+
 # Python
 
-## 『1』[public-apis/public-apis](https://github.com/public-apis/public-apis)
+## 1. [public-apis/public-apis](https://github.com/public-apis/public-apis)
 
 [![Run In Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/10131015-55145132-244c-448c-8e6f-8780866e4862?action=collection%2Ffork&#38;source=rip_markdown&#38;collection-url=entityId%3D10131015-55145132-244c-448c-8e6f-8780866e4862%26entityType%3Dcollection%26workspaceId%3D2b7498b6-6d91-4fa8-817f-608441fe42a8)
 
-## 『2』[donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)
+## 2. [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)
 
 No images found.
 
-## 『3』[vinta/awesome-python](https://github.com/vinta/awesome-python)
+## 3. [vinta/awesome-python](https://github.com/vinta/awesome-python)
 
 No images found.
 
-## 『4』[TheAlgorithms/Python](https://github.com/TheAlgorithms/Python)
+## 4. [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python)
 
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod&#38;style=flat-square)](https://gitpod.io/#https://github.com/TheAlgorithms/Python)
 [![Contributions Welcome](https://img.shields.io/static/v1.svg?label=Contributions&#38;message=Welcome&#38;color=0059b3&#38;style=flat-square)](https://github.com/TheAlgorithms/Python/blob/master/CONTRIBUTING.md)
@@ -23,7 +25,7 @@ No images found.
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&#38;logoColor=white&#38;style=flat-square)](https://github.com/pre-commit/pre-commit)
 [![code style: black](https://img.shields.io/static/v1?label=code%20style&#38;message=black&#38;color=black&#38;style=flat-square)](https://github.com/psf/black)
 
-## 『5』[Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)
+## 5. [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)
 
 [![Discord Follow](https://dcbadge.vercel.app/api/server/autogpt?style=flat)](https://discord.gg/autogpt)
 [![Twitter Follow](https://img.shields.io/twitter/follow/Auto_GPT?style=social)](https://twitter.com/Auto_GPT)
@@ -32,11 +34,11 @@ No images found.
 ![Star History Chart](https://api.star-history.com/svg?repos=Significant-Gravitas/AutoGPT&#38;type=Date)
 [![Contributors](https://contrib.rocks/image?repo=Significant-Gravitas/AutoGPT&#38;max=1000&#38;columns=10)](https://github.com/Significant-Gravitas/AutoGPT/graphs/contributors)
 
-## 『6』[AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+## 6. [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 
 No images found.
 
-## 『7』[huggingface/transformers](https://github.com/huggingface/transformers)
+## 7. [huggingface/transformers](https://github.com/huggingface/transformers)
 
 ![Hugging Face Transformers Library](https://huggingface.co/datasets/huggingface/documentation-images/raw/main/transformers-logo-light.svg)
 [![Build](https://img.shields.io/circleci/build/github/huggingface/transformers/main)](https://circleci.com/gh/huggingface/transformers)
@@ -50,11 +52,11 @@ No images found.
 ![](https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/coco_sample_post_processed.png)
 ![](https://img.shields.io/endpoint?url=https://huggingface.co/api/shields/models&#38;color=brightgreen)
 
-## 『8』[ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl)
+## 8. [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl)
 
 No images found.
 
-## 『9』[yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
+## 9. [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
 
 [![Release version](https://img.shields.io/github/v/release/yt-dlp/yt-dlp?color=brightgreen&#38;label=Download&#38;style=for-the-badge)](#installation)
 [![PyPI](https://img.shields.io/badge/-PyPI-blue.svg?logo=pypi&#38;labelColor=555555&#38;style=for-the-badge)](https://pypi.org/project/yt-dlp)
@@ -72,7 +74,7 @@ No images found.
 [![Other variants](https://img.shields.io/badge/-Other-grey.svg?style=for-the-badge)](#release-files)
 [![All versions](https://img.shields.io/badge/-All_Versions-lightgrey.svg?style=for-the-badge)](https://github.com/yt-dlp/yt-dlp/releases)
 
-## 『10』[521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub)
+## 10. [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub)
 
 [![Featured｜HelloGitHub](https://abroad.hellogithub.com/v1/widgets/recommend.svg?rid=d4aae58ddbf34f0799bf3e8f965e0d70&#38;claim_uid=8MKvZoxaWt)](https://hellogithub.com/repository/d4aae58ddbf34f0799bf3e8f965e0d70)
 [![WeiXin](https://img.shields.io/badge/Talk-%E5%BE%AE%E4%BF%A1%E7%BE%A4-brightgreen.svg?style=popout-square)](https://raw.githubusercontent.com/521xueweihan/img_logo/master/logo/weixin.png)
@@ -81,7 +83,7 @@ No images found.
 [![Sina Weibo](https://img.shields.io/badge/%E6%96%B0%E6%B5%AA-Weibo-red.svg?style=popout-square)](https://weibo.com/hellogithub)
 [![知识共享许可协议](https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh)
 
-## 『11』[deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
+## 11. [deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
 
 [![Chat](https://img.shields.io/badge/🤖%20Chat-DeepSeek%20V3-536af5?color=536af5&#38;logoColor=white)](https://chat.deepseek.com/)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-DeepSeek%20AI-ffc107?color=ffc107&#38;logoColor=white)](https://huggingface.co/deepseek-ai)
@@ -91,21 +93,21 @@ No images found.
 [![Code License](https://img.shields.io/badge/Code_License-MIT-f5de53?&#38;color=f5de53)](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-CODE)
 [![Model License](https://img.shields.io/badge/Model_License-Model_Agreement-f5de53?&#38;color=f5de53)](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL)
 
-## 『12』[nvbn/thefuck](https://github.com/nvbn/thefuck)
+## 12. [nvbn/thefuck](https://github.com/nvbn/thefuck)
 
 [![Version](https://img.shields.io/pypi/v/thefuck.svg?label=version)](https://pypi.python.org/pypi/thefuck/)
 [![Coverage](https://img.shields.io/coveralls/nvbn/thefuck.svg)](https://coveralls.io/github/nvbn/thefuck)
 [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg)](LICENSE.md)
 
-## 『13』[pytorch/pytorch](https://github.com/pytorch/pytorch)
+## 13. [pytorch/pytorch](https://github.com/pytorch/pytorch)
 
 No images found.
 
-## 『14』[django/django](https://github.com/django/django)
+## 14. [django/django](https://github.com/django/django)
 
 No images found.
 
-## 『15』[fastapi/fastapi](https://github.com/fastapi/fastapi)
+## 15. [fastapi/fastapi](https://github.com/fastapi/fastapi)
 
 [![FastAPI](https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png)](https://fastapi.tiangolo.com)
 [![Coverage](https://coverage-badge.samuelcolvin.workers.dev/fastapi/fastapi.svg)](https://coverage-badge.samuelcolvin.workers.dev/redirect/fastapi/fastapi)
@@ -138,28 +140,28 @@ No images found.
 ![ReDoc](https://fastapi.tiangolo.com/img/index/index-06-redoc-02.png)
 ![editor support](https://fastapi.tiangolo.com/img/vscode-completion.png)
 
-## 『16』[openai/whisper](https://github.com/openai/whisper)
+## 16. [openai/whisper](https://github.com/openai/whisper)
 
 No images found.
 
-## 『17』[tensorflow/models](https://github.com/tensorflow/models)
+## 17. [tensorflow/models](https://github.com/tensorflow/models)
 
 [![Python](https://img.shields.io/pypi/pyversions/tensorflow.svg?style=plastic)](https://badge.fury.io/py/tensorflow)
 [![tf-models-official PyPI](https://badge.fury.io/py/tf-models-official.svg)](https://badge.fury.io/py/tf-models-official)
 [![help wanted:paper implementation](https://img.shields.io/github/issues/tensorflow/models/help%20wanted%3Apaper%20implementation)](https://github.com/tensorflow/models/labels/help%20wanted%3Apaper%20implementation)
 
-## 『18』[home-assistant/core](https://github.com/home-assistant/core)
+## 18. [home-assistant/core](https://github.com/home-assistant/core)
 
 No images found.
 
-## 『19』[3b1b/manim](https://github.com/3b1b/manim)
+## 19. [3b1b/manim](https://github.com/3b1b/manim)
 
 [![pypi version](https://img.shields.io/pypi/v/manimgl?logo=pypi)](https://pypi.org/project/manimgl/)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
 [![Manim Subreddit](https://img.shields.io/reddit/subreddit-subscribers/manim.svg?color=ff4301&#38;label=reddit&#38;logo=reddit)](https://www.reddit.com/r/manim/)
 [![Manim Discord](https://img.shields.io/discord/581738731934056449.svg?label=discord&#38;logo=discord)](https://discord.com/invite/bYCyhM9Kz2)
 
-## 『20』[fighting41love/funNLP](https://github.com/fighting41love/funNLP)
+## 20. [fighting41love/funNLP](https://github.com/fighting41love/funNLP)
 
 [![](https://img.shields.io/github/stars/fighting41love/funnlp?style=social)](https://github.com/fighting41love/funnlp)
 [![](https://img.shields.io/badge/dynamic/json?color=blue&#38;label=%E7%9F%A5%E4%B9%8E%E5%85%B3%E6%B3%A8&#38;query=%24.data.totalSubs&#38;url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dzhihu%26queryKey%3Dmountain-blue-64)](https://www.zhihu.com/people/mountain-blue-64)

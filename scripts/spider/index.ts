@@ -1,16 +1,17 @@
-import type { MarkdownImage } from './markdown.js'
+import type { MarkdownImage } from '@/markdown.js'
 import type { SpiderConfig } from './schema.js'
 import path from 'node:path'
+import { extractImages4Markdown } from '@/markdown.js'
 import { render } from 'art-template'
 import fs from 'fs-extra'
 import { minimatch } from 'minimatch'
-import { extractImages4Markdown } from './markdown.js'
+import config from './config.json'
 import Request from './request.js'
+import languageTpl from './tpl.md?raw'
 
 interface SpiderOptions {
   request: Request
   config: SpiderConfig
-  distPath: string
   languageTpl: string
 }
 
@@ -88,11 +89,12 @@ class Spider {
   private saveLanguageRepo(languageRepo: LanguageRepo, distPath: string) {
     const languageMarkdown = render(this.options.languageTpl, languageRepo)
       .replaceAll(/\n{3,}/g, () => '\n\n')
-    fs.outputFileSync(path.join(distPath, `${languageRepo.language}.md`), languageMarkdown)
+    const DO_NOT_EDIT = '<!-- 这是由脚本自动生成的文件，请勿直接修改此文件！ -->\n\n'
+    fs.outputFileSync(path.join(distPath, `${languageRepo.language}.md`), DO_NOT_EDIT + languageMarkdown)
   }
 
   private async handleLanguages() {
-    const languagePath = path.join(this.options.distPath, 'languages')
+    const languagePath = path.join(this.options.config.outDir, 'languages')
     fs.mkdirSync(languagePath, { recursive: true })
 
     for (const language of this.options.config.languages) {
@@ -121,18 +123,18 @@ class Spider {
     }
     for (const r of this.options.config.repos) {
       const [owner, repo] = r.split('/')
-      console.log('Spider repo:', owner, repo)
+      console.log('Spider repo:', r)
       const repoInfo = await this.getRepoInfo({ owner, repo })
       languageRepo.repoInfos.push(repoInfo)
       this.spiderResult.repoInfos.push(repoInfo)
       this.spiderResult.imageCount += repoInfo.images.length
       this.spiderResult.repoCount += 1
     }
-    this.saveLanguageRepo(languageRepo, this.options.distPath)
+    this.saveLanguageRepo(languageRepo, this.options.config.outDir)
   }
 
   private saveSpiderResult() {
-    const jsonFilePath = path.join(this.options.distPath, 'spider-result.json')
+    const jsonFilePath = path.join(this.options.config.outDir, 'result.json')
     fs.writeFileSync(jsonFilePath, JSON.stringify(this.spiderResult, null, 2))
   }
 
@@ -141,7 +143,7 @@ class Spider {
 
     this.initSpiderResult()
     this.spiderResult.startTime = new Date().toLocaleString()
-    fs.removeSync(this.options.distPath)
+    fs.removeSync(this.options.config.outDir)
 
     await this.handleLanguages()
     await this.handleRepos()
@@ -154,11 +156,6 @@ class Spider {
 }
 
 const request = new Request({ auth: import.meta.env.VITE_GITHUB_TOKEN })
-const spider = new Spider({
-  request,
-  config: fs.readJsonSync('./spider-config.json'),
-  distPath: './dist',
-  languageTpl: fs.readFileSync(path.resolve(__dirname, './template.md'), 'utf-8'),
-})
+const spider = new Spider({ request, config, languageTpl })
 
 spider.start().catch(console.error)

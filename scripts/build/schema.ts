@@ -49,6 +49,7 @@ export interface Badge {
   enabled?: boolean
   /**
    * 显示顺序，数字越小越靠前
+   *
    * @default 9999
    */
   index?: number

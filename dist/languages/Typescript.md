@@ -1,6 +1,8 @@
+<!-- 这是由脚本自动生成的文件，请勿直接修改此文件！ -->
+
 # Typescript
 
-## 『1』[freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)
+## 1. [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)
 
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](https://makeapullrequest.com)
 [![first-timers-only Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](https://www.firsttimersonly.com/)
@@ -9,7 +11,7 @@
 [![Discord](https://img.shields.io/discord/692816967895220344?logo=discord&#38;label=Discord&#38;color=5865F2)](https://discord.gg/PRyKn3Vbay)
 ![Alt](https://repobeats.axiom.co/api/embed/89be0a1a1c8f641c54f9234a7423e7755352c746.svg)
 
-## 『2』[kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)
+## 2. [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)
 
 [![roadmaps](https://img.shields.io/badge/%E2%9C%A8-Roadmaps%20-0a0a0a.svg?style=flat&#38;colorA=0a0a0a)](https://roadmap.sh/roadmaps)
 [![best practices](https://img.shields.io/badge/%E2%9C%A8-Best%20Practices-0a0a0a.svg?style=flat&#38;colorA=0a0a0a)](https://roadmap.sh/best-practices)
@@ -23,7 +25,7 @@
 [![GitHub Repo stars](https://img.shields.io/badge/share%20on-linkedin-3949AB?logo=linkedin)](https://www.linkedin.com/shareArticle?url=https://roadmap.sh&#38;title=Interactive%20roadmaps,%20guides%20and%20other%20educational%20content%20for%20Developers)
 [![](https://contrib.rocks/image?repo=kamranahmedse/developer-roadmap)](https://github.com/kamranahmedse/developer-roadmap/graphs/contributors)
 
-## 『3』[vuejs/vue](https://github.com/vuejs/vue)
+## 3. [vuejs/vue](https://github.com/vuejs/vue)
 
 [![Vue logo](https://vuejs.org/images/logo.png)](https://vuejs.org)
 [![Build Status](https://img.shields.io/circleci/project/github/vuejs/vue/dev.svg?sanitize=true)](https://circleci.com/gh/vuejs/vue/tree/dev)
@@ -44,13 +46,13 @@
 [![vue-devtools-status](https://img.shields.io/chrome-web-store/v/nhdogjmejiglipccpnnnanhbledajbpd.svg)](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
 [![](https://opencollective.com/vuejs/contributors.svg?width=890)](https://github.com/vuejs/vue/graphs/contributors)
 
-## 『4』[microsoft/vscode](https://github.com/microsoft/vscode)
+## 4. [microsoft/vscode](https://github.com/microsoft/vscode)
 
 [![Feature Requests](https://img.shields.io/github/issues/microsoft/vscode/feature-request.svg)](https://github.com/microsoft/vscode/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc)
 [![Bugs](https://img.shields.io/github/issues/microsoft/vscode/bug.svg)](https://github.com/microsoft/vscode/issues?utf8=%E2%9C%93&#38;q=is%3Aissue+is%3Aopen+label%3Abug)
 [![Gitter](https://img.shields.io/badge/chat-on%20gitter-yellow.svg)](https://gitter.im/Microsoft/vscode)
 
-## 『5』[yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook)
+## 5. [yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook)
 
 [![](https://opencollective.com/tech-interview-handbook/contributors.svg?width=890&#38;button=false)](https://github.com/yangshun/tech-interview-handbook/graphs/contributors)
 [![](https://opencollective.com/tech-interview-handbook/backers.svg?width=890)](https://opencollective.com/tech-interview-handbook#backers)
@@ -65,19 +67,19 @@
 [![](https://opencollective.com/tech-interview-handbook/sponsor/8/avatar.svg)](https://opencollective.com/tech-interview-handbook/sponsor/8/website)
 [![](https://opencollective.com/tech-interview-handbook/sponsor/9/avatar.svg)](https://opencollective.com/tech-interview-handbook/sponsor/9/website)
 
-## 『6』[microsoft/TypeScript](https://github.com/microsoft/TypeScript)
+## 6. [microsoft/TypeScript](https://github.com/microsoft/TypeScript)
 
 [![npm version](https://badge.fury.io/js/typescript.svg)](https://www.npmjs.com/package/typescript)
 [![Downloads](https://img.shields.io/npm/dm/typescript.svg)](https://www.npmjs.com/package/typescript)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/microsoft/TypeScript/badge)](https://securityscorecards.dev/viewer/?uri=github.com/microsoft/TypeScript)
 
-## 『7』[angular/angular](https://github.com/angular/angular)
+## 7. [angular/angular](https://github.com/angular/angular)
 
 [![Angular on npm](https://img.shields.io/npm/v/@angular/core.svg?logo=npm&#38;logoColor=fff&#38;label=NPM+package&#38;color=limegreen)](https://www.npmjs.com/@angular/core)
 [![Discord conversation](https://img.shields.io/discord/463752820026376202.svg?logo=discord&#38;logoColor=fff&#38;label=Discord&#38;color=7389d8)](https://discord.gg/angular)
 [![Love Angular badge](https://img.shields.io/badge/angular-love-blue?logo=angular&#38;angular=love)](https://www.github.com/angular/angular)
 
-## 『8』[mui/material-ui](https://github.com/mui/material-ui)
+## 8. [mui/material-ui](https://github.com/mui/material-ui)
 
 [![Material UI logo](https://mui.com/static/logo.svg)](https://next.mui.com/core/)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mui/material-ui/blob/HEAD/LICENSE)
@@ -105,7 +107,7 @@
 ![Netlify logo](https://mui.com/static/readme/netlify-lightmode.svg)
 ![BrowserStack logo](https://mui.com/static/readme/browserstack-lightmode.svg)
 
-## 『9』[excalidraw/excalidraw](https://github.com/excalidraw/excalidraw)
+## 9. [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw)
 
 [![Excalidraw is released under the MIT license.](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/excalidraw/excalidraw/blob/master/LICENSE)
 [![npm downloads/month](https://img.shields.io/npm/dm/@excalidraw/excalidraw)](https://www.npmjs.com/package/@excalidraw/excalidraw)
@@ -125,7 +127,7 @@
 [![](https://opencollective.com/excalidraw/tiers/sponsors/10/avatar.svg?avatarHeight=120)](https://opencollective.com/excalidraw/tiers/sponsors/10/website)
 [![](https://opencollective.com/excalidraw/tiers/backers.svg?avatarHeight=32)](https://opencollective.com/excalidraw#category-CONTRIBUTE)
 
-## 『10』[ant-design/ant-design](https://github.com/ant-design/ant-design)
+## 10. [ant-design/ant-design](https://github.com/ant-design/ant-design)
 
 ![](https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg)
 [![codecov](https://img.shields.io/codecov/c/github/ant-design/ant-design/master.svg?style=flat-square)](https://codecov.io/gh/ant-design/ant-design/branch/master)
@@ -150,18 +152,18 @@
 ![New participants of ant-design - past 28 days](https://next.ossinsight.io/widgets/official/compose-org-active-contributors/thumbnail.png?period=past_28_days&#38;activity=new&#38;owner_id=12101536&#38;repo_ids=34526884&#38;image_size=2x3&#38;color_scheme=light)
 [![](https://polar.sh/embed/fund-our-backlog.svg?org=ant-design)](https://polar.sh/ant-design)
 
-## 『11』[puppeteer/puppeteer](https://github.com/puppeteer/puppeteer)
+## 11. [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer)
 
 [![npm puppeteer package](https://img.shields.io/npm/v/puppeteer.svg)](https://npmjs.org/package/puppeteer)
 
-## 『12』[tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss)
+## 12. [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss)
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/tailwindlabs/tailwindcss/ci.yml?branch=next)](https://github.com/tailwindlabs/tailwindcss/actions)
 [![Total Downloads](https://img.shields.io/npm/dt/tailwindcss.svg)](https://www.npmjs.com/package/tailwindcss)
 [![Latest Release](https://img.shields.io/npm/v/tailwindcss.svg)](https://github.com/tailwindcss/tailwindcss/releases)
 [![License](https://img.shields.io/npm/l/tailwindcss.svg)](https://github.com/tailwindcss/tailwindcss/blob/master/LICENSE)
 
-## 『13』[storybookjs/storybook](https://github.com/storybookjs/storybook)
+## 13. [storybookjs/storybook](https://github.com/storybookjs/storybook)
 
 [![Build Status on CircleCI](https://circleci.com/gh/storybookjs/storybook.svg?style=shield)](https://circleci.com/gh/storybookjs/storybook)
 [![codecov](https://codecov.io/gh/storybookjs/storybook/branch/main/graph/badge.svg)](https://codecov.io/gh/storybookjs/storybook)
@@ -227,24 +229,11 @@
 [![](https://opencollective.com/storybook/tiers/sponsors/25/avatar.svg?requireActive=true)](https://opencollective.com/storybook/tiers/sponsors/25/website?requireActive=true)
 [![](https://opencollective.com/storybook/tiers/backers.svg?limit=80&#38;button=false&#38;avatarHeight=46&#38;width=750)](https://opencollective.com/storybook)
 
-## 『14』[shadcn-ui/ui](https://github.com/shadcn-ui/ui)
+## 14. [shadcn-ui/ui](https://github.com/shadcn-ui/ui)
 
 No images found.
 
-## 『15』[ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat)
-
-[![ChatGPTNextWeb%2FChatGPT-Next-Web | Trendshift](https://trendshift.io/api/badge/repositories/5973)](https://trendshift.io/repositories/5973)
-[![Saas](https://img.shields.io/badge/NextChat-Saas-green?logo=microsoftedge)](https://nextchat.club?utm_source=readme)
-[![Web](https://img.shields.io/badge/Web-PWA-orange?logo=microsoftedge)](https://app.nextchat.dev/)
-[![Windows](https://img.shields.io/badge/-Windows-blue?logo=windows)](https://github.com/Yidadaa/ChatGPT-Next-Web/releases)
-[![MacOS](https://img.shields.io/badge/-MacOS-black?logo=apple)](https://github.com/Yidadaa/ChatGPT-Next-Web/releases)
-[![Linux](https://img.shields.io/badge/-Linux-333?logo=ubuntu)](https://github.com/Yidadaa/ChatGPT-Next-Web/releases)
-[![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates/ZBUEFA)
-[![Deploy on Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FChatGPTNextWeb%2FChatGPT-Next-Web&#38;env=OPENAI_API_KEY&#38;env=CODE&#38;project-name=nextchat&#38;repository-name=NextChat)
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ChatGPTNextWeb/NextChat)
-[![](https://contrib.rocks/image?repo=ChatGPTNextWeb/ChatGPT-Next-Web)](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/graphs/contributors)
-
-## 『16』[langgenius/dify](https://github.com/langgenius/dify)
+## 15. [langgenius/dify](https://github.com/langgenius/dify)
 
 [![Static Badge](https://img.shields.io/badge/Product-F04438)](https://dify.ai)
 [![Static Badge](https://img.shields.io/badge/free-pricing?logo=free&#38;color=%20%23155EEF&#38;label=pricing&#38;labelColor=%20%23528bff)](https://dify.ai/pricing)
@@ -272,15 +261,28 @@ No images found.
 [![](https://contrib.rocks/image?repo=langgenius/dify)](https://github.com/langgenius/dify/graphs/contributors)
 [![Star History Chart](https://api.star-history.com/svg?repos=langgenius/dify&#38;type=Date)](https://star-history.com/#langgenius/dify&#38;Date)
 
-## 『17』[gothinkster/realworld](https://github.com/gothinkster/realworld)
+## 16. [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat)
+
+[![ChatGPTNextWeb%2FChatGPT-Next-Web | Trendshift](https://trendshift.io/api/badge/repositories/5973)](https://trendshift.io/repositories/5973)
+[![Saas](https://img.shields.io/badge/NextChat-Saas-green?logo=microsoftedge)](https://nextchat.club?utm_source=readme)
+[![Web](https://img.shields.io/badge/Web-PWA-orange?logo=microsoftedge)](https://app.nextchat.dev/)
+[![Windows](https://img.shields.io/badge/-Windows-blue?logo=windows)](https://github.com/Yidadaa/ChatGPT-Next-Web/releases)
+[![MacOS](https://img.shields.io/badge/-MacOS-black?logo=apple)](https://github.com/Yidadaa/ChatGPT-Next-Web/releases)
+[![Linux](https://img.shields.io/badge/-Linux-333?logo=ubuntu)](https://github.com/Yidadaa/ChatGPT-Next-Web/releases)
+[![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates/ZBUEFA)
+[![Deploy on Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FChatGPTNextWeb%2FChatGPT-Next-Web&#38;env=OPENAI_API_KEY&#38;env=CODE&#38;project-name=nextchat&#38;repository-name=NextChat)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ChatGPTNextWeb/NextChat)
+[![](https://contrib.rocks/image?repo=ChatGPTNextWeb/ChatGPT-Next-Web)](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/graphs/contributors)
+
+## 17. [gothinkster/realworld](https://github.com/gothinkster/realworld)
 
 No images found.
 
-## 『18』[supabase/supabase](https://github.com/supabase/supabase)
+## 18. [supabase/supabase](https://github.com/supabase/supabase)
 
 No images found.
 
-## 『19』[mermaid-js/mermaid](https://github.com/mermaid-js/mermaid)
+## 19. [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid)
 
 [![](https://img.shields.io/npm/v/mermaid?color=ff3670&#38;label=)](https://www.npmjs.com/package/mermaid)
 [![NPM](https://img.shields.io/npm/v/mermaid)](https://www.npmjs.com/package/mermaid)
@@ -297,7 +299,7 @@ No images found.
 [![Contributors](https://img.shields.io/github/contributors/mermaid-js/mermaid)](https://github.com/mermaid-js/mermaid/graphs/contributors)
 [![Commits](https://img.shields.io/github/commit-activity/m/mermaid-js/mermaid)](https://github.com/mermaid-js/mermaid/graphs/contributors)
 
-## 『20』[vitejs/vite](https://github.com/vitejs/vite)
+## 20. [vitejs/vite](https://github.com/vitejs/vite)
 
 [![Vite logo](https://vite.dev/logo.svg)](https://vite.dev)
 [![npm package](https://img.shields.io/npm/v/vite.svg)](https://npmjs.com/package/vite)

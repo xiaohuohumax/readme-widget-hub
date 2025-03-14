@@ -1,14 +1,16 @@
+<!-- 这是由脚本自动生成的文件，请勿直接修改此文件！ -->
+
 # C
 
-## 『1』[torvalds/linux](https://github.com/torvalds/linux)
+## 1. [torvalds/linux](https://github.com/torvalds/linux)
 
 No images found.
 
-## 『2』[Genymobile/scrcpy](https://github.com/Genymobile/scrcpy)
+## 2. [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy)
 
 No images found.
 
-## 『3』[netdata/netdata](https://github.com/netdata/netdata)
+## 3. [netdata/netdata](https://github.com/netdata/netdata)
 
 [![Netdata](https://www.netdata.cloud/img/readme-images/netdata_readme_logo_light.png)](https://www.netdata.cloud#gh-light-mode-only)
 [![Netdata](https://www.netdata.cloud/img/readme-images/netdata_readme_logo_dark.png)](https://www.netdata.cloud#gh-dark-mode-only)
@@ -33,11 +35,11 @@ No images found.
 [![Discord](https://img.shields.io/discord/847502280503590932?logo=discord&#38;logoColor=white&#38;label=chat%20on%20discord)](https://discord.com/invite/2mEmfW735j)
 [![Open Source Contributors](https://img.shields.io/github/contributors/netdata/netdata?label=open-source%20contributors)](https://github.com/netdata/netdata/graphs/contributors)
 
-## 『4』[redis/redis](https://github.com/redis/redis)
+## 4. [redis/redis](https://github.com/redis/redis)
 
 [![codecov](https://codecov.io/github/redis/redis/graph/badge.svg?token=6bVHb5fRuz)](https://codecov.io/github/redis/redis)
 
-## 『5』[ventoy/Ventoy](https://github.com/ventoy/Ventoy)
+## 5. [ventoy/Ventoy](https://github.com/ventoy/Ventoy)
 
 ![](https://img.shields.io/github/release/ventoy/Ventoy.svg?style=for-the-badge)
 ![](https://img.shields.io/github/license/ventoy/Ventoy?style=for-the-badge)
@@ -48,49 +50,49 @@ No images found.
 ![](https://www.ventoy.net/static/img/AliPay.png)
 ![](https://www.ventoy.net/static/img/WeChatPay.png)
 
-## 『6』[obsproject/obs-studio](https://github.com/obsproject/obs-studio)
+## 6. [obsproject/obs-studio](https://github.com/obsproject/obs-studio)
 
 No images found.
 
-## 『7』[git/git](https://github.com/git/git)
+## 7. [git/git](https://github.com/git/git)
 
 No images found.
 
-## 『8』[FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg)
+## 8. [FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg)
 
 No images found.
 
-## 『9』[php/php-src](https://github.com/php/php-src)
+## 9. [php/php-src](https://github.com/php/php-src)
 
 [![PHP](https://www.php.net/images/logos/new-php-logo.svg)](https://www.php.net)
 [![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/php.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&#38;can=1&#38;q=proj:php)
 
-## 『10』[wg/wrk](https://github.com/wg/wrk)
+## 10. [wg/wrk](https://github.com/wg/wrk)
 
 No images found.
 
-## 『11』[curl/curl](https://github.com/curl/curl)
+## 11. [curl/curl](https://github.com/curl/curl)
 
 [![curl logo](https://curl.se/logo/curl-logo.svg)](https://curl.se/)
 
-## 『12』[tmux/tmux](https://github.com/tmux/tmux)
+## 12. [tmux/tmux](https://github.com/tmux/tmux)
 
 No images found.
 
-## 『13』[bilibili/ijkplayer](https://github.com/bilibili/ijkplayer)
+## 13. [bilibili/ijkplayer](https://github.com/bilibili/ijkplayer)
 
 [![Build Status](https://travis-ci.org/Bilibili/ci-ijk-ffmpeg-android.svg?branch=master)](https://travis-ci.org/Bilibili/ci-ijk-ffmpeg-android)
 [![Build Status](https://travis-ci.org/Bilibili/ci-ijk-ffmpeg-ios.svg?branch=master)](https://travis-ci.org/Bilibili/ci-ijk-ffmpeg-ios)
 
-## 『14』[lizongying/my-tv](https://github.com/lizongying/my-tv)
+## 14. [lizongying/my-tv](https://github.com/lizongying/my-tv)
 
 No images found.
 
-## 『15』[jqlang/jq](https://github.com/jqlang/jq)
+## 15. [jqlang/jq](https://github.com/jqlang/jq)
 
 No images found.
 
-## 『16』[pbatard/rufus](https://github.com/pbatard/rufus)
+## 16. [pbatard/rufus](https://github.com/pbatard/rufus)
 
 [![VS2022 Build Status](https://img.shields.io/github/actions/workflow/status/pbatard/rufus/vs2022.yml?branch=master&#38;style=flat-square&#38;label=VS2022%20Build)](https://github.com/pbatard/rufus/actions/workflows/vs2022.yml)
 [![MinGW Build Status](https://img.shields.io/github/actions/workflow/status/pbatard/rufus/mingw.yml?branch=master&#38;style=flat-square&#38;label=MinGW%20Build)](https://github.com/pbatard/rufus/actions/workflows/mingw.yml)
@@ -100,19 +102,19 @@ No images found.
 [![Download Stats](https://img.shields.io/github/downloads/pbatard/rufus/total.svg?label=Downloads&#38;style=flat-square)](https://github.com/pbatard/rufus/releases)
 [![Contributors](https://img.shields.io/github/contributors/pbatard/rufus.svg?style=flat-square&#38;label=Contributors)](https://github.com/pbatard/rufus/graphs/contributors)
 
-## 『17』[coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)
+## 17. [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)
 
 No images found.
 
-## 『18』[mpv-player/mpv](https://github.com/mpv-player/mpv)
+## 18. [mpv-player/mpv](https://github.com/mpv-player/mpv)
 
 No images found.
 
-## 『19』[nothings/stb](https://github.com/nothings/stb)
+## 19. [nothings/stb](https://github.com/nothings/stb)
 
 No images found.
 
-## 『20』[cfenollosa/os-tutorial](https://github.com/cfenollosa/os-tutorial)
+## 20. [cfenollosa/os-tutorial](https://github.com/cfenollosa/os-tutorial)
 
 No images found.
 

@@ -1,0 +1,72 @@
+import type { Badge } from './schema.js'
+import path from 'node:path'
+import { Ajv } from 'ajv'
+import ArtTemplate from 'art-template'
+import fs from 'fs-extra'
+import klawSync from 'klaw-sync'
+import badgeSchema from '../../.vscode/schema/badge.schema.json'
+
+const BADGE_INDEX_DEFAULT = 9999
+const DO_NOT_EDIT = '<!-- 这是由脚本自动生成的文件，请勿直接修改此文件！ -->\n\n'
+const ajv = new Ajv()
+
+export interface BadgeJson {
+  path: string
+  json: any
+}
+
+function readBadgeJsons(badgeDirPath: string): BadgeJson[] {
+  if (!fs.existsSync(badgeDirPath)) {
+    return []
+  }
+
+  return klawSync(badgeDirPath, {
+    nodir: true,
+    filter: item => path.extname(item.path) === '.json',
+  }).map(item => ({
+    path: item.path,
+    json: fs.readJSONSync(item.path),
+  }))
+}
+
+function validateBadgeJson(badgeJson: any): Badge {
+  const validate = ajv.compile(badgeSchema)
+  const valid = validate(badgeJson)
+  if (!valid) {
+    const error = validate.errors![0]
+    throw new Error(`Invalid badge: ${error.message}`)
+  }
+  return badgeJson as Badge
+}
+
+interface Logger {
+  log: (msg: string) => void
+  warn: (msg: string) => void
+  error: (msg: string) => void
+}
+
+export function readBadges(badgeDirPath: string, logger: Logger = console): Badge[] {
+  const badgeJsons = readBadgeJsons(badgeDirPath)
+  const badges: Badge[] = []
+  for (const badgeJson of badgeJsons) {
+    try {
+      const badge = validateBadgeJson(badgeJson.json)
+      if (badge.enabled === false) {
+        logger.warn(`Disabled badge: ${badgeJson.path}`)
+        continue
+      }
+      logger.log(`Valid badge: ${badgeJson.path}`)
+      badges.push(badge)
+    }
+    catch (error) {
+      logger.error(`Invalid badge ${badgeJson.path}: ${(error as Error).message}`)
+    }
+  }
+  return badges
+}
+
+export function badgesToMarkdown(badges: Badge[], readmeTpl: string): string {
+  return DO_NOT_EDIT + ArtTemplate.render(readmeTpl, {
+    badges: badges.sort((a, b) => (a.index || BADGE_INDEX_DEFAULT) - (b.index || BADGE_INDEX_DEFAULT)),
+  }).replaceAll(/\n{3,}/g, () => '\n\n')
+}

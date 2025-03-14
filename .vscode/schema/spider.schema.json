@@ -24,6 +24,10 @@
           },
           "type": "array"
         },
+        "outDir": {
+          "description": "输出目录",
+          "type": "string"
+        },
         "repos": {
           "description": "爬取仓库列表",
           "items": {
@@ -33,6 +37,7 @@
         }
       },
       "required": [
+        "outDir",
         "languages",
         "languageReposCount",
         "repos",

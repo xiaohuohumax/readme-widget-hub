@@ -1,6 +1,8 @@
+<!-- 这是由脚本自动生成的文件，请勿直接修改此文件！ -->
+
 # Rust
 
-## 『1』[denoland/deno](https://github.com/denoland/deno)
+## 1. [denoland/deno](https://github.com/denoland/deno)
 
 [![](https://img.shields.io/crates/v/deno.svg)](https://crates.io/crates/deno)
 [![Twitter badge](https://img.shields.io/twitter/follow/deno_land.svg?style=social&#38;label=Follow)](https://twitter.com/intent/follow?screen_name=deno_land)
@@ -8,11 +10,11 @@
 [![YouTube badge](https://img.shields.io/youtube/channel/subscribers/UCqC2G2M-rg4fzg1esKFLFIw?style=social)](https://www.youtube.com/@deno_land)
 ![the deno mascot dinosaur standing in the rain](https://deno.land/logo.svg)
 
-## 『2』[rust-lang/rust](https://github.com/rust-lang/rust)
+## 2. [rust-lang/rust](https://github.com/rust-lang/rust)
 
 No images found.
 
-## 『3』[tauri-apps/tauri](https://github.com/tauri-apps/tauri)
+## 3. [tauri-apps/tauri](https://github.com/tauri-apps/tauri)
 
 [![status](https://img.shields.io/badge/status-stable-blue.svg)](https://github.com/tauri-apps/tauri/tree/dev)
 [![License](https://img.shields.io/badge/License-MIT%20or%20Apache%202-green.svg)](https://opencollective.com/tauri)
@@ -23,45 +25,45 @@ No images found.
 [![support](https://img.shields.io/badge/sponsor-Open%20Collective-blue.svg)](https://opencollective.com/tauri)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftauri-apps%2Ftauri.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftauri-apps%2Ftauri?ref=badge_large)
 
-## 『4』[rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)
+## 4. [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I2I04VU09)
 [![Get it on F-Droid](https://f-droid.org/badge/get-it-on.png)](https://f-droid.org/en/packages/com.carriez.flutter_hbb)
 [![Get it on Flathub](https://flathub.org/api/badge?svg&#38;locale=en)](https://flathub.org/apps/com.rustdesk.RustDesk)
 
-## 『5』[FuelLabs/sway](https://github.com/FuelLabs/sway)
+## 5. [FuelLabs/sway](https://github.com/FuelLabs/sway)
 
 [![crates.io](https://img.shields.io/crates/v/forc?label=latest)](https://crates.io/crates/forc)
 [![docs](https://docs.rs/forc/badge.svg)](https://docs.rs/forc/)
 [![twitter](https://img.shields.io/twitter/follow/SwayLang)](https://x.com/SwayLang)
 [![discord](https://img.shields.io/badge/chat%20on-discord-orange?&#38;logo=discord&#38;logoColor=ffffff&#38;color=7389D8&#38;labelColor=6A7EC2)](https://discord.gg/xfpK4Pe)
 
-## 『6』[alacritty/alacritty](https://github.com/alacritty/alacritty)
+## 6. [alacritty/alacritty](https://github.com/alacritty/alacritty)
 
 No images found.
 
-## 『7』[FuelLabs/fuel-core](https://github.com/FuelLabs/fuel-core)
+## 7. [FuelLabs/fuel-core](https://github.com/FuelLabs/fuel-core)
 
 [![crates.io](https://img.shields.io/crates/v/fuel-core?label=latest)](https://crates.io/crates/fuel-core)
 [![docs](https://docs.rs/fuel-core/badge.svg)](https://docs.rs/fuel-core/)
 [![discord](https://img.shields.io/badge/chat%20on-discord-orange?&#38;logo=discord&#38;logoColor=ffffff&#38;color=7389D8&#38;labelColor=6A7EC2)](https://discord.gg/xfpK4Pe)
 
-## 『8』[rust-lang/rustlings](https://github.com/rust-lang/rustlings)
+## 8. [rust-lang/rustlings](https://github.com/rust-lang/rustlings)
 
 No images found.
 
-## 『9』[zed-industries/zed](https://github.com/zed-industries/zed)
+## 9. [zed-industries/zed](https://github.com/zed-industries/zed)
 
 [![Packaging status](https://repology.org/badge/vertical-allrepos/zed-editor.svg?minversion=0.143.5)](https://repology.org/project/zed-editor/versions)
 
-## 『10』[lencx/ChatGPT](https://github.com/lencx/ChatGPT)
+## 10. [lencx/ChatGPT](https://github.com/lencx/ChatGPT)
 
 [![ChatGPT downloads](https://img.shields.io/github/downloads/lencx/ChatGPT/total.svg?style=flat-square)](https://github.com/lencx/ChatGPT/releases)
 [![chat](https://img.shields.io/badge/chat-discord-blue?style=flat&#38;logo=discord)](https://discord.gg/aPhCRf4zZr)
 [![twitter](https://img.shields.io/badge/follow-lencx__-blue?style=flat&#38;logo=Twitter)](https://twitter.com/lencx_)
 [![youtube](https://img.shields.io/youtube/channel/subscribers/UC__gTZL-OZKDPic7s_6Ntgg?style=social)](https://www.youtube.com/@lencx)
 
-## 『11』[sharkdp/bat](https://github.com/sharkdp/bat)
+## 11. [sharkdp/bat](https://github.com/sharkdp/bat)
 
 ![license](https://img.shields.io/crates/l/bat.svg)
 [![Version info](https://img.shields.io/crates/v/bat.svg?colorB=319e8c)](https://crates.io/crates/bat)
@@ -70,19 +72,19 @@ No images found.
 ![Non-printable character example](https://i.imgur.com/WndGp9H.png)
 [![Packaging status](https://repology.org/badge/vertical-allrepos/bat-cat.svg?columns=3&#38;exclude_unsupported=1)](https://repology.org/project/bat-cat/versions)
 
-## 『12』[BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
+## 12. [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)
 
 [![Crates.io](https://img.shields.io/crates/v/ripgrep.svg)](https://crates.io/crates/ripgrep)
 [![Packaging status](https://repology.org/badge/tiny-repos/ripgrep.svg)](https://repology.org/project/ripgrep/badges)
 [![A screenshot of a sample search with ripgrep](https://burntsushi.net/stuff/ripgrep1.png)](https://burntsushi.net/stuff/ripgrep1.png)
 
-## 『13』[meilisearch/meilisearch](https://github.com/meilisearch/meilisearch)
+## 13. [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch)
 
 [![Dependency status](https://deps.rs/repo/github/meilisearch/meilisearch/status.svg)](https://deps.rs/repo/github/meilisearch/meilisearch)
 [![License](https://img.shields.io/badge/license-MIT-informational)](https://github.com/meilisearch/meilisearch/blob/main/LICENSE)
 [![Bors enabled](https://bors.tech/images/badge_small.svg)](https://ms-bors.herokuapp.com/repositories/52)
 
-## 『14』[rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust)
+## 14. [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust)
 
 [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/rust-unofficial/awesome-rust/)
 [![Crates.io](https://img.shields.io/crates/v/arti.svg)](https://crates.io/crates/arti)
@@ -242,7 +244,7 @@ No images found.
 [![Crates badge](https://img.shields.io/crates/v/urlshortener.svg)](https://crates.io/crates/urlshortener)
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-## 『15』[starship/starship](https://github.com/starship/starship)
+## 15. [starship/starship](https://github.com/starship/starship)
 
 [![GitHub Actions workflow status](https://img.shields.io/github/actions/workflow/status/starship/starship/workflow.yml?branch=master&#38;label=workflow&#38;style=flat-square)](https://github.com/starship/starship/actions)
 [![Crates.io version](https://img.shields.io/crates/v/starship?style=flat-square)](https://crates.io/crates/starship)
@@ -250,27 +252,27 @@ No images found.
 [![Chat on Discord](https://img.shields.io/discord/567163873606500352?label=discord&#38;logoColor=white&#38;style=flat-square)](https://discord.gg/starship)
 [![Follow @StarshipPrompt on Twitter](https://img.shields.io/badge/twitter-@StarshipPrompt-1DA1F3?style=flat-square)](https://twitter.com/StarshipPrompt)
 
-## 『16』[unionlabs/union](https://github.com/unionlabs/union)
+## 16. [unionlabs/union](https://github.com/unionlabs/union)
 
 [![built with garnix](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fgarnix.io%2Fapi%2Fbadges%2Funionlabs%2Funion%3Fbranch%3Dmain)](https://garnix.io)
 [![Docs](https://img.shields.io/badge/docs-main-blue)](https://docs.union.build)
 [![Discord badge](https://img.shields.io/discord/1158939416870522930?logo=discord)](https://discord.union.build)
 [![Twitter handle](https://img.shields.io/twitter/follow/union_build.svg?style=social&#38;label=Follow)](https://twitter.com/intent/follow?screen_name=union_build)
 
-## 『17』[FuelLabs/fuels-rs](https://github.com/FuelLabs/fuels-rs)
-
-[![crates.io](https://img.shields.io/crates/v/fuels?label=latest)](https://crates.io/crates/fuels)
-[![docs](https://docs.rs/fuels/badge.svg)](https://docs.rs/fuels)
-[![discord](https://img.shields.io/badge/chat%20on-discord-orange?&#38;logo=discord&#38;logoColor=ffffff&#38;color=7389D8&#38;labelColor=6A7EC2)](https://discord.gg/xfpK4Pe)
-
-## 『18』[astral-sh/uv](https://github.com/astral-sh/uv)
+## 17. [astral-sh/uv](https://github.com/astral-sh/uv)
 
 [![image](https://img.shields.io/pypi/v/uv.svg)](https://pypi.python.org/pypi/uv)
 [![image](https://img.shields.io/pypi/l/uv.svg)](https://pypi.python.org/pypi/uv)
 [![image](https://img.shields.io/pypi/pyversions/uv.svg)](https://pypi.python.org/pypi/uv)
 [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?logo=discord&#38;logoColor=white)](https://discord.gg/astral-sh)
 
-## 『19』[dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden)
+## 18. [FuelLabs/fuels-rs](https://github.com/FuelLabs/fuels-rs)
+
+[![crates.io](https://img.shields.io/crates/v/fuels?label=latest)](https://crates.io/crates/fuels)
+[![docs](https://docs.rs/fuels/badge.svg)](https://docs.rs/fuels)
+[![discord](https://img.shields.io/badge/chat%20on-discord-orange?&#38;logo=discord&#38;logoColor=ffffff&#38;color=7389D8&#38;labelColor=6A7EC2)](https://discord.gg/xfpK4Pe)
+
+## 19. [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden)
 
 [![GitHub Release](https://img.shields.io/github/release/dani-garcia/vaultwarden.svg?style=for-the-badge&#38;logo=vaultwarden&#38;color=005AA4)](https://github.com/dani-garcia/vaultwarden/releases/latest)
 [![ghcr.io Pulls](https://img.shields.io/badge/dynamic/json?style=for-the-badge&#38;logo=github&#38;logoColor=fff&#38;color=005AA4&#38;url=https%3A%2F%2Fipitio.github.io%2Fbackage%2Fdani-garcia%2Fvaultwarden%2Fvaultwarden.json&#38;query=%24.downloads&#38;label=ghcr.io%20pulls&#38;cacheSeconds=14400)](https://github.com/dani-garcia/vaultwarden/pkgs/container/vaultwarden)
@@ -291,7 +293,7 @@ No images found.
 [![Contributors Count](https://img.shields.io/github/contributors-anon/dani-garcia/vaultwarden?style=for-the-badge&#38;logo=vaultwarden&#38;color=005AA4)](https://github.com/dani-garcia/vaultwarden/graphs/contributors)
 [![Contributors Avatars](https://contributors-img.web.app/image?repo=dani-garcia/vaultwarden)](https://github.com/dani-garcia/vaultwarden/graphs/contributors)
 
-## 『20』[bevyengine/bevy](https://github.com/bevyengine/bevy)
+## 20. [bevyengine/bevy](https://github.com/bevyengine/bevy)
 
 [![License](https://img.shields.io/badge/license-MIT%2FApache-blue.svg)](https://github.com/bevyengine/bevy#license)
 [![Crates.io](https://img.shields.io/crates/v/bevy.svg)](https://crates.io/crates/bevy)

@@ -32,9 +32,8 @@ export default class Request {
       })
       return Buffer.from(content, encoding as BufferEncoding).toString()
     }
-    catch {
-      return null
-    }
+    catch { }
+    return null
   }
 
   public async getRepoInfo(owner: string, repo: string) {
@@ -42,8 +41,7 @@ export default class Request {
       const { data } = await this.octokit.rest.repos.get({ owner, repo })
       return data
     }
-    catch {
-      return null
-    }
+    catch { }
+    return null
   }
 }

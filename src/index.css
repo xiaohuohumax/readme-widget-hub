@@ -1,0 +1,19 @@
+html {
+  background-color: #0D1117;
+  color: #F0F6FC;
+}
+
+.markdown-body {
+  box-sizing: border-box;
+  min-width: 200px;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 32px;
+  border: 1px solid #3D444D;
+}
+
+@media (max-width: 767px) {
+  .markdown-body {
+    padding: 15px;
+  }
+}

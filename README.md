@@ -1,6 +1,8 @@
-<!-- 这是由脚本自动生成的 README.md 文件，请勿直接修改此文件！ -->
+<!-- 这是由脚本自动生成的文件，请勿直接修改此文件！ -->
 
 <a name="readme-top"></a>
+
+![Capsule-Render Header](https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=160&section=header)
 
 <div align="center">
   <a href="https://github.com/xiaohuohumax/badge-collection">
@@ -17,6 +19,7 @@
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-15-84AD64" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
+  <div>『<a href="#-如何使用">使用</a>』『<a href="#-如何贡献徽章">贡献</a>』『<a href="#-感谢所有贡献者">感谢</a>』</div>
   <br/>
 </div>
 
@@ -783,19 +786,33 @@
 
 ![rl-line]
 
+## 📖 如何使用
+
+```shell
+# 运行服务，预览徽章
+npm run dev
+# 构建 README.md
+npm run build
+# 抓取热门项目中 README.md 中的图片
+npm run spider
+```
+
 ## ✍ 如何贡献徽章
 
 > [!Warning]
 > 请不要直接修改 [README.md](./README.md) 文件，因为这个文件是通过脚本自动生成的，修改后并不会生效。
 
 1. Fork 本仓库
-2. 在 [badge](./badge/) 文件夹下增徽章信息文件，格式参考：[badge/template.json](./badge/template.json)
-3. PR 到本仓库（PS：提交请使用 `npm run commit` 然后选择 `docs`）
-4. 等待合并，合并后会自动构建 [README.md](./README.md)
+2. 安装依赖：`npm install`，运行预览 `README.md` 的服务：`npm run dev`（支持热更新）
+3. 在 [badge](./badges/) 文件夹下增徽章信息文件，格式参考：[badges/template.json](./badges/template.json)
+4. 确认预览效果无误后，提交 PR 到本仓库（PS：提交请使用 `npm run commit` 然后选择 `docs`）
+5. 等待合并，合并后会自动构建 [README.md](./README.md)
 
 ## 💖 感谢所有贡献者
 
 [![Contributors](https://contrib.rocks/image?repo=xiaohuohumax/badge-collection)](https://github.com/xiaohuohumax/badge-collection/contributors)
+
+![Capsule-Render Footer](https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer)
 
 <!-- reference links -->
 

@@ -1,17 +1,19 @@
+<!-- 这是由脚本自动生成的文件，请勿直接修改此文件！ -->
+
 # JavaScript
 
-## 『1』[facebook/react](https://github.com/facebook/react)
+## 1. [facebook/react](https://github.com/facebook/react)
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/main/LICENSE)
 [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://legacy.reactjs.org/docs/how-to-contribute.html#your-first-pull-request)
 
-## 『2』[trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
+## 2. [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
 
 [![codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/branch/master/graph/badge.svg)](https://codecov.io/gh/trekhleb/javascript-algorithms)
 ![repo size](https://img.shields.io/github/repo-size/trekhleb/javascript-algorithms.svg)
 
-## 『3』[twbs/bootstrap](https://github.com/twbs/bootstrap)
+## 3. [twbs/bootstrap](https://github.com/twbs/bootstrap)
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/twbs/bootstrap/js.yml?branch=main&#38;label=JS%20Tests&#38;logo=github)](https://github.com/twbs/bootstrap/actions/workflows/js.yml?query=workflow%3AJS+branch%3Amain)
 [![npm version](https://img.shields.io/npm/v/bootstrap?logo=npm&#38;logoColor=fff)](https://www.npmjs.com/package/bootstrap)
@@ -40,28 +42,28 @@
 [![OC sponsor 9](https://opencollective.com/bootstrap/sponsor/9/avatar.svg)](https://opencollective.com/bootstrap/sponsor/9/website)
 [![Backers](https://opencollective.com/bootstrap/backers.svg?width=890)](https://opencollective.com/bootstrap#backers)
 
-## 『4』[airbnb/javascript](https://github.com/airbnb/javascript)
+## 4. [airbnb/javascript](https://github.com/airbnb/javascript)
 
 [![Downloads](https://img.shields.io/npm/dm/eslint-config-airbnb.svg)](https://www.npmjs.com/package/eslint-config-airbnb)
 [![Downloads](https://img.shields.io/npm/dm/eslint-config-airbnb-base.svg)](https://www.npmjs.com/package/eslint-config-airbnb-base)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/airbnb/javascript?utm_source=badge&#38;utm_medium=badge&#38;utm_campaign=pr-badge)
 
-## 『5』[vercel/next.js](https://github.com/vercel/next.js)
+## 5. [vercel/next.js](https://github.com/vercel/next.js)
 
 [![Vercel logo](https://img.shields.io/badge/MADE%20BY%20Vercel-000000.svg?style=for-the-badge&#38;logo=Vercel&#38;labelColor=000)](https://vercel.com)
 [![NPM version](https://img.shields.io/npm/v/next.svg?style=for-the-badge&#38;labelColor=000000)](https://www.npmjs.com/package/next)
 [![License](https://img.shields.io/npm/l/next.svg?style=for-the-badge&#38;labelColor=000000)](https://github.com/vercel/next.js/blob/canary/license.md)
 [![Join the community on GitHub](https://img.shields.io/badge/Join%20the%20community-blueviolet.svg?style=for-the-badge&#38;logo=Next.js&#38;labelColor=000000&#38;logoWidth=20)](https://github.com/vercel/next.js/discussions)
 
-## 『6』[Chalarangelo/30-seconds-of-code](https://github.com/Chalarangelo/30-seconds-of-code)
+## 6. [Chalarangelo/30-seconds-of-code](https://github.com/Chalarangelo/30-seconds-of-code)
 
 No images found.
 
-## 『7』[nodejs/node](https://github.com/nodejs/node)
+## 7. [nodejs/node](https://github.com/nodejs/node)
 
 No images found.
 
-## 『8』[axios/axios](https://github.com/axios/axios)
+## 8. [axios/axios](https://github.com/axios/axios)
 
 [![npm version](https://img.shields.io/npm/v/axios.svg?style=flat-square)](https://www.npmjs.org/package/axios)
 [![CDNJS](https://img.shields.io/cdnjs/v/axios.svg?style=flat-square)](https://cdnjs.com/libraries/axios)
@@ -77,7 +79,7 @@ No images found.
 [![Browser Matrix](https://saucelabs.com/open_sauce/build_matrix/axios.svg)](https://saucelabs.com/u/axios)
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/axios/axios/blob/main/examples/server.js)
 
-## 『9』[mrdoob/three.js](https://github.com/mrdoob/three.js)
+## 9. [mrdoob/three.js](https://github.com/mrdoob/three.js)
 
 [![NPM Package](https://img.shields.io/npm/v/three)](https://www.npmjs.com/package/three)
 [![Build Size](https://badgen.net/bundlephobia/minzip/three)](https://bundlephobia.com/result?p=three)
@@ -85,23 +87,23 @@ No images found.
 [![DeepScan](https://deepscan.io/api/teams/16600/projects/19901/branches/525701/badge/grade.svg)](https://deepscan.io/dashboard#view=project&#38;tid=16600&#38;pid=19901&#38;bid=525701)
 [![Discord](https://img.shields.io/discord/685241246557667386)](https://discord.gg/56GBJwAnUS)
 
-## 『10』[facebook/create-react-app](https://github.com/facebook/create-react-app)
+## 10. [facebook/create-react-app](https://github.com/facebook/create-react-app)
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)](https://github.com/facebook/create-react-app/blob/main/CONTRIBUTING.md)
 ![Logo](https://create-react-app.dev/img/logo.svg)
 [![](https://opencollective.com/create-react-app/contributors.svg?width=890&#38;button=false)](https://github.com/facebook/create-react-app/graphs/contributors)
 
-## 『11』[ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)
+## 11. [ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)
 
 ![Humorous image of software quality estimation as a count of how many expletives
 you shout when reading code](https://www.osnews.com/images/comics/wtfm.jpg)
 
-## 『12』[iptv-org/iptv](https://github.com/iptv-org/iptv)
+## 12. [iptv-org/iptv](https://github.com/iptv-org/iptv)
 
 [![](https://opencollective.com/iptv-org/backers.svg?width=890)](https://opencollective.com/iptv-org)
 [![](https://opencollective.com/iptv-org/contributors.svg?width=890)](https://github.com/iptv-org/iptv/graphs/contributors)
 
-## 『13』[microsoft/Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners)
+## 13. [microsoft/Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners)
 
 [![GitHub license](https://img.shields.io/github/license/microsoft/Web-Dev-For-Beginners.svg)](https://github.com/microsoft/Web-Dev-For-Beginners/blob/master/LICENSE)
 [![GitHub contributors](https://img.shields.io/github/contributors/microsoft/Web-Dev-For-Beginners.svg)](https://GitHub.com/microsoft/Web-Dev-For-Beginners/graphs/contributors/)
@@ -114,7 +116,7 @@ you shout when reading code](https://www.osnews.com/images/comics/wtfm.jpg)
 [![](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.gg/zxKYvhSnVp?WT.mc_id=academic-000002-leestott)
 [![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&#38;label=&#38;message=Open%20in%20Visual%20Studio%20Code&#38;labelColor=2c2c32&#38;color=007acc&#38;logoColor=007acc)](https://open.vscode.dev/microsoft/Web-Dev-For-Beginners)
 
-## 『14』[open-webui/open-webui](https://github.com/open-webui/open-webui)
+## 14. [open-webui/open-webui](https://github.com/open-webui/open-webui)
 
 ![GitHub stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/open-webui/open-webui?style=social)
@@ -128,12 +130,12 @@ you shout when reading code](https://www.osnews.com/images/comics/wtfm.jpg)
 [![](https://img.shields.io/static/v1?label=Sponsor&#38;message=%E2%9D%A4&#38;logo=GitHub&#38;color=%23fe8e86)](https://github.com/sponsors/tjbck)
 ![Star History Chart](https://api.star-history.com/svg?repos=open-webui/open-webui&#38;type=Date)
 
-## 『15』[sveltejs/svelte](https://github.com/sveltejs/svelte)
+## 15. [sveltejs/svelte](https://github.com/sveltejs/svelte)
 
 [![License](https://img.shields.io/npm/l/svelte.svg)](LICENSE.md)
 [![Chat](https://img.shields.io/discord/457912077277855764?label=chat&#38;logo=discord)](https://svelte.dev/chat)
 
-## 『16』[jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac)
+## 16. [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac)
 
 [![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-048754?logo=buymeacoffee)](https://jaywcjlove.github.io/#/sponsor)
 [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/jaywcjlove/awesome-mac/)
@@ -141,15 +143,15 @@ you shout when reading code](https://www.osnews.com/images/comics/wtfm.jpg)
 [![Docker Image Version (latest by date)](https://img.shields.io/docker/v/wcjiang/awesome-mac?logo=docker)](https://hub.docker.com/r/wcjiang/awesome-mac)
 [![](https://opencollective.com/awesome-mac/contributors.svg?width=890)](https://github.com/jaywcjlove/awesome-mac/graphs/contributors)
 
-## 『17』[FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome)
+## 17. [FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome)
 
 ![Font Awesome Free](https://img.fortawesome.com/349cfdf6/fa-free-logo.svg)
 
-## 『18』[typicode/json-server](https://github.com/typicode/json-server)
+## 18. [typicode/json-server](https://github.com/typicode/json-server)
 
 [![](https://jsonplaceholder.typicode.com/mockend.svg)](https://mockend.com/)
 
-## 『19』[anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
+## 19. [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
 
 ![GitHub Readme Stats](https://res.cloudinary.com/anuraghazra/image/upload/v1594908242/logo_ccswme.svg)
 [![GitHub Contributors](https://img.shields.io/github/contributors/anuraghazra/github-readme-stats)](https://github.com/anuraghazra/github-readme-stats/graphs/contributors)
@@ -202,7 +204,7 @@ you shout when reading code](https://www.osnews.com/images/comics/wtfm.jpg)
 ![](https://files.catbox.moe/mg5p04.png)
 ![](https://files.catbox.moe/0yclio.png)
 
-## 『20』[hakimel/reveal.js](https://github.com/hakimel/reveal.js)
+## 20. [hakimel/reveal.js](https://github.com/hakimel/reveal.js)
 
 [![reveal.js](https://hakim-static.s3.amazonaws.com/reveal-js/logo/v1/reveal-black-text-sticker.png)](https://revealjs.com)
 [![Slides](https://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1)](https://slides.com/)

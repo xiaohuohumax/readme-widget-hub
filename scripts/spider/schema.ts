@@ -2,6 +2,8 @@
  * 爬取配置
  */
 export interface SpiderConfig {
+  /** 输出目录 */
+  outDir: string
   /** 爬取语言类型 */
   languages: string[]
   /** 每种语言类型下需要爬取的仓库数量 */
