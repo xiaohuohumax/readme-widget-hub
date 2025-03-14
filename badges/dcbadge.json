@@ -53,7 +53,7 @@
         "description": "是否为机器人"
       }
     ],
-    "URITemplate": "https://dcbadge.limes.pink/api/{type}/{id}{?style,theme,compact,logoColor,bot}"
+    "URITemplates": "https://dcbadge.limes.pink/api/{type}/{id}{?style,theme,compact,logoColor,bot}"
   },
   "useExamples": [
     {

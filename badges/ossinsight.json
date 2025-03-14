@@ -23,7 +23,7 @@
         "extDescription": "可选值：`light` `dark`"
       }
     ],
-    "URITemplate": "https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month{?repo_id,color_scheme}"
+    "URITemplates": "https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month{?repo_id,color_scheme}"
   },
   "useExamples": [
     {

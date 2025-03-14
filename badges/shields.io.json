@@ -85,7 +85,7 @@
         "extDescription": "徽章继承到 `<object>` HTML 标签时生效"
       }
     ],
-    "URITemplate": "https://img.shields.io/badge/{badgeContent}{?style,logo,logoColor,logoSize,label,labelColor,color,cacheSeconds,link}"
+    "URITemplates": "https://img.shields.io/badge/{badgeContent}{?style,logo,logoColor,logoSize,label,labelColor,color,cacheSeconds,link}"
   },
   "useExamples": [
     {

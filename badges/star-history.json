@@ -21,7 +21,7 @@
         "extDescription": "可选值：`Date` `Timeline`"
       }
     ],
-    "URITemplate": "https://api.star-history.com/svg{?repos,type}"
+    "URITemplates": "https://api.star-history.com/svg{?repos,type}"
   },
   "useExamples": [
     {

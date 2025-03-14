@@ -55,7 +55,7 @@
         "extDescription": "可选值：`upper`（大写） `lower`（小写）"
       }
     ],
-    "URITemplate": "https://api.visitorbadge.io/api/{type}{?path,label,labelColor,countColor,style,labelStyle}"
+    "URITemplates": "https://api.visitorbadge.io/api/{type}{?path,label,labelColor,countColor,style,labelStyle}"
   },
   "useExamples": [
     {

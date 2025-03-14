@@ -86,7 +86,7 @@ export interface Badge {
     /** 查询参数 */
     query?: RuleItem[]
     /** 整体URL模板 URI Template */
-    URITemplate: string
+    URITemplates: string | string[]
   }
   /** 示例 */
   useExamples: Example[]

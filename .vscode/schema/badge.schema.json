@@ -50,9 +50,19 @@
           "additionalProperties": false,
           "description": "规则",
           "properties": {
-            "URITemplate": {
-              "description": "整体URL模板 URI Template",
-              "type": "string"
+            "URITemplates": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              ],
+              "description": "整体URL模板 URI Template"
             },
             "params": {
               "description": "路径参数",
@@ -70,7 +80,7 @@
             }
           },
           "required": [
-            "URITemplate"
+            "URITemplates"
           ],
           "type": "object"
         },

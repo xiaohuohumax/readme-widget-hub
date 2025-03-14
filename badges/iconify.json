@@ -61,7 +61,7 @@
         "description": "是否向 SVG 添加与 viewBox 匹配的空矩形"
       }
     ],
-    "URITemplate": "https://api.iconify.design/{prefix}/{name}.svg{?color,width,height,flip,rotate,download,box}"
+    "URITemplates": "https://api.iconify.design/{prefix}/{name}.svg{?color,width,height,flip,rotate,download,box}"
   },
   "useExamples": [
     {

@@ -56,7 +56,7 @@
         "extDescription": "将 `.svg` 替换为 `.png` 或 `.jpg`"
       }
     ],
-    "URITemplate": "https://opencollective.com/{collectiveName}/{statisticalType}.svg{?width,height,limit,avatarHeight,button,format}"
+    "URITemplates": "https://opencollective.com/{collectiveName}/{statisticalType}.svg{?width,height,limit,avatarHeight,button,format}"
   },
   "useExamples": [
     {

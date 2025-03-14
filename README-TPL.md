@@ -54,8 +54,8 @@
 
 </details>
 
-```markdown
-![Alt]({{@$value.rule.URITemplate}})
+```markdown{{each $value.rule.URITemplates}}
+![Alt]({{@$value}}){{/each}}
 ```
 
 ![rl-uses-examples]

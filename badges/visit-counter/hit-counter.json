@@ -45,7 +45,7 @@
         "extDescription": "支持十六进制颜色代码，例如：#FF0000"
       }
     ],
-    "URITemplate": "https://hits.seeyoufarm.com/api/count/incr/badge.svg{?url,edge_flat,title,title_bg,count_bg,icon_color}"
+    "URITemplates": "https://hits.seeyoufarm.com/api/count/incr/badge.svg{?url,edge_flat,title,title_bg,count_bg,icon_color}"
   },
   "useExamples": [
     {

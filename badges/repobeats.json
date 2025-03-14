@@ -16,7 +16,7 @@
         "extDescription": "登录 [Repobeats](https://repobeats.axiom.co/) 后选择仓库后获取"
       }
     ],
-    "URITemplate": "https://repobeats.axiom.co/api/embed/{configId}.svg"
+    "URITemplates": "https://repobeats.axiom.co/api/embed/{configId}.svg"
   },
   "useExamples": [
     {

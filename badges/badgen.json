@@ -82,7 +82,7 @@
         "extDescription": "单位：秒"
       }
     ],
-    "URITemplate": "https://badgen.net/{badge}/{subject}/{status}/{color}{?color,icon,label,labelColor,scale,cache}"
+    "URITemplates": "https://badgen.net/{badge}/{subject}/{status}/{color}{?color,icon,label,labelColor,scale,cache}"
   },
   "useExamples": [
     {

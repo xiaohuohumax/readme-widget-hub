@@ -78,7 +78,7 @@
         "extDescription": "在统计数字前添加的数字，最大：`999999`"
       }
     ],
-    "URITemplate": "https://count.getloli.com/@{countId}{?theme,padding,offset,scale,align,pixelated,darkmode,num,prefix}"
+    "URITemplates": "https://count.getloli.com/@{countId}{?theme,padding,offset,scale,align,pixelated,darkmode,num,prefix}"
   },
   "useExamples": [
     {

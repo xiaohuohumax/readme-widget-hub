@@ -33,7 +33,7 @@
         "extDescription": "可选值：`0` `1`"
       }
     ],
-    "URITemplate": "https://contrib.rocks/image{?repo,max,columns,anon}"
+    "URITemplates": "https://contrib.rocks/image{?repo,max,columns,anon}"
   },
   "useExamples": [
     {

@@ -44,6 +44,13 @@ interface Logger {
   error: (msg: string) => void
 }
 
+function badgeFormat(badge: Badge): Badge {
+  badge.rule.URITemplates = Array.isArray(badge.rule.URITemplates)
+    ? badge.rule.URITemplates
+    : [badge.rule.URITemplates]
+  return badge
+}
+
 export function readBadges(badgeDirPath: string, logger: Logger = console): Badge[] {
   const badgeJsons = readBadgeJsons(badgeDirPath)
   const badges: Badge[] = []
@@ -55,7 +62,7 @@ export function readBadges(badgeDirPath: string, logger: Logger = console): Badg
         continue
       }
       logger.log(`Valid badge: ${badgeJson.path}`)
-      badges.push(badge)
+      badges.push(badgeFormat(badge))
     }
     catch (error) {
       logger.error(`Invalid badge ${badgeJson.path}: ${(error as Error).message}`)

@@ -1,5 +1,11 @@
 # badge-collection
 
+## 1.2.0
+
+### Minor Changes
+
+- 徽章信息中 URI Template 改为可以设置多个规则
+
 ## 1.1.2
 
 ### Patch Changes

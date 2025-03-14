@@ -14,7 +14,7 @@
         "description": "项目 ID"
       }
     ],
-    "URITemplate": "https://www.bestpractices.dev/projects/{id}/badge"
+    "URITemplates": "https://www.bestpractices.dev/projects/{id}/badge"
   },
   "useExamples": [
     {
