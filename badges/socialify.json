@@ -1,0 +1,102 @@
+{
+  "title": "GitHub Socialify 项目描述卡片",
+  "description": "希望你的项目能够脱颖而出？Socialify 通过生成各种精美的项目描述卡片，帮助你向全世界展示你的项目！",
+  "tags": {
+    "repoUrl": "https://github.com/wei/socialify",
+    "onlineToolUrl": "https://socialify.git.ci/"
+  },
+  "rule": {
+    "query": [
+      {
+        "name": "description",
+        "type": "boolean",
+        "default": "0",
+        "description": "是否显示项目描述",
+        "extDescription": "可选值：`0` `1`"
+      },
+      {
+        "name": "forks",
+        "type": "boolean",
+        "default": "0",
+        "description": "是否显示 Forks 数量",
+        "extDescription": "可选值：`0` `1`"
+      },
+      {
+        "name": "issues",
+        "type": "boolean",
+        "default": "0",
+        "description": "是否显示 Issues 数量",
+        "extDescription": "可选值：`0` `1`"
+      },
+      {
+        "name": "name",
+        "type": "boolean",
+        "default": "1",
+        "description": "是否显示项目名称",
+        "extDescription": "可选值：`0` `1`"
+      },
+      {
+        "name": "owner",
+        "type": "boolean",
+        "default": "0",
+        "description": "是否显示用户名",
+        "extDescription": "可选值：`0` `1`"
+      },
+      {
+        "name": "pulls",
+        "type": "boolean",
+        "default": "0",
+        "description": "是否显示 PR 数量",
+        "extDescription": "可选值：`0` `1`"
+      },
+      {
+        "name": "stargazers",
+        "type": "boolean",
+        "default": "0",
+        "description": "是否显示 Stars 数量",
+        "extDescription": "可选值：`0` `1`"
+      },
+      {
+        "name": "pattern",
+        "type": "string",
+        "description": "背景图样式",
+        "extDescription": "可选值：`Signal` `Charlie Brown` `Formal Invitation` `Plus` `Circuit Board` `Overlapping Hexagons` `Brick Wall` `Floating Cogs` `Diagonal Stripes` `Solid` `Transparent`"
+      },
+      {
+        "name": "logo",
+        "type": "string",
+        "description": "项目 Logo",
+        "extDescription": "可选类型：`URL` `DATA URI`"
+      },
+      {
+        "name": "language",
+        "type": "boolean",
+        "default": "0",
+        "description": "是否显示项目语言",
+        "extDescription": "可选值：`0` `1`"
+      },
+      {
+        "name": "font",
+        "type": "string",
+        "description": "字体",
+        "extDescription": "可选值：`Inter` `Bitter` `Raleway` `Rokkitt` `Source Code Pro` `KoHo` `Jost`"
+      }
+    ],
+    "URITemplates": "https://socialify.git.ci/{owner}/{repo}/image{?description,forks,issues,name,owner,pulls,stargazers,pattern,logo,language,font}"
+  },
+  "useExamples": [
+    {
+      "explain": {
+        "annotate": "xiaohuohumax/badge-collection",
+        "alt": "GitHub Socialify",
+        "src": "https://socialify.git.ci/xiaohuohumax/badge-collection/image?font=Rokkitt&forks=1&issues=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fxiaohuohumax%2Flogo%2Frefs%2Fheads%2Fmain%2Flogos%2Flogo.svg&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Auto"
+      },
+      "images": [
+        {
+          "alt": "GitHub Socialify",
+          "src": "https://socialify.git.ci/xiaohuohumax/badge-collection/image?font=Rokkitt&forks=1&issues=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fxiaohuohumax%2Flogo%2Frefs%2Fheads%2Fmain%2Flogos%2Flogo.svg&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Auto"
+        }
+      ]
+    }
+  ]
+}
