@@ -1,5 +1,11 @@
 # badge-collection
 
+## 1.1.1
+
+### Patch Changes
+
+- 修复徽章 schema 路径错误
+
 ## 1.1.0
 
 ### Minor Changes
