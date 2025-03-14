@@ -1,0 +1,136 @@
+{
+  "title": "Github Readme Activity 个人活动图",
+  "description": "动态生成的活动图，展示您过去 31 天的 GitHub 活动。",
+  "tags": {
+    "repoUrl": "https://github.com/Ashutosh00710/github-readme-activity-graph",
+    "onlineToolUrl": "https://ashutosh00710.github.io/github-readme-activity-graph/",
+    "officialDocsUrl": "https://github.com/Ashutosh00710/github-readme-activity-graph?tab=readme-ov-file#how-to-use"
+  },
+  "rule": {
+    "query": [
+      {
+        "name": "username",
+        "type": "string",
+        "description": "GitHub 用户名"
+      },
+      {
+        "name": "theme",
+        "type": "string",
+        "default": "default",
+        "description": "主题",
+        "extDescription": "可选值：`default` `react` `react-dark` `github` `github-compact` `xcode` `rogue` `merko` `vue` `tokyo-night` `high-contrast`"
+      },
+      {
+        "name": "bg_color",
+        "type": "string",
+        "description": "卡片背景颜色",
+        "extDescription": "格式：`HEX` 例如：`FF0000`"
+      },
+      {
+        "name": "color",
+        "type": "string",
+        "description": "图表文本颜色",
+        "extDescription": "格式：`HEX` 例如：`FF0000`"
+      },
+      {
+        "name": "title_color",
+        "type": "string",
+        "description": "图形卡片标题颜色",
+        "extDescription": "格式：`HEX` 例如：`FF0000`"
+      },
+      {
+        "name": "line",
+        "type": "string",
+        "description": "图表线条颜色",
+        "extDescription": "格式：`HEX` 例如：`FF0000`"
+      },
+      {
+        "name": "point",
+        "type": "string",
+        "description": "线图上点的颜色",
+        "extDescription": "格式：`HEX` 例如：`FF0000`"
+      },
+      {
+        "name": "area_color",
+        "type": "string",
+        "description": "图表下方区域的颜色",
+        "extDescription": "格式：`HEX` 例如：`FF0000`"
+      },
+      {
+        "name": "area",
+        "type": "boolean",
+        "default": "false",
+        "description": "是否显示图表下的面积"
+      },
+      {
+        "name": "hide_border",
+        "type": "boolean",
+        "default": "false",
+        "description": "是否使图表的边框透明"
+      },
+      {
+        "name": "hide_title",
+        "type": "boolean",
+        "default": "false",
+        "description": "是否设置标题为空字符串"
+      },
+      {
+        "name": "custom_title",
+        "type": "string",
+        "description": "标题"
+      },
+      {
+        "name": "radius",
+        "type": "number",
+        "description": "图形边框半径",
+        "extDescription": "最小：`0` 最大：`16`"
+      },
+      {
+        "name": "height",
+        "type": "number",
+        "description": "图表高度",
+        "extDescription": "最小：`200` 最大：`600`"
+      },
+      {
+        "name": "days",
+        "type": "number",
+        "default": "31",
+        "description": "图表上显示的天数数量",
+        "extDescription": "最小：`1` 最大：`90`"
+      },
+      {
+        "name": "from",
+        "type": "string",
+        "description": "开始日期",
+        "extDescription": "格式：`YYYY-MM-DD`"
+      },
+      {
+        "name": "to",
+        "type": "string",
+        "description": "结束日期",
+        "extDescription": "格式：`YYYY-MM-DD`"
+      },
+      {
+        "name": "grid",
+        "type": "boolean",
+        "default": "true",
+        "description": "是否显示网格"
+      }
+    ],
+    "URITemplates": "https://github-readme-activity-graph.vercel.app/graph{?username,theme,bg_color,color,title_color,line,point,area_color,area,hide_border,hide_title,custom_title,radius,height,days,from,to,grid}"
+  },
+  "useExamples": [
+    {
+      "explain": {
+        "alt": "Github Activity Graph",
+        "src": "https://github-readme-activity-graph.vercel.app/graph?username=xiaohuohumax&theme=github&hide_border=true"
+      },
+      "images": [
+        {
+          "alt": "Github Activity Graph",
+          "src": "https://github-readme-activity-graph.vercel.app/graph?username=xiaohuohumax&theme=github&hide_border=true"
+        }
+      ]
+    }
+  ]
+}
