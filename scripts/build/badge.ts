@@ -20,13 +20,12 @@ function readBadgeJsons(badgeDirPath: string): BadgeJson[] {
     return []
   }
 
-  return klawSync(badgeDirPath, {
-    nodir: true,
-    filter: item => path.extname(item.path) === '.json',
-  }).map(item => ({
-    path: item.path,
-    json: fs.readJSONSync(item.path),
-  }))
+  return klawSync(badgeDirPath, { nodir: true })
+    .filter(item => path.extname(item.path) === '.json')
+    .map(item => ({
+      path: item.path,
+      json: fs.readJSONSync(item.path),
+    }))
 }
 
 function validateBadgeJson(badgeJson: any): Badge {

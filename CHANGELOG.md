@@ -1,5 +1,11 @@
 # badge-collection
 
+## 1.1.2
+
+### Patch Changes
+
+- 修复徽章信息文件夹多层读取异常
+
 ## 1.1.1
 
 ### Patch Changes
