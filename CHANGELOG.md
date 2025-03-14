@@ -1,5 +1,11 @@
 # badge-collection
 
+## 1.2.1
+
+### Patch Changes
+
+- 修复徽章信息文件格式错误导致预览服务崩溃异常
+
 ## 1.2.0
 
 ### Minor Changes

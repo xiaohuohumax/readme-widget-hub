@@ -15,17 +15,24 @@ export interface BadgeJson {
   json: any
 }
 
-function readBadgeJsons(badgeDirPath: string): BadgeJson[] {
+function readBadgeJsons(badgeDirPath: string, logger: Logger): BadgeJson[] {
   if (!fs.existsSync(badgeDirPath)) {
     return []
   }
 
   return klawSync(badgeDirPath, { nodir: true })
     .filter(item => path.extname(item.path) === '.json')
-    .map(item => ({
-      path: item.path,
-      json: fs.readJSONSync(item.path),
-    }))
+    .map((item) => {
+      const badgeJson = fs.readJSONSync(item.path, { throws: false })
+      if (badgeJson === null) {
+        logger.warn(`Invalid JSON file: ${item.path}`)
+      }
+      return {
+        path: item.path,
+        json: badgeJson,
+      }
+    })
+    .filter(item => item.json !== null)
 }
 
 function validateBadgeJson(badgeJson: any): Badge {
@@ -52,7 +59,7 @@ function badgeFormat(badge: Badge): Badge {
 }
 
 export function readBadges(badgeDirPath: string, logger: Logger = console): Badge[] {
-  const badgeJsons = readBadgeJsons(badgeDirPath)
+  const badgeJsons = readBadgeJsons(badgeDirPath, logger)
   const badges: Badge[] = []
   for (const badgeJson of badgeJsons) {
     try {
