@@ -16,7 +16,7 @@
     <a href="https://github.com/xiaohuohumax/badge-collection/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection" /></a>
-    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-19-84AD64" /></a>
+    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-20-84AD64" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
   <div>『<a href="#-如何使用">使用</a>』『<a href="#-如何贡献徽章">贡献</a>』『<a href="#-感谢所有贡献者">感谢</a>』</div>
@@ -792,6 +792,54 @@
 ```
 
 ![Total lines](https://sloc.xyz/github/xiaohuohumax/badge-collection)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
+### GitHub Socialify 项目描述卡片
+
+![rl-badge-introduction]
+
+**希望你的项目能够脱颖而出？Socialify 通过生成各种精美的项目描述卡片，帮助你向全世界展示你的项目！**
+
+[![rl-repo]](https://github.com/wei/socialify)
+[![rl-online-tool]](https://socialify.git.ci/)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-query] | | | | |
+| `description` | boolean | `0` | 是否显示项目描述 | 可选值：`0` `1` |
+| `forks` | boolean | `0` | 是否显示 Forks 数量 | 可选值：`0` `1` |
+| `issues` | boolean | `0` | 是否显示 Issues 数量 | 可选值：`0` `1` |
+| `name` | boolean | `1` | 是否显示项目名称 | 可选值：`0` `1` |
+| `owner` | boolean | `0` | 是否显示用户名 | 可选值：`0` `1` |
+| `pulls` | boolean | `0` | 是否显示 PR 数量 | 可选值：`0` `1` |
+| `stargazers` | boolean | `0` | 是否显示 Stars 数量 | 可选值：`0` `1` |
+| `pattern` | string |  | 背景图样式 | 可选值：`Signal` `Charlie Brown` `Formal Invitation` `Plus` `Circuit Board` `Overlapping Hexagons` `Brick Wall` `Floating Cogs` `Diagonal Stripes` `Solid` `Transparent` |
+| `logo` | string |  | 项目 Logo | 可选类型：`URL` `DATA URI` |
+| `language` | boolean | `0` | 是否显示项目语言 | 可选值：`0` `1` |
+| `font` | string |  | 字体 | 可选值：`Inter` `Bitter` `Raleway` `Rokkitt` `Source Code Pro` `KoHo` `Jost` |
+
+</details>
+
+```markdown
+![Alt](https://socialify.git.ci/{owner}/{repo}/image{?description,forks,issues,name,owner,pulls,stargazers,pattern,logo,language,font})
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- xiaohuohumax/badge-collection -->
+![GitHub Socialify](https://socialify.git.ci/xiaohuohumax/badge-collection/image?font=Rokkitt&forks=1&issues=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fxiaohuohumax%2Flogo%2Frefs%2Fheads%2Fmain%2Flogos%2Flogo.svg&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Auto)
+```
+
+![GitHub Socialify](https://socialify.git.ci/xiaohuohumax/badge-collection/image?font=Rokkitt&forks=1&issues=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fxiaohuohumax%2Flogo%2Frefs%2Fheads%2Fmain%2Flogos%2Flogo.svg&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Auto)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
 
