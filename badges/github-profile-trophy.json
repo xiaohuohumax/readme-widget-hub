@@ -1,0 +1,90 @@
+{
+  "title": "GitHub Profile Trophy 个人资料奖杯",
+  "description": "在你的 README 中添加动态生成的 GitHub 统计奖杯。",
+  "tags": {
+    "repoUrl": "https://github.com/ryo-ma/github-profile-trophy",
+    "onlineToolUrl": "https://github-profile-trophy.vercel.app/",
+    "officialDocsUrl": "https://github.com/ryo-ma/github-profile-trophy?tab=readme-ov-file#optional-request-parameters"
+  },
+  "rule": {
+    "query": [
+      {
+        "name": "username",
+        "type": "string",
+        "description": "GitHub 用户名"
+      },
+      {
+        "name": "title",
+        "type": "string",
+        "description": "显示或隐藏对应标题的奖杯",
+        "extDescription": "可选值 `Commits` `Stars` `Issues` `Repositories` `Experience` `Followers` `PullRequest` `Reviews` 多个标题间以 `,` 分隔，如果想要排除则在标题前加 `-`，例如 `-Commits`"
+      },
+      {
+        "name": "rank",
+        "type": "string",
+        "description": "通过排名来过滤显示奖杯",
+        "extDescription": "可选值 `SECRET` `?`（UNKNOWN） `SSS` `SS` `S` `AAA` `AA` `A` `B` `C`，多个排名间以 `,` 分隔，如果想要排除则在排名前加 `-`，例如 `-?`"
+      },
+      {
+        "name": "column",
+        "type": "number",
+        "default": "6",
+        "description": "显示的列数",
+        "extDescription": "自适应列：设置 `column` 到 `-1` 以适应奖杯数量，参数 `row` 将被忽略"
+      },
+      {
+        "name": "row",
+        "type": "number",
+        "default": "3",
+        "description": "显示的行数"
+      },
+      {
+        "name": "theme",
+        "type": "string",
+        "default": "flat",
+        "description": "主题",
+        "extDescription": "可选值：`flat` `onedark` `gruvbox` `dracula` `monokai` `chalk` `nord` `alduin` `darkhub` `juicyfresh` `buddhism` `oldie` `radical` `onestar` `discord` `algolia` `gitdimmed` `tokyonight` `matrix` `apprentice` `dark_dimmed` `dark_lover` `kimbie_dark`"
+      },
+      {
+        "name": "margin-w",
+        "type": "number",
+        "default": "0",
+        "description": "页边距宽度"
+      },
+      {
+        "name": "margin-h",
+        "type": "number",
+        "default": "0",
+        "description": "页边距高度"
+      },
+      {
+        "name": "no-bg",
+        "type": "boolean",
+        "default": "false",
+        "description": "是否隐藏背景"
+      },
+      {
+        "name": "no-frame",
+        "type": "boolean",
+        "default": "false",
+        "description": "是否隐藏框架"
+      }
+    ],
+    "URITemplates": "https://github-profile-trophy.vercel.app/{?username,title,rank,column,row,theme,margin-w,margin-h,no-bg,no-frame}"
+  },
+  "useExamples": [
+    {
+      "explain": {
+        "annotate": "ryo-ma",
+        "alt": "Trophy",
+        "src": "https://github-profile-trophy.vercel.app/?username=ryo-ma"
+      },
+      "images": [
+        {
+          "alt": "Trophy",
+          "src": "https://github-profile-trophy.vercel.app/?username=ryo-ma"
+        }
+      ]
+    }
+  ]
+}
