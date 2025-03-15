@@ -2,7 +2,7 @@
 
 <a name="readme-top"></a>
 
-![Capsule-Render Header](https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=160&section=header)
+![Capsule-Render Header](https://capsule-render.vercel.app/api?type=waving\&color=4D908E\&height=160\&section=header)
 
 <div align="center">
   <a href="https://github.com/xiaohuohumax/badge-collection">
@@ -16,18 +16,46 @@
     <a href="https://github.com/xiaohuohumax/badge-collection/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection" /></a>
-    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-20-84AD64" /></a>
+    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-21-84AD64" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
   <div>『<a href="#-如何使用">使用</a>』『<a href="#-如何贡献徽章">贡献</a>』『<a href="#-感谢所有贡献者">感谢</a>』</div>
   <br/>
 </div>
 
+## 📖 目录
+
+* [🎖️ 徽章集合](#️-徽章集合)
+  * [Shields.io](#shieldsio)
+  * [Badgen](#badgen)
+  * [GitHub Readme Stats](#github-readme-stats)
+  * [Capsule-Render 动态彩色图像](#capsule-render-动态彩色图像)
+  * [GitHub 贡献者图](#github-贡献者图)
+  * [Discord 徽章](#discord-徽章)
+  * [GitHub Profile Trophy 个人资料奖杯](#github-profile-trophy-个人资料奖杯)
+  * [Github Readme Activity 个人活动图](#github-readme-activity-个人活动图)
+  * [Github Chart API 个人贡献卡片](#github-chart-api-个人贡献卡片)
+  * [Iconify 图标徽章](#iconify-图标徽章)
+  * [Open Collective 贡献者图](#open-collective-贡献者图)
+  * [OpenSSF Best Practices 最佳实践徽章](#openssf-best-practices-最佳实践徽章)
+  * [OSSInsight 开源软件洞察](#ossinsight-开源软件洞察)
+  * [Readme Typing SVG](#readme-typing-svg)
+  * [GitHub 仓库分析图](#github-仓库分析图)
+  * [SCC 代码行数统计](#scc-代码行数统计)
+  * [GitHub Socialify 项目描述卡片](#github-socialify-项目描述卡片)
+  * [GitHub 星标历史图](#github-星标历史图)
+  * [HITS 访问统计](#hits-访问统计)
+  * [Moe Counter 萌萌计数器](#moe-counter-萌萌计数器)
+  * [Visitor Badge 访客徽章](#visitor-badge-访客徽章)
+* [📖 如何使用](#-如何使用)
+* [✍ 如何贡献徽章](#-如何贡献徽章)
+* [💖 感谢所有贡献者](#-感谢所有贡献者)
+
 ## 🎖️ 徽章集合
 
 ### Shields.io
 
-> [!Tip]
+> \[!Tip]
 > 由于此项目支持的徽章种类非常多，且功能强大，这里只简单介绍－静态徽章，其他徽章使用方式还请移步官方文档。
 
 ![rl-badge-introduction]
@@ -56,7 +84,7 @@
 | `labelColor` | string |  | 左侧标签背景颜色 | 支持格式：同上 `logoColor` |
 | `color` | string |  | 右侧消息背景颜色 | 覆盖 `badgeContent` 中 `消息背景颜色` 部分, 支持格式：同上 `logoColor` |
 | `cacheSeconds` | string | `3600` | HTTP 缓存有效期 | 单位：秒 |
-| `link` | string[] |  | 点击徽章左右侧执行的操作 | 徽章继承到 `<object>` HTML 标签时生效 |
+| `link` | string\[] |  | 点击徽章左右侧执行的操作 | 徽章继承到 `<object>` HTML 标签时生效 |
 
 </details>
 
@@ -95,7 +123,7 @@
 
 ### Badgen
 
-> [!Tip]
+> \[!Tip]
 > 由于此项目支持的徽章种类非常多，且功能强大，这里只简单介绍－静态徽章，其他徽章使用方式还请移步官方文档。
 
 ![rl-badge-introduction]
@@ -163,7 +191,7 @@
 
 ### GitHub Readme Stats
 
-> [!Tip]
+> \[!Tip]
 > 由于此项目支持的卡片种类非常多，且功能强大，这里只简单介绍－GitHub 状态卡片，其他卡片使用方式还请移步官方文档。
 
 ![rl-badge-introduction]
@@ -210,7 +238,7 @@
 ```
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&locale=cn&theme=dark&hide_border=true)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra\&locale=cn\&theme=dark\&hide_border=true)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
 
@@ -237,7 +265,7 @@
 | `type` | string | `wave` | 类型数据用于更改背景图像 | 可选值：`wave` `egg` `shark` `slice` `rect` `soft` `rounded` `cylinder` `waving` `venom` `speech` `blur` `transparent` |
 | `color` | string | `B897FF` | 更改背景图像颜色 | 可选值：`auto` `timeAuto` `random` `gradient` `timeGradient` `HEX 值` `自定义渐变，格式：widthPer:color1,widthPer:color2...` |
 | `customColorList` | string |  | 从预设颜色中选择随机出现的颜色下标 | 格式：`idx1,idx2,idx3...`，如想某些颜色出现概率高可以多写几次下标，仅在 `color` 为 [auto](https://github.com/kyechan99/capsule-render/blob/master/src/pallete.json) 或 [gradient](https://github.com/kyechan99/capsule-render/blob/master/src/gradient.json) 时生效。 |
-| `theme` | string | `default` | 主题 | 可选值：`default` `dark` `radical` `merko` `gruvbox` `gruvbox_light` `tokyonight` `onedark` `cobalt` 主题颜色参考：[pallete_theme](https://github.com/kyechan99/capsule-render/blob/master/src/pallete_theme.json) |
+| `theme` | string | `default` | 主题 | 可选值：`default` `dark` `radical` `merko` `gruvbox` `gruvbox_light` `tokyonight` `onedark` `cobalt` 主题颜色参考：[pallete\_theme](https://github.com/kyechan99/capsule-render/blob/master/src/pallete_theme.json) |
 | `section` | string | `header` | 图像显示位置 | 可选值：`header` `footer` |
 | `reversal` | boolean | `false` | 是否左右反转图像（同时反转颜色） |  |
 | `height` | number | `120` | 图像高度 | 单位：像素 |
@@ -268,14 +296,14 @@
 ![Capsule-Render Header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=capsule%20render&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Decorate%20GitHub%20Profile%20or%20any%20Repo%20like%20me!&descAlignY=51&descAlign=62)
 ```
 
-![Capsule-Render Header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=capsule%20render&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Decorate%20GitHub%20Profile%20or%20any%20Repo%20like%20me!&descAlignY=51&descAlign=62)
+![Capsule-Render Header](https://capsule-render.vercel.app/api?type=waving\&color=auto\&height=300\&section=header\&text=capsule%20render\&fontSize=90\&animation=fadeIn\&fontAlignY=38\&desc=Decorate%20GitHub%20Profile%20or%20any%20Repo%20like%20me!\&descAlignY=51\&descAlign=62)
 
 ```markdown
 <!-- kyechan99/capsule-render -->
 ![Capsule-Render Footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer)
 ```
 
-![Capsule-Render Footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer)
+![Capsule-Render Footer](https://capsule-render.vercel.app/api?type=waving\&color=auto\&height=100\&section=footer)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
 
@@ -374,6 +402,54 @@
 
 ![rl-line]
 
+### GitHub Profile Trophy 个人资料奖杯
+
+![rl-badge-introduction]
+
+**在你的 README 中添加动态生成的 GitHub 统计奖杯。**
+
+[![rl-repo]](https://github.com/ryo-ma/github-profile-trophy)
+[![rl-online-tool]](https://github-profile-trophy.vercel.app/)
+[![rl-official-docs]](https://github.com/ryo-ma/github-profile-trophy?tab=readme-ov-file#optional-request-parameters)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-query] | | | | |
+| `username` | string |  | GitHub 用户名 |  |
+| `title` | string |  | 显示或隐藏对应标题的奖杯 | 可选值 `Commits` `Stars` `Issues` `Repositories` `Experience` `Followers` `PullRequest` `Reviews` 多个标题间以 `,` 分隔，如果想要排除则在标题前加 `-`，例如 `-Commits` |
+| `rank` | string |  | 通过排名来过滤显示奖杯 | 可选值 `SECRET` `?`（UNKNOWN） `SSS` `SS` `S` `AAA` `AA` `A` `B` `C`，多个排名间以 `,` 分隔，如果想要排除则在排名前加 `-`，例如 `-?` |
+| `column` | number | `6` | 显示的列数 | 自适应列：设置 `column` 到 `-1` 以适应奖杯数量，参数 `row` 将被忽略 |
+| `row` | number | `3` | 显示的行数 |  |
+| `theme` | string | `flat` | 主题 | 可选值：`flat` `onedark` `gruvbox` `dracula` `monokai` `chalk` `nord` `alduin` `darkhub` `juicyfresh` `buddhism` `oldie` `radical` `onestar` `discord` `algolia` `gitdimmed` `tokyonight` `matrix` `apprentice` `dark_dimmed` `dark_lover` `kimbie_dark` |
+| `margin-w` | number | `0` | 页边距宽度 |  |
+| `margin-h` | number | `0` | 页边距高度 |  |
+| `no-bg` | boolean | `false` | 是否隐藏背景 |  |
+| `no-frame` | boolean | `false` | 是否隐藏框架 |  |
+
+</details>
+
+```markdown
+![Alt](https://github-profile-trophy.vercel.app/{?username,title,rank,column,row,theme,margin-w,margin-h,no-bg,no-frame})
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- ryo-ma -->
+![Trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma)
+```
+
+![Trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
 ### Github Readme Activity 个人活动图
 
 ![rl-badge-introduction]
@@ -423,7 +499,7 @@
 ![Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=xiaohuohumax&theme=github&hide_border=true)
 ```
 
-![Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=xiaohuohumax&theme=github&hide_border=true)
+![Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=xiaohuohumax\&theme=github\&hide_border=true)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
 
@@ -433,7 +509,7 @@
 
 ![rl-badge-introduction]
 
-****
+***
 
 [![rl-repo]](https://github.com/2016rshah/githubchart-api)
 [![rl-official-docs]](https://github.com/2016rshah/githubchart-api)
@@ -609,7 +685,7 @@
 
 ### OSSInsight 开源软件洞察
 
-> [!Tip]
+> \[!Tip]
 > 由于此项目支持的卡片种类非常多，且功能强大，这里只简单介绍－推送和提交记录卡片，其他卡片使用方式还请移步官方文档。
 
 ![rl-badge-introduction]
@@ -643,14 +719,14 @@
 ![Pushes and Commits of pingcap/ossinsight](https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month/thumbnail.png?repo_id=449649595&color_scheme=dark)
 ```
 
-![Pushes and Commits of pingcap/ossinsight](https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month/thumbnail.png?repo_id=449649595&color_scheme=dark)
+![Pushes and Commits of pingcap/ossinsight](https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month/thumbnail.png?repo_id=449649595\&color_scheme=dark)
 
 ```markdown
 <!-- antfu -->
 ![Dashboard stats of @antfu](https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=11247099&image_size=auto&color_scheme=dark)
 ```
 
-![Dashboard stats of @antfu](https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=11247099&image_size=auto&color_scheme=dark)
+![Dashboard stats of @antfu](https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=11247099\&image_size=auto\&color_scheme=dark)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
 
@@ -702,7 +778,7 @@
 ![Readme Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hello+World;Badge+Collection)
 ```
 
-![Readme Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hello+World;Badge+Collection)
+![Readme Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code\&pause=1000\&width=435\&lines=Hello+World;Badge+Collection)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
 
@@ -839,7 +915,7 @@
 ![GitHub Socialify](https://socialify.git.ci/xiaohuohumax/badge-collection/image?font=Rokkitt&forks=1&issues=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fxiaohuohumax%2Flogo%2Frefs%2Fheads%2Fmain%2Flogos%2Flogo.svg&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Auto)
 ```
 
-![GitHub Socialify](https://socialify.git.ci/xiaohuohumax/badge-collection/image?font=Rokkitt&forks=1&issues=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fxiaohuohumax%2Flogo%2Frefs%2Fheads%2Fmain%2Flogos%2Flogo.svg&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Auto)
+![GitHub Socialify](https://socialify.git.ci/xiaohuohumax/badge-collection/image?font=Rokkitt\&forks=1\&issues=1\&language=1\&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fxiaohuohumax%2Flogo%2Frefs%2Fheads%2Fmain%2Flogos%2Flogo.svg\&name=1\&owner=1\&pattern=Plus\&pulls=1\&stargazers=1\&theme=Auto)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
 
@@ -863,7 +939,7 @@
 | 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
 | ------ | :--- | :----- | :--- | :------- |
 | ![rl-link-query] | | | | |
-| `repos` | string[] |  | 仓库名 | 多个仓库名用逗号分隔，例如：`owner1/repo1,owner2/repo2` |
+| `repos` | string\[] |  | 仓库名 | 多个仓库名用逗号分隔，例如：`owner1/repo1,owner2/repo2` |
 | `type` | string |  | 显示类型 | 可选值：`Date` `Timeline` |
 
 </details>
@@ -879,7 +955,7 @@
 ![Star History Chart](https://api.star-history.com/svg?repos=star-history/star-history&type=Date)
 ```
 
-![Star History Chart](https://api.star-history.com/svg?repos=star-history/star-history&type=Date)
+![Star History Chart](https://api.star-history.com/svg?repos=star-history/star-history\&type=Date)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
 
@@ -1016,7 +1092,7 @@
 ![Visitors](https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection&label=VISITORS&countColor=%23f3722c)
 ```
 
-![Visitors](https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection&label=VISITORS&countColor=%23f3722c)
+![Visitors](https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection\&label=VISITORS\&countColor=%23f3722c)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
 
@@ -1033,9 +1109,11 @@ npm run build
 npm run spider
 ```
 
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
 ## ✍ 如何贡献徽章
 
-> [!Warning]
+> \[!Warning]
 > 请不要直接修改 [README.md](./README.md) 文件，因为这个文件是通过脚本自动生成的，修改后并不会生效。
 
 1. Fork 本仓库
@@ -1044,33 +1122,44 @@ npm run spider
 4. 确认预览效果无误后，提交 PR 到本仓库（PS：提交请使用 `npm run commit` 然后选择 `docs`）
 5. 等待合并，合并后会自动构建 [README.md](./README.md)
 
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
 ## 💖 感谢所有贡献者
 
 [![Contributors](https://contrib.rocks/image?repo=xiaohuohumax/badge-collection)](https://github.com/xiaohuohumax/badge-collection/contributors)
 
-![Capsule-Render Footer](https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer)
+![Capsule-Render Footer](https://capsule-render.vercel.app/api?type=waving\&color=4D908E\&height=100\&section=footer)
 
 <!-- reference links -->
 
-[rl-link-params]: https://img.shields.io/badge/路径参数-526E86 ""
-[rl-link-query]: https://img.shields.io/badge/查询参数-526E86 ""
-[rl-line]: ./image/line.png ""
-[rl-repo]: https://img.shields.io/badge/项目地址-555555?style=flat-square&logo=github ""
+[rl-link-params]: https://img.shields.io/badge/路径参数-526E86
+
+[rl-link-query]: https://img.shields.io/badge/查询参数-526E86
+
+[rl-line]: ./image/line.png
+
+[rl-repo]: https://img.shields.io/badge/项目地址-555555?style=flat-square&logo=github
 
 <!-- https://ionic.io/ionicons people-circle-outline -->
-[rl-need-login]: https://img.shields.io/badge/需要登陆-E37945?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpb25pY29uIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTI1NiA0NjRjLTExNC42OSAwLTIwOC05My4zMS0yMDgtMjA4UzE0MS4zMSA0OCAyNTYgNDhzMjA4IDkzLjMxIDIwOCAyMDgtOTMuMzEgMjA4LTIwOCAyMDh6bTAtMzg0Yy05NyAwLTE3NiA3OS0xNzYgMTc2czc5IDE3NiAxNzYgMTc2IDE3Ni03OC45NSAxNzYtMTc2UzM1My4wNSA4MCAyNTYgODB6Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTMyMy42NyAyOTJjLTE3LjQgMC0zNC4yMS03LjcyLTQ3LjM0LTIxLjczYTgzLjc2IDgzLjc2IDAgMDEtMjItNTEuMzJjLTEuNDctMjAuNyA0Ljg4LTM5Ljc1IDE3Ljg4LTUzLjYyUzMwMy4zOCAxNDQgMzIzLjY3IDE0NGMyMC4xNCAwIDM4LjM3IDcuNjIgNTEuMzMgMjEuNDZzMTkuNDcgMzMgMTggNTMuNTFhODQgODQgMCAwMS0yMiA1MS4zQzM1Ny44NiAyODQuMjggMzQxLjA2IDI5MiAzMjMuNjcgMjkyem01NS44MS03NHpNMTYzLjgyIDI5NS4zNmMtMjkuNzYgMC01NS45My0yNy41MS01OC4zMy02MS4zMy0xLjIzLTE3LjMyIDQuMTUtMzMuMzMgMTUuMTctNDUuMDhzMjYuMjItMTggNDMuMTUtMTggMzIuMTIgNi40NCA0My4wNyAxOC4xNCAxNi41IDI3LjgyIDE1LjI1IDQ1Yy0yLjQ0IDMzLjc3LTI4LjYgNjEuMjctNTguMzEgNjEuMjd6TTQyMC4zNyAzNTUuMjhjLTEuNTktNC43LTUuNDYtOS43MS0xMy4yMi0xNC40Ni0yMy40Ni0xNC4zMy01Mi4zMi0yMS45MS04My40OC0yMS45MS0zMC41NyAwLTYwLjIzIDcuOS04My41MyAyMi4yNS0yNi4yNSAxNi4xNy00My44OSAzOS43NS01MSA2OC4xOC0xLjY4IDYuNjktNC4xMyAxOS4xNC0xLjUxIDI2LjExYTE5Mi4xOCAxOTIuMTggMCAwMDIzMi43NS04MC4xN3pNMTYzLjYzIDQwMS4zN2M3LjA3LTI4LjIxIDIyLjEyLTUxLjczIDQ1LjQ3LTcwLjc1YTggOCAwIDAwLTIuNTktMTMuNzdjLTEyLTMuODMtMjUuNy01Ljg4LTQyLjY5LTUuODgtMjMuODIgMC00OS4xMSA2LjQ1LTY4LjE0IDE4LjE3LTUuNCAzLjMzLTEwLjcgNC42MS0xNC43OCA1Ljc1YTE5Mi44NCAxOTIuODQgMCAwMDc3Ljc4IDg2LjY0bDEuNzktLjE0YTEwMi44MiAxMDIuODIgMCAwMTMuMTYtMjAuMDJ6Ii8+PC9zdmc+ ""
+
+[rl-need-login]: https://img.shields.io/badge/需要登陆-E37945?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpb25pY29uIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTI1NiA0NjRjLTExNC42OSAwLTIwOC05My4zMS0yMDgtMjA4UzE0MS4zMSA0OCAyNTYgNDhzMjA4IDkzLjMxIDIwOCAyMDgtOTMuMzEgMjA4LTIwOCAyMDh6bTAtMzg0Yy05NyAwLTE3NiA3OS0xNzYgMTc2czc5IDE3NiAxNzYgMTc2IDE3Ni03OC45NSAxNzYtMTc2UzM1My4wNSA4MCAyNTYgODB6Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTMyMy42NyAyOTJjLTE3LjQgMC0zNC4yMS03LjcyLTQ3LjM0LTIxLjczYTgzLjc2IDgzLjc2IDAgMDEtMjItNTEuMzJjLTEuNDctMjAuNyA0Ljg4LTM5Ljc1IDE3Ljg4LTUzLjYyUzMwMy4zOCAxNDQgMzIzLjY3IDE0NGMyMC4xNCAwIDM4LjM3IDcuNjIgNTEuMzMgMjEuNDZzMTkuNDcgMzMgMTggNTMuNTFhODQgODQgMCAwMS0yMiA1MS4zQzM1Ny44NiAyODQuMjggMzQxLjA2IDI5MiAzMjMuNjcgMjkyem01NS44MS03NHpNMTYzLjgyIDI5NS4zNmMtMjkuNzYgMC01NS45My0yNy41MS01OC4zMy02MS4zMy0xLjIzLTE3LjMyIDQuMTUtMzMuMzMgMTUuMTctNDUuMDhzMjYuMjItMTggNDMuMTUtMTggMzIuMTIgNi40NCA0My4wNyAxOC4xNCAxNi41IDI3LjgyIDE1LjI1IDQ1Yy0yLjQ0IDMzLjc3LTI4LjYgNjEuMjctNTguMzEgNjEuMjd6TTQyMC4zNyAzNTUuMjhjLTEuNTktNC43LTUuNDYtOS43MS0xMy4yMi0xNC40Ni0yMy40Ni0xNC4zMy01Mi4zMi0yMS45MS04My40OC0yMS45MS0zMC41NyAwLTYwLjIzIDcuOS04My41MyAyMi4yNS0yNi4yNSAxNi4xNy00My44OSAzOS43NS01MSA2OC4xOC0xLjY4IDYuNjktNC4xMyAxOS4xNC0xLjUxIDI2LjExYTE5Mi4xOCAxOTIuMTggMCAwMDIzMi43NS04MC4xN3pNMTYzLjYzIDQwMS4zN2M3LjA3LTI4LjIxIDIyLjEyLTUxLjczIDQ1LjQ3LTcwLjc1YTggOCAwIDAwLTIuNTktMTMuNzdjLTEyLTMuODMtMjUuNy01Ljg4LTQyLjY5LTUuODgtMjMuODIgMC00OS4xMSA2LjQ1LTY4LjE0IDE4LjE3LTUuNCAzLjMzLTEwLjcgNC42MS0xNC43OCA1Ljc1YTE5Mi44NCAxOTIuODQgMCAwMDc3Ljc4IDg2LjY0bDEuNzktLjE0YTEwMi44MiAxMDIuODIgMCAwMTMuMTYtMjAuMDJ6Ii8+PC9zdmc+
 
 <!-- https://ionic.io/ionicons link-outline -->
-[rl-online-tool]: https://img.shields.io/badge/在线工具-F94144?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpb25pY29uIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHBhdGggZD0iTTIwOCAzNTJoLTY0YTk2IDk2IDAgMDEwLTE5Mmg2NE0zMDQgMTYwaDY0YTk2IDk2IDAgMDEwIDE5MmgtNjRNMTYzLjI5IDI1NmgxODcuNDIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjM2Ii8+PC9zdmc+ ""
+
+[rl-online-tool]: https://img.shields.io/badge/在线工具-F94144?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpb25pY29uIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHBhdGggZD0iTTIwOCAzNTJoLTY0YTk2IDk2IDAgMDEwLTE5Mmg2NE0zMDQgMTYwaDY0YTk2IDk2IDAgMDEwIDE5MmgtNjRNMTYzLjI5IDI1NmgxODcuNDIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjM2Ii8+PC9zdmc+
 
 <!-- https://ionic.io/ionicons book-outline -->
-[rl-official-docs]: https://img.shields.io/badge/官方文档-277DA1?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpb25pY29uIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHBhdGggZD0iTTI1NiAxNjBjMTYtNjMuMTYgNzYuNDMtOTUuNDEgMjA4LTk2YTE1Ljk0IDE1Ljk0IDAgMDExNiAxNnYyODhhMTYgMTYgMCAwMS0xNiAxNmMtMTI4IDAtMTc3LjQ1IDI1LjgxLTIwOCA2NC0zMC4zNy0zOC04MC02NC0yMDgtNjQtOS44OCAwLTE2LTguMDUtMTYtMTcuOTNWODBhMTUuOTQgMTUuOTQgMCAwMTE2LTE2YzEzMS41Ny41OSAxOTIgMzIuODQgMjA4IDk2ek0yNTYgMTYwdjI4OCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMzIiLz48L3N2Zz4= ""
+
+[rl-official-docs]: https://img.shields.io/badge/官方文档-277DA1?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpb25pY29uIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHBhdGggZD0iTTI1NiAxNjBjMTYtNjMuMTYgNzYuNDMtOTUuNDEgMjA4LTk2YTE1Ljk0IDE1Ljk0IDAgMDExNiAxNnYyODhhMTYgMTYgMCAwMS0xNiAxNmMtMTI4IDAtMTc3LjQ1IDI1LjgxLTIwOCA2NC0zMC4zNy0zOC04MC02NC0yMDgtNjQtOS44OCAwLTE2LTguMDUtMTYtMTcuOTNWODBhMTUuOTQgMTUuOTQgMCAwMTE2LTE2YzEzMS41Ny41OSAxOTIgMzIuODQgMjA4IDk2ek0yNTYgMTYwdjI4OCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMzIiLz48L3N2Zz4=
 
 <!-- https://ionic.io/ionicons information-circle-outline -->
-[rl-badge-introduction]: https://img.shields.io/badge/『徽章介绍』-F9C74F?style=for-the-badge&labelColor=F3722C&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpb25pY29uIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHBhdGggZD0iTTI0OCA2NEMxNDYuMzkgNjQgNjQgMTQ2LjM5IDY0IDI0OHM4Mi4zOSAxODQgMTg0IDE4NCAxODQtODIuMzkgMTg0LTE4NFMzNDkuNjEgNjQgMjQ4IDY0eiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS13aWR0aD0iMzIiLz48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIzMiIgZD0iTTIyMCAyMjBoMzJ2MTE2Ii8+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLXdpZHRoPSIzMiIgZD0iTTIwOCAzNDBoODgiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMjQ4IDEzMGEyNiAyNiAwIDEwMjYgMjYgMjYgMjYgMCAwMC0yNi0yNnoiLz48L3N2Zz4= ""
+
+[rl-badge-introduction]: https://img.shields.io/badge/『徽章介绍』-F9C74F?style=for-the-badge&labelColor=F3722C&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpb25pY29uIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHBhdGggZD0iTTI0OCA2NEMxNDYuMzkgNjQgNjQgMTQ2LjM5IDY0IDI0OHM4Mi4zOSAxODQgMTg0IDE4NCAxODQtODIuMzkgMTg0LTE4NFMzNDkuNjEgNjQgMjQ4IDY0eiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS13aWR0aD0iMzIiLz48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIzMiIgZD0iTTIyMCAyMjBoMzJ2MTE2Ii8+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLXdpZHRoPSIzMiIgZD0iTTIwOCAzNDBoODgiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMjQ4IDEzMGEyNiAyNiAwIDEwMjYgMjYgMjYgMjYgMCAwMC0yNi0yNnoiLz48L3N2Zz4=
 
 <!-- https://ionic.io/ionicons caret-forward-outline -->
-[rl-badge-params]: https://img.shields.io/badge/『徽章参数』-F9C74F?style=for-the-badge&labelColor=F3722C&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpb25pY29uIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE5MC4wNiA0MTRsMTYzLjEyLTEzOS43OGEyNCAyNCAwIDAwMC0zNi40NEwxOTAuMDYgOThjLTE1LjU3LTEzLjM0LTM5LjYyLTIuMjgtMzkuNjIgMTguMjJ2Mjc5LjZjMCAyMC41IDI0LjA1IDMxLjU2IDM5LjYyIDE4LjE4eiIvPjwvc3ZnPg== ""
+
+[rl-badge-params]: https://img.shields.io/badge/『徽章参数』-F9C74F?style=for-the-badge&labelColor=F3722C&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpb25pY29uIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE5MC4wNiA0MTRsMTYzLjEyLTEzOS43OGEyNCAyNCAwIDAwMC0zNi40NEwxOTAuMDYgOThjLTE1LjU3LTEzLjM0LTM5LjYyLTIuMjgtMzkuNjIgMTguMjJ2Mjc5LjZjMCAyMC41IDI0LjA1IDMxLjU2IDM5LjYyIDE4LjE4eiIvPjwvc3ZnPg==
 
 <!-- https://ionic.io/ionicons caret-forward-outline -->
-[rl-uses-examples]: https://img.shields.io/badge/-『使用示例』-F9C74F?style=for-the-badge&labelColor=F3722C&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpb25pY29uIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE5MC4wNiA0MTRsMTYzLjEyLTEzOS43OGEyNCAyNCAwIDAwMC0zNi40NEwxOTAuMDYgOThjLTE1LjU3LTEzLjM0LTM5LjYyLTIuMjgtMzkuNjIgMTguMjJ2Mjc5LjZjMCAyMC41IDI0LjA1IDMxLjU2IDM5LjYyIDE4LjE4eiIvPjwvc3ZnPg== ""
+
+[rl-uses-examples]: https://img.shields.io/badge/-『使用示例』-F9C74F?style=for-the-badge&labelColor=F3722C&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpb25pY29uIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE5MC4wNiA0MTRsMTYzLjEyLTEzOS43OGEyNCAyNCAwIDAwMC0zNi40NEwxOTAuMDYgOThjLTE1LjU3LTEzLjM0LTM5LjYyLTIuMjgtMzkuNjIgMTguMjJ2Mjc5LjZjMCAyMC41IDI0LjA1IDMxLjU2IDM5LjYyIDE4LjE4eiIvPjwvc3ZnPg==
