@@ -19,7 +19,6 @@
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-21-84AD64" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
-  <div>『<a href="#-如何使用">使用</a>』『<a href="#-如何贡献徽章">贡献</a>』『<a href="#-感谢所有贡献者">感谢</a>』</div>
   <br/>
 </div>
 
@@ -29,6 +28,10 @@
   * [Shields.io](#shieldsio)
   * [Badgen](#badgen)
   * [GitHub Readme Stats](#github-readme-stats)
+  * [Visit Counter 访客统计](#visit-counter-访客统计)
+    * [HITS 访问统计](#hits-访问统计)
+    * [Moe Counter 萌萌计数器](#moe-counter-萌萌计数器)
+    * [Visitor Badge 访客徽章](#visitor-badge-访客徽章)
   * [Capsule-Render 动态彩色图像](#capsule-render-动态彩色图像)
   * [GitHub 贡献者图](#github-贡献者图)
   * [Discord 徽章](#discord-徽章)
@@ -44,10 +47,7 @@
   * [SCC 代码行数统计](#scc-代码行数统计)
   * [GitHub Socialify 项目描述卡片](#github-socialify-项目描述卡片)
   * [GitHub 星标历史图](#github-星标历史图)
-  * [HITS 访问统计](#hits-访问统计)
-  * [Moe Counter 萌萌计数器](#moe-counter-萌萌计数器)
-  * [Visitor Badge 访客徽章](#visitor-badge-访客徽章)
-* [📖 如何使用](#-如何使用)
+* [📖 如何运行项目](#-如何运行项目)
 * [✍ 如何贡献徽章](#-如何贡献徽章)
 * [💖 感谢所有贡献者](#-感谢所有贡献者)
 
@@ -239,6 +239,147 @@
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra\&locale=cn\&theme=dark\&hide_border=true)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
+### Visit Counter 访客统计
+
+想要知道网站的访客统计数据吗？这几个徽章可以帮助你统计网站的访问次数。
+
+#### HITS 访问统计
+
+![rl-badge-introduction]
+
+**一个简单的方法来查看有多少人访问了您的网站或 GitHub 仓库。**
+
+[![rl-repo]](https://github.com/gjbae1212/hit-counter)
+[![rl-online-tool]](https://hits.seeyoufarm.com/#badge)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-query] | | | | |
+| `url` | string |  | 需要统计的网站或 GitHub 仓库的 URL |  |
+| `edge_flat` | boolean |  | 徽章整体风格 | 可选值：true（Flat） false（Round） |
+| `title` | string | `hits` | 左侧标签内容 |  |
+| `title_bg` | string | `#555555` | 左侧标签背景颜色 | 支持十六进制颜色代码，例如：#FF0000 |
+| `count_bg` | string | `#79C83D` | 右侧信息背景颜色 | 支持十六进制颜色代码，例如：#FF0000 |
+| `icon_color` | string |  | 图标颜色 | 支持十六进制颜色代码，例如：#FF0000 |
+
+</details>
+
+```markdown
+![Alt](https://hits.seeyoufarm.com/api/count/incr/badge.svg{?url,edge_flat,title,title_bg,count_bg,icon_color})
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- xiaohuohumax/badge-collection -->
+![Hit Counter](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection)
+```
+
+![Hit Counter](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
+#### Moe Counter 萌萌计数器
+
+![rl-badge-introduction]
+
+**多种风格可选的萌萌计数器。**
+
+[![rl-repo]](https://github.com/journey-ad/Moe-Counter)
+[![rl-online-tool]](https://count.getloli.com/)
+[![rl-official-docs]](https://count.getloli.com/)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-params] | | | | |
+| `countId` | string |  | 计数器 ID | 不能包含特殊字符 |
+| ![rl-link-query] | | | | |
+| `theme` | string | `moebooru` | 主题 | 可选值：`random` `3d-num` `ai-1` `asoul` `booru-ffsr` `moebooru`，更多主题：[More theme](https://github.com/journey-ad/Moe-Counter?tab=readme-ov-file#more-theme) |
+| `padding` | number | `7` | 最小长度 | 最小：`1` 最大：`17` |
+| `offset` | number | `0` | 像素偏移值 | 最小：`-500` 最大：`500` |
+| `scale` | number | `1` | 图像缩放比例 | 最小：`0.1` 最大：`2` |
+| `align` | string | `top` | 图像对齐方式 | 可选值：`top` `bottom` `center` |
+| `pixelated` | boolean | `1` | 是否启用像素化模式 | 可选值：`0` `1` |
+| `darkmode` | boolean | `auto` | 是否启用暗黑模式 | 可选值：`0` `1` `auto` |
+| `num` | number |  | 统计数字 | 设置后将不再有统计计数效果，仅显示配置的数字 |
+| `prefix` | number |  | 统计数字前缀数字 | 在统计数字前添加的数字，最大：`999999` |
+
+</details>
+
+```markdown
+![Alt](https://count.getloli.com/@{countId}{?theme,padding,offset,scale,align,pixelated,darkmode,num,prefix})
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- xiaohuohumax/badge-collection -->
+![Moe Counter](https://count.getloli.com/@xiaohuohumax-badge-collection)
+```
+
+![Moe Counter](https://count.getloli.com/@xiaohuohumax-badge-collection)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
+#### Visitor Badge 访客徽章
+
+![rl-badge-introduction]
+
+**创建一个可用于任何网站或 GitHub 个人资料的访客徽章。**
+
+[![rl-repo]](https://github.com/estruyf/web-visitorbadge-nextjs)
+[![rl-online-tool]](https://visitorbadge.io/)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-params] | | | | |
+| `type` | string |  | 徽章类型 | 可选值：`visitors`（总数）、`daily`（单日）、`combined`（前两个组合） |
+| ![rl-link-query] | | | | |
+| `path` | string |  | 统计路径 | URL 或 用户名/仓库，用于唯一统计的链接或字符串。 |
+| `label` | string |  | 徽章标签 |  |
+| `labelColor` | string | `#555555` | 徽章标签背景颜色 | 支持类型：`HEX`，例如：`#FF0000` |
+| `countColor` | string | `#263759` | 徽章数字背景颜色 | 支持类型：`HEX`，例如：`#FF0000` |
+| `style` | string | `default` | 徽章样式 | 可选值：`default`、`flat`、`flat-square`、`plastic` |
+| `labelStyle` | string | `upper` | 徽章标签大小写 | 可选值：`upper`（大写） `lower`（小写） |
+
+</details>
+
+```markdown
+![Alt](https://api.visitorbadge.io/api/{type}{?path,label,labelColor,countColor,style,labelStyle})
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- xiaohuohumax/badge-collection -->
+![Visitors](https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection&label=VISITORS&countColor=%23f3722c)
+```
+
+![Visitors](https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection\&label=VISITORS\&countColor=%23f3722c)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
 
@@ -961,144 +1102,7 @@
 
 ![rl-line]
 
-### HITS 访问统计
-
-![rl-badge-introduction]
-
-**一个简单的方法来查看有多少人访问了您的网站或 GitHub 仓库。**
-
-[![rl-repo]](https://github.com/gjbae1212/hit-counter)
-[![rl-online-tool]](https://hits.seeyoufarm.com/#badge)
-
-![rl-badge-params]
-
-<details>
-  <summary>点击展开/收起详细参数</summary><p></p>
-
-| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
-| ------ | :--- | :----- | :--- | :------- |
-| ![rl-link-query] | | | | |
-| `url` | string |  | 需要统计的网站或 GitHub 仓库的 URL |  |
-| `edge_flat` | boolean |  | 徽章整体风格 | 可选值：true（Flat） false（Round） |
-| `title` | string | `hits` | 左侧标签内容 |  |
-| `title_bg` | string | `#555555` | 左侧标签背景颜色 | 支持十六进制颜色代码，例如：#FF0000 |
-| `count_bg` | string | `#79C83D` | 右侧信息背景颜色 | 支持十六进制颜色代码，例如：#FF0000 |
-| `icon_color` | string |  | 图标颜色 | 支持十六进制颜色代码，例如：#FF0000 |
-
-</details>
-
-```markdown
-![Alt](https://hits.seeyoufarm.com/api/count/incr/badge.svg{?url,edge_flat,title,title_bg,count_bg,icon_color})
-```
-
-![rl-uses-examples]
-
-```markdown
-<!-- xiaohuohumax/badge-collection -->
-![Hit Counter](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection)
-```
-
-![Hit Counter](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection)
-
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
-
-![rl-line]
-
-### Moe Counter 萌萌计数器
-
-![rl-badge-introduction]
-
-**多种风格可选的萌萌计数器。**
-
-[![rl-repo]](https://github.com/journey-ad/Moe-Counter)
-[![rl-online-tool]](https://count.getloli.com/)
-[![rl-official-docs]](https://count.getloli.com/)
-
-![rl-badge-params]
-
-<details>
-  <summary>点击展开/收起详细参数</summary><p></p>
-
-| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
-| ------ | :--- | :----- | :--- | :------- |
-| ![rl-link-params] | | | | |
-| `countId` | string |  | 计数器 ID | 不能包含特殊字符 |
-| ![rl-link-query] | | | | |
-| `theme` | string | `moebooru` | 主题 | 可选值：`random` `3d-num` `ai-1` `asoul` `booru-ffsr` `moebooru`，更多主题：[More theme](https://github.com/journey-ad/Moe-Counter?tab=readme-ov-file#more-theme) |
-| `padding` | number | `7` | 最小长度 | 最小：`1` 最大：`17` |
-| `offset` | number | `0` | 像素偏移值 | 最小：`-500` 最大：`500` |
-| `scale` | number | `1` | 图像缩放比例 | 最小：`0.1` 最大：`2` |
-| `align` | string | `top` | 图像对齐方式 | 可选值：`top` `bottom` `center` |
-| `pixelated` | boolean | `1` | 是否启用像素化模式 | 可选值：`0` `1` |
-| `darkmode` | boolean | `auto` | 是否启用暗黑模式 | 可选值：`0` `1` `auto` |
-| `num` | number |  | 统计数字 | 设置后将不再有统计计数效果，仅显示配置的数字 |
-| `prefix` | number |  | 统计数字前缀数字 | 在统计数字前添加的数字，最大：`999999` |
-
-</details>
-
-```markdown
-![Alt](https://count.getloli.com/@{countId}{?theme,padding,offset,scale,align,pixelated,darkmode,num,prefix})
-```
-
-![rl-uses-examples]
-
-```markdown
-<!-- xiaohuohumax/badge-collection -->
-![Moe Counter](https://count.getloli.com/@xiaohuohumax-badge-collection)
-```
-
-![Moe Counter](https://count.getloli.com/@xiaohuohumax-badge-collection)
-
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
-
-![rl-line]
-
-### Visitor Badge 访客徽章
-
-![rl-badge-introduction]
-
-**创建一个可用于任何网站或 GitHub 个人资料的访客徽章。**
-
-[![rl-repo]](https://github.com/estruyf/web-visitorbadge-nextjs)
-[![rl-online-tool]](https://visitorbadge.io/)
-
-![rl-badge-params]
-
-<details>
-  <summary>点击展开/收起详细参数</summary><p></p>
-
-| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
-| ------ | :--- | :----- | :--- | :------- |
-| ![rl-link-params] | | | | |
-| `type` | string |  | 徽章类型 | 可选值：`visitors`（总数）、`daily`（单日）、`combined`（前两个组合） |
-| ![rl-link-query] | | | | |
-| `path` | string |  | 统计路径 | URL 或 用户名/仓库，用于唯一统计的链接或字符串。 |
-| `label` | string |  | 徽章标签 |  |
-| `labelColor` | string | `#555555` | 徽章标签背景颜色 | 支持类型：`HEX`，例如：`#FF0000` |
-| `countColor` | string | `#263759` | 徽章数字背景颜色 | 支持类型：`HEX`，例如：`#FF0000` |
-| `style` | string | `default` | 徽章样式 | 可选值：`default`、`flat`、`flat-square`、`plastic` |
-| `labelStyle` | string | `upper` | 徽章标签大小写 | 可选值：`upper`（大写） `lower`（小写） |
-
-</details>
-
-```markdown
-![Alt](https://api.visitorbadge.io/api/{type}{?path,label,labelColor,countColor,style,labelStyle})
-```
-
-![rl-uses-examples]
-
-```markdown
-<!-- xiaohuohumax/badge-collection -->
-![Visitors](https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection&label=VISITORS&countColor=%23f3722c)
-```
-
-![Visitors](https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection\&label=VISITORS\&countColor=%23f3722c)
-
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
-
-![rl-line]
-
-## 📖 如何使用
+## 📖 如何运行项目
 
 ```shell
 # 运行服务，预览徽章
