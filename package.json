@@ -1,7 +1,7 @@
 {
   "name": "badge-collection",
   "type": "module",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "private": true,
   "description": "这是一个徽章收集仓库：收集了一些 Github 上热门项目使用过的徽章，以及一些徽章在线制作工具链接。",
   "author": {
@@ -25,9 +25,7 @@
     "dev": "vite dev",
     "spider": "vite-node --config scripts/vite.config.ts scripts/spider/index.ts",
     "build": "vite-node --config scripts/vite.config.ts scripts/build/index.ts",
-    "build:schema": "rimraf .vscode/schema && npm run build:badge-schema && npm run build:spider-schema",
-    "build:badge-schema": "npx ts-json-schema-generator --path scripts/build/schema.ts --type Badge -o .vscode/schema/badge.schema.json",
-    "build:spider-schema": "npx ts-json-schema-generator --path scripts/spider/schema.ts --type SpiderConfig -o .vscode/schema/spider.schema.json",
+    "build:schema": "vite-node --config scripts/vite.config.ts scripts/schema/index.ts",
     "commit": "git add . && cz",
     "postinstall": "simple-git-hooks",
     "changeset": "changeset",

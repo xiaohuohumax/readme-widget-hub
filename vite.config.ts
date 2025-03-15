@@ -12,9 +12,11 @@ export default defineConfig(({ mode }) => {
     },
     plugins: [
       virtualReadme({
-        badgesDir: env.VITE_BADGES_DIR,
-        readmeTplPath: env.VITE_README_TPL_PATH,
-        readmeTplTocTitle: env.VITE_README_TPL_TOC_TITLE,
+        badgeDirPath: env.VITE_BADGES_DIR_PATH,
+        collectionFileName: env.VITE_COLLECTION_FILE_NAME,
+        tplPath: env.VITE_TPL_PATH,
+        tplTocTitle: env.VITE_TPL_TOC_TITLE,
+        tplBadgeHeadingLevel: Number.parseInt(env.VITE_TPL_BADGE_HEADING_LEVEL),
       }),
     ],
   }

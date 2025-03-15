@@ -91,3 +91,22 @@ export interface Badge {
   /** 示例 */
   useExamples: Example[]
 }
+
+export interface Collection {
+  /**
+   * 是否启用
+   *
+   * @default true
+   */
+  enabled?: boolean
+  /**
+   * 显示顺序，数字越小越靠前
+   *
+   * @default 9999
+   */
+  index?: number
+  /** 名称 */
+  title: string
+  /** 描述 */
+  description?: string
+}

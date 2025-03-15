@@ -1,45 +1,31 @@
-import type { Logger, LogOptions, Plugin } from 'vite'
+import type { LogOptions, Plugin } from 'vite'
+import type { BadgeBuilderOptions, Logger } from '../scripts/build/badge.js'
 import chokidar from 'chokidar'
-import fs from 'fs-extra'
 import { createLogger } from 'vite'
-import { badgesToMarkdown, readBadges } from '../scripts/build/badge.js'
+import { BadgeReadmeBuilder } from '../scripts/build/badge.js'
 
 const virtualModuleId = 'virtual:readme'
 const resolvedVirtualModuleId = `\0${virtualModuleId}`
 
-export interface VirtualReadmeOptions {
-  readmeTplPath: string
-  badgesDir: string
-  readmeTplTocTitle: string
-}
+export type VirtualReadmeOptions = Omit<BadgeBuilderOptions, 'logger'> & {}
 
 function createCustomLogger(logOptions: LogOptions): Logger {
   const logger = createLogger()
 
-  const createLoggerFunc = (func: (msg: string, options?: LogOptions) => void) => {
+  function createLoggerFunc(func: (msg: string, options?: LogOptions) => void) {
     return (msg: string) => func(msg, logOptions)
   }
 
   return {
-    ...logger,
     warn: createLoggerFunc(logger.warn),
     error: createLoggerFunc(logger.error),
-    info: createLoggerFunc(logger.info),
+    log: createLoggerFunc(logger.info),
   }
 }
 
 export default function virtualReadme(options: VirtualReadmeOptions): Plugin {
   const logger: Logger = createCustomLogger({ timestamp: true })
-
-  function generateReadme() {
-    const readmeTpl = fs.readFileSync(options.readmeTplPath, 'utf-8')
-    const badges = readBadges(options.badgesDir, {
-      log: logger.info,
-      warn: logger.warn,
-      error: logger.error,
-    })
-    return badgesToMarkdown(badges, readmeTpl, options.readmeTplTocTitle)
-  }
+  const builder = new BadgeReadmeBuilder({ ...options, logger })
 
   return {
     name: 'vite-plugin-virtual-readme',
@@ -50,11 +36,11 @@ export default function virtualReadme(options: VirtualReadmeOptions): Plugin {
     },
     load(id) {
       if (id === resolvedVirtualModuleId) {
-        return `export default ${JSON.stringify(generateReadme())}`
+        return `export default ${JSON.stringify(builder.generateReadme())}`
       }
     },
     configureServer(server) {
-      const watcher = chokidar.watch([options.badgesDir, options.readmeTplPath], {
+      const watcher = chokidar.watch([options.badgeDirPath, options.tplPath], {
         ignoreInitial: true,
         persistent: true,
       })
@@ -68,7 +54,7 @@ export default function virtualReadme(options: VirtualReadmeOptions): Plugin {
         server.ws.send({
           type: 'custom',
           event: 'virtual:readme:reload',
-          data: generateReadme(),
+          data: builder.generateReadme(),
         })
       }
 

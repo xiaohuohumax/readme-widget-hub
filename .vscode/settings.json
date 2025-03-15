@@ -19,9 +19,16 @@
   "json.schemas": [
     {
       "fileMatch": [
-        "/badges/**/*.json"
+        "/badges/**/*.json",
+        "!/badges/**/collection.json"
       ],
       "url": "/.vscode/schema/badge.schema.json"
+    },
+    {
+      "fileMatch": [
+        "/badges/**/collection.json"
+      ],
+      "url": "/.vscode/schema/collection.schema.json"
     },
     {
       "fileMatch": [

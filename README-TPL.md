@@ -14,10 +14,9 @@
     <a href="https://github.com/xiaohuohumax/badge-collection/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection" /></a>
-    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-{{badges.length}}-84AD64" /></a>
+    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-{{badgeLength}}-84AD64" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
-  <div>『<a href="#-如何使用">使用</a>』『<a href="#-如何贡献徽章">贡献</a>』『<a href="#-感谢所有贡献者">感谢</a>』</div>
   <br/>
 </div>
 
@@ -25,8 +24,14 @@
 
 ## 🎖️ 徽章集合
 
-{{each badges}}
-### {{@$value.title}}
+{{each renderItems}}
+
+{{if $value.type === 'collection'}}
+{{'#'.repeat($value.level)}} {{$value.title}}
+
+{{if $value.description}}{{@$value.description}}{{/if}}
+{{else if $value.type === 'badge'}}
+{{'#'.repeat($value.level)}} {{@$value.title}}
 
 {{if $value.alert}}
 > [!{{$value.alert?.type || "Tip"}}]
@@ -76,9 +81,9 @@
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
 
 ![rl-line]
-{{/each}}
+{{/if}}{{/each}}
 
-## 📖 如何使用
+## 📖 如何运行项目
 
 ```shell
 # 运行服务，预览徽章

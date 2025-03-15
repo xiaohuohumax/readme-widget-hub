@@ -1,39 +1,38 @@
 {
-  "$ref": "#/definitions/SpiderConfig",
   "$schema": "http://json-schema.org/draft-07/schema#",
+  "$ref": "#/definitions/SpiderConfig",
   "definitions": {
     "SpiderConfig": {
-      "additionalProperties": false,
-      "description": "爬取配置",
+      "type": "object",
       "properties": {
-        "imagePatterns": {
-          "description": "图片链接匹配规则，参考：https://www.npmjs.com/package/minimatch",
-          "items": {
-            "type": "string"
-          },
-          "type": "array"
-        },
-        "languageReposCount": {
-          "description": "每种语言类型下需要爬取的仓库数量",
-          "type": "number"
+        "outDir": {
+          "type": "string",
+          "description": "输出目录"
         },
         "languages": {
-          "description": "爬取语言类型",
+          "type": "array",
           "items": {
             "type": "string"
           },
-          "type": "array"
+          "description": "爬取语言类型"
         },
-        "outDir": {
-          "description": "输出目录",
-          "type": "string"
+        "languageReposCount": {
+          "type": "number",
+          "description": "每种语言类型下需要爬取的仓库数量"
         },
         "repos": {
-          "description": "爬取仓库列表",
+          "type": "array",
           "items": {
             "type": "string"
           },
-          "type": "array"
+          "description": "爬取仓库列表"
+        },
+        "imagePatterns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "图片链接匹配规则，参考：https://www.npmjs.com/package/minimatch"
         }
       },
       "required": [
@@ -43,7 +42,8 @@
         "repos",
         "imagePatterns"
       ],
-      "type": "object"
+      "additionalProperties": false,
+      "description": "爬取配置"
     }
   }
 }

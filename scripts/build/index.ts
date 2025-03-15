@@ -1,12 +1,17 @@
-import type { Badge } from './schema.js'
 import fs from 'fs-extra'
-import { badgesToMarkdown, readBadges } from './badge.js'
+import { BadgeReadmeBuilder } from './badge.js'
 
 console.log('Start building README.md')
 
-const readmeTpl = fs.readFileSync(import.meta.env.VITE_README_TPL_PATH, 'utf-8')
-const badges: Badge[] = readBadges(import.meta.env.VITE_BADGES_DIR)
-const readme = badgesToMarkdown(badges, readmeTpl, import.meta.env.VITE_README_TPL_TOC_TITLE)
-fs.writeFileSync('./README.md', readme)
+const builder = new BadgeReadmeBuilder({
+  badgeDirPath: import.meta.env.VITE_BADGES_DIR_PATH,
+  collectionFileName: import.meta.env.VITE_COLLECTION_FILE_NAME,
+  tplPath: import.meta.env.VITE_TPL_PATH,
+  tplTocTitle: import.meta.env.VITE_TPL_TOC_TITLE,
+  tplBadgeHeadingLevel: Number.parseInt(import.meta.env.VITE_TPL_BADGE_HEADING_LEVEL),
+  logger: console,
+})
+
+fs.writeFileSync('README.md', builder.generateReadme())
 
 console.log('Build README.md success.')

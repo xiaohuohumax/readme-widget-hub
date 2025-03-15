@@ -1,5 +1,11 @@
 # badge-collection
 
+## 1.4.0
+
+### Minor Changes
+
+- 相似功能的徽章支持放入集合
+
 ## 1.3.0
 
 ### Minor Changes
