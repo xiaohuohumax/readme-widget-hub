@@ -1,9 +1,13 @@
+import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypeParse from 'rehype-parse'
 import rehypeRaw from 'rehype-raw'
+import rehypeSlug from 'rehype-slug'
 import rehypeStringify from 'rehype-stringify'
+import { remark } from 'remark'
 import remarkGfm from 'remark-gfm'
 import remarkParse from 'remark-parse'
 import remarkRehype from 'remark-rehype'
+import remarkToc from 'remark-toc'
 import { unified } from 'unified'
 import { visit } from 'unist-util-visit'
 
@@ -12,6 +16,8 @@ export function markdown2Html(markdown: string): string {
     .use(remarkParse)
     .use(remarkGfm)
     .use(remarkRehype, { allowDangerousHtml: true })
+    .use(rehypeSlug)
+    .use(rehypeAutolinkHeadings) // 标题添加锚点
     .use(rehypeRaw)
     .use(rehypeStringify)
     .processSync(markdown)
@@ -24,7 +30,14 @@ export interface MarkdownImage {
   href?: string
 }
 
-export function extractImages4Markdown(markdown: string): MarkdownImage[] {
+export function generateToc(markdown: string, tocTitle: string): string {
+  return remark()
+    .use(remarkToc, { heading: tocTitle })
+    .processSync(markdown)
+    .toString()
+}
+
+export function extractImages(markdown: string): MarkdownImage[] {
   if (markdown.trim() === '') {
     return []
   }

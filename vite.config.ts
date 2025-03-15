@@ -14,6 +14,7 @@ export default defineConfig(({ mode }) => {
       virtualReadme({
         badgesDir: env.VITE_BADGES_DIR,
         readmeTplPath: env.VITE_README_TPL_PATH,
+        readmeTplTocTitle: env.VITE_README_TPL_TOC_TITLE,
       }),
     ],
   }

@@ -1,7 +1,7 @@
 import type { MarkdownImage } from '@/markdown.js'
 import type { SpiderConfig } from './schema.js'
 import path from 'node:path'
-import { extractImages4Markdown } from '@/markdown.js'
+import { extractImages } from '@/markdown.js'
 import { render } from 'art-template'
 import fs from 'fs-extra'
 import { minimatch } from 'minimatch'
@@ -67,7 +67,7 @@ class Spider {
 
   private async getRepoInfo(ownerRepo: OwnerRepo): Promise<RepoInfo> {
     const readme = await this.options.request.getRepoReadme(ownerRepo.owner, ownerRepo.repo)
-    const images = readme ? extractImages4Markdown(readme) : []
+    const images = readme ? extractImages(readme) : []
     return {
       ownerRepo,
       images: this.matchImages(images),

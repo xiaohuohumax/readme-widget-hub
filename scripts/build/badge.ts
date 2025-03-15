@@ -5,6 +5,7 @@ import ArtTemplate from 'art-template'
 import fs from 'fs-extra'
 import klawSync from 'klaw-sync'
 import badgeSchema from '../../.vscode/schema/badge.schema.json'
+import { generateToc } from '../../src/markdown.js'
 
 const BADGE_INDEX_DEFAULT = 9999
 const DO_NOT_EDIT = '<!-- 这是由脚本自动生成的文件，请勿直接修改此文件！ -->\n\n'
@@ -78,8 +79,10 @@ export function readBadges(badgeDirPath: string, logger: Logger = console): Badg
   return badges
 }
 
-export function badgesToMarkdown(badges: Badge[], readmeTpl: string): string {
-  return DO_NOT_EDIT + ArtTemplate.render(readmeTpl, {
+export function badgesToMarkdown(badges: Badge[], readmeTpl: string, tocTitle: string): string {
+  const readme = DO_NOT_EDIT + ArtTemplate.render(readmeTpl, {
     badges: badges.sort((a, b) => (a.index || BADGE_INDEX_DEFAULT) - (b.index || BADGE_INDEX_DEFAULT)),
   }).replaceAll(/\n{3,}/g, () => '\n\n')
+  return generateToc(readme, tocTitle)
+  // .replaceAll(/> +\\\[!/g, () => '> [!') // 将 Github Alert 结构中的转义符号 `\` 去除
 }

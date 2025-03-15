@@ -10,6 +10,7 @@ const resolvedVirtualModuleId = `\0${virtualModuleId}`
 export interface VirtualReadmeOptions {
   readmeTplPath: string
   badgesDir: string
+  readmeTplTocTitle: string
 }
 
 function createCustomLogger(logOptions: LogOptions): Logger {
@@ -37,7 +38,7 @@ export default function virtualReadme(options: VirtualReadmeOptions): Plugin {
       warn: logger.warn,
       error: logger.error,
     })
-    return badgesToMarkdown(badges, readmeTpl)
+    return badgesToMarkdown(badges, readmeTpl, options.readmeTplTocTitle)
   }
 
   return {

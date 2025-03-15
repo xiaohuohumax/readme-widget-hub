@@ -1,5 +1,11 @@
 # badge-collection
 
+## 1.3.0
+
+### Minor Changes
+
+- 添加目录自动生成功能
+
 ## 1.2.1
 
 ### Patch Changes
