@@ -4,7 +4,7 @@
   "description": "自定义图标徽章，可以用任何你喜欢的图标。",
   "alert": {
     "type": "Tip",
-    "message": "由于此项目徽章是基于 [shields.io](https://shields.io/) 生成，因此配置参数可直接参考 [shields.io badges](https://shields.io/badges)，下面配置仅展示此项目扩展参数。"
+    "messages": "由于此项目徽章是基于 [shields.io](https://shields.io/) 生成，因此配置参数可直接参考 [shields.io badges](https://shields.io/badges)，下面配置仅展示此项目扩展参数。"
   },
   "tags": {
     "repoUrl": "https://github.com/DenverCoder1/custom-icon-badges",

@@ -4,7 +4,7 @@
   "description": "获取动态生成的 GitHub 统计信息！",
   "alert": {
     "type": "Tip",
-    "message": "由于此项目支持的卡片种类非常多，且功能强大，这里只简单介绍－GitHub 状态卡片，其他卡片使用方式还请移步官方文档。"
+    "messages": "由于此项目支持的卡片种类非常多，且功能强大，这里只简单介绍－GitHub 状态卡片，其他卡片使用方式还请移步官方文档。"
   },
   "tags": {
     "repoUrl": "https://github.com/anuraghazra/github-readme-stats",

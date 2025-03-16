@@ -34,8 +34,8 @@
 {{'#'.repeat($value.level)}} {{@$value.title}}
 
 {{if $value.alert}}
-> [!{{$value.alert?.type || "Tip"}}]
-> {{@$value.alert.message}}
+> [!{{$value.alert?.type || "Tip"}}]{{each $value.alert.messages}}
+> {{@$value}}{{/each}}
 {{/if}}
 
 ![rl-badge-introduction]

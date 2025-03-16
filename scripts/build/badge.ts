@@ -28,6 +28,9 @@ export interface BadgeBuilderOptions {
 
 interface RenderBadge extends Badge {
   type: 'badge'
+  alert?: Badge['alert'] & {
+    messages: string[]
+  }
   rule: Badge['rule'] & {
     URITemplates: string[]
   }
@@ -42,6 +45,10 @@ interface RenderCollection extends Collection {
 }
 
 type RenderItem = RenderBadge | RenderCollection
+
+function ensureArray<T>(value: T | T[]): T[] {
+  return Array.isArray(value) ? value : [value]
+}
 
 export class BadgeReadmeBuilder {
   constructor(private options: BadgeBuilderOptions) { }
@@ -130,11 +137,13 @@ export class BadgeReadmeBuilder {
         const index = badge.index || BADGE_INDEX_DEFAULT
         const renderBadge: RenderBadge = {
           ...badge,
+          alert: badge.alert && {
+            ...badge.alert,
+            messages: ensureArray(badge.alert.messages),
+          },
           rule: {
             ...badge.rule,
-            URITemplates: Array.isArray(badge.rule.URITemplates)
-              ? badge.rule.URITemplates
-              : [badge.rule.URITemplates],
+            URITemplates: ensureArray(badge.rule.URITemplates),
           },
           type: 'badge',
           level,

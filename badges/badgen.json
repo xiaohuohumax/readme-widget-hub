@@ -4,7 +4,7 @@
   "description": "快速徽章生成服务。",
   "alert": {
     "type": "Tip",
-    "message": "由于此项目支持的徽章种类非常多，且功能强大，这里只简单介绍－静态徽章，其他徽章使用方式还请移步官方文档。"
+    "messages": "由于此项目支持的徽章种类非常多，且功能强大，这里只简单介绍－静态徽章，其他徽章使用方式还请移步官方文档。"
   },
   "tags": {
     "repoUrl": "https://github.com/badgen/badgen.net",

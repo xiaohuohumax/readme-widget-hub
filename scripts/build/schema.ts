@@ -66,7 +66,7 @@ export interface Badge {
      */
     type?: 'Note' | 'Tip' | 'Important' | 'Warning' | 'Caution'
     /** 提示内容 */
-    message: string
+    messages: string | string[]
   }
   /** 标签 */
   tags?: {

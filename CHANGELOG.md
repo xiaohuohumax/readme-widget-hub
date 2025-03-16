@@ -1,5 +1,11 @@
 # badge-collection
 
+## 1.5.0
+
+### Minor Changes
+
+- 徽章提示信息支持多行
+
 ## 1.4.0
 
 ### Minor Changes

@@ -4,7 +4,7 @@
   "description": "Shields.io 是一个提供简洁、一致和易读的 SVG 和位图格式徽章的服务，可以轻松地包含在 GitHub 的 README 文件或任何其他网页中。",
   "alert": {
     "type": "Tip",
-    "message": "由于此项目支持的徽章种类非常多，且功能强大，这里只简单介绍－静态徽章，其他徽章使用方式还请移步官方文档。"
+    "messages": "由于此项目支持的徽章种类非常多，且功能强大，这里只简单介绍－静态徽章，其他徽章使用方式还请移步官方文档。"
   },
   "tags": {
     "repoUrl": "https://github.com/badges/shields",

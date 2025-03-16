@@ -38,13 +38,23 @@
               "description": "类型",
               "default": "Tip"
             },
-            "message": {
-              "type": "string",
+            "messages": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              ],
               "description": "提示内容"
             }
           },
           "required": [
-            "message"
+            "messages"
           ],
           "additionalProperties": false,
           "description": "提示"

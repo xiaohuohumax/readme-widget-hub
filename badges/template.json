@@ -4,7 +4,7 @@
   "description": "",
   "alert": {
     "type": "Tip",
-    "message": ""
+    "messages": ""
   },
   "tags": {
     "repoUrl": "",
