@@ -16,7 +16,7 @@
     <a href="https://github.com/xiaohuohumax/badge-collection/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection" /></a>
-    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-21-84AD64" /></a>
+    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-23-84AD64" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
   <br/>
@@ -32,11 +32,13 @@
     * [HITS 访问统计](#hits-访问统计)
     * [Moe Counter 萌萌计数器](#moe-counter-萌萌计数器)
     * [Visitor Badge 访客徽章](#visitor-badge-访客徽章)
+  * [Custom Icon Badges 自定义图标徽章](#custom-icon-badges-自定义图标徽章)
   * [Capsule-Render 动态彩色图像](#capsule-render-动态彩色图像)
   * [GitHub 贡献者图](#github-贡献者图)
   * [Discord 徽章](#discord-徽章)
   * [GitHub Profile Trophy 个人资料奖杯](#github-profile-trophy-个人资料奖杯)
   * [Github Readme Activity 个人活动图](#github-readme-activity-个人活动图)
+  * [Github Readme Streak Stats 连续贡献统计图](#github-readme-streak-stats-连续贡献统计图)
   * [Github Chart API 个人贡献卡片](#github-chart-api-个人贡献卡片)
   * [Iconify 图标徽章](#iconify-图标徽章)
   * [Open Collective 贡献者图](#open-collective-贡献者图)
@@ -385,6 +387,50 @@
 
 ![rl-line]
 
+### Custom Icon Badges 自定义图标徽章
+
+> \[!Tip]
+> 由于此项目徽章是基于 [shields.io](https://shields.io/) 生成，因此配置参数可直接参考 [shields.io badges](https://shields.io/badges)，下面配置仅展示此项目扩展参数。
+
+![rl-badge-introduction]
+
+**自定义图标徽章，可以用任何你喜欢的图标。**
+
+[![rl-repo]](https://github.com/DenverCoder1/custom-icon-badges)
+[![rl-online-tool]](https://custom-icon-badges.demolab.com/)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-params] | | | | |
+| `shieldsParams` | any\[] |  | [shields.io 徽章路径参数](https://shields.io/badges) | 例如：`badge/...`（静态徽章） `github/...`（Github 相关） |
+| ![rl-link-query] | | | | |
+| `host` | string | `img.shields.io` | 使用不同的徽章托管服务 | 可选值：`staging.shields.io` `img.shields.io` 等 |
+| `logo` | string |  | 自定义图标名称 | 即自己上传图标时设置的名称 |
+| `shieldsQuerys` | any\[] |  | [shields.io 徽章查询参数](https://shields.io/badges) | 例如：`logoColor`（图标颜色） `style`（徽章样式）等 |
+
+</details>
+
+```markdown
+![Alt](https://custom-icon-badges.demolab.com/{shieldsParams}{?host,shieldsQuerys})
+```
+
+![rl-uses-examples]
+
+```markdown
+![Custom Badge](https://custom-icon-badges.demolab.com/badge/custom-badge-blue.svg?logo=paintbrush&logoColor=white)
+```
+
+![Custom Badge](https://custom-icon-badges.demolab.com/badge/custom-badge-blue.svg?logo=paintbrush\&logoColor=white)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
 ### Capsule-Render 动态彩色图像
 
 ![rl-badge-introduction]
@@ -641,6 +687,72 @@
 ```
 
 ![Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=xiaohuohumax\&theme=github\&hide_border=true)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
+### Github Readme Streak Stats 连续贡献统计图
+
+![rl-badge-introduction]
+
+**显示你的总贡献数、当前连续贡献天数、最长连续贡献天数等信息。**
+
+[![rl-repo]](https://github.com/DenverCoder1/github-readme-streak-stats)
+[![rl-online-tool]](https://streak-stats.demolab.com/demo/)
+[![rl-official-docs]](https://github.com/DenverCoder1/github-readme-streak-stats?tab=readme-ov-file#-options)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-query] | | | | |
+| `user` | string |  | GitHub 用户名 |  |
+| `theme` | string | `default` | 主题 | 可选值：`default` `dark` `highcontrast` `transparent` `radical` 等，更多主题请参考 [themes](https://github.com/DenverCoder1/github-readme-streak-stats/blob/main/docs/themes.md) |
+| `hide_border` | boolean | `false` | 是否使用透明边框 |  |
+| `border_radius` | number | `4.5` | 设置边缘的圆滑度 | 最小：`0`（锐角） 最大：`248`（椭圆） |
+| `background` | string |  | 背景颜色 | 格式：`angle,color1,color2,...` 例如：`180,#fff,#000`，颜色格式：`HEX` `CSS 颜色` 例如：`FF0000` |
+| `border` | string |  | 边框颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
+| `stroke` | string |  | 段落之间的描边颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
+| `ring` | string |  | 当前连续贡献环的颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
+| `fire` | string |  | 火焰的颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
+| `currStreakNum` | string |  | 当前连续天数颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
+| `sideNums` | string |  | 总连续贡献数和最长连续贡献数 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
+| `currStreakLabel` | string |  | 当前连续贡献标签颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
+| `sideLabels` | string |  | 总连续贡献数和最长连续贡献数标签 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
+| `dates` | string |  | 日期范围文本颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
+| `excludeDaysLabel` | string |  | 排除星期的文本颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
+| `date_format` | string |  | 日期格式模式或为空以使用区域格式 | 格式参考：[PHP's date function](https://www.php.net/manual/zh/datetime.format.php#refsect1-datetime.format-parameters)，示例：[example](https://www.php.net/manual/zh/datetime.format.php#refsect1-datetime.format-parameters) |
+| `locale` | string | `en` | 语言 | 格式参考：[Locales](https://github.com/DenverCoder1/github-readme-streak-stats?tab=readme-ov-file#-locales) |
+| `short_numbers` | boolean |  | 是否使用短数字 |  |
+| `type` | string | `svg` | 输出格式 | 可选值：`svg` `json` `png` |
+| `mode` | string | `daily` | 模式 | 可选值：`daily`（每日） `weekly`（每周） |
+| `exclude_days` | string |  | 排除连续贡献的天数 | 可选值：`Sun` `Mon` `Tue` `Wed` `Thu` `Fri` `Sat` 多个值用 `,` 分隔 |
+| `disable_animations` | boolean | `false` | 禁用 SVG 动画 |  |
+| `card_width` | number | `495` | 卡片宽度 | 单位：像素，每列最小宽度为 100 像素 |
+| `card_height` | number | `195` | 卡片高度 | 单位：像素，每列最小高度为 170 像素 |
+| `hide_total_contributions` | boolean | `false` | 是否隐藏总贡献数 |  |
+| `hide_current_streak` | boolean | `false` | 是否隐藏当前连续提交数 |  |
+| `hide_longest_streak` | boolean | `false` | 是否隐藏最长贡献 |  |
+| `starting_year` | number |  | 贡献统计开始年份 |  |
+
+</details>
+
+```markdown
+![Alt](https://streak-stats.demolab.com/{?user,theme,hide_border,border_radius,background,border,stroke,ring,fire,currStreakNum,sideNums,currStreakLabel,sideLabels,dates,excludeDaysLabel,date_format,locale,short_numbers,type,mode,exclude_days,disable_animations,card_width,card_height,hide_total_contributions,hide_current_streak,hide_longest_streak,starting_year})
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- DenverCoder1 -->
+![GitHub Streak](https://streak-stats.demolab.com/?user=DenverCoder1&theme=dark&hide_border=true)
+```
+
+![GitHub Streak](https://streak-stats.demolab.com/?user=DenverCoder1\&theme=dark\&hide_border=true)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
 
