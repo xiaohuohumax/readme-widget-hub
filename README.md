@@ -103,6 +103,9 @@
 
 ![Hello World](https://img.shields.io/badge/badges/shields-555555?logo=github)
 
+<details>
+  <summary>点击展开/收起更多示例</summary><p></p>
+
 ```markdown
 ![Color Badge](https://img.shields.io/badge/F94144-F94144)
 ```
@@ -118,6 +121,8 @@
 ![Color Badge 577590](https://img.shields.io/badge/577590-577590)
 ![Color Badge 555555](https://img.shields.io/badge/555555-555555)
 ![Color Badge 277DA1](https://img.shields.io/badge/277DA1-277DA1)
+
+</details>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
 
@@ -171,6 +176,9 @@
 
 ![Swift Version](https://badgen.net/static/Swift/4.2/orange)
 
+<details>
+  <summary>点击展开/收起更多示例</summary><p></p>
+
 ```markdown
 ![Color Badge](https://badgen.net/badge/color/F94144/F94144?label=)
 ```
@@ -186,6 +194,8 @@
 ![Color Badge 577590](https://badgen.net/badge/color/577590/577590?label=)
 ![Color Badge 555555](https://badgen.net/badge/color/555555/555555?label=)
 ![Color Badge 277DA1](https://badgen.net/badge/color/277DA1/277DA1?label=)
+
+</details>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
 
@@ -485,12 +495,17 @@
 
 ![Capsule-Render Header](https://capsule-render.vercel.app/api?type=waving\&color=auto\&height=300\&section=header\&text=capsule%20render\&fontSize=90\&animation=fadeIn\&fontAlignY=38\&desc=Decorate%20GitHub%20Profile%20or%20any%20Repo%20like%20me!\&descAlignY=51\&descAlign=62)
 
+<details>
+  <summary>点击展开/收起更多示例</summary><p></p>
+
 ```markdown
 <!-- kyechan99/capsule-render -->
 ![Capsule-Render Footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer)
 ```
 
 ![Capsule-Render Footer](https://capsule-render.vercel.app/api?type=waving\&color=auto\&height=100\&section=footer)
+
+</details>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
 
@@ -578,12 +593,17 @@
 
 ![Discord User Badge](https://dcbadge.limes.pink/api/shield/406125028065804289)
 
+<details>
+  <summary>点击展开/收起更多示例</summary><p></p>
+
 ```markdown
 <!-- 机器人 -->
 ![Discord Bot Badge](https://dcbadge.limes.pink/api/shield/852977967776399400?bot=true)
 ```
 
 ![Discord Bot Badge](https://dcbadge.limes.pink/api/shield/852977967776399400?bot=true)
+
+</details>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
 
@@ -886,12 +906,17 @@
 
 ![Sponsors on Open Collective](https://opencollective.com/vite/sponsors.svg)
 
+<details>
+  <summary>点击展开/收起更多示例</summary><p></p>
+
 ```markdown
 <!-- vitejs/vite -->
 ![Sponsors Badge on Open Collective](https://opencollective.com/vite/sponsors/badge.svg)
 ```
 
 ![Sponsors Badge on Open Collective](https://opencollective.com/vite/sponsors/badge.svg)
+
+</details>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
 
@@ -974,12 +999,17 @@
 
 ![Pushes and Commits of pingcap/ossinsight](https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month/thumbnail.png?repo_id=449649595\&color_scheme=dark)
 
+<details>
+  <summary>点击展开/收起更多示例</summary><p></p>
+
 ```markdown
 <!-- antfu -->
 ![Dashboard stats of @antfu](https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=11247099&image_size=auto&color_scheme=dark)
 ```
 
 ![Dashboard stats of @antfu](https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=11247099\&image_size=auto\&color_scheme=dark)
+
+</details>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
 
