@@ -1,5 +1,11 @@
 # badge-collection
 
+## 1.6.0
+
+### Minor Changes
+
+- 徽章使用示例添加超出阈值折叠功能
+
 ## 1.5.0
 
 ### Minor Changes

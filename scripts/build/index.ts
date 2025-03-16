@@ -9,6 +9,7 @@ const builder = new BadgeReadmeBuilder({
   tplPath: import.meta.env.VITE_TPL_PATH,
   tplTocTitle: import.meta.env.VITE_TPL_TOC_TITLE,
   tplBadgeHeadingLevel: Number.parseInt(import.meta.env.VITE_TPL_BADGE_HEADING_LEVEL),
+  examplesFoldThreshold: Number.parseInt(import.meta.env.VITE_EXAMPLES_FOLD_THRESHOLD),
   logger: console,
 })
 

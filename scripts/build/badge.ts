@@ -1,4 +1,4 @@
-import type { Badge, Collection } from './schema.js'
+import type { Badge, Collection, Example } from './schema.js'
 import path from 'node:path'
 import { Ajv } from 'ajv'
 import ArtTemplate from 'art-template'
@@ -23,6 +23,7 @@ export interface BadgeBuilderOptions {
   tplPath: string
   tplTocTitle: string
   tplBadgeHeadingLevel: number
+  examplesFoldThreshold: number
   logger: Logger
 }
 
@@ -34,6 +35,7 @@ interface RenderBadge extends Badge {
   rule: Badge['rule'] & {
     URITemplates: string[]
   }
+  foldedUseExamples: Example[]
   index: number
   level: number
 }
@@ -135,6 +137,7 @@ export class BadgeReadmeBuilder {
         }
 
         const index = badge.index || BADGE_INDEX_DEFAULT
+        const foldedUseExamples = badge.useExamples.splice(this.options.examplesFoldThreshold)
         const renderBadge: RenderBadge = {
           ...badge,
           alert: badge.alert && {
@@ -145,6 +148,7 @@ export class BadgeReadmeBuilder {
             ...badge.rule,
             URITemplates: ensureArray(badge.rule.URITemplates),
           },
+          foldedUseExamples,
           type: 'badge',
           level,
           index,

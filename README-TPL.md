@@ -78,6 +78,24 @@
 
 {{/each}}
 
+{{if $value.foldedUseExamples.length > 0}}
+<details>
+  <summary>点击展开/收起更多示例</summary><p></p>
+
+{{each $value.foldedUseExamples}}
+```markdown
+{{if $value.explain.annotate}}<!-- {{@$value.explain.annotate}} -->
+{{/if}}![{{$value.explain.alt || 'Alt'}}]({{@$value.explain.src}})
+```
+
+{{each $value.images}}![{{$value.alt}}]({{@$value.src}})
+{{/each}}
+
+{{/each}}
+
+</details>
+{{/if}}
+
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
 
 ![rl-line]

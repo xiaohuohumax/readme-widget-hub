@@ -17,6 +17,7 @@ export default defineConfig(({ mode }) => {
         tplPath: env.VITE_TPL_PATH,
         tplTocTitle: env.VITE_TPL_TOC_TITLE,
         tplBadgeHeadingLevel: Number.parseInt(env.VITE_TPL_BADGE_HEADING_LEVEL),
+        examplesFoldThreshold: Number.parseInt(env.VITE_EXAMPLES_FOLD_THRESHOLD),
       }),
     ],
   }

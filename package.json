@@ -1,7 +1,7 @@
 {
   "name": "badge-collection",
   "type": "module",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "private": true,
   "description": "这是一个徽章收集仓库：收集了一些 Github 上热门项目使用过的徽章，以及一些徽章在线制作工具链接。",
   "author": {
