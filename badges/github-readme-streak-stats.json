@@ -1,0 +1,201 @@
+{
+  "title": "Github Readme Streak Stats 连续贡献统计图",
+  "description": "显示你的总贡献数、当前连续贡献天数、最长连续贡献天数等信息。",
+  "tags": {
+    "repoUrl": "https://github.com/DenverCoder1/github-readme-streak-stats",
+    "onlineToolUrl": "https://streak-stats.demolab.com/demo/",
+    "officialDocsUrl": "https://github.com/DenverCoder1/github-readme-streak-stats?tab=readme-ov-file#-options"
+  },
+  "rule": {
+    "query": [
+      {
+        "name": "user",
+        "type": "string",
+        "description": "GitHub 用户名"
+      },
+      {
+        "name": "theme",
+        "type": "string",
+        "default": "default",
+        "description": "主题",
+        "extDescription": "可选值：`default` `dark` `highcontrast` `transparent` `radical` 等，更多主题请参考 [themes](https://github.com/DenverCoder1/github-readme-streak-stats/blob/main/docs/themes.md)"
+      },
+      {
+        "name": "hide_border",
+        "type": "boolean",
+        "default": "false",
+        "description": "是否使用透明边框"
+      },
+      {
+        "name": "border_radius",
+        "type": "number",
+        "default": "4.5",
+        "description": "设置边缘的圆滑度",
+        "extDescription": "最小：`0`（锐角） 最大：`248`（椭圆）"
+      },
+      {
+        "name": "background",
+        "type": "string",
+        "description": "背景颜色",
+        "extDescription": "格式：`angle,color1,color2,...` 例如：`180,#fff,#000`，颜色格式：`HEX` `CSS 颜色` 例如：`FF0000`"
+      },
+      {
+        "name": "border",
+        "type": "string",
+        "description": "边框颜色",
+        "extDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`"
+      },
+      {
+        "name": "stroke",
+        "type": "string",
+        "description": "段落之间的描边颜色",
+        "extDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`"
+      },
+      {
+        "name": "ring",
+        "type": "string",
+        "description": "当前连续贡献环的颜色",
+        "extDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`"
+      },
+      {
+        "name": "fire",
+        "type": "string",
+        "description": "火焰的颜色",
+        "extDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`"
+      },
+      {
+        "name": "currStreakNum",
+        "type": "string",
+        "description": "当前连续天数颜色",
+        "extDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`"
+      },
+      {
+        "name": "sideNums",
+        "type": "string",
+        "description": "总连续贡献数和最长连续贡献数",
+        "extDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`"
+      },
+      {
+        "name": "currStreakLabel",
+        "type": "string",
+        "description": "当前连续贡献标签颜色",
+        "extDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`"
+      },
+      {
+        "name": "sideLabels",
+        "type": "string",
+        "description": "总连续贡献数和最长连续贡献数标签",
+        "extDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`"
+      },
+      {
+        "name": "dates",
+        "type": "string",
+        "description": "日期范围文本颜色",
+        "extDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`"
+      },
+      {
+        "name": "excludeDaysLabel",
+        "type": "string",
+        "description": "排除星期的文本颜色",
+        "extDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`"
+      },
+      {
+        "name": "date_format",
+        "type": "string",
+        "description": "日期格式模式或为空以使用区域格式",
+        "extDescription": "格式参考：[PHP's date function](https://www.php.net/manual/zh/datetime.format.php#refsect1-datetime.format-parameters)，示例：[example](https://www.php.net/manual/zh/datetime.format.php#refsect1-datetime.format-parameters)"
+      },
+      {
+        "name": "locale",
+        "type": "string",
+        "default": "en",
+        "description": "语言",
+        "extDescription": "格式参考：[Locales](https://github.com/DenverCoder1/github-readme-streak-stats?tab=readme-ov-file#-locales)"
+      },
+      {
+        "name": "short_numbers",
+        "type": "boolean",
+        "description": "是否使用短数字"
+      },
+      {
+        "name": "type",
+        "type": "string",
+        "default": "svg",
+        "description": "输出格式",
+        "extDescription": "可选值：`svg` `json` `png`"
+      },
+      {
+        "name": "mode",
+        "type": "string",
+        "default": "daily",
+        "description": "模式",
+        "extDescription": "可选值：`daily`（每日） `weekly`（每周）"
+      },
+      {
+        "name": "exclude_days",
+        "type": "string",
+        "description": "排除连续贡献的天数",
+        "extDescription": "可选值：`Sun` `Mon` `Tue` `Wed` `Thu` `Fri` `Sat` 多个值用 `,` 分隔"
+      },
+      {
+        "name": "disable_animations",
+        "type": "boolean",
+        "default": "false",
+        "description": "禁用 SVG 动画"
+      },
+      {
+        "name": "card_width",
+        "type": "number",
+        "default": "495",
+        "description": "卡片宽度",
+        "extDescription": "单位：像素，每列最小宽度为 100 像素"
+      },
+      {
+        "name": "card_height",
+        "type": "number",
+        "default": "195",
+        "description": "卡片高度",
+        "extDescription": "单位：像素，每列最小高度为 170 像素"
+      },
+      {
+        "name": "hide_total_contributions",
+        "type": "boolean",
+        "default": "false",
+        "description": "是否隐藏总贡献数"
+      },
+      {
+        "name": "hide_current_streak",
+        "type": "boolean",
+        "default": "false",
+        "description": "是否隐藏当前连续提交数"
+      },
+      {
+        "name": "hide_longest_streak",
+        "type": "boolean",
+        "default": "false",
+        "description": "是否隐藏最长贡献"
+      },
+      {
+        "name": "starting_year",
+        "type": "number",
+        "description": "贡献统计开始年份"
+      }
+    ],
+    "URITemplates": "https://streak-stats.demolab.com/{?user,theme,hide_border,border_radius,background,border,stroke,ring,fire,currStreakNum,sideNums,currStreakLabel,sideLabels,dates,excludeDaysLabel,date_format,locale,short_numbers,type,mode,exclude_days,disable_animations,card_width,card_height,hide_total_contributions,hide_current_streak,hide_longest_streak,starting_year}"
+  },
+  "useExamples": [
+    {
+      "explain": {
+        "annotate": "DenverCoder1",
+        "alt": "GitHub Streak",
+        "src": "https://streak-stats.demolab.com/?user=DenverCoder1&theme=dark&hide_border=true"
+      },
+      "images": [
+        {
+          "alt": "GitHub Streak",
+          "src": "https://streak-stats.demolab.com/?user=DenverCoder1&theme=dark&hide_border=true"
+        }
+      ]
+    }
+  ]
+}
