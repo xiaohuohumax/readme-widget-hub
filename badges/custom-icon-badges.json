@@ -1,0 +1,59 @@
+{
+  "index": 5,
+  "title": "Custom Icon Badges 自定义图标徽章",
+  "description": "自定义图标徽章，可以用任何你喜欢的图标。",
+  "alert": {
+    "type": "Tip",
+    "message": "由于此项目徽章是基于 [shields.io](https://shields.io/) 生成，因此配置参数可直接参考 [shields.io badges](https://shields.io/badges)，下面配置仅展示此项目扩展参数。"
+  },
+  "tags": {
+    "repoUrl": "https://github.com/DenverCoder1/custom-icon-badges",
+    "onlineToolUrl": "https://custom-icon-badges.demolab.com/"
+  },
+  "rule": {
+    "params": [
+      {
+        "name": "shieldsParams",
+        "type": "any[]",
+        "description": "[shields.io 徽章路径参数](https://shields.io/badges)",
+        "extDescription": "例如：`badge/...`（静态徽章） `github/...`（Github 相关）"
+      }
+    ],
+    "query": [
+      {
+        "name": "host",
+        "type": "string",
+        "default": "img.shields.io",
+        "description": "使用不同的徽章托管服务",
+        "extDescription": "可选值：`staging.shields.io` `img.shields.io` 等"
+      },
+      {
+        "name": "logo",
+        "type": "string",
+        "description": "自定义图标名称",
+        "extDescription": "即自己上传图标时设置的名称"
+      },
+      {
+        "name": "shieldsQuerys",
+        "type": "any[]",
+        "description": "[shields.io 徽章查询参数](https://shields.io/badges)",
+        "extDescription": "例如：`logoColor`（图标颜色） `style`（徽章样式）等"
+      }
+    ],
+    "URITemplates": "https://custom-icon-badges.demolab.com/{shieldsParams}{?host,shieldsQuerys}"
+  },
+  "useExamples": [
+    {
+      "explain": {
+        "alt": "Custom Badge",
+        "src": "https://custom-icon-badges.demolab.com/badge/custom-badge-blue.svg?logo=paintbrush&logoColor=white"
+      },
+      "images": [
+        {
+          "alt": "Custom Badge",
+          "src": "https://custom-icon-badges.demolab.com/badge/custom-badge-blue.svg?logo=paintbrush&logoColor=white"
+        }
+      ]
+    }
+  ]
+}
