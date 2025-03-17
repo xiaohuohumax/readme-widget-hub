@@ -1,5 +1,11 @@
 # badge-collection
 
+## 1.8.0
+
+### Minor Changes
+
+- 分割线改为 Markdown 内联
+
 ## 1.7.0
 
 ### Minor Changes
