@@ -18,6 +18,8 @@ export interface Logger {
 }
 
 export interface BadgeBuilderOptions {
+  guideBadgeStyle?: string
+  tagBadgeStyle?: string
   badgeDirPath: string
   collectionFileName: string
   tplPath: string
@@ -167,6 +169,8 @@ export class BadgeReadmeBuilder {
     const readme = DO_NOT_EDIT + ArtTemplate.render(readmeTpl, {
       renderItems: items,
       badgeLength: items.filter(item => item.type === 'badge').length,
+      guideBadgeStyle: this.options.guideBadgeStyle || 'for-the-badge',
+      tagBadgeStyle: this.options.tagBadgeStyle || 'flat',
     })
     return generateToc(readme, this.options.tplTocTitle)
   }

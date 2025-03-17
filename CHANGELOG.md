@@ -1,5 +1,11 @@
 # badge-collection
 
+## 1.7.0
+
+### Minor Changes
+
+- 引导徽章和标签徽章样式支持动态配置
+
 ## 1.6.0
 
 ### Minor Changes

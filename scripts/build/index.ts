@@ -4,6 +4,8 @@ import { BadgeReadmeBuilder } from './badge.js'
 console.log('Start building README.md')
 
 const builder = new BadgeReadmeBuilder({
+  guideBadgeStyle: import.meta.env.VITE_GUIDE_BADGE_STYLE,
+  tagBadgeStyle: import.meta.env.VITE_TAG_BADGE_STYLE,
   badgeDirPath: import.meta.env.VITE_BADGES_DIR_PATH,
   collectionFileName: import.meta.env.VITE_COLLECTION_FILE_NAME,
   tplPath: import.meta.env.VITE_TPL_PATH,

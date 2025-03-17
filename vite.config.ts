@@ -12,6 +12,8 @@ export default defineConfig(({ mode }) => {
     },
     plugins: [
       virtualReadme({
+        guideBadgeStyle: env.VITE_GUIDE_BADGE_STYLE,
+        tagBadgeStyle: env.VITE_TAG_BADGE_STYLE,
         badgeDirPath: env.VITE_BADGES_DIR_PATH,
         collectionFileName: env.VITE_COLLECTION_FILE_NAME,
         tplPath: env.VITE_TPL_PATH,
