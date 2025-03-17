@@ -81,18 +81,7 @@ No images found.
 [![Go Report Card](https://goreportcard.com/badge/github.com/nektos/act)](https://goreportcard.com/report/github.com/nektos/act)
 [![awesome-runners](https://img.shields.io/badge/listed%20on-awesome--runners-blue.svg)](https://github.com/jonico/awesome-runners)
 
-## 13. [prometheus/prometheus](https://github.com/prometheus/prometheus)
-
-[![Docker Repository on Quay](https://quay.io/repository/prometheus/prometheus/status)](https://quay.io/repository/prometheus/prometheus)
-[![Docker Pulls](https://img.shields.io/docker/pulls/prom/prometheus.svg?maxAge=604800)](https://hub.docker.com/r/prom/prometheus/)
-[![Go Report Card](https://goreportcard.com/badge/github.com/prometheus/prometheus)](https://goreportcard.com/report/github.com/prometheus/prometheus)
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/486/badge)](https://bestpractices.coreinfrastructure.org/projects/486)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/prometheus/prometheus/badge)](https://securityscorecards.dev/viewer/?uri=github.com/prometheus/prometheus)
-[![CLOMonitor](https://img.shields.io/endpoint?url=https://clomonitor.io/api/projects/cncf/prometheus/badge)](https://clomonitor.io/projects/cncf/prometheus)
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/prometheus/prometheus)
-[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/prometheus.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&#38;can=1&#38;q=proj:prometheus)
-
-## 14. [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit)
+## 13. [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit)
 
 ![Subble](https://subble-marketing-portal-media-storage.s3.amazonaws.com/images/subble-black-name-logo.svg)
 [![GitHub Releases](https://img.shields.io/github/downloads/jesseduffield/lazygit/total)](https://github.com/jesseduffield/lazygit/releases)
@@ -104,6 +93,17 @@ No images found.
 [![homebrew](https://img.shields.io/homebrew/v/lazygit)](https://github.com/Homebrew/homebrew-core/blob/master/Formula/lazygit.rb)
 [![](https://i.imgur.com/sVEktDn.png)](https://youtu.be/CPLdltN7wgE)
 [![Packaging status](https://repology.org/badge/vertical-allrepos/lazygit.svg?columns=3)](https://repology.org/project/lazygit/versions)
+
+## 14. [prometheus/prometheus](https://github.com/prometheus/prometheus)
+
+[![Docker Repository on Quay](https://quay.io/repository/prometheus/prometheus/status)](https://quay.io/repository/prometheus/prometheus)
+[![Docker Pulls](https://img.shields.io/docker/pulls/prom/prometheus.svg?maxAge=604800)](https://hub.docker.com/r/prom/prometheus/)
+[![Go Report Card](https://goreportcard.com/badge/github.com/prometheus/prometheus)](https://goreportcard.com/report/github.com/prometheus/prometheus)
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/486/badge)](https://bestpractices.coreinfrastructure.org/projects/486)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/prometheus/prometheus/badge)](https://securityscorecards.dev/viewer/?uri=github.com/prometheus/prometheus)
+[![CLOMonitor](https://img.shields.io/endpoint?url=https://clomonitor.io/api/projects/cncf/prometheus/badge)](https://clomonitor.io/projects/cncf/prometheus)
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/prometheus/prometheus)
+[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/prometheus.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&#38;can=1&#38;q=proj:prometheus)
 
 ## 15. [traefik/traefik](https://github.com/traefik/traefik)
 

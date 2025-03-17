@@ -86,17 +86,17 @@ No images found.
 [![Code coverage](https://img.shields.io/sonar/coverage/monica?server=https%3A%2F%2Fsonarcloud.io&#38;style=flat-square&#38;label=Coverage%20Status)](https://sonarcloud.io/project/activity?custom_metrics=coverage&#38;graph=custom&#38;id=monica)
 [![License](https://img.shields.io/github/license/monicahq/monica)](https://github.com/monicahq/monica/blob/main/LICENSE.md)
 
-## 12. [DesignPatternsPHP/DesignPatternsPHP](https://github.com/DesignPatternsPHP/DesignPatternsPHP)
-
-[![Documentation Status](https://readthedocs.org/projects/designpatternsphp/badge/?version=latest)](https://designpatternsphp.readthedocs.io/?badge=latest)
-
-## 13. [filamentphp/filament](https://github.com/filamentphp/filament)
+## 12. [filamentphp/filament](https://github.com/filamentphp/filament)
 
 [![Tests passing](https://img.shields.io/badge/Tests-passing-green?style=for-the-badge&#38;logo=github)](https://github.com/filamentphp/filament/actions)
 [![Laravel v10.x](https://img.shields.io/badge/Laravel-v10.x-FF2D20?style=for-the-badge&#38;logo=laravel)](https://laravel.com)
 [![Livewire v3.x](https://img.shields.io/badge/Livewire-v3.x-FB70A9?style=for-the-badge)](https://livewire.laravel.com)
 [![PHP 8.1](https://img.shields.io/badge/PHP-8.1-777BB4?style=for-the-badge&#38;logo=php)](https://php.net)
 [![filamentphp%2Ffilament | Trendshift](https://trendshift.io/api/badge/repositories/238)](https://trendshift.io/repositories/238)
+
+## 13. [DesignPatternsPHP/DesignPatternsPHP](https://github.com/DesignPatternsPHP/DesignPatternsPHP)
+
+[![Documentation Status](https://readthedocs.org/projects/designpatternsphp/badge/?version=latest)](https://designpatternsphp.readthedocs.io/?badge=latest)
 
 ## 14. [PHPMailer/PHPMailer](https://github.com/PHPMailer/PHPMailer)
 
