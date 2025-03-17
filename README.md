@@ -16,7 +16,7 @@
     <a href="https://github.com/xiaohuohumax/badge-collection/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection" /></a>
-    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-24-84AD64" /></a>
+    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-25-84AD64" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
   <br/>
@@ -42,6 +42,7 @@
     * [GitHub Profile Trophy | GitHub 个人资料奖杯](#github-profile-trophy--github-个人资料奖杯)
     * [Github Readme Activity Graph | Github 个人活动图](#github-readme-activity-graph--github-个人活动图)
     * [Github Readme Streak Stats | Github 连续贡献统计图](#github-readme-streak-stats--github-连续贡献统计图)
+    * [GitHub Workflows Badge | GitHub 工作流程徽章](#github-workflows-badge--github-工作流程徽章)
     * [Github Chart API | Github 个人贡献卡片](#github-chart-api--github-个人贡献卡片)
     * [Repobeats | GitHub 仓库分析图](#repobeats--github-仓库分析图)
     * [Socialify | Github 项目描述卡片](#socialify--github-项目描述卡片)
@@ -817,6 +818,48 @@
 ```
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=DenverCoder1\&theme=dark\&hide_border=true)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
+#### GitHub Workflows Badge | GitHub 工作流程徽章
+
+![rl-badge-introduction]
+
+**GitHub 官方徽章，显示你的 GitHub 仓库中正在运行的工作流状态。**
+
+[![rl-official-docs]](https://docs.github.com/zh/actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/adding-a-workflow-status-badge)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-params] | | | | |
+| `owner` | string |  | 用户名 |  |
+| `repo` | string |  | 仓库名 |  |
+| `workflowFile` | string |  | 工作流文件名 |  |
+| ![rl-link-query] | | | | |
+| `branch` | string |  | 项目分支名 |  |
+| `event` | string |  | 工作流触发事件名 |  |
+
+</details>
+
+```markdown
+![Alt](https://github.com/github/{owner}/{repo}/workflows/{workflowFile}/badge.svg{?branch,event})
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- xiaohuohumax/badge-collection -->
+![Workflow Status](https://github.com/xiaohuohumax/badge-collection/actions/workflows/build-readme.yaml/badge.svg)
+```
+
+![Workflow Status](https://github.com/xiaohuohumax/badge-collection/actions/workflows/build-readme.yaml/badge.svg)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
 
