@@ -16,7 +16,7 @@
     <a href="https://github.com/xiaohuohumax/badge-collection/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection" /></a>
-    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-26-84AD64" /></a>
+    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-27-84AD64" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
   <br/>
@@ -47,6 +47,7 @@
     * [Github Chart API | Github 个人贡献卡片](#github-chart-api--github-个人贡献卡片)
     * [Repobeats | GitHub 仓库分析图](#repobeats--github-仓库分析图)
     * [Socialify | Github 项目描述卡片](#socialify--github-项目描述卡片)
+  * [Gradgen | 渐变徽章](#gradgen--渐变徽章)
   * [Iconify | 图标徽章](#iconify--图标徽章)
   * [Open Collective | 财务贡献者图](#open-collective--财务贡献者图)
   * [OpenSSF Best Practices Badge | 最佳实践徽章](#openssf-best-practices-badge--最佳实践徽章)
@@ -367,16 +368,16 @@
 | 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
 | ------ | :--- | :----- | :--- | :------- |
 | ![rl-link-params] | | | | |
-| `shieldsParams` | any\[] |  | [shields.io 徽章路径参数](https://shields.io/badges) | 例如：`badge/...`（静态徽章） `github/...`（Github 相关） |
+| `shieldsIoParams` | any\[] |  | [shields.io 徽章路径参数](https://shields.io/badges) | 例如：`badge/...`（静态徽章） `github/...`（Github 相关） |
 | ![rl-link-query] | | | | |
 | `host` | string | `img.shields.io` | 使用不同的徽章托管服务 | 可选值：`staging.shields.io` `img.shields.io` 等 |
 | `logo` | string |  | 自定义图标名称 | 即自己上传图标时设置的名称 |
-| `shieldsQuerys` | any\[] |  | [shields.io 徽章查询参数](https://shields.io/badges) | 例如：`logoColor`（图标颜色） `style`（徽章样式）等 |
+| `shieldsIoQuerys` | any\[] |  | [shields.io 徽章查询参数](https://shields.io/badges) | 例如：`logoColor`（图标颜色） `style`（徽章样式）等 |
 
 </details>
 
 ```markdown
-![Alt](https://custom-icon-badges.demolab.com/{shieldsParams}{?host,shieldsQuerys})
+![Alt](https://custom-icon-badges.demolab.com/{shieldsIoParams}{?host,shieldsIoQuerys})
 ```
 
 ![rl-uses-examples]
@@ -1073,6 +1074,51 @@
 ```
 
 ![GitHub Socialify](https://socialify.git.ci/xiaohuohumax/badge-collection/image?font=Rokkitt\&forks=1\&issues=1\&language=1\&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fxiaohuohumax%2Flogo%2Frefs%2Fheads%2Fmain%2Flogos%2Flogo.svg\&name=1\&owner=1\&pattern=Plus\&pulls=1\&stargazers=1\&theme=Auto)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
+### Gradgen | 渐变徽章
+
+> \[!Tip]
+> 由于此项目徽章是基于 [badgen.net](https://badgen.net/) 生成，因此配置参数可直接参考 [badgen.net help](https://badgen.net/help)，下面配置仅展示此项目扩展参数。
+
+![rl-badge-introduction]
+
+**Gradgen 是一个简单而强大的徽章生成器，它为 [badgen.net](https://badgen.net/) 上的徽章增添了令人惊叹的渐变效果。**
+
+[![rl-repo]](https://github.com/bokub/gradgen)
+[![rl-official-docs]](https://github.com/bokub/gradgen?tab=readme-ov-file#usage)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-params] | | | | |
+| `badgenNetParams` | any\[] |  | [badgen.net 徽章路径参数](https://badgen.net/help) | 例如：`static/...`（静态徽章） `github/...`（Github 相关） |
+| ![rl-link-query] | | | | |
+| `gradient` | string |  | 渐变色 | 格式：`color1,color2` 颜色格式：`HEX` `CSS 颜色` |
+| `style` | string |  | 徽章样式 | 可选值：`flat` |
+| `badgenNetQuerys` | any\[] |  | [badgen.net 徽章查询参数](https://badgen.net/help) | 例如：`color`（图标颜色） `icon`（图标）等 |
+
+</details>
+
+```markdown
+![Alt](https://gradgen.bokub.workers.dev/{badgenNetParams}{?gradient,badgenNetQuerys)
+```
+
+![rl-uses-examples]
+
+```markdown
+![Gradgen](https://gradgen.bokub.workers.dev/github/checks/nodejs/node?gradient=F3722C,F94144&style=flat)
+```
+
+![Gradgen Default](https://gradgen.bokub.workers.dev/github/checks/nodejs/node?gradient=F3722C,F94144)
+![Gradgen Flat](https://gradgen.bokub.workers.dev/github/checks/nodejs/node?gradient=F3722C,F94144\&style=flat)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
 
