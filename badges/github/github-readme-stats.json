@@ -1,6 +1,6 @@
 {
   "index": 3,
-  "title": "GitHub Readme Stats",
+  "title": "GitHub Readme Stats | Github 状态卡片",
   "description": "获取动态生成的 GitHub 统计信息！",
   "alert": {
     "type": "Tip",

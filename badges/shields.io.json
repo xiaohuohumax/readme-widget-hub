@@ -1,6 +1,6 @@
 {
   "index": 1,
-  "title": "Shields.io",
+  "title": "Shields.io | 徽章生成服务",
   "description": "Shields.io 是一个提供简洁、一致和易读的 SVG 和位图格式徽章的服务，可以轻松地包含在 GitHub 的 README 文件或任何其他网页中。",
   "alert": {
     "type": "Tip",

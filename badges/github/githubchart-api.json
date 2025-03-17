@@ -1,6 +1,6 @@
 {
-  "title": "Github Chart API 个人贡献卡片",
-  "description": "",
+  "title": "Github Chart API | Github 个人贡献卡片",
+  "description": "回顾 Github 个人贡献图表，展示你的 Github 贡献历史。",
   "tags": {
     "repoUrl": "https://github.com/2016rshah/githubchart-api",
     "officialDocsUrl": "https://github.com/2016rshah/githubchart-api"

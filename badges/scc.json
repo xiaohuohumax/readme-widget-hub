@@ -1,5 +1,5 @@
 {
-  "title": "SCC 代码行数统计",
+  "title": "Sloc Cloc and Code | 代码行数统计",
   "description": "一个可以显示代码行数、注释行数等的徽章服务。",
   "tags": {
     "repoUrl": "https://github.com/boyter/scc/",

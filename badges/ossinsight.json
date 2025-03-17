@@ -1,5 +1,5 @@
 {
-  "title": "OSSInsight 开源软件洞察",
+  "title": "Open Source Software Insight | 开源软件洞察",
   "description": "在 30 秒内即可将实时小部件嵌入到仓库的 README.md 文件中！",
   "alert": {
     "type": "Tip",
