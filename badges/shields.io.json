@@ -11,7 +11,7 @@
     "onlineToolUrl": "https://shields.io/badges",
     "officialDocsUrl": "https://shields.io/badges"
   },
-  "rule": {
+  "rules": {
     "params": [
       {
         "name": "badgeContent",
@@ -20,7 +20,7 @@
         "extDescription": "格式：`标签-消息-消息背景颜色`"
       }
     ],
-    "query": [
+    "querys": [
       {
         "name": "style",
         "type": "string",
@@ -85,7 +85,7 @@
         "extDescription": "徽章继承到 `<object>` HTML 标签时生效"
       }
     ],
-    "URITemplates": "https://img.shields.io/badge/{badgeContent}{?style,logo,logoColor,logoSize,label,labelColor,color,cacheSeconds,link}"
+    "srcTemplate": "https://img.shields.io/badge/{badgeContent}{?style,logo,logoColor,logoSize,label,labelColor,color,cacheSeconds,link}"
   },
   "useExamples": [
     {

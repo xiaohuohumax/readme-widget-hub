@@ -6,8 +6,8 @@
     "onlineToolUrl": "https://ashutosh00710.github.io/github-readme-activity-graph/",
     "officialDocsUrl": "https://github.com/Ashutosh00710/github-readme-activity-graph?tab=readme-ov-file#how-to-use"
   },
-  "rule": {
-    "query": [
+  "rules": {
+    "querys": [
       {
         "name": "username",
         "type": "string",
@@ -117,7 +117,7 @@
         "description": "是否显示网格"
       }
     ],
-    "URITemplates": "https://github-readme-activity-graph.vercel.app/graph{?username,theme,bg_color,color,title_color,line,point,area_color,area,hide_border,hide_title,custom_title,radius,height,days,from,to,grid}"
+    "srcTemplate": "https://github-readme-activity-graph.vercel.app/graph{?username,theme,bg_color,color,title_color,line,point,area_color,area,hide_border,hide_title,custom_title,radius,height,days,from,to,grid}"
   },
   "useExamples": [
     {

@@ -1,5 +1,11 @@
 # badge-collection
 
+## 1.9.0
+
+### Minor Changes
+
+- 徽章参数支持多个
+
 ## 1.8.0
 
 ### Minor Changes

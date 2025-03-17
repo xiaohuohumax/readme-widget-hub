@@ -6,7 +6,7 @@
     "onlineToolUrl": "https://www.bestpractices.dev",
     "needLogin": true
   },
-  "rule": {
+  "rules": {
     "params": [
       {
         "name": "id",
@@ -14,7 +14,7 @@
         "description": "项目 ID"
       }
     ],
-    "URITemplates": "https://www.bestpractices.dev/projects/{id}/badge"
+    "srcTemplate": "https://www.bestpractices.dev/projects/{id}/badge"
   },
   "useExamples": [
     {

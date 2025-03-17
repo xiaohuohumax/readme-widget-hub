@@ -6,7 +6,7 @@
     "onlineToolUrl": "https://count.getloli.com/",
     "officialDocsUrl": "https://count.getloli.com/"
   },
-  "rule": {
+  "rules": {
     "params": [
       {
         "name": "countId",
@@ -15,7 +15,7 @@
         "extDescription": "不能包含特殊字符"
       }
     ],
-    "query": [
+    "querys": [
       {
         "name": "theme",
         "type": "string",
@@ -78,7 +78,7 @@
         "extDescription": "在统计数字前添加的数字，最大：`999999`"
       }
     ],
-    "URITemplates": "https://count.getloli.com/@{countId}{?theme,padding,offset,scale,align,pixelated,darkmode,num,prefix}"
+    "srcTemplate": "https://count.getloli.com/@{countId}{?theme,padding,offset,scale,align,pixelated,darkmode,num,prefix}"
   },
   "useExamples": [
     {

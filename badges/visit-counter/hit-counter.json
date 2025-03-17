@@ -5,8 +5,8 @@
     "repoUrl": "https://github.com/gjbae1212/hit-counter",
     "onlineToolUrl": "https://hits.seeyoufarm.com/#badge"
   },
-  "rule": {
-    "query": [
+  "rules": {
+    "querys": [
       {
         "name": "url",
         "type": "string",
@@ -45,7 +45,7 @@
         "extDescription": "支持十六进制颜色代码，例如：#FF0000"
       }
     ],
-    "URITemplates": "https://hits.seeyoufarm.com/api/count/incr/badge.svg{?url,edge_flat,title,title_bg,count_bg,icon_color}"
+    "srcTemplate": "https://hits.seeyoufarm.com/api/count/incr/badge.svg{?url,edge_flat,title,title_bg,count_bg,icon_color}"
   },
   "useExamples": [
     {

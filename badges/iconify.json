@@ -6,7 +6,7 @@
     "officialDocsUrl": "https://iconify.design/docs/api/svg.html",
     "onlineToolUrl": "https://icon-sets.iconify.design/?category=Emoji"
   },
-  "rule": {
+  "rules": {
     "params": [
       {
         "name": "prefix",
@@ -19,7 +19,7 @@
         "description": "图标名称"
       }
     ],
-    "query": [
+    "querys": [
       {
         "name": "color",
         "type": "string",
@@ -61,7 +61,7 @@
         "description": "是否向 SVG 添加与 viewBox 匹配的空矩形"
       }
     ],
-    "URITemplates": "https://api.iconify.design/{prefix}/{name}.svg{?color,width,height,flip,rotate,download,box}"
+    "srcTemplate": "https://api.iconify.design/{prefix}/{name}.svg{?color,width,height,flip,rotate,download,box}"
   },
   "useExamples": [
     {

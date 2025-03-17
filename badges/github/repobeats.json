@@ -7,7 +7,7 @@
     "officialDocsUrl": "https://repobeats.axiom.co/",
     "needLogin": true
   },
-  "rule": {
+  "rules": {
     "params": [
       {
         "name": "configId",
@@ -16,7 +16,7 @@
         "extDescription": "登录 [Repobeats](https://repobeats.axiom.co/) 后选择仓库后获取"
       }
     ],
-    "URITemplates": "https://repobeats.axiom.co/api/embed/{configId}.svg"
+    "srcTemplate": "https://repobeats.axiom.co/api/embed/{configId}.svg"
   },
   "useExamples": [
     {

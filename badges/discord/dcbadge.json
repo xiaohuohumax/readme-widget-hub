@@ -5,7 +5,7 @@
     "repoUrl": "https://github.com/gitlimes/dcbadge",
     "officialDocsUrl": "https://github.com/gitlimes/dcbadge?tab=readme-ov-file#set-up"
   },
-  "rule": {
+  "rules": {
     "params": [
       {
         "name": "type",
@@ -20,7 +20,7 @@
         "extDescription": "用户 ID、机器人 ID、服务器邀请链接等"
       }
     ],
-    "query": [
+    "querys": [
       {
         "name": "style",
         "type": "string",
@@ -53,7 +53,7 @@
         "description": "是否为机器人"
       }
     ],
-    "URITemplates": "https://dcbadge.limes.pink/api/{type}/{id}{?style,theme,compact,logoColor,bot}"
+    "srcTemplate": "https://dcbadge.limes.pink/api/{type}/{id}{?style,theme,compact,logoColor,bot}"
   },
   "useExamples": [
     {

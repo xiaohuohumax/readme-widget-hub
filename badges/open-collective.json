@@ -5,7 +5,7 @@
     "repoUrl": "https://github.com/opencollective",
     "officialDocsUrl": "https://docs.opencollective.com/help/collectives/collective-settings/data-export#contributor-image"
   },
-  "rule": {
+  "rules": {
     "params": [
       {
         "name": "collectiveName",
@@ -19,7 +19,7 @@
         "extDescription": "可选值：`sponsors`（赞助商）、`backers`（支持者）、`contributors`（贡献者）"
       }
     ],
-    "query": [
+    "querys": [
       {
         "name": "width",
         "type": "number",
@@ -56,7 +56,7 @@
         "extDescription": "将 `.svg` 替换为 `.png` 或 `.jpg`"
       }
     ],
-    "URITemplates": "https://opencollective.com/{collectiveName}/{statisticalType}.svg{?width,height,limit,avatarHeight,button,format}"
+    "srcTemplate": "https://opencollective.com/{collectiveName}/{statisticalType}.svg{?width,height,limit,avatarHeight,button,format}"
   },
   "useExamples": [
     {

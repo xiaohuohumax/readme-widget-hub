@@ -5,26 +5,36 @@
     "repoUrl": "https://github.com/2016rshah/githubchart-api",
     "officialDocsUrl": "https://github.com/2016rshah/githubchart-api"
   },
-  "rule": {
-    "params": [
-      {
-        "name": "color",
-        "type": "string",
-        "default": "default",
-        "description": "主题颜色",
-        "extDescription": "可选值：`teal` `halloween` `default` `old` `HEX 值`（例如：`FF0000`）"
-      },
-      {
-        "name": "username",
-        "type": "string",
-        "description": "Github 用户名"
-      }
-    ],
-    "URITemplates": [
-      "https://ghchart.rshah.org/{color}/{username}",
-      "https://ghchart.rshah.org/{username}"
-    ]
-  },
+  "rules": [
+    {
+      "params": [
+        {
+          "name": "color",
+          "type": "string",
+          "default": "default",
+          "description": "主题颜色",
+          "extDescription": "可选值：`teal` `halloween` `default` `old` `HEX 值`（例如：`FF0000`）"
+        },
+        {
+          "name": "username",
+          "type": "string",
+          "description": "Github 用户名"
+        }
+      ],
+      "annotate": "配置颜色",
+      "srcTemplate": "https://ghchart.rshah.org/{color}/{username}"
+    },
+    {
+      "params": [
+        {
+          "name": "username",
+          "type": "string",
+          "description": "Github 用户名"
+        }
+      ],
+      "srcTemplate": "https://ghchart.rshah.org/{username}"
+    }
+  ],
   "useExamples": [
     {
       "explain": {

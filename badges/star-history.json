@@ -6,8 +6,8 @@
     "onlineToolUrl": "https://www.star-history.com",
     "officialDocsUrl": "https://www.star-history.com/blog/how-to-use-github-star-history"
   },
-  "rule": {
-    "query": [
+  "rules": {
+    "querys": [
       {
         "name": "repos",
         "type": "string[]",
@@ -21,7 +21,7 @@
         "extDescription": "可选值：`Date` `Timeline`"
       }
     ],
-    "URITemplates": "https://api.star-history.com/svg{?repos,type}"
+    "srcTemplate": "https://api.star-history.com/svg{?repos,type}"
   },
   "useExamples": [
     {

@@ -5,7 +5,7 @@
     "repoUrl": "https://github.com/estruyf/web-visitorbadge-nextjs",
     "onlineToolUrl": "https://visitorbadge.io/"
   },
-  "rule": {
+  "rules": {
     "params": [
       {
         "name": "type",
@@ -14,7 +14,7 @@
         "extDescription": "可选值：`visitors`（总数）、`daily`（单日）、`combined`（前两个组合）"
       }
     ],
-    "query": [
+    "querys": [
       {
         "name": "path",
         "type": "string",
@@ -55,7 +55,7 @@
         "extDescription": "可选值：`upper`（大写） `lower`（小写）"
       }
     ],
-    "URITemplates": "https://api.visitorbadge.io/api/{type}{?path,label,labelColor,countColor,style,labelStyle}"
+    "srcTemplate": "https://api.visitorbadge.io/api/{type}{?path,label,labelColor,countColor,style,labelStyle}"
   },
   "useExamples": [
     {

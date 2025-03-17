@@ -10,7 +10,7 @@
     "repoUrl": "https://github.com/DenverCoder1/custom-icon-badges",
     "onlineToolUrl": "https://custom-icon-badges.demolab.com/"
   },
-  "rule": {
+  "rules": {
     "params": [
       {
         "name": "shieldsParams",
@@ -19,7 +19,7 @@
         "extDescription": "例如：`badge/...`（静态徽章） `github/...`（Github 相关）"
       }
     ],
-    "query": [
+    "querys": [
       {
         "name": "host",
         "type": "string",
@@ -40,7 +40,7 @@
         "extDescription": "例如：`logoColor`（图标颜色） `style`（徽章样式）等"
       }
     ],
-    "URITemplates": "https://custom-icon-badges.demolab.com/{shieldsParams}{?host,shieldsQuerys}"
+    "srcTemplate": "https://custom-icon-badges.demolab.com/{shieldsParams}{?host,shieldsQuerys}"
   },
   "useExamples": [
     {

@@ -10,8 +10,8 @@
     "repoUrl": "https://github.com/anuraghazra/github-readme-stats",
     "officialDocsUrl": "https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#features-"
   },
-  "rule": {
-    "query": [
+  "rules": {
+    "querys": [
       {
         "name": "username",
         "type": "string",
@@ -102,7 +102,7 @@
         "extDescription": "背景色支持渐变，格式：`deg,color1,color2,color3,...`"
       }
     ],
-    "URITemplates": "https://github-readme-stats.vercel.app/api{?username,title_color,text_color,icon_color,border_color,hide_border,theme,cache_seconds,locale,border_radius,hide,show,show_icons,bg_color}"
+    "srcTemplate": "https://github-readme-stats.vercel.app/api{?username,title_color,text_color,icon_color,border_color,hide_border,theme,cache_seconds,locale,border_radius,hide,show,show_icons,bg_color}"
   },
   "useExamples": [
     {

@@ -49,28 +49,34 @@
 
 ![rl-badge-params]
 
+{{each $value.rules}}
+{{if $value.params.length || $value.querys.length}}
+
 <details>
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
-| ------ | :--- | :----- | :--- | :------- |{{if $value.rule.params}}
-| ![rl-link-params] | | | | |{{each $value.rule.params}}
-| `{{$value.name}}` | {{$value.type}} | {{if $value.default}}`{{$value.default}}`{{/if}} | {{@$value.description}} | {{@$value.extDescription || ""}} |{{/each}}{{/if}}{{if $value.rule.query}}
-| ![rl-link-query] | | | | |{{each $value.rule.query}}
+| ------ | :--- | :----- | :--- | :------- |{{if $value.params.length > 0}}
+| ![rl-link-params] | | | | |{{each $value.params}}
+| `{{$value.name}}` | {{$value.type}} | {{if $value.default}}`{{$value.default}}`{{/if}} | {{@$value.description}} | {{@$value.extDescription || ""}} |{{/each}}{{/if}}{{if $value.querys.length > 0}}
+| ![rl-link-query] | | | | |{{each $value.querys}}
 | `{{$value.name}}` | {{$value.type}} | {{if $value.default}}`{{$value.default}}`{{/if}} | {{@$value.description}} | {{@$value.extDescription || ""}} |{{/each}}{{/if}}
 
 </details>
+{{/if}}
 
-```markdown{{each $value.rule.URITemplates}}
-![Alt]({{@$value}}){{/each}}
+```markdown
+{{if $value.annotate}}<!-- {{@$value.annotate}} -->
+{{/if}}![{{$value.alt}}]({{@$value.srcTemplate}})
 ```
+{{/each}}
 
 ![rl-uses-examples]
 
 {{each $value.useExamples}}
 ```markdown
 {{if $value.explain.annotate}}<!-- {{@$value.explain.annotate}} -->
-{{/if}}![{{$value.explain.alt || 'Alt'}}]({{@$value.explain.src}})
+{{/if}}![{{$value.explain.alt}}]({{@$value.explain.src}})
 ```
 
 {{each $value.images}}![{{$value.alt}}]({{@$value.src}})

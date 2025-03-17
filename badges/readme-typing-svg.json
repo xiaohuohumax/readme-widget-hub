@@ -6,8 +6,8 @@
     "onlineToolUrl": "https://readme-typing-svg.demolab.com/demo/",
     "officialDocsUrl": "https://github.com/denvercoder1/readme-typing-svg?tab=readme-ov-file#-options"
   },
-  "rule": {
-    "query": [
+  "rules": {
+    "querys": [
       {
         "name": "lines",
         "type": "string",
@@ -109,7 +109,7 @@
         "extDescription": "任何字母间距（letter-spacing）属性的 CSS 值"
       }
     ],
-    "URITemplates": "https://readme-typing-svg.demolab.com{?lines,height,width,size,font,color,background,center,vCenter,multiline,duration,pause,repeat,separator,letterSpacing}"
+    "srcTemplate": "https://readme-typing-svg.demolab.com{?lines,height,width,size,font,color,background,center,vCenter,multiline,duration,pause,repeat,separator,letterSpacing}"
   },
   "useExamples": [
     {

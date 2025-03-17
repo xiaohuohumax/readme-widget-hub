@@ -9,8 +9,8 @@
     "repoUrl": "https://github.com/pingcap/ossinsight",
     "onlineToolUrl": "https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month?repo_id=449649595"
   },
-  "rule": {
-    "query": [
+  "rules": {
+    "querys": [
       {
         "name": "repo_id",
         "type": "string",
@@ -23,7 +23,7 @@
         "extDescription": "可选值：`light` `dark`"
       }
     ],
-    "URITemplates": "https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month{?repo_id,color_scheme}"
+    "srcTemplate": "https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month{?repo_id,color_scheme}"
   },
   "useExamples": [
     {

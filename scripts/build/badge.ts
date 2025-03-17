@@ -1,4 +1,4 @@
-import type { Badge, Collection, Example } from './schema.js'
+import type { Badge, Collection, Example, Rule } from './schema.js'
 import path from 'node:path'
 import { Ajv } from 'ajv'
 import ArtTemplate from 'art-template'
@@ -29,15 +29,23 @@ export interface BadgeBuilderOptions {
   logger: Logger
 }
 
+type RequiredKeys<O, K extends keyof O> = Required<Pick<O, K>> & Exclude<O, K>
+
+type RenderRuleRequired = 'params' | 'querys' | 'alt'
+type RenderRule = RequiredKeys<Rule, RenderRuleRequired>
+
+interface RenderExample extends Example {
+  explain: RequiredKeys<Example['explain'], 'alt'>
+}
+
 interface RenderBadge extends Badge {
   type: 'badge'
   alert?: Badge['alert'] & {
     messages: string[]
   }
-  rule: Badge['rule'] & {
-    URITemplates: string[]
-  }
-  foldedUseExamples: Example[]
+  rules: RenderRule[]
+  useExamples: RenderExample[]
+  foldedUseExamples: RenderExample[]
   index: number
   level: number
 }
@@ -70,6 +78,46 @@ export class BadgeReadmeBuilder {
     return json as T
   }
 
+  private collection2RenderCollection(collection: Collection, level: number, index: number): RenderCollection {
+    return {
+      ...collection,
+      type: 'collection',
+      level,
+      index,
+    }
+  }
+
+  private badge2RenderBadge(badge: Badge, level: number, index: number): RenderBadge {
+    const useExamples: RenderExample[] = badge.useExamples.map(example => ({
+      ...example,
+      explain: {
+        ...example.explain,
+        alt: example.explain.alt || 'Alt',
+      },
+    }))
+    const foldedUseExamples = useExamples.splice(this.options.examplesFoldThreshold)
+    const rules = ensureArray(badge.rules).map(rule => ({
+      ...rule,
+      params: rule.params || [],
+      querys: rule.querys || [],
+      alt: rule.alt || 'Alt',
+    }))
+
+    return {
+      ...badge,
+      alert: badge.alert && {
+        ...badge.alert,
+        messages: ensureArray(badge.alert.messages),
+      },
+      rules,
+      useExamples,
+      foldedUseExamples,
+      type: 'badge',
+      level,
+      index,
+    }
+  }
+
   public loopReadBadgesDir(dirPath: string, deepLevel: number = 1): RenderItem[] {
     const items: RenderItem[] = []
     const files = fs.readdirSync(dirPath, { withFileTypes: true })
@@ -96,28 +144,24 @@ export class BadgeReadmeBuilder {
       const filePath = path.join(file.parentPath, file.name)
 
       if (file.isDirectory()) {
-        const badgeCollection = this.readAndValidateJson<Collection>(
+        const collection = this.readAndValidateJson<Collection>(
           path.join(filePath, this.options.collectionFileName),
           collectionSchema,
         )
-        if (!badgeCollection) {
+        if (!collection) {
           continue
         }
 
-        if (badgeCollection.enabled === false) {
+        if (collection.enabled === false) {
           this.options.logger.warn(`skipped "${filePath}": disabled.`)
           continue
         }
 
-        const index = badgeCollection.index || BADGE_INDEX_DEFAULT
+        const index = collection.index || BADGE_INDEX_DEFAULT
+        const renderCollection = this.collection2RenderCollection(collection, level, index)
         const pushIndex = getPushIndex(index)
 
-        items.splice(pushIndex, 0, {
-          ...badgeCollection,
-          type: 'collection',
-          level,
-          index,
-        })
+        items.splice(pushIndex, 0, renderCollection)
 
         const subItems = this.loopReadBadgesDir(filePath, deepLevel + 1)
         items.splice(pushIndex + 1, 0, ...subItems.map((item) => {
@@ -139,22 +183,8 @@ export class BadgeReadmeBuilder {
         }
 
         const index = badge.index || BADGE_INDEX_DEFAULT
-        const foldedUseExamples = badge.useExamples.splice(this.options.examplesFoldThreshold)
-        const renderBadge: RenderBadge = {
-          ...badge,
-          alert: badge.alert && {
-            ...badge.alert,
-            messages: ensureArray(badge.alert.messages),
-          },
-          rule: {
-            ...badge.rule,
-            URITemplates: ensureArray(badge.rule.URITemplates),
-          },
-          foldedUseExamples,
-          type: 'badge',
-          level,
-          index,
-        }
+        const renderBadge = this.badge2RenderBadge(badge, level, index)
+
         const pushIndex = getPushIndex(index)
         items.splice(pushIndex, 0, renderBadge)
         this.options.logger.log(`added "${filePath}".`)

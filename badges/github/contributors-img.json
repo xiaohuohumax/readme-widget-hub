@@ -5,8 +5,8 @@
     "repoUrl": "https://github.com/lacolaco/contributors-img",
     "onlineToolUrl": "https://contrib.rocks/preview"
   },
-  "rule": {
-    "query": [
+  "rules": {
+    "querys": [
       {
         "name": "repo",
         "type": "string",
@@ -33,7 +33,7 @@
         "extDescription": "可选值：`0` `1`"
       }
     ],
-    "URITemplates": "https://contrib.rocks/image{?repo,max,columns,anon}"
+    "srcTemplate": "https://contrib.rocks/image{?repo,max,columns,anon}"
   },
   "useExamples": [
     {

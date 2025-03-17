@@ -12,7 +12,7 @@
     "officialDocsUrl": "",
     "needLogin": true
   },
-  "rule": {
+  "rules": {
     "params": [
       {
         "name": "",
@@ -22,8 +22,8 @@
         "extDescription": ""
       }
     ],
-    "query": [],
-    "URITemplates": ""
+    "querys": [],
+    "srcTemplate": ""
   },
   "useExamples": [
     {

@@ -6,8 +6,8 @@
     "onlineToolUrl": "https://github-profile-trophy.vercel.app/",
     "officialDocsUrl": "https://github.com/ryo-ma/github-profile-trophy?tab=readme-ov-file#optional-request-parameters"
   },
-  "rule": {
-    "query": [
+  "rules": {
+    "querys": [
       {
         "name": "username",
         "type": "string",
@@ -70,7 +70,7 @@
         "description": "是否隐藏框架"
       }
     ],
-    "URITemplates": "https://github-profile-trophy.vercel.app/{?username,title,rank,column,row,theme,margin-w,margin-h,no-bg,no-frame}"
+    "srcTemplate": "https://github-profile-trophy.vercel.app/{?username,title,rank,column,row,theme,margin-w,margin-h,no-bg,no-frame}"
   },
   "useExamples": [
     {

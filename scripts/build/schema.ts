@@ -37,6 +37,19 @@ export interface Example {
   images: MarkdownImage[]
 }
 
+export interface Rule {
+  /** 路径参数 */
+  params?: RuleItem[]
+  /** 查询参数 */
+  querys?: RuleItem[]
+  /** 注释 */
+  annotate?: string
+  /** 描述 */
+  alt?: string
+  /** URL 规则模板（URI Template） */
+  srcTemplate: string
+}
+
 /**
  * 徽章数据结构
  */
@@ -80,14 +93,7 @@ export interface Badge {
     needLogin?: boolean
   }
   /** 规则 */
-  rule: {
-    /** 路径参数 */
-    params?: RuleItem[]
-    /** 查询参数 */
-    query?: RuleItem[]
-    /** 整体URL模板 URI Template */
-    URITemplates: string | string[]
-  }
+  rules: Rule | Rule[]
   /** 示例 */
   useExamples: Example[]
 }

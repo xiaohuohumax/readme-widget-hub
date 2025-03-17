@@ -5,8 +5,8 @@
     "repoUrl": "https://github.com/wei/socialify",
     "onlineToolUrl": "https://socialify.git.ci/"
   },
-  "rule": {
-    "query": [
+  "rules": {
+    "querys": [
       {
         "name": "description",
         "type": "boolean",
@@ -82,7 +82,7 @@
         "extDescription": "可选值：`Inter` `Bitter` `Raleway` `Rokkitt` `Source Code Pro` `KoHo` `Jost`"
       }
     ],
-    "URITemplates": "https://socialify.git.ci/{owner}/{repo}/image{?description,forks,issues,name,owner,pulls,stargazers,pattern,logo,language,font}"
+    "srcTemplate": "https://socialify.git.ci/{owner}/{repo}/image{?description,forks,issues,name,owner,pulls,stargazers,pattern,logo,language,font}"
   },
   "useExamples": [
     {

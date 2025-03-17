@@ -5,7 +5,7 @@
     "repoUrl": "https://github.com/boyter/scc/",
     "officialDocsUrl": "https://github.com/boyter/scc/?tab=readme-ov-file#badges-beta"
   },
-  "rule": {
+  "rules": {
     "params": [
       {
         "name": "provider",
@@ -24,7 +24,7 @@
         "description": "仓库名"
       }
     ],
-    "query": [
+    "querys": [
       {
         "name": "category",
         "type": "string",
@@ -75,7 +75,7 @@
         "extDescription": "支持类型：`HEX`，例如：`FF0000`"
       }
     ],
-    "URITemplates": "https://sloc.xyz/{provider}/{user}/{repo}{?category,avg-wage,lower,font-color,font-shadow-color,top-shadow-accent-color,title-bg-color,badge-bg-color}"
+    "srcTemplate": "https://sloc.xyz/{provider}/{user}/{repo}{?category,avg-wage,lower,font-color,font-shadow-color,top-shadow-accent-color,title-bg-color,badge-bg-color}"
   },
   "useExamples": [
     {

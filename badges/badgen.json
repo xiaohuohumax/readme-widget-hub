@@ -11,7 +11,7 @@
     "onlineToolUrl": "https://badgen.net/",
     "officialDocsUrl": "https://badgen.net/help"
   },
-  "rule": {
+  "rules": {
     "params": [
       {
         "name": "badge",
@@ -42,7 +42,7 @@
         "extDescription": "支持格式：`RGB` `CSS颜色`"
       }
     ],
-    "query": [
+    "querys": [
       {
         "name": "color",
         "type": "string",
@@ -82,7 +82,7 @@
         "extDescription": "单位：秒"
       }
     ],
-    "URITemplates": "https://badgen.net/{badge}/{subject}/{status}/{color}{?color,icon,label,labelColor,scale,cache}"
+    "srcTemplate": "https://badgen.net/{badge}/{subject}/{status}/{color}{?color,icon,label,labelColor,scale,cache}"
   },
   "useExamples": [
     {

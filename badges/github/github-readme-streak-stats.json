@@ -6,8 +6,8 @@
     "onlineToolUrl": "https://streak-stats.demolab.com/demo/",
     "officialDocsUrl": "https://github.com/DenverCoder1/github-readme-streak-stats?tab=readme-ov-file#-options"
   },
-  "rule": {
-    "query": [
+  "rules": {
+    "querys": [
       {
         "name": "user",
         "type": "string",
@@ -181,7 +181,7 @@
         "description": "贡献统计开始年份"
       }
     ],
-    "URITemplates": "https://streak-stats.demolab.com/{?user,theme,hide_border,border_radius,background,border,stroke,ring,fire,currStreakNum,sideNums,currStreakLabel,sideLabels,dates,excludeDaysLabel,date_format,locale,short_numbers,type,mode,exclude_days,disable_animations,card_width,card_height,hide_total_contributions,hide_current_streak,hide_longest_streak,starting_year}"
+    "srcTemplate": "https://streak-stats.demolab.com/{?user,theme,hide_border,border_radius,background,border,stroke,ring,fire,currStreakNum,sideNums,currStreakLabel,sideLabels,dates,excludeDaysLabel,date_format,locale,short_numbers,type,mode,exclude_days,disable_animations,card_width,card_height,hide_total_contributions,hide_current_streak,hide_longest_streak,starting_year}"
   },
   "useExamples": [
     {

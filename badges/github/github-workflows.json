@@ -4,7 +4,7 @@
   "tags": {
     "officialDocsUrl": "https://docs.github.com/zh/actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/adding-a-workflow-status-badge"
   },
-  "rule": {
+  "rules": {
     "params": [
       {
         "name": "owner",
@@ -22,7 +22,7 @@
         "description": "工作流文件名"
       }
     ],
-    "query": [
+    "querys": [
       {
         "name": "branch",
         "type": "string",
@@ -34,7 +34,7 @@
         "description": "工作流触发事件名"
       }
     ],
-    "URITemplates": "https://github.com/github/{owner}/{repo}/workflows/{workflowFile}/badge.svg{?branch,event}"
+    "srcTemplate": "https://github.com/github/{owner}/{repo}/workflows/{workflowFile}/badge.svg{?branch,event}"
   },
   "useExamples": [
     {

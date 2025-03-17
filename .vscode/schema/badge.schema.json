@@ -82,42 +82,18 @@
           "additionalProperties": false,
           "description": "标签"
         },
-        "rule": {
-          "type": "object",
-          "properties": {
-            "params": {
+        "rules": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/Rule"
+            },
+            {
               "type": "array",
               "items": {
-                "$ref": "#/definitions/RuleItem"
-              },
-              "description": "路径参数"
-            },
-            "query": {
-              "type": "array",
-              "items": {
-                "$ref": "#/definitions/RuleItem"
-              },
-              "description": "查询参数"
-            },
-            "URITemplates": {
-              "anyOf": [
-                {
-                  "type": "string"
-                },
-                {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                }
-              ],
-              "description": "整体URL模板 URI Template"
+                "$ref": "#/definitions/Rule"
+              }
             }
-          },
-          "required": [
-            "URITemplates"
           ],
-          "additionalProperties": false,
           "description": "规则"
         },
         "useExamples": {
@@ -131,11 +107,46 @@
       "required": [
         "title",
         "description",
-        "rule",
+        "rules",
         "useExamples"
       ],
       "additionalProperties": false,
       "description": "徽章数据结构"
+    },
+    "Rule": {
+      "type": "object",
+      "properties": {
+        "params": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/RuleItem"
+          },
+          "description": "路径参数"
+        },
+        "querys": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/RuleItem"
+          },
+          "description": "查询参数"
+        },
+        "annotate": {
+          "type": "string",
+          "description": "注释"
+        },
+        "alt": {
+          "type": "string",
+          "description": "描述"
+        },
+        "srcTemplate": {
+          "type": "string",
+          "description": "URL 规则模板（URI Template）"
+        }
+      },
+      "required": [
+        "srcTemplate"
+      ],
+      "additionalProperties": false
     },
     "RuleItem": {
       "type": "object",
