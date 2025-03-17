@@ -1,0 +1,91 @@
+{
+  "title": "GitHub Gists Readme | Github Gists 徽章",
+  "description": "显示一些你的 GitHub Gists 内容。",
+  "tags": {
+    "repoUrl": "https://github.com/Yizack/gists-readme",
+    "onlineToolUrl": "https://gists-readme.yizack.com/",
+    "officialDocsUrl": "https://gists-readme.yizack.com/docs/"
+  },
+  "rules": [
+    {
+      "querys": [
+        {
+          "name": "user",
+          "type": "string",
+          "description": "Github 用户名"
+        },
+        {
+          "name": "n",
+          "type": "number",
+          "default": "30",
+          "description": "显示的 Gist 数量"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "标题"
+        },
+        {
+          "name": "theme",
+          "type": "string",
+          "default": "default",
+          "description": "主题",
+          "extDescription": "可选值：`default` `dark`"
+        }
+      ],
+      "srcTemplate": "https://gists-readme.yizack.com/api{?user,n,theme,theme}"
+    },
+    {
+      "querys": [
+        {
+          "name": "id",
+          "type": "string",
+          "description": "Gist ID"
+        },
+        {
+          "name": "owner",
+          "type": "boolean",
+          "default": "false",
+          "description": "是否显示所有者"
+        },
+        {
+          "name": "theme",
+          "type": "string",
+          "default": "default",
+          "description": "主题",
+          "extDescription": "可选值：`default` `dark`"
+        }
+      ],
+      "annotate": "Gists 代码片段",
+      "srcTemplate": "https://gists-readme.yizack.com/api/pin{?id,owner,theme}"
+    }
+  ],
+  "useExamples": [
+    {
+      "explain": {
+        "annotate": "Yizack",
+        "alt": "Gists",
+        "src": "https://gists-readme.yizack.com/api?user=yizack&theme=dark"
+      },
+      "images": [
+        {
+          "alt": "Gists",
+          "src": "https://gists-readme.yizack.com/api?user=yizack&theme=dark"
+        }
+      ]
+    },
+    {
+      "explain": {
+        "annotate": "Yizack",
+        "alt": "Gists Pin",
+        "src": "https://gists-readme.yizack.com/api/pin?id=07694a749c8fc5f4d996a2bd50237939&owner=true&theme=dark"
+      },
+      "images": [
+        {
+          "alt": "Gists Pin",
+          "src": "https://gists-readme.yizack.com/api/pin?id=07694a749c8fc5f4d996a2bd50237939&owner=true&theme=dark"
+        }
+      ]
+    }
+  ]
+}
