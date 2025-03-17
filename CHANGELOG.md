@@ -1,5 +1,11 @@
 # badge-collection
 
+## 1.9.1
+
+### Patch Changes
+
+- 修复分割线路径异常
+
 ## 1.9.0
 
 ### Minor Changes

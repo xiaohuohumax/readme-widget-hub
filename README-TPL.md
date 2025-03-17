@@ -143,8 +143,7 @@ npm run spider
 
 [rl-link-params]: https://img.shields.io/badge/路径参数-526E86 ""
 [rl-link-query]: https://img.shields.io/badge/查询参数-526E86 ""
-<!-- 原：./image/line.png -->
-[rl-line]: data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSIyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjAlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiM4RUM1RkMiIC8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNFMEMzRkMiIC8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTkyMCIgaGVpZ2h0PSIyIiBmaWxsPSJ1cmwoI2dyYWRpZW50KSIgLz4KPC9zdmc+ ""
+[rl-line]: ./image/line.svg ""
 [rl-repo]: https://img.shields.io/badge/项目地址-555555?style={{tagBadgeStyle}}&logo=github ""
 
 <!-- https://ionic.io/ionicons people-circle-outline -->
