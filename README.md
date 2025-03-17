@@ -16,7 +16,7 @@
     <a href="https://github.com/xiaohuohumax/badge-collection/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection" /></a>
-    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-23-84AD64" /></a>
+    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-24-84AD64" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
   <br/>
@@ -25,37 +25,40 @@
 ## 📖 目录
 
 * [🎖️ 徽章集合](#️-徽章集合)
-  * [Shields.io](#shieldsio)
-  * [Badgen](#badgen)
-  * [GitHub Readme Stats](#github-readme-stats)
-  * [Visit Counter 访客统计](#visit-counter-访客统计)
-    * [HITS 访问统计](#hits-访问统计)
-    * [Moe Counter 萌萌计数器](#moe-counter-萌萌计数器)
-    * [Visitor Badge 访客徽章](#visitor-badge-访客徽章)
-  * [Custom Icon Badges 自定义图标徽章](#custom-icon-badges-自定义图标徽章)
-  * [Capsule-Render 动态彩色图像](#capsule-render-动态彩色图像)
-  * [GitHub 贡献者图](#github-贡献者图)
-  * [Discord 徽章](#discord-徽章)
-  * [GitHub Profile Trophy 个人资料奖杯](#github-profile-trophy-个人资料奖杯)
-  * [Github Readme Activity 个人活动图](#github-readme-activity-个人活动图)
-  * [Github Readme Streak Stats 连续贡献统计图](#github-readme-streak-stats-连续贡献统计图)
-  * [Github Chart API 个人贡献卡片](#github-chart-api-个人贡献卡片)
-  * [Iconify 图标徽章](#iconify-图标徽章)
-  * [Open Collective 贡献者图](#open-collective-贡献者图)
-  * [OpenSSF Best Practices 最佳实践徽章](#openssf-best-practices-最佳实践徽章)
-  * [OSSInsight 开源软件洞察](#ossinsight-开源软件洞察)
-  * [Readme Typing SVG](#readme-typing-svg)
-  * [GitHub 仓库分析图](#github-仓库分析图)
-  * [SCC 代码行数统计](#scc-代码行数统计)
-  * [GitHub Socialify 项目描述卡片](#github-socialify-项目描述卡片)
-  * [GitHub 星标历史图](#github-星标历史图)
+  * [Shields.io | 徽章生成服务](#shieldsio--徽章生成服务)
+  * [Badgen Service | 徽章生成服务](#badgen-service--徽章生成服务)
+  * [Visit Counter Badge | 访客统计徽章](#visit-counter-badge--访客统计徽章)
+    * [HITS | 访问统计](#hits--访问统计)
+    * [Moe Counter | 萌萌计数器](#moe-counter--萌萌计数器)
+    * [Visitor Badge | 访客徽章](#visitor-badge--访客徽章)
+  * [Custom Icon Badges | 自定义图标徽章](#custom-icon-badges--自定义图标徽章)
+  * [Capsule Render | 动态彩色图像](#capsule-render--动态彩色图像)
+  * [Discord Badge | Discord 徽章](#discord-badge--discord-徽章)
+    * [Discord Markdown Badge | Discord 徽章](#discord-markdown-badge--discord-徽章)
+    * [Discord README Badge | Discord 用户状态徽章](#discord-readme-badge--discord-用户状态徽章)
+  * [Github Badge | Github 徽章](#github-badge--github-徽章)
+    * [GitHub Readme Stats | Github 状态卡片](#github-readme-stats--github-状态卡片)
+    * [Contributors Img | GitHub 贡献者图](#contributors-img--github-贡献者图)
+    * [GitHub Profile Trophy | GitHub 个人资料奖杯](#github-profile-trophy--github-个人资料奖杯)
+    * [Github Readme Activity Graph | Github 个人活动图](#github-readme-activity-graph--github-个人活动图)
+    * [Github Readme Streak Stats | Github 连续贡献统计图](#github-readme-streak-stats--github-连续贡献统计图)
+    * [Github Chart API | Github 个人贡献卡片](#github-chart-api--github-个人贡献卡片)
+    * [Repobeats | GitHub 仓库分析图](#repobeats--github-仓库分析图)
+    * [Socialify | Github 项目描述卡片](#socialify--github-项目描述卡片)
+  * [Iconify | 图标徽章](#iconify--图标徽章)
+  * [Open Collective | 财务贡献者图](#open-collective--财务贡献者图)
+  * [OpenSSF Best Practices Badge | 最佳实践徽章](#openssf-best-practices-badge--最佳实践徽章)
+  * [Open Source Software Insight | 开源软件洞察](#open-source-software-insight--开源软件洞察)
+  * [Readme Typing SVG | 打字机效果的动态 SVG 卡片](#readme-typing-svg--打字机效果的动态-svg-卡片)
+  * [Sloc Cloc and Code | 代码行数统计](#sloc-cloc-and-code--代码行数统计)
+  * [Star History | GitHub 星标历史图](#star-history--github-星标历史图)
 * [📖 如何运行项目](#-如何运行项目)
 * [✍ 如何贡献徽章](#-如何贡献徽章)
 * [💖 感谢所有贡献者](#-感谢所有贡献者)
 
 ## 🎖️ 徽章集合
 
-### Shields.io
+### Shields.io | 徽章生成服务
 
 > \[!Tip]
 > 由于此项目支持的徽章种类非常多，且功能强大，这里只简单介绍－静态徽章，其他徽章使用方式还请移步官方文档。
@@ -128,7 +131,7 @@
 
 ![rl-line]
 
-### Badgen
+### Badgen Service | 徽章生成服务
 
 > \[!Tip]
 > 由于此项目支持的徽章种类非常多，且功能强大，这里只简单介绍－静态徽章，其他徽章使用方式还请移步官方文档。
@@ -201,66 +204,11 @@
 
 ![rl-line]
 
-### GitHub Readme Stats
-
-> \[!Tip]
-> 由于此项目支持的卡片种类非常多，且功能强大，这里只简单介绍－GitHub 状态卡片，其他卡片使用方式还请移步官方文档。
-
-![rl-badge-introduction]
-
-**获取动态生成的 GitHub 统计信息！**
-
-[![rl-repo]](https://github.com/anuraghazra/github-readme-stats)
-[![rl-official-docs]](https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#features-)
-
-![rl-badge-params]
-
-<details>
-  <summary>点击展开/收起详细参数</summary><p></p>
-
-| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
-| ------ | :--- | :----- | :--- | :------- |
-| ![rl-link-query] | | | | |
-| `username` | string |  | GitHub 用户名 |  |
-| `title_color` | string | `2F80ED` | 卡片标题颜色 | 支持 HEX 颜色值，如 `FF0000` |
-| `text_color` | string | `434D58` | 正文文本颜色 | 支持 HEX 颜色值，如 `FF0000` |
-| `icon_color` | string | `4C71F2` | 图标颜色 | 支持 HEX 颜色值，如 `FF0000` |
-| `border_color` | string | `E4E2E2` | 卡片边框颜色 | 支持 HEX 颜色值，如 `FF0000`，当启用 `hide_border` 时，不适用 |
-| `hide_border` | boolean | `false` | 是否隐藏卡片边框 |  |
-| `theme` | string |  | 设置主题 | 可选值：`dark` `radical` `merko` `gruvbox` `tokyonight` `onedark` `cobalt` `synthwave` `highcontrast` `dracula` `transparent` |
-| `cache_seconds` | number | `21600` | 卡片缓存时间 | 单位：秒，最小：21600，最大：86400 |
-| `locale` | string | `en` | 设置语言 | 语言参考：[locales](https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#available-locales) |
-| `border_radius` | number | `4.5` | 卡片上的圆角处理 |  |
-| `hide` | string |  | 隐藏特定的统计数据 | 数据类型之间用 `,` 分隔 |
-| `show` | string |  | 显示附加统计信息 | 数据类型之间用 `,` 分隔 |
-| `show_icons` | boolean | `true` | 是否显示图标 |  |
-| `bg_color` | string |  | 卡片背景色 | 背景色支持渐变，格式：`deg,color1,color2,color3,...` |
-
-</details>
-
-```markdown
-![Alt](https://github-readme-stats.vercel.app/api{?username,title_color,text_color,icon_color,border_color,hide_border,theme,cache_seconds,locale,border_radius,hide,show,show_icons,bg_color})
-```
-
-![rl-uses-examples]
-
-```markdown
-<!-- anuraghazra -->
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)
-```
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra\&locale=cn\&theme=dark\&hide_border=true)
-
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
-
-![rl-line]
-
-### Visit Counter 访客统计
+### Visit Counter Badge | 访客统计徽章
 
 想要知道网站的访客统计数据吗？这几个徽章可以帮助你统计网站的访问次数。
 
-#### HITS 访问统计
+#### HITS | 访问统计
 
 ![rl-badge-introduction]
 
@@ -303,7 +251,7 @@
 
 ![rl-line]
 
-#### Moe Counter 萌萌计数器
+#### Moe Counter | 萌萌计数器
 
 ![rl-badge-introduction]
 
@@ -352,7 +300,7 @@
 
 ![rl-line]
 
-#### Visitor Badge 访客徽章
+#### Visitor Badge | 访客徽章
 
 ![rl-badge-introduction]
 
@@ -397,7 +345,7 @@
 
 ![rl-line]
 
-### Custom Icon Badges 自定义图标徽章
+### Custom Icon Badges | 自定义图标徽章
 
 > \[!Tip]
 > 由于此项目徽章是基于 [shields.io](https://shields.io/) 生成，因此配置参数可直接参考 [shields.io badges](https://shields.io/badges)，下面配置仅展示此项目扩展参数。
@@ -441,7 +389,7 @@
 
 ![rl-line]
 
-### Capsule-Render 动态彩色图像
+### Capsule Render | 动态彩色图像
 
 ![rl-badge-introduction]
 
@@ -511,48 +459,9 @@
 
 ![rl-line]
 
-### GitHub 贡献者图
+### Discord Badge | Discord 徽章
 
-![rl-badge-introduction]
-
-**生成一个贡献者图片，让你的 README.md 文件保持同步。**
-
-[![rl-repo]](https://github.com/lacolaco/contributors-img)
-[![rl-online-tool]](https://contrib.rocks/preview)
-
-![rl-badge-params]
-
-<details>
-  <summary>点击展开/收起详细参数</summary><p></p>
-
-| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
-| ------ | :--- | :----- | :--- | :------- |
-| ![rl-link-query] | | | | |
-| `repo` | string |  | 仓库名 | 格式：`owner/repo` |
-| `max` | number | `100` | 最大显示贡献者数 |  |
-| `columns` | number | `12` | 显示列数 |  |
-| `anon` | number | `0` | 是否显示匿名贡献者 | 可选值：`0` `1` |
-
-</details>
-
-```markdown
-![Alt](https://contrib.rocks/image{?repo,max,columns,anon})
-```
-
-![rl-uses-examples]
-
-```markdown
-<!-- lacolaco/contributors-img -->
-![Contributors Image](https://contrib.rocks/image?repo=lacolaco/contributors-img)
-```
-
-![Contributors Image](https://contrib.rocks/image?repo=lacolaco/contributors-img)
-
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
-
-![rl-line]
-
-### Discord 徽章
+#### Discord Markdown Badge | Discord 徽章
 
 ![rl-badge-introduction]
 
@@ -609,7 +518,142 @@
 
 ![rl-line]
 
-### GitHub Profile Trophy 个人资料奖杯
+#### Discord README Badge | Discord 用户状态徽章
+
+![rl-badge-introduction]
+
+**展示你在 Discord 中正在进行的任何工作！**
+
+[![rl-repo]](https://github.com/Zyplos/discord-readme-badge)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-query] | | | | |
+| `id` | string |  | Discord 用户 ID |  |
+
+</details>
+
+```markdown
+![Alt](https://discord-readme-badge.vercel.app/api{?id})
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- Zyplos -->
+![Discord Status](https://discord-readme-badge.vercel.app/api?id=204620732259368960)
+```
+
+![Discord Status](https://discord-readme-badge.vercel.app/api?id=204620732259368960)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
+### Github Badge | Github 徽章
+
+#### GitHub Readme Stats | Github 状态卡片
+
+> \[!Tip]
+> 由于此项目支持的卡片种类非常多，且功能强大，这里只简单介绍－GitHub 状态卡片，其他卡片使用方式还请移步官方文档。
+
+![rl-badge-introduction]
+
+**获取动态生成的 GitHub 统计信息！**
+
+[![rl-repo]](https://github.com/anuraghazra/github-readme-stats)
+[![rl-official-docs]](https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#features-)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-query] | | | | |
+| `username` | string |  | GitHub 用户名 |  |
+| `title_color` | string | `2F80ED` | 卡片标题颜色 | 支持 HEX 颜色值，如 `FF0000` |
+| `text_color` | string | `434D58` | 正文文本颜色 | 支持 HEX 颜色值，如 `FF0000` |
+| `icon_color` | string | `4C71F2` | 图标颜色 | 支持 HEX 颜色值，如 `FF0000` |
+| `border_color` | string | `E4E2E2` | 卡片边框颜色 | 支持 HEX 颜色值，如 `FF0000`，当启用 `hide_border` 时，不适用 |
+| `hide_border` | boolean | `false` | 是否隐藏卡片边框 |  |
+| `theme` | string |  | 设置主题 | 可选值：`dark` `radical` `merko` `gruvbox` `tokyonight` `onedark` `cobalt` `synthwave` `highcontrast` `dracula` `transparent` |
+| `cache_seconds` | number | `21600` | 卡片缓存时间 | 单位：秒，最小：21600，最大：86400 |
+| `locale` | string | `en` | 设置语言 | 语言参考：[locales](https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#available-locales) |
+| `border_radius` | number | `4.5` | 卡片上的圆角处理 |  |
+| `hide` | string |  | 隐藏特定的统计数据 | 数据类型之间用 `,` 分隔 |
+| `show` | string |  | 显示附加统计信息 | 数据类型之间用 `,` 分隔 |
+| `show_icons` | boolean | `true` | 是否显示图标 |  |
+| `bg_color` | string |  | 卡片背景色 | 背景色支持渐变，格式：`deg,color1,color2,color3,...` |
+
+</details>
+
+```markdown
+![Alt](https://github-readme-stats.vercel.app/api{?username,title_color,text_color,icon_color,border_color,hide_border,theme,cache_seconds,locale,border_radius,hide,show,show_icons,bg_color})
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- anuraghazra -->
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)
+```
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra\&locale=cn\&theme=dark\&hide_border=true)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
+#### Contributors Img | GitHub 贡献者图
+
+![rl-badge-introduction]
+
+**生成一个贡献者图片，让你的 README.md 文件保持同步。**
+
+[![rl-repo]](https://github.com/lacolaco/contributors-img)
+[![rl-online-tool]](https://contrib.rocks/preview)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-query] | | | | |
+| `repo` | string |  | 仓库名 | 格式：`owner/repo` |
+| `max` | number | `100` | 最大显示贡献者数 |  |
+| `columns` | number | `12` | 显示列数 |  |
+| `anon` | number | `0` | 是否显示匿名贡献者 | 可选值：`0` `1` |
+
+</details>
+
+```markdown
+![Alt](https://contrib.rocks/image{?repo,max,columns,anon})
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- lacolaco/contributors-img -->
+![Contributors Image](https://contrib.rocks/image?repo=lacolaco/contributors-img)
+```
+
+![Contributors Image](https://contrib.rocks/image?repo=lacolaco/contributors-img)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
+#### GitHub Profile Trophy | GitHub 个人资料奖杯
 
 ![rl-badge-introduction]
 
@@ -657,7 +701,7 @@
 
 ![rl-line]
 
-### Github Readme Activity 个人活动图
+#### Github Readme Activity Graph | Github 个人活动图
 
 ![rl-badge-introduction]
 
@@ -712,7 +756,7 @@
 
 ![rl-line]
 
-### Github Readme Streak Stats 连续贡献统计图
+#### Github Readme Streak Stats | Github 连续贡献统计图
 
 ![rl-badge-introduction]
 
@@ -778,11 +822,11 @@
 
 ![rl-line]
 
-### Github Chart API 个人贡献卡片
+#### Github Chart API | Github 个人贡献卡片
 
 ![rl-badge-introduction]
 
-***
+**回顾 Github 个人贡献图表，展示你的 Github 贡献历史。**
 
 [![rl-repo]](https://github.com/2016rshah/githubchart-api)
 [![rl-official-docs]](https://github.com/2016rshah/githubchart-api)
@@ -817,7 +861,95 @@
 
 ![rl-line]
 
-### Iconify 图标徽章
+#### Repobeats | GitHub 仓库分析图
+
+![rl-badge-introduction]
+
+**为你的 GitHub 仓库提供惊艳的见解，让你的 README.md 增添一些吸引眼球的精彩内容。**
+
+[![rl-repo]](https://github.com/axiomhq)
+[![rl-online-tool]](https://repobeats.axiom.co/configs)
+[![rl-official-docs]](https://repobeats.axiom.co/)
+![rl-need-login]
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-params] | | | | |
+| `configId` | string |  | 配置 ID | 登录 [Repobeats](https://repobeats.axiom.co/) 后选择仓库后获取 |
+
+</details>
+
+```markdown
+![Alt](https://repobeats.axiom.co/api/embed/{configId}.svg)
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- xiaohuohumax/badge-collection -->
+![Repobeats analytics image](https://repobeats.axiom.co/api/embed/65971378c4d394852dd1d92144244cbe14f0639c.svg)
+```
+
+![Repobeats analytics image](https://repobeats.axiom.co/api/embed/65971378c4d394852dd1d92144244cbe14f0639c.svg)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
+#### Socialify | Github 项目描述卡片
+
+![rl-badge-introduction]
+
+**希望你的项目能够脱颖而出？Socialify 通过生成各种精美的项目描述卡片，帮助你向全世界展示你的项目！**
+
+[![rl-repo]](https://github.com/wei/socialify)
+[![rl-online-tool]](https://socialify.git.ci/)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-query] | | | | |
+| `description` | boolean | `0` | 是否显示项目描述 | 可选值：`0` `1` |
+| `forks` | boolean | `0` | 是否显示 Forks 数量 | 可选值：`0` `1` |
+| `issues` | boolean | `0` | 是否显示 Issues 数量 | 可选值：`0` `1` |
+| `name` | boolean | `1` | 是否显示项目名称 | 可选值：`0` `1` |
+| `owner` | boolean | `0` | 是否显示用户名 | 可选值：`0` `1` |
+| `pulls` | boolean | `0` | 是否显示 PR 数量 | 可选值：`0` `1` |
+| `stargazers` | boolean | `0` | 是否显示 Stars 数量 | 可选值：`0` `1` |
+| `pattern` | string |  | 背景图样式 | 可选值：`Signal` `Charlie Brown` `Formal Invitation` `Plus` `Circuit Board` `Overlapping Hexagons` `Brick Wall` `Floating Cogs` `Diagonal Stripes` `Solid` `Transparent` |
+| `logo` | string |  | 项目 Logo | 可选类型：`URL` `DATA URI` |
+| `language` | boolean | `0` | 是否显示项目语言 | 可选值：`0` `1` |
+| `font` | string |  | 字体 | 可选值：`Inter` `Bitter` `Raleway` `Rokkitt` `Source Code Pro` `KoHo` `Jost` |
+
+</details>
+
+```markdown
+![Alt](https://socialify.git.ci/{owner}/{repo}/image{?description,forks,issues,name,owner,pulls,stargazers,pattern,logo,language,font})
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- xiaohuohumax/badge-collection -->
+![GitHub Socialify](https://socialify.git.ci/xiaohuohumax/badge-collection/image?font=Rokkitt&forks=1&issues=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fxiaohuohumax%2Flogo%2Frefs%2Fheads%2Fmain%2Flogos%2Flogo.svg&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Auto)
+```
+
+![GitHub Socialify](https://socialify.git.ci/xiaohuohumax/badge-collection/image?font=Rokkitt\&forks=1\&issues=1\&language=1\&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fxiaohuohumax%2Flogo%2Frefs%2Fheads%2Fmain%2Flogos%2Flogo.svg\&name=1\&owner=1\&pattern=Plus\&pulls=1\&stargazers=1\&theme=Auto)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
+### Iconify | 图标徽章
 
 ![rl-badge-introduction]
 
@@ -864,7 +996,7 @@
 
 ![rl-line]
 
-### Open Collective 贡献者图
+### Open Collective | 财务贡献者图
 
 ![rl-badge-introduction]
 
@@ -922,7 +1054,7 @@
 
 ![rl-line]
 
-### OpenSSF Best Practices 最佳实践徽章
+### OpenSSF Best Practices Badge | 最佳实践徽章
 
 ![rl-badge-introduction]
 
@@ -961,7 +1093,7 @@
 
 ![rl-line]
 
-### OSSInsight 开源软件洞察
+### Open Source Software Insight | 开源软件洞察
 
 > \[!Tip]
 > 由于此项目支持的卡片种类非常多，且功能强大，这里只简单介绍－推送和提交记录卡片，其他卡片使用方式还请移步官方文档。
@@ -1015,7 +1147,7 @@
 
 ![rl-line]
 
-### Readme Typing SVG
+### Readme Typing SVG | 打字机效果的动态 SVG 卡片
 
 ![rl-badge-introduction]
 
@@ -1067,47 +1199,7 @@
 
 ![rl-line]
 
-### GitHub 仓库分析图
-
-![rl-badge-introduction]
-
-**为你的 GitHub 仓库提供惊艳的见解，让你的 README.md 增添一些吸引眼球的精彩内容。**
-
-[![rl-repo]](https://github.com/axiomhq)
-[![rl-online-tool]](https://repobeats.axiom.co/configs)
-[![rl-official-docs]](https://repobeats.axiom.co/)
-![rl-need-login]
-
-![rl-badge-params]
-
-<details>
-  <summary>点击展开/收起详细参数</summary><p></p>
-
-| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
-| ------ | :--- | :----- | :--- | :------- |
-| ![rl-link-params] | | | | |
-| `configId` | string |  | 配置 ID | 登录 [Repobeats](https://repobeats.axiom.co/) 后选择仓库后获取 |
-
-</details>
-
-```markdown
-![Alt](https://repobeats.axiom.co/api/embed/{configId}.svg)
-```
-
-![rl-uses-examples]
-
-```markdown
-<!-- xiaohuohumax/badge-collection -->
-![Repobeats analytics image](https://repobeats.axiom.co/api/embed/65971378c4d394852dd1d92144244cbe14f0639c.svg)
-```
-
-![Repobeats analytics image](https://repobeats.axiom.co/api/embed/65971378c4d394852dd1d92144244cbe14f0639c.svg)
-
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
-
-![rl-line]
-
-### SCC 代码行数统计
+### Sloc Cloc and Code | 代码行数统计
 
 ![rl-badge-introduction]
 
@@ -1156,55 +1248,7 @@
 
 ![rl-line]
 
-### GitHub Socialify 项目描述卡片
-
-![rl-badge-introduction]
-
-**希望你的项目能够脱颖而出？Socialify 通过生成各种精美的项目描述卡片，帮助你向全世界展示你的项目！**
-
-[![rl-repo]](https://github.com/wei/socialify)
-[![rl-online-tool]](https://socialify.git.ci/)
-
-![rl-badge-params]
-
-<details>
-  <summary>点击展开/收起详细参数</summary><p></p>
-
-| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
-| ------ | :--- | :----- | :--- | :------- |
-| ![rl-link-query] | | | | |
-| `description` | boolean | `0` | 是否显示项目描述 | 可选值：`0` `1` |
-| `forks` | boolean | `0` | 是否显示 Forks 数量 | 可选值：`0` `1` |
-| `issues` | boolean | `0` | 是否显示 Issues 数量 | 可选值：`0` `1` |
-| `name` | boolean | `1` | 是否显示项目名称 | 可选值：`0` `1` |
-| `owner` | boolean | `0` | 是否显示用户名 | 可选值：`0` `1` |
-| `pulls` | boolean | `0` | 是否显示 PR 数量 | 可选值：`0` `1` |
-| `stargazers` | boolean | `0` | 是否显示 Stars 数量 | 可选值：`0` `1` |
-| `pattern` | string |  | 背景图样式 | 可选值：`Signal` `Charlie Brown` `Formal Invitation` `Plus` `Circuit Board` `Overlapping Hexagons` `Brick Wall` `Floating Cogs` `Diagonal Stripes` `Solid` `Transparent` |
-| `logo` | string |  | 项目 Logo | 可选类型：`URL` `DATA URI` |
-| `language` | boolean | `0` | 是否显示项目语言 | 可选值：`0` `1` |
-| `font` | string |  | 字体 | 可选值：`Inter` `Bitter` `Raleway` `Rokkitt` `Source Code Pro` `KoHo` `Jost` |
-
-</details>
-
-```markdown
-![Alt](https://socialify.git.ci/{owner}/{repo}/image{?description,forks,issues,name,owner,pulls,stargazers,pattern,logo,language,font})
-```
-
-![rl-uses-examples]
-
-```markdown
-<!-- xiaohuohumax/badge-collection -->
-![GitHub Socialify](https://socialify.git.ci/xiaohuohumax/badge-collection/image?font=Rokkitt&forks=1&issues=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fxiaohuohumax%2Flogo%2Frefs%2Fheads%2Fmain%2Flogos%2Flogo.svg&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Auto)
-```
-
-![GitHub Socialify](https://socialify.git.ci/xiaohuohumax/badge-collection/image?font=Rokkitt\&forks=1\&issues=1\&language=1\&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fxiaohuohumax%2Flogo%2Frefs%2Fheads%2Fmain%2Flogos%2Flogo.svg\&name=1\&owner=1\&pattern=Plus\&pulls=1\&stargazers=1\&theme=Auto)
-
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
-
-![rl-line]
-
-### GitHub 星标历史图
+### Star History | GitHub 星标历史图
 
 ![rl-badge-introduction]
 
