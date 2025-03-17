@@ -1,0 +1,61 @@
+{
+  "title": "Gradgen | 渐变徽章",
+  "description": "Gradgen 是一个简单而强大的徽章生成器，它为 [badgen.net](https://badgen.net/) 上的徽章增添了令人惊叹的渐变效果。",
+  "alert": {
+    "type": "Tip",
+    "messages": "由于此项目徽章是基于 [badgen.net](https://badgen.net/) 生成，因此配置参数可直接参考 [badgen.net help](https://badgen.net/help)，下面配置仅展示此项目扩展参数。"
+  },
+  "tags": {
+    "repoUrl": "https://github.com/bokub/gradgen",
+    "officialDocsUrl": "https://github.com/bokub/gradgen?tab=readme-ov-file#usage"
+  },
+  "rules": {
+    "params": [
+      {
+        "name": "badgenNetParams",
+        "type": "any[]",
+        "description": "[badgen.net 徽章路径参数](https://badgen.net/help)",
+        "extDescription": "例如：`static/...`（静态徽章） `github/...`（Github 相关）"
+      }
+    ],
+    "querys": [
+      {
+        "name": "gradient",
+        "type": "string",
+        "description": "渐变色",
+        "extDescription": "格式：`color1,color2` 颜色格式：`HEX` `CSS 颜色`"
+      },
+      {
+        "name": "style",
+        "type": "string",
+        "description": "徽章样式",
+        "extDescription": "可选值：`flat`"
+      },
+      {
+        "name": "badgenNetQuerys",
+        "type": "any[]",
+        "description": "[badgen.net 徽章查询参数](https://badgen.net/help)",
+        "extDescription": "例如：`color`（图标颜色） `icon`（图标）等"
+      }
+    ],
+    "srcTemplate": "https://gradgen.bokub.workers.dev/{badgenNetParams}{?gradient,badgenNetQuerys"
+  },
+  "useExamples": [
+    {
+      "explain": {
+        "alt": "Gradgen",
+        "src": "https://gradgen.bokub.workers.dev/github/checks/nodejs/node?gradient=F3722C,F94144&style=flat"
+      },
+      "images": [
+        {
+          "alt": "Gradgen Default",
+          "src": "https://gradgen.bokub.workers.dev/github/checks/nodejs/node?gradient=F3722C,F94144"
+        },
+        {
+          "alt": "Gradgen Flat",
+          "src": "https://gradgen.bokub.workers.dev/github/checks/nodejs/node?gradient=F3722C,F94144&style=flat"
+        }
+      ]
+    }
+  ]
+}

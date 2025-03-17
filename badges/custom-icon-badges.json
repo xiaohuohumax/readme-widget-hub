@@ -13,7 +13,7 @@
   "rules": {
     "params": [
       {
-        "name": "shieldsParams",
+        "name": "shieldsIoParams",
         "type": "any[]",
         "description": "[shields.io 徽章路径参数](https://shields.io/badges)",
         "extDescription": "例如：`badge/...`（静态徽章） `github/...`（Github 相关）"
@@ -34,13 +34,13 @@
         "extDescription": "即自己上传图标时设置的名称"
       },
       {
-        "name": "shieldsQuerys",
+        "name": "shieldsIoQuerys",
         "type": "any[]",
         "description": "[shields.io 徽章查询参数](https://shields.io/badges)",
         "extDescription": "例如：`logoColor`（图标颜色） `style`（徽章样式）等"
       }
     ],
-    "srcTemplate": "https://custom-icon-badges.demolab.com/{shieldsParams}{?host,shieldsQuerys}"
+    "srcTemplate": "https://custom-icon-badges.demolab.com/{shieldsIoParams}{?host,shieldsIoQuerys}"
   },
   "useExamples": [
     {
