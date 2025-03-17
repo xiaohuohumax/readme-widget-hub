@@ -16,7 +16,7 @@
     <a href="https://github.com/xiaohuohumax/badge-collection/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection" /></a>
-    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-25-84AD64" /></a>
+    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-26-84AD64" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
   <br/>
@@ -39,6 +39,7 @@
   * [Github Badge | Github 徽章](#github-badge--github-徽章)
     * [GitHub Readme Stats | Github 状态卡片](#github-readme-stats--github-状态卡片)
     * [Contributors Img | GitHub 贡献者图](#contributors-img--github-贡献者图)
+    * [GitHub Gists Readme | Github Gists 徽章](#github-gists-readme--github-gists-徽章)
     * [GitHub Profile Trophy | GitHub 个人资料奖杯](#github-profile-trophy--github-个人资料奖杯)
     * [Github Readme Activity Graph | Github 个人活动图](#github-readme-activity-graph--github-个人活动图)
     * [Github Readme Streak Stats | Github 连续贡献统计图](#github-readme-streak-stats--github-连续贡献统计图)
@@ -654,6 +655,77 @@
 
 ![rl-line]
 
+#### GitHub Gists Readme | Github Gists 徽章
+
+![rl-badge-introduction]
+
+**显示一些你的 GitHub Gists 内容。**
+
+[![rl-repo]](https://github.com/Yizack/gists-readme)
+[![rl-online-tool]](https://gists-readme.yizack.com/)
+[![rl-official-docs]](https://gists-readme.yizack.com/docs/)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-query] | | | | |
+| `user` | string |  | Github 用户名 |  |
+| `n` | number | `30` | 显示的 Gist 数量 |  |
+| `title` | string |  | 标题 |  |
+| `theme` | string | `default` | 主题 | 可选值：`default` `dark` |
+
+</details>
+
+```markdown
+![Alt](https://gists-readme.yizack.com/api{?user,n,theme,theme})
+```
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-query] | | | | |
+| `id` | string |  | Gist ID |  |
+| `owner` | boolean | `false` | 是否显示所有者 |  |
+| `theme` | string | `default` | 主题 | 可选值：`default` `dark` |
+
+</details>
+
+```markdown
+<!-- Gists 代码片段 -->
+![Alt](https://gists-readme.yizack.com/api/pin{?id,owner,theme})
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- Yizack -->
+![Gists](https://gists-readme.yizack.com/api?user=yizack&theme=dark)
+```
+
+![Gists](https://gists-readme.yizack.com/api?user=yizack\&theme=dark)
+
+<details>
+  <summary>点击展开/收起更多示例</summary><p></p>
+
+```markdown
+<!-- Yizack -->
+![Gists Pin](https://gists-readme.yizack.com/api/pin?id=07694a749c8fc5f4d996a2bd50237939&owner=true&theme=dark)
+```
+
+![Gists Pin](https://gists-readme.yizack.com/api/pin?id=07694a749c8fc5f4d996a2bd50237939\&owner=true\&theme=dark)
+
+</details>
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
 #### GitHub Profile Trophy | GitHub 个人资料奖杯
 
 ![rl-badge-introduction]
@@ -888,7 +960,21 @@
 </details>
 
 ```markdown
+<!-- 配置颜色 -->
 ![Alt](https://ghchart.rshah.org/{color}/{username})
+```
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-params] | | | | |
+| `username` | string |  | Github 用户名 |  |
+
+</details>
+
+```markdown
 ![Alt](https://ghchart.rshah.org/{username})
 ```
 
@@ -1369,7 +1455,9 @@ npm run spider
 
 [rl-link-query]: https://img.shields.io/badge/查询参数-526E86
 
-[rl-line]: ./image/line.png
+<!-- 原：./image/line.png -->
+
+[rl-line]: data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSIyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjAlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiM4RUM1RkMiIC8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNFMEMzRkMiIC8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTkyMCIgaGVpZ2h0PSIyIiBmaWxsPSJ1cmwoI2dyYWRpZW50KSIgLz4KPC9zdmc+
 
 [rl-repo]: https://img.shields.io/badge/项目地址-555555?style=flat-square&logo=github
 
