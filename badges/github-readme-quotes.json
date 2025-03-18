@@ -1,0 +1,71 @@
+{
+  "title": "Github Readme Quotes | 编程名言卡片",
+  "description": "将编程名言添加到你的 README 中。",
+  "tags": {
+    "repoUrl": "https://github.com/PiyushSuthar/github-readme-quotes",
+    "officialDocsUrl": "https://github.com/PiyushSuthar/github-readme-quotes?tab=readme-ov-file#usage-%EF%B8%8F"
+  },
+  "rules": {
+    "querys": [
+      {
+        "name": "type",
+        "type": "string",
+        "default": "vertical",
+        "description": "类型",
+        "extDescription": "可选值：`vertical`、`horizontal`"
+      },
+      {
+        "name": "theme",
+        "type": "string",
+        "default": "light",
+        "description": "主题",
+        "extDescription": "可选值：`dark` `light` `chartreuse-dark` `radical` `merko` `gruvbox` `tokyonight` `catppuccin` `catppuccin_latte` `catppuccin_frappe` `catppuccin_macchiato` `catppuccin_mocha` `algolia` `monokai` `dracula` `nord` `github` `graywhite` `moonlight` `hackerman` `shadow_red` `shadow_green` `shadow_blue`"
+      },
+      {
+        "name": "quote",
+        "type": "string",
+        "description": "名言",
+        "extDescription": "若为空，则随机获取名言，名言列表：[quotes.json](https://github.com/mudroljub/programming-quotes-api/raw/master/data/quotes.json)"
+      },
+      {
+        "name": "author",
+        "type": "string",
+        "default": "Me",
+        "description": "名言作者"
+      },
+      {
+        "name": "border",
+        "type": "boolean",
+        "default": "false",
+        "description": "是否使用边框"
+      }
+    ],
+    "srcTemplate": "https://quotes-github-readme.vercel.app/api{?type,theme,quote,author,border}"
+  },
+  "useExamples": [
+    {
+      "explain": {
+        "alt": "Random Quote Badge",
+        "src": "https://quotes-github-readme.vercel.app/api?theme=dark&type=horizontal"
+      },
+      "images": [
+        {
+          "alt": "Random Quote Badge",
+          "src": "https://quotes-github-readme.vercel.app/api?theme=dark&type=horizontal"
+        }
+      ]
+    },
+    {
+      "explain": {
+        "alt": "Random Quote Badge",
+        "src": "https://quotes-github-readme.vercel.app/api?theme=nord&type=horizontal&border=true"
+      },
+      "images": [
+        {
+          "alt": "Random Quote Badge",
+          "src": "https://quotes-github-readme.vercel.app/api?theme=nord&type=horizontal&border=true"
+        }
+      ]
+    }
+  ]
+}
