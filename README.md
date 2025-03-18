@@ -16,7 +16,7 @@
     <a href="https://github.com/xiaohuohumax/badge-collection/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection" /></a>
-    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-27-84AD64" /></a>
+    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-28-84AD64" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
   <br/>
@@ -47,6 +47,7 @@
     * [Github Chart API | Github 个人贡献卡片](#github-chart-api--github-个人贡献卡片)
     * [Repobeats | GitHub 仓库分析图](#repobeats--github-仓库分析图)
     * [Socialify | Github 项目描述卡片](#socialify--github-项目描述卡片)
+  * [Github Readme Quotes | 编程名言卡片](#github-readme-quotes--编程名言卡片)
   * [Gradgen | 渐变徽章](#gradgen--渐变徽章)
   * [Iconify | 图标徽章](#iconify--图标徽章)
   * [Open Collective | 财务贡献者图](#open-collective--财务贡献者图)
@@ -1074,6 +1075,58 @@
 ```
 
 ![GitHub Socialify](https://socialify.git.ci/xiaohuohumax/badge-collection/image?font=Rokkitt\&forks=1\&issues=1\&language=1\&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fxiaohuohumax%2Flogo%2Frefs%2Fheads%2Fmain%2Flogos%2Flogo.svg\&name=1\&owner=1\&pattern=Plus\&pulls=1\&stargazers=1\&theme=Auto)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
+### Github Readme Quotes | 编程名言卡片
+
+![rl-badge-introduction]
+
+**将编程名言添加到你的 README 中。**
+
+[![rl-repo]](https://github.com/PiyushSuthar/github-readme-quotes)
+[![rl-official-docs]](https://github.com/PiyushSuthar/github-readme-quotes?tab=readme-ov-file#usage-%EF%B8%8F)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-query] | | | | |
+| `type` | string | `vertical` | 类型 | 可选值：`vertical`、`horizontal` |
+| `theme` | string | `light` | 主题 | 可选值：`dark` `light` `chartreuse-dark` `radical` `merko` `gruvbox` `tokyonight` `catppuccin` `catppuccin_latte` `catppuccin_frappe` `catppuccin_macchiato` `catppuccin_mocha` `algolia` `monokai` `dracula` `nord` `github` `graywhite` `moonlight` `hackerman` `shadow_red` `shadow_green` `shadow_blue` |
+| `quote` | string |  | 名言 | 若为空，则随机获取名言，名言列表：[quotes.json](https://github.com/mudroljub/programming-quotes-api/raw/master/data/quotes.json) |
+| `author` | string | `Me` | 名言作者 |  |
+| `border` | boolean | `false` | 是否使用边框 |  |
+
+</details>
+
+```markdown
+![Alt](https://quotes-github-readme.vercel.app/api{?type,theme,quote,author,border})
+```
+
+![rl-uses-examples]
+
+```markdown
+![Random Quote Badge](https://quotes-github-readme.vercel.app/api?theme=dark&type=horizontal)
+```
+
+![Random Quote Badge](https://quotes-github-readme.vercel.app/api?theme=dark\&type=horizontal)
+
+<details>
+  <summary>点击展开/收起更多示例</summary><p></p>
+
+```markdown
+![Random Quote Badge](https://quotes-github-readme.vercel.app/api?theme=nord&type=horizontal&border=true)
+```
+
+![Random Quote Badge](https://quotes-github-readme.vercel.app/api?theme=nord\&type=horizontal\&border=true)
+
+</details>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
 
