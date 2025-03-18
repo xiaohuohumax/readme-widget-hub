@@ -1,0 +1,33 @@
+{
+  "title": "Github Contribution Stats | GitHub 贡献统计",
+  "description": "动态生成 GitHub 贡献统计卡片！",
+  "tags": {
+    "repoUrl": "https://github.com/LordDashMe/github-contribution-stats",
+    "officialDocsUrl": "https://github.com/LordDashMe/github-contribution-stats?tab=readme-ov-file#usage"
+  },
+  "rules": {
+    "querys": [
+      {
+        "name": "username",
+        "type": "string",
+        "description": "Github 用户名"
+      }
+    ],
+    "srcTemplate": "https://github-contribution-stats.vercel.app/api/{?username}"
+  },
+  "useExamples": [
+    {
+      "explain": {
+        "annotate": "LordDashMe",
+        "alt": "Contribution Stats",
+        "src": "https://github-contribution-stats.vercel.app/api?username=LordDashMe"
+      },
+      "images": [
+        {
+          "alt": "Contribution Stats",
+          "src": "https://github-contribution-stats.vercel.app/api?username=LordDashMe"
+        }
+      ]
+    }
+  ]
+}
