@@ -16,7 +16,7 @@
     <a href="https://github.com/xiaohuohumax/badge-collection/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection" /></a>
-    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-28-84AD64" /></a>
+    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-30-84AD64" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
   <br/>
@@ -40,6 +40,7 @@
     * [GitHub Readme Stats | Github 状态卡片](#github-readme-stats--github-状态卡片)
     * [Contributors Img | GitHub 贡献者图](#contributors-img--github-贡献者图)
     * [GitHub Gists Readme | Github Gists 徽章](#github-gists-readme--github-gists-徽章)
+    * [Github Contribution Stats | GitHub 贡献统计](#github-contribution-stats--github-贡献统计)
     * [GitHub Profile Trophy | GitHub 个人资料奖杯](#github-profile-trophy--github-个人资料奖杯)
     * [Github Readme Activity Graph | Github 个人活动图](#github-readme-activity-graph--github-个人活动图)
     * [Github Readme Streak Stats | Github 连续贡献统计图](#github-readme-streak-stats--github-连续贡献统计图)
@@ -53,6 +54,7 @@
   * [Open Collective | 财务贡献者图](#open-collective--财务贡献者图)
   * [OpenSSF Best Practices Badge | 最佳实践徽章](#openssf-best-practices-badge--最佳实践徽章)
   * [Open Source Software Insight | 开源软件洞察](#open-source-software-insight--开源软件洞察)
+  * [PlayBadges | Play Store 应用卡片](#playbadges--play-store-应用卡片)
   * [Readme Typing SVG | 打字机效果的动态 SVG 卡片](#readme-typing-svg--打字机效果的动态-svg-卡片)
   * [Sloc Cloc and Code | 代码行数统计](#sloc-cloc-and-code--代码行数统计)
   * [Star History | GitHub 星标历史图](#star-history--github-星标历史图)
@@ -728,6 +730,44 @@
 
 ![rl-line]
 
+#### Github Contribution Stats | GitHub 贡献统计
+
+![rl-badge-introduction]
+
+**动态生成 GitHub 贡献统计卡片！**
+
+[![rl-repo]](https://github.com/LordDashMe/github-contribution-stats)
+[![rl-official-docs]](https://github.com/LordDashMe/github-contribution-stats?tab=readme-ov-file#usage)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-query] | | | | |
+| `username` | string |  | Github 用户名 |  |
+
+</details>
+
+```markdown
+![Alt](https://github-contribution-stats.vercel.app/api/{?username})
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- LordDashMe -->
+![Contribution Stats](https://github-contribution-stats.vercel.app/api?username=LordDashMe)
+```
+
+![Contribution Stats](https://github-contribution-stats.vercel.app/api?username=LordDashMe)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
 #### GitHub Profile Trophy | GitHub 个人资料奖杯
 
 ![rl-badge-introduction]
@@ -1368,6 +1408,67 @@
 ```
 
 ![Dashboard stats of @antfu](https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=11247099\&image_size=auto\&color_scheme=dark)
+
+</details>
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
+### PlayBadges | Play Store 应用卡片
+
+![rl-badge-introduction]
+
+**展示你的 Play Store 应用的下载量和评分。**
+
+[![rl-repo]](https://github.com/pavi2410/PlayBadges)
+[![rl-official-docs]](https://github.com/pavi2410/PlayBadges?tab=readme-ov-file#usage)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-params] | | | | |
+| `type` | string |  | 卡片类型 | 可选值：`full` `downloads` `ratings` |
+| ![rl-link-query] | | | | |
+| `id` | string |  | 软件包名 |  |
+| `pretty` | boolean |  | 是否美化显示数字 | 美化：给数字添加单位符号，例如：`100K`，注意：`&pretty` 表示启用，去除则表示禁用 |
+| `country` | string | `us` | 国家代码 |  |
+
+</details>
+
+```markdown
+![Alt](https://PlayBadges.pavi2410.me/badge/{type}{?id})
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- pavi2410 -->
+![Play Store App](https://PlayBadges.pavi2410.me/badge/full?id=appinventor.ai_pavitragolchha.VR)
+```
+
+![Play Store App](https://PlayBadges.pavi2410.me/badge/full?id=appinventor.ai_pavitragolchha.VR)
+
+<details>
+  <summary>点击展开/收起更多示例</summary><p></p>
+
+```markdown
+<!-- pavi2410 -->
+![Play Store App Downloads](https://PlayBadges.pavi2410.me/badge/downloads?id=appinventor.ai_pavitragolchha.VR&pretty)
+```
+
+![Play Store App Downloads](https://PlayBadges.pavi2410.me/badge/downloads?id=appinventor.ai_pavitragolchha.VR\&pretty)
+
+```markdown
+<!-- pavi2410 -->
+![Play Store App Ratings](https://PlayBadges.pavi2410.me/badge/ratings?id=appinventor.ai_pavitragolchha.VR)
+```
+
+![Play Store App Ratings](https://PlayBadges.pavi2410.me/badge/ratings?id=appinventor.ai_pavitragolchha.VR)
 
 </details>
 
