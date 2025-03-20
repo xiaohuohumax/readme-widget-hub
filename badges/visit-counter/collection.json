@@ -1,6 +1,8 @@
 {
   "index": 4,
   "enabled": true,
-  "title": "Visit Counter Badge | 访客统计徽章",
-  "description": "想要知道网站的访客统计数据吗？这几个徽章可以帮助你统计网站的访问次数。"
+  "title": "访客统计徽章",
+  "title:en-US": "Visit Counter Badge",
+  "description": "想要知道网站的访客统计数据吗？这几个徽章可以帮助你统计网站的访问次数。",
+  "description:en-US": "Do you want to know the visit statistics of the website? These badges can help you count the number of visits to the website."
 }
