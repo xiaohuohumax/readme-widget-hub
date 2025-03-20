@@ -1,6 +1,7 @@
 {
-  "title": "Visitor Badge | 访客徽章",
+  "title": "Visitor Badge",
   "description": "创建一个可用于任何网站或 GitHub 个人资料的访客徽章。",
+  "description:en-US": "Create a visitor badge that you can use on any website or GitHub profile.",
   "tags": {
     "repoUrl": "https://github.com/estruyf/web-visitorbadge-nextjs",
     "onlineToolUrl": "https://visitorbadge.io/"
@@ -11,7 +12,9 @@
         "name": "type",
         "type": "string",
         "description": "徽章类型",
-        "extDescription": "可选值：`visitors`（总数）、`daily`（单日）、`combined`（前两个组合）"
+        "description:en-US": "Badge type",
+        "extDescription": "可选值：`visitors`（总数）、`daily`（单日）、`combined`（前两个组合）。",
+        "extDescription:en-US": "Supported: `visitors` (total), `daily` (single day), `combined` (two combined)."
       }
     ],
     "querys": [
@@ -19,40 +22,51 @@
         "name": "path",
         "type": "string",
         "description": "统计路径",
-        "extDescription": "URL 或 用户名/仓库，用于唯一统计的链接或字符串。"
+        "description:en-US": "Statistics path",
+        "extDescription": "URL 或 用户名/仓库，用于唯一统计的链接或字符串。",
+        "extDescription:en-US": "URL or username/repository to uniquely identify the link or string for statistics."
       },
       {
         "name": "label",
         "type": "string",
-        "description": "徽章标签"
+        "description": "徽章标签",
+        "description:en-US": "Badge label"
       },
       {
         "name": "labelColor",
         "type": "string",
         "default": "#555555",
         "description": "徽章标签背景颜色",
-        "extDescription": "支持类型：`HEX`，例如：`#FF0000`"
+        "description:en-US": "Badge label background color",
+        "extDescription": "支持类型：`HEX`，例如：`#FF0000`。",
+        "extDescription:en-US": "Supported: `HEX`, for example: `#FF0000`."
       },
       {
         "name": "countColor",
         "type": "string",
         "default": "#263759",
         "description": "徽章数字背景颜色",
-        "extDescription": "支持类型：`HEX`，例如：`#FF0000`"
+        "description:en-US": "Badge count background color",
+        "extDescription": "支持类型：`HEX`，例如：`#FF0000`。",
+        "extDescription:en-US": "Supported: `HEX`, for example: `#FF0000`."
       },
       {
         "name": "style",
         "type": "string",
         "default": "default",
         "description": "徽章样式",
-        "extDescription": "可选值：`default`、`flat`、`flat-square`、`plastic`"
+        "description:en-US": "Badge style",
+        "extDescription": "可选值：`default`、`flat`、`flat-square`、`plastic`。",
+        "extDescription:en-US": "Supported: `default`, `flat`, `flat-square`, `plastic`."
       },
       {
         "name": "labelStyle",
         "type": "string",
         "default": "upper",
         "description": "徽章标签大小写",
-        "extDescription": "可选值：`upper`（大写） `lower`（小写）"
+        "description:en-US": "Badge label case",
+        "extDescription": "可选值：`upper`（大写） `lower`（小写）。",
+        "extDescription:en-US": "Supported: `upper` (uppercase) `lower` (lowercase)."
       }
     ],
     "srcTemplate": "https://api.visitorbadge.io/api/{type}{?path,label,labelColor,countColor,style,labelStyle}"
@@ -61,12 +75,14 @@
     {
       "explain": {
         "annotate": "xiaohuohumax/badge-collection",
-        "alt": "Visitors",
+        "alt": "访问数",
+        "alt:en-US": "Visitors",
         "src": "https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection&label=VISITORS&countColor=%23f3722c"
       },
       "images": [
         {
-          "alt": "Visitors",
+          "alt": "访问数",
+          "alt:en-US": "Visitors",
           "src": "https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection&label=VISITORS&countColor=%23f3722c"
         }
       ]
