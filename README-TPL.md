@@ -150,7 +150,7 @@
 
 [rl-link-params]: https://img.shields.io/badge/{{readme.layout.paramsTable.pathParams.replace(" ", "%20")}}-526E86 ""
 [rl-link-query]: https://img.shields.io/badge/{{readme.layout.paramsTable.queryParams.replace(" ", "%20")}}-526E86 ""
-[rl-line]: ./image/line.svg ""
+[rl-line]: /image/line.svg ""
 [rl-repo]: https://img.shields.io/badge/{{readme.layout.repoUrl.replace(" ", "%20")}}-555555?style={{tagBadgeStyle}}&logo=github ""
 
 <!-- https://ionic.io/ionicons people-circle-outline -->

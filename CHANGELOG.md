@@ -1,5 +1,11 @@
 # badge-collection
 
+## 1.10.1
+
+### Patch Changes
+
+- 修复其他语言分割线链接错误
+
 ## 1.10.0
 
 ### Minor Changes
