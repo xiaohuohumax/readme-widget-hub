@@ -16,7 +16,7 @@
     <a href="https://github.com/xiaohuohumax/badge-collection/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection" /></a>
-    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-31-84AD64" /></a>
+    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-32-84AD64" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
   <br/>
@@ -30,6 +30,7 @@
   * [Visit Counter Badge | 访客统计徽章](#visit-counter-badge--访客统计徽章)
     * [HITS | 访问统计](#hits--访问统计)
     * [Moe Counter | 萌萌计数器](#moe-counter--萌萌计数器)
+    * [Profile Counter | 访问统计](#profile-counter--访问统计)
     * [Visitor Badge | 访客徽章](#visitor-badge--访客徽章)
   * [Custom Icon Badges | 自定义图标徽章](#custom-icon-badges--自定义图标徽章)
   * [Capsule Render | 动态彩色图像](#capsule-render--动态彩色图像)
@@ -302,6 +303,44 @@
 ```
 
 ![Moe Counter](https://count.getloli.com/@xiaohuohumax-badge-collection)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
+#### Profile Counter | 访问统计
+
+> \[!Note]
+> 此接口暂未找到官方项目地址或文档链接，如有知晓欢迎补充，非常感谢。
+
+![rl-badge-introduction]
+
+**统计访问次数。**
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-params] | | | | |
+| `countId` | string |  | 统计 ID |  |
+
+</details>
+
+```markdown
+![Alt](https://profile-counter.glitch.me/{countId}/count.svg)
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- badge-collection -->
+![Visitor Count](https://profile-counter.glitch.me/badge-collection/count.svg)
+```
+
+![Visitor Count](https://profile-counter.glitch.me/badge-collection/count.svg)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
 
