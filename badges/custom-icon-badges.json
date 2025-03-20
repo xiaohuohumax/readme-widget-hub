@@ -1,10 +1,12 @@
 {
   "index": 5,
-  "title": "Custom Icon Badges | 自定义图标徽章",
+  "title": "Custom Icon Badges",
   "description": "自定义图标徽章，可以用任何你喜欢的图标。",
+  "description:en-US": "Allows users to more easily use Octicons and their own icons and logos on [shields.io badges](https://github.com/badges/shields).",
   "alert": {
     "type": "Tip",
-    "messages": "由于此项目徽章是基于 [shields.io](https://shields.io/) 生成，因此配置参数可直接参考 [shields.io badges](https://shields.io/badges)，下面配置仅展示此项目扩展参数。"
+    "messages": "由于此项目徽章是基于 [shields.io](https://shields.io/) 生成，因此配置参数可直接参考 [shields.io badges](https://shields.io/badges)，下面配置仅展示此项目扩展参数。",
+    "messages:en-US": "Since the project badges are generated based on [shields.io](https://shields.io/), the configuration parameters can directly refer to [shields.io badges](https://shields.io/badges). The following configurations only demonstrate the extended parameters for this project."
   },
   "tags": {
     "repoUrl": "https://github.com/DenverCoder1/custom-icon-badges",
@@ -16,7 +18,9 @@
         "name": "shieldsIoParams",
         "type": "any[]",
         "description": "[shields.io 徽章路径参数](https://shields.io/badges)",
-        "extDescription": "例如：`badge/...`（静态徽章） `github/...`（Github 相关）"
+        "description:en-US": "[shields.io Badge path parameters](https://shields.io/badges)",
+        "extDescription": "例如：`badge/...`（静态徽章） `github/...`（Github 相关）。",
+        "extDescription:en-US": "For example: `badge/...` (static badge) `github/...` (Github related)."
       }
     ],
     "querys": [
@@ -25,19 +29,33 @@
         "type": "string",
         "default": "img.shields.io",
         "description": "使用不同的徽章托管服务",
-        "extDescription": "可选值：`staging.shields.io` `img.shields.io` 等"
+        "description:en-US": "Use different badge hosting service",
+        "extDescription": "可选值：`staging.shields.io` `img.shields.io`。",
+        "extDescription:en-US": "Supported: `staging.shields.io` `img.shields.io`."
       },
       {
         "name": "logo",
         "type": "string",
         "description": "自定义图标名称",
-        "extDescription": "即自己上传图标时设置的名称"
+        "description:en-US": "Custom icon name",
+        "extDescription": "即自己上传图标时设置的名称",
+        "extDescription:en-US": "The name you set when uploading the icon"
+      },
+      {
+        "name": "logoSource",
+        "type": "string",
+        "description": "自定义图标来源",
+        "description:en-US": "Custom icon source",
+        "extDescription": "可选值：`feather`",
+        "extDescription:en-US": "Supported: `feather`"
       },
       {
         "name": "shieldsIoQuerys",
         "type": "any[]",
         "description": "[shields.io 徽章查询参数](https://shields.io/badges)",
-        "extDescription": "例如：`logoColor`（图标颜色） `style`（徽章样式）等"
+        "description:en-US": "[shields.io Badge query parameters](https://shields.io/badges)",
+        "extDescription": "例如：`logoColor`（图标颜色） `style`（徽章样式）等。",
+        "extDescription:en-US": "For example: `logoColor` (icon color) `style` (badge style) etc."
       }
     ],
     "srcTemplate": "https://custom-icon-badges.demolab.com/{shieldsIoParams}{?host,shieldsIoQuerys}"
@@ -45,12 +63,14 @@
   "examples": [
     {
       "explain": {
-        "alt": "Custom Badge",
+        "alt": "自定义图标徽章",
+        "alt:en-US": "Custom Icon Badge",
         "src": "https://custom-icon-badges.demolab.com/badge/custom-badge-blue.svg?logo=paintbrush&logoColor=white"
       },
       "images": [
         {
-          "alt": "Custom Badge",
+          "alt": "自定义图标徽章",
+          "alt:en-US": "Custom Icon Badge",
           "src": "https://custom-icon-badges.demolab.com/badge/custom-badge-blue.svg?logo=paintbrush&logoColor=white"
         }
       ]
