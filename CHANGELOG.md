@@ -1,5 +1,11 @@
 # badge-collection
 
+## 1.10.2
+
+### Patch Changes
+
+- 预览 Markdown 频繁解析修复
+
 ## 1.10.1
 
 ### Patch Changes

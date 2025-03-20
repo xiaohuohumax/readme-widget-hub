@@ -5,18 +5,25 @@ import './index.css'
 
 let nowLocale = new URLSearchParams(location.search).get('locale') || ''
 let vReadme = virtualReadme
+const readmeMap: Map<string, string> = new Map()
 
 const app = document.createElement('div')
 
 function updateReadme(newVirtualReadme: Record<string, string>) {
+  console.log('updateReadme', newVirtualReadme)
+  readmeMap.clear()
+  Object.entries(newVirtualReadme).forEach(([locale, readme]) => {
+    readmeMap.set(locale, markdown2Html(readme))
+  })
+
   vReadme = newVirtualReadme
-  app.innerHTML = markdown2Html(vReadme[nowLocale])
+  app.innerHTML = readmeMap.get(nowLocale) || ''
   app.addEventListener('click', (e) => {
     const localeLink = e.target as HTMLAnchorElement
     if (localeLink.classList.contains('locale-link')) {
       e.preventDefault()
       nowLocale = localeLink.dataset.locale || ''
-      app.innerHTML = markdown2Html(vReadme[nowLocale])
+      app.innerHTML = readmeMap.get(nowLocale) || ''
       const url = new URL(location.href)
       url.searchParams.set('locale', nowLocale)
       history.pushState(null, '', url.href)
