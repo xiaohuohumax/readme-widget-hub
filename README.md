@@ -16,7 +16,7 @@
     <a href="https://github.com/xiaohuohumax/badge-collection/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection" /></a>
-    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-32-84AD64" /></a>
+    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-33-84AD64" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
   <br/>
@@ -56,6 +56,7 @@
   * [OpenSSF Best Practices Badge | 最佳实践徽章](#openssf-best-practices-badge--最佳实践徽章)
   * [Open Source Software Insight | 开源软件洞察](#open-source-software-insight--开源软件洞察)
   * [PlayBadges | Play Store 应用卡片](#playbadges--play-store-应用卡片)
+  * [README Jokes | README 笑话](#readme-jokes--readme-笑话)
   * [Readme Typing SVG | 打字机效果的动态 SVG 卡片](#readme-typing-svg--打字机效果的动态-svg-卡片)
   * [Sloc Cloc and Code | 代码行数统计](#sloc-cloc-and-code--代码行数统计)
   * [Star History | GitHub 星标历史图](#star-history--github-星标历史图)
@@ -1511,6 +1512,50 @@
 ![Play Store App Ratings](https://PlayBadges.pavi2410.me/badge/ratings?id=appinventor.ai_pavitragolchha.VR)
 
 </details>
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
+### README Jokes | README 笑话
+
+![rl-badge-introduction]
+
+**README 上的随机编程笑话。**
+
+[![rl-repo]](https://github.com/ABSphreak/readme-jokes)
+[![rl-official-docs]](https://github.com/ABSphreak/readme-jokes?tab=readme-ov-file#usage)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-query] | | | | |
+| `bgColor` | string |  | 背景颜色 | 格式：`HEX` 例如：`#FF0000` |
+| `borderColor` | string |  | 边框颜色 | 格式：`HEX` 例如：`#FF0000` |
+| `qColor` | string |  | 问题颜色 | 格式：`HEX` 例如：`#FF0000` |
+| `aColor` | string |  | 回答颜色 | 格式：`HEX` 例如：`#FF0000` |
+| `textColor` | string |  | 正常文字颜色 | 格式：`HEX` 例如：`#FF0000` |
+| `codeColor` | string |  | 代码颜色 | 格式：`HEX` 例如：`#FF0000` |
+| `hideBorder` | boolean | `false` | 是隐藏边框 | 隐藏：`&hideBorder` 正常：不添加 `hideBorder` 即可 |
+| `theme` | string | `default` | 主题 | 可选值：`random` `gradientBlue` `solidBlue` `tokyonight` `halloween` `watermelon` `pinkish` `daySky` `radical` `merko` `gruvbox` `vue` 更多主题参考：[theme](https://github.com/ABSphreak/readme-jokes?tab=readme-ov-file#parameters-available) |
+
+</details>
+
+```markdown
+![Alt](https://readme-jokes.vercel.app/api{?bgColor,borderColor,qColor,aColor,textColor,codeColor,hideBorder,theme})
+```
+
+![rl-uses-examples]
+
+```markdown
+![README Jokes](https://readme-jokes.vercel.app/api?hideBorder)
+```
+
+![README Jokes](https://readme-jokes.vercel.app/api?hideBorder)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
 
