@@ -16,7 +16,7 @@
     <a href="https://github.com/xiaohuohumax/badge-collection/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection" /></a>
-    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-30-84AD64" /></a>
+    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-31-84AD64" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
   <br/>
@@ -58,6 +58,7 @@
   * [Readme Typing SVG | 打字机效果的动态 SVG 卡片](#readme-typing-svg--打字机效果的动态-svg-卡片)
   * [Sloc Cloc and Code | 代码行数统计](#sloc-cloc-and-code--代码行数统计)
   * [Star History | GitHub 星标历史图](#star-history--github-星标历史图)
+  * [Widget Bite | 速食小组件](#widget-bite--速食小组件)
 * [📖 如何运行项目](#-如何运行项目)
 * [✍ 如何贡献徽章](#-如何贡献徽章)
 * [💖 感谢所有贡献者](#-感谢所有贡献者)
@@ -1612,6 +1613,76 @@
 ```
 
 ![Star History Chart](https://api.star-history.com/svg?repos=star-history/star-history\&type=Date)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
+### Widget Bite | 速食小组件
+
+![rl-badge-introduction]
+
+**为你的 README 添加一些小组件（包含：访客计数，投票以及一个好看的 Banner），让你的项目更加生动有趣。**
+
+[![rl-online-tool]](https://widgetbite.com/)
+[![rl-official-docs]](https://widgetbite.com/)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-params] | | | | |
+| `username` | string |  | Github 用户名 |  |
+
+</details>
+
+```markdown
+<!-- Visitor Stats -->
+![Alt](https://widgetbite.com/stats/{username})
+```
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-query] | | | | |
+| `title` | string |  | 标题 |  |
+| `subtitle` | string |  | 副标题 |  |
+| `titletransform` | string | `none` | 标题旋转方式 | 可选值：`none` `rotate` `skew` `scale` |
+| `subtitletransform` | string | `none` | 副标题旋转方式 | 可选值：`none` `rotate` `skew` `scale` |
+| `fontpalette` | string | `none` | 文字样式 | 可选值：`none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn` |
+| `backgroundpalette` | string | `none` | 背景样式 | 可选值：`none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn` |
+
+</details>
+
+```markdown
+<!-- Banner -->
+![Alt](https://widgetbite.com/banner{?title,subtitle,titletransform,subtitletransform,fontpalette,backgroundpalette})
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- xiaohuohumax -->
+![Visitor Stats](https://widgetbite.com/stats/xiaohuohumax)
+```
+
+![Visitor Stats](https://widgetbite.com/stats/xiaohuohumax)
+
+<details>
+  <summary>点击展开/收起更多示例</summary><p></p>
+
+```markdown
+![Banner](https://widgetbite.com/banner?title=Badge%20Collection&subtitle=&backgroundpalette=pastels&fontpalette=pastels&titletransform=rotate)
+```
+
+![Banner](https://widgetbite.com/banner?title=Badge%20Collection\&subtitle=\&backgroundpalette=pastels\&fontpalette=pastels\&titletransform=rotate)
+
+</details>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
 
