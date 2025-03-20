@@ -1,0 +1,91 @@
+{
+  "title": "Stackoverflow Readme Profile | Stackoverflow 个人资料卡片",
+  "description": "轻松分享你的 Stackoverflow 个人资料到你的 README。",
+  "tags": {
+    "repoUrl": "https://github.com/johannchopin/stackoverflow-readme-profile",
+    "onlineToolUrl": "https://stackoverflow-readme-profile.vercel.app/",
+    "officialDocsUrl": "https://github.com/johannchopin/stackoverflow-readme-profile?tab=readme-ov-file#stackoverflow-readme-profile"
+  },
+  "rules": [
+    {
+      "params": [
+        {
+          "name": "template",
+          "type": "string",
+          "description": "显示模板",
+          "extDescription": "可选值：`profile` `profile-small`"
+        },
+        {
+          "name": "userId",
+          "type": "string",
+          "description": "Stackoverflow 用户 ID"
+        }
+      ],
+      "querys": [
+        {
+          "name": "theme",
+          "type": "string",
+          "default": "default",
+          "description": "主题",
+          "extDescription": "可选值：`default` `dark` `cobalt` `monokai` `graywhite` `hotdog`"
+        },
+        {
+          "name": "website",
+          "type": "boolean",
+          "default": "true",
+          "description": "是否显示网站 URL",
+          "extDescription": "`template=profile` 可用，可选值：`true` `false`"
+        },
+        {
+          "name": "location",
+          "type": "boolean",
+          "default": "true",
+          "description": "是否显示位置",
+          "extDescription": "`template=profile` 可用，可选值：`true` `false`"
+        }
+      ],
+      "annotate": "Profile",
+      "srcTemplate": "https://stackoverflow-readme-profile.johannchopin.fr/{template}/{userId}{?theme,website,location}"
+    },
+    {
+      "params": [
+        {
+          "name": "tagName",
+          "type": "string",
+          "description": "标签名称"
+        },
+        {
+          "name": "userId",
+          "type": "string",
+          "description": "Stackoverflow 用户 ID"
+        }
+      ],
+      "querys": [
+        {
+          "name": "theme",
+          "type": "string",
+          "default": "default",
+          "description": "主题",
+          "extDescription": "可选值：`default` `dark` `cobalt` `monokai` `graywhite` `hotdog`"
+        }
+      ],
+      "annotate": "Tags League Ranking",
+      "srcTemplate": "https://stackoverflow-readme-profile.johannchopin.fr/tags-league-ranking/{tagName}/{userId}{?theme}"
+    }
+  ],
+  "useExamples": [
+    {
+      "explain": {
+        "annotate": "johannchopin",
+        "alt": "Stackoverflow Profile",
+        "src": "https://stackoverflow-readme-profile.johannchopin.fr/profile/8583669?theme=dark"
+      },
+      "images": [
+        {
+          "alt": "Stackoverflow Profile",
+          "src": "https://stackoverflow-readme-profile.johannchopin.fr/profile/8583669?theme=dark"
+        }
+      ]
+    }
+  ]
+}

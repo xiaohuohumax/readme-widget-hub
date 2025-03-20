@@ -1,0 +1,92 @@
+{
+  "title": "Widget Bite | 速食小组件",
+  "description": "为你的 README 添加一些小组件（包含：访客计数，投票以及一个好看的 Banner），让你的项目更加生动有趣。",
+  "tags": {
+    "onlineToolUrl": "https://widgetbite.com/",
+    "officialDocsUrl": "https://widgetbite.com/"
+  },
+  "rules": [
+    {
+      "params": [
+        {
+          "name": "username",
+          "type": "string",
+          "description": "Github 用户名"
+        }
+      ],
+      "annotate": "Visitor Stats",
+      "srcTemplate": "https://widgetbite.com/stats/{username}"
+    },
+    {
+      "querys": [
+        {
+          "name": "title",
+          "type": "string",
+          "description": "标题"
+        },
+        {
+          "name": "subtitle",
+          "type": "string",
+          "description": "副标题"
+        },
+        {
+          "name": "titletransform",
+          "type": "string",
+          "default": "none",
+          "description": "标题旋转方式",
+          "extDescription": "可选值：`none` `rotate` `skew` `scale`"
+        },
+        {
+          "name": "subtitletransform",
+          "type": "string",
+          "default": "none",
+          "description": "副标题旋转方式",
+          "extDescription": "可选值：`none` `rotate` `skew` `scale`"
+        },
+        {
+          "name": "fontpalette",
+          "type": "string",
+          "default": "none",
+          "description": "文字样式",
+          "extDescription": "可选值：`none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`"
+        },
+        {
+          "name": "backgroundpalette",
+          "type": "string",
+          "default": "none",
+          "description": "背景样式",
+          "extDescription": "可选值：`none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`"
+        }
+      ],
+      "annotate": "Banner",
+      "srcTemplate": "https://widgetbite.com/banner{?title,subtitle,titletransform,subtitletransform,fontpalette,backgroundpalette}"
+    }
+  ],
+  "useExamples": [
+    {
+      "explain": {
+        "annotate": "xiaohuohumax",
+        "alt": "Visitor Stats",
+        "src": "https://widgetbite.com/stats/xiaohuohumax"
+      },
+      "images": [
+        {
+          "alt": "Visitor Stats",
+          "src": "https://widgetbite.com/stats/xiaohuohumax"
+        }
+      ]
+    },
+    {
+      "explain": {
+        "alt": "Banner",
+        "src": "https://widgetbite.com/banner?title=Badge%20Collection&subtitle=&backgroundpalette=pastels&fontpalette=pastels&titletransform=rotate"
+      },
+      "images": [
+        {
+          "alt": "Banner",
+          "src": "https://widgetbite.com/banner?title=Badge%20Collection&subtitle=&backgroundpalette=pastels&fontpalette=pastels&titletransform=rotate"
+        }
+      ]
+    }
+  ]
+}

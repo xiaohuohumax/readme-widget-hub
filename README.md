@@ -16,7 +16,7 @@
     <a href="https://github.com/xiaohuohumax/badge-collection/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection" /></a>
-    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-30-84AD64" /></a>
+    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-37-84AD64" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
   <br/>
@@ -30,6 +30,7 @@
   * [Visit Counter Badge | 访客统计徽章](#visit-counter-badge--访客统计徽章)
     * [HITS | 访问统计](#hits--访问统计)
     * [Moe Counter | 萌萌计数器](#moe-counter--萌萌计数器)
+    * [Profile Counter | 访问统计](#profile-counter--访问统计)
     * [Visitor Badge | 访客徽章](#visitor-badge--访客徽章)
   * [Custom Icon Badges | 自定义图标徽章](#custom-icon-badges--自定义图标徽章)
   * [Capsule Render | 动态彩色图像](#capsule-render--动态彩色图像)
@@ -48,16 +49,22 @@
     * [Github Chart API | Github 个人贡献卡片](#github-chart-api--github-个人贡献卡片)
     * [Repobeats | GitHub 仓库分析图](#repobeats--github-仓库分析图)
     * [Socialify | Github 项目描述卡片](#socialify--github-项目描述卡片)
+    * [Spark | GitHub 星标迷你线图](#spark--github-星标迷你线图)
+    * [GitHub Starlines | GitHub 星标迷你线图](#github-starlines--github-星标迷你线图)
   * [Github Readme Quotes | 编程名言卡片](#github-readme-quotes--编程名言卡片)
+  * [GTCE : GitHub Twitter Card Embed | Twitter 推文卡片](#gtce--github-twitter-card-embed--twitter-推文卡片)
   * [Gradgen | 渐变徽章](#gradgen--渐变徽章)
   * [Iconify | 图标徽章](#iconify--图标徽章)
   * [Open Collective | 财务贡献者图](#open-collective--财务贡献者图)
   * [OpenSSF Best Practices Badge | 最佳实践徽章](#openssf-best-practices-badge--最佳实践徽章)
   * [Open Source Software Insight | 开源软件洞察](#open-source-software-insight--开源软件洞察)
   * [PlayBadges | Play Store 应用卡片](#playbadges--play-store-应用卡片)
+  * [README Jokes | README 笑话](#readme-jokes--readme-笑话)
   * [Readme Typing SVG | 打字机效果的动态 SVG 卡片](#readme-typing-svg--打字机效果的动态-svg-卡片)
   * [Sloc Cloc and Code | 代码行数统计](#sloc-cloc-and-code--代码行数统计)
+  * [Stackoverflow Readme Profile | Stackoverflow 个人资料卡片](#stackoverflow-readme-profile--stackoverflow-个人资料卡片)
   * [Star History | GitHub 星标历史图](#star-history--github-星标历史图)
+  * [Widget Bite | 速食小组件](#widget-bite--速食小组件)
 * [📖 如何运行项目](#-如何运行项目)
 * [✍ 如何贡献徽章](#-如何贡献徽章)
 * [💖 感谢所有贡献者](#-感谢所有贡献者)
@@ -301,6 +308,44 @@
 ```
 
 ![Moe Counter](https://count.getloli.com/@xiaohuohumax-badge-collection)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
+#### Profile Counter | 访问统计
+
+> \[!Note]
+> 此接口暂未找到官方项目地址或文档链接，如有知晓欢迎补充，非常感谢。
+
+![rl-badge-introduction]
+
+**统计访问次数。**
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-params] | | | | |
+| `countId` | string |  | 统计 ID |  |
+
+</details>
+
+```markdown
+![Alt](https://profile-counter.glitch.me/{countId}/count.svg)
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- badge-collection -->
+![Visitor Count](https://profile-counter.glitch.me/badge-collection/count.svg)
+```
+
+![Visitor Count](https://profile-counter.glitch.me/badge-collection/count.svg)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
 
@@ -1120,6 +1165,122 @@
 
 ![rl-line]
 
+#### Spark | GitHub 星标迷你线图
+
+> \[!Warning]
+> 此服务基于 Github API，会有请求限制，使用需谨慎。
+
+![rl-badge-introduction]
+
+**Spark 是一个生成精美小图的生成器，称为 sparklines，帮你生成 Github 星标的迷你线图。**
+
+[![rl-repo]](https://github.com/antonmedv/spark)
+[![rl-online-tool]](https://stars.medv.io/)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-params] | | | | |
+| `owner` | string |  | Github 用户名 |  |
+| `repo` | string |  | Github 仓库名 |  |
+
+</details>
+
+```markdown
+![Alt](https://stars.medv.io/{owner}/{repo}.svg)
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- antonmedv/spark -->
+![Star Sparkline](https://stars.medv.io/antonmedv/spark.svg)
+```
+
+![Star Sparkline](https://stars.medv.io/antonmedv/spark.svg)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
+#### GitHub Starlines | GitHub 星标迷你线图
+
+> \[!Tip]
+> 首次访问需要等待一会，等待图片生成。你也可以查看构建 [workflow runs](https://github.com/qoomon/starlines/actions/workflows/create-starline.yaml)
+
+![rl-badge-introduction]
+
+**动态生成 GitHub 星星历史徽章。**
+
+[![rl-repo]](https://github.com/qoomon/starlines)
+[![rl-official-docs]](https://github.com/qoomon/starlines?tab=readme-ov-file#usage)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-params] | | | | |
+| `owner` | string |  | Github 用户名 |  |
+| `repo` | string |  | Github 仓库名 |  |
+
+</details>
+
+```markdown
+<!-- Repositorie -->
+![Alt](https://starlines.qoo.monster/assets/{owner}/{repo})
+```
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-params] | | | | |
+| `owner` | string |  | Github 用户名 |  |
+| `gist` | string |  | Gist ID |  |
+
+</details>
+
+```markdown
+<!-- Gist -->
+![Alt](https://starlines.qoo.monster/assets/{owner}/{gist}@gist)
+```
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-params] | | | | |
+| `username` | string |  | Github 用户名 |  |
+
+</details>
+
+```markdown
+<!-- User -->
+![Alt](https://starlines.qoo.monster/assets/{username})
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- antonmedv/spark -->
+![Star Sparkline](https://stars.medv.io/antonmedv/spark.svg)
+```
+
+![Star Sparkline](https://stars.medv.io/antonmedv/spark.svg)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
 ### Github Readme Quotes | 编程名言卡片
 
 ![rl-badge-introduction]
@@ -1167,6 +1328,50 @@
 ![Random Quote Badge](https://quotes-github-readme.vercel.app/api?theme=nord\&type=horizontal\&border=true)
 
 </details>
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
+### GTCE : GitHub Twitter Card Embed | Twitter 推文卡片
+
+![rl-badge-introduction]
+
+**展示你 Twitter 的推文、创建时间、点赞、认证徽章等信息。**
+
+[![rl-repo]](https://github.com/VishwaGauravIn/github-twitter-card-embed)
+[![rl-online-tool]](https://gtce.itsvg.in/)
+[![rl-official-docs]](https://github.com/VishwaGauravIn/github-twitter-card-embed?tab=readme-ov-file#-parameters)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-query] | | | | |
+| `username` | string |  | Twitter 用户名 |  |
+| `theme` | string | `dracula` | 主题 | 可选值：`default` `default_repocard` `transparent` `dark` `tokyonight` 更多主题参考：[Themes](https://github.com/VishwaGauravIn/github-twitter-card-embed?tab=readme-ov-file#-themes) |
+| `icon` | string | `default` | 图标 | 可选值：`default` `thunder` `sun` `beaker` `bookmark` `bug` `cake` `badge` `code` `smile` `fire` `hashtag` `heart` `lock` `moon` `radio` `sparkles` `star` `trophy` `user` |
+| `time` | boolean | `true` | 是否显示时间 | 可选值：`true` `false` |
+| `response` | boolean | `true` | 是否显示点赞、转发和评论 | 可选值：`true` `false` |
+| `border` | boolean | `true` | 是否显示边框 | 可选值：`true` `false` |
+
+</details>
+
+```markdown
+![Alt](https://gtce.itsvg.in/api{?username,theme,icon,time,response,border})
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- VishwaGauravIn -->
+![Twitter Card](https://gtce.itsvg.in/api?username=VishwaGauravIn&theme=jolly&response=false&border=false)
+```
+
+![Twitter Card](https://gtce.itsvg.in/api?username=VishwaGauravIn\&theme=jolly\&response=false\&border=false)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
 
@@ -1476,6 +1681,50 @@
 
 ![rl-line]
 
+### README Jokes | README 笑话
+
+![rl-badge-introduction]
+
+**README 上的随机编程笑话。**
+
+[![rl-repo]](https://github.com/ABSphreak/readme-jokes)
+[![rl-official-docs]](https://github.com/ABSphreak/readme-jokes?tab=readme-ov-file#usage)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-query] | | | | |
+| `bgColor` | string |  | 背景颜色 | 格式：`HEX` 例如：`#FF0000` |
+| `borderColor` | string |  | 边框颜色 | 格式：`HEX` 例如：`#FF0000` |
+| `qColor` | string |  | 问题颜色 | 格式：`HEX` 例如：`#FF0000` |
+| `aColor` | string |  | 回答颜色 | 格式：`HEX` 例如：`#FF0000` |
+| `textColor` | string |  | 正常文字颜色 | 格式：`HEX` 例如：`#FF0000` |
+| `codeColor` | string |  | 代码颜色 | 格式：`HEX` 例如：`#FF0000` |
+| `hideBorder` | boolean | `false` | 是隐藏边框 | 隐藏：`&hideBorder` 正常：不添加 `hideBorder` 即可 |
+| `theme` | string | `default` | 主题 | 可选值：`random` `gradientBlue` `solidBlue` `tokyonight` `halloween` `watermelon` `pinkish` `daySky` `radical` `merko` `gruvbox` `vue` 更多主题参考：[theme](https://github.com/ABSphreak/readme-jokes?tab=readme-ov-file#parameters-available) |
+
+</details>
+
+```markdown
+![Alt](https://readme-jokes.vercel.app/api{?bgColor,borderColor,qColor,aColor,textColor,codeColor,hideBorder,theme})
+```
+
+![rl-uses-examples]
+
+```markdown
+![README Jokes](https://readme-jokes.vercel.app/api?hideBorder)
+```
+
+![README Jokes](https://readme-jokes.vercel.app/api?hideBorder)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
 ### Readme Typing SVG | 打字机效果的动态 SVG 卡片
 
 ![rl-badge-introduction]
@@ -1577,6 +1826,69 @@
 
 ![rl-line]
 
+### Stackoverflow Readme Profile | Stackoverflow 个人资料卡片
+
+![rl-badge-introduction]
+
+**轻松分享你的 Stackoverflow 个人资料到你的 README。**
+
+[![rl-repo]](https://github.com/johannchopin/stackoverflow-readme-profile)
+[![rl-online-tool]](https://stackoverflow-readme-profile.vercel.app/)
+[![rl-official-docs]](https://github.com/johannchopin/stackoverflow-readme-profile?tab=readme-ov-file#stackoverflow-readme-profile)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-params] | | | | |
+| `template` | string |  | 显示模板 | 可选值：`profile` `profile-small` |
+| `userId` | string |  | Stackoverflow 用户 ID |  |
+| ![rl-link-query] | | | | |
+| `theme` | string | `default` | 主题 | 可选值：`default` `dark` `cobalt` `monokai` `graywhite` `hotdog` |
+| `website` | boolean | `true` | 是否显示网站 URL | `template=profile` 可用，可选值：`true` `false` |
+| `location` | boolean | `true` | 是否显示位置 | `template=profile` 可用，可选值：`true` `false` |
+
+</details>
+
+```markdown
+<!-- Profile -->
+![Alt](https://stackoverflow-readme-profile.johannchopin.fr/{template}/{userId}{?theme,website,location})
+```
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-params] | | | | |
+| `tagName` | string |  | 标签名称 |  |
+| `userId` | string |  | Stackoverflow 用户 ID |  |
+| ![rl-link-query] | | | | |
+| `theme` | string | `default` | 主题 | 可选值：`default` `dark` `cobalt` `monokai` `graywhite` `hotdog` |
+
+</details>
+
+```markdown
+<!-- Tags League Ranking -->
+![Alt](https://stackoverflow-readme-profile.johannchopin.fr/tags-league-ranking/{tagName}/{userId}{?theme})
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- johannchopin -->
+![Stackoverflow Profile](https://stackoverflow-readme-profile.johannchopin.fr/profile/8583669?theme=dark)
+```
+
+![Stackoverflow Profile](https://stackoverflow-readme-profile.johannchopin.fr/profile/8583669?theme=dark)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
 ### Star History | GitHub 星标历史图
 
 ![rl-badge-introduction]
@@ -1612,6 +1924,76 @@
 ```
 
 ![Star History Chart](https://api.star-history.com/svg?repos=star-history/star-history\&type=Date)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
+### Widget Bite | 速食小组件
+
+![rl-badge-introduction]
+
+**为你的 README 添加一些小组件（包含：访客计数，投票以及一个好看的 Banner），让你的项目更加生动有趣。**
+
+[![rl-online-tool]](https://widgetbite.com/)
+[![rl-official-docs]](https://widgetbite.com/)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-params] | | | | |
+| `username` | string |  | Github 用户名 |  |
+
+</details>
+
+```markdown
+<!-- Visitor Stats -->
+![Alt](https://widgetbite.com/stats/{username})
+```
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-query] | | | | |
+| `title` | string |  | 标题 |  |
+| `subtitle` | string |  | 副标题 |  |
+| `titletransform` | string | `none` | 标题旋转方式 | 可选值：`none` `rotate` `skew` `scale` |
+| `subtitletransform` | string | `none` | 副标题旋转方式 | 可选值：`none` `rotate` `skew` `scale` |
+| `fontpalette` | string | `none` | 文字样式 | 可选值：`none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn` |
+| `backgroundpalette` | string | `none` | 背景样式 | 可选值：`none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn` |
+
+</details>
+
+```markdown
+<!-- Banner -->
+![Alt](https://widgetbite.com/banner{?title,subtitle,titletransform,subtitletransform,fontpalette,backgroundpalette})
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- xiaohuohumax -->
+![Visitor Stats](https://widgetbite.com/stats/xiaohuohumax)
+```
+
+![Visitor Stats](https://widgetbite.com/stats/xiaohuohumax)
+
+<details>
+  <summary>点击展开/收起更多示例</summary><p></p>
+
+```markdown
+![Banner](https://widgetbite.com/banner?title=Badge%20Collection&subtitle=&backgroundpalette=pastels&fontpalette=pastels&titletransform=rotate)
+```
+
+![Banner](https://widgetbite.com/banner?title=Badge%20Collection\&subtitle=\&backgroundpalette=pastels\&fontpalette=pastels\&titletransform=rotate)
+
+</details>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
 

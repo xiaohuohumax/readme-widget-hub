@@ -1,0 +1,72 @@
+{
+  "title": "GitHub Starlines | GitHub 星标迷你线图",
+  "description": "动态生成 GitHub 星星历史徽章。",
+  "alert": {
+    "type": "Tip",
+    "messages": "首次访问需要等待一会，等待图片生成。你也可以查看构建 [workflow runs](https://github.com/qoomon/starlines/actions/workflows/create-starline.yaml)"
+  },
+  "tags": {
+    "repoUrl": "https://github.com/qoomon/starlines",
+    "officialDocsUrl": "https://github.com/qoomon/starlines?tab=readme-ov-file#usage"
+  },
+  "rules": [
+    {
+      "params": [
+        {
+          "name": "owner",
+          "type": "string",
+          "description": "Github 用户名"
+        },
+        {
+          "name": "repo",
+          "type": "string",
+          "description": "Github 仓库名"
+        }
+      ],
+      "annotate": "Repositorie",
+      "srcTemplate": "https://starlines.qoo.monster/assets/{owner}/{repo}"
+    },
+    {
+      "params": [
+        {
+          "name": "owner",
+          "type": "string",
+          "description": "Github 用户名"
+        },
+        {
+          "name": "gist",
+          "type": "string",
+          "description": "Gist ID"
+        }
+      ],
+      "annotate": "Gist",
+      "srcTemplate": "https://starlines.qoo.monster/assets/{owner}/{gist}@gist"
+    },
+    {
+      "params": [
+        {
+          "name": "username",
+          "type": "string",
+          "description": "Github 用户名"
+        }
+      ],
+      "annotate": "User",
+      "srcTemplate": "https://starlines.qoo.monster/assets/{username}"
+    }
+  ],
+  "useExamples": [
+    {
+      "explain": {
+        "annotate": "antonmedv/spark",
+        "alt": "Star Sparkline",
+        "src": "https://stars.medv.io/antonmedv/spark.svg"
+      },
+      "images": [
+        {
+          "alt": "Star Sparkline",
+          "src": "https://stars.medv.io/antonmedv/spark.svg"
+        }
+      ]
+    }
+  ]
+}
