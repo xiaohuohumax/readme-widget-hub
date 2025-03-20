@@ -16,7 +16,7 @@
     <a href="https://github.com/xiaohuohumax/badge-collection/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection" /></a>
-    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-33-84AD64" /></a>
+    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-35-84AD64" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
   <br/>
@@ -49,6 +49,8 @@
     * [Github Chart API | Github 个人贡献卡片](#github-chart-api--github-个人贡献卡片)
     * [Repobeats | GitHub 仓库分析图](#repobeats--github-仓库分析图)
     * [Socialify | Github 项目描述卡片](#socialify--github-项目描述卡片)
+    * [Spark | GitHub 星标迷你线图](#spark--github-星标迷你线图)
+    * [GitHub Starlines | GitHub 星标迷你线图](#github-starlines--github-星标迷你线图)
   * [Github Readme Quotes | 编程名言卡片](#github-readme-quotes--编程名言卡片)
   * [Gradgen | 渐变徽章](#gradgen--渐变徽章)
   * [Iconify | 图标徽章](#iconify--图标徽章)
@@ -1156,6 +1158,122 @@
 ```
 
 ![GitHub Socialify](https://socialify.git.ci/xiaohuohumax/badge-collection/image?font=Rokkitt\&forks=1\&issues=1\&language=1\&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fxiaohuohumax%2Flogo%2Frefs%2Fheads%2Fmain%2Flogos%2Flogo.svg\&name=1\&owner=1\&pattern=Plus\&pulls=1\&stargazers=1\&theme=Auto)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
+#### Spark | GitHub 星标迷你线图
+
+> \[!Warning]
+> 此服务基于 Github API，会有请求限制，使用需谨慎。
+
+![rl-badge-introduction]
+
+**Spark 是一个生成精美小图的生成器，称为 sparklines，帮你生成 Github 星标的迷你线图。**
+
+[![rl-repo]](https://github.com/antonmedv/spark)
+[![rl-online-tool]](https://stars.medv.io/)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-params] | | | | |
+| `owner` | string |  | Github 用户名 |  |
+| `repo` | string |  | Github 仓库名 |  |
+
+</details>
+
+```markdown
+![Alt](https://stars.medv.io/{owner}/{repo}.svg)
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- antonmedv/spark -->
+![Star Sparkline](https://stars.medv.io/antonmedv/spark.svg)
+```
+
+![Star Sparkline](https://stars.medv.io/antonmedv/spark.svg)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
+#### GitHub Starlines | GitHub 星标迷你线图
+
+> \[!Tip]
+> 首次访问需要等待一会，等待图片生成。你也可以查看构建 [workflow runs](https://github.com/qoomon/starlines/actions/workflows/create-starline.yaml)
+
+![rl-badge-introduction]
+
+**动态生成 GitHub 星星历史徽章。**
+
+[![rl-repo]](https://github.com/qoomon/starlines)
+[![rl-official-docs]](https://github.com/qoomon/starlines?tab=readme-ov-file#usage)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-params] | | | | |
+| `owner` | string |  | Github 用户名 |  |
+| `repo` | string |  | Github 仓库名 |  |
+
+</details>
+
+```markdown
+<!-- Repositorie -->
+![Alt](https://starlines.qoo.monster/assets/{owner}/{repo})
+```
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-params] | | | | |
+| `owner` | string |  | Github 用户名 |  |
+| `gist` | string |  | Gist ID |  |
+
+</details>
+
+```markdown
+<!-- Gist -->
+![Alt](https://starlines.qoo.monster/assets/{owner}/{gist}@gist)
+```
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-params] | | | | |
+| `username` | string |  | Github 用户名 |  |
+
+</details>
+
+```markdown
+<!-- User -->
+![Alt](https://starlines.qoo.monster/assets/{username})
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- antonmedv/spark -->
+![Star Sparkline](https://stars.medv.io/antonmedv/spark.svg)
+```
+
+![Star Sparkline](https://stars.medv.io/antonmedv/spark.svg)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
 
