@@ -2053,7 +2053,7 @@ npm run spider
 
 [rl-link-query]: https://img.shields.io/badge/查询参数-526E86
 
-[rl-line]: ./image/line.svg
+[rl-line]: /image/line.svg
 
 [rl-repo]: https://img.shields.io/badge/项目地址-555555?style=flat-square&logo=github
 
