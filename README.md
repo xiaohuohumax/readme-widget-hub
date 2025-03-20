@@ -30,10 +30,10 @@
 
 * [🎖️ 徽章集合](#️-徽章集合)
   * [Shields.io](#shieldsio)
-  * [Badgen 徽章生成服务](#badgen-徽章生成服务)
-  * [Visit Counter Badge | 访客统计徽章](#visit-counter-badge--访客统计徽章)
-    * [HITS | 访问统计](#hits--访问统计)
-    * [Moe Counter | 萌萌计数器](#moe-counter--萌萌计数器)
+  * [Badgen](#badgen)
+  * [访客统计徽章](#访客统计徽章)
+    * [HITS](#hits)
+    * [Moe Counter](#moe-counter)
     * [Profile Counter | 访问统计](#profile-counter--访问统计)
     * [Visitor Badge | 访客徽章](#visitor-badge--访客徽章)
   * [Custom Icon Badges | 自定义图标徽章](#custom-icon-badges--自定义图标徽章)
@@ -149,7 +149,7 @@
 
 ![rl-line]
 
-### Badgen 徽章生成服务
+### Badgen
 
 > \[!Tip]
 > 由于此项目支持的徽章种类非常多，且功能强大，这里只简单介绍－静态徽章，其他徽章使用方式还请移步官方文档。
@@ -170,10 +170,10 @@
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `badge` | string |  | 徽章类型 | 可选值：`/static` `/github` `/gitlab` `/https` 等等，更多类型请参考官方文档 |
-| `subject` | string |  | 徽章子信息 | 比如：`/static` 静态徽章时，`subject` 表示为徽章左侧标签 |
-| `status` | string |  | 徽章右侧消息 | 比如：`/static/Swift/4.2/orange` `status=4.2` |
-| `color` | string |  | 徽章颜色 | 支持格式：`RGB` `CSS颜色` |
+| `badge` | string |  | 徽章类型 | 可选值：`/static` `/github` `/gitlab` `/https` 等等，更多类型请参考官方文档。 |
+| `subject` | string |  | 徽章子信息 | 比如：`/static` 静态徽章时，`subject` 表示为徽章左侧标签。 |
+| `status` | string |  | 徽章右侧消息 | 比如：`/static/Swift/4.2/orange` `status=4.2`。 |
+| `color` | string |  | 徽章颜色 | 支持格式：`RGB` `CSS颜色`。 |
 | ![rl-link-query] | | | | |
 | `color` | string |  | 覆盖默认徽章颜色 |  |
 | `icon` | string |  | 徽章左侧图标 | 支持外部图标 URL |
@@ -201,7 +201,7 @@
   <summary>点击展开/收起更多示例</summary><p></p>
 
 ```markdown
-![Color Badge](https://badgen.net/badge/color/F94144/F94144?label=)
+![彩色徽章](https://badgen.net/badge/color/F94144/F94144?label=)
 ```
 
 ![Color Badge F94144](https://badgen.net/badge/color/F94144/F94144?label=)
@@ -222,11 +222,11 @@
 
 ![rl-line]
 
-### Visit Counter Badge | 访客统计徽章
+### 访客统计徽章
 
 想要知道网站的访客统计数据吗？这几个徽章可以帮助你统计网站的访问次数。
 
-#### HITS | 访问统计
+#### HITS
 
 ![rl-badge-introduction]
 
@@ -244,11 +244,11 @@
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
 | `url` | string |  | 需要统计的网站或 GitHub 仓库的 URL |  |
-| `edge_flat` | boolean |  | 徽章整体风格 | 可选值：true（Flat） false（Round） |
+| `edge_flat` | boolean |  | 徽章整体风格 | 可选值：`true`（Flat） `false`（Round）。 |
 | `title` | string | `hits` | 左侧标签内容 |  |
-| `title_bg` | string | `#555555` | 左侧标签背景颜色 | 支持十六进制颜色代码，例如：#FF0000 |
-| `count_bg` | string | `#79C83D` | 右侧信息背景颜色 | 支持十六进制颜色代码，例如：#FF0000 |
-| `icon_color` | string |  | 图标颜色 | 支持十六进制颜色代码，例如：#FF0000 |
+| `title_bg` | string | `#555555` | 左侧标签背景颜色 | 格式：`HEX`，例如：`#FF0000`。 |
+| `count_bg` | string | `#79C83D` | 右侧信息背景颜色 | 格式：`HEX`，例如：`#FF0000`。 |
+| `icon_color` | string |  | 图标颜色 | 格式：`HEX`，例如：`#FF0000`。 |
 
 </details>
 
@@ -260,16 +260,16 @@
 
 ```markdown
 <!-- xiaohuohumax/badge-collection -->
-![Hit Counter](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection)
+![点击统计](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection)
 ```
 
-![Hit Counter](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection)
+![点击统计](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『回到顶部』-555555?style=for-the-badge"></a></p>
 
 ![rl-line]
 
-#### Moe Counter | 萌萌计数器
+#### Moe Counter
 
 ![rl-badge-introduction]
 
@@ -287,17 +287,17 @@
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `countId` | string |  | 计数器 ID | 不能包含特殊字符 |
+| `countId` | string |  | 计数器 ID | 不能包含特殊字符。 |
 | ![rl-link-query] | | | | |
 | `theme` | string | `moebooru` | 主题 | 可选值：`random` `3d-num` `ai-1` `asoul` `booru-ffsr` `moebooru`，更多主题：[More theme](https://github.com/journey-ad/Moe-Counter?tab=readme-ov-file#more-theme) |
-| `padding` | number | `7` | 最小长度 | 最小：`1` 最大：`17` |
-| `offset` | number | `0` | 像素偏移值 | 最小：`-500` 最大：`500` |
-| `scale` | number | `1` | 图像缩放比例 | 最小：`0.1` 最大：`2` |
-| `align` | string | `top` | 图像对齐方式 | 可选值：`top` `bottom` `center` |
-| `pixelated` | boolean | `1` | 是否启用像素化模式 | 可选值：`0` `1` |
-| `darkmode` | boolean | `auto` | 是否启用暗黑模式 | 可选值：`0` `1` `auto` |
-| `num` | number |  | 统计数字 | 设置后将不再有统计计数效果，仅显示配置的数字 |
-| `prefix` | number |  | 统计数字前缀数字 | 在统计数字前添加的数字，最大：`999999` |
+| `padding` | number | `7` | 最小长度 | 范围：`1` 到 `17`。 |
+| `offset` | number | `0` | 像素偏移值 | 范围：`-500` 到 `500`。 |
+| `scale` | number | `1` | 图像缩放比例 | 范围：`0.1` 到 `2`。 |
+| `align` | string | `top` | 图像对齐方式 | 可选值：`top` `bottom` `center`。 |
+| `pixelated` | boolean | `1` | 是否启用像素化模式 | 可选值：`0` `1`。 |
+| `darkmode` | boolean | `auto` | 是否启用暗黑模式 | 可选值：`0` `1` `auto`。 |
+| `num` | number | `0` | 统计数字 | `0` 代表禁用，如设置后将不再有统计计数效果，仅显示配置的数字。 |
+| `prefix` | number |  | 统计数字前缀数字 | 在统计数字前添加的数字，最大：`999999`，留空则不启用。 |
 
 </details>
 
@@ -309,10 +309,10 @@
 
 ```markdown
 <!-- xiaohuohumax/badge-collection -->
-![Moe Counter](https://count.getloli.com/@xiaohuohumax-badge-collection)
+![萌萌计数器](https://count.getloli.com/@xiaohuohumax-badge-collection)
 ```
 
-![Moe Counter](https://count.getloli.com/@xiaohuohumax-badge-collection)
+![萌萌计数器](https://count.getloli.com/@xiaohuohumax-badge-collection)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『回到顶部』-555555?style=for-the-badge"></a></p>
 
