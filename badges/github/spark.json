@@ -1,0 +1,42 @@
+{
+  "title": "Spark | GitHub 星标迷你线图",
+  "description": "Spark 是一个生成精美小图的生成器，称为 sparklines，帮你生成 Github 星标的迷你线图。",
+  "alert": {
+    "type": "Warning",
+    "messages": "此服务基于 Github API，会有请求限制，使用需谨慎。"
+  },
+  "tags": {
+    "repoUrl": "https://github.com/antonmedv/spark",
+    "onlineToolUrl": "https://stars.medv.io/"
+  },
+  "rules": {
+    "params": [
+      {
+        "name": "owner",
+        "type": "string",
+        "description": "Github 用户名"
+      },
+      {
+        "name": "repo",
+        "type": "string",
+        "description": "Github 仓库名"
+      }
+    ],
+    "srcTemplate": "https://stars.medv.io/{owner}/{repo}.svg"
+  },
+  "useExamples": [
+    {
+      "explain": {
+        "annotate": "antonmedv/spark",
+        "alt": "Star Sparkline",
+        "src": "https://stars.medv.io/antonmedv/spark.svg"
+      },
+      "images": [
+        {
+          "alt": "Star Sparkline",
+          "src": "https://stars.medv.io/antonmedv/spark.svg"
+        }
+      ]
+    }
+  ]
+}
