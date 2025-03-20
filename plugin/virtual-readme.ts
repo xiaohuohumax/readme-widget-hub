@@ -36,11 +36,15 @@ export default function virtualReadme(options: VirtualReadmeOptions): Plugin {
     },
     load(id) {
       if (id === resolvedVirtualModuleId) {
-        return `export default ${JSON.stringify(builder.generateReadme())}`
+        return `export default ${JSON.stringify(builder.generateReadmeAllLocaleMap())}`
       }
     },
     configureServer(server) {
-      const watcher = chokidar.watch([options.badgeDirPath, options.tplPath], {
+      const watcher = chokidar.watch([
+        options.badgeDirPath,
+        options.tplPath,
+        options.readmeJsonPath,
+      ], {
         ignoreInitial: true,
         persistent: true,
       })
@@ -54,7 +58,7 @@ export default function virtualReadme(options: VirtualReadmeOptions): Plugin {
         server.ws.send({
           type: 'custom',
           event: 'virtual:readme:reload',
-          data: builder.generateReadme(),
+          data: builder.generateReadmeAllLocaleMap(),
         })
       }
 

@@ -42,7 +42,7 @@
     ],
     "srcTemplate": "https://custom-icon-badges.demolab.com/{shieldsIoParams}{?host,shieldsIoQuerys}"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "alt": "Custom Badge",

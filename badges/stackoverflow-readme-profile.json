@@ -73,7 +73,7 @@
       "srcTemplate": "https://stackoverflow-readme-profile.johannchopin.fr/tags-league-ranking/{tagName}/{userId}{?theme}"
     }
   ],
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "annotate": "johannchopin",

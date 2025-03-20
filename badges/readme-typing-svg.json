@@ -111,7 +111,7 @@
     ],
     "srcTemplate": "https://readme-typing-svg.demolab.com{?lines,height,width,size,font,color,background,center,vCenter,multiline,duration,pause,repeat,separator,letterSpacing}"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "alt": "Readme Typing SVG",

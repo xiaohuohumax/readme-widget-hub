@@ -63,7 +63,7 @@
     ],
     "srcTemplate": "https://api.iconify.design/{prefix}/{name}.svg{?color,width,height,flip,rotate,download,box}"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "alt": "Iconify 1st Place Medal Badge",

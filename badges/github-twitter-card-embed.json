@@ -51,7 +51,7 @@
     ],
     "srcTemplate": "https://gtce.itsvg.in/api{?username,theme,icon,time,response,border}"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "annotate": "VishwaGauravIn",

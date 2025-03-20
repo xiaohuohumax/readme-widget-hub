@@ -60,7 +60,7 @@
       "srcTemplate": "https://gists-readme.yizack.com/api/pin{?id,owner,theme}"
     }
   ],
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "annotate": "Yizack",

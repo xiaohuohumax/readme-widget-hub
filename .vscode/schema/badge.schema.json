@@ -1,242 +1,320 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "$ref": "#/definitions/Badge",
+  "type": "object",
+  "$ref": "#/definitions/badge",
   "definitions": {
-    "Badge": {
+    "alert": {
       "type": "object",
-      "properties": {
-        "enabled": {
-          "type": "boolean",
-          "description": "是否启用",
-          "default": true
-        },
-        "index": {
-          "type": "number",
-          "description": "显示顺序，数字越小越靠前",
-          "default": 9999
-        },
-        "title": {
-          "type": "string",
-          "description": "名称"
-        },
-        "description": {
-          "type": "string",
-          "description": "描述"
-        },
-        "alert": {
-          "type": "object",
-          "properties": {
-            "type": {
-              "type": "string",
-              "enum": [
-                "Note",
-                "Tip",
-                "Important",
-                "Warning",
-                "Caution"
-              ],
-              "description": "类型",
-              "default": "Tip"
-            },
-            "messages": {
-              "anyOf": [
-                {
-                  "type": "string"
-                },
-                {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                }
-              ],
-              "description": "提示内容"
-            }
-          },
-          "required": [
-            "messages"
-          ],
-          "additionalProperties": false,
-          "description": "提示"
-        },
-        "tags": {
-          "type": "object",
-          "properties": {
-            "repoUrl": {
-              "type": "string",
-              "description": "项目地址"
-            },
-            "onlineToolUrl": {
-              "type": "string",
-              "description": "在线工具地址"
-            },
-            "officialDocsUrl": {
-              "type": "string",
-              "description": "官方文档地址"
-            },
-            "needLogin": {
-              "type": "boolean",
-              "description": "是否需要登录"
-            }
-          },
-          "additionalProperties": false,
-          "description": "标签"
-        },
-        "rules": {
+      "patternProperties": {
+        "^messages:.*$": {
           "anyOf": [
             {
-              "$ref": "#/definitions/Rule"
+              "type": "string"
             },
             {
               "type": "array",
               "items": {
-                "$ref": "#/definitions/Rule"
+                "type": "string"
               }
             }
           ],
-          "description": "规则"
-        },
-        "useExamples": {
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/Example"
-          },
-          "description": "示例"
+          "description": "Alert messages (locale)."
         }
       },
-      "required": [
-        "title",
-        "description",
-        "rules",
-        "useExamples"
-      ],
-      "additionalProperties": false,
-      "description": "徽章数据结构"
-    },
-    "Rule": {
-      "type": "object",
       "properties": {
-        "params": {
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/RuleItem"
-          },
-          "description": "路径参数"
-        },
-        "querys": {
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/RuleItem"
-          },
-          "description": "查询参数"
-        },
-        "annotate": {
-          "type": "string",
-          "description": "注释"
-        },
-        "alt": {
-          "type": "string",
-          "description": "描述"
-        },
-        "srcTemplate": {
-          "type": "string",
-          "description": "URL 规则模板（URI Template）"
-        }
-      },
-      "required": [
-        "srcTemplate"
-      ],
-      "additionalProperties": false
-    },
-    "RuleItem": {
-      "type": "object",
-      "properties": {
-        "name": {
-          "type": "string",
-          "description": "名称"
-        },
         "type": {
           "type": "string",
-          "description": "类型"
+          "enum": [
+            "Note",
+            "Tip",
+            "Important",
+            "Warning",
+            "Caution"
+          ],
+          "description": "Alert type, default is `Tip`.",
+          "default": "Tip"
         },
-        "default": {
-          "type": "string",
-          "description": "默认值"
-        },
-        "description": {
-          "type": "string",
-          "description": "说明"
-        },
-        "extDescription": {
-          "type": "string",
-          "description": "补充说明"
+        "messages": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          ],
+          "description": "Alert messages."
         }
       },
-      "required": [
-        "name",
-        "type",
-        "description"
-      ],
       "additionalProperties": false,
-      "description": "规则参数"
+      "required": [
+        "messages"
+      ]
     },
-    "Example": {
+    "example": {
       "type": "object",
       "properties": {
         "explain": {
-          "type": "object",
-          "additionalProperties": false,
-          "properties": {
-            "annotate": {
-              "type": "string",
-              "description": "注释"
-            },
-            "alt": {
-              "type": "string",
-              "description": "描述"
-            },
-            "src": {
-              "type": "string",
-              "description": "链接"
-            }
-          },
-          "required": [
-            "src"
-          ],
-          "description": "说明"
+          "$ref": "#/definitions/explain"
         },
         "images": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/MarkdownImage"
+            "$ref": "#/definitions/markdownImage"
           },
-          "description": "图片"
+          "description": "Example images."
         }
       },
+      "additionalProperties": false,
       "required": [
         "explain",
         "images"
-      ],
-      "additionalProperties": false,
-      "description": "示例"
+      ]
     },
-    "MarkdownImage": {
+    "explain": {
       "type": "object",
+      "patternProperties": {
+        "^annotate:.*$": {
+          "type": "string",
+          "description": "Annotation message (locale)."
+        },
+        "^alt:.*$": {
+          "type": "string",
+          "description": "Alt text (locale)."
+        },
+        "^src:.*$": {
+          "type": "string",
+          "description": "Badge Url (locale)."
+        }
+      },
       "properties": {
         "alt": {
           "type": "string",
-          "description": "描述"
+          "description": "Alt text."
         },
         "src": {
           "type": "string",
-          "description": "链接"
+          "description": "Badge Url."
+        },
+        "annotate": {
+          "type": "string",
+          "description": "Annotation message."
         }
       },
       "required": [
         "src"
       ],
+      "additionalProperties": false
+    },
+    "markdownImage": {
+      "type": "object",
+      "patternProperties": {
+        "^alt:.*$": {
+          "type": "string",
+          "description": "Alt text (locale)."
+        },
+        "^src:.*$": {
+          "type": "string",
+          "description": "Badge Url (locale)."
+        }
+      },
+      "properties": {
+        "alt": {
+          "type": "string",
+          "description": "Alt text."
+        },
+        "src": {
+          "type": "string",
+          "description": "Badge Url."
+        }
+      },
       "additionalProperties": false,
-      "description": "Markdown 图片"
+      "required": [
+        "src"
+      ]
+    },
+    "ruleItem": {
+      "type": "object",
+      "patternProperties": {
+        "^description:.*$": {
+          "type": "string",
+          "description": "Description (locale)."
+        },
+        "^extDescription:.*$": {
+          "type": "string",
+          "description": "Extended description (locale)."
+        }
+      },
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Name."
+        },
+        "type": {
+          "type": "string",
+          "description": "Type."
+        },
+        "default": {
+          "type": "string",
+          "description": "Default."
+        },
+        "description": {
+          "type": "string",
+          "description": "Description."
+        },
+        "extDescription": {
+          "type": "string",
+          "description": "Extended description."
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "type",
+        "description"
+      ]
+    },
+    "rule": {
+      "type": "object",
+      "patternProperties": {
+        "^annotate:.*$": {
+          "type": "string",
+          "description": "Annotation message (locale)."
+        },
+        "^alt:.*$": {
+          "type": "string",
+          "description": "Alt text (locale)."
+        },
+        "^srcTemplate:.*$": {
+          "type": "string",
+          "description": "URL template (URI Template) (locale)."
+        }
+      },
+      "properties": {
+        "params": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ruleItem"
+          },
+          "description": "Path parameters."
+        },
+        "querys": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ruleItem"
+          },
+          "description": "Query parameters."
+        },
+        "annotate": {
+          "type": "string",
+          "description": "Annotation message."
+        },
+        "alt": {
+          "type": "string",
+          "description": "Alt text."
+        },
+        "srcTemplate": {
+          "type": "string",
+          "description": "URL template (URI Template)."
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "srcTemplate"
+      ]
+    },
+    "tags": {
+      "type": "object",
+      "properties": {
+        "repoUrl": {
+          "type": "string",
+          "description": "Project address."
+        },
+        "onlineToolUrl": {
+          "type": "string",
+          "description": "Online tool address."
+        },
+        "officialDocsUrl": {
+          "type": "string",
+          "description": "Official documentation address."
+        },
+        "needLogin": {
+          "type": "boolean",
+          "description": "Whether login is required."
+        }
+      },
+      "additionalProperties": false,
+      "required": []
+    },
+    "badge": {
+      "type": "object",
+      "patternProperties": {
+        "^title:.*$": {
+          "type": "string",
+          "description": "Badge title (locale)."
+        },
+        "^description:.*$": {
+          "type": "string",
+          "description": "Badge description (locale)."
+        }
+      },
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "description": "Badge enabled or not."
+        },
+        "index": {
+          "type": "number",
+          "description": "Badge order index, smaller is earlier, default is `9999`.",
+          "default": 9999
+        },
+        "title": {
+          "type": "string",
+          "description": "Badge title."
+        },
+        "description": {
+          "type": "string",
+          "description": "Badge description."
+        },
+        "alert": {
+          "$ref": "#/definitions/alert",
+          "description": "Badge alert message."
+        },
+        "tags": {
+          "$ref": "#/definitions/tags",
+          "description": "Badge tags."
+        },
+        "rules": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/rule"
+            },
+            {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/rule"
+              }
+            }
+          ],
+          "description": "Badge url rules."
+        },
+        "examples": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/example"
+          },
+          "description": "Badge examples."
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "description",
+        "rules",
+        "examples"
+      ]
     }
   }
 }

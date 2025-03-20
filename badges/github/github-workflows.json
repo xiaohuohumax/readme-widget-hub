@@ -36,7 +36,7 @@
     ],
     "srcTemplate": "https://github.com/github/{owner}/{repo}/workflows/{workflowFile}/badge.svg{?branch,event}"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "annotate": "xiaohuohumax/badge-collection",

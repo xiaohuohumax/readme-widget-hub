@@ -1,6 +1,6 @@
 {
   "index": 2,
-  "title": "Badgen Service | 徽章生成服务",
+  "title": "Badgen 徽章生成服务",
   "description": "快速徽章生成服务。",
   "alert": {
     "type": "Tip",
@@ -84,7 +84,7 @@
     ],
     "srcTemplate": "https://badgen.net/{badge}/{subject}/{status}/{color}{?color,icon,label,labelColor,scale,cache}"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "annotate": "badgen/badgen.net",

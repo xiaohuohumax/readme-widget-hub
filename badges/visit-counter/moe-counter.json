@@ -80,7 +80,7 @@
     ],
     "srcTemplate": "https://count.getloli.com/@{countId}{?theme,padding,offset,scale,align,pixelated,darkmode,num,prefix}"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "annotate": "xiaohuohumax/badge-collection",

@@ -84,7 +84,7 @@
     ],
     "srcTemplate": "https://socialify.git.ci/{owner}/{repo}/image{?description,forks,issues,name,owner,pulls,stargazers,pattern,logo,language,font}"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "annotate": "xiaohuohumax/badge-collection",

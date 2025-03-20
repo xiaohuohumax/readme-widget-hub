@@ -1,4 +1,6 @@
 declare module 'virtual:readme' {
-  const content: string
-  export default content
+  const readmes: {
+    [locale: string]: string
+  }
+  export default readmes
 }

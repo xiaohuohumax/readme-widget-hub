@@ -57,7 +57,7 @@
     ],
     "srcTemplate": "https://api.visitorbadge.io/api/{type}{?path,label,labelColor,countColor,style,labelStyle}"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "annotate": "xiaohuohumax/badge-collection",

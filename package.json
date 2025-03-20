@@ -1,7 +1,7 @@
 {
   "name": "badge-collection",
   "type": "module",
-  "version": "1.9.1",
+  "version": "1.10.0",
   "private": true,
   "description": "这是一个徽章收集仓库：收集了一些 Github 上热门项目使用过的徽章，以及一些徽章在线制作工具链接。",
   "author": {
@@ -24,7 +24,7 @@
   "scripts": {
     "dev": "vite dev",
     "spider": "vite-node --config scripts/vite.config.ts scripts/spider/index.ts",
-    "build": "vite-node --config scripts/vite.config.ts scripts/build/index.ts",
+    "build": "rimraf locales && vite-node --config scripts/vite.config.ts scripts/build/index.ts",
     "build:schema": "vite-node --config scripts/vite.config.ts scripts/schema/index.ts",
     "commit": "git add . && cz",
     "postinstall": "simple-git-hooks",
@@ -38,6 +38,7 @@
     "chokidar": "^4.0.3",
     "fs-extra": "^11.3.0",
     "github-markdown-css": "^5.8.1",
+    "json-schema-to-ts": "^3.1.1",
     "klaw-sync": "^6.0.0",
     "minimatch": "^10.0.1",
     "octokit": "^4.1.2",

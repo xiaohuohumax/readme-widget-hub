@@ -1,14 +1,16 @@
-import type { Badge, Collection, Example, Rule } from './schema.js'
+import type { Alert, Badge, Example, Explain, Rule, RuleItem } from '../schema/badge.schema.js'
+import type { Collection } from '../schema/collection.schema.js'
+import type { Readme } from '../schema/readme.schema.js'
 import path from 'node:path'
 import { Ajv } from 'ajv'
 import ArtTemplate from 'art-template'
 import fs from 'fs-extra'
 import badgeSchema from '../../.vscode/schema/badge.schema.json'
 import collectionSchema from '../../.vscode/schema/collection.schema.json'
+import readmeSchema from '../../.vscode/schema/readme.schema.json'
 import { generateToc } from '../../src/markdown.js'
 
 const BADGE_INDEX_DEFAULT = 9999
-const DO_NOT_EDIT = '<!-- 这是由脚本自动生成的文件，请勿直接修改此文件！ -->\n\n'
 const ajv = new Ajv()
 
 export interface Logger {
@@ -23,29 +25,37 @@ export interface BadgeBuilderOptions {
   badgeDirPath: string
   collectionFileName: string
   tplPath: string
-  tplTocTitle: string
   tplBadgeHeadingLevel: number
   examplesFoldThreshold: number
+  readmeJsonPath: string
+  localeDirPath: string
   logger: Logger
 }
 
-type RequiredKeys<O, K extends keyof O> = Required<Pick<O, K>> & Exclude<O, K>
+interface RenderAlert extends Alert {
+  messages: string[]
+}
 
-type RenderRuleRequired = 'params' | 'querys' | 'alt'
-type RenderRule = RequiredKeys<Rule, RenderRuleRequired>
+interface RenderRule extends Rule {
+  params: RuleItem[]
+  querys: RuleItem[]
+  alt: string
+}
+
+interface RenderExplain extends Explain {
+  alt: string
+}
 
 interface RenderExample extends Example {
-  explain: RequiredKeys<Example['explain'], 'alt'>
+  explain: RenderExplain
 }
 
 interface RenderBadge extends Badge {
   type: 'badge'
-  alert?: Badge['alert'] & {
-    messages: string[]
-  }
+  alert?: RenderAlert
   rules: RenderRule[]
-  useExamples: RenderExample[]
-  foldedUseExamples: RenderExample[]
+  examples: RenderExample[]
+  foldedExamples: RenderExample[]
   index: number
   level: number
 }
@@ -62,23 +72,24 @@ function ensureArray<T>(value: T | T[]): T[] {
   return Array.isArray(value) ? value : [value]
 }
 
+export interface LocaleReadme {
+  locale: string
+  localeName: string
+  readmeMarkdown: string
+}
+
 export class BadgeReadmeBuilder {
-  constructor(private options: BadgeBuilderOptions) { }
-
-  private readAndValidateJson<T>(jsonPath: string, schema: any): T | undefined {
-    const json = fs.readJSONSync(jsonPath, { throws: false })
-
-    const validate = ajv.compile(schema)
-    const valid = validate(json)
-    if (!valid) {
-      const error = validate.errors![0]
-      this.options.logger.error(`skipped "${jsonPath}": ${error.message}`)
-      return
-    }
-    return json as T
+  private readme: Readme = null!
+  constructor(private options: BadgeBuilderOptions) {
+    this.initReadme()
   }
 
-  private collection2RenderCollection(collection: Collection, level: number, index: number): RenderCollection {
+  private initReadme(): void {
+    this.readme = this.readAndValidateJson<Readme>(this.options.readmeJsonPath, readmeSchema, true)!
+  }
+
+  private collection2RenderCollection(collection: Collection, level: number, index: number, locale: string): RenderCollection {
+    collection = this.ObjectSwitchLocale(collection, locale)
     return {
       ...collection,
       type: 'collection',
@@ -87,15 +98,66 @@ export class BadgeReadmeBuilder {
     }
   }
 
-  private badge2RenderBadge(badge: Badge, level: number, index: number): RenderBadge {
-    const useExamples: RenderExample[] = badge.useExamples.map(example => ({
+  private readAndValidateJson<T>(jsonPath: string, schema: any, throwError: boolean = false): T | undefined {
+    const json = fs.readJSONSync(jsonPath, { throws: false })
+
+    let errorMessage: string | undefined
+    try {
+      const validate = ajv.compile(schema)
+      const valid = validate(json)
+      if (!valid) {
+        const error = validate.errors![0]
+        errorMessage = `skipped "${jsonPath}": ${error.message}`
+      }
+    }
+    catch (error) {
+      errorMessage = `skipped "${jsonPath}": ${(error as Error).message}`
+    }
+    if (throwError && errorMessage) {
+      throw new Error(errorMessage)
+    }
+
+    return json as T
+  }
+
+  private ObjectSwitchLocale<T>(badgeItem: T, locale: string): T {
+    if (locale === 'zh-CN' || locale === '') {
+      return badgeItem
+    }
+    if (typeof badgeItem !== 'object' || badgeItem === null) {
+      return badgeItem
+    }
+
+    if (Array.isArray(badgeItem)) {
+      return badgeItem.map(item => this.ObjectSwitchLocale(item, locale)) as T
+    }
+
+    for (const key in badgeItem) {
+      const value = badgeItem[key]
+      const splitKey = key.split(':', 2)
+      if (splitKey.length === 2) {
+        if (splitKey[1] === locale) {
+          badgeItem[splitKey[0] as keyof T] = value
+        }
+      }
+      else {
+        badgeItem[key] = this.ObjectSwitchLocale(value, locale)
+      }
+    }
+    return badgeItem
+  }
+
+  private badge2RenderBadge(badge: Badge, level: number, index: number, locale: string): RenderBadge {
+    badge = this.ObjectSwitchLocale(badge, locale)
+
+    const examples: RenderExample[] = badge.examples.map(example => ({
       ...example,
       explain: {
         ...example.explain,
         alt: example.explain.alt || 'Alt',
       },
     }))
-    const foldedUseExamples = useExamples.splice(this.options.examplesFoldThreshold)
+    const foldedExamples = examples.splice(this.options.examplesFoldThreshold)
     const rules = ensureArray(badge.rules).map(rule => ({
       ...rule,
       params: rule.params || [],
@@ -110,15 +172,15 @@ export class BadgeReadmeBuilder {
         messages: ensureArray(badge.alert.messages),
       },
       rules,
-      useExamples,
-      foldedUseExamples,
+      examples,
+      foldedExamples,
       type: 'badge',
       level,
       index,
     }
   }
 
-  public loopReadBadgesDir(dirPath: string, deepLevel: number = 1): RenderItem[] {
+  public loopReadBadgesDir(dirPath: string, locale: string, deepLevel: number = 1): RenderItem[] {
     const items: RenderItem[] = []
     const files = fs.readdirSync(dirPath, { withFileTypes: true })
     const level = this.options.tplBadgeHeadingLevel + deepLevel
@@ -158,12 +220,12 @@ export class BadgeReadmeBuilder {
         }
 
         const index = collection.index || BADGE_INDEX_DEFAULT
-        const renderCollection = this.collection2RenderCollection(collection, level, index)
+        const renderCollection = this.collection2RenderCollection(collection, level, index, locale)
         const pushIndex = getPushIndex(index)
 
         items.splice(pushIndex, 0, renderCollection)
 
-        const subItems = this.loopReadBadgesDir(filePath, deepLevel + 1)
+        const subItems = this.loopReadBadgesDir(filePath, locale, deepLevel + 1)
         items.splice(pushIndex + 1, 0, ...subItems.map((item) => {
           item.index = index
           return item
@@ -183,7 +245,7 @@ export class BadgeReadmeBuilder {
         }
 
         const index = badge.index || BADGE_INDEX_DEFAULT
-        const renderBadge = this.badge2RenderBadge(badge, level, index)
+        const renderBadge = this.badge2RenderBadge(badge, level, index, locale)
 
         const pushIndex = getPushIndex(index)
         items.splice(pushIndex, 0, renderBadge)
@@ -194,20 +256,58 @@ export class BadgeReadmeBuilder {
     return items
   }
 
-  public renderBadgeItems2Readme(items: RenderItem[]): string {
+  public getReadmePath(locale: string): string {
+    if (locale === '' || locale === 'zh-CN') {
+      return 'README.md'
+    }
+    return path
+      .join(this.options.localeDirPath, `README${locale === '' ? '' : `-${locale}`}.md`)
+      .replace(/\\/g, '/')
+  }
+
+  public renderBadgeItems2Readme(items: RenderItem[], locale: string): string {
     const readmeTpl = fs.readFileSync(this.options.tplPath, 'utf-8')
-    const readme = DO_NOT_EDIT + ArtTemplate.render(readmeTpl, {
+    const readme = this.ObjectSwitchLocale(this.readme, locale)
+    const locales = Object.entries(readme.locale.langNameMap)
+      .map(([locale, name]) => ({
+        locale,
+        localeSrc: `/${this.getReadmePath(locale)}`,
+        name,
+      }))
+    const DO_NOT_EDIT = `<!-- ${readme.warningInfo} -->\n\n`
+    const readmeMarkdown = DO_NOT_EDIT + ArtTemplate.render(readmeTpl, {
+      locales,
+      readme,
       renderItems: items,
       badgeLength: items.filter(item => item.type === 'badge').length,
       guideBadgeStyle: this.options.guideBadgeStyle || 'for-the-badge',
       tagBadgeStyle: this.options.tagBadgeStyle || 'flat',
     })
-    return generateToc(readme, this.options.tplTocTitle)
+    return generateToc(readmeMarkdown, readme.tocTitle)
   }
 
-  public generateReadme(): string {
+  public generateReadme(locale: string = ''): string {
     return this.renderBadgeItems2Readme(
-      this.loopReadBadgesDir(this.options.badgeDirPath),
+      this.loopReadBadgesDir(this.options.badgeDirPath, locale),
+      locale,
     )
+  }
+
+  public generateReadmeAllLocales(): LocaleReadme[] {
+    return Object.entries(this.readme.locale.langNameMap)
+      .map(([locale, name]) => ({
+        locale,
+        localeName: name as string,
+        readmeMarkdown: this.generateReadme(locale),
+      }))
+  }
+
+  public generateReadmeAllLocaleMap(): Record<string, string> {
+    this.initReadme()
+    const localeReadmes = this.generateReadmeAllLocales()
+    return localeReadmes.reduce((map, { locale, readmeMarkdown }) => {
+      map[locale] = readmeMarkdown
+      return map
+    }, {} as Record<string, string>)
   }
 }

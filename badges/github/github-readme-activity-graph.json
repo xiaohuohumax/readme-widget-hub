@@ -119,7 +119,7 @@
     ],
     "srcTemplate": "https://github-readme-activity-graph.vercel.app/graph{?username,theme,bg_color,color,title_color,line,point,area_color,area,hide_border,hide_title,custom_title,radius,height,days,from,to,grid}"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "alt": "Github Activity Graph",

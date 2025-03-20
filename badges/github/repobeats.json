@@ -18,7 +18,7 @@
     ],
     "srcTemplate": "https://repobeats.axiom.co/api/embed/{configId}.svg"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "annotate": "xiaohuohumax/badge-collection",

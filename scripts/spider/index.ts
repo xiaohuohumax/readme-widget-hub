@@ -1,11 +1,11 @@
 import type { MarkdownImage } from '@/markdown.js'
-import type { SpiderConfig } from './schema.js'
+import type { Spider as SpiderConfig } from '../schema/spider.schema.js'
 import path from 'node:path'
 import { extractImages } from '@/markdown.js'
 import { render } from 'art-template'
 import fs from 'fs-extra'
 import { minimatch } from 'minimatch'
-import config from './config.json'
+import spiderConfig from './config.json'
 import Request from './request.js'
 import languageTpl from './tpl.md?raw'
 
@@ -156,6 +156,6 @@ class Spider {
 }
 
 const request = new Request({ auth: import.meta.env.VITE_GITHUB_TOKEN })
-const spider = new Spider({ request, config, languageTpl })
+const spider = new Spider({ request, config: spiderConfig, languageTpl })
 
 spider.start().catch(console.error)

@@ -25,7 +25,7 @@
     "querys": [],
     "srcTemplate": ""
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "annotate": "",

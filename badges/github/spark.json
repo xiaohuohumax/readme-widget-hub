@@ -24,7 +24,7 @@
     ],
     "srcTemplate": "https://stars.medv.io/{owner}/{repo}.svg"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "annotate": "antonmedv/spark",

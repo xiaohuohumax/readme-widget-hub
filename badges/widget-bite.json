@@ -62,7 +62,7 @@
       "srcTemplate": "https://widgetbite.com/banner{?title,subtitle,titletransform,subtitletransform,fontpalette,backgroundpalette}"
     }
   ],
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "annotate": "xiaohuohumax",

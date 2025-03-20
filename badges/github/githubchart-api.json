@@ -35,7 +35,7 @@
       "srcTemplate": "https://ghchart.rshah.org/{username}"
     }
   ],
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "alt": "Github chart",

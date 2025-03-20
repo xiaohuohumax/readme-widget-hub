@@ -54,7 +54,7 @@
       "srcTemplate": "https://starlines.qoo.monster/assets/{username}"
     }
   ],
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "annotate": "antonmedv/spark",

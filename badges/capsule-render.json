@@ -140,7 +140,7 @@
     ],
     "srcTemplate": "https://capsule-render.vercel.app/api{?type,color,customColorList,theme,section,reversal,height,text,desc,animation,fontColor,fontSize,fontAlign,fontAlignY,descSize,descAlignY,rotate,stroke,strokeWidth}"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "annotate": "kyechan99/capsule-render",

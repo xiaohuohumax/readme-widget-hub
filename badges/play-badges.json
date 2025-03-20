@@ -35,7 +35,7 @@
     ],
     "srcTemplate": "https://PlayBadges.pavi2410.me/badge/{type}{?id}"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "annotate": "pavi2410",

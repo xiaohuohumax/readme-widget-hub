@@ -6,6 +6,7 @@
     "node_modules",
     "dist",
     "/*.md",
+    "locales/*.md",
     "*.json",
     ".env*",
     "eslint.config.mjs",
@@ -36,6 +37,12 @@
         "/scripts/spider/config.json"
       ],
       "url": "/.vscode/schema/spider.schema.json"
+    },
+    {
+      "fileMatch": [
+        "/readme.json"
+      ],
+      "url": "/.vscode/schema/readme.schema.json"
     }
   ]
 }
