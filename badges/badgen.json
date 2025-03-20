@@ -1,10 +1,12 @@
 {
   "index": 2,
-  "title": "Badgen 徽章生成服务",
+  "title": "Badgen",
   "description": "快速徽章生成服务。",
+  "description:en-US": "Home of [badgen.net](https://badgen.net/), fast badge generating service.",
   "alert": {
     "type": "Tip",
-    "messages": "由于此项目支持的徽章种类非常多，且功能强大，这里只简单介绍－静态徽章，其他徽章使用方式还请移步官方文档。"
+    "messages": "由于此项目支持的徽章种类非常多，且功能强大，这里只简单介绍－静态徽章，其他徽章使用方式还请移步官方文档。",
+    "messages:en-US": "Due to the large number of badge types supported by this project and its powerful features, here is a brief introduction to static badges only. For other badge types, please refer to the official documentation."
   },
   "tags": {
     "repoUrl": "https://github.com/badgen/badgen.net",
@@ -16,70 +18,78 @@
       {
         "name": "badge",
         "type": "string",
-        "default": "",
         "description": "徽章类型",
-        "extDescription": "可选值：`/static` `/github` `/gitlab` `/https` 等等，更多类型请参考官方文档"
+        "description:en-US": "Badge type",
+        "extDescription": "可选值：`/static` `/github` `/gitlab` `/https` 等等，更多类型请参考官方文档。",
+        "extDescription:en-US": "Supported: `/static` `/github` `/gitlab` `/https`, etc. More types please refer to the official documentation."
       },
       {
         "name": "subject",
         "type": "string",
-        "default": "",
         "description": "徽章子信息",
-        "extDescription": "比如：`/static` 静态徽章时，`subject` 表示为徽章左侧标签"
+        "description:en-US": "Badge subject",
+        "extDescription": "比如：`/static` 静态徽章时，`subject` 表示为徽章左侧标签。",
+        "extDescription:en-US": "For example, when using `/static` badge, `subject` represents the label on the left side of the badge."
       },
       {
         "name": "status",
         "type": "string",
-        "default": "",
         "description": "徽章右侧消息",
-        "extDescription": "比如：`/static/Swift/4.2/orange` `status=4.2`"
+        "description:en-US": "Badge status",
+        "extDescription": "比如：`/static/Swift/4.2/orange` `status=4.2`。",
+        "extDescription:en-US": "For example, `/static/Swift/4.2/orange` `status=4.2`."
       },
       {
         "name": "color",
         "type": "string",
-        "default": "",
         "description": "徽章颜色",
-        "extDescription": "支持格式：`RGB` `CSS颜色`"
+        "description:en-US": "Badge color",
+        "extDescription": "支持格式：`RGB` `CSS颜色`。",
+        "extDescription:en-US": "Supported formats: `RGB` `CSS color`."
       }
     ],
     "querys": [
       {
         "name": "color",
         "type": "string",
-        "default": "",
-        "description": "覆盖默认徽章颜色"
+        "description": "覆盖默认徽章颜色",
+        "description:en-US": "Override default badge color"
       },
       {
         "name": "icon",
         "type": "string",
-        "default": "",
         "description": "徽章左侧图标",
-        "extDescription": "支持外部图标 URL"
+        "description:en-US": "Badge icon",
+        "extDescription": "支持外部图标 URL",
+        "extDescription:en-US": "Support external icon URL"
       },
       {
         "name": "label",
         "type": "string",
-        "default": "",
-        "description": "徽章左侧标签"
+        "description": "徽章左侧标签",
+        "description:en-US": "Badge label"
       },
       {
         "name": "labelColor",
         "type": "string",
-        "default": "",
-        "description": "徽章左侧标签颜色"
+        "description": "徽章左侧标签颜色",
+        "description:en-US": "Badge label color"
       },
       {
         "name": "scale",
         "type": "number",
         "default": "1",
-        "description": "徽章缩放比例"
+        "description": "徽章缩放比例",
+        "description:en-US": "Badge scale"
       },
       {
         "name": "cache",
         "type": "number",
         "default": "86400",
         "description": "缓存时间",
-        "extDescription": "单位：秒"
+        "description:en-US": "Cache time",
+        "extDescription": "单位：秒",
+        "extDescription:en-US": "Unit: seconds"
       }
     ],
     "srcTemplate": "https://badgen.net/{badge}/{subject}/{status}/{color}{?color,icon,label,labelColor,scale,cache}"
@@ -100,7 +110,8 @@
     },
     {
       "explain": {
-        "alt": "Color Badge",
+        "alt": "彩色徽章",
+        "alt:en-US": "Color Badge",
         "src": "https://badgen.net/badge/color/F94144/F94144?label="
       },
       "images": [
