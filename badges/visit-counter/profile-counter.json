@@ -1,0 +1,34 @@
+{
+  "title": "Profile Counter | 访问统计",
+  "description": "统计访问次数。",
+  "alert": {
+    "type": "Note",
+    "messages": "此接口暂未找到官方项目地址或文档链接，如有知晓欢迎补充，非常感谢。"
+  },
+  "tags": {},
+  "rules": {
+    "params": [
+      {
+        "name": "countId",
+        "type": "string",
+        "description": "统计 ID"
+      }
+    ],
+    "srcTemplate": "https://profile-counter.glitch.me/{countId}/count.svg"
+  },
+  "useExamples": [
+    {
+      "explain": {
+        "annotate": "badge-collection",
+        "alt": "Visitor Count",
+        "src": "https://profile-counter.glitch.me/badge-collection/count.svg"
+      },
+      "images": [
+        {
+          "alt": "Visitor Count",
+          "src": "https://profile-counter.glitch.me/badge-collection/count.svg"
+        }
+      ]
+    }
+  ]
+}
