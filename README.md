@@ -29,7 +29,7 @@
 ## 📖 目录
 
 * [🎖️ 徽章集合](#️-徽章集合)
-  * [Shields.io | 徽章生成服务](#shieldsio--徽章生成服务)
+  * [Shields.io](#shieldsio)
   * [Badgen 徽章生成服务](#badgen-徽章生成服务)
   * [Visit Counter Badge | 访客统计徽章](#visit-counter-badge--访客统计徽章)
     * [HITS | 访问统计](#hits--访问统计)
@@ -76,7 +76,7 @@
 
 ## 🎖️ 徽章集合
 
-### Shields.io | 徽章生成服务
+### Shields.io
 
 > \[!Tip]
 > 由于此项目支持的徽章种类非常多，且功能强大，这里只简单介绍－静态徽章，其他徽章使用方式还请移步官方文档。
@@ -97,17 +97,17 @@
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `badgeContent` | string |  | 徽章内容 | 格式：`标签-消息-消息背景颜色` |
+| `badgeContent` | string |  | 徽章内容 | 格式：`标签-消息-消息背景颜色`。 |
 | ![rl-link-query] | | | | |
-| `style` | string | `flat` | 徽章整体风格 | 可选值：`flat` `flat-square` `plastic` `for-the-badge` `social` |
-| `logo` | string |  | Logo 图标名称 | 支持 Base64，[slugs.md](https://github.com/simple-icons/simple-icons/blob/master/slugs.md)，[Simple Icons](https://simpleicons.org/) |
-| `logoColor` | string |  | Logo 颜色 | 支持格式：`HEX` `RGB` `RGBA` `HSL` `HSLA` `CSS颜色` |
-| `logoSize` | string |  | Logo 自适应大小 | 可选值：`auto` |
-| `label` | string |  | 左侧标签文字 | 覆盖 `badgeContent` 中 `标签` 部分 |
-| `labelColor` | string |  | 左侧标签背景颜色 | 支持格式：同上 `logoColor` |
-| `color` | string |  | 右侧消息背景颜色 | 覆盖 `badgeContent` 中 `消息背景颜色` 部分, 支持格式：同上 `logoColor` |
-| `cacheSeconds` | string | `3600` | HTTP 缓存有效期 | 单位：秒 |
-| `link` | string\[] |  | 点击徽章左右侧执行的操作 | 徽章继承到 `<object>` HTML 标签时生效 |
+| `style` | string | `flat` | 徽章整体风格 | 可选值：`flat` `flat-square` `plastic` `for-the-badge` `social`。 |
+| `logo` | string |  | Logo 图标名称 | 支持 Base64，[slugs.md](https://github.com/simple-icons/simple-icons/blob/master/slugs.md)，[Simple Icons](https://simpleicons.org/)。 |
+| `logoColor` | string |  | Logo 颜色 | 支持格式：`HEX` `RGB` `RGBA` `HSL` `HSLA` `CSS颜色`，适用于 simple-icons 库中的标志，但不适用于自定义标志。 |
+| `logoSize` | string |  | Logo 自适应大小 | 可选值：`auto`。 |
+| `label` | string |  | 左侧标签文字 | 覆盖 `badgeContent` 中 `标签` 部分。 |
+| `labelColor` | string |  | 左侧标签背景颜色 | 支持格式：`HEX` `RGB` `RGBA` `HSL` `HSLA` `CSS颜色`，适用于 simple-icons 库中的标志，但不适用于自定义标志。 |
+| `color` | string |  | 右侧消息背景颜色 | 覆盖 `badgeContent` 中 `消息背景颜色` 部分, 支持格式：同上 `logoColor`。 |
+| `cacheSeconds` | string | `3600` | HTTP 缓存有效期 | 单位：秒，规则应用于推断每个徽标的默认值，任何低于默认值的指定都将被忽略。 |
+| `link` | string\[] |  | 指定点击徽标左侧/右侧应执行的操作 | 注意：这仅在将徽标集成到 `<object>` HTML 标签时有效，但不适用于 `<img>` 标签或标记语言。 |
 
 </details>
 
@@ -119,16 +119,16 @@
 
 ```markdown
 <!-- badges/shields -->
-![Hello World](https://img.shields.io/badge/badges/shields-555555?logo=github)
+![静态徽章](https://img.shields.io/badge/badges/shields-555555?logo=github)
 ```
 
-![Hello World](https://img.shields.io/badge/badges/shields-555555?logo=github)
+![静态徽章](https://img.shields.io/badge/badges/shields-555555?logo=github)
 
 <details>
   <summary>点击展开/收起更多示例</summary><p></p>
 
 ```markdown
-![Color Badge](https://img.shields.io/badge/F94144-F94144)
+![颜色徽章](https://img.shields.io/badge/F94144-F94144)
 ```
 
 ![Color Badge F94144](https://img.shields.io/badge/F94144-F94144)

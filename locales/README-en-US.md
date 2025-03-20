@@ -32,7 +32,7 @@
 ## 📖 Contents
 
 * [🎖️ Badge Collection](#️-badge-collection)
-  * [Shields.io | 徽章生成服务](#shieldsio--徽章生成服务)
+  * [Shields.io](#shieldsio)
   * [Badgen 徽章生成服务](#badgen-徽章生成服务)
   * [Visit Counter Badge | 访客统计徽章](#visit-counter-badge--访客统计徽章)
     * [HITS | 访问统计](#hits--访问统计)
@@ -79,14 +79,14 @@
 
 ## 🎖️ Badge Collection
 
-### Shields.io | 徽章生成服务
+### Shields.io
 
 > \[!Tip]
-> 由于此项目支持的徽章种类非常多，且功能强大，这里只简单介绍－静态徽章，其他徽章使用方式还请移步官方文档。
+> Due to the large number of badge types supported by this project and its powerful functions, here is a simple introduction to static badges. For other badge types, please refer to the official documentation.
 
 ![rl-badge-introduction]
 
-**Shields.io 是一个提供简洁、一致和易读的 SVG 和位图格式徽章的服务，可以轻松地包含在 GitHub 的 README 文件或任何其他网页中。**
+**Concise, consistent, and legible badges in SVG and raster format.**
 
 [![rl-repo]](https://github.com/badges/shields)
 [![rl-online-tool]](https://shields.io/badges)
@@ -100,17 +100,17 @@
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `badgeContent` | string |  | 徽章内容 | 格式：`标签-消息-消息背景颜色` |
+| `badgeContent` | string |  | Label, (optional) message, and color. Separated by dashes. | Example: `build-passing-brightgreen`. |
 | ![rl-link-query] | | | | |
-| `style` | string | `flat` | 徽章整体风格 | 可选值：`flat` `flat-square` `plastic` `for-the-badge` `social` |
-| `logo` | string |  | Logo 图标名称 | 支持 Base64，[slugs.md](https://github.com/simple-icons/simple-icons/blob/master/slugs.md)，[Simple Icons](https://simpleicons.org/) |
-| `logoColor` | string |  | Logo 颜色 | 支持格式：`HEX` `RGB` `RGBA` `HSL` `HSLA` `CSS颜色` |
-| `logoSize` | string |  | Logo 自适应大小 | 可选值：`auto` |
-| `label` | string |  | 左侧标签文字 | 覆盖 `badgeContent` 中 `标签` 部分 |
-| `labelColor` | string |  | 左侧标签背景颜色 | 支持格式：同上 `logoColor` |
-| `color` | string |  | 右侧消息背景颜色 | 覆盖 `badgeContent` 中 `消息背景颜色` 部分, 支持格式：同上 `logoColor` |
-| `cacheSeconds` | string | `3600` | HTTP 缓存有效期 | 单位：秒 |
-| `link` | string\[] |  | 点击徽章左右侧执行的操作 | 徽章继承到 `<object>` HTML 标签时生效 |
+| `style` | string | `flat` | Badge style. | Possible values: `flat` `flat-square` `plastic` `for-the-badge` `social`. |
+| `logo` | string |  | Icon slug from simple-icons. | You can click the icon title on [simple-icons](https://simpleicons.org/) to copy the slug or they can be found in the [slugs.md file](https://github.com/simple-icons/simple-icons/blob/master/slugs.md) in the simple-icons repository. [Further](https://shields.io/docs/logos) info. |
+| `logoColor` | string |  | The color of the logo. | Supported: `hex`, `rgb`, `rgba`, `hsl`, `hsla` and `css named colors`. Supported for simple-icons logos but not for custom logos. |
+| `logoSize` | string |  | Make icons adaptively resize by setting `auto`. | Useful for some wider logos like `amd` and `amg`. Supported for simple-icons logos but not for custom logos. |
+| `label` | string |  | Override the default left-hand-side text. | [URL-Encoding](https://developer.mozilla.org/en-US/docs/Glossary/Percent-encoding) needed for spaces or special characters! |
+| `labelColor` | string |  | The color of the logo. | Supported: `hex`, `rgb`, `rgba`, `hsl`, `hsla` and `css named colors`. Supported for simple-icons logos but not for custom logos. |
+| `color` | string |  | Background color of the right part. | Supported: `hex`, `rgb`, `rgba`, `hsl`, `hsla` and `css named colors`. |
+| `cacheSeconds` | string | `3600` | HTTP cache lifetime. | Unit: seconds. Rules are applied to infer a default value on a per-badge basis. Any values specified below the default will be ignored. |
+| `link` | string\[] |  | Specify the action to perform when clicking the left/right side of the badge. | Note: This only works when integrating your badge in an <object> HTML tag, but not an <img> tag or a markup language. |
 
 </details>
 
@@ -122,10 +122,10 @@
 
 ```markdown
 <!-- badges/shields -->
-![Hello World](https://img.shields.io/badge/badges/shields-555555?logo=github)
+![Static Badge](https://img.shields.io/badge/badges/shields-555555?logo=github)
 ```
 
-![Hello World](https://img.shields.io/badge/badges/shields-555555?logo=github)
+![Static Badge](https://img.shields.io/badge/badges/shields-555555?logo=github)
 
 <details>
   <summary>Click to expand/collapse more examples</summary><p></p>
