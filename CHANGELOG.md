@@ -1,5 +1,11 @@
 # badge-collection
 
+## 1.11.0
+
+### Minor Changes
+
+- 预览模式添加图片懒加载功能
+
 ## 1.10.2
 
 ### Patch Changes

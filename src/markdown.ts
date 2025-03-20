@@ -1,3 +1,4 @@
+import type { Root } from 'hast'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypeParse from 'rehype-parse'
 import rehypeRaw from 'rehype-raw'
@@ -11,6 +12,18 @@ import remarkToc from 'remark-toc'
 import { unified } from 'unified'
 import { visit } from 'unist-util-visit'
 
+function lazyLoadImagePlugin() {
+  return (tree: Root) => {
+    visit(tree, 'element', (node) => {
+      if (node.tagName === 'img' && node.properties) {
+        node.properties['data-src'] = node.properties.src
+        delete node.properties.src
+        node.properties.class = 'lazyload'
+      }
+    })
+  }
+}
+
 export function markdown2Html(markdown: string): string {
   return unified()
     .use(remarkParse)
@@ -19,6 +32,7 @@ export function markdown2Html(markdown: string): string {
     .use(rehypeSlug)
     .use(rehypeAutolinkHeadings) // 标题添加锚点
     .use(rehypeRaw)
+    .use(lazyLoadImagePlugin) // 图片延迟加载
     .use(rehypeStringify)
     .processSync(markdown)
     .toString()

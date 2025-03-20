@@ -1,5 +1,7 @@
 import virtualReadme from 'virtual:readme'
 import { markdown2Html } from './markdown.js'
+import 'lazysizes'
+import 'lazysizes/plugins/parent-fit/ls.parent-fit'
 import 'github-markdown-css/github-markdown.css'
 import './index.css'
 

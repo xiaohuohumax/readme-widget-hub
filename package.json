@@ -1,7 +1,7 @@
 {
   "name": "badge-collection",
   "type": "module",
-  "version": "1.10.2",
+  "version": "1.11.0",
   "private": true,
   "description": "这是一个徽章收集仓库：收集了一些 Github 上热门项目使用过的徽章，以及一些徽章在线制作工具链接。",
   "author": {
@@ -40,6 +40,7 @@
     "github-markdown-css": "^5.8.1",
     "json-schema-to-ts": "^3.1.1",
     "klaw-sync": "^6.0.0",
+    "lazysizes": "^5.3.2",
     "minimatch": "^10.0.1",
     "octokit": "^4.1.2",
     "rehype-autolink-headings": "^7.1.0",
@@ -62,6 +63,7 @@
     "@commitlint/cli": "^19.8.0",
     "@commitlint/config-conventional": "^19.8.0",
     "@types/fs-extra": "^11.0.4",
+    "@types/hast": "^3.0.4",
     "@types/klaw-sync": "^6.0.5",
     "@types/node": "^22.13.10",
     "commitizen": "^4.3.1",
