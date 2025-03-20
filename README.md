@@ -16,7 +16,7 @@
     <a href="https://github.com/xiaohuohumax/badge-collection/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection" /></a>
-    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-35-84AD64" /></a>
+    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-37-84AD64" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
   <br/>
@@ -52,6 +52,7 @@
     * [Spark | GitHub 星标迷你线图](#spark--github-星标迷你线图)
     * [GitHub Starlines | GitHub 星标迷你线图](#github-starlines--github-星标迷你线图)
   * [Github Readme Quotes | 编程名言卡片](#github-readme-quotes--编程名言卡片)
+  * [GTCE : GitHub Twitter Card Embed | Twitter 推文卡片](#gtce--github-twitter-card-embed--twitter-推文卡片)
   * [Gradgen | 渐变徽章](#gradgen--渐变徽章)
   * [Iconify | 图标徽章](#iconify--图标徽章)
   * [Open Collective | 财务贡献者图](#open-collective--财务贡献者图)
@@ -61,6 +62,7 @@
   * [README Jokes | README 笑话](#readme-jokes--readme-笑话)
   * [Readme Typing SVG | 打字机效果的动态 SVG 卡片](#readme-typing-svg--打字机效果的动态-svg-卡片)
   * [Sloc Cloc and Code | 代码行数统计](#sloc-cloc-and-code--代码行数统计)
+  * [Stackoverflow Readme Profile | Stackoverflow 个人资料卡片](#stackoverflow-readme-profile--stackoverflow-个人资料卡片)
   * [Star History | GitHub 星标历史图](#star-history--github-星标历史图)
   * [Widget Bite | 速食小组件](#widget-bite--速食小组件)
 * [📖 如何运行项目](#-如何运行项目)
@@ -1331,6 +1333,50 @@
 
 ![rl-line]
 
+### GTCE : GitHub Twitter Card Embed | Twitter 推文卡片
+
+![rl-badge-introduction]
+
+**展示你 Twitter 的推文、创建时间、点赞、认证徽章等信息。**
+
+[![rl-repo]](https://github.com/VishwaGauravIn/github-twitter-card-embed)
+[![rl-online-tool]](https://gtce.itsvg.in/)
+[![rl-official-docs]](https://github.com/VishwaGauravIn/github-twitter-card-embed?tab=readme-ov-file#-parameters)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-query] | | | | |
+| `username` | string |  | Twitter 用户名 |  |
+| `theme` | string | `dracula` | 主题 | 可选值：`default` `default_repocard` `transparent` `dark` `tokyonight` 更多主题参考：[Themes](https://github.com/VishwaGauravIn/github-twitter-card-embed?tab=readme-ov-file#-themes) |
+| `icon` | string | `default` | 图标 | 可选值：`default` `thunder` `sun` `beaker` `bookmark` `bug` `cake` `badge` `code` `smile` `fire` `hashtag` `heart` `lock` `moon` `radio` `sparkles` `star` `trophy` `user` |
+| `time` | boolean | `true` | 是否显示时间 | 可选值：`true` `false` |
+| `response` | boolean | `true` | 是否显示点赞、转发和评论 | 可选值：`true` `false` |
+| `border` | boolean | `true` | 是否显示边框 | 可选值：`true` `false` |
+
+</details>
+
+```markdown
+![Alt](https://gtce.itsvg.in/api{?username,theme,icon,time,response,border})
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- VishwaGauravIn -->
+![Twitter Card](https://gtce.itsvg.in/api?username=VishwaGauravIn&theme=jolly&response=false&border=false)
+```
+
+![Twitter Card](https://gtce.itsvg.in/api?username=VishwaGauravIn\&theme=jolly\&response=false\&border=false)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
 ### Gradgen | 渐变徽章
 
 > \[!Tip]
@@ -1775,6 +1821,69 @@
 ```
 
 ![Total lines](https://sloc.xyz/github/xiaohuohumax/badge-collection)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
+### Stackoverflow Readme Profile | Stackoverflow 个人资料卡片
+
+![rl-badge-introduction]
+
+**轻松分享你的 Stackoverflow 个人资料到你的 README。**
+
+[![rl-repo]](https://github.com/johannchopin/stackoverflow-readme-profile)
+[![rl-online-tool]](https://stackoverflow-readme-profile.vercel.app/)
+[![rl-official-docs]](https://github.com/johannchopin/stackoverflow-readme-profile?tab=readme-ov-file#stackoverflow-readme-profile)
+
+![rl-badge-params]
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-params] | | | | |
+| `template` | string |  | 显示模板 | 可选值：`profile` `profile-small` |
+| `userId` | string |  | Stackoverflow 用户 ID |  |
+| ![rl-link-query] | | | | |
+| `theme` | string | `default` | 主题 | 可选值：`default` `dark` `cobalt` `monokai` `graywhite` `hotdog` |
+| `website` | boolean | `true` | 是否显示网站 URL | `template=profile` 可用，可选值：`true` `false` |
+| `location` | boolean | `true` | 是否显示位置 | `template=profile` 可用，可选值：`true` `false` |
+
+</details>
+
+```markdown
+<!-- Profile -->
+![Alt](https://stackoverflow-readme-profile.johannchopin.fr/{template}/{userId}{?theme,website,location})
+```
+
+<details>
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 参数名 | 类型 | 默认值 | 描述 | 补充说明 |
+| ------ | :--- | :----- | :--- | :------- |
+| ![rl-link-params] | | | | |
+| `tagName` | string |  | 标签名称 |  |
+| `userId` | string |  | Stackoverflow 用户 ID |  |
+| ![rl-link-query] | | | | |
+| `theme` | string | `default` | 主题 | 可选值：`default` `dark` `cobalt` `monokai` `graywhite` `hotdog` |
+
+</details>
+
+```markdown
+<!-- Tags League Ranking -->
+![Alt](https://stackoverflow-readme-profile.johannchopin.fr/tags-league-ranking/{tagName}/{userId}{?theme})
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- johannchopin -->
+![Stackoverflow Profile](https://stackoverflow-readme-profile.johannchopin.fr/profile/8583669?theme=dark)
+```
+
+![Stackoverflow Profile](https://stackoverflow-readme-profile.johannchopin.fr/profile/8583669?theme=dark)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『返回顶部』-555555?style=for-the-badge"></a></p>
 
