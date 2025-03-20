@@ -1,9 +1,11 @@
 {
-  "title": "Profile Counter | 访问统计",
+  "title": "Profile Counter",
   "description": "统计访问次数。",
+  "description:en-US": "Count the number of visits.",
   "alert": {
     "type": "Note",
-    "messages": "此接口暂未找到官方项目地址或文档链接，如有知晓欢迎补充，非常感谢。"
+    "messages": "此接口暂未找到官方项目地址或文档链接，如有知晓欢迎补充，非常感谢。",
+    "messages:en-US": "This API does not have a official project address or documentation link, if you know, please supplement, thank you very much."
   },
   "tags": {},
   "rules": {
@@ -11,7 +13,8 @@
       {
         "name": "countId",
         "type": "string",
-        "description": "统计 ID"
+        "description": "统计 ID",
+        "description:en-US": "The count ID"
       }
     ],
     "srcTemplate": "https://profile-counter.glitch.me/{countId}/count.svg"
@@ -20,12 +23,14 @@
     {
       "explain": {
         "annotate": "badge-collection",
-        "alt": "Visitor Count",
+        "alt": "访问统计",
+        "alt:en-US": "Visitor Count",
         "src": "https://profile-counter.glitch.me/badge-collection/count.svg"
       },
       "images": [
         {
-          "alt": "Visitor Count",
+          "alt": "访问统计",
+          "alt:en-US": "Visitor Count",
           "src": "https://profile-counter.glitch.me/badge-collection/count.svg"
         }
       ]
