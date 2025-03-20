@@ -104,7 +104,7 @@
     ],
     "srcTemplate": "https://github-readme-stats.vercel.app/api{?username,title_color,text_color,icon_color,border_color,hide_border,theme,cache_seconds,locale,border_radius,hide,show,show_icons,bg_color}"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "annotate": "anuraghazra",

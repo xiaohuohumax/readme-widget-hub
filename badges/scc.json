@@ -77,7 +77,7 @@
     ],
     "srcTemplate": "https://sloc.xyz/{provider}/{user}/{repo}{?category,avg-wage,lower,font-color,font-shadow-color,top-shadow-accent-color,title-bg-color,badge-bg-color}"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "annotate": "xiaohuohumax/badge-collection",

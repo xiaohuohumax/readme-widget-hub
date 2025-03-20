@@ -55,7 +55,7 @@
     ],
     "srcTemplate": "https://dcbadge.limes.pink/api/{type}/{id}{?style,theme,compact,logoColor,bot}"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "annotate": "用户",

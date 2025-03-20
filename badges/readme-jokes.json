@@ -60,7 +60,7 @@
     ],
     "srcTemplate": "https://readme-jokes.vercel.app/api{?bgColor,borderColor,qColor,aColor,textColor,codeColor,hideBorder,theme}"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "alt": "README Jokes",

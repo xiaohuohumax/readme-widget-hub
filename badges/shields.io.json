@@ -87,7 +87,7 @@
     ],
     "srcTemplate": "https://img.shields.io/badge/{badgeContent}{?style,logo,logoColor,logoSize,label,labelColor,color,cacheSeconds,link}"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "annotate": "badges/shields",

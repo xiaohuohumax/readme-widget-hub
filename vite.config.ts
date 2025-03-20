@@ -17,9 +17,10 @@ export default defineConfig(({ mode }) => {
         badgeDirPath: env.VITE_BADGES_DIR_PATH,
         collectionFileName: env.VITE_COLLECTION_FILE_NAME,
         tplPath: env.VITE_TPL_PATH,
-        tplTocTitle: env.VITE_TPL_TOC_TITLE,
         tplBadgeHeadingLevel: Number.parseInt(env.VITE_TPL_BADGE_HEADING_LEVEL),
         examplesFoldThreshold: Number.parseInt(env.VITE_EXAMPLES_FOLD_THRESHOLD),
+        readmeJsonPath: 'readme.json',
+        localeDirPath: env.VITE_LOCALE_README_DIR_PATH,
       }),
     ],
   }

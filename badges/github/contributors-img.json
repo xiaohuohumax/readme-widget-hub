@@ -35,7 +35,7 @@
     ],
     "srcTemplate": "https://contrib.rocks/image{?repo,max,columns,anon}"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "annotate": "lacolaco/contributors-img",

@@ -72,7 +72,7 @@
     ],
     "srcTemplate": "https://github-profile-trophy.vercel.app/{?username,title,rank,column,row,theme,margin-w,margin-h,no-bg,no-frame}"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "annotate": "ryo-ma",

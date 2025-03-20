@@ -23,7 +23,7 @@
     ],
     "srcTemplate": "https://api.star-history.com/svg{?repos,type}"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "annotate": "star-history/star-history",

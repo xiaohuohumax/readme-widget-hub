@@ -16,7 +16,7 @@
     ],
     "srcTemplate": "https://www.bestpractices.dev/projects/{id}/badge"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "annotate": "best-practices-badge",

@@ -21,12 +21,12 @@ interface ImportMetaEnv {
   readonly VITE_COLLECTION_FILE_NAME: string
   /** README 模板文件路径 */
   readonly VITE_TPL_PATH: string
-  /** README 模板 TOC 标题 */
-  readonly VITE_TPL_TOC_TITLE: string
   /** README 模板徽章标题级别 */
   readonly VITE_TPL_BADGE_HEADING_LEVEL: string
   /** 徽章示例折叠阈值，超过该阈值的示例会折叠 */
   readonly VITE_EXAMPLES_FOLD_THRESHOLD: string
+  /** 本地化 README 文件目录 */
+  readonly VITE_LOCALE_README_DIR_PATH: string
 }
 
 interface ImportMeta {

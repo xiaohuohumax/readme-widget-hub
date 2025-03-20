@@ -58,7 +58,7 @@
     ],
     "srcTemplate": "https://opencollective.com/{collectiveName}/{statisticalType}.svg{?width,height,limit,avatarHeight,button,format}"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "annotate": "vitejs/vite",

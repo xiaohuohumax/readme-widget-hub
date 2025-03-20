@@ -183,7 +183,7 @@
     ],
     "srcTemplate": "https://streak-stats.demolab.com/{?user,theme,hide_border,border_radius,background,border,stroke,ring,fire,currStreakNum,sideNums,currStreakLabel,sideLabels,dates,excludeDaysLabel,date_format,locale,short_numbers,type,mode,exclude_days,disable_animations,card_width,card_height,hide_total_contributions,hide_current_streak,hide_longest_streak,starting_year}"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "annotate": "DenverCoder1",

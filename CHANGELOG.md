@@ -1,5 +1,11 @@
 # badge-collection
 
+## 1.10.0
+
+### Minor Changes
+
+- 支持多语言
+
 ## 1.9.1
 
 ### Patch Changes

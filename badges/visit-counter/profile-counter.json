@@ -16,7 +16,7 @@
     ],
     "srcTemplate": "https://profile-counter.glitch.me/{countId}/count.svg"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "annotate": "badge-collection",

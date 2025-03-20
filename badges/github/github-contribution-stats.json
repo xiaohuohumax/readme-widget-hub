@@ -15,7 +15,7 @@
     ],
     "srcTemplate": "https://github-contribution-stats.vercel.app/api/{?username}"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "annotate": "LordDashMe",

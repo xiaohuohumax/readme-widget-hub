@@ -40,7 +40,7 @@
     ],
     "srcTemplate": "https://gradgen.bokub.workers.dev/{badgenNetParams}{?gradient,badgenNetQuerys"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "alt": "Gradgen",

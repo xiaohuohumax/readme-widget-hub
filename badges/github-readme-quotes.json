@@ -42,7 +42,7 @@
     ],
     "srcTemplate": "https://quotes-github-readme.vercel.app/api{?type,theme,quote,author,border}"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "alt": "Random Quote Badge",

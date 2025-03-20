@@ -47,7 +47,7 @@
     ],
     "srcTemplate": "https://hits.seeyoufarm.com/api/count/incr/badge.svg{?url,edge_flat,title,title_bg,count_bg,icon_color}"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "annotate": "xiaohuohumax/badge-collection",

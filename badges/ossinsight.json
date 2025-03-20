@@ -25,7 +25,7 @@
     ],
     "srcTemplate": "https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month{?repo_id,color_scheme}"
   },
-  "useExamples": [
+  "examples": [
     {
       "explain": {
         "annotate": "pingcap/ossinsight",

@@ -1,7 +1,7 @@
 import fs from 'fs-extra'
 import { BadgeReadmeBuilder } from './badge.js'
 
-console.log('Start building README.md')
+const localeDirPath = import.meta.env.VITE_LOCALE_README_DIR_PATH
 
 const builder = new BadgeReadmeBuilder({
   guideBadgeStyle: import.meta.env.VITE_GUIDE_BADGE_STYLE,
@@ -9,12 +9,23 @@ const builder = new BadgeReadmeBuilder({
   badgeDirPath: import.meta.env.VITE_BADGES_DIR_PATH,
   collectionFileName: import.meta.env.VITE_COLLECTION_FILE_NAME,
   tplPath: import.meta.env.VITE_TPL_PATH,
-  tplTocTitle: import.meta.env.VITE_TPL_TOC_TITLE,
   tplBadgeHeadingLevel: Number.parseInt(import.meta.env.VITE_TPL_BADGE_HEADING_LEVEL),
   examplesFoldThreshold: Number.parseInt(import.meta.env.VITE_EXAMPLES_FOLD_THRESHOLD),
+  readmeJsonPath: 'readme.json',
+  localeDirPath,
   logger: console,
 })
 
-fs.writeFileSync('README.md', builder.generateReadme())
+const readmeAllLocales = builder.generateReadmeAllLocales()
+
+if (readmeAllLocales.length > 1) {
+  fs.mkdirSync(localeDirPath, { recursive: true })
+}
+
+for (const { locale, localeName, readmeMarkdown } of readmeAllLocales) {
+  const readmePath = builder.getReadmePath(locale)
+  console.log(`Write ${localeName} README.md to "${readmePath}"`)
+  fs.writeFileSync(readmePath, readmeMarkdown, 'utf-8')
+}
 
 console.log('Build README.md success.')
