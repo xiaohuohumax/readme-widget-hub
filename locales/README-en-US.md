@@ -37,9 +37,9 @@
   * [Visit Counter Badge](#visit-counter-badge)
     * [HITS](#hits)
     * [Moe Counter](#moe-counter)
-    * [Profile Counter | 访问统计](#profile-counter--访问统计)
-    * [Visitor Badge | 访客徽章](#visitor-badge--访客徽章)
-  * [Custom Icon Badges | 自定义图标徽章](#custom-icon-badges--自定义图标徽章)
+    * [Profile Counter](#profile-counter)
+    * [Visitor Badge](#visitor-badge)
+  * [Custom Icon Badges](#custom-icon-badges)
   * [Capsule Render | 动态彩色图像](#capsule-render--动态彩色图像)
   * [Discord Badge | Discord 徽章](#discord-badge--discord-徽章)
     * [Discord Markdown Badge | Discord 徽章](#discord-markdown-badge--discord-徽章)
@@ -321,14 +321,14 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-line]
 
-#### Profile Counter | 访问统计
+#### Profile Counter
 
 > \[!Note]
-> 此接口暂未找到官方项目地址或文档链接，如有知晓欢迎补充，非常感谢。
+> This API does not have a official project address or documentation link, if you know, please supplement, thank you very much.
 
 ![rl-badge-introduction]
 
-**统计访问次数。**
+**Count the number of visits.**
 
 ![rl-badge-params]
 
@@ -338,7 +338,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `countId` | string |  | 统计 ID |  |
+| `countId` | string |  | The count ID |  |
 
 </details>
 
@@ -359,11 +359,11 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-line]
 
-#### Visitor Badge | 访客徽章
+#### Visitor Badge
 
 ![rl-badge-introduction]
 
-**创建一个可用于任何网站或 GitHub 个人资料的访客徽章。**
+**Create a visitor badge that you can use on any website or GitHub profile.**
 
 [![rl-repo]](https://github.com/estruyf/web-visitorbadge-nextjs)
 [![rl-online-tool]](https://visitorbadge.io/)
@@ -376,14 +376,14 @@ Do you want to know the visit statistics of the website? These badges can help y
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `type` | string |  | 徽章类型 | 可选值：`visitors`（总数）、`daily`（单日）、`combined`（前两个组合） |
+| `type` | string |  | Badge type | Supported: `visitors` (total), `daily` (single day), `combined` (two combined). |
 | ![rl-link-query] | | | | |
-| `path` | string |  | 统计路径 | URL 或 用户名/仓库，用于唯一统计的链接或字符串。 |
-| `label` | string |  | 徽章标签 |  |
-| `labelColor` | string | `#555555` | 徽章标签背景颜色 | 支持类型：`HEX`，例如：`#FF0000` |
-| `countColor` | string | `#263759` | 徽章数字背景颜色 | 支持类型：`HEX`，例如：`#FF0000` |
-| `style` | string | `default` | 徽章样式 | 可选值：`default`、`flat`、`flat-square`、`plastic` |
-| `labelStyle` | string | `upper` | 徽章标签大小写 | 可选值：`upper`（大写） `lower`（小写） |
+| `path` | string |  | Statistics path | URL or username/repository to uniquely identify the link or string for statistics. |
+| `label` | string |  | Badge label |  |
+| `labelColor` | string | `#555555` | Badge label background color | Supported: `HEX`, for example: `#FF0000`. |
+| `countColor` | string | `#263759` | Badge count background color | Supported: `HEX`, for example: `#FF0000`. |
+| `style` | string | `default` | Badge style | Supported: `default`, `flat`, `flat-square`, `plastic`. |
+| `labelStyle` | string | `upper` | Badge label case | Supported: `upper` (uppercase) `lower` (lowercase). |
 
 </details>
 
@@ -404,14 +404,14 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-line]
 
-### Custom Icon Badges | 自定义图标徽章
+### Custom Icon Badges
 
 > \[!Tip]
-> 由于此项目徽章是基于 [shields.io](https://shields.io/) 生成，因此配置参数可直接参考 [shields.io badges](https://shields.io/badges)，下面配置仅展示此项目扩展参数。
+> Since the project badges are generated based on [shields.io](https://shields.io/), the configuration parameters can directly refer to [shields.io badges](https://shields.io/badges). The following configurations only demonstrate the extended parameters for this project.
 
 ![rl-badge-introduction]
 
-**自定义图标徽章，可以用任何你喜欢的图标。**
+**Allows users to more easily use Octicons and their own icons and logos on [shields.io badges](https://github.com/badges/shields).**
 
 [![rl-repo]](https://github.com/DenverCoder1/custom-icon-badges)
 [![rl-online-tool]](https://custom-icon-badges.demolab.com/)
@@ -424,11 +424,12 @@ Do you want to know the visit statistics of the website? These badges can help y
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `shieldsIoParams` | any\[] |  | [shields.io 徽章路径参数](https://shields.io/badges) | 例如：`badge/...`（静态徽章） `github/...`（Github 相关） |
+| `shieldsIoParams` | any\[] |  | [shields.io Badge path parameters](https://shields.io/badges) | For example: `badge/...` (static badge) `github/...` (Github related). |
 | ![rl-link-query] | | | | |
-| `host` | string | `img.shields.io` | 使用不同的徽章托管服务 | 可选值：`staging.shields.io` `img.shields.io` 等 |
-| `logo` | string |  | 自定义图标名称 | 即自己上传图标时设置的名称 |
-| `shieldsIoQuerys` | any\[] |  | [shields.io 徽章查询参数](https://shields.io/badges) | 例如：`logoColor`（图标颜色） `style`（徽章样式）等 |
+| `host` | string | `img.shields.io` | Use different badge hosting service | Supported: `staging.shields.io` `img.shields.io`. |
+| `logo` | string |  | Custom icon name | The name you set when uploading the icon |
+| `logoSource` | string |  | Custom icon source | Supported: `feather` |
+| `shieldsIoQuerys` | any\[] |  | [shields.io Badge query parameters](https://shields.io/badges) | For example: `logoColor` (icon color) `style` (badge style) etc. |
 
 </details>
 
@@ -439,10 +440,10 @@ Do you want to know the visit statistics of the website? These badges can help y
 ![rl-uses-examples]
 
 ```markdown
-![Custom Badge](https://custom-icon-badges.demolab.com/badge/custom-badge-blue.svg?logo=paintbrush&logoColor=white)
+![Custom Icon Badge](https://custom-icon-badges.demolab.com/badge/custom-badge-blue.svg?logo=paintbrush&logoColor=white)
 ```
 
-![Custom Badge](https://custom-icon-badges.demolab.com/badge/custom-badge-blue.svg?logo=paintbrush\&logoColor=white)
+![Custom Icon Badge](https://custom-icon-badges.demolab.com/badge/custom-badge-blue.svg?logo=paintbrush\&logoColor=white)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to Top-555555?style=for-the-badge"></a></p>
 

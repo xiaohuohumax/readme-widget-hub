@@ -34,9 +34,9 @@
   * [访客统计徽章](#访客统计徽章)
     * [HITS](#hits)
     * [Moe Counter](#moe-counter)
-    * [Profile Counter | 访问统计](#profile-counter--访问统计)
-    * [Visitor Badge | 访客徽章](#visitor-badge--访客徽章)
-  * [Custom Icon Badges | 自定义图标徽章](#custom-icon-badges--自定义图标徽章)
+    * [Profile Counter](#profile-counter)
+    * [Visitor Badge](#visitor-badge)
+  * [Custom Icon Badges](#custom-icon-badges)
   * [Capsule Render | 动态彩色图像](#capsule-render--动态彩色图像)
   * [Discord Badge | Discord 徽章](#discord-badge--discord-徽章)
     * [Discord Markdown Badge | Discord 徽章](#discord-markdown-badge--discord-徽章)
@@ -318,7 +318,7 @@
 
 ![rl-line]
 
-#### Profile Counter | 访问统计
+#### Profile Counter
 
 > \[!Note]
 > 此接口暂未找到官方项目地址或文档链接，如有知晓欢迎补充，非常感谢。
@@ -347,16 +347,16 @@
 
 ```markdown
 <!-- badge-collection -->
-![Visitor Count](https://profile-counter.glitch.me/badge-collection/count.svg)
+![访问统计](https://profile-counter.glitch.me/badge-collection/count.svg)
 ```
 
-![Visitor Count](https://profile-counter.glitch.me/badge-collection/count.svg)
+![访问统计](https://profile-counter.glitch.me/badge-collection/count.svg)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『回到顶部』-555555?style=for-the-badge"></a></p>
 
 ![rl-line]
 
-#### Visitor Badge | 访客徽章
+#### Visitor Badge
 
 ![rl-badge-introduction]
 
@@ -373,14 +373,14 @@
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `type` | string |  | 徽章类型 | 可选值：`visitors`（总数）、`daily`（单日）、`combined`（前两个组合） |
+| `type` | string |  | 徽章类型 | 可选值：`visitors`（总数）、`daily`（单日）、`combined`（前两个组合）。 |
 | ![rl-link-query] | | | | |
 | `path` | string |  | 统计路径 | URL 或 用户名/仓库，用于唯一统计的链接或字符串。 |
 | `label` | string |  | 徽章标签 |  |
-| `labelColor` | string | `#555555` | 徽章标签背景颜色 | 支持类型：`HEX`，例如：`#FF0000` |
-| `countColor` | string | `#263759` | 徽章数字背景颜色 | 支持类型：`HEX`，例如：`#FF0000` |
-| `style` | string | `default` | 徽章样式 | 可选值：`default`、`flat`、`flat-square`、`plastic` |
-| `labelStyle` | string | `upper` | 徽章标签大小写 | 可选值：`upper`（大写） `lower`（小写） |
+| `labelColor` | string | `#555555` | 徽章标签背景颜色 | 支持类型：`HEX`，例如：`#FF0000`。 |
+| `countColor` | string | `#263759` | 徽章数字背景颜色 | 支持类型：`HEX`，例如：`#FF0000`。 |
+| `style` | string | `default` | 徽章样式 | 可选值：`default`、`flat`、`flat-square`、`plastic`。 |
+| `labelStyle` | string | `upper` | 徽章标签大小写 | 可选值：`upper`（大写） `lower`（小写）。 |
 
 </details>
 
@@ -392,16 +392,16 @@
 
 ```markdown
 <!-- xiaohuohumax/badge-collection -->
-![Visitors](https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection&label=VISITORS&countColor=%23f3722c)
+![访问数](https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection&label=VISITORS&countColor=%23f3722c)
 ```
 
-![Visitors](https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection\&label=VISITORS\&countColor=%23f3722c)
+![访问数](https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection\&label=VISITORS\&countColor=%23f3722c)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『回到顶部』-555555?style=for-the-badge"></a></p>
 
 ![rl-line]
 
-### Custom Icon Badges | 自定义图标徽章
+### Custom Icon Badges
 
 > \[!Tip]
 > 由于此项目徽章是基于 [shields.io](https://shields.io/) 生成，因此配置参数可直接参考 [shields.io badges](https://shields.io/badges)，下面配置仅展示此项目扩展参数。
@@ -421,11 +421,12 @@
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `shieldsIoParams` | any\[] |  | [shields.io 徽章路径参数](https://shields.io/badges) | 例如：`badge/...`（静态徽章） `github/...`（Github 相关） |
+| `shieldsIoParams` | any\[] |  | [shields.io 徽章路径参数](https://shields.io/badges) | 例如：`badge/...`（静态徽章） `github/...`（Github 相关）。 |
 | ![rl-link-query] | | | | |
-| `host` | string | `img.shields.io` | 使用不同的徽章托管服务 | 可选值：`staging.shields.io` `img.shields.io` 等 |
+| `host` | string | `img.shields.io` | 使用不同的徽章托管服务 | 可选值：`staging.shields.io` `img.shields.io`。 |
 | `logo` | string |  | 自定义图标名称 | 即自己上传图标时设置的名称 |
-| `shieldsIoQuerys` | any\[] |  | [shields.io 徽章查询参数](https://shields.io/badges) | 例如：`logoColor`（图标颜色） `style`（徽章样式）等 |
+| `logoSource` | string |  | 自定义图标来源 | 可选值：`feather` |
+| `shieldsIoQuerys` | any\[] |  | [shields.io 徽章查询参数](https://shields.io/badges) | 例如：`logoColor`（图标颜色） `style`（徽章样式）等。 |
 
 </details>
 
@@ -436,10 +437,10 @@
 ![rl-uses-examples]
 
 ```markdown
-![Custom Badge](https://custom-icon-badges.demolab.com/badge/custom-badge-blue.svg?logo=paintbrush&logoColor=white)
+![自定义图标徽章](https://custom-icon-badges.demolab.com/badge/custom-badge-blue.svg?logo=paintbrush&logoColor=white)
 ```
 
-![Custom Badge](https://custom-icon-badges.demolab.com/badge/custom-badge-blue.svg?logo=paintbrush\&logoColor=white)
+![自定义图标徽章](https://custom-icon-badges.demolab.com/badge/custom-badge-blue.svg?logo=paintbrush\&logoColor=white)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『回到顶部』-555555?style=for-the-badge"></a></p>
 
