@@ -1,9 +1,11 @@
 {
-  "title": "Gradgen | 渐变徽章",
+  "title": "Gradgen",
   "description": "Gradgen 是一个简单而强大的徽章生成器，它为 [badgen.net](https://badgen.net/) 上的徽章增添了令人惊叹的渐变效果。",
+  "description:en-US": "Gradgen is a simple yet powerful Cloudflare worker that enhances your badges from [badgen.net](https://badgen.net/) with stunning gradients.",
   "alert": {
     "type": "Tip",
-    "messages": "由于此项目徽章是基于 [badgen.net](https://badgen.net/) 生成，因此配置参数可直接参考 [badgen.net help](https://badgen.net/help)，下面配置仅展示此项目扩展参数。"
+    "messages": "由于此项目徽章是基于 [badgen.net](https://badgen.net/) 生成，因此配置参数可直接参考 [badgen.net help](https://badgen.net/help)，下面配置仅展示此项目扩展参数。",
+    "messages:en-US": "Since this project's badges are based on [badgen.net](https://badgen.net/), the configuration parameters can be directly referred to [badgen.net help](https://badgen.net/help). The following configuration only shows the extended parameters of this project."
   },
   "tags": {
     "repoUrl": "https://github.com/bokub/gradgen",
@@ -15,7 +17,9 @@
         "name": "badgenNetParams",
         "type": "any[]",
         "description": "[badgen.net 徽章路径参数](https://badgen.net/help)",
-        "extDescription": "例如：`static/...`（静态徽章） `github/...`（Github 相关）"
+        "description:en-US": "[badgen.net Badge path parameters](https://badgen.net/help)",
+        "extDescription": "例如：`static/...`（静态徽章） `github/...`（Github 相关）",
+        "extDescription:en-US": "For example: `static/...` (Static badges) `github/...` (Github-related)"
       }
     ],
     "querys": [
@@ -23,19 +27,25 @@
         "name": "gradient",
         "type": "string",
         "description": "渐变色",
-        "extDescription": "格式：`color1,color2` 颜色格式：`HEX` `CSS 颜色`"
+        "description:en-US": "Gradient",
+        "extDescription": "格式：`color1,color2` 颜色格式：`HEX` `CSS 颜色`",
+        "extDescription:en-US": "Format: `color1,color2` Color format: `HEX` `CSS color name`"
       },
       {
         "name": "style",
         "type": "string",
         "description": "徽章样式",
-        "extDescription": "可选值：`flat`"
+        "description:en-US": "Badge style",
+        "extDescription": "可选值：`flat`",
+        "extDescription:en-US": "Supported: `flat`"
       },
       {
         "name": "badgenNetQuerys",
         "type": "any[]",
         "description": "[badgen.net 徽章查询参数](https://badgen.net/help)",
-        "extDescription": "例如：`color`（图标颜色） `icon`（图标）等"
+        "description:en-US": "[badgen.net Badge query parameters](https://badgen.net/help)",
+        "extDescription": "例如：`color`（图标颜色） `icon`（图标）等",
+        "extDescription:en-US": "For example: `color` (Icon color) `icon` (Icon) etc."
       }
     ],
     "srcTemplate": "https://gradgen.bokub.workers.dev/{badgenNetParams}{?gradient,badgenNetQuerys"
