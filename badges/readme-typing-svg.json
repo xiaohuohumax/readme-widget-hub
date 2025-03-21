@@ -1,6 +1,7 @@
 {
-  "title": "Readme Typing SVG | 打字机效果的动态 SVG 卡片",
+  "title": "Readme Typing SVG",
   "description": "动态生成、可定制的 SVG，可模拟文本输入和删除效果，适用于个人主页、仓库或网站。",
+  "description:en-US": "Dynamically generated, customizable SVG that gives the appearance of typing and deleting text for use on your profile page, repositories, or website.",
   "tags": {
     "repoUrl": "https://github.com/denvercoder1/readme-typing-svg",
     "onlineToolUrl": "https://readme-typing-svg.demolab.com/demo/",
@@ -12,101 +13,126 @@
         "name": "lines",
         "type": "string",
         "default": "",
-        "description": "显示的文本",
-        "extDescription": "多行之间用 `;` 分隔，文本中空格使用 `+` 代替"
+        "description": "要显示的多行文本",
+        "description:en-US": "The multi-line text to display",
+        "extDescription": "多行之间用 `;` 分隔，文本中空格使用 `+` 代替",
+        "extDescription:en-US": "Text to display with lines separated by `;` and `+` for spaces"
       },
       {
         "name": "height",
         "type": "number",
         "default": "50",
-        "description": "输出 SVG 的高度"
+        "description": "输出 SVG 的高度",
+        "description:en-US": "Height of the output SVG in pixels"
       },
       {
         "name": "width",
         "type": "number",
         "default": "400",
-        "description": "输出 SVG 的宽度"
+        "description": "输出 SVG 的宽度",
+        "description:en-US": "Width of the output SVG in pixels"
       },
       {
         "name": "size",
         "type": "number",
         "default": "20",
         "description": "字体大小",
-        "extDescription": "单位：像素"
+        "description:en-US": "Font size in pixels",
+        "extDescription": "单位：像素",
+        "extDescription:en-US": "Unit: pixels"
       },
       {
         "name": "font",
         "type": "string",
         "default": "monospace",
         "description": "字体族",
-        "extDescription": "任何 Google Fonts 中的字体"
+        "description:en-US": "Font family",
+        "extDescription": "任何 Google Fonts 中的字体",
+        "extDescription:en-US": "Any font from Google Fonts"
       },
       {
         "name": "color",
         "type": "string",
         "default": "36BCF7",
         "description": "文本颜色",
-        "extDescription": "十六进制代码不带 #"
+        "description:en-US": "Color of the text",
+        "extDescription": "格式：`HEX` 例如：`FF0000`",
+        "extDescription:en-US": "Format: `HEX` e.g. `FF0000`"
       },
       {
         "name": "background",
         "type": "string",
         "default": "00000000",
         "description": "文本背景颜色",
-        "extDescription": "十六进制代码不带 #"
+        "description:en-US": "Background color of the text",
+        "extDescription": "格式：`HEX` 例如：`FF0000`",
+        "extDescription:en-US": "Format: `HEX` e.g. `FF0000`"
       },
       {
         "name": "center",
         "type": "boolean",
         "default": "false",
         "description": "文本水平对齐方式",
-        "extDescription": "可选值：true（水平居中）false（左对齐）"
+        "description:en-US": "Text horizontal alignment",
+        "extDescription": "可选值：true（水平居中）false（左对齐）",
+        "extDescription:en-US": "Supported: true (horizontal center) false (left align)"
       },
       {
         "name": "vCenter",
         "type": "boolean",
         "default": "false",
         "description": "文本垂直对齐方式",
-        "extDescription": "可选值：true（垂直居中）false（居中上方）"
+        "description:en-US": "Text vertical alignment",
+        "extDescription": "可选值：true（垂直居中）false（居中上方）",
+        "extDescription:en-US": "Supported: true (vertical center) false (center top)"
       },
       {
         "name": "multiline",
         "type": "boolean",
         "default": "false",
         "description": "文本换行显示方式",
-        "extDescription": "可选值：true（换行显示）false（同一行重新显示）"
+        "description:en-US": "Text line break display",
+        "extDescription": "可选值：true（换行显示）false（同一行重新显示）",
+        "extDescription:en-US": "Supported: true (wrap lines) false (retype on one line)"
       },
       {
         "name": "duration",
         "type": "number",
         "default": "5000",
-        "description": "单行打印持续时间"
+        "description": "单行打印持续时间",
+        "description:en-US": "Duration of the printing of a single line in milliseconds"
       },
       {
         "name": "pause",
         "type": "number",
         "default": "0",
         "description": "行与行之间的暂停时间",
-        "extDescription": "单位：毫秒"
+        "description:en-US": "Duration of the pause between lines in milliseconds",
+        "extDescription": "单位：毫秒",
+        "extDescription:en-US": "Unit: milliseconds"
       },
       {
         "name": "repeat",
         "type": "boolean",
         "default": "true",
-        "description": "在最后一行之后循环回到第一行"
+        "description": "在最后一行之后循环回到第一行",
+        "description:en-US": "Loop around to the first line after the last"
       },
       {
         "name": "separator",
         "type": "string",
         "default": ";",
-        "description": "行参数中使用的分隔符"
+        "description": "行参数中使用的分隔符",
+        "description:en-US": "Separator used between lines in the lines parameter"
       },
       {
         "name": "letterSpacing",
         "type": "string",
         "default": "normal",
         "description": "字母间距",
-        "extDescription": "任何字母间距（letter-spacing）属性的 CSS 值"
+        "description:en-US": "Letter spacing",
+        "extDescription": "格式：`CSS 颜色`",
+        "extDescription:en-US": "Format: `CSS color`"
       }
     ],
     "srcTemplate": "https://readme-typing-svg.demolab.com{?lines,height,width,size,font,color,background,center,vCenter,multiline,duration,pause,repeat,separator,letterSpacing}"
