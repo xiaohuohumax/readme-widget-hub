@@ -46,10 +46,10 @@
     * [GitHub Gists Readme](#github-gists-readme)
     * [Github Contribution Stats](#github-contribution-stats)
     * [GitHub Profile Trophy](#github-profile-trophy)
-    * [Github Readme Activity Graph | Github 个人活动图](#github-readme-activity-graph--github-个人活动图)
+    * [Github Readme Activity Graph](#github-readme-activity-graph)
     * [GitHub Readme Stats](#github-readme-stats)
-    * [Github Readme Streak Stats | Github 连续贡献统计图](#github-readme-streak-stats--github-连续贡献统计图)
-    * [GitHub Workflows Badge | GitHub 工作流程徽章](#github-workflows-badge--github-工作流程徽章)
+    * [Github Readme Streak Stats](#github-readme-streak-stats)
+    * [GitHub Workflows Badge](#github-workflows-badge)
     * [Github Chart API | Github 个人贡献卡片](#github-chart-api--github-个人贡献卡片)
     * [Repobeats | GitHub 仓库分析图](#repobeats--github-仓库分析图)
     * [Socialify | Github 项目描述卡片](#socialify--github-项目描述卡片)
@@ -817,7 +817,7 @@
 
 ![rl-line]
 
-#### Github Readme Activity Graph | Github 个人活动图
+#### Github Readme Activity Graph
 
 ![rl-badge-introduction]
 
@@ -836,22 +836,22 @@
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
 | `username` | string |  | GitHub 用户名 |  |
-| `theme` | string | `default` | 主题 | 可选值：`default` `react` `react-dark` `github` `github-compact` `xcode` `rogue` `merko` `vue` `tokyo-night` `high-contrast` |
-| `bg_color` | string |  | 卡片背景颜色 | 格式：`HEX` 例如：`FF0000` |
-| `color` | string |  | 图表文本颜色 | 格式：`HEX` 例如：`FF0000` |
-| `title_color` | string |  | 图形卡片标题颜色 | 格式：`HEX` 例如：`FF0000` |
-| `line` | string |  | 图表线条颜色 | 格式：`HEX` 例如：`FF0000` |
-| `point` | string |  | 线图上点的颜色 | 格式：`HEX` 例如：`FF0000` |
-| `area_color` | string |  | 图表下方区域的颜色 | 格式：`HEX` 例如：`FF0000` |
+| `theme` | string | `default` | 使用主题 | 可选值：`default` `react` `react-dark` `github` `github-compact` `xcode` `rogue` `merko` `vue` `tokyo-night` `high-contrast` |
+| `bg_color` | string |  | 卡片背景颜色 | 格式：`HEX` 例如：`FF0000`。 |
+| `color` | string |  | 图表文本颜色 | 格式：`HEX` 例如：`FF0000`。 |
+| `title_color` | string |  | 图形卡片标题颜色 | 格式：`HEX` 例如：`FF0000`。 |
+| `line` | string |  | 图表线条颜色 | 格式：`HEX` 例如：`FF0000`。 |
+| `point` | string |  | 线图上点的颜色 | 格式：`HEX` 例如：`FF0000`。 |
+| `area_color` | string |  | 图表下方区域的颜色 | 格式：`HEX` 例如：`FF0000`。 |
 | `area` | boolean | `false` | 是否显示图表下的面积 |  |
 | `hide_border` | boolean | `false` | 是否使图表的边框透明 |  |
 | `hide_title` | boolean | `false` | 是否设置标题为空字符串 |  |
 | `custom_title` | string |  | 标题 |  |
-| `radius` | number |  | 图形边框半径 | 最小：`0` 最大：`16` |
-| `height` | number |  | 图表高度 | 最小：`200` 最大：`600` |
-| `days` | number | `31` | 图表上显示的天数数量 | 最小：`1` 最大：`90` |
-| `from` | string |  | 开始日期 | 格式：`YYYY-MM-DD` |
-| `to` | string |  | 结束日期 | 格式：`YYYY-MM-DD` |
+| `radius` | number |  | 图形边框半径 | 范围：`0` 到 `16`。 |
+| `height` | number |  | 图表高度 | 范围：`200` 到 `600`。 |
+| `days` | number | `31` | 图表上显示的天数数量 | 范围：`1` 到 `90`。 |
+| `from` | string |  | 开始日期 | 格式：`YYYY-MM-DD`。 |
+| `to` | string |  | 结束日期 | 格式：`YYYY-MM-DD`。 |
 | `grid` | boolean | `true` | 是否显示网格 |  |
 
 </details>
@@ -863,10 +863,10 @@
 ![rl-uses-examples]
 
 ```markdown
-![Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=xiaohuohumax&theme=github&hide_border=true)
+![Github 活动图](https://github-readme-activity-graph.vercel.app/graph?username=xiaohuohumax&theme=github&hide_border=true)
 ```
 
-![Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=xiaohuohumax\&theme=github\&hide_border=true)
+![Github 活动图](https://github-readme-activity-graph.vercel.app/graph?username=xiaohuohumax\&theme=github\&hide_border=true)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『回到顶部』-555555?style=for-the-badge"></a></p>
 
@@ -938,7 +938,7 @@
 
 ![rl-line]
 
-#### Github Readme Streak Stats | Github 连续贡献统计图
+#### Github Readme Streak Stats
 
 ![rl-badge-introduction]
 
@@ -959,7 +959,7 @@
 | `user` | string |  | GitHub 用户名 |  |
 | `theme` | string | `default` | 主题 | 可选值：`default` `dark` `highcontrast` `transparent` `radical` 等，更多主题请参考 [themes](https://github.com/DenverCoder1/github-readme-streak-stats/blob/main/docs/themes.md) |
 | `hide_border` | boolean | `false` | 是否使用透明边框 |  |
-| `border_radius` | number | `4.5` | 设置边缘的圆滑度 | 最小：`0`（锐角） 最大：`248`（椭圆） |
+| `border_radius` | number | `4.5` | 设置边缘的圆滑度 | 范围：`0`（锐角） 到 `248`（椭圆） |
 | `background` | string |  | 背景颜色 | 格式：`angle,color1,color2,...` 例如：`180,#fff,#000`，颜色格式：`HEX` `CSS 颜色` 例如：`FF0000` |
 | `border` | string |  | 边框颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
 | `stroke` | string |  | 段落之间的描边颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
@@ -975,7 +975,7 @@
 | `locale` | string | `en` | 语言 | 格式参考：[Locales](https://github.com/DenverCoder1/github-readme-streak-stats?tab=readme-ov-file#-locales) |
 | `short_numbers` | boolean |  | 是否使用短数字 |  |
 | `type` | string | `svg` | 输出格式 | 可选值：`svg` `json` `png` |
-| `mode` | string | `daily` | 模式 | 可选值：`daily`（每日） `weekly`（每周） |
+| `mode` | string | `daily` | 模式 | 可选值：`daily`（每日）`weekly`（每周） |
 | `exclude_days` | string |  | 排除连续贡献的天数 | 可选值：`Sun` `Mon` `Tue` `Wed` `Thu` `Fri` `Sat` 多个值用 `,` 分隔 |
 | `disable_animations` | boolean | `false` | 禁用 SVG 动画 |  |
 | `card_width` | number | `495` | 卡片宽度 | 单位：像素，每列最小宽度为 100 像素 |
@@ -1004,7 +1004,7 @@
 
 ![rl-line]
 
-#### GitHub Workflows Badge | GitHub 工作流程徽章
+#### GitHub Workflows Badge
 
 ![rl-badge-introduction]
 

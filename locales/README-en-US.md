@@ -49,10 +49,10 @@
     * [GitHub Gists Readme](#github-gists-readme)
     * [Github Contribution Stats](#github-contribution-stats)
     * [GitHub Profile Trophy](#github-profile-trophy)
-    * [Github Readme Activity Graph | Github 个人活动图](#github-readme-activity-graph--github-个人活动图)
+    * [Github Readme Activity Graph](#github-readme-activity-graph)
     * [GitHub Readme Stats](#github-readme-stats)
-    * [Github Readme Streak Stats | Github 连续贡献统计图](#github-readme-streak-stats--github-连续贡献统计图)
-    * [GitHub Workflows Badge | GitHub 工作流程徽章](#github-workflows-badge--github-工作流程徽章)
+    * [Github Readme Streak Stats](#github-readme-streak-stats)
+    * [GitHub Workflows Badge](#github-workflows-badge)
     * [Github Chart API | Github 个人贡献卡片](#github-chart-api--github-个人贡献卡片)
     * [Repobeats | GitHub 仓库分析图](#repobeats--github-仓库分析图)
     * [Socialify | Github 项目描述卡片](#socialify--github-项目描述卡片)
@@ -820,11 +820,11 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-line]
 
-#### Github Readme Activity Graph | Github 个人活动图
+#### Github Readme Activity Graph
 
 ![rl-badge-introduction]
 
-**动态生成的活动图，展示您过去 31 天的 GitHub 活动。**
+**A dynamically generated activity graph to show your GitHub activities of last 31 days.**
 
 [![rl-repo]](https://github.com/Ashutosh00710/github-readme-activity-graph)
 [![rl-online-tool]](https://ashutosh00710.github.io/github-readme-activity-graph/)
@@ -838,24 +838,24 @@ Do you want to know the visit statistics of the website? These badges can help y
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
-| `username` | string |  | GitHub 用户名 |  |
-| `theme` | string | `default` | 主题 | 可选值：`default` `react` `react-dark` `github` `github-compact` `xcode` `rogue` `merko` `vue` `tokyo-night` `high-contrast` |
-| `bg_color` | string |  | 卡片背景颜色 | 格式：`HEX` 例如：`FF0000` |
-| `color` | string |  | 图表文本颜色 | 格式：`HEX` 例如：`FF0000` |
-| `title_color` | string |  | 图形卡片标题颜色 | 格式：`HEX` 例如：`FF0000` |
-| `line` | string |  | 图表线条颜色 | 格式：`HEX` 例如：`FF0000` |
-| `point` | string |  | 线图上点的颜色 | 格式：`HEX` 例如：`FF0000` |
-| `area_color` | string |  | 图表下方区域的颜色 | 格式：`HEX` 例如：`FF0000` |
-| `area` | boolean | `false` | 是否显示图表下的面积 |  |
-| `hide_border` | boolean | `false` | 是否使图表的边框透明 |  |
-| `hide_title` | boolean | `false` | 是否设置标题为空字符串 |  |
-| `custom_title` | string |  | 标题 |  |
-| `radius` | number |  | 图形边框半径 | 最小：`0` 最大：`16` |
-| `height` | number |  | 图表高度 | 最小：`200` 最大：`600` |
-| `days` | number | `31` | 图表上显示的天数数量 | 最小：`1` 最大：`90` |
-| `from` | string |  | 开始日期 | 格式：`YYYY-MM-DD` |
-| `to` | string |  | 结束日期 | 格式：`YYYY-MM-DD` |
-| `grid` | boolean | `true` | 是否显示网格 |  |
+| `username` | string |  | GitHub username |  |
+| `theme` | string | `default` | Use themes | Supported: `default` `react` `react-dark` `github` `github-compact` `xcode` `rogue` `merko` `vue` `tokyo-night` `high-contrast` |
+| `bg_color` | string |  | Card's background color | Format: `HEX` e.g. `FF0000`. |
+| `color` | string |  | Graph card's text color | Format: `HEX` e.g. `FF0000`. |
+| `title_color` | string |  | Graph card's title color | Format: `HEX` e.g. `FF0000`. |
+| `line` | string |  | Graph's line color  | Format: `HEX` e.g. `FF0000`. |
+| `point` | string |  | Color of points on line graph | Format: `HEX` e.g. `FF0000`. |
+| `area_color` | string |  | Color of the area under the graph | Format: `HEX` e.g. `FF0000`. |
+| `area` | boolean | `false` | Shows area under the graph |  |
+| `hide_border` | boolean | `false` | Makes the border of the graph transparent |  |
+| `hide_title` | boolean | `false` | Sets the title to an empty string |  |
+| `custom_title` | string |  | Set the title to any string |  |
+| `radius` | number |  | Border radius of graph | Between `0` and `16`. |
+| `height` | number |  | height of the graph | Between `200` and `600`. |
+| `days` | number | `31` | Number of to days display on graph | Between `1` and `90`. |
+| `from` | string |  | Date from which the graph starts | Format: `YYYY-MM-DD`. |
+| `to` | string |  | Date where the graph will end | Format: `YYYY-MM-DD`. |
+| `grid` | boolean | `true` | Show grid |  |
 
 </details>
 
@@ -941,7 +941,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-line]
 
-#### Github Readme Streak Stats | Github 连续贡献统计图
+#### Github Readme Streak Stats
 
 ![rl-badge-introduction]
 
@@ -959,34 +959,34 @@ Do you want to know the visit statistics of the website? These badges can help y
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
-| `user` | string |  | GitHub 用户名 |  |
-| `theme` | string | `default` | 主题 | 可选值：`default` `dark` `highcontrast` `transparent` `radical` 等，更多主题请参考 [themes](https://github.com/DenverCoder1/github-readme-streak-stats/blob/main/docs/themes.md) |
-| `hide_border` | boolean | `false` | 是否使用透明边框 |  |
-| `border_radius` | number | `4.5` | 设置边缘的圆滑度 | 最小：`0`（锐角） 最大：`248`（椭圆） |
-| `background` | string |  | 背景颜色 | 格式：`angle,color1,color2,...` 例如：`180,#fff,#000`，颜色格式：`HEX` `CSS 颜色` 例如：`FF0000` |
-| `border` | string |  | 边框颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
-| `stroke` | string |  | 段落之间的描边颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
-| `ring` | string |  | 当前连续贡献环的颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
-| `fire` | string |  | 火焰的颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
-| `currStreakNum` | string |  | 当前连续天数颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
-| `sideNums` | string |  | 总连续贡献数和最长连续贡献数 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
-| `currStreakLabel` | string |  | 当前连续贡献标签颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
-| `sideLabels` | string |  | 总连续贡献数和最长连续贡献数标签 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
-| `dates` | string |  | 日期范围文本颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
-| `excludeDaysLabel` | string |  | 排除星期的文本颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
-| `date_format` | string |  | 日期格式模式或为空以使用区域格式 | 格式参考：[PHP's date function](https://www.php.net/manual/zh/datetime.format.php#refsect1-datetime.format-parameters)，示例：[example](https://www.php.net/manual/zh/datetime.format.php#refsect1-datetime.format-parameters) |
-| `locale` | string | `en` | 语言 | 格式参考：[Locales](https://github.com/DenverCoder1/github-readme-streak-stats?tab=readme-ov-file#-locales) |
-| `short_numbers` | boolean |  | 是否使用短数字 |  |
-| `type` | string | `svg` | 输出格式 | 可选值：`svg` `json` `png` |
-| `mode` | string | `daily` | 模式 | 可选值：`daily`（每日） `weekly`（每周） |
-| `exclude_days` | string |  | 排除连续贡献的天数 | 可选值：`Sun` `Mon` `Tue` `Wed` `Thu` `Fri` `Sat` 多个值用 `,` 分隔 |
-| `disable_animations` | boolean | `false` | 禁用 SVG 动画 |  |
-| `card_width` | number | `495` | 卡片宽度 | 单位：像素，每列最小宽度为 100 像素 |
-| `card_height` | number | `195` | 卡片高度 | 单位：像素，每列最小高度为 170 像素 |
-| `hide_total_contributions` | boolean | `false` | 是否隐藏总贡献数 |  |
-| `hide_current_streak` | boolean | `false` | 是否隐藏当前连续提交数 |  |
-| `hide_longest_streak` | boolean | `false` | 是否隐藏最长贡献 |  |
-| `starting_year` | number |  | 贡献统计开始年份 |  |
+| `user` | string |  | GitHub username |  |
+| `theme` | string | `default` | The theme to apply | Supported: `default` `dark` `highcontrast` `transparent` `radical` and more, please refer to [themes](https://github.com/DenverCoder1/github-readme-streak-stats/blob/main/docs/themes.md) |
+| `hide_border` | boolean | `false` | Make the border transparent |  |
+| `border_radius` | number | `4.5` | Set the roundness of the edges | Between: `0` (sharp corners) to 248 (ellipse) |
+| `background` | string |  | Background color | Format: `angle,color1,color2,...` for example: `180,#fff,#000`, color format: `HEX` or `CSS color` for example: `FF0000` |
+| `border` | string |  | Border color | Format: `HEX` or `CSS color` for example: `FF0000` |
+| `stroke` | string |  | Stroke line color between sections | Format: `HEX` or `CSS color` for example: `FF0000` |
+| `ring` | string |  | Color of the ring around the current streak | Format: `HEX` or `CSS color` for example: `FF0000` |
+| `fire` | string |  | Color of the fire in the ring | Format: `HEX` or `CSS color` for example: `FF0000` |
+| `currStreakNum` | string |  | Current streak number | Format: `HEX` or `CSS color` for example: `FF0000` |
+| `sideNums` | string |  | Total and longest streak numbers | Format: `HEX` or `CSS color` for example: `FF0000` |
+| `currStreakLabel` | string |  | Current streak label | Format: `HEX` or `CSS color` for example: `FF0000` |
+| `sideLabels` | string |  | Total and longest streak labels | Format: `HEX` or `CSS color` for example: `FF0000` |
+| `dates` | string |  | Date range text color | Format: `HEX` or `CSS color` for example: `FF0000` |
+| `excludeDaysLabel` | string |  | Excluded days of the week text color | Format: `HEX` or `CSS color` for example: `FF0000` |
+| `date_format` | string |  | Date format pattern or empty for locale format | Format reference: [PHP's date function](https://www.php.net/manual/zh/datetime.format.php#refsect1-datetime.format-parameters)，示例：[example](https://www.php.net/manual/zh/datetime.format.php#refsect1-datetime.format-parameters) |
+| `locale` | string | `en` | Locale for labels and numbers | Format reference: [Locales](https://github.com/DenverCoder1/github-readme-streak-stats?tab=readme-ov-file#-locales) |
+| `short_numbers` | boolean |  | Use short numbers |  |
+| `type` | string | `svg` | Output format | Supported:`svg` `json` `png` |
+| `mode` | string | `daily` | Streak mode | Supported: `daily` `weekly` |
+| `exclude_days` | string |  | List of days of the week to exclude from streaks | Supported: `Sun` `Mon` `Tue` `Wed` `Thu` `Fri` `Sat` separate values with `,` |
+| `disable_animations` | boolean | `false` | Disable SVG animations |  |
+| `card_width` | number | `495` | Width of the card in pixels | Unit: pixels, minimum width is 100px per column |
+| `card_height` | number | `195` | Height of the card in pixels | Unit: pixels, minimum height is 170px |
+| `hide_total_contributions` | boolean | `false` | Hide the total contributions |  |
+| `hide_current_streak` | boolean | `false` | Hide the current streak |  |
+| `hide_longest_streak` | boolean | `false` | Hide the longest streak |  |
+| `starting_year` | number |  | Starting year of contributions |  |
 
 </details>
 
@@ -1007,11 +1007,11 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-line]
 
-#### GitHub Workflows Badge | GitHub 工作流程徽章
+#### GitHub Workflows Badge
 
 ![rl-badge-introduction]
 
-**GitHub 官方徽章，显示你的 GitHub 仓库中正在运行的工作流状态。**
+**You can display a status badge in your repository to indicate the status of your workflows.**
 
 [![rl-official-docs]](https://docs.github.com/zh/actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/adding-a-workflow-status-badge)
 
@@ -1023,12 +1023,12 @@ Do you want to know the visit statistics of the website? These badges can help y
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `owner` | string |  | 用户名 |  |
-| `repo` | string |  | 仓库名 |  |
-| `workflowFile` | string |  | 工作流文件名 |  |
+| `owner` | string |  | Github username |  |
+| `repo` | string |  | Repository name |  |
+| `workflowFile` | string |  | Workflow file name |  |
 | ![rl-link-query] | | | | |
-| `branch` | string |  | 项目分支名 |  |
-| `event` | string |  | 工作流触发事件名 |  |
+| `branch` | string |  | Branch name |  |
+| `event` | string |  | Workflow trigger event name |  |
 
 </details>
 
