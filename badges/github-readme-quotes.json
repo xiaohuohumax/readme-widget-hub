@@ -14,8 +14,8 @@
         "default": "vertical",
         "description": "类型",
         "description:en-US": "Type",
-        "extDescription": "可选值：`vertical` `horizontal`",
-        "extDescription:en-US": "Supported: `vertical` `horizontal`"
+        "extDescription": "可选值：`vertical` `horizontal`。",
+        "extDescription:en-US": "Supported: `vertical` `horizontal`."
       },
       {
         "name": "theme",
@@ -23,16 +23,16 @@
         "default": "light",
         "description": "主题",
         "description:en-US": "Theme",
-        "extDescription": "可选值：`dark` `light` `chartreuse-dark` `radical` `merko` `gruvbox` `tokyonight` `catppuccin` `catppuccin_latte` `catppuccin_frappe` `catppuccin_macchiato` `catppuccin_mocha` `algolia` `monokai` `dracula` `nord` `github` `graywhite` `moonlight` `hackerman` `shadow_red` `shadow_green` `shadow_blue`",
-        "extDescription:en-US": "Supported: `dark` `light` `chartreuse-dark` `radical` `merko` `gruvbox` `tokyonight` `catppuccin` `catppuccin_latte` `catppuccin_frappe` `catppuccin_macchiato` `catppuccin_mocha` `algolia` `monokai` `dracula` `nord` `github` `graywhite` `moonlight` `hackerman` `shadow_red` `shadow_green` `shadow_blue`"
+        "extDescription": "可选值：`dark` `light` `chartreuse-dark` `radical` `merko` `gruvbox` `tokyonight` `catppuccin` `catppuccin_latte` `catppuccin_frappe` `catppuccin_macchiato` `catppuccin_mocha` `algolia` `monokai` `dracula` `nord` `github` `graywhite` `moonlight` `hackerman` `shadow_red` `shadow_green` `shadow_blue`。",
+        "extDescription:en-US": "Supported: `dark` `light` `chartreuse-dark` `radical` `merko` `gruvbox` `tokyonight` `catppuccin` `catppuccin_latte` `catppuccin_frappe` `catppuccin_macchiato` `catppuccin_mocha` `algolia` `monokai` `dracula` `nord` `github` `graywhite` `moonlight` `hackerman` `shadow_red` `shadow_green` `shadow_blue`."
       },
       {
         "name": "quote",
         "type": "string",
         "description": "名言",
         "description:en-US": "Quote",
-        "extDescription": "若为空，则随机获取名言，名言列表：[quotes.json](https://github.com/mudroljub/programming-quotes-api/raw/master/data/quotes.json)",
-        "extDescription:en-US": "If empty, a random quote will be retrieved, quote list: [quotes.json](https://github.com/mudroljub/programming-quotes-api/raw/master/data/quotes.json)"
+        "extDescription": "若为空，则随机获取名言，名言列表：[quotes.json](https://github.com/mudroljub/programming-quotes-api/raw/master/data/quotes.json)。",
+        "extDescription:en-US": "If empty, a random quote will be retrieved, quote list: [quotes.json](https://github.com/mudroljub/programming-quotes-api/raw/master/data/quotes.json)."
       },
       {
         "name": "author",

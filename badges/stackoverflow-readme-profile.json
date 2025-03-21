@@ -15,8 +15,8 @@
           "type": "string",
           "description": "显示模板",
           "description:en-US": "Display template",
-          "extDescription": "可选值：`profile` `profile-small`",
-          "extDescription:en-US": "Supported: `profile` `profile-small`"
+          "extDescription": "可选值：`profile` `profile-small`。",
+          "extDescription:en-US": "Supported: `profile` `profile-small`."
         },
         {
           "name": "userId",
@@ -32,8 +32,8 @@
           "default": "default",
           "description": "主题",
           "description:en-US": "Theme to use",
-          "extDescription": "可选值：`default` `dark` `cobalt` `monokai` `graywhite` `hotdog`",
-          "extDescription:en-US": "Supported: `default` `dark` `cobalt` `monokai` `graywhite` `hotdog`"
+          "extDescription": "可选值：`default` `dark` `cobalt` `monokai` `graywhite` `hotdog`。",
+          "extDescription:en-US": "Supported: `default` `dark` `cobalt` `monokai` `graywhite` `hotdog`."
         },
         {
           "name": "website",
@@ -41,8 +41,8 @@
           "default": "true",
           "description": "是否显示网站 URL",
           "description:en-US": "Show or not the website URL",
-          "extDescription": "仅当 `template=profile` 时可用，可选值：`true` `false`",
-          "extDescription:en-US": "Only when `template=profile` is available, supported: `true` `false`"
+          "extDescription": "仅当 `template=profile` 时可用，可选值：`true` `false`。",
+          "extDescription:en-US": "Only when `template=profile` is available, supported: `true` `false`."
         },
         {
           "name": "location",
@@ -50,8 +50,8 @@
           "default": "true",
           "description": "是否显示位置",
           "description:en-US": "Show or not the location",
-          "extDescription": "仅当 `template=profile` 时可用，可选值：`true` `false`",
-          "extDescription:en-US": "Only when `template=profile` is available, supported: `true` `false`"
+          "extDescription": "仅当 `template=profile` 时可用，可选值：`true` `false`。",
+          "extDescription:en-US": "Only when `template=profile` is available, supported: `true` `false`."
         }
       ],
       "annotate": "Profile",
@@ -79,8 +79,8 @@
           "default": "default",
           "description": "主题",
           "description:en-US": "Theme to use",
-          "extDescription": "可选值：`default` `dark` `cobalt` `monokai` `graywhite` `hotdog`",
-          "extDescription:en-US": "Supported: `default` `dark` `cobalt` `monokai` `graywhite` `hotdog`"
+          "extDescription": "可选值：`default` `dark` `cobalt` `monokai` `graywhite` `hotdog`。",
+          "extDescription:en-US": "Supported: `default` `dark` `cobalt` `monokai` `graywhite` `hotdog`."
         }
       ],
       "annotate": "Tags League Ranking",

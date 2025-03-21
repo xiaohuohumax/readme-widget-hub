@@ -39,8 +39,8 @@
           "default": "none",
           "description": "标题旋转方式",
           "description:en-US": "Title transform",
-          "extDescription": "可选值：`none` `rotate` `skew` `scale`",
-          "extDescription:en-US": "Supported: `none` `rotate` `skew` `scale`"
+          "extDescription": "可选值：`none` `rotate` `skew` `scale`。",
+          "extDescription:en-US": "Supported: `none` `rotate` `skew` `scale`."
         },
         {
           "name": "subtitletransform",
@@ -48,8 +48,8 @@
           "default": "none",
           "description": "副标题旋转方式",
           "description:en-US": "Subtitle transform",
-          "extDescription": "可选值：`none` `rotate` `skew` `scale`",
-          "extDescription:en-US": "Supported: `none` `rotate` `skew` `scale`"
+          "extDescription": "可选值：`none` `rotate` `skew` `scale`。",
+          "extDescription:en-US": "Supported: `none` `rotate` `skew` `scale`."
         },
         {
           "name": "fontpalette",
@@ -57,8 +57,8 @@
           "default": "none",
           "description": "文字样式",
           "description:en-US": "Text palette",
-          "extDescription": "可选值：`none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`",
-          "extDescription:en-US": "Supported: `none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`"
+          "extDescription": "可选值：`none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`。",
+          "extDescription:en-US": "Supported: `none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`."
         },
         {
           "name": "backgroundpalette",
@@ -66,8 +66,8 @@
           "default": "none",
           "description": "背景样式",
           "description:en-US": "Background palette",
-          "extDescription": "可选值：`none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`",
-          "extDescription:en-US": "Supported: `none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`"
+          "extDescription": "可选值：`none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`。",
+          "extDescription:en-US": "Supported: `none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`."
         }
       ],
       "annotate": "Banner",

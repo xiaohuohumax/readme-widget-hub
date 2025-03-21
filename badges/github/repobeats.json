@@ -15,7 +15,7 @@
         "type": "string",
         "description": "配置 ID",
         "description:en-US": "Config ID",
-        "extDescription": "登录 [Repobeats](https://repobeats.axiom.co/) 后选择仓库后获取",
+        "extDescription": "登录 [Repobeats](https://repobeats.axiom.co/) 后选择仓库后获取。",
         "extDescription:en-US": "Login [Repobeats](https://repobeats.axiom.co/) and select the repository to get the config ID."
       }
     ],

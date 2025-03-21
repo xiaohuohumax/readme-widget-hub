@@ -19,7 +19,7 @@
         "name": "badgeContent",
         "type": "string",
         "description": "徽章内容",
-        "description:en-US": "Label, (optional) message, and color. Separated by dashes.",
+        "description:en-US": "Label, (optional) message, and color. Separated by dashes",
         "extDescription": "格式：`标签-消息-消息背景颜色`。",
         "extDescription:en-US": "Example: `build-passing-brightgreen`."
       }
@@ -30,7 +30,7 @@
         "type": "string",
         "default": "flat",
         "description": "徽章整体风格",
-        "description:en-US": "Badge style.",
+        "description:en-US": "Badge style",
         "extDescription": "可选值：`flat` `flat-square` `plastic` `for-the-badge` `social`。",
         "extDescription:en-US": "Possible values: `flat` `flat-square` `plastic` `for-the-badge` `social`."
       },
@@ -38,7 +38,7 @@
         "name": "logo",
         "type": "string",
         "description": "Logo 图标名称",
-        "description:en-US": "Icon slug from simple-icons.",
+        "description:en-US": "Icon slug from simple-icons",
         "extDescription": "支持 Base64，[slugs.md](https://github.com/simple-icons/simple-icons/blob/master/slugs.md)，[Simple Icons](https://simpleicons.org/)。",
         "extDescription:en-US": "You can click the icon title on [simple-icons](https://simpleicons.org/) to copy the slug or they can be found in the [slugs.md file](https://github.com/simple-icons/simple-icons/blob/master/slugs.md) in the simple-icons repository. [Further](https://shields.io/docs/logos) info."
       },
@@ -46,7 +46,7 @@
         "name": "logoColor",
         "type": "string",
         "description": "Logo 颜色",
-        "description:en-US": "The color of the logo.",
+        "description:en-US": "The color of the logo",
         "extDescription": "支持格式：`HEX` `RGB` `RGBA` `HSL` `HSLA` `CSS颜色`，适用于 simple-icons 库中的标志，但不适用于自定义标志。",
         "extDescription:en-US": "Supported: `hex`, `rgb`, `rgba`, `hsl`, `hsla` and `css named colors`. Supported for simple-icons logos but not for custom logos."
       },
@@ -54,7 +54,7 @@
         "name": "logoSize",
         "type": "string",
         "description": "Logo 自适应大小",
-        "description:en-US": "Make icons adaptively resize by setting `auto`.",
+        "description:en-US": "Make icons adaptively resize by setting `auto`",
         "extDescription": "可选值：`auto`。",
         "extDescription:en-US": "Useful for some wider logos like `amd` and `amg`. Supported for simple-icons logos but not for custom logos."
       },
@@ -62,15 +62,15 @@
         "name": "label",
         "type": "string",
         "description": "左侧标签文字",
-        "description:en-US": "Override the default left-hand-side text.",
+        "description:en-US": "Override the default left-hand-side text",
         "extDescription": "覆盖 `badgeContent` 中 `标签` 部分。",
-        "extDescription:en-US": "[URL-Encoding](https://developer.mozilla.org/en-US/docs/Glossary/Percent-encoding) needed for spaces or special characters!"
+        "extDescription:en-US": "[URL-Encoding](https://developer.mozilla.org/en-US/docs/Glossary/Percent-encoding) needed for spaces or special characters!."
       },
       {
         "name": "labelColor",
         "type": "string",
         "description": "左侧标签背景颜色",
-        "description:en-US": "The color of the logo.",
+        "description:en-US": "The color of the logo",
         "extDescription": "支持格式：`HEX` `RGB` `RGBA` `HSL` `HSLA` `CSS颜色`，适用于 simple-icons 库中的标志，但不适用于自定义标志。",
         "extDescription:en-US": "Supported: `hex`, `rgb`, `rgba`, `hsl`, `hsla` and `css named colors`. Supported for simple-icons logos but not for custom logos."
       },
@@ -78,7 +78,7 @@
         "name": "color",
         "type": "string",
         "description": "右侧消息背景颜色",
-        "description:en-US": "Background color of the right part.",
+        "description:en-US": "Background color of the right part",
         "extDescription": "覆盖 `badgeContent` 中 `消息背景颜色` 部分, 支持格式：同上 `logoColor`。",
         "extDescription:en-US": "Supported: `hex`, `rgb`, `rgba`, `hsl`, `hsla` and `css named colors`."
       },
@@ -87,7 +87,7 @@
         "type": "string",
         "default": "3600",
         "description": "HTTP 缓存有效期",
-        "description:en-US": "HTTP cache lifetime.",
+        "description:en-US": "HTTP cache lifetime",
         "extDescription": "单位：秒，规则应用于推断每个徽标的默认值，任何低于默认值的指定都将被忽略。",
         "extDescription:en-US": "Unit: seconds. Rules are applied to infer a default value on a per-badge basis. Any values specified below the default will be ignored."
       },
@@ -96,7 +96,7 @@
         "type": "string[]",
         "default": "",
         "description": "指定点击徽标左侧/右侧应执行的操作",
-        "description:en-US": "Specify the action to perform when clicking the left/right side of the badge.",
+        "description:en-US": "Specify the action to perform when clicking the left/right side of the badge",
         "extDescription": "注意：这仅在将徽标集成到 `<object>` HTML 标签时有效，但不适用于 `<img>` 标签或标记语言。",
         "extDescription:en-US": "Note: This only works when integrating your badge in an <object> HTML tag, but not an <img> tag or a markup language."
       }

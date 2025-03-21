@@ -13,8 +13,8 @@
         "type": "string",
         "description": "提供商",
         "description:en-US": "Provider",
-        "extDescription": "可选值：`github`",
-        "extDescription:en-US": "Supported: `github`"
+        "extDescription": "可选值：`github`。",
+        "extDescription:en-US": "Supported: `github`."
       },
       {
         "name": "user",
@@ -36,8 +36,8 @@
         "default": "code",
         "description": "统计类别",
         "description:en-US": "Category",
-        "extDescription": "可选值：`code` `blanks` `lines` `comments` `cocomo`",
-        "extDescription:en-US": "Supported: `code` `blanks` `lines` `comments` `cocomo`"
+        "extDescription": "可选值：`code` `blanks` `lines` `comments` `cocomo`。",
+        "extDescription:en-US": "Supported: `code` `blanks` `lines` `comments` `cocomo`."
       },
       {
         "name": "avg-wage",
@@ -45,8 +45,8 @@
         "default": "56286",
         "description": "平均工资",
         "description:en-US": "Average wage",
-        "extDescription": "值必须为正整数，否则将恢复到默认值 `56286`",
-        "extDescription:en-US": "Value must be a positive integer, otherwise it will be restored to the default value `56286`"
+        "extDescription": "值必须为正整数，否则将恢复到默认值 `56286`。",
+        "extDescription:en-US": "Value must be a positive integer, otherwise it will be restored to the default value `56286`."
       },
       {
         "name": "lower",
@@ -59,40 +59,40 @@
         "type": "string",
         "description": "字体颜色",
         "description:en-US": "Font color",
-        "extDescription": "支持类型：`HEX`，例如：`FF0000`",
-        "extDescription:en-US": "Supported: `HEX`, e.g. `FF0000`"
+        "extDescription": "支持类型：`HEX`，例如：`FF0000`。",
+        "extDescription:en-US": "Supported: `HEX`, e.g. `FF0000`."
       },
       {
         "name": "font-shadow-color",
         "type": "string",
         "description": "字体阴影颜色",
         "description:en-US": "Font shadow color",
-        "extDescription": "支持类型：`HEX`，例如：`FF0000`",
-        "extDescription:en-US": "Supported: `HEX`, e.g. `FF0000`"
+        "extDescription": "支持类型：`HEX`，例如：`FF0000`。",
+        "extDescription:en-US": "Supported: `HEX`, e.g. `FF0000`."
       },
       {
         "name": "top-shadow-accent-color",
         "type": "string",
         "description": "顶部阴影突出颜色",
         "description:en-US": "Top shadow accent color",
-        "extDescription": "支持类型：`HEX`，例如：`FF0000`",
-        "extDescription:en-US": "Supported: `HEX`, e.g. `FF0000`"
+        "extDescription": "支持类型：`HEX`，例如：`FF0000`。",
+        "extDescription:en-US": "Supported: `HEX`, e.g. `FF0000`."
       },
       {
         "name": "title-bg-color",
         "type": "string",
         "description": "标题背景颜色",
         "description:en-US": "Title background color",
-        "extDescription": "支持类型：`HEX`，例如：`FF0000`",
-        "extDescription:en-US": "Supported: `HEX`, e.g. `FF0000`"
+        "extDescription": "支持类型：`HEX`，例如：`FF0000`。",
+        "extDescription:en-US": "Supported: `HEX`, e.g. `FF0000`."
       },
       {
         "name": "badge-bg-color",
         "type": "string",
         "description": "徽章背景颜色",
         "description:en-US": "Badge background color",
-        "extDescription": "支持类型：`HEX`，例如：`FF0000`",
-        "extDescription:en-US": "Supported: `HEX`, e.g. `FF0000`"
+        "extDescription": "支持类型：`HEX`，例如：`FF0000`。",
+        "extDescription:en-US": "Supported: `HEX`, e.g. `FF0000`."
       }
     ],
     "srcTemplate": "https://sloc.xyz/{provider}/{user}/{repo}{?category,avg-wage,lower,font-color,font-shadow-color,top-shadow-accent-color,title-bg-color,badge-bg-color}"

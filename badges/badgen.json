@@ -60,8 +60,8 @@
         "type": "string",
         "description": "徽章左侧图标",
         "description:en-US": "Badge icon",
-        "extDescription": "支持外部图标 URL",
-        "extDescription:en-US": "Support external icon URL"
+        "extDescription": "支持外部图标 URL。",
+        "extDescription:en-US": "Support external icon URL."
       },
       {
         "name": "label",
@@ -88,8 +88,8 @@
         "default": "86400",
         "description": "缓存时间",
         "description:en-US": "Cache time",
-        "extDescription": "单位：秒",
-        "extDescription:en-US": "Unit: seconds"
+        "extDescription": "单位：秒。",
+        "extDescription:en-US": "Unit: seconds."
       }
     ],
     "srcTemplate": "https://badgen.net/{badge}/{subject}/{status}/{color}{?color,icon,label,labelColor,scale,cache}"

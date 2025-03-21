@@ -20,16 +20,16 @@
         "type": "string",
         "description": "按标题筛选奖杯",
         "description:en-US": "Filter by titles",
-        "extDescription": "可选值：`Commits` `Stars` `Issues` `Repositories` `Experience` `Followers` `PullRequest` `Reviews` 多个标题间以 `,` 分隔，如果想要排除则在标题前加 `-`，例如 `-Commits`",
-        "extDescription:en-US": "Supported: `Commits` `Stars` `Issues` `Repositories` `Experience` `Followers` `PullRequest` `Reviews` Multiple titles are separated by `,` and `-` can be added before the title to exclude it, for example `-Commits`"
+        "extDescription": "可选值：`Commits` `Stars` `Issues` `Repositories` `Experience` `Followers` `PullRequest` `Reviews` 多个标题间以 `,` 分隔，如果想要排除则在标题前加 `-`，例如 `-Commits`。",
+        "extDescription:en-US": "Supported: `Commits` `Stars` `Issues` `Repositories` `Experience` `Followers` `PullRequest` `Reviews` Multiple titles are separated by `,` and `-` can be added before the title to exclude it, for example `-Commits`."
       },
       {
         "name": "rank",
         "type": "string",
         "description": "按排名筛选奖杯",
         "description:en-US": "Filter trophies by rank",
-        "extDescription": "可选值：`SECRET` `?`（UNKNOWN） `SSS` `SS` `S` `AAA` `AA` `A` `B` `C`，多个排名间以 `,` 分隔，如果想要排除则在排名前加 `-`，例如 `-?`",
-        "extDescription:en-US": "Supported: `SECRET` `?` (UNKNOWN) `SSS` `SS` `S` `AAA` `AA` `A` `B` `C`, multiple ranks are separated by `,` and `-` can be added before the rank to exclude it, for example `-?`"
+        "extDescription": "可选值：`SECRET` `?`（UNKNOWN） `SSS` `SS` `S` `AAA` `AA` `A` `B` `C`，多个排名间以 `,` 分隔，如果想要排除则在排名前加 `-`，例如 `-?`。",
+        "extDescription:en-US": "Supported: `SECRET` `?` (UNKNOWN) `SSS` `SS` `S` `AAA` `AA` `A` `B` `C`, multiple ranks are separated by `,` and `-` can be added before the rank to exclude it, for example `-?`."
       },
       {
         "name": "column",
@@ -37,7 +37,7 @@
         "default": "6",
         "description": "显示的列数",
         "description:en-US": "Number of columns to display",
-        "extDescription": "自适应列：设置 `column` 到 `-1` 以适应奖杯数量，参数 `row` 将被忽略",
+        "extDescription": "自适应列：设置 `column` 到 `-1` 以适应奖杯数量，参数 `row` 将被忽略。",
         "extDescription:en-US": "You can set `column` to `-1` to adapt the width to the number of trophies, the parameter `row` will be ignored."
       },
       {
@@ -53,8 +53,8 @@
         "default": "flat",
         "description": "应用主题",
         "description:en-US": "Apply theme",
-        "extDescription": "可选值：`flat` `onedark` `gruvbox` `dracula` `monokai` `chalk` `nord` `alduin` `darkhub` `juicyfresh` `buddhism` `oldie` `radical` `onestar` `discord` `algolia` `gitdimmed` `tokyonight` `matrix` `apprentice` `dark_dimmed` `dark_lover` `kimbie_dark`",
-        "extDescription:en-US": "Supported: `flat` `onedark` `gruvbox` `dracula` `monokai` `chalk` `nord` `alduin` `darkhub` `juicyfresh` `buddhism` `oldie` `radical` `onestar` `discord` `algolia` `gitdimmed` `tokyonight` `matrix` `apprentice` `dark_dimmed` `dark_lover` `kimbie_dark`"
+        "extDescription": "可选值：`flat` `onedark` `gruvbox` `dracula` `monokai` `chalk` `nord` `alduin` `darkhub` `juicyfresh` `buddhism` `oldie` `radical` `onestar` `discord` `algolia` `gitdimmed` `tokyonight` `matrix` `apprentice` `dark_dimmed` `dark_lover` `kimbie_dark`。",
+        "extDescription:en-US": "Supported: `flat` `onedark` `gruvbox` `dracula` `monokai` `chalk` `nord` `alduin` `darkhub` `juicyfresh` `buddhism` `oldie` `radical` `onestar` `discord` `algolia` `gitdimmed` `tokyonight` `matrix` `apprentice` `dark_dimmed` `dark_lover` `kimbie_dark`."
       },
       {
         "name": "margin-w",

@@ -15,8 +15,8 @@
         "default": "",
         "description": "要显示的多行文本",
         "description:en-US": "The multi-line text to display",
-        "extDescription": "多行之间用 `;` 分隔，文本中空格使用 `+` 代替",
-        "extDescription:en-US": "Text to display with lines separated by `;` and `+` for spaces"
+        "extDescription": "多行之间用 `;` 分隔，文本中空格使用 `+` 代替。",
+        "extDescription:en-US": "Text to display with lines separated by `;` and `+` for spaces."
       },
       {
         "name": "height",
@@ -38,8 +38,8 @@
         "default": "20",
         "description": "字体大小",
         "description:en-US": "Font size in pixels",
-        "extDescription": "单位：像素",
-        "extDescription:en-US": "Unit: pixels"
+        "extDescription": "单位：像素。",
+        "extDescription:en-US": "Unit: pixels."
       },
       {
         "name": "font",
@@ -47,8 +47,8 @@
         "default": "monospace",
         "description": "字体族",
         "description:en-US": "Font family",
-        "extDescription": "任何 Google Fonts 中的字体",
-        "extDescription:en-US": "Any font from Google Fonts"
+        "extDescription": "任何 Google Fonts 中的字体。",
+        "extDescription:en-US": "Any font from Google Fonts."
       },
       {
         "name": "color",
@@ -56,8 +56,8 @@
         "default": "36BCF7",
         "description": "文本颜色",
         "description:en-US": "Color of the text",
-        "extDescription": "格式：`HEX` 例如：`FF0000`",
-        "extDescription:en-US": "Format: `HEX` e.g. `FF0000`"
+        "extDescription": "格式：`HEX` 例如：`FF0000`。",
+        "extDescription:en-US": "Format: `HEX` e.g. `FF0000`."
       },
       {
         "name": "background",
@@ -65,8 +65,8 @@
         "default": "00000000",
         "description": "文本背景颜色",
         "description:en-US": "Background color of the text",
-        "extDescription": "格式：`HEX` 例如：`FF0000`",
-        "extDescription:en-US": "Format: `HEX` e.g. `FF0000`"
+        "extDescription": "格式：`HEX` 例如：`FF0000`。",
+        "extDescription:en-US": "Format: `HEX` e.g. `FF0000`."
       },
       {
         "name": "center",
@@ -74,8 +74,8 @@
         "default": "false",
         "description": "文本水平对齐方式",
         "description:en-US": "Text horizontal alignment",
-        "extDescription": "可选值：true（水平居中）false（左对齐）",
-        "extDescription:en-US": "Supported: true (horizontal center) false (left align)"
+        "extDescription": "可选值：true（水平居中）false（左对齐）。",
+        "extDescription:en-US": "Supported: true (horizontal center) false (left align)."
       },
       {
         "name": "vCenter",
@@ -83,8 +83,8 @@
         "default": "false",
         "description": "文本垂直对齐方式",
         "description:en-US": "Text vertical alignment",
-        "extDescription": "可选值：true（垂直居中）false（居中上方）",
-        "extDescription:en-US": "Supported: true (vertical center) false (center top)"
+        "extDescription": "可选值：true（垂直居中）false（居中上方）。",
+        "extDescription:en-US": "Supported: true (vertical center) false (center top)."
       },
       {
         "name": "multiline",
@@ -92,8 +92,8 @@
         "default": "false",
         "description": "文本换行显示方式",
         "description:en-US": "Text line break display",
-        "extDescription": "可选值：true（换行显示）false（同一行重新显示）",
-        "extDescription:en-US": "Supported: true (wrap lines) false (retype on one line)"
+        "extDescription": "可选值：true（换行显示）false（同一行重新显示）。",
+        "extDescription:en-US": "Supported: true (wrap lines) false (retype on one line)."
       },
       {
         "name": "duration",
@@ -108,8 +108,8 @@
         "default": "0",
         "description": "行与行之间的暂停时间",
         "description:en-US": "Duration of the pause between lines in milliseconds",
-        "extDescription": "单位：毫秒",
-        "extDescription:en-US": "Unit: milliseconds"
+        "extDescription": "单位：毫秒。",
+        "extDescription:en-US": "Unit: milliseconds."
       },
       {
         "name": "repeat",
@@ -131,8 +131,8 @@
         "default": "normal",
         "description": "字母间距",
         "description:en-US": "Letter spacing",
-        "extDescription": "格式：`CSS 颜色`",
-        "extDescription:en-US": "Format: `CSS color`"
+        "extDescription": "格式：`CSS 颜色`。",
+        "extDescription:en-US": "Format: `CSS color`."
       }
     ],
     "srcTemplate": "https://readme-typing-svg.demolab.com{?lines,height,width,size,font,color,background,center,vCenter,multiline,duration,pause,repeat,separator,letterSpacing}"

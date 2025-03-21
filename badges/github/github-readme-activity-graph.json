@@ -21,8 +21,8 @@
         "default": "default",
         "description": "使用主题",
         "description:en-US": "Use themes",
-        "extDescription": "可选值：`default` `react` `react-dark` `github` `github-compact` `xcode` `rogue` `merko` `vue` `tokyo-night` `high-contrast`",
-        "extDescription:en-US": "Supported: `default` `react` `react-dark` `github` `github-compact` `xcode` `rogue` `merko` `vue` `tokyo-night` `high-contrast`"
+        "extDescription": "可选值：`default` `react` `react-dark` `github` `github-compact` `xcode` `rogue` `merko` `vue` `tokyo-night` `high-contrast`。",
+        "extDescription:en-US": "Supported: `default` `react` `react-dark` `github` `github-compact` `xcode` `rogue` `merko` `vue` `tokyo-night` `high-contrast`."
       },
       {
         "name": "bg_color",

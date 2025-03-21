@@ -13,8 +13,8 @@
         "type": "string",
         "description": "卡片类型",
         "description:en-US": "Card type",
-        "extDescription": "可选值：`full` `downloads` `ratings`",
-        "extDescription:en-US": "Supported: `full` `downloads` `ratings`"
+        "extDescription": "可选值：`full` `downloads` `ratings`。",
+        "extDescription:en-US": "Supported: `full` `downloads` `ratings`."
       }
     ],
     "querys": [
@@ -29,7 +29,7 @@
         "type": "boolean",
         "description": "是否美化显示数字",
         "description:en-US": "Shows the numbers prettily",
-        "extDescription": "美化：给数字添加单位符号，例如：`100K`，注意：`&pretty` 表示启用，去除则表示禁用",
+        "extDescription": "美化：给数字添加单位符号，例如：`100K`，注意：`&pretty` 表示启用，去除则表示禁用。",
         "extDescription:en-US": "Prettify: Adds unit symbols to the numbers, such as: `100K`, note: `&pretty` means enable, and remove it means disable."
       },
       {

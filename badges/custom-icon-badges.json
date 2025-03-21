@@ -38,16 +38,16 @@
         "type": "string",
         "description": "自定义图标名称",
         "description:en-US": "Custom icon name",
-        "extDescription": "即自己上传图标时设置的名称",
-        "extDescription:en-US": "The name you set when uploading the icon"
+        "extDescription": "即自己上传图标时设置的名称。",
+        "extDescription:en-US": "The name you set when uploading the icon."
       },
       {
         "name": "logoSource",
         "type": "string",
         "description": "自定义图标来源",
         "description:en-US": "Custom icon source",
-        "extDescription": "可选值：`feather`",
-        "extDescription:en-US": "Supported: `feather`"
+        "extDescription": "可选值：`feather`。",
+        "extDescription:en-US": "Supported: `feather`."
       },
       {
         "name": "shieldsIoQuerys",

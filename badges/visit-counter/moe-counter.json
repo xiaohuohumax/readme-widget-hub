@@ -25,8 +25,8 @@
         "default": "moebooru",
         "description": "主题",
         "description:en-US": "Select a counter image theme",
-        "extDescription": "可选值：`random` `3d-num` `ai-1` `asoul` `booru-ffsr` `moebooru`，更多主题：[More theme](https://github.com/journey-ad/Moe-Counter?tab=readme-ov-file#more-theme)",
-        "extDescription:en-US": "Supported: `random` `3d-num` `ai-1` `asoul` `booru-ffsr` `moebooru`. More themes: [More theme](https://github.com/journey-ad/Moe-Counter?tab=readme-ov-file#more-theme)"
+        "extDescription": "可选值：`random` `3d-num` `ai-1` `asoul` `booru-ffsr` `moebooru`，更多主题：[More theme](https://github.com/journey-ad/Moe-Counter?tab=readme-ov-file#more-theme)。",
+        "extDescription:en-US": "Supported: `random` `3d-num` `ai-1` `asoul` `booru-ffsr` `moebooru`. More themes: [More theme](https://github.com/journey-ad/Moe-Counter?tab=readme-ov-file#more-theme)."
       },
       {
         "name": "padding",

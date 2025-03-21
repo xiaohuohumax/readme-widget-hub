@@ -14,8 +14,8 @@
         "default": "0",
         "description": "是否显示项目描述",
         "description:en-US": "Show project description",
-        "extDescription": "可选值：`0` `1`",
-        "extDescription:en-US": "Supported: `0` `1`"
+        "extDescription": "可选值：`0` `1`。",
+        "extDescription:en-US": "Supported: `0` `1`."
       },
       {
         "name": "forks",
@@ -23,8 +23,8 @@
         "default": "0",
         "description": "是否显示 Forks 数量",
         "description:en-US": "Show Forks count",
-        "extDescription": "可选值：`0` `1`",
-        "extDescription:en-US": "Supported: `0` `1`"
+        "extDescription": "可选值：`0` `1`。",
+        "extDescription:en-US": "Supported: `0` `1`."
       },
       {
         "name": "issues",
@@ -32,8 +32,8 @@
         "default": "0",
         "description": "是否显示 Issues 数量",
         "description:en-US": "Show Issues count",
-        "extDescription": "可选值：`0` `1`",
-        "extDescription:en-US": "Supported: `0` `1`"
+        "extDescription": "可选值：`0` `1`。",
+        "extDescription:en-US": "Supported: `0` `1`."
       },
       {
         "name": "name",
@@ -41,8 +41,8 @@
         "default": "1",
         "description": "是否显示项目名称",
         "description:en-US": "Show project name",
-        "extDescription": "可选值：`0` `1`",
-        "extDescription:en-US": "Supported: `0` `1`"
+        "extDescription": "可选值：`0` `1`。",
+        "extDescription:en-US": "Supported: `0` `1`."
       },
       {
         "name": "owner",
@@ -50,8 +50,8 @@
         "default": "0",
         "description": "是否显示用户名",
         "description:en-US": "Show username",
-        "extDescription": "可选值：`0` `1`",
-        "extDescription:en-US": "Supported: `0` `1`"
+        "extDescription": "可选值：`0` `1`。",
+        "extDescription:en-US": "Supported: `0` `1`."
       },
       {
         "name": "pulls",
@@ -59,8 +59,8 @@
         "default": "0",
         "description": "是否显示 PR 数量",
         "description:en-US": "Show PR count",
-        "extDescription": "可选值：`0` `1`",
-        "extDescription:en-US": "Supported: `0` `1`"
+        "extDescription": "可选值：`0` `1`。",
+        "extDescription:en-US": "Supported: `0` `1`."
       },
       {
         "name": "stargazers",
@@ -68,24 +68,24 @@
         "default": "0",
         "description": "是否显示 Stars 数量",
         "description:en-US": "Show Stars count",
-        "extDescription": "可选值：`0` `1`",
-        "extDescription:en-US": "Supported: `0` `1`"
+        "extDescription": "可选值：`0` `1`。",
+        "extDescription:en-US": "Supported: `0` `1`."
       },
       {
         "name": "pattern",
         "type": "string",
         "description": "背景图样式",
         "description:en-US": "Background pattern",
-        "extDescription": "可选值：`Signal` `Charlie Brown` `Formal Invitation` `Plus` `Circuit Board` `Overlapping Hexagons` `Brick Wall` `Floating Cogs` `Diagonal Stripes` `Solid` `Transparent`",
-        "extDescription:en-US": "Supported: `Signal` `Charlie Brown` `Formal Invitation` `Plus` `Circuit Board` `Overlapping Hexagons` `Brick Wall` `Floating Cogs` `Diagonal Stripes` `Solid` `Transparent`"
+        "extDescription": "可选值：`Signal` `Charlie Brown` `Formal Invitation` `Plus` `Circuit Board` `Overlapping Hexagons` `Brick Wall` `Floating Cogs` `Diagonal Stripes` `Solid` `Transparent`。",
+        "extDescription:en-US": "Supported: `Signal` `Charlie Brown` `Formal Invitation` `Plus` `Circuit Board` `Overlapping Hexagons` `Brick Wall` `Floating Cogs` `Diagonal Stripes` `Solid` `Transparent`."
       },
       {
         "name": "logo",
         "type": "string",
         "description": "项目 Logo",
         "description:en-US": "Project logo",
-        "extDescription": "可选类型：`URL` `DATA URI`",
-        "extDescription:en-US": "Supported type: `URL` `DATA URI`"
+        "extDescription": "可选类型：`URL` `DATA URI`。",
+        "extDescription:en-US": "Supported type: `URL` `DATA URI`."
       },
       {
         "name": "language",
@@ -100,8 +100,8 @@
         "type": "string",
         "description": "字体",
         "description:en-US": "Font",
-        "extDescription": "可选值：`Inter` `Bitter` `Raleway` `Rokkitt` `Source Code Pro` `KoHo` `Jost`",
-        "extDescription:en-US": "Supported: `Inter` `Bitter` `Raleway` `Rokkitt` `Source Code Pro` `KoHo` `Jost`"
+        "extDescription": "可选值：`Inter` `Bitter` `Raleway` `Rokkitt` `Source Code Pro` `KoHo` `Jost`。",
+        "extDescription:en-US": "Supported: `Inter` `Bitter` `Raleway` `Rokkitt` `Source Code Pro` `KoHo` `Jost`."
       }
     ],
     "srcTemplate": "https://socialify.git.ci/{owner}/{repo}/image{?description,forks,issues,name,owner,pulls,stargazers,pattern,logo,language,font}"

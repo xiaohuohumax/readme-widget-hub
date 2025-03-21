@@ -18,8 +18,8 @@
         "type": "any[]",
         "description": "[badgen.net 徽章路径参数](https://badgen.net/help)",
         "description:en-US": "[badgen.net Badge path parameters](https://badgen.net/help)",
-        "extDescription": "例如：`static/...`（静态徽章） `github/...`（Github 相关）",
-        "extDescription:en-US": "For example: `static/...` (Static badges) `github/...` (Github-related)"
+        "extDescription": "例如：`static/...`（静态徽章） `github/...`（Github 相关）。",
+        "extDescription:en-US": "For example: `static/...` (Static badges) `github/...` (Github-related)."
       }
     ],
     "querys": [
@@ -28,23 +28,23 @@
         "type": "string",
         "description": "渐变色",
         "description:en-US": "Gradient",
-        "extDescription": "格式：`color1,color2` 颜色格式：`HEX` `CSS 颜色`",
-        "extDescription:en-US": "Format: `color1,color2` Color format: `HEX` `CSS color name`"
+        "extDescription": "格式：`color1,color2` 颜色格式：`HEX` `CSS 颜色`。",
+        "extDescription:en-US": "Format: `color1,color2` Color format: `HEX` `CSS color name`."
       },
       {
         "name": "style",
         "type": "string",
         "description": "徽章样式",
         "description:en-US": "Badge style",
-        "extDescription": "可选值：`flat`",
-        "extDescription:en-US": "Supported: `flat`"
+        "extDescription": "可选值：`flat`。",
+        "extDescription:en-US": "Supported: `flat`."
       },
       {
         "name": "badgenNetQuerys",
         "type": "any[]",
         "description": "[badgen.net 徽章查询参数](https://badgen.net/help)",
         "description:en-US": "[badgen.net Badge query parameters](https://badgen.net/help)",
-        "extDescription": "例如：`color`（图标颜色） `icon`（图标）等",
+        "extDescription": "例如：`color`（图标颜色） `icon`（图标）等。",
         "extDescription:en-US": "For example: `color` (Icon color) `icon` (Icon) etc."
       }
     ],
