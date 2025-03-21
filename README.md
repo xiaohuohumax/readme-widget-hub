@@ -37,9 +37,9 @@
     * [Profile Counter](#profile-counter)
     * [Visitor Badge](#visitor-badge)
   * [Custom Icon Badges](#custom-icon-badges)
-  * [Capsule Render | 动态彩色图像](#capsule-render--动态彩色图像)
-  * [Discord Badge | Discord 徽章](#discord-badge--discord-徽章)
-    * [Discord Markdown Badge | Discord 徽章](#discord-markdown-badge--discord-徽章)
+  * [Capsule Render](#capsule-render)
+  * [Discord 徽章](#discord-徽章)
+    * [Discord Markdown Badge](#discord-markdown-badge)
     * [Discord README Badge | Discord 用户状态徽章](#discord-readme-badge--discord-用户状态徽章)
   * [Github Badge | Github 徽章](#github-badge--github-徽章)
     * [GitHub Readme Stats | Github 状态卡片](#github-readme-stats--github-状态卡片)
@@ -446,11 +446,11 @@
 
 ![rl-line]
 
-### Capsule Render | 动态彩色图像
+### Capsule Render
 
 ![rl-badge-introduction]
 
-**Capsule-Render 可以生成动态的彩色图像，增强视觉效果。**
+**生成动态的彩色图像。**
 
 [![rl-repo]](https://github.com/kyechan99/capsule-render)
 [![rl-online-tool]](https://capsule-render.vercel.app/)
@@ -464,26 +464,27 @@
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
-| `type` | string | `wave` | 类型数据用于更改背景图像 | 可选值：`wave` `egg` `shark` `slice` `rect` `soft` `rounded` `cylinder` `waving` `venom` `speech` `blur` `transparent` |
-| `color` | string | `B897FF` | 更改背景图像颜色 | 可选值：`auto` `timeAuto` `random` `gradient` `timeGradient` `HEX 值` `自定义渐变，格式：widthPer:color1,widthPer:color2...` |
+| `type` | string | `wave` | 类型数据用于更改背景图像 | 可选值：`wave` `egg` `shark` `slice` `rect` `soft` `rounded` `cylinder` `waving` `venom` `speech` `blur` `transparent`。 |
+| `color` | string | `B897FF` | 更改背景图像颜色 | 可选值：`auto` `timeAuto` `random` `gradient` `timeGradient` `HEX 值` `自定义渐变，格式：widthPer:color1,widthPer:color2...`。 |
 | `customColorList` | string |  | 从预设颜色中选择随机出现的颜色下标 | 格式：`idx1,idx2,idx3...`，如想某些颜色出现概率高可以多写几次下标，仅在 `color` 为 [auto](https://github.com/kyechan99/capsule-render/blob/master/src/pallete.json) 或 [gradient](https://github.com/kyechan99/capsule-render/blob/master/src/gradient.json) 时生效。 |
-| `theme` | string | `default` | 主题 | 可选值：`default` `dark` `radical` `merko` `gruvbox` `gruvbox_light` `tokyonight` `onedark` `cobalt` 主题颜色参考：[pallete\_theme](https://github.com/kyechan99/capsule-render/blob/master/src/pallete_theme.json) |
-| `section` | string | `header` | 图像显示位置 | 可选值：`header` `footer` |
+| `theme` | string | `default` | 主题 | 可选值：`default` `dark` `radical` `merko` `gruvbox` `gruvbox_light` `tokyonight` `onedark` `cobalt` 主题颜色参考：[pallete\_theme](https://github.com/kyechan99/capsule-render/blob/master/src/pallete_theme.json)。 |
+| `section` | string | `header` | 图像显示位置 | 可选值：`header` `footer`。 |
 | `reversal` | boolean | `false` | 是否左右反转图像（同时反转颜色） |  |
-| `height` | number | `120` | 图像高度 | 单位：像素 |
-| `text` | string |  | 标题 | 格式：`%20` 空格 `-nl-` 换行 |
-| `desc` | string |  | 描述 | 格式：`%20` 空格，注意：不支持 `-nl-` 换行 |
-| `animation` | string |  | 文本动画效果 | 可选值：`fadeIn` `scaleIn` `blink` `blinking` `twinkling` |
-| `fontColor` | string |  | 字体颜色 | 格式：`HEX` 例如：`FF0000` |
-| `fontSize` | number | `70` | 字体大小 |  |
-| `fontAlign` | number | `50` | 标题文字水平对齐 | 可选范围：`0` 到 `100`，`50` 为居中，多行文本会独立计算对齐值 |
-| `fontAlignY` | number | `50` | 标题文字垂直对齐 | 可选范围：`0` 到 `100`，`50` 为居中，多行文本会整体计算对齐值 |
-| `descSize` | number | `20` | 描述文字大小 |  |
-| `descAlign` | number | `50` | 描述文字水平对齐 | 可选范围：`0` 到 `100`，`50` 为居中，多行文本会独立计算对齐值 |
-| `descAlignY` | number | `60` | 描述文字垂直对齐 | 可选范围：`0` 到 `100`，`50` 为居中，多行文本会整体计算对齐值 |
-| `rotate` | number |  | 旋转文本 | 可选范围：`-360` 到 `360`，单位：度 |
-| `stroke` | string |  | 文本描边颜色 | 类型：`HEX` 例如：`FF0000`，未设置 `strokeWidth` 时，`strokeWidth` 默认为 `1` |
-| `strokeWidth` | number |  | 文本描边宽度 | 类型：`HEX` 例如：`FF0000`，未设置 `stroke` 时，`stroke` 默认为 `B897FF` |
+| `height` | number | `120` | 图像高度 | 单位：像素。 |
+| `text` | string |  | 标题 | 格式：`%20` 空格 `-nl-` 换行。 |
+| `desc` | string |  | 描述 | 格式：`%20` 空格，注意：不支持 `-nl-` 换行。 |
+| `textBg` | boolean |  | 是否添加文字背景 |  |
+| `animation` | string |  | 文本动画效果 | 可选值：`fadeIn` `scaleIn` `blink` `blinking` `twinkling`。 |
+| `fontColor` | string |  | 字体颜色 | 格式：`HEX` 例如：`FF0000`。 |
+| `fontSize` | number | `70` | 字体大小 | 单位：像素。 |
+| `fontAlign` | number | `50` | 标题文字水平对齐 | 可选范围：`0` 到 `100`，`50` 为居中，多行文本会整体计算对齐值。 |
+| `fontAlignY` | number | `50` | 标题文字垂直对齐 | 可选范围：`0` 到 `100`，`50` 为居中，多行文本会整体计算对齐值。 |
+| `descSize` | number | `20` | 描述文字大小 | 单位：像素。 |
+| `descAlign` | number | `50` | 描述文字水平对齐 | 可选范围：`0` 到 `100`，`50` 为居中，多行文本会独立计算对齐值。 |
+| `descAlignY` | number | `60` | 描述文字垂直对齐 | 可选范围：`0` 到 `100`，`50` 为居中，多行文本会整体计算对齐值。 |
+| `rotate` | number |  | 旋转文本 | 可选范围：`-360` 到 `360`，单位：度。 |
+| `stroke` | string |  | 文本描边颜色 | 格式：`HEX` 例如：`FF0000`，未设置 `strokeWidth` 时，`strokeWidth` 默认为 `1`。 |
+| `strokeWidth` | number |  | 文本描边宽度 | 格式：`HEX` 例如：`FF0000`，未设置 `stroke` 时，`stroke` 默认为 `B897FF`。 |
 
 </details>
 
@@ -495,20 +496,20 @@
 
 ```markdown
 <!-- kyechan99/capsule-render -->
-![Capsule-Render Header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=capsule%20render&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Decorate%20GitHub%20Profile%20or%20any%20Repo%20like%20me!&descAlignY=51&descAlign=62)
+![页眉](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=capsule%20render&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Decorate%20GitHub%20Profile%20or%20any%20Repo%20like%20me!&descAlignY=51&descAlign=62)
 ```
 
-![Capsule-Render Header](https://capsule-render.vercel.app/api?type=waving\&color=auto\&height=300\&section=header\&text=capsule%20render\&fontSize=90\&animation=fadeIn\&fontAlignY=38\&desc=Decorate%20GitHub%20Profile%20or%20any%20Repo%20like%20me!\&descAlignY=51\&descAlign=62)
+![页眉](https://capsule-render.vercel.app/api?type=waving\&color=auto\&height=300\&section=header\&text=capsule%20render\&fontSize=90\&animation=fadeIn\&fontAlignY=38\&desc=Decorate%20GitHub%20Profile%20or%20any%20Repo%20like%20me!\&descAlignY=51\&descAlign=62)
 
 <details>
   <summary>点击展开/收起更多示例</summary><p></p>
 
 ```markdown
 <!-- kyechan99/capsule-render -->
-![Capsule-Render Footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer)
+![页脚](https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer)
 ```
 
-![Capsule-Render Footer](https://capsule-render.vercel.app/api?type=waving\&color=auto\&height=100\&section=footer)
+![页脚](https://capsule-render.vercel.app/api?type=waving\&color=auto\&height=100\&section=footer)
 
 </details>
 
@@ -516,9 +517,9 @@
 
 ![rl-line]
 
-### Discord Badge | Discord 徽章
+### Discord 徽章
 
-#### Discord Markdown Badge | Discord 徽章
+#### Discord Markdown Badge
 
 ![rl-badge-introduction]
 
@@ -535,13 +536,13 @@
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `type` | string |  | 徽章类型 | 可选值：`server` `shield` |
-| `id` | string |  | ID 值 | 用户 ID、机器人 ID、服务器邀请链接等 |
+| `type` | string |  | 徽章类型 | 可选值：`server` `shield`。 |
+| `id` | string |  | ID | 用户 ID、机器人 ID、服务器邀请链接等。 |
 | ![rl-link-query] | | | | |
-| `style` | string | `for-the-badge` | 徽章整体风格 | 可选值：`flat` `flat-square` `plastic` `for-the-badge` `social` |
-| `theme` | string |  | 徽章主题 | 可选值：`default-inverted` `clean` `clean-inverted` `discord` `discord-inverted` `full-presence` `gray` `blurple` |
+| `style` | string | `for-the-badge` | 徽章整体风格 | 可选值：`flat` `flat-square` `plastic` `for-the-badge` `social`。 |
+| `theme` | string |  | 徽章主题 | 可选值：`default-inverted` `clean` `clean-inverted` `discord` `discord-inverted` `full-presence` `gray` `blurple`。 |
 | `compact` | boolean | `false` | 是否使用紧凑徽章 |  |
-| `logoColor` | string |  | 图标颜色 | 可选值：`presence`（根据徽标的显示情况更改颜色）`CSS 颜色值` `HEX` |
+| `logoColor` | string |  | 图标颜色 | 可选值：`presence`（根据徽标的显示情况更改颜色）`CSS 颜色值` `HEX`。 |
 | `bot` | boolean | `false` | 是否为机器人 |  |
 
 </details>
@@ -553,21 +554,25 @@
 ![rl-uses-examples]
 
 ```markdown
-<!-- 用户 -->
-![Discord User Badge](https://dcbadge.limes.pink/api/shield/406125028065804289)
+![用户](https://dcbadge.limes.pink/api/shield/406125028065804289)
 ```
 
-![Discord User Badge](https://dcbadge.limes.pink/api/shield/406125028065804289)
+![用户](https://dcbadge.limes.pink/api/shield/406125028065804289)
 
 <details>
   <summary>点击展开/收起更多示例</summary><p></p>
 
 ```markdown
-<!-- 机器人 -->
-![Discord Bot Badge](https://dcbadge.limes.pink/api/shield/852977967776399400?bot=true)
+![服务器](https://dcbadge.limes.pink/api/server/zkspfFwqDg)
 ```
 
-![Discord Bot Badge](https://dcbadge.limes.pink/api/shield/852977967776399400?bot=true)
+![服务器](https://dcbadge.limes.pink/api/server/zkspfFwqDg)
+
+```markdown
+![机器人](https://dcbadge.limes.pink/api/shield/852977967776399400?bot=true)
+```
+
+![机器人](https://dcbadge.limes.pink/api/shield/852977967776399400?bot=true)
 
 </details>
 

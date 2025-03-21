@@ -40,9 +40,9 @@
     * [Profile Counter](#profile-counter)
     * [Visitor Badge](#visitor-badge)
   * [Custom Icon Badges](#custom-icon-badges)
-  * [Capsule Render | 动态彩色图像](#capsule-render--动态彩色图像)
-  * [Discord Badge | Discord 徽章](#discord-badge--discord-徽章)
-    * [Discord Markdown Badge | Discord 徽章](#discord-markdown-badge--discord-徽章)
+  * [Capsule Render](#capsule-render)
+  * [Discord Badge](#discord-badge)
+    * [Discord Markdown Badge](#discord-markdown-badge)
     * [Discord README Badge | Discord 用户状态徽章](#discord-readme-badge--discord-用户状态徽章)
   * [Github Badge | Github 徽章](#github-badge--github-徽章)
     * [GitHub Readme Stats | Github 状态卡片](#github-readme-stats--github-状态卡片)
@@ -449,11 +449,11 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-line]
 
-### Capsule Render | 动态彩色图像
+### Capsule Render
 
 ![rl-badge-introduction]
 
-**Capsule-Render 可以生成动态的彩色图像，增强视觉效果。**
+**Dynamic Coloful Image Render.**
 
 [![rl-repo]](https://github.com/kyechan99/capsule-render)
 [![rl-online-tool]](https://capsule-render.vercel.app/)
@@ -467,26 +467,27 @@ Do you want to know the visit statistics of the website? These badges can help y
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
-| `type` | string | `wave` | 类型数据用于更改背景图像 | 可选值：`wave` `egg` `shark` `slice` `rect` `soft` `rounded` `cylinder` `waving` `venom` `speech` `blur` `transparent` |
-| `color` | string | `B897FF` | 更改背景图像颜色 | 可选值：`auto` `timeAuto` `random` `gradient` `timeGradient` `HEX 值` `自定义渐变，格式：widthPer:color1,widthPer:color2...` |
-| `customColorList` | string |  | 从预设颜色中选择随机出现的颜色下标 | 格式：`idx1,idx2,idx3...`，如想某些颜色出现概率高可以多写几次下标，仅在 `color` 为 [auto](https://github.com/kyechan99/capsule-render/blob/master/src/pallete.json) 或 [gradient](https://github.com/kyechan99/capsule-render/blob/master/src/gradient.json) 时生效。 |
-| `theme` | string | `default` | 主题 | 可选值：`default` `dark` `radical` `merko` `gruvbox` `gruvbox_light` `tokyonight` `onedark` `cobalt` 主题颜色参考：[pallete\_theme](https://github.com/kyechan99/capsule-render/blob/master/src/pallete_theme.json) |
-| `section` | string | `header` | 图像显示位置 | 可选值：`header` `footer` |
-| `reversal` | boolean | `false` | 是否左右反转图像（同时反转颜色） |  |
-| `height` | number | `120` | 图像高度 | 单位：像素 |
-| `text` | string |  | 标题 | 格式：`%20` 空格 `-nl-` 换行 |
-| `desc` | string |  | 描述 | 格式：`%20` 空格，注意：不支持 `-nl-` 换行 |
-| `animation` | string |  | 文本动画效果 | 可选值：`fadeIn` `scaleIn` `blink` `blinking` `twinkling` |
-| `fontColor` | string |  | 字体颜色 | 格式：`HEX` 例如：`FF0000` |
-| `fontSize` | number | `70` | 字体大小 |  |
-| `fontAlign` | number | `50` | 标题文字水平对齐 | 可选范围：`0` 到 `100`，`50` 为居中，多行文本会独立计算对齐值 |
-| `fontAlignY` | number | `50` | 标题文字垂直对齐 | 可选范围：`0` 到 `100`，`50` 为居中，多行文本会整体计算对齐值 |
-| `descSize` | number | `20` | 描述文字大小 |  |
-| `descAlign` | number | `50` | 描述文字水平对齐 | 可选范围：`0` 到 `100`，`50` 为居中，多行文本会独立计算对齐值 |
-| `descAlignY` | number | `60` | 描述文字垂直对齐 | 可选范围：`0` 到 `100`，`50` 为居中，多行文本会整体计算对齐值 |
-| `rotate` | number |  | 旋转文本 | 可选范围：`-360` 到 `360`，单位：度 |
-| `stroke` | string |  | 文本描边颜色 | 类型：`HEX` 例如：`FF0000`，未设置 `strokeWidth` 时，`strokeWidth` 默认为 `1` |
-| `strokeWidth` | number |  | 文本描边宽度 | 类型：`HEX` 例如：`FF0000`，未设置 `stroke` 时，`stroke` 默认为 `B897FF` |
+| `type` | string | `wave` | Type data makes to change Background Image | Supported: `wave` `egg` `shark` `slice` `rect` `soft` `rounded` `cylinder` `waving` `venom` `speech` `blur` `transparent`. |
+| `color` | string | `B897FF` | Change Background Image | Supported: `auto` `timeAuto` `random` `gradient` `timeGradient` `HEX` value or `custom gradient, format: widthPer:color1,widthPer:color2...`. |
+| `customColorList` | string |  | Select random color index from preset colors | `Format: idx1,idx2,idx3...`, if you want certain colors to have a higher probability of appearing, you can write their indices multiple times. This only takes effect when `color` is [auto](https://github.com/kyechan99/capsule-render/blob/master/src/pallete.json) or [gradient](https://github.com/kyechan99/capsule-render/blob/master/src/gradient.json). |
+| `theme` | string | `default` | Theme | Supported: `default` `dark` `radical` `merko` `gruvbox_light` `tokyonight` `onedark` `cobalt`. Theme color reference: [pallete\_theme](https://github.com/kyechan99/capsule-render/blob/master/src/pallete_theme.json). |
+| `section` | string | `header` | Section data makes reverse Background Image | Supported: `header` `footer`. |
+| `reversal` | boolean | `false` | Reverse the image left and right (Color at the same time) |  |
+| `height` | number | `120` | Change Image Size | Unit: pixels. |
+| `text` | string |  | Input text over the Image | Format: `%20` space `-nl-` newline. |
+| `desc` | string |  | Input desc over the Image | Format: `%20` space, Note: `-nl-` newline is not supported. |
+| `textBg` | boolean |  | Background of Text |  |
+| `animation` | string |  | Make the text dynamic | Supported: `fadeIn` `scaleIn` `blink` `blinking` `twinkling`. |
+| `fontColor` | string |  | Change text color | Format: `HEX` e.g. `FF0000`. |
+| `fontSize` | number | `70` | Change text font size | Unit: pixels. |
+| `fontAlign` | number | `50` | Change text horizontal-align (x) | Bettwen `0` and `100`, `50` is center, multi-line text will calculate the alignment value. |
+| `fontAlignY` | number | `50` | Change text vertical-align (y) | Bettwen `0` and `100`, `50` is center, multi-line text will calculate the alignment value. |
+| `descSize` | number | `20` | Change desc font size | Unit: pixels. |
+| `descAlign` | number | `50` | Change desc horizontal-align (x) | Bettwen `0` and `100`, `50` is center, multi-line text will calculate the alignment value. |
+| `descAlignY` | number | `60` | Change desc vertical-align (y) | Bettwen `0` and `100`, `50` is center, multi-line text will calculate the alignment value. |
+| `rotate` | number |  | Rotate text | Bettwen `-360` and `360`, unit: degrees. |
+| `stroke` | string |  | Change text stroke | Format: `HEX` e.g. `FF0000`, if `strokeWidth` is not set, `strokeWidth` will default to `1`. |
+| `strokeWidth` | number |  | Change text stroke width | Format: `HEX` e.g. `FF0000`, if `stroke` is not set, `stroke` will default to `B897FF`. |
 
 </details>
 
@@ -519,13 +520,13 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-line]
 
-### Discord Badge | Discord 徽章
+### Discord Badge
 
-#### Discord Markdown Badge | Discord 徽章
+#### Discord Markdown Badge
 
 ![rl-badge-introduction]
 
-**可自定义的徽章，用于展示您的 Discord 账号、服务器邀请或机器人账号。**
+**A customizable badge that shows your Discord account, a server invite, or a bot account.**
 
 [![rl-repo]](https://github.com/gitlimes/dcbadge)
 [![rl-official-docs]](https://github.com/gitlimes/dcbadge?tab=readme-ov-file#set-up)
@@ -538,14 +539,14 @@ Do you want to know the visit statistics of the website? These badges can help y
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `type` | string |  | 徽章类型 | 可选值：`server` `shield` |
-| `id` | string |  | ID 值 | 用户 ID、机器人 ID、服务器邀请链接等 |
+| `type` | string |  | Badge type | Supported: `server` `shield`. |
+| `id` | string |  | ID | User ID, Bot ID, Server Invite Link, etc. |
 | ![rl-link-query] | | | | |
-| `style` | string | `for-the-badge` | 徽章整体风格 | 可选值：`flat` `flat-square` `plastic` `for-the-badge` `social` |
-| `theme` | string |  | 徽章主题 | 可选值：`default-inverted` `clean` `clean-inverted` `discord` `discord-inverted` `full-presence` `gray` `blurple` |
-| `compact` | boolean | `false` | 是否使用紧凑徽章 |  |
-| `logoColor` | string |  | 图标颜色 | 可选值：`presence`（根据徽标的显示情况更改颜色）`CSS 颜色值` `HEX` |
-| `bot` | boolean | `false` | 是否为机器人 |  |
+| `style` | string | `for-the-badge` | Badge style | Supported: `flat` `flat-square` `plastic` `for-the-badge` `social`. |
+| `theme` | string |  | Badge theme | Supported: `default-inverted` `clean` `clean-inverted` `discord` `discord-inverted` `full-presence` `gray` `blurple`. |
+| `compact` | boolean | `false` | Makes the badge more compact |  |
+| `logoColor` | string |  | Logo color | Supported: `presence` (changes color based on badge display) `CSS color value` `HEX`. |
+| `bot` | boolean | `false` | Whether the account is a bot |  |
 
 </details>
 
@@ -556,21 +557,25 @@ Do you want to know the visit statistics of the website? These badges can help y
 ![rl-uses-examples]
 
 ```markdown
-<!-- 用户 -->
-![Discord User Badge](https://dcbadge.limes.pink/api/shield/406125028065804289)
+![Discord User](https://dcbadge.limes.pink/api/shield/406125028065804289)
 ```
 
-![Discord User Badge](https://dcbadge.limes.pink/api/shield/406125028065804289)
+![Discord User](https://dcbadge.limes.pink/api/shield/406125028065804289)
 
 <details>
   <summary>Click to expand/collapse more examples</summary><p></p>
 
 ```markdown
-<!-- 机器人 -->
-![Discord Bot Badge](https://dcbadge.limes.pink/api/shield/852977967776399400?bot=true)
+![Discord Server](https://dcbadge.limes.pink/api/server/zkspfFwqDg)
 ```
 
-![Discord Bot Badge](https://dcbadge.limes.pink/api/shield/852977967776399400?bot=true)
+![Discord Server](https://dcbadge.limes.pink/api/server/zkspfFwqDg)
+
+```markdown
+![Discord Bot](https://dcbadge.limes.pink/api/shield/852977967776399400?bot=true)
+```
+
+![Discord Bot](https://dcbadge.limes.pink/api/shield/852977967776399400?bot=true)
 
 </details>
 
