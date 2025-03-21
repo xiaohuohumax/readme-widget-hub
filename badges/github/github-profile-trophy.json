@@ -1,6 +1,7 @@
 {
-  "title": "GitHub Profile Trophy | GitHub 个人资料奖杯",
+  "title": "GitHub Profile Trophy",
   "description": "在你的 README 中添加动态生成的 GitHub 统计奖杯。",
+  "description:en-US": "Add dynamically generated GitHub Stat Trophies on your readme.",
   "tags": {
     "repoUrl": "https://github.com/ryo-ma/github-profile-trophy",
     "onlineToolUrl": "https://github-profile-trophy.vercel.app/",
@@ -11,63 +12,77 @@
       {
         "name": "username",
         "type": "string",
-        "description": "GitHub 用户名"
+        "description": "GitHub 用户名",
+        "description:en-US": "GitHub username"
       },
       {
         "name": "title",
         "type": "string",
-        "description": "显示或隐藏对应标题的奖杯",
-        "extDescription": "可选值 `Commits` `Stars` `Issues` `Repositories` `Experience` `Followers` `PullRequest` `Reviews` 多个标题间以 `,` 分隔，如果想要排除则在标题前加 `-`，例如 `-Commits`"
+        "description": "按标题筛选奖杯",
+        "description:en-US": "Filter by titles",
+        "extDescription": "可选值：`Commits` `Stars` `Issues` `Repositories` `Experience` `Followers` `PullRequest` `Reviews` 多个标题间以 `,` 分隔，如果想要排除则在标题前加 `-`，例如 `-Commits`",
+        "extDescription:en-US": "Supported: `Commits` `Stars` `Issues` `Repositories` `Experience` `Followers` `PullRequest` `Reviews` Multiple titles are separated by `,` and `-` can be added before the title to exclude it, for example `-Commits`"
       },
       {
         "name": "rank",
         "type": "string",
-        "description": "通过排名来过滤显示奖杯",
-        "extDescription": "可选值 `SECRET` `?`（UNKNOWN） `SSS` `SS` `S` `AAA` `AA` `A` `B` `C`，多个排名间以 `,` 分隔，如果想要排除则在排名前加 `-`，例如 `-?`"
+        "description": "按排名筛选奖杯",
+        "description:en-US": "Filter trophies by rank",
+        "extDescription": "可选值：`SECRET` `?`（UNKNOWN） `SSS` `SS` `S` `AAA` `AA` `A` `B` `C`，多个排名间以 `,` 分隔，如果想要排除则在排名前加 `-`，例如 `-?`",
+        "extDescription:en-US": "Supported: `SECRET` `?` (UNKNOWN) `SSS` `SS` `S` `AAA` `AA` `A` `B` `C`, multiple ranks are separated by `,` and `-` can be added before the rank to exclude it, for example `-?`"
       },
       {
         "name": "column",
         "type": "number",
         "default": "6",
         "description": "显示的列数",
-        "extDescription": "自适应列：设置 `column` 到 `-1` 以适应奖杯数量，参数 `row` 将被忽略"
+        "description:en-US": "Number of columns to display",
+        "extDescription": "自适应列：设置 `column` 到 `-1` 以适应奖杯数量，参数 `row` 将被忽略",
+        "extDescription:en-US": "You can set `column` to `-1` to adapt the width to the number of trophies, the parameter `row` will be ignored."
       },
       {
         "name": "row",
         "type": "number",
         "default": "3",
-        "description": "显示的行数"
+        "description": "显示的行数",
+        "description:en-US": "Number of rows to display"
       },
       {
         "name": "theme",
         "type": "string",
         "default": "flat",
-        "description": "主题",
-        "extDescription": "可选值：`flat` `onedark` `gruvbox` `dracula` `monokai` `chalk` `nord` `alduin` `darkhub` `juicyfresh` `buddhism` `oldie` `radical` `onestar` `discord` `algolia` `gitdimmed` `tokyonight` `matrix` `apprentice` `dark_dimmed` `dark_lover` `kimbie_dark`"
+        "description": "应用主题",
+        "description:en-US": "Apply theme",
+        "extDescription": "可选值：`flat` `onedark` `gruvbox` `dracula` `monokai` `chalk` `nord` `alduin` `darkhub` `juicyfresh` `buddhism` `oldie` `radical` `onestar` `discord` `algolia` `gitdimmed` `tokyonight` `matrix` `apprentice` `dark_dimmed` `dark_lover` `kimbie_dark`",
+        "extDescription:en-US": "Supported: `flat` `onedark` `gruvbox` `dracula` `monokai` `chalk` `nord` `alduin` `darkhub` `juicyfresh` `buddhism` `oldie` `radical` `onestar` `discord` `algolia` `gitdimmed` `tokyonight` `matrix` `apprentice` `dark_dimmed` `dark_lover` `kimbie_dark`"
       },
       {
         "name": "margin-w",
         "type": "number",
         "default": "0",
-        "description": "页边距宽度"
+        "description": "边距宽度",
+        "description:en-US": "Margin Width"
       },
       {
         "name": "margin-h",
         "type": "number",
         "default": "0",
-        "description": "页边距高度"
+        "description": "边距高度",
+        "description:en-US": "Margin Height"
       },
       {
         "name": "no-bg",
         "type": "boolean",
         "default": "false",
-        "description": "是否隐藏背景"
+        "description": "是否透明背景",
+        "description:en-US": "Transparent background"
       },
       {
         "name": "no-frame",
         "type": "boolean",
         "default": "false",
-        "description": "是否隐藏框架"
+        "description": "是否隐藏框架",
+        "description:en-US": "Hide frames"
       }
     ],
     "srcTemplate": "https://github-profile-trophy.vercel.app/{?username,title,rank,column,row,theme,margin-w,margin-h,no-bg,no-frame}"
@@ -76,12 +91,14 @@
     {
       "explain": {
         "annotate": "ryo-ma",
-        "alt": "Trophy",
+        "alt": "奖杯",
+        "alt:en-US": "Trophy",
         "src": "https://github-profile-trophy.vercel.app/?username=ryo-ma"
       },
       "images": [
         {
-          "alt": "Trophy",
+          "alt": "奖杯",
+          "alt:en-US": "Trophy",
           "src": "https://github-profile-trophy.vercel.app/?username=ryo-ma"
         }
       ]
