@@ -43,14 +43,14 @@
   * [Capsule Render](#capsule-render)
   * [Discord Badge](#discord-badge)
     * [Discord Markdown Badge](#discord-markdown-badge)
-    * [Discord README Badge | Discord 用户状态徽章](#discord-readme-badge--discord-用户状态徽章)
-  * [Github Badge | Github 徽章](#github-badge--github-徽章)
-    * [GitHub Readme Stats | Github 状态卡片](#github-readme-stats--github-状态卡片)
+    * [Discord README Badge](#discord-readme-badge)
+  * [Github Badge](#github-badge)
     * [Contributors Img | GitHub 贡献者图](#contributors-img--github-贡献者图)
     * [GitHub Gists Readme | Github Gists 徽章](#github-gists-readme--github-gists-徽章)
     * [Github Contribution Stats | GitHub 贡献统计](#github-contribution-stats--github-贡献统计)
     * [GitHub Profile Trophy | GitHub 个人资料奖杯](#github-profile-trophy--github-个人资料奖杯)
     * [Github Readme Activity Graph | Github 个人活动图](#github-readme-activity-graph--github-个人活动图)
+    * [GitHub Readme Stats](#github-readme-stats)
     * [Github Readme Streak Stats | Github 连续贡献统计图](#github-readme-streak-stats--github-连续贡献统计图)
     * [GitHub Workflows Badge | GitHub 工作流程徽章](#github-workflows-badge--github-工作流程徽章)
     * [Github Chart API | Github 个人贡献卡片](#github-chart-api--github-个人贡献卡片)
@@ -583,11 +583,11 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-line]
 
-#### Discord README Badge | Discord 用户状态徽章
+#### Discord README Badge
 
 ![rl-badge-introduction]
 
-**展示你在 Discord 中正在进行的任何工作！**
+**Show whatever you're working on through your GitHub readme!**
 
 [![rl-repo]](https://github.com/Zyplos/discord-readme-badge)
 
@@ -599,7 +599,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
-| `id` | string |  | Discord 用户 ID |  |
+| `id` | string |  | Discord User ID |  |
 
 </details>
 
@@ -620,62 +620,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-line]
 
-### Github Badge | Github 徽章
-
-#### GitHub Readme Stats | Github 状态卡片
-
-> \[!Tip]
-> 由于此项目支持的卡片种类非常多，且功能强大，这里只简单介绍－GitHub 状态卡片，其他卡片使用方式还请移步官方文档。
-
-![rl-badge-introduction]
-
-**获取动态生成的 GitHub 统计信息！**
-
-[![rl-repo]](https://github.com/anuraghazra/github-readme-stats)
-[![rl-official-docs]](https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#features-)
-
-![rl-badge-params]
-
-<details>
-  <summary>Click to expand/collapse detailed parameters</summary><p></p>
-
-| Name | Type | Default | Description | Additional Description |
-| ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
-| ![rl-link-query] | | | | |
-| `username` | string |  | GitHub 用户名 |  |
-| `title_color` | string | `2F80ED` | 卡片标题颜色 | 支持 HEX 颜色值，如 `FF0000` |
-| `text_color` | string | `434D58` | 正文文本颜色 | 支持 HEX 颜色值，如 `FF0000` |
-| `icon_color` | string | `4C71F2` | 图标颜色 | 支持 HEX 颜色值，如 `FF0000` |
-| `border_color` | string | `E4E2E2` | 卡片边框颜色 | 支持 HEX 颜色值，如 `FF0000`，当启用 `hide_border` 时，不适用 |
-| `hide_border` | boolean | `false` | 是否隐藏卡片边框 |  |
-| `theme` | string |  | 设置主题 | 可选值：`dark` `radical` `merko` `gruvbox` `tokyonight` `onedark` `cobalt` `synthwave` `highcontrast` `dracula` `transparent` |
-| `cache_seconds` | number | `21600` | 卡片缓存时间 | 单位：秒，最小：21600，最大：86400 |
-| `locale` | string | `en` | 设置语言 | 语言参考：[locales](https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#available-locales) |
-| `border_radius` | number | `4.5` | 卡片上的圆角处理 |  |
-| `hide` | string |  | 隐藏特定的统计数据 | 数据类型之间用 `,` 分隔 |
-| `show` | string |  | 显示附加统计信息 | 数据类型之间用 `,` 分隔 |
-| `show_icons` | boolean | `true` | 是否显示图标 |  |
-| `bg_color` | string |  | 卡片背景色 | 背景色支持渐变，格式：`deg,color1,color2,color3,...` |
-
-</details>
-
-```markdown
-![Alt](https://github-readme-stats.vercel.app/api{?username,title_color,text_color,icon_color,border_color,hide_border,theme,cache_seconds,locale,border_radius,hide,show,show_icons,bg_color})
-```
-
-![rl-uses-examples]
-
-```markdown
-<!-- anuraghazra -->
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)
-```
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra\&locale=cn\&theme=dark\&hide_border=true)
-
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to Top-555555?style=for-the-badge"></a></p>
-
-![rl-line]
+### Github Badge
 
 #### Contributors Img | GitHub 贡献者图
 
@@ -925,6 +870,72 @@ Do you want to know the visit statistics of the website? These badges can help y
 ```
 
 ![Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=xiaohuohumax\&theme=github\&hide_border=true)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to Top-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
+#### GitHub Readme Stats
+
+> \[!Tip]
+> Due to the many card types supported by this project and its powerful features, here is a simple introduction to the GitHub status card. For other card types, please refer to the official documentation.
+
+![rl-badge-introduction]
+
+**Get dynamically generated GitHub stats on your READMEs!**
+
+[![rl-repo]](https://github.com/anuraghazra/github-readme-stats)
+[![rl-official-docs]](https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#features-)
+
+![rl-badge-params]
+
+<details>
+  <summary>Click to expand/collapse detailed parameters</summary><p></p>
+
+| Name | Type | Default | Description | Additional Description |
+| ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
+| ![rl-link-query] | | | | |
+| `username` | string |  | GitHub username |  |
+| `title_color` | string | `2F80ED` | Card's title color | Supported: `HEX`, e.g. `FF0000`. |
+| `text_color` | string | `434D58` | Body text color | Supported: `HEX`, e.g. `FF0000`. |
+| `icon_color` | string | `4C71F2` | Icons color if available | Supported: `HEX`, e.g. `FF0000`. |
+| `border_color` | string | `E4E2E2` | Card's border color | Supported: `HEX`, e.g. `FF0000`. does not apply when `hide_border` is enabled. |
+| `hide_border` | boolean | `false` | Hides the card's border |  |
+| `theme` | string |  | Name of the theme | Supported: `dark` `radical` `merko` `gruvbox` `tokyonight` `onedark` `cobalt` `synthwave` `highcontrast` `dracula` `transparent`. |
+| `cache_seconds` | number | `21600` | Sets the cache header manually | Unit: seconds, range: `21600` to `86400`. |
+| `locale` | string | `en` | Sets the language in the card | Language reference: [locales](https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#available-locales). |
+| `border_radius` | number | `4.5` | Corner rounding on the card |  |
+| `hide` | string |  | Hides the [specified items](https://github.com/anuraghazra/github-readme-stats#hiding-individual-stats) from stats | Data types are separated by `,`. |
+| `show` | string |  | Shows [additional items](https://github.com/anuraghazra/github-readme-stats#showing-additional-individual-stats) on stats card | Data types are separated by `,`. |
+| `show_icons` | boolean | `true` | To enable icons |  |
+| `bg_color` | string |  | Card's background color | Background color supports gradients, format: `deg,color1,color2,color3,...`. |
+
+</details>
+
+```markdown
+![Alt](https://github-readme-stats.vercel.app/api{?username,title_color,text_color,icon_color,border_color,hide_border,theme,cache_seconds,locale,border_radius,hide,show,show_icons,bg_color})
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- anuraghazra -->
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)
+```
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)
+
+<details>
+  <summary>Click to expand/collapse more examples</summary><p></p>
+
+```markdown
+<!-- anuraghazra -->
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&locale=cn&theme=dark&hide_border=true)
+```
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra\&locale=cn\&theme=dark\&hide_border=true)
+
+</details>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to Top-555555?style=for-the-badge"></a></p>
 
