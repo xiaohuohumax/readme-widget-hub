@@ -1,6 +1,7 @@
 {
-  "title": "GitHub Workflows Badge | GitHub 工作流程徽章",
+  "title": "GitHub Workflows Badge",
   "description": "GitHub 官方徽章，显示你的 GitHub 仓库中正在运行的工作流状态。",
+  "description:en-US": "You can display a status badge in your repository to indicate the status of your workflows.",
   "tags": {
     "officialDocsUrl": "https://docs.github.com/zh/actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/adding-a-workflow-status-badge"
   },
@@ -9,29 +10,34 @@
       {
         "name": "owner",
         "type": "string",
-        "description": "用户名"
+        "description": "用户名",
+        "description:en-US": "Github username"
       },
       {
         "name": "repo",
         "type": "string",
-        "description": "仓库名"
+        "description": "仓库名",
+        "description:en-US": "Repository name"
       },
       {
         "name": "workflowFile",
         "type": "string",
-        "description": "工作流文件名"
+        "description": "工作流文件名",
+        "description:en-US": "Workflow file name"
       }
     ],
     "querys": [
       {
         "name": "branch",
         "type": "string",
-        "description": "项目分支名"
+        "description": "项目分支名",
+        "description:en-US": "Branch name"
       },
       {
         "name": "event",
         "type": "string",
-        "description": "工作流触发事件名"
+        "description": "工作流触发事件名",
+        "description:en-US": "Workflow trigger event name"
       }
     ],
     "srcTemplate": "https://github.com/github/{owner}/{repo}/workflows/{workflowFile}/badge.svg{?branch,event}"
