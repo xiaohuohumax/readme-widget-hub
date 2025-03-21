@@ -1,4 +1,5 @@
 {
   "enabled": true,
-  "title": "Github Badge | Github 徽章"
+  "title": "Github 徽章",
+  "title:en-US": "Github Badge"
 }
