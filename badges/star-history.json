@@ -1,6 +1,7 @@
 {
-  "title": "Star History | GitHub 星标历史图",
+  "title": "Star History",
   "description": "Star History 一个可以显示 GitHub 项目的 star 历史图的徽章。",
+  "description:en-US": "The missing star history graph of GitHub repos.",
   "tags": {
     "repoUrl": "https://github.com/star-history/star-history",
     "onlineToolUrl": "https://www.star-history.com",
@@ -10,15 +11,19 @@
     "querys": [
       {
         "name": "repos",
-        "type": "string[]",
+        "type": "string",
         "description": "仓库名",
-        "extDescription": "多个仓库名用逗号分隔，例如：`owner1/repo1,owner2/repo2`"
+        "description:en-US": "Repository name",
+        "extDescription": "多个仓库名用 `,` 分隔，例如：`owner1/repo1,owner2/repo2`",
+        "extDescription:en-US": "Multiple repository names separated by `,`, such as: `owner1/repo1,owner2/repo2`"
       },
       {
         "name": "type",
         "type": "string",
         "description": "显示类型",
-        "extDescription": "可选值：`Date` `Timeline`"
+        "description:en-US": "Display type",
+        "extDescription": "可选值：`Date` `Timeline`",
+        "extDescription:en-US": "Supported: `Date` `Timeline`"
       }
     ],
     "srcTemplate": "https://api.star-history.com/svg{?repos,type}"
