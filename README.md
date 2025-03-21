@@ -42,10 +42,10 @@
     * [Discord Markdown Badge](#discord-markdown-badge)
     * [Discord README Badge](#discord-readme-badge)
   * [Github 徽章](#github-徽章)
-    * [Contributors Img | GitHub 贡献者图](#contributors-img--github-贡献者图)
-    * [GitHub Gists Readme | Github Gists 徽章](#github-gists-readme--github-gists-徽章)
-    * [Github Contribution Stats | GitHub 贡献统计](#github-contribution-stats--github-贡献统计)
-    * [GitHub Profile Trophy | GitHub 个人资料奖杯](#github-profile-trophy--github-个人资料奖杯)
+    * [Contributors Img](#contributors-img)
+    * [GitHub Gists Readme](#github-gists-readme)
+    * [Github Contribution Stats](#github-contribution-stats)
+    * [GitHub Profile Trophy](#github-profile-trophy)
     * [Github Readme Activity Graph | Github 个人活动图](#github-readme-activity-graph--github-个人活动图)
     * [GitHub Readme Stats](#github-readme-stats)
     * [Github Readme Streak Stats | Github 连续贡献统计图](#github-readme-streak-stats--github-连续贡献统计图)
@@ -619,7 +619,7 @@
 
 ### Github 徽章
 
-#### Contributors Img | GitHub 贡献者图
+#### Contributors Img
 
 ![rl-badge-introduction]
 
@@ -636,10 +636,10 @@
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
-| `repo` | string |  | 仓库名 | 格式：`owner/repo` |
+| `repo` | string |  | 仓库名 | 格式：`owner/repo`。 |
 | `max` | number | `100` | 最大显示贡献者数 |  |
 | `columns` | number | `12` | 显示列数 |  |
-| `anon` | number | `0` | 是否显示匿名贡献者 | 可选值：`0` `1` |
+| `anon` | number | `0` | 是否显示匿名贡献者 | 可选值：`0` `1`。 |
 
 </details>
 
@@ -651,16 +651,16 @@
 
 ```markdown
 <!-- lacolaco/contributors-img -->
-![Contributors Image](https://contrib.rocks/image?repo=lacolaco/contributors-img)
+![贡献](https://contrib.rocks/image?repo=lacolaco/contributors-img)
 ```
 
-![Contributors Image](https://contrib.rocks/image?repo=lacolaco/contributors-img)
+![贡献](https://contrib.rocks/image?repo=lacolaco/contributors-img)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『回到顶部』-555555?style=for-the-badge"></a></p>
 
 ![rl-line]
 
-#### GitHub Gists Readme | Github Gists 徽章
+#### GitHub Gists Readme
 
 ![rl-badge-introduction]
 
@@ -681,7 +681,7 @@
 | `user` | string |  | Github 用户名 |  |
 | `n` | number | `30` | 显示的 Gist 数量 |  |
 | `title` | string |  | 标题 |  |
-| `theme` | string | `default` | 主题 | 可选值：`default` `dark` |
+| `theme` | string | `default` | 主题 | 可选值：`default` `dark`。 |
 
 </details>
 
@@ -697,12 +697,12 @@
 | ![rl-link-query] | | | | |
 | `id` | string |  | Gist ID |  |
 | `owner` | boolean | `false` | 是否显示所有者 |  |
-| `theme` | string | `default` | 主题 | 可选值：`default` `dark` |
+| `theme` | string | `default` | 主题 | 可选值：`default` `dark`。 |
 
 </details>
 
 ```markdown
-<!-- Gists 代码片段 -->
+<!-- Gists Pin -->
 ![Alt](https://gists-readme.yizack.com/api/pin{?id,owner,theme})
 ```
 
@@ -731,7 +731,7 @@
 
 ![rl-line]
 
-#### Github Contribution Stats | GitHub 贡献统计
+#### Github Contribution Stats
 
 ![rl-badge-introduction]
 
@@ -760,16 +760,16 @@
 
 ```markdown
 <!-- LordDashMe -->
-![Contribution Stats](https://github-contribution-stats.vercel.app/api?username=LordDashMe)
+![贡献统计](https://github-contribution-stats.vercel.app/api?username=LordDashMe)
 ```
 
-![Contribution Stats](https://github-contribution-stats.vercel.app/api?username=LordDashMe)
+![贡献统计](https://github-contribution-stats.vercel.app/api?username=LordDashMe)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『回到顶部』-555555?style=for-the-badge"></a></p>
 
 ![rl-line]
 
-#### GitHub Profile Trophy | GitHub 个人资料奖杯
+#### GitHub Profile Trophy
 
 ![rl-badge-introduction]
 
@@ -788,14 +788,14 @@
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
 | `username` | string |  | GitHub 用户名 |  |
-| `title` | string |  | 显示或隐藏对应标题的奖杯 | 可选值 `Commits` `Stars` `Issues` `Repositories` `Experience` `Followers` `PullRequest` `Reviews` 多个标题间以 `,` 分隔，如果想要排除则在标题前加 `-`，例如 `-Commits` |
-| `rank` | string |  | 通过排名来过滤显示奖杯 | 可选值 `SECRET` `?`（UNKNOWN） `SSS` `SS` `S` `AAA` `AA` `A` `B` `C`，多个排名间以 `,` 分隔，如果想要排除则在排名前加 `-`，例如 `-?` |
+| `title` | string |  | 按标题筛选奖杯 | 可选值：`Commits` `Stars` `Issues` `Repositories` `Experience` `Followers` `PullRequest` `Reviews` 多个标题间以 `,` 分隔，如果想要排除则在标题前加 `-`，例如 `-Commits` |
+| `rank` | string |  | 按排名筛选奖杯 | 可选值：`SECRET` `?`（UNKNOWN） `SSS` `SS` `S` `AAA` `AA` `A` `B` `C`，多个排名间以 `,` 分隔，如果想要排除则在排名前加 `-`，例如 `-?` |
 | `column` | number | `6` | 显示的列数 | 自适应列：设置 `column` 到 `-1` 以适应奖杯数量，参数 `row` 将被忽略 |
 | `row` | number | `3` | 显示的行数 |  |
-| `theme` | string | `flat` | 主题 | 可选值：`flat` `onedark` `gruvbox` `dracula` `monokai` `chalk` `nord` `alduin` `darkhub` `juicyfresh` `buddhism` `oldie` `radical` `onestar` `discord` `algolia` `gitdimmed` `tokyonight` `matrix` `apprentice` `dark_dimmed` `dark_lover` `kimbie_dark` |
-| `margin-w` | number | `0` | 页边距宽度 |  |
-| `margin-h` | number | `0` | 页边距高度 |  |
-| `no-bg` | boolean | `false` | 是否隐藏背景 |  |
+| `theme` | string | `flat` | 应用主题 | 可选值：`flat` `onedark` `gruvbox` `dracula` `monokai` `chalk` `nord` `alduin` `darkhub` `juicyfresh` `buddhism` `oldie` `radical` `onestar` `discord` `algolia` `gitdimmed` `tokyonight` `matrix` `apprentice` `dark_dimmed` `dark_lover` `kimbie_dark` |
+| `margin-w` | number | `0` | 边距宽度 |  |
+| `margin-h` | number | `0` | 边距高度 |  |
+| `no-bg` | boolean | `false` | 是否透明背景 |  |
 | `no-frame` | boolean | `false` | 是否隐藏框架 |  |
 
 </details>
@@ -808,10 +808,10 @@
 
 ```markdown
 <!-- ryo-ma -->
-![Trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma)
+![奖杯](https://github-profile-trophy.vercel.app/?username=ryo-ma)
 ```
 
-![Trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma)
+![奖杯](https://github-profile-trophy.vercel.app/?username=ryo-ma)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『回到顶部』-555555?style=for-the-badge"></a></p>
 
