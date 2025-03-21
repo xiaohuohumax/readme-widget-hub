@@ -14,7 +14,7 @@
     <a href="https://github.com/xiaohuohumax/badge-collection/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection" /></a>
-    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-37-84AD64" /></a>
+    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-38-84AD64" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
   <div>
@@ -32,6 +32,7 @@
   * [Shields.io](#shieldsio)
   * [Badgen](#badgen)
   * [访客统计徽章](#访客统计徽章)
+    * [GitHub Profile Views Counter](#github-profile-views-counter)
     * [HITS](#hits)
     * [Moe Counter](#moe-counter)
     * [Profile Counter](#profile-counter)
@@ -225,6 +226,49 @@
 ### 访客统计徽章
 
 想要知道网站的访客统计数据吗？这几个徽章可以帮助你统计网站的访问次数。
+
+#### GitHub Profile Views Counter
+
+![rl-badge-introduction]
+
+**它统计了你的 GitHub 个人资料被查看的次数。**
+
+[![rl-repo]](https://github.com/antonkomarev/github-profile-views-counter)
+[![rl-official-docs]](https://github.com/antonkomarev/github-profile-views-counter?tab=readme-ov-file#usage)
+
+![rl-badge-params]
+
+<details >
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 名称 | 类型 | 默认值 | 描述 | 补充描述 |
+| ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
+| ![rl-link-query] | | | | |
+| `username` | string |  | Github 用户名 |  |
+| `color` | string | `blue` | 颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000`。 |
+| `style` | string | `flat` | 样式 | 可选值：`flat` `flat-square` `for-the-badge` `plastic` `pixel`（隐身）。 |
+| `label` | string | `Profile views` | 标签 | 在多词标签中，将空格替换为 `+` 字符。 |
+| `base` | number |  | 统计基数 |  |
+| `abbreviated` | boolean | `false` | 是否缩写 | 例如，一个有 12345 次查看的计数器，将显示为 12.3K。 |
+
+</details>
+
+```markdown
+![Alt](https://komarev.com/ghpvc/{?username,color,style,label,base,abbreviated})
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- xiaohuohumax -->
+![访客统计](https://komarev.com/ghpvc/?username=xiaohuohumaxS&color=blue&style=flat-square&label=PROFILE+VIEWS)
+```
+
+![访客统计](https://komarev.com/ghpvc/?username=xiaohuohumaxS\&color=blue\&style=flat-square\&label=PROFILE+VIEWS)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『回到顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
 
 #### HITS
 

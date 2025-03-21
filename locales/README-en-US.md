@@ -14,7 +14,7 @@
     <a href="https://github.com/xiaohuohumax/badge-collection/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection" /></a>
-    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-37-84AD64" /></a>
+    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-38-84AD64" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
   <div>
@@ -35,6 +35,7 @@
   * [Shields.io](#shieldsio)
   * [Badgen](#badgen)
   * [Visit Counter Badge](#visit-counter-badge)
+    * [GitHub Profile Views Counter](#github-profile-views-counter)
     * [HITS](#hits)
     * [Moe Counter](#moe-counter)
     * [Profile Counter](#profile-counter)
@@ -228,6 +229,49 @@
 ### Visit Counter Badge
 
 Do you want to know the visit statistics of the website? These badges can help you count the number of visits to the website.
+
+#### GitHub Profile Views Counter
+
+![rl-badge-introduction]
+
+\*\*It counts how many times your GitHub profile has been viewed. \*\*
+
+[![rl-repo]](https://github.com/antonkomarev/github-profile-views-counter)
+[![rl-official-docs]](https://github.com/antonkomarev/github-profile-views-counter?tab=readme-ov-file#usage)
+
+![rl-badge-params]
+
+<details >
+  <summary>Click to expand/collapse detailed parameters</summary><p></p>
+
+| Name | Type | Default | Description | Additional Description |
+| ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
+| ![rl-link-query] | | | | |
+| `username` | string |  | Github username |  |
+| `color` | string | `blue` | Color | Format: `HEX` `CSS color` e.g. `FF0000`. |
+| `style` | string | `flat` | Styles | Supported: `flat` `flat-square` `for-the-badge` `plastic` `pixel` (invisible). |
+| `label` | string | `Profile views` | Label | Replace whitespace with `+` character in multi-word labels. |
+| `base` | number |  | Base count |  |
+| `abbreviated` | boolean | `false` | Abbreviated | For example, a counter with 12345 views, will be displayed as 12.3K. |
+
+</details>
+
+```markdown
+![Alt](https://komarev.com/ghpvc/{?username,color,style,label,base,abbreviated})
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- xiaohuohumax -->
+![visit counter](https://komarev.com/ghpvc/?username=xiaohuohumaxS&color=blue&style=flat-square&label=PROFILE+VIEWS)
+```
+
+![visit counter](https://komarev.com/ghpvc/?username=xiaohuohumaxS\&color=blue\&style=flat-square\&label=PROFILE+VIEWS)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to Top-555555?style=for-the-badge"></a></p>
+
+![rl-line]
 
 #### HITS
 
