@@ -1,5 +1,11 @@
 # badge-collection
 
+## 1.12.0
+
+### Minor Changes
+
+- 预览模式 Github Alert 修复
+
 ## 1.11.0
 
 ### Minor Changes

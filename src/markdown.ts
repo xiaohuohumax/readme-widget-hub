@@ -12,6 +12,40 @@ import remarkToc from 'remark-toc'
 import { unified } from 'unified'
 import { visit } from 'unist-util-visit'
 
+function fixGithubAlert() {
+  return (tree: Root) => {
+    visit(tree, 'element', (node) => {
+      if (node.tagName !== 'blockquote' || node.children.length < 2) {
+        return
+      }
+      const bodyElement = node.children[1]
+      if (bodyElement.type !== 'element' || bodyElement.tagName !== 'p') {
+        return
+      }
+      const contentElement = bodyElement.children[0]
+      if (contentElement.type !== 'text') {
+        return
+      }
+      const content = contentElement.value
+      if (!content.startsWith('[!')) {
+        return
+      }
+      const closeIndex = content.indexOf(']', 1)
+      const alertType = content.slice(2, closeIndex)
+      contentElement.value = content.slice(closeIndex + 1).trimStart()
+      node.children = node.children.toSpliced(1, 0, {
+        type: 'element',
+        tagName: 'p',
+        children: [
+          { type: 'text', value: alertType },
+        ],
+        properties: {},
+      })
+      node.properties.class = `github-alert ${alertType.toLowerCase()}`
+    })
+  }
+}
+
 function lazyLoadImagePlugin() {
   return (tree: Root) => {
     visit(tree, 'element', (node) => {
@@ -33,6 +67,7 @@ export function markdown2Html(markdown: string): string {
     .use(rehypeAutolinkHeadings) // 标题添加锚点
     .use(rehypeRaw)
     .use(lazyLoadImagePlugin) // 图片延迟加载
+    .use(fixGithubAlert) // 修复 Github Alert样式
     .use(rehypeStringify)
     .processSync(markdown)
     .toString()

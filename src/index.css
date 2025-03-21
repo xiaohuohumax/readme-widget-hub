@@ -17,3 +17,48 @@ html {
     padding: 15px;
   }
 }
+
+.github-alert p:first-child {
+  font-weight: bold;
+  margin-bottom: .5em;
+}
+
+.github-alert.tip p:first-child {
+  color: #3FB950;
+}
+
+.github-alert.tip {
+  border-left-color: #238636;
+}
+
+.github-alert.note p:first-child {
+  color: #4493F8;
+}
+
+.github-alert.note {
+  border-left-color: #1F6FEB;
+}
+
+.github-alert.warning p:first-child {
+  color: #D29922;
+}
+
+.github-alert.warning {
+  border-left-color: #9E6A03;
+}
+
+.github-alert.important p:first-child {
+  color: #AB7DF8;
+}
+
+.github-alert.important {
+  border-left-color: #8957E5;
+}
+
+.github-alert.caution p:first-child {
+  color: #F85149;
+}
+
+.github-alert.caution {
+  border-left-color: #DA3633;
+}
