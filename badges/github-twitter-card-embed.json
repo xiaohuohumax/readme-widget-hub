@@ -1,6 +1,7 @@
 {
-  "title": "GTCE : GitHub Twitter Card Embed | Twitter 推文卡片",
+  "title": "GitHub Twitter Card Embed",
   "description": "展示你 Twitter 的推文、创建时间、点赞、认证徽章等信息。",
+  "description:en-US": " Get a Verified badge, Showcase your Tweet on Website, GitHub ReadMe or anywhere else.",
   "tags": {
     "repoUrl": "https://github.com/VishwaGauravIn/github-twitter-card-embed",
     "onlineToolUrl": "https://gtce.itsvg.in/",
@@ -11,42 +12,53 @@
       {
         "name": "username",
         "type": "string",
-        "description": "Twitter 用户名"
+        "description": "Twitter 用户名",
+        "description:en-US": "Twitter usernmae"
       },
       {
         "name": "theme",
         "type": "string",
         "default": "dracula",
         "description": "主题",
-        "extDescription": "可选值：`default` `default_repocard` `transparent` `dark` `tokyonight` 更多主题参考：[Themes](https://github.com/VishwaGauravIn/github-twitter-card-embed?tab=readme-ov-file#-themes)"
+        "description:en-US": "Theme",
+        "extDescription": "可选值：`default` `default_repocard` `transparent` `dark` `tokyonight` 更多主题参考：[Themes](https://github.com/VishwaGauravIn/github-twitter-card-embed?tab=readme-ov-file#-themes)",
+        "extDescription:en-US": "Supported: `default` `default_repocard` `transparent` `dark` `tokyonight` main theme references: [Themes](https://github.com/VishwaGauravIn/github-twitter-card-embed?tab=readme-ov-file#-themes)"
       },
       {
         "name": "icon",
         "type": "string",
         "default": "default",
         "description": "图标",
-        "extDescription": "可选值：`default` `thunder` `sun` `beaker` `bookmark` `bug` `cake` `badge` `code` `smile` `fire` `hashtag` `heart` `lock` `moon` `radio` `sparkles` `star` `trophy` `user`"
+        "description:en-US": "Icon",
+        "extDescription": "可选值：`default` `thunder` `sun` `beaker` `bookmark` `bug` `cake` `badge` `code` `smile` `fire` `hashtag` `heart` `lock` `moon` `radio` `sparkles` `star` `trophy` `user`",
+        "extDescription:en-US": "Supported: `default` `thunder` `sun` `beaker` `bookmark` `bug` `cake` `badge` `code` `smile` `fire` `hashtag` `heart` `lock` `moon` `radio` `sparkles` `star` `trophy` `user`"
       },
       {
         "name": "time",
         "type": "boolean",
         "default": "true",
         "description": "是否显示时间",
-        "extDescription": "可选值：`true` `false`"
+        "description:en-US": "Show time",
+        "extDescription": "可选值：`true` `false`",
+        "extDescription:en-US": "Supported: `true` `false`"
       },
       {
         "name": "response",
         "type": "boolean",
         "default": "true",
         "description": "是否显示点赞、转发和评论",
-        "extDescription": "可选值：`true` `false`"
+        "description:en-US": "Show response",
+        "extDescription": "可选值：`true` `false`",
+        "extDescription:en-US": "Supported: `true` `false`"
       },
       {
         "name": "border",
         "type": "boolean",
         "default": "true",
         "description": "是否显示边框",
-        "extDescription": "可选值：`true` `false`"
+        "description:en-US": "Show border",
+        "extDescription": "可选值：`true` `false`",
+        "extDescription:en-US": "Supported: `true` `false`"
       }
     ],
     "srcTemplate": "https://gtce.itsvg.in/api{?username,theme,icon,time,response,border}"
