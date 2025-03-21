@@ -53,11 +53,11 @@
     * [GitHub Readme Stats](#github-readme-stats)
     * [Github Readme Streak Stats](#github-readme-streak-stats)
     * [GitHub Workflows Badge](#github-workflows-badge)
-    * [Github Chart API | Github 个人贡献卡片](#github-chart-api--github-个人贡献卡片)
-    * [Repobeats | GitHub 仓库分析图](#repobeats--github-仓库分析图)
-    * [Socialify | Github 项目描述卡片](#socialify--github-项目描述卡片)
-    * [Spark | GitHub 星标迷你线图](#spark--github-星标迷你线图)
-    * [GitHub Starlines | GitHub 星标迷你线图](#github-starlines--github-星标迷你线图)
+    * [Github Chart API](#github-chart-api)
+    * [Repobeats](#repobeats)
+    * [Socialify](#socialify)
+    * [Spark](#spark)
+    * [GitHub Starlines](#github-starlines)
   * [Github Readme Quotes | 编程名言卡片](#github-readme-quotes--编程名言卡片)
   * [GTCE : GitHub Twitter Card Embed | Twitter 推文卡片](#gtce--github-twitter-card-embed--twitter-推文卡片)
   * [Gradgen | 渐变徽章](#gradgen--渐变徽章)
@@ -1049,11 +1049,11 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-line]
 
-#### Github Chart API | Github 个人贡献卡片
+#### Github Chart API
 
 ![rl-badge-introduction]
 
-**回顾 Github 个人贡献图表，展示你的 Github 贡献历史。**
+**📅 Embed github contributions chart as image.**
 
 [![rl-repo]](https://github.com/2016rshah/githubchart-api)
 [![rl-official-docs]](https://github.com/2016rshah/githubchart-api)
@@ -1066,14 +1066,13 @@ Do you want to know the visit statistics of the website? These badges can help y
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `color` | string | `default` | 主题颜色 | 可选值：`teal` `halloween` `default` `old` `HEX 值`（例如：`FF0000`） |
-| `username` | string |  | Github 用户名 |  |
+| `color` | string | `default` | Use theme | Supported:`teal` `halloween` `default` `old` `HEX` (e.g. `FF0000`). |
+| `username` | string |  | Github username |  |
 
 </details>
 
 ```markdown
-<!-- 配置颜色 -->
-![Alt](https://ghchart.rshah.org/{color}/{username})
+![Configure color](https://ghchart.rshah.org/{color}/{username})
 ```
 
 <details>
@@ -1082,7 +1081,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `username` | string |  | Github 用户名 |  |
+| `username` | string |  | Github username |  |
 
 </details>
 
@@ -1102,11 +1101,11 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-line]
 
-#### Repobeats | GitHub 仓库分析图
+#### Repobeats
 
 ![rl-badge-introduction]
 
-**为你的 GitHub 仓库提供惊艳的见解，让你的 README.md 增添一些吸引眼球的精彩内容。**
+**Stunning insights for your GitHub Repo, Give your README.md some insightful eye-candy.**
 
 [![rl-repo]](https://github.com/axiomhq)
 [![rl-online-tool]](https://repobeats.axiom.co/configs)
@@ -1121,7 +1120,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `configId` | string |  | 配置 ID | 登录 [Repobeats](https://repobeats.axiom.co/) 后选择仓库后获取 |
+| `configId` | string |  | Config ID | Login [Repobeats](https://repobeats.axiom.co/) and select the repository to get the config ID. |
 
 </details>
 
@@ -1142,11 +1141,11 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-line]
 
-#### Socialify | Github 项目描述卡片
+#### Socialify
 
 ![rl-badge-introduction]
 
-**希望你的项目能够脱颖而出？Socialify 通过生成各种精美的项目描述卡片，帮助你向全世界展示你的项目！**
+**Want your project to stand out? Socialify helps you showcase your project to the world by generating a beautiful project image like the one above!**
 
 [![rl-repo]](https://github.com/wei/socialify)
 [![rl-online-tool]](https://socialify.git.ci/)
@@ -1159,17 +1158,17 @@ Do you want to know the visit statistics of the website? These badges can help y
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
-| `description` | boolean | `0` | 是否显示项目描述 | 可选值：`0` `1` |
-| `forks` | boolean | `0` | 是否显示 Forks 数量 | 可选值：`0` `1` |
-| `issues` | boolean | `0` | 是否显示 Issues 数量 | 可选值：`0` `1` |
-| `name` | boolean | `1` | 是否显示项目名称 | 可选值：`0` `1` |
-| `owner` | boolean | `0` | 是否显示用户名 | 可选值：`0` `1` |
-| `pulls` | boolean | `0` | 是否显示 PR 数量 | 可选值：`0` `1` |
-| `stargazers` | boolean | `0` | 是否显示 Stars 数量 | 可选值：`0` `1` |
-| `pattern` | string |  | 背景图样式 | 可选值：`Signal` `Charlie Brown` `Formal Invitation` `Plus` `Circuit Board` `Overlapping Hexagons` `Brick Wall` `Floating Cogs` `Diagonal Stripes` `Solid` `Transparent` |
-| `logo` | string |  | 项目 Logo | 可选类型：`URL` `DATA URI` |
-| `language` | boolean | `0` | 是否显示项目语言 | 可选值：`0` `1` |
-| `font` | string |  | 字体 | 可选值：`Inter` `Bitter` `Raleway` `Rokkitt` `Source Code Pro` `KoHo` `Jost` |
+| `description` | boolean | `0` | Show project description | Supported: `0` `1` |
+| `forks` | boolean | `0` | Show Forks count | Supported: `0` `1` |
+| `issues` | boolean | `0` | Show Issues count | Supported: `0` `1` |
+| `name` | boolean | `1` | Show project name | Supported: `0` `1` |
+| `owner` | boolean | `0` | Show username | Supported: `0` `1` |
+| `pulls` | boolean | `0` | Show PR count | Supported: `0` `1` |
+| `stargazers` | boolean | `0` | Show Stars count | Supported: `0` `1` |
+| `pattern` | string |  | Background pattern | Supported: `Signal` `Charlie Brown` `Formal Invitation` `Plus` `Circuit Board` `Overlapping Hexagons` `Brick Wall` `Floating Cogs` `Diagonal Stripes` `Solid` `Transparent` |
+| `logo` | string |  | Project logo | Supported type: `URL` `DATA URI` |
+| `language` | boolean | `0` | Show project language | 可选值：`0` `1` |
+| `font` | string |  | Font | Supported: `Inter` `Bitter` `Raleway` `Rokkitt` `Source Code Pro` `KoHo` `Jost` |
 
 </details>
 
@@ -1190,14 +1189,14 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-line]
 
-#### Spark | GitHub 星标迷你线图
+#### Spark
 
 > \[!Warning]
-> 此服务基于 Github API，会有请求限制，使用需谨慎。
+> This service is based on Github API, and there are request limits. Use it with caution.
 
 ![rl-badge-introduction]
 
-**Spark 是一个生成精美小图的生成器，称为 sparklines，帮你生成 Github 星标的迷你线图。**
+**Spark is a generator of pretty little graphs called sparklines, which shows GitHub stars velocity of a repo.**
 
 [![rl-repo]](https://github.com/antonmedv/spark)
 [![rl-online-tool]](https://stars.medv.io/)
@@ -1210,8 +1209,8 @@ Do you want to know the visit statistics of the website? These badges can help y
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `owner` | string |  | Github 用户名 |  |
-| `repo` | string |  | Github 仓库名 |  |
+| `owner` | string |  | Github username |  |
+| `repo` | string |  | Github repository name |  |
 
 </details>
 
@@ -1232,14 +1231,14 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-line]
 
-#### GitHub Starlines | GitHub 星标迷你线图
+#### GitHub Starlines
 
 > \[!Tip]
-> 首次访问需要等待一会，等待图片生成。你也可以查看构建 [workflow runs](https://github.com/qoomon/starlines/actions/workflows/create-starline.yaml)
+> It can take some time until the image is ready, depending on the amount of stargazers to fetch and process. If you are eager to watch the image generation workflows progress jump to [workflow runs](https://github.com/qoomon/starlines/actions/workflows/create-starline.yaml).
 
 ![rl-badge-introduction]
 
-**动态生成 GitHub 星星历史徽章。**
+**Create beautiful stargazers histograms of your repositories or gists.**
 
 [![rl-repo]](https://github.com/qoomon/starlines)
 [![rl-official-docs]](https://github.com/qoomon/starlines?tab=readme-ov-file#usage)
@@ -1252,8 +1251,8 @@ Do you want to know the visit statistics of the website? These badges can help y
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `owner` | string |  | Github 用户名 |  |
-| `repo` | string |  | Github 仓库名 |  |
+| `owner` | string |  | Github username |  |
+| `repo` | string |  | Github repository name |  |
 
 </details>
 
@@ -1268,7 +1267,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `owner` | string |  | Github 用户名 |  |
+| `owner` | string |  | Github username |  |
 | `gist` | string |  | Gist ID |  |
 
 </details>
@@ -1284,7 +1283,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `username` | string |  | Github 用户名 |  |
+| `username` | string |  | Github username |  |
 
 </details>
 

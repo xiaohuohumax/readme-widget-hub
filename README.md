@@ -50,11 +50,11 @@
     * [GitHub Readme Stats](#github-readme-stats)
     * [Github Readme Streak Stats](#github-readme-streak-stats)
     * [GitHub Workflows Badge](#github-workflows-badge)
-    * [Github Chart API | Github 个人贡献卡片](#github-chart-api--github-个人贡献卡片)
-    * [Repobeats | GitHub 仓库分析图](#repobeats--github-仓库分析图)
-    * [Socialify | Github 项目描述卡片](#socialify--github-项目描述卡片)
-    * [Spark | GitHub 星标迷你线图](#spark--github-星标迷你线图)
-    * [GitHub Starlines | GitHub 星标迷你线图](#github-starlines--github-星标迷你线图)
+    * [Github Chart API](#github-chart-api)
+    * [Repobeats](#repobeats)
+    * [Socialify](#socialify)
+    * [Spark](#spark)
+    * [GitHub Starlines](#github-starlines)
   * [Github Readme Quotes | 编程名言卡片](#github-readme-quotes--编程名言卡片)
   * [GTCE : GitHub Twitter Card Embed | Twitter 推文卡片](#gtce--github-twitter-card-embed--twitter-推文卡片)
   * [Gradgen | 渐变徽章](#gradgen--渐变徽章)
@@ -1046,7 +1046,7 @@
 
 ![rl-line]
 
-#### Github Chart API | Github 个人贡献卡片
+#### Github Chart API
 
 ![rl-badge-introduction]
 
@@ -1063,14 +1063,13 @@
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `color` | string | `default` | 主题颜色 | 可选值：`teal` `halloween` `default` `old` `HEX 值`（例如：`FF0000`） |
+| `color` | string | `default` | 主题颜色 | 可选值：`teal` `halloween` `default` `old` `HEX`（例如：`FF0000`）。 |
 | `username` | string |  | Github 用户名 |  |
 
 </details>
 
 ```markdown
-<!-- 配置颜色 -->
-![Alt](https://ghchart.rshah.org/{color}/{username})
+![配置颜色](https://ghchart.rshah.org/{color}/{username})
 ```
 
 <details>
@@ -1090,16 +1089,16 @@
 ![rl-uses-examples]
 
 ```markdown
-![Github chart](https://ghchart.rshah.org/xiaohuohumax)
+![贡献图表](https://ghchart.rshah.org/xiaohuohumax)
 ```
 
-![Github chart](https://ghchart.rshah.org/xiaohuohumax)
+![贡献图表](https://ghchart.rshah.org/xiaohuohumax)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『回到顶部』-555555?style=for-the-badge"></a></p>
 
 ![rl-line]
 
-#### Repobeats | GitHub 仓库分析图
+#### Repobeats
 
 ![rl-badge-introduction]
 
@@ -1139,7 +1138,7 @@
 
 ![rl-line]
 
-#### Socialify | Github 项目描述卡片
+#### Socialify
 
 ![rl-badge-introduction]
 
@@ -1187,7 +1186,7 @@
 
 ![rl-line]
 
-#### Spark | GitHub 星标迷你线图
+#### Spark
 
 > \[!Warning]
 > 此服务基于 Github API，会有请求限制，使用需谨慎。
@@ -1220,16 +1219,16 @@
 
 ```markdown
 <!-- antonmedv/spark -->
-![Star Sparkline](https://stars.medv.io/antonmedv/spark.svg)
+![星标迷你线图](https://stars.medv.io/antonmedv/spark.svg)
 ```
 
-![Star Sparkline](https://stars.medv.io/antonmedv/spark.svg)
+![星标迷你线图](https://stars.medv.io/antonmedv/spark.svg)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『回到顶部』-555555?style=for-the-badge"></a></p>
 
 ![rl-line]
 
-#### GitHub Starlines | GitHub 星标迷你线图
+#### GitHub Starlines
 
 > \[!Tip]
 > 首次访问需要等待一会，等待图片生成。你也可以查看构建 [workflow runs](https://github.com/qoomon/starlines/actions/workflows/create-starline.yaml)
@@ -1294,10 +1293,10 @@
 
 ```markdown
 <!-- antonmedv/spark -->
-![Star Sparkline](https://stars.medv.io/antonmedv/spark.svg)
+![星标迷你线图](https://stars.medv.io/antonmedv/spark.svg)
 ```
 
-![Star Sparkline](https://stars.medv.io/antonmedv/spark.svg)
+![星标迷你线图](https://stars.medv.io/antonmedv/spark.svg)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『回到顶部』-555555?style=for-the-badge"></a></p>
 
