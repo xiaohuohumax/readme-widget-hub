@@ -27,6 +27,8 @@ export interface BadgeBuilderOptions {
   tplPath: string
   tplBadgeHeadingLevel: number
   examplesFoldThreshold: number
+  openParamsDetails: string
+  openExamplesDetails: string
   readmeJsonPath: string
   localeDirPath: string
   logger: Logger
@@ -282,6 +284,8 @@ export class BadgeReadmeBuilder {
       badgeLength: items.filter(item => item.type === 'badge').length,
       guideBadgeStyle: this.options.guideBadgeStyle || 'for-the-badge',
       tagBadgeStyle: this.options.tagBadgeStyle || 'flat',
+      openParamsDetails: this.options.openParamsDetails,
+      openExamplesDetails: this.options.openExamplesDetails,
     })
     return generateToc(readmeMarkdown, readme.tocTitle)
   }

@@ -27,6 +27,10 @@ interface ImportMetaEnv {
   readonly VITE_EXAMPLES_FOLD_THRESHOLD: string
   /** 本地化 README 文件目录 */
   readonly VITE_LOCALE_README_DIR_PATH: string
+  /** 是否显示徽章详情页的参数 */
+  readonly VITE_OPEN_PARAMS_DETAILS: string
+  /** 是否显示徽章详情页的示例 */
+  readonly VITE_OPEN_EXAMPLES_DETAILS: string
 }
 
 interface ImportMeta {

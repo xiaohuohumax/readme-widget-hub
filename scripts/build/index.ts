@@ -11,6 +11,8 @@ const builder = new BadgeReadmeBuilder({
   tplPath: import.meta.env.VITE_TPL_PATH,
   tplBadgeHeadingLevel: Number.parseInt(import.meta.env.VITE_TPL_BADGE_HEADING_LEVEL),
   examplesFoldThreshold: Number.parseInt(import.meta.env.VITE_EXAMPLES_FOLD_THRESHOLD),
+  openParamsDetails: import.meta.env.VITE_OPEN_PARAMS_DETAILS,
+  openExamplesDetails: import.meta.env.VITE_OPEN_EXAMPLES_DETAILS,
   readmeJsonPath: 'readme.json',
   localeDirPath,
   logger: console,

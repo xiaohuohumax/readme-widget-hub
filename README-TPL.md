@@ -60,7 +60,7 @@
 {{each $value.rules}}
 {{if $value.params.length || $value.querys.length}}
 
-<details>
+<details {{if openParamsDetails === 'true'}}open{{/if}}>
   <summary>{{readme.layout.toggleBadgeParams}}</summary><p></p>
 
 | {{readme.layout.paramsTable.name}} | {{readme.layout.paramsTable.type}} | {{readme.layout.paramsTable.default}} | {{readme.layout.paramsTable.description}} | {{readme.layout.paramsTable.extDescription}} |
@@ -93,7 +93,7 @@
 {{/each}}
 
 {{if $value.foldedExamples.length > 0}}
-<details>
+<details {{if openExamplesDetails === 'true'}}open{{/if}}>
   <summary>{{readme.layout.toggleUsesExamples}}</summary><p></p>
 
 {{each $value.foldedExamples}}

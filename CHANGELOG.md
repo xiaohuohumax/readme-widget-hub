@@ -1,5 +1,11 @@
 # badge-collection
 
+## 1.13.0
+
+### Minor Changes
+
+- 支持默认展开参数列表和使用示例
+
 ## 1.12.0
 
 ### Minor Changes
