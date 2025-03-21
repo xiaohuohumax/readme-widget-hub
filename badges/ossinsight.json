@@ -1,9 +1,11 @@
 {
-  "title": "Open Source Software Insight | 开源软件洞察",
+  "title": "Open Source Software Insight",
   "description": "在 30 秒内即可将实时小部件嵌入到仓库的 README.md 文件中！",
+  "description:en-US": "In less than 30 seconds, you can embed real-time widgets into the README.md file of your repository!",
   "alert": {
     "type": "Tip",
-    "messages": "由于此项目支持的卡片种类非常多，且功能强大，这里只简单介绍－推送和提交记录卡片，其他卡片使用方式还请移步官方文档。"
+    "messages": "由于此项目支持的卡片种类非常多，且功能强大，这里只简单介绍－推送和提交记录卡片，其他卡片使用方式还请移步官方文档。",
+    "messages:en-US": "Since the card type supported by this project is very many and powerful, here we only introduce - push and commit records card, other cards usage please refer to the official documentation."
   },
   "tags": {
     "repoUrl": "https://github.com/pingcap/ossinsight",
@@ -14,13 +16,16 @@
       {
         "name": "repo_id",
         "type": "string",
-        "description": "Github 仓库 ID"
+        "description": "Github 仓库 ID",
+        "description:en-US": "Github repository ID"
       },
       {
         "name": "color_scheme",
         "type": "string",
         "description": "卡片颜色主题",
-        "extDescription": "可选值：`light` `dark`"
+        "description:en-US": "Card color scheme",
+        "extDescription": "可选值：`light` `dark`",
+        "extDescription:en-US": "Supported: `light` `dark`"
       }
     ],
     "srcTemplate": "https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month{?repo_id,color_scheme}"
