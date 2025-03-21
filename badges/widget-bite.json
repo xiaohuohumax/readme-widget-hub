@@ -1,6 +1,7 @@
 {
-  "title": "Widget Bite | 速食小组件",
+  "title": "Widget Bite",
   "description": "为你的 README 添加一些小组件（包含：访客计数，投票以及一个好看的 Banner），让你的项目更加生动有趣。",
+  "description:en-US": "Add some small components (such as visitor count, voting, and a beautiful banner) to your README to make your project more engaging and interesting.",
   "tags": {
     "onlineToolUrl": "https://widgetbite.com/",
     "officialDocsUrl": "https://widgetbite.com/"
@@ -11,7 +12,8 @@
         {
           "name": "username",
           "type": "string",
-          "description": "Github 用户名"
+          "description": "Github 用户名",
+          "description:en-US": "Github username"
         }
       ],
       "annotate": "Visitor Stats",
@@ -22,40 +24,50 @@
         {
           "name": "title",
           "type": "string",
-          "description": "标题"
+          "description": "标题",
+          "description:en-US": "Title"
         },
         {
           "name": "subtitle",
           "type": "string",
-          "description": "副标题"
+          "description": "副标题",
+          "description:en-US": "Subtitle"
         },
         {
           "name": "titletransform",
           "type": "string",
           "default": "none",
           "description": "标题旋转方式",
-          "extDescription": "可选值：`none` `rotate` `skew` `scale`"
+          "description:en-US": "Title transform",
+          "extDescription": "可选值：`none` `rotate` `skew` `scale`",
+          "extDescription:en-US": "Supported: `none` `rotate` `skew` `scale`"
         },
         {
           "name": "subtitletransform",
           "type": "string",
           "default": "none",
           "description": "副标题旋转方式",
-          "extDescription": "可选值：`none` `rotate` `skew` `scale`"
+          "description:en-US": "Subtitle transform",
+          "extDescription": "可选值：`none` `rotate` `skew` `scale`",
+          "extDescription:en-US": "Supported: `none` `rotate` `skew` `scale`"
         },
         {
           "name": "fontpalette",
           "type": "string",
           "default": "none",
           "description": "文字样式",
-          "extDescription": "可选值：`none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`"
+          "description:en-US": "Text palette",
+          "extDescription": "可选值：`none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`",
+          "extDescription:en-US": "Supported: `none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`"
         },
         {
           "name": "backgroundpalette",
           "type": "string",
           "default": "none",
           "description": "背景样式",
-          "extDescription": "可选值：`none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`"
+          "description:en-US": "Background palette",
+          "extDescription": "可选值：`none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`",
+          "extDescription:en-US": "Supported: `none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`"
         }
       ],
       "annotate": "Banner",
@@ -66,12 +78,14 @@
     {
       "explain": {
         "annotate": "xiaohuohumax",
-        "alt": "Visitor Stats",
+        "alt": "访客统计",
+        "alt:en-US": "Visitor Stats",
         "src": "https://widgetbite.com/stats/xiaohuohumax"
       },
       "images": [
         {
-          "alt": "Visitor Stats",
+          "alt": "访客统计",
+          "alt:en-US": "Visitor Stats",
           "src": "https://widgetbite.com/stats/xiaohuohumax"
         }
       ]
