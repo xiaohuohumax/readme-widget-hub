@@ -1,6 +1,7 @@
 {
-  "title": "README Jokes | README 笑话",
+  "title": "README Jokes",
   "description": "README 上的随机编程笑话。",
+  "description:en-US": "Jokes for your GitHub READMEs.",
   "tags": {
     "repoUrl": "https://github.com/ABSphreak/readme-jokes",
     "officialDocsUrl": "https://github.com/ABSphreak/readme-jokes?tab=readme-ov-file#usage"
@@ -11,51 +12,67 @@
         "name": "bgColor",
         "type": "string",
         "description": "背景颜色",
-        "extDescription": "格式：`HEX` 例如：`#FF0000`"
+        "description:en-US": "Background Color",
+        "extDescription": "格式：`HEX` 例如：`#FF0000`",
+        "extDescription:en-US": "Format: `HEX` e.g. `#FF0000`"
       },
       {
         "name": "borderColor",
         "type": "string",
         "description": "边框颜色",
-        "extDescription": "格式：`HEX` 例如：`#FF0000`"
+        "description:en-US": "Border Color",
+        "extDescription": "格式：`HEX` 例如：`#FF0000`",
+        "extDescription:en-US": "Format: `HEX` e.g. `#FF0000`"
       },
       {
         "name": "qColor",
         "type": "string",
         "description": "问题颜色",
-        "extDescription": "格式：`HEX` 例如：`#FF0000`"
+        "description:en-US": "Question Color",
+        "extDescription": "格式：`HEX` 例如：`#FF0000`",
+        "extDescription:en-US": "Format: `HEX` e.g. `#FF0000`"
       },
       {
         "name": "aColor",
         "type": "string",
         "description": "回答颜色",
-        "extDescription": "格式：`HEX` 例如：`#FF0000`"
+        "description:en-US": "Answer Color",
+        "extDescription": "格式：`HEX` 例如：`#FF0000`",
+        "extDescription:en-US": "Format: `HEX` e.g. `#FF0000`"
       },
       {
         "name": "textColor",
         "type": "string",
         "description": "正常文字颜色",
-        "extDescription": "格式：`HEX` 例如：`#FF0000`"
+        "description:en-US": "Normal text Color",
+        "extDescription": "格式：`HEX` 例如：`#FF0000`",
+        "extDescription:en-US": "Format: `HEX` e.g. `#FF0000`"
       },
       {
         "name": "codeColor",
         "type": "string",
         "description": "代码颜色",
-        "extDescription": "格式：`HEX` 例如：`#FF0000`"
+        "description:en-US": "Code Color",
+        "extDescription": "格式：`HEX` 例如：`#FF0000`",
+        "extDescription:en-US": "Format: `HEX` e.g. `#FF0000`"
       },
       {
         "name": "hideBorder",
         "type": "boolean",
         "default": "false",
-        "description": "是隐藏边框",
-        "extDescription": "隐藏：`&hideBorder` 正常：不添加 `hideBorder` 即可"
+        "description": "隐藏边框",
+        "description:en-US": "Mention as a value-less parameter to hide boder",
+        "extDescription": "隐藏：`&hideBorder` 正常：不添加 `hideBorder` 即可",
+        "extDescription:en-US": "Hide: `&hideBorder` Show: No need to add `hideBorder`"
       },
       {
         "name": "theme",
         "type": "string",
         "default": "default",
         "description": "主题",
-        "extDescription": "可选值：`random` `gradientBlue` `solidBlue` `tokyonight` `halloween` `watermelon` `pinkish` `daySky` `radical` `merko` `gruvbox` `vue` 更多主题参考：[theme](https://github.com/ABSphreak/readme-jokes?tab=readme-ov-file#parameters-available)"
+        "description:en-US": "Theme",
+        "extDescription": "可选值：`random` `gradientBlue` `solidBlue` `tokyonight` `halloween` `watermelon` `pinkish` `daySky` `radical` `merko` `gruvbox` `vue` 更多主题：[theme](https://github.com/ABSphreak/readme-jokes?tab=readme-ov-file#parameters-available)",
+        "extDescription:en-US": "Supported: `random` `gradientBlue` `solidBlue` `tokyonight` `halloween` `watermelon` `pinkish` `daySky` `radical` `merko` `gruvbox` `vue` More themes: [theme](https://github.com/ABSphreak/readme-jokes?tab=readme-ov-file#parameters-available)"
       }
     ],
     "srcTemplate": "https://readme-jokes.vercel.app/api{?bgColor,borderColor,qColor,aColor,textColor,codeColor,hideBorder,theme}"
@@ -63,12 +80,14 @@
   "examples": [
     {
       "explain": {
-        "alt": "README Jokes",
+        "alt": "编程笑话",
+        "alt:en-US": "README Jokes",
         "src": "https://readme-jokes.vercel.app/api?hideBorder"
       },
       "images": [
         {
-          "alt": "README Jokes",
+          "alt": "编程笑话",
+          "alt:en-US": "README Jokes",
           "src": "https://readme-jokes.vercel.app/api?hideBorder"
         }
       ]
