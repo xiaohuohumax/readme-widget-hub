@@ -58,19 +58,19 @@
     * [Socialify](#socialify)
     * [Spark](#spark)
     * [GitHub Starlines](#github-starlines)
-  * [Github Readme Quotes | 编程名言卡片](#github-readme-quotes--编程名言卡片)
-  * [GTCE : GitHub Twitter Card Embed | Twitter 推文卡片](#gtce--github-twitter-card-embed--twitter-推文卡片)
-  * [Gradgen | 渐变徽章](#gradgen--渐变徽章)
+  * [Github Readme Quotes](#github-readme-quotes)
+  * [GitHub Twitter Card Embed](#github-twitter-card-embed)
+  * [Gradgen](#gradgen)
   * [Iconify | 图标徽章](#iconify--图标徽章)
   * [Open Collective | 财务贡献者图](#open-collective--财务贡献者图)
-  * [OpenSSF Best Practices Badge | 最佳实践徽章](#openssf-best-practices-badge--最佳实践徽章)
+  * [OpenSSF Best Practices Badge](#openssf-best-practices-badge)
   * [Open Source Software Insight | 开源软件洞察](#open-source-software-insight--开源软件洞察)
   * [PlayBadges | Play Store 应用卡片](#playbadges--play-store-应用卡片)
   * [README Jokes | README 笑话](#readme-jokes--readme-笑话)
   * [Readme Typing SVG | 打字机效果的动态 SVG 卡片](#readme-typing-svg--打字机效果的动态-svg-卡片)
   * [Sloc Cloc and Code | 代码行数统计](#sloc-cloc-and-code--代码行数统计)
   * [Stackoverflow Readme Profile | Stackoverflow 个人资料卡片](#stackoverflow-readme-profile--stackoverflow-个人资料卡片)
-  * [Star History | GitHub 星标历史图](#star-history--github-星标历史图)
+  * [Star History](#star-history)
   * [Widget Bite | 速食小组件](#widget-bite--速食小组件)
 * [📖 How to run the project](#-how-to-run-the-project)
 * [✍ How to add badges](#-how-to-add-badges)
@@ -1305,11 +1305,11 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-line]
 
-### Github Readme Quotes | 编程名言卡片
+### Github Readme Quotes
 
 ![rl-badge-introduction]
 
-**将编程名言添加到你的 README 中。**
+**Add Programming Quotes To Your GitHub Readme.**
 
 [![rl-repo]](https://github.com/PiyushSuthar/github-readme-quotes)
 [![rl-official-docs]](https://github.com/PiyushSuthar/github-readme-quotes?tab=readme-ov-file#usage-%EF%B8%8F)
@@ -1322,11 +1322,11 @@ Do you want to know the visit statistics of the website? These badges can help y
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
-| `type` | string | `vertical` | 类型 | 可选值：`vertical`、`horizontal` |
-| `theme` | string | `light` | 主题 | 可选值：`dark` `light` `chartreuse-dark` `radical` `merko` `gruvbox` `tokyonight` `catppuccin` `catppuccin_latte` `catppuccin_frappe` `catppuccin_macchiato` `catppuccin_mocha` `algolia` `monokai` `dracula` `nord` `github` `graywhite` `moonlight` `hackerman` `shadow_red` `shadow_green` `shadow_blue` |
-| `quote` | string |  | 名言 | 若为空，则随机获取名言，名言列表：[quotes.json](https://github.com/mudroljub/programming-quotes-api/raw/master/data/quotes.json) |
-| `author` | string | `Me` | 名言作者 |  |
-| `border` | boolean | `false` | 是否使用边框 |  |
+| `type` | string | `vertical` | Type | Supported: `vertical` `horizontal` |
+| `theme` | string | `light` | Theme | Supported: `dark` `light` `chartreuse-dark` `radical` `merko` `gruvbox` `tokyonight` `catppuccin` `catppuccin_latte` `catppuccin_frappe` `catppuccin_macchiato` `catppuccin_mocha` `algolia` `monokai` `dracula` `nord` `github` `graywhite` `moonlight` `hackerman` `shadow_red` `shadow_green` `shadow_blue` |
+| `quote` | string |  | Quote | If empty, a random quote will be retrieved, quote list: [quotes.json](https://github.com/mudroljub/programming-quotes-api/raw/master/data/quotes.json) |
+| `author` | string | `Me` | Quote Author |  |
+| `border` | boolean | `false` | Use Border |  |
 
 </details>
 
@@ -1337,19 +1337,19 @@ Do you want to know the visit statistics of the website? These badges can help y
 ![rl-uses-examples]
 
 ```markdown
-![Random Quote Badge](https://quotes-github-readme.vercel.app/api?theme=dark&type=horizontal)
+![Random Quote](https://quotes-github-readme.vercel.app/api?theme=dark&type=horizontal)
 ```
 
-![Random Quote Badge](https://quotes-github-readme.vercel.app/api?theme=dark\&type=horizontal)
+![Random Quote](https://quotes-github-readme.vercel.app/api?theme=dark\&type=horizontal)
 
 <details>
   <summary>Click to expand/collapse more examples</summary><p></p>
 
 ```markdown
-![Random Quote Badge](https://quotes-github-readme.vercel.app/api?theme=nord&type=horizontal&border=true)
+![Random Quote](https://quotes-github-readme.vercel.app/api?theme=nord&type=horizontal&border=true)
 ```
 
-![Random Quote Badge](https://quotes-github-readme.vercel.app/api?theme=nord\&type=horizontal\&border=true)
+![Random Quote](https://quotes-github-readme.vercel.app/api?theme=nord\&type=horizontal\&border=true)
 
 </details>
 
@@ -1357,11 +1357,11 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-line]
 
-### GTCE : GitHub Twitter Card Embed | Twitter 推文卡片
+### GitHub Twitter Card Embed
 
 ![rl-badge-introduction]
 
-**展示你 Twitter 的推文、创建时间、点赞、认证徽章等信息。**
+\*\* Get a Verified badge, Showcase your Tweet on Website, GitHub ReadMe or anywhere else.\*\*
 
 [![rl-repo]](https://github.com/VishwaGauravIn/github-twitter-card-embed)
 [![rl-online-tool]](https://gtce.itsvg.in/)
@@ -1375,12 +1375,12 @@ Do you want to know the visit statistics of the website? These badges can help y
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
-| `username` | string |  | Twitter 用户名 |  |
-| `theme` | string | `dracula` | 主题 | 可选值：`default` `default_repocard` `transparent` `dark` `tokyonight` 更多主题参考：[Themes](https://github.com/VishwaGauravIn/github-twitter-card-embed?tab=readme-ov-file#-themes) |
-| `icon` | string | `default` | 图标 | 可选值：`default` `thunder` `sun` `beaker` `bookmark` `bug` `cake` `badge` `code` `smile` `fire` `hashtag` `heart` `lock` `moon` `radio` `sparkles` `star` `trophy` `user` |
-| `time` | boolean | `true` | 是否显示时间 | 可选值：`true` `false` |
-| `response` | boolean | `true` | 是否显示点赞、转发和评论 | 可选值：`true` `false` |
-| `border` | boolean | `true` | 是否显示边框 | 可选值：`true` `false` |
+| `username` | string |  | Twitter usernmae |  |
+| `theme` | string | `dracula` | Theme | Supported: `default` `default_repocard` `transparent` `dark` `tokyonight` main theme references: [Themes](https://github.com/VishwaGauravIn/github-twitter-card-embed?tab=readme-ov-file#-themes) |
+| `icon` | string | `default` | Icon | Supported: `default` `thunder` `sun` `beaker` `bookmark` `bug` `cake` `badge` `code` `smile` `fire` `hashtag` `heart` `lock` `moon` `radio` `sparkles` `star` `trophy` `user` |
+| `time` | boolean | `true` | Show time | Supported: `true` `false` |
+| `response` | boolean | `true` | Show response | Supported: `true` `false` |
+| `border` | boolean | `true` | Show border | Supported: `true` `false` |
 
 </details>
 
@@ -1401,14 +1401,14 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-line]
 
-### Gradgen | 渐变徽章
+### Gradgen
 
 > \[!Tip]
-> 由于此项目徽章是基于 [badgen.net](https://badgen.net/) 生成，因此配置参数可直接参考 [badgen.net help](https://badgen.net/help)，下面配置仅展示此项目扩展参数。
+> Since this project's badges are based on [badgen.net](https://badgen.net/), the configuration parameters can be directly referred to [badgen.net help](https://badgen.net/help). The following configuration only shows the extended parameters of this project.
 
 ![rl-badge-introduction]
 
-**Gradgen 是一个简单而强大的徽章生成器，它为 [badgen.net](https://badgen.net/) 上的徽章增添了令人惊叹的渐变效果。**
+**Gradgen is a simple yet powerful Cloudflare worker that enhances your badges from [badgen.net](https://badgen.net/) with stunning gradients.**
 
 [![rl-repo]](https://github.com/bokub/gradgen)
 [![rl-official-docs]](https://github.com/bokub/gradgen?tab=readme-ov-file#usage)
@@ -1421,11 +1421,11 @@ Do you want to know the visit statistics of the website? These badges can help y
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `badgenNetParams` | any\[] |  | [badgen.net 徽章路径参数](https://badgen.net/help) | 例如：`static/...`（静态徽章） `github/...`（Github 相关） |
+| `badgenNetParams` | any\[] |  | [badgen.net Badge path parameters](https://badgen.net/help) | For example: `static/...` (Static badges) `github/...` (Github-related) |
 | ![rl-link-query] | | | | |
-| `gradient` | string |  | 渐变色 | 格式：`color1,color2` 颜色格式：`HEX` `CSS 颜色` |
-| `style` | string |  | 徽章样式 | 可选值：`flat` |
-| `badgenNetQuerys` | any\[] |  | [badgen.net 徽章查询参数](https://badgen.net/help) | 例如：`color`（图标颜色） `icon`（图标）等 |
+| `gradient` | string |  | Gradient | Format: `color1,color2` Color format: `HEX` `CSS color name` |
+| `style` | string |  | Badge style | Supported: `flat` |
+| `badgenNetQuerys` | any\[] |  | [badgen.net Badge query parameters](https://badgen.net/help) | For example: `color` (Icon color) `icon` (Icon) etc. |
 
 </details>
 
@@ -1551,11 +1551,11 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-line]
 
-### OpenSSF Best Practices Badge | 最佳实践徽章
+### OpenSSF Best Practices Badge
 
 ![rl-badge-introduction]
 
-**本项目确定了自由/开源软件（FLOSS）的最佳实践，并为这些最佳实践实施了一个徽章系统。**
+**Open Source Security Foundation (OpenSSF) Best Practices Badge.**
 
 [![rl-repo]](https://github.com/coreinfrastructure/best-practices-badge)
 [![rl-online-tool]](https://www.bestpractices.dev)
@@ -1569,7 +1569,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `id` | string |  | 项目 ID |  |
+| `id` | string |  | Project ID |  |
 
 </details>
 
@@ -1913,11 +1913,11 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-line]
 
-### Star History | GitHub 星标历史图
+### Star History
 
 ![rl-badge-introduction]
 
-**Star History 一个可以显示 GitHub 项目的 star 历史图的徽章。**
+**The missing star history graph of GitHub repos.**
 
 [![rl-repo]](https://github.com/star-history/star-history)
 [![rl-online-tool]](https://www.star-history.com)
@@ -1931,8 +1931,8 @@ Do you want to know the visit statistics of the website? These badges can help y
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
-| `repos` | string\[] |  | 仓库名 | 多个仓库名用逗号分隔，例如：`owner1/repo1,owner2/repo2` |
-| `type` | string |  | 显示类型 | 可选值：`Date` `Timeline` |
+| `repos` | string |  | Repository name | Multiple repository names separated by `,`, such as: `owner1/repo1,owner2/repo2` |
+| `type` | string |  | Display type | Supported: `Date` `Timeline` |
 
 </details>
 

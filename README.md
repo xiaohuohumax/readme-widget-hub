@@ -55,19 +55,19 @@
     * [Socialify](#socialify)
     * [Spark](#spark)
     * [GitHub Starlines](#github-starlines)
-  * [Github Readme Quotes | 编程名言卡片](#github-readme-quotes--编程名言卡片)
-  * [GTCE : GitHub Twitter Card Embed | Twitter 推文卡片](#gtce--github-twitter-card-embed--twitter-推文卡片)
-  * [Gradgen | 渐变徽章](#gradgen--渐变徽章)
+  * [Github Readme Quotes](#github-readme-quotes)
+  * [GitHub Twitter Card Embed](#github-twitter-card-embed)
+  * [Gradgen](#gradgen)
   * [Iconify | 图标徽章](#iconify--图标徽章)
   * [Open Collective | 财务贡献者图](#open-collective--财务贡献者图)
-  * [OpenSSF Best Practices Badge | 最佳实践徽章](#openssf-best-practices-badge--最佳实践徽章)
+  * [OpenSSF Best Practices Badge](#openssf-best-practices-badge)
   * [Open Source Software Insight | 开源软件洞察](#open-source-software-insight--开源软件洞察)
   * [PlayBadges | Play Store 应用卡片](#playbadges--play-store-应用卡片)
   * [README Jokes | README 笑话](#readme-jokes--readme-笑话)
   * [Readme Typing SVG | 打字机效果的动态 SVG 卡片](#readme-typing-svg--打字机效果的动态-svg-卡片)
   * [Sloc Cloc and Code | 代码行数统计](#sloc-cloc-and-code--代码行数统计)
   * [Stackoverflow Readme Profile | Stackoverflow 个人资料卡片](#stackoverflow-readme-profile--stackoverflow-个人资料卡片)
-  * [Star History | GitHub 星标历史图](#star-history--github-星标历史图)
+  * [Star History](#star-history)
   * [Widget Bite | 速食小组件](#widget-bite--速食小组件)
 * [📖 如何运行项目](#-如何运行项目)
 * [✍ 如何添加徽章](#-如何添加徽章)
@@ -1302,7 +1302,7 @@
 
 ![rl-line]
 
-### Github Readme Quotes | 编程名言卡片
+### Github Readme Quotes
 
 ![rl-badge-introduction]
 
@@ -1319,7 +1319,7 @@
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
-| `type` | string | `vertical` | 类型 | 可选值：`vertical`、`horizontal` |
+| `type` | string | `vertical` | 类型 | 可选值：`vertical` `horizontal` |
 | `theme` | string | `light` | 主题 | 可选值：`dark` `light` `chartreuse-dark` `radical` `merko` `gruvbox` `tokyonight` `catppuccin` `catppuccin_latte` `catppuccin_frappe` `catppuccin_macchiato` `catppuccin_mocha` `algolia` `monokai` `dracula` `nord` `github` `graywhite` `moonlight` `hackerman` `shadow_red` `shadow_green` `shadow_blue` |
 | `quote` | string |  | 名言 | 若为空，则随机获取名言，名言列表：[quotes.json](https://github.com/mudroljub/programming-quotes-api/raw/master/data/quotes.json) |
 | `author` | string | `Me` | 名言作者 |  |
@@ -1334,19 +1334,19 @@
 ![rl-uses-examples]
 
 ```markdown
-![Random Quote Badge](https://quotes-github-readme.vercel.app/api?theme=dark&type=horizontal)
+![随机名言](https://quotes-github-readme.vercel.app/api?theme=dark&type=horizontal)
 ```
 
-![Random Quote Badge](https://quotes-github-readme.vercel.app/api?theme=dark\&type=horizontal)
+![随机名言](https://quotes-github-readme.vercel.app/api?theme=dark\&type=horizontal)
 
 <details>
   <summary>点击展开/收起更多示例</summary><p></p>
 
 ```markdown
-![Random Quote Badge](https://quotes-github-readme.vercel.app/api?theme=nord&type=horizontal&border=true)
+![随机名言](https://quotes-github-readme.vercel.app/api?theme=nord&type=horizontal&border=true)
 ```
 
-![Random Quote Badge](https://quotes-github-readme.vercel.app/api?theme=nord\&type=horizontal\&border=true)
+![随机名言](https://quotes-github-readme.vercel.app/api?theme=nord\&type=horizontal\&border=true)
 
 </details>
 
@@ -1354,7 +1354,7 @@
 
 ![rl-line]
 
-### GTCE : GitHub Twitter Card Embed | Twitter 推文卡片
+### GitHub Twitter Card Embed
 
 ![rl-badge-introduction]
 
@@ -1398,7 +1398,7 @@
 
 ![rl-line]
 
-### Gradgen | 渐变徽章
+### Gradgen
 
 > \[!Tip]
 > 由于此项目徽章是基于 [badgen.net](https://badgen.net/) 生成，因此配置参数可直接参考 [badgen.net help](https://badgen.net/help)，下面配置仅展示此项目扩展参数。
@@ -1548,11 +1548,11 @@
 
 ![rl-line]
 
-### OpenSSF Best Practices Badge | 最佳实践徽章
+### OpenSSF Best Practices Badge
 
 ![rl-badge-introduction]
 
-**本项目确定了自由/开源软件（FLOSS）的最佳实践，并为这些最佳实践实施了一个徽章系统。**
+**开源安全基金会（OpenSSF）最佳实践徽章。**
 
 [![rl-repo]](https://github.com/coreinfrastructure/best-practices-badge)
 [![rl-online-tool]](https://www.bestpractices.dev)
@@ -1910,7 +1910,7 @@
 
 ![rl-line]
 
-### Star History | GitHub 星标历史图
+### Star History
 
 ![rl-badge-introduction]
 
@@ -1928,7 +1928,7 @@
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
-| `repos` | string\[] |  | 仓库名 | 多个仓库名用逗号分隔，例如：`owner1/repo1,owner2/repo2` |
+| `repos` | string |  | 仓库名 | 多个仓库名用 `,` 分隔，例如：`owner1/repo1,owner2/repo2` |
 | `type` | string |  | 显示类型 | 可选值：`Date` `Timeline` |
 
 </details>
