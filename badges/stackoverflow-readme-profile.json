@@ -1,6 +1,7 @@
 {
-  "title": "Stackoverflow Readme Profile | Stackoverflow 个人资料卡片",
+  "title": "Stackoverflow Readme Profile",
   "description": "轻松分享你的 Stackoverflow 个人资料到你的 README。",
+  "description:en-US": "Easily share your Stackoverflow's profile on your README.",
   "tags": {
     "repoUrl": "https://github.com/johannchopin/stackoverflow-readme-profile",
     "onlineToolUrl": "https://stackoverflow-readme-profile.vercel.app/",
@@ -13,12 +14,15 @@
           "name": "template",
           "type": "string",
           "description": "显示模板",
-          "extDescription": "可选值：`profile` `profile-small`"
+          "description:en-US": "Display template",
+          "extDescription": "可选值：`profile` `profile-small`",
+          "extDescription:en-US": "Supported: `profile` `profile-small`"
         },
         {
           "name": "userId",
           "type": "string",
-          "description": "Stackoverflow 用户 ID"
+          "description": "Stackoverflow 用户 ID",
+          "description:en-US": "Stackoverflow user ID"
         }
       ],
       "querys": [
@@ -27,21 +31,27 @@
           "type": "string",
           "default": "default",
           "description": "主题",
-          "extDescription": "可选值：`default` `dark` `cobalt` `monokai` `graywhite` `hotdog`"
+          "description:en-US": "Theme to use",
+          "extDescription": "可选值：`default` `dark` `cobalt` `monokai` `graywhite` `hotdog`",
+          "extDescription:en-US": "Supported: `default` `dark` `cobalt` `monokai` `graywhite` `hotdog`"
         },
         {
           "name": "website",
           "type": "boolean",
           "default": "true",
           "description": "是否显示网站 URL",
-          "extDescription": "`template=profile` 可用，可选值：`true` `false`"
+          "description:en-US": "Show or not the website URL",
+          "extDescription": "仅当 `template=profile` 时可用，可选值：`true` `false`",
+          "extDescription:en-US": "Only when `template=profile` is available, supported: `true` `false`"
         },
         {
           "name": "location",
           "type": "boolean",
           "default": "true",
           "description": "是否显示位置",
-          "extDescription": "`template=profile` 可用，可选值：`true` `false`"
+          "description:en-US": "Show or not the location",
+          "extDescription": "仅当 `template=profile` 时可用，可选值：`true` `false`",
+          "extDescription:en-US": "Only when `template=profile` is available, supported: `true` `false`"
         }
       ],
       "annotate": "Profile",
@@ -52,12 +62,14 @@
         {
           "name": "tagName",
           "type": "string",
-          "description": "标签名称"
+          "description": "标签名称",
+          "description:en-US": "Tag name"
         },
         {
           "name": "userId",
           "type": "string",
-          "description": "Stackoverflow 用户 ID"
+          "description": "Stackoverflow 用户 ID",
+          "description:en-US": "Stackoverflow user ID"
         }
       ],
       "querys": [
@@ -66,7 +78,9 @@
           "type": "string",
           "default": "default",
           "description": "主题",
-          "extDescription": "可选值：`default` `dark` `cobalt` `monokai` `graywhite` `hotdog`"
+          "description:en-US": "Theme to use",
+          "extDescription": "可选值：`default` `dark` `cobalt` `monokai` `graywhite` `hotdog`",
+          "extDescription:en-US": "Supported: `default` `dark` `cobalt` `monokai` `graywhite` `hotdog`"
         }
       ],
       "annotate": "Tags League Ranking",
