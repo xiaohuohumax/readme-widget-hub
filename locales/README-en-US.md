@@ -20,7 +20,7 @@
   <div>
     <b>
       <a class="locale-link" data-locale="" href="/README.md">中文</a>
-      <a class="locale-link" data-locale="en-US" href="/locales/README-en-US.md">English(🚧)</a>
+      <a class="locale-link" data-locale="en-US" href="/locales/README-en-US.md">English</a>
     </b>
   </div>
   <br/>
@@ -61,17 +61,17 @@
   * [Github Readme Quotes](#github-readme-quotes)
   * [GitHub Twitter Card Embed](#github-twitter-card-embed)
   * [Gradgen](#gradgen)
-  * [Iconify | 图标徽章](#iconify--图标徽章)
-  * [Open Collective | 财务贡献者图](#open-collective--财务贡献者图)
+  * [Iconify](#iconify)
+  * [Open Collective](#open-collective)
   * [OpenSSF Best Practices Badge](#openssf-best-practices-badge)
-  * [Open Source Software Insight | 开源软件洞察](#open-source-software-insight--开源软件洞察)
-  * [PlayBadges | Play Store 应用卡片](#playbadges--play-store-应用卡片)
-  * [README Jokes | README 笑话](#readme-jokes--readme-笑话)
-  * [Readme Typing SVG | 打字机效果的动态 SVG 卡片](#readme-typing-svg--打字机效果的动态-svg-卡片)
-  * [Sloc Cloc and Code | 代码行数统计](#sloc-cloc-and-code--代码行数统计)
-  * [Stackoverflow Readme Profile | Stackoverflow 个人资料卡片](#stackoverflow-readme-profile--stackoverflow-个人资料卡片)
+  * [Open Source Software Insight](#open-source-software-insight)
+  * [PlayBadges](#playbadges)
+  * [README Jokes](#readme-jokes)
+  * [Readme Typing SVG](#readme-typing-svg)
+  * [Sloc Cloc and Code](#sloc-cloc-and-code)
+  * [Stackoverflow Readme Profile](#stackoverflow-readme-profile)
   * [Star History](#star-history)
-  * [Widget Bite | 速食小组件](#widget-bite--速食小组件)
+  * [Widget Bite](#widget-bite)
 * [📖 How to run the project](#-how-to-run-the-project)
 * [✍ How to add badges](#-how-to-add-badges)
 * [🌎 How to add a new language](#-how-to-add-a-new-language)
@@ -94,23 +94,23 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `badgeContent` | string |  | Label, (optional) message, and color. Separated by dashes. | Example: `build-passing-brightgreen`. |
+| `badgeContent` | string |  | Label, (optional) message, and color. Separated by dashes | Example: `build-passing-brightgreen`. |
 | ![rl-link-query] | | | | |
-| `style` | string | `flat` | Badge style. | Possible values: `flat` `flat-square` `plastic` `for-the-badge` `social`. |
-| `logo` | string |  | Icon slug from simple-icons. | You can click the icon title on [simple-icons](https://simpleicons.org/) to copy the slug or they can be found in the [slugs.md file](https://github.com/simple-icons/simple-icons/blob/master/slugs.md) in the simple-icons repository. [Further](https://shields.io/docs/logos) info. |
-| `logoColor` | string |  | The color of the logo. | Supported: `hex`, `rgb`, `rgba`, `hsl`, `hsla` and `css named colors`. Supported for simple-icons logos but not for custom logos. |
-| `logoSize` | string |  | Make icons adaptively resize by setting `auto`. | Useful for some wider logos like `amd` and `amg`. Supported for simple-icons logos but not for custom logos. |
-| `label` | string |  | Override the default left-hand-side text. | [URL-Encoding](https://developer.mozilla.org/en-US/docs/Glossary/Percent-encoding) needed for spaces or special characters! |
-| `labelColor` | string |  | The color of the logo. | Supported: `hex`, `rgb`, `rgba`, `hsl`, `hsla` and `css named colors`. Supported for simple-icons logos but not for custom logos. |
-| `color` | string |  | Background color of the right part. | Supported: `hex`, `rgb`, `rgba`, `hsl`, `hsla` and `css named colors`. |
-| `cacheSeconds` | string | `3600` | HTTP cache lifetime. | Unit: seconds. Rules are applied to infer a default value on a per-badge basis. Any values specified below the default will be ignored. |
-| `link` | string\[] |  | Specify the action to perform when clicking the left/right side of the badge. | Note: This only works when integrating your badge in an <object> HTML tag, but not an <img> tag or a markup language. |
+| `style` | string | `flat` | Badge style | Possible values: `flat` `flat-square` `plastic` `for-the-badge` `social`. |
+| `logo` | string |  | Icon slug from simple-icons | You can click the icon title on [simple-icons](https://simpleicons.org/) to copy the slug or they can be found in the [slugs.md file](https://github.com/simple-icons/simple-icons/blob/master/slugs.md) in the simple-icons repository. [Further](https://shields.io/docs/logos) info. |
+| `logoColor` | string |  | The color of the logo | Supported: `hex`, `rgb`, `rgba`, `hsl`, `hsla` and `css named colors`. Supported for simple-icons logos but not for custom logos. |
+| `logoSize` | string |  | Make icons adaptively resize by setting `auto` | Useful for some wider logos like `amd` and `amg`. Supported for simple-icons logos but not for custom logos. |
+| `label` | string |  | Override the default left-hand-side text | [URL-Encoding](https://developer.mozilla.org/en-US/docs/Glossary/Percent-encoding) needed for spaces or special characters!. |
+| `labelColor` | string |  | The color of the logo | Supported: `hex`, `rgb`, `rgba`, `hsl`, `hsla` and `css named colors`. Supported for simple-icons logos but not for custom logos. |
+| `color` | string |  | Background color of the right part | Supported: `hex`, `rgb`, `rgba`, `hsl`, `hsla` and `css named colors`. |
+| `cacheSeconds` | string | `3600` | HTTP cache lifetime | Unit: seconds. Rules are applied to infer a default value on a per-badge basis. Any values specified below the default will be ignored. |
+| `link` | string\[] |  | Specify the action to perform when clicking the left/right side of the badge | Note: This only works when integrating your badge in an <object> HTML tag, but not an <img> tag or a markup language. |
 
 </details>
 
@@ -127,7 +127,7 @@
 
 ![Static Badge](https://img.shields.io/badge/badges/shields-555555?logo=github)
 
-<details>
+<details >
   <summary>Click to expand/collapse more examples</summary><p></p>
 
 ```markdown
@@ -167,7 +167,7 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -179,11 +179,11 @@
 | `color` | string |  | Badge color | Supported formats: `RGB` `CSS color`. |
 | ![rl-link-query] | | | | |
 | `color` | string |  | Override default badge color |  |
-| `icon` | string |  | Badge icon | Support external icon URL |
+| `icon` | string |  | Badge icon | Support external icon URL. |
 | `label` | string |  | Badge label |  |
 | `labelColor` | string |  | Badge label color |  |
 | `scale` | number | `1` | Badge scale |  |
-| `cache` | number | `86400` | Cache time | Unit: seconds |
+| `cache` | number | `86400` | Cache time | Unit: seconds. |
 
 </details>
 
@@ -200,7 +200,7 @@
 
 ![Swift Version](https://badgen.net/static/Swift/4.2/orange)
 
-<details>
+<details >
   <summary>Click to expand/collapse more examples</summary><p></p>
 
 ```markdown
@@ -240,7 +240,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -284,7 +284,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -292,7 +292,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 | ![rl-link-params] | | | | |
 | `countId` | string |  | Unique counter name | Not allowed to contain special characters. |
 | ![rl-link-query] | | | | |
-| `theme` | string | `moebooru` | Select a counter image theme | Supported: `random` `3d-num` `ai-1` `asoul` `booru-ffsr` `moebooru`. More themes: [More theme](https://github.com/journey-ad/Moe-Counter?tab=readme-ov-file#more-theme) |
+| `theme` | string | `moebooru` | Select a counter image theme | Supported: `random` `3d-num` `ai-1` `asoul` `booru-ffsr` `moebooru`. More themes: [More theme](https://github.com/journey-ad/Moe-Counter?tab=readme-ov-file#more-theme). |
 | `padding` | number | `7` | Set the minimum length | Bettwen `1` and `17`. |
 | `offset` | number | `0` | Set the offset pixel value | Bettwen `-500` and `500`. |
 | `scale` | number | `1` | Set the image scale | Bettwen `0.1` and `2`. |
@@ -332,7 +332,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -370,7 +370,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -418,7 +418,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -427,8 +427,8 @@ Do you want to know the visit statistics of the website? These badges can help y
 | `shieldsIoParams` | any\[] |  | [shields.io Badge path parameters](https://shields.io/badges) | For example: `badge/...` (static badge) `github/...` (Github related). |
 | ![rl-link-query] | | | | |
 | `host` | string | `img.shields.io` | Use different badge hosting service | Supported: `staging.shields.io` `img.shields.io`. |
-| `logo` | string |  | Custom icon name | The name you set when uploading the icon |
-| `logoSource` | string |  | Custom icon source | Supported: `feather` |
+| `logo` | string |  | Custom icon name | The name you set when uploading the icon. |
+| `logoSource` | string |  | Custom icon source | Supported: `feather`. |
 | `shieldsIoQuerys` | any\[] |  | [shields.io Badge query parameters](https://shields.io/badges) | For example: `logoColor` (icon color) `style` (badge style) etc. |
 
 </details>
@@ -461,7 +461,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -504,7 +504,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![Capsule-Render Header](https://capsule-render.vercel.app/api?type=waving\&color=auto\&height=300\&section=header\&text=capsule%20render\&fontSize=90\&animation=fadeIn\&fontAlignY=38\&desc=Decorate%20GitHub%20Profile%20or%20any%20Repo%20like%20me!\&descAlignY=51\&descAlign=62)
 
-<details>
+<details >
   <summary>Click to expand/collapse more examples</summary><p></p>
 
 ```markdown
@@ -533,7 +533,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -562,7 +562,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![Discord User](https://dcbadge.limes.pink/api/shield/406125028065804289)
 
-<details>
+<details >
   <summary>Click to expand/collapse more examples</summary><p></p>
 
 ```markdown
@@ -593,7 +593,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -633,7 +633,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -675,7 +675,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -692,7 +692,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 ![Alt](https://gists-readme.yizack.com/api{?user,n,theme,theme})
 ```
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -718,7 +718,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![Gists](https://gists-readme.yizack.com/api?user=yizack\&theme=dark)
 
-<details>
+<details >
   <summary>Click to expand/collapse more examples</summary><p></p>
 
 ```markdown
@@ -745,7 +745,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -784,18 +784,18 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
 | `username` | string |  | GitHub username |  |
-| `title` | string |  | Filter by titles | Supported: `Commits` `Stars` `Issues` `Repositories` `Experience` `Followers` `PullRequest` `Reviews` Multiple titles are separated by `,` and `-` can be added before the title to exclude it, for example `-Commits` |
-| `rank` | string |  | Filter trophies by rank | Supported: `SECRET` `?` (UNKNOWN) `SSS` `SS` `S` `AAA` `AA` `A` `B` `C`, multiple ranks are separated by `,` and `-` can be added before the rank to exclude it, for example `-?` |
+| `title` | string |  | Filter by titles | Supported: `Commits` `Stars` `Issues` `Repositories` `Experience` `Followers` `PullRequest` `Reviews` Multiple titles are separated by `,` and `-` can be added before the title to exclude it, for example `-Commits`. |
+| `rank` | string |  | Filter trophies by rank | Supported: `SECRET` `?` (UNKNOWN) `SSS` `SS` `S` `AAA` `AA` `A` `B` `C`, multiple ranks are separated by `,` and `-` can be added before the rank to exclude it, for example `-?`. |
 | `column` | number | `6` | Number of columns to display | You can set `column` to `-1` to adapt the width to the number of trophies, the parameter `row` will be ignored. |
 | `row` | number | `3` | Number of rows to display |  |
-| `theme` | string | `flat` | Apply theme | Supported: `flat` `onedark` `gruvbox` `dracula` `monokai` `chalk` `nord` `alduin` `darkhub` `juicyfresh` `buddhism` `oldie` `radical` `onestar` `discord` `algolia` `gitdimmed` `tokyonight` `matrix` `apprentice` `dark_dimmed` `dark_lover` `kimbie_dark` |
+| `theme` | string | `flat` | Apply theme | Supported: `flat` `onedark` `gruvbox` `dracula` `monokai` `chalk` `nord` `alduin` `darkhub` `juicyfresh` `buddhism` `oldie` `radical` `onestar` `discord` `algolia` `gitdimmed` `tokyonight` `matrix` `apprentice` `dark_dimmed` `dark_lover` `kimbie_dark`. |
 | `margin-w` | number | `0` | Margin Width |  |
 | `margin-h` | number | `0` | Margin Height |  |
 | `no-bg` | boolean | `false` | Transparent background |  |
@@ -832,14 +832,14 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
 | `username` | string |  | GitHub username |  |
-| `theme` | string | `default` | Use themes | Supported: `default` `react` `react-dark` `github` `github-compact` `xcode` `rogue` `merko` `vue` `tokyo-night` `high-contrast` |
+| `theme` | string | `default` | Use themes | Supported: `default` `react` `react-dark` `github` `github-compact` `xcode` `rogue` `merko` `vue` `tokyo-night` `high-contrast`. |
 | `bg_color` | string |  | Card's background color | Format: `HEX` e.g. `FF0000`. |
 | `color` | string |  | Graph card's text color | Format: `HEX` e.g. `FF0000`. |
 | `title_color` | string |  | Graph card's title color | Format: `HEX` e.g. `FF0000`. |
@@ -889,7 +889,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -925,7 +925,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)
 
-<details>
+<details >
   <summary>Click to expand/collapse more examples</summary><p></p>
 
 ```markdown
@@ -953,36 +953,36 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
 | `user` | string |  | GitHub username |  |
-| `theme` | string | `default` | The theme to apply | Supported: `default` `dark` `highcontrast` `transparent` `radical` and more, please refer to [themes](https://github.com/DenverCoder1/github-readme-streak-stats/blob/main/docs/themes.md) |
+| `theme` | string | `default` | The theme to apply | Supported: `default` `dark` `highcontrast` `transparent` `radical` and more, please refer to [themes](https://github.com/DenverCoder1/github-readme-streak-stats/blob/main/docs/themes.md). |
 | `hide_border` | boolean | `false` | Make the border transparent |  |
-| `border_radius` | number | `4.5` | Set the roundness of the edges | Between: `0` (sharp corners) to 248 (ellipse) |
-| `background` | string |  | Background color | Format: `angle,color1,color2,...` for example: `180,#fff,#000`, color format: `HEX` or `CSS color` for example: `FF0000` |
-| `border` | string |  | Border color | Format: `HEX` or `CSS color` for example: `FF0000` |
-| `stroke` | string |  | Stroke line color between sections | Format: `HEX` or `CSS color` for example: `FF0000` |
-| `ring` | string |  | Color of the ring around the current streak | Format: `HEX` or `CSS color` for example: `FF0000` |
-| `fire` | string |  | Color of the fire in the ring | Format: `HEX` or `CSS color` for example: `FF0000` |
-| `currStreakNum` | string |  | Current streak number | Format: `HEX` or `CSS color` for example: `FF0000` |
-| `sideNums` | string |  | Total and longest streak numbers | Format: `HEX` or `CSS color` for example: `FF0000` |
-| `currStreakLabel` | string |  | Current streak label | Format: `HEX` or `CSS color` for example: `FF0000` |
-| `sideLabels` | string |  | Total and longest streak labels | Format: `HEX` or `CSS color` for example: `FF0000` |
-| `dates` | string |  | Date range text color | Format: `HEX` or `CSS color` for example: `FF0000` |
-| `excludeDaysLabel` | string |  | Excluded days of the week text color | Format: `HEX` or `CSS color` for example: `FF0000` |
-| `date_format` | string |  | Date format pattern or empty for locale format | Format reference: [PHP's date function](https://www.php.net/manual/zh/datetime.format.php#refsect1-datetime.format-parameters)，示例：[example](https://www.php.net/manual/zh/datetime.format.php#refsect1-datetime.format-parameters) |
-| `locale` | string | `en` | Locale for labels and numbers | Format reference: [Locales](https://github.com/DenverCoder1/github-readme-streak-stats?tab=readme-ov-file#-locales) |
+| `border_radius` | number | `4.5` | Set the roundness of the edges | Between: `0` (sharp corners) to 248 (ellipse). |
+| `background` | string |  | Background color | Format: `angle,color1,color2,...` for example: `180,#fff,#000`, color format: `HEX` or `CSS color` for example: `FF0000`. |
+| `border` | string |  | Border color | Format: `HEX` or `CSS color` for example: `FF0000`. |
+| `stroke` | string |  | Stroke line color between sections | Format: `HEX` or `CSS color` for example: `FF0000`. |
+| `ring` | string |  | Color of the ring around the current streak | Format: `HEX` or `CSS color` for example: `FF0000`. |
+| `fire` | string |  | Color of the fire in the ring | Format: `HEX` or `CSS color` for example: `FF0000`. |
+| `currStreakNum` | string |  | Current streak number | Format: `HEX` or `CSS color` for example: `FF0000`. |
+| `sideNums` | string |  | Total and longest streak numbers | Format: `HEX` or `CSS color` for example: `FF0000`. |
+| `currStreakLabel` | string |  | Current streak label | Format: `HEX` or `CSS color` for example: `FF0000`. |
+| `sideLabels` | string |  | Total and longest streak labels | Format: `HEX` or `CSS color` for example: `FF0000`. |
+| `dates` | string |  | Date range text color | Format: `HEX` or `CSS color` for example: `FF0000`. |
+| `excludeDaysLabel` | string |  | Excluded days of the week text color | Format: `HEX` or `CSS color` for example: `FF0000`. |
+| `date_format` | string |  | Date format pattern or empty for locale format | Format reference: [PHP's date function](https://www.php.net/manual/zh/datetime.format.php#refsect1-datetime.format-parameters)，示例：[example](https://www.php.net/manual/zh/datetime.format.php#refsect1-datetime.format-parameters). |
+| `locale` | string | `en` | Locale for labels and numbers | Format reference: [Locales](https://github.com/DenverCoder1/github-readme-streak-stats?tab=readme-ov-file#-locales). |
 | `short_numbers` | boolean |  | Use short numbers |  |
-| `type` | string | `svg` | Output format | Supported:`svg` `json` `png` |
-| `mode` | string | `daily` | Streak mode | Supported: `daily` `weekly` |
-| `exclude_days` | string |  | List of days of the week to exclude from streaks | Supported: `Sun` `Mon` `Tue` `Wed` `Thu` `Fri` `Sat` separate values with `,` |
+| `type` | string | `svg` | Output format | Supported:`svg` `json` `png`. |
+| `mode` | string | `daily` | Streak mode | Supported: `daily` `weekly`. |
+| `exclude_days` | string |  | List of days of the week to exclude from streaks | Supported: `Sun` `Mon` `Tue` `Wed` `Thu` `Fri` `Sat` separate values with `,`. |
 | `disable_animations` | boolean | `false` | Disable SVG animations |  |
-| `card_width` | number | `495` | Width of the card in pixels | Unit: pixels, minimum width is 100px per column |
-| `card_height` | number | `195` | Height of the card in pixels | Unit: pixels, minimum height is 170px |
+| `card_width` | number | `495` | Width of the card in pixels | Unit: pixels, minimum width is 100px per column. |
+| `card_height` | number | `195` | Height of the card in pixels | Unit: pixels, minimum height is 170px. |
 | `hide_total_contributions` | boolean | `false` | Hide the total contributions |  |
 | `hide_current_streak` | boolean | `false` | Hide the current streak |  |
 | `hide_longest_streak` | boolean | `false` | Hide the longest streak |  |
@@ -1017,7 +1017,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -1060,7 +1060,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -1075,7 +1075,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 ![Configure color](https://ghchart.rshah.org/{color}/{username})
 ```
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -1114,7 +1114,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -1152,23 +1152,23 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
-| `description` | boolean | `0` | Show project description | Supported: `0` `1` |
-| `forks` | boolean | `0` | Show Forks count | Supported: `0` `1` |
-| `issues` | boolean | `0` | Show Issues count | Supported: `0` `1` |
-| `name` | boolean | `1` | Show project name | Supported: `0` `1` |
-| `owner` | boolean | `0` | Show username | Supported: `0` `1` |
-| `pulls` | boolean | `0` | Show PR count | Supported: `0` `1` |
-| `stargazers` | boolean | `0` | Show Stars count | Supported: `0` `1` |
-| `pattern` | string |  | Background pattern | Supported: `Signal` `Charlie Brown` `Formal Invitation` `Plus` `Circuit Board` `Overlapping Hexagons` `Brick Wall` `Floating Cogs` `Diagonal Stripes` `Solid` `Transparent` |
-| `logo` | string |  | Project logo | Supported type: `URL` `DATA URI` |
+| `description` | boolean | `0` | Show project description | Supported: `0` `1`. |
+| `forks` | boolean | `0` | Show Forks count | Supported: `0` `1`. |
+| `issues` | boolean | `0` | Show Issues count | Supported: `0` `1`. |
+| `name` | boolean | `1` | Show project name | Supported: `0` `1`. |
+| `owner` | boolean | `0` | Show username | Supported: `0` `1`. |
+| `pulls` | boolean | `0` | Show PR count | Supported: `0` `1`. |
+| `stargazers` | boolean | `0` | Show Stars count | Supported: `0` `1`. |
+| `pattern` | string |  | Background pattern | Supported: `Signal` `Charlie Brown` `Formal Invitation` `Plus` `Circuit Board` `Overlapping Hexagons` `Brick Wall` `Floating Cogs` `Diagonal Stripes` `Solid` `Transparent`. |
+| `logo` | string |  | Project logo | Supported type: `URL` `DATA URI`. |
 | `language` | boolean | `0` | Show project language | 可选值：`0` `1` |
-| `font` | string |  | Font | Supported: `Inter` `Bitter` `Raleway` `Rokkitt` `Source Code Pro` `KoHo` `Jost` |
+| `font` | string |  | Font | Supported: `Inter` `Bitter` `Raleway` `Rokkitt` `Source Code Pro` `KoHo` `Jost`. |
 
 </details>
 
@@ -1203,7 +1203,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -1245,7 +1245,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -1261,7 +1261,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 ![Alt](https://starlines.qoo.monster/assets/{owner}/{repo})
 ```
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -1277,7 +1277,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 ![Alt](https://starlines.qoo.monster/assets/{owner}/{gist}@gist)
 ```
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -1316,15 +1316,15 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
-| `type` | string | `vertical` | Type | Supported: `vertical` `horizontal` |
-| `theme` | string | `light` | Theme | Supported: `dark` `light` `chartreuse-dark` `radical` `merko` `gruvbox` `tokyonight` `catppuccin` `catppuccin_latte` `catppuccin_frappe` `catppuccin_macchiato` `catppuccin_mocha` `algolia` `monokai` `dracula` `nord` `github` `graywhite` `moonlight` `hackerman` `shadow_red` `shadow_green` `shadow_blue` |
-| `quote` | string |  | Quote | If empty, a random quote will be retrieved, quote list: [quotes.json](https://github.com/mudroljub/programming-quotes-api/raw/master/data/quotes.json) |
+| `type` | string | `vertical` | Type | Supported: `vertical` `horizontal`. |
+| `theme` | string | `light` | Theme | Supported: `dark` `light` `chartreuse-dark` `radical` `merko` `gruvbox` `tokyonight` `catppuccin` `catppuccin_latte` `catppuccin_frappe` `catppuccin_macchiato` `catppuccin_mocha` `algolia` `monokai` `dracula` `nord` `github` `graywhite` `moonlight` `hackerman` `shadow_red` `shadow_green` `shadow_blue`. |
+| `quote` | string |  | Quote | If empty, a random quote will be retrieved, quote list: [quotes.json](https://github.com/mudroljub/programming-quotes-api/raw/master/data/quotes.json). |
 | `author` | string | `Me` | Quote Author |  |
 | `border` | boolean | `false` | Use Border |  |
 
@@ -1342,7 +1342,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![Random Quote](https://quotes-github-readme.vercel.app/api?theme=dark\&type=horizontal)
 
-<details>
+<details >
   <summary>Click to expand/collapse more examples</summary><p></p>
 
 ```markdown
@@ -1369,18 +1369,18 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
 | `username` | string |  | Twitter usernmae |  |
-| `theme` | string | `dracula` | Theme | Supported: `default` `default_repocard` `transparent` `dark` `tokyonight` main theme references: [Themes](https://github.com/VishwaGauravIn/github-twitter-card-embed?tab=readme-ov-file#-themes) |
-| `icon` | string | `default` | Icon | Supported: `default` `thunder` `sun` `beaker` `bookmark` `bug` `cake` `badge` `code` `smile` `fire` `hashtag` `heart` `lock` `moon` `radio` `sparkles` `star` `trophy` `user` |
-| `time` | boolean | `true` | Show time | Supported: `true` `false` |
-| `response` | boolean | `true` | Show response | Supported: `true` `false` |
-| `border` | boolean | `true` | Show border | Supported: `true` `false` |
+| `theme` | string | `dracula` | Theme | Supported: `default` `default_repocard` `transparent` `dark` `tokyonight` main theme references: [Themes](https://github.com/VishwaGauravIn/github-twitter-card-embed?tab=readme-ov-file#-themes). |
+| `icon` | string | `default` | Icon | Supported: `default` `thunder` `sun` `beaker` `bookmark` `bug` `cake` `badge` `code` `smile` `fire` `hashtag` `heart` `lock` `moon` `radio` `sparkles` `star` `trophy` `user`. |
+| `time` | boolean | `true` | Show time | Supported: `true` `false`. |
+| `response` | boolean | `true` | Show response | Supported: `true` `false`. |
+| `border` | boolean | `true` | Show border | Supported: `true` `false`. |
 
 </details>
 
@@ -1415,16 +1415,16 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `badgenNetParams` | any\[] |  | [badgen.net Badge path parameters](https://badgen.net/help) | For example: `static/...` (Static badges) `github/...` (Github-related) |
+| `badgenNetParams` | any\[] |  | [badgen.net Badge path parameters](https://badgen.net/help) | For example: `static/...` (Static badges) `github/...` (Github-related). |
 | ![rl-link-query] | | | | |
-| `gradient` | string |  | Gradient | Format: `color1,color2` Color format: `HEX` `CSS color name` |
-| `style` | string |  | Badge style | Supported: `flat` |
+| `gradient` | string |  | Gradient | Format: `color1,color2` Color format: `HEX` `CSS color name`. |
+| `style` | string |  | Badge style | Supported: `flat`. |
 | `badgenNetQuerys` | any\[] |  | [badgen.net Badge query parameters](https://badgen.net/help) | For example: `color` (Icon color) `icon` (Icon) etc. |
 
 </details>
@@ -1446,11 +1446,11 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-line]
 
-### Iconify | 图标徽章
+### Iconify
 
 ![rl-badge-introduction]
 
-**Iconify API 可以动态生成 SVG，其中包含大量的图标集可供选择，可用于 HTML 或 CSS。**
+**Iconify API can dynamically generate SVG, which includes a large number of icon sets for selection, and can be used for HTML or CSS.**
 
 [![rl-repo]](https://github.com/iconify/iconify)
 [![rl-online-tool]](https://icon-sets.iconify.design/?category=Emoji)
@@ -1458,22 +1458,22 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `prefix` | string |  | 图标集前缀 |  |
-| `name` | string |  | 图标名称 |  |
+| `prefix` | string |  | Icon set prefix |  |
+| `name` | string |  | Icon name |  |
 | ![rl-link-query] | | | | |
-| `color` | string |  | 图标颜色 | 支持格式：`HEX` `CSS 颜色值`，例如：`#FF0000` `red` `rgb(255, 0, 0)` |
-| `width` | number |  | 图标宽度 | 单位：像素 |
-| `height` | number |  | 图标高度 | 单位：像素 |
-| `flip` | string |  | 翻转图标 | 可选值：`horizontal` `vertical` |
-| `rotate` | string |  | 旋转图标 | 可填类型：`deg` 或是 `number`，`1=90deg` |
-| `download` | boolean |  | 强制浏览器下载文件 |  |
-| `box` | boolean |  | 是否向 SVG 添加与 viewBox 匹配的空矩形 |  |
+| `color` | string |  | Icon color | Supported: `HEX` `CSS name` e.g. `#FF0000` `red` `rgb(255, 0, 0)`. |
+| `width` | number |  | Image width | Unit: pixels. |
+| `height` | number |  | Image height | Unit: pixels. |
+| `flip` | string |  | Flip icon | Supported: `horizontal` `vertical`. |
+| `rotate` | string |  | Rotate icon | Format: `deg` `number` where `1=90deg`. |
+| `download` | boolean |  | Forces browser to download file |  |
+| `box` | boolean |  | Adds an empty rectangle to SVG that matches viewBox |  |
 
 </details>
 
@@ -1493,32 +1493,32 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-line]
 
-### Open Collective | 财务贡献者图
+### Open Collective
 
 ![rl-badge-introduction]
 
-**创建一个 SVG，展示您的财务贡献者的卡片。**
+**Create an SVG showing the icons of your financial contributors.**
 
 [![rl-repo]](https://github.com/opencollective)
 [![rl-official-docs]](https://docs.opencollective.com/help/collectives/collective-settings/data-export#contributor-image)
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `collectiveName` | string |  | Open Collective 组织名 |  |
-| `statisticalType` | string |  | 统计类型 | 可选值：`sponsors`（赞助商）、`backers`（支持者）、`contributors`（贡献者） |
+| `collectiveName` | string |  | Open Collective organization name |  |
+| `statisticalType` | string |  | Statistics type | supported: `sponsors` `backers` `contributors`. |
 | ![rl-link-query] | | | | |
-| `width` | number |  | 图片宽度 | 单位：像素 |
-| `height` | number |  | 图片高度 | 单位：像素 |
-| `limit` | number |  | 最多显示成员数 | 空则表示：无上限 |
-| `avatarHeight` | number |  | 每个头像/标志的最大高度 |  |
-| `button` | boolean | `true` | 显示 “成为支持者/赞助商” 按钮 |  |
-| `format` | string |  | 图片格式 | 将 `.svg` 替换为 `.png` 或 `.jpg` |
+| `width` | number |  | Width of the image | Unit: pixels. |
+| `height` | number |  | Height of the image | Unit: pixels. |
+| `limit` | number |  | Max number of members to show | Empty means: unlimited. |
+| `avatarHeight` | number |  | Max height of each avatar / logo |  |
+| `button` | boolean | `true` | Show 'become a backer/sponsor' button |  |
+| `format` | string |  | Format of the image | Replace `.svg` with `.png` or `.jpg`. |
 
 </details>
 
@@ -1535,7 +1535,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![Sponsors on Open Collective](https://opencollective.com/vite/sponsors.svg)
 
-<details>
+<details >
   <summary>Click to expand/collapse more examples</summary><p></p>
 
 ```markdown
@@ -1563,7 +1563,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -1590,28 +1590,28 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-line]
 
-### Open Source Software Insight | 开源软件洞察
+### Open Source Software Insight
 
 > \[!Tip]
-> 由于此项目支持的卡片种类非常多，且功能强大，这里只简单介绍－推送和提交记录卡片，其他卡片使用方式还请移步官方文档。
+> Since the card type supported by this project is very many and powerful, here we only introduce - push and commit records card, other cards usage please refer to the official documentation.
 
 ![rl-badge-introduction]
 
-**在 30 秒内即可将实时小部件嵌入到仓库的 README.md 文件中！**
+**In less than 30 seconds, you can embed real-time widgets into the README.md file of your repository!**
 
 [![rl-repo]](https://github.com/pingcap/ossinsight)
 [![rl-online-tool]](https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month?repo_id=449649595)
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
-| `repo_id` | string |  | Github 仓库 ID |  |
-| `color_scheme` | string |  | 卡片颜色主题 | 可选值：`light` `dark` |
+| `repo_id` | string |  | Github repository ID |  |
+| `color_scheme` | string |  | Card color scheme | Supported: `light` `dark`. |
 
 </details>
 
@@ -1628,7 +1628,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![Pushes and Commits of pingcap/ossinsight](https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month/thumbnail.png?repo_id=449649595\&color_scheme=dark)
 
-<details>
+<details >
   <summary>Click to expand/collapse more examples</summary><p></p>
 
 ```markdown
@@ -1644,28 +1644,28 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-line]
 
-### PlayBadges | Play Store 应用卡片
+### PlayBadges
 
 ![rl-badge-introduction]
 
-**展示你的 Play Store 应用的下载量和评分。**
+**Show off your Play Store™ app's downloads and ratings in your repo.**
 
 [![rl-repo]](https://github.com/pavi2410/PlayBadges)
 [![rl-official-docs]](https://github.com/pavi2410/PlayBadges?tab=readme-ov-file#usage)
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `type` | string |  | 卡片类型 | 可选值：`full` `downloads` `ratings` |
+| `type` | string |  | Card type | Supported: `full` `downloads` `ratings`. |
 | ![rl-link-query] | | | | |
-| `id` | string |  | 软件包名 |  |
-| `pretty` | boolean |  | 是否美化显示数字 | 美化：给数字添加单位符号，例如：`100K`，注意：`&pretty` 表示启用，去除则表示禁用 |
-| `country` | string | `us` | 国家代码 |  |
+| `id` | string |  | Package name |  |
+| `pretty` | boolean |  | Shows the numbers prettily | Prettify: Adds unit symbols to the numbers, such as: `100K`, note: `&pretty` means enable, and remove it means disable. |
+| `country` | string | `us` | Country code |  |
 
 </details>
 
@@ -1682,7 +1682,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![Play Store App](https://PlayBadges.pavi2410.me/badge/full?id=appinventor.ai_pavitragolchha.VR)
 
-<details>
+<details >
   <summary>Click to expand/collapse more examples</summary><p></p>
 
 ```markdown
@@ -1705,31 +1705,31 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-line]
 
-### README Jokes | README 笑话
+### README Jokes
 
 ![rl-badge-introduction]
 
-**README 上的随机编程笑话。**
+**Jokes for your GitHub READMEs.**
 
 [![rl-repo]](https://github.com/ABSphreak/readme-jokes)
 [![rl-official-docs]](https://github.com/ABSphreak/readme-jokes?tab=readme-ov-file#usage)
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
-| `bgColor` | string |  | 背景颜色 | 格式：`HEX` 例如：`#FF0000` |
-| `borderColor` | string |  | 边框颜色 | 格式：`HEX` 例如：`#FF0000` |
-| `qColor` | string |  | 问题颜色 | 格式：`HEX` 例如：`#FF0000` |
-| `aColor` | string |  | 回答颜色 | 格式：`HEX` 例如：`#FF0000` |
-| `textColor` | string |  | 正常文字颜色 | 格式：`HEX` 例如：`#FF0000` |
-| `codeColor` | string |  | 代码颜色 | 格式：`HEX` 例如：`#FF0000` |
-| `hideBorder` | boolean | `false` | 是隐藏边框 | 隐藏：`&hideBorder` 正常：不添加 `hideBorder` 即可 |
-| `theme` | string | `default` | 主题 | 可选值：`random` `gradientBlue` `solidBlue` `tokyonight` `halloween` `watermelon` `pinkish` `daySky` `radical` `merko` `gruvbox` `vue` 更多主题参考：[theme](https://github.com/ABSphreak/readme-jokes?tab=readme-ov-file#parameters-available) |
+| `bgColor` | string |  | Background Color | Format: `HEX` e.g. `#FF0000`. |
+| `borderColor` | string |  | Border Color | Format: `HEX` e.g. `#FF0000`. |
+| `qColor` | string |  | Question Color | Format: `HEX` e.g. `#FF0000`. |
+| `aColor` | string |  | Answer Color | Format: `HEX` e.g. `#FF0000`. |
+| `textColor` | string |  | Normal text Color | Format: `HEX` e.g. `#FF0000`. |
+| `codeColor` | string |  | Code Color | Format: `HEX` e.g. `#FF0000`. |
+| `hideBorder` | boolean | `false` | Mention as a value-less parameter to hide boder | Hide: `&hideBorder` Show: No need to add `hideBorder`. |
+| `theme` | string | `default` | Theme | Supported: `random` `gradientBlue` `solidBlue` `tokyonight` `halloween` `watermelon` `pinkish` `daySky` `radical` `merko` `gruvbox` `vue` More themes: [theme](https://github.com/ABSphreak/readme-jokes?tab=readme-ov-file#parameters-available). |
 
 </details>
 
@@ -1749,11 +1749,11 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-line]
 
-### Readme Typing SVG | 打字机效果的动态 SVG 卡片
+### Readme Typing SVG
 
 ![rl-badge-introduction]
 
-**动态生成、可定制的 SVG，可模拟文本输入和删除效果，适用于个人主页、仓库或网站。**
+**Dynamically generated, customizable SVG that gives the appearance of typing and deleting text for use on your profile page, repositories, or website.**
 
 [![rl-repo]](https://github.com/denvercoder1/readme-typing-svg)
 [![rl-online-tool]](https://readme-typing-svg.demolab.com/demo/)
@@ -1761,27 +1761,27 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
-| `lines` | string |  | 显示的文本 | 多行之间用 `;` 分隔，文本中空格使用 `+` 代替 |
-| `height` | number | `50` | 输出 SVG 的高度 |  |
-| `width` | number | `400` | 输出 SVG 的宽度 |  |
-| `size` | number | `20` | 字体大小 | 单位：像素 |
-| `font` | string | `monospace` | 字体族 | 任何 Google Fonts 中的字体 |
-| `color` | string | `36BCF7` | 文本颜色 | 十六进制代码不带 # |
-| `background` | string | `00000000` | 文本背景颜色 | 十六进制代码不带 # |
-| `center` | boolean | `false` | 文本水平对齐方式 | 可选值：true（水平居中）false（左对齐） |
-| `vCenter` | boolean | `false` | 文本垂直对齐方式 | 可选值：true（垂直居中）false（居中上方） |
-| `multiline` | boolean | `false` | 文本换行显示方式 | 可选值：true（换行显示）false（同一行重新显示） |
-| `duration` | number | `5000` | 单行打印持续时间 |  |
-| `pause` | number | `0` | 行与行之间的暂停时间 | 单位：毫秒 |
-| `repeat` | boolean | `true` | 在最后一行之后循环回到第一行 |  |
-| `separator` | string | `;` | 行参数中使用的分隔符 |  |
-| `letterSpacing` | string | `normal` | 字母间距 | 任何字母间距（letter-spacing）属性的 CSS 值 |
+| `lines` | string |  | The multi-line text to display | Text to display with lines separated by `;` and `+` for spaces. |
+| `height` | number | `50` | Height of the output SVG in pixels |  |
+| `width` | number | `400` | Width of the output SVG in pixels |  |
+| `size` | number | `20` | Font size in pixels | Unit: pixels. |
+| `font` | string | `monospace` | Font family | Any font from Google Fonts. |
+| `color` | string | `36BCF7` | Color of the text | Format: `HEX` e.g. `FF0000`. |
+| `background` | string | `00000000` | Background color of the text | Format: `HEX` e.g. `FF0000`. |
+| `center` | boolean | `false` | Text horizontal alignment | Supported: true (horizontal center) false (left align). |
+| `vCenter` | boolean | `false` | Text vertical alignment | Supported: true (vertical center) false (center top). |
+| `multiline` | boolean | `false` | Text line break display | Supported: true (wrap lines) false (retype on one line). |
+| `duration` | number | `5000` | Duration of the printing of a single line in milliseconds |  |
+| `pause` | number | `0` | Duration of the pause between lines in milliseconds | Unit: milliseconds. |
+| `repeat` | boolean | `true` | Loop around to the first line after the last |  |
+| `separator` | string | `;` | Separator used between lines in the lines parameter |  |
+| `letterSpacing` | string | `normal` | Letter spacing | Format: `CSS color`. |
 
 </details>
 
@@ -1801,35 +1801,35 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-line]
 
-### Sloc Cloc and Code | 代码行数统计
+### Sloc Cloc and Code
 
 ![rl-badge-introduction]
 
-**一个可以显示代码行数、注释行数等的徽章服务。**
+**scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go.**
 
 [![rl-repo]](https://github.com/boyter/scc/)
 [![rl-official-docs]](https://github.com/boyter/scc/?tab=readme-ov-file#badges-beta)
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `provider` | string |  | 提供商 | 可选值：`github` |
-| `user` | string |  | 用户名 |  |
-| `repo` | string |  | 仓库名 |  |
+| `provider` | string |  | Provider | Supported: `github`. |
+| `user` | string |  | Username |  |
+| `repo` | string |  | Repository name |  |
 | ![rl-link-query] | | | | |
-| `category` | string | `code` | 统计类别 | 可选值：`code` `blanks` `lines` `comments` `cocomo` |
-| `avg-wage` | number | `56286` | 平均工资 | 值必须为正整数，否则将恢复到默认值 `56286` |
-| `lower` | boolean |  | 将标题文本转换为小写 |  |
-| `font-color` | string |  | 字体颜色 | 支持类型：`HEX`，例如：`FF0000` |
-| `font-shadow-color` | string |  | 字体阴影颜色 | 支持类型：`HEX`，例如：`FF0000` |
-| `top-shadow-accent-color` | string |  | 顶部阴影突出颜色 | 支持类型：`HEX`，例如：`FF0000` |
-| `title-bg-color` | string |  | 标题背景颜色 | 支持类型：`HEX`，例如：`FF0000` |
-| `badge-bg-color` | string |  | 徽章背景颜色 | 支持类型：`HEX`，例如：`FF0000` |
+| `category` | string | `code` | Category | Supported: `code` `blanks` `lines` `comments` `cocomo`. |
+| `avg-wage` | number | `56286` | Average wage | Value must be a positive integer, otherwise it will be restored to the default value `56286`. |
+| `lower` | boolean |  | Lowercase title text |  |
+| `font-color` | string |  | Font color | Supported: `HEX`, e.g. `FF0000`. |
+| `font-shadow-color` | string |  | Font shadow color | Supported: `HEX`, e.g. `FF0000`. |
+| `top-shadow-accent-color` | string |  | Top shadow accent color | Supported: `HEX`, e.g. `FF0000`. |
+| `title-bg-color` | string |  | Title background color | Supported: `HEX`, e.g. `FF0000`. |
+| `badge-bg-color` | string |  | Badge background color | Supported: `HEX`, e.g. `FF0000`. |
 
 </details>
 
@@ -1850,11 +1850,11 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-line]
 
-### Stackoverflow Readme Profile | Stackoverflow 个人资料卡片
+### Stackoverflow Readme Profile
 
 ![rl-badge-introduction]
 
-**轻松分享你的 Stackoverflow 个人资料到你的 README。**
+**Easily share your Stackoverflow's profile on your README.**
 
 [![rl-repo]](https://github.com/johannchopin/stackoverflow-readme-profile)
 [![rl-online-tool]](https://stackoverflow-readme-profile.vercel.app/)
@@ -1862,18 +1862,18 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `template` | string |  | 显示模板 | 可选值：`profile` `profile-small` |
-| `userId` | string |  | Stackoverflow 用户 ID |  |
+| `template` | string |  | Display template | Supported: `profile` `profile-small`. |
+| `userId` | string |  | Stackoverflow user ID |  |
 | ![rl-link-query] | | | | |
-| `theme` | string | `default` | 主题 | 可选值：`default` `dark` `cobalt` `monokai` `graywhite` `hotdog` |
-| `website` | boolean | `true` | 是否显示网站 URL | `template=profile` 可用，可选值：`true` `false` |
-| `location` | boolean | `true` | 是否显示位置 | `template=profile` 可用，可选值：`true` `false` |
+| `theme` | string | `default` | Theme to use | Supported: `default` `dark` `cobalt` `monokai` `graywhite` `hotdog`. |
+| `website` | boolean | `true` | Show or not the website URL | Only when `template=profile` is available, supported: `true` `false`. |
+| `location` | boolean | `true` | Show or not the location | Only when `template=profile` is available, supported: `true` `false`. |
 
 </details>
 
@@ -1882,16 +1882,16 @@ Do you want to know the visit statistics of the website? These badges can help y
 ![Alt](https://stackoverflow-readme-profile.johannchopin.fr/{template}/{userId}{?theme,website,location})
 ```
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `tagName` | string |  | 标签名称 |  |
-| `userId` | string |  | Stackoverflow 用户 ID |  |
+| `tagName` | string |  | Tag name |  |
+| `userId` | string |  | Stackoverflow user ID |  |
 | ![rl-link-query] | | | | |
-| `theme` | string | `default` | 主题 | 可选值：`default` `dark` `cobalt` `monokai` `graywhite` `hotdog` |
+| `theme` | string | `default` | Theme to use | Supported: `default` `dark` `cobalt` `monokai` `graywhite` `hotdog`. |
 
 </details>
 
@@ -1925,14 +1925,14 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
-| `repos` | string |  | Repository name | Multiple repository names separated by `,`, such as: `owner1/repo1,owner2/repo2` |
-| `type` | string |  | Display type | Supported: `Date` `Timeline` |
+| `repos` | string |  | Repository name | Multiple repository names separated by `,`, such as: `owner1/repo1,owner2/repo2`. |
+| `type` | string |  | Display type | Supported: `Date` `Timeline`. |
 
 </details>
 
@@ -1953,24 +1953,24 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![rl-line]
 
-### Widget Bite | 速食小组件
+### Widget Bite
 
 ![rl-badge-introduction]
 
-**为你的 README 添加一些小组件（包含：访客计数，投票以及一个好看的 Banner），让你的项目更加生动有趣。**
+**Add some small components (such as visitor count, voting, and a beautiful banner) to your README to make your project more engaging and interesting.**
 
 [![rl-online-tool]](https://widgetbite.com/)
 [![rl-official-docs]](https://widgetbite.com/)
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `username` | string |  | Github 用户名 |  |
+| `username` | string |  | Github username |  |
 
 </details>
 
@@ -1979,18 +1979,18 @@ Do you want to know the visit statistics of the website? These badges can help y
 ![Alt](https://widgetbite.com/stats/{username})
 ```
 
-<details>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
-| `title` | string |  | 标题 |  |
-| `subtitle` | string |  | 副标题 |  |
-| `titletransform` | string | `none` | 标题旋转方式 | 可选值：`none` `rotate` `skew` `scale` |
-| `subtitletransform` | string | `none` | 副标题旋转方式 | 可选值：`none` `rotate` `skew` `scale` |
-| `fontpalette` | string | `none` | 文字样式 | 可选值：`none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn` |
-| `backgroundpalette` | string | `none` | 背景样式 | 可选值：`none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn` |
+| `title` | string |  | Title |  |
+| `subtitle` | string |  | Subtitle |  |
+| `titletransform` | string | `none` | Title transform | Supported: `none` `rotate` `skew` `scale`. |
+| `subtitletransform` | string | `none` | Subtitle transform | Supported: `none` `rotate` `skew` `scale`. |
+| `fontpalette` | string | `none` | Text palette | Supported: `none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`. |
+| `backgroundpalette` | string | `none` | Background palette | Supported: `none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`. |
 
 </details>
 
@@ -2008,7 +2008,7 @@ Do you want to know the visit statistics of the website? These badges can help y
 
 ![Visitor Stats](https://widgetbite.com/stats/xiaohuohumax)
 
-<details>
+<details >
   <summary>Click to expand/collapse more examples</summary><p></p>
 
 ```markdown

@@ -20,7 +20,7 @@
   <div>
     <b>
       <a class="locale-link" data-locale="" href="/README.md">中文</a>
-      <a class="locale-link" data-locale="en-US" href="/locales/README-en-US.md">English(🚧)</a>
+      <a class="locale-link" data-locale="en-US" href="/locales/README-en-US.md">English</a>
     </b>
   </div>
   <br/>
@@ -58,17 +58,17 @@
   * [Github Readme Quotes](#github-readme-quotes)
   * [GitHub Twitter Card Embed](#github-twitter-card-embed)
   * [Gradgen](#gradgen)
-  * [Iconify | 图标徽章](#iconify--图标徽章)
-  * [Open Collective | 财务贡献者图](#open-collective--财务贡献者图)
+  * [Iconify](#iconify)
+  * [Open Collective](#open-collective)
   * [OpenSSF Best Practices Badge](#openssf-best-practices-badge)
-  * [Open Source Software Insight | 开源软件洞察](#open-source-software-insight--开源软件洞察)
-  * [PlayBadges | Play Store 应用卡片](#playbadges--play-store-应用卡片)
-  * [README Jokes | README 笑话](#readme-jokes--readme-笑话)
-  * [Readme Typing SVG | 打字机效果的动态 SVG 卡片](#readme-typing-svg--打字机效果的动态-svg-卡片)
-  * [Sloc Cloc and Code | 代码行数统计](#sloc-cloc-and-code--代码行数统计)
-  * [Stackoverflow Readme Profile | Stackoverflow 个人资料卡片](#stackoverflow-readme-profile--stackoverflow-个人资料卡片)
+  * [Open Source Software Insight](#open-source-software-insight)
+  * [PlayBadges](#playbadges)
+  * [README Jokes](#readme-jokes)
+  * [Readme Typing SVG](#readme-typing-svg)
+  * [Sloc Cloc and Code](#sloc-cloc-and-code)
+  * [Stackoverflow Readme Profile](#stackoverflow-readme-profile)
   * [Star History](#star-history)
-  * [Widget Bite | 速食小组件](#widget-bite--速食小组件)
+  * [Widget Bite](#widget-bite)
 * [📖 如何运行项目](#-如何运行项目)
 * [✍ 如何添加徽章](#-如何添加徽章)
 * [🌎 如何添加新的语言](#-如何添加新的语言)
@@ -91,7 +91,7 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -124,7 +124,7 @@
 
 ![静态徽章](https://img.shields.io/badge/badges/shields-555555?logo=github)
 
-<details>
+<details >
   <summary>点击展开/收起更多示例</summary><p></p>
 
 ```markdown
@@ -164,7 +164,7 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -176,11 +176,11 @@
 | `color` | string |  | 徽章颜色 | 支持格式：`RGB` `CSS颜色`。 |
 | ![rl-link-query] | | | | |
 | `color` | string |  | 覆盖默认徽章颜色 |  |
-| `icon` | string |  | 徽章左侧图标 | 支持外部图标 URL |
+| `icon` | string |  | 徽章左侧图标 | 支持外部图标 URL。 |
 | `label` | string |  | 徽章左侧标签 |  |
 | `labelColor` | string |  | 徽章左侧标签颜色 |  |
 | `scale` | number | `1` | 徽章缩放比例 |  |
-| `cache` | number | `86400` | 缓存时间 | 单位：秒 |
+| `cache` | number | `86400` | 缓存时间 | 单位：秒。 |
 
 </details>
 
@@ -197,7 +197,7 @@
 
 ![Swift Version](https://badgen.net/static/Swift/4.2/orange)
 
-<details>
+<details >
   <summary>点击展开/收起更多示例</summary><p></p>
 
 ```markdown
@@ -237,7 +237,7 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -281,7 +281,7 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -289,7 +289,7 @@
 | ![rl-link-params] | | | | |
 | `countId` | string |  | 计数器 ID | 不能包含特殊字符。 |
 | ![rl-link-query] | | | | |
-| `theme` | string | `moebooru` | 主题 | 可选值：`random` `3d-num` `ai-1` `asoul` `booru-ffsr` `moebooru`，更多主题：[More theme](https://github.com/journey-ad/Moe-Counter?tab=readme-ov-file#more-theme) |
+| `theme` | string | `moebooru` | 主题 | 可选值：`random` `3d-num` `ai-1` `asoul` `booru-ffsr` `moebooru`，更多主题：[More theme](https://github.com/journey-ad/Moe-Counter?tab=readme-ov-file#more-theme)。 |
 | `padding` | number | `7` | 最小长度 | 范围：`1` 到 `17`。 |
 | `offset` | number | `0` | 像素偏移值 | 范围：`-500` 到 `500`。 |
 | `scale` | number | `1` | 图像缩放比例 | 范围：`0.1` 到 `2`。 |
@@ -329,7 +329,7 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -367,7 +367,7 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -415,7 +415,7 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -424,8 +424,8 @@
 | `shieldsIoParams` | any\[] |  | [shields.io 徽章路径参数](https://shields.io/badges) | 例如：`badge/...`（静态徽章） `github/...`（Github 相关）。 |
 | ![rl-link-query] | | | | |
 | `host` | string | `img.shields.io` | 使用不同的徽章托管服务 | 可选值：`staging.shields.io` `img.shields.io`。 |
-| `logo` | string |  | 自定义图标名称 | 即自己上传图标时设置的名称 |
-| `logoSource` | string |  | 自定义图标来源 | 可选值：`feather` |
+| `logo` | string |  | 自定义图标名称 | 即自己上传图标时设置的名称。 |
+| `logoSource` | string |  | 自定义图标来源 | 可选值：`feather`。 |
 | `shieldsIoQuerys` | any\[] |  | [shields.io 徽章查询参数](https://shields.io/badges) | 例如：`logoColor`（图标颜色） `style`（徽章样式）等。 |
 
 </details>
@@ -458,7 +458,7 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -501,7 +501,7 @@
 
 ![页眉](https://capsule-render.vercel.app/api?type=waving\&color=auto\&height=300\&section=header\&text=capsule%20render\&fontSize=90\&animation=fadeIn\&fontAlignY=38\&desc=Decorate%20GitHub%20Profile%20or%20any%20Repo%20like%20me!\&descAlignY=51\&descAlign=62)
 
-<details>
+<details >
   <summary>点击展开/收起更多示例</summary><p></p>
 
 ```markdown
@@ -530,7 +530,7 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -559,7 +559,7 @@
 
 ![用户](https://dcbadge.limes.pink/api/shield/406125028065804289)
 
-<details>
+<details >
   <summary>点击展开/收起更多示例</summary><p></p>
 
 ```markdown
@@ -590,7 +590,7 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -630,7 +630,7 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -672,7 +672,7 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -689,7 +689,7 @@
 ![Alt](https://gists-readme.yizack.com/api{?user,n,theme,theme})
 ```
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -715,7 +715,7 @@
 
 ![Gists](https://gists-readme.yizack.com/api?user=yizack\&theme=dark)
 
-<details>
+<details >
   <summary>点击展开/收起更多示例</summary><p></p>
 
 ```markdown
@@ -742,7 +742,7 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -781,18 +781,18 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
 | `username` | string |  | GitHub 用户名 |  |
-| `title` | string |  | 按标题筛选奖杯 | 可选值：`Commits` `Stars` `Issues` `Repositories` `Experience` `Followers` `PullRequest` `Reviews` 多个标题间以 `,` 分隔，如果想要排除则在标题前加 `-`，例如 `-Commits` |
-| `rank` | string |  | 按排名筛选奖杯 | 可选值：`SECRET` `?`（UNKNOWN） `SSS` `SS` `S` `AAA` `AA` `A` `B` `C`，多个排名间以 `,` 分隔，如果想要排除则在排名前加 `-`，例如 `-?` |
-| `column` | number | `6` | 显示的列数 | 自适应列：设置 `column` 到 `-1` 以适应奖杯数量，参数 `row` 将被忽略 |
+| `title` | string |  | 按标题筛选奖杯 | 可选值：`Commits` `Stars` `Issues` `Repositories` `Experience` `Followers` `PullRequest` `Reviews` 多个标题间以 `,` 分隔，如果想要排除则在标题前加 `-`，例如 `-Commits`。 |
+| `rank` | string |  | 按排名筛选奖杯 | 可选值：`SECRET` `?`（UNKNOWN） `SSS` `SS` `S` `AAA` `AA` `A` `B` `C`，多个排名间以 `,` 分隔，如果想要排除则在排名前加 `-`，例如 `-?`。 |
+| `column` | number | `6` | 显示的列数 | 自适应列：设置 `column` 到 `-1` 以适应奖杯数量，参数 `row` 将被忽略。 |
 | `row` | number | `3` | 显示的行数 |  |
-| `theme` | string | `flat` | 应用主题 | 可选值：`flat` `onedark` `gruvbox` `dracula` `monokai` `chalk` `nord` `alduin` `darkhub` `juicyfresh` `buddhism` `oldie` `radical` `onestar` `discord` `algolia` `gitdimmed` `tokyonight` `matrix` `apprentice` `dark_dimmed` `dark_lover` `kimbie_dark` |
+| `theme` | string | `flat` | 应用主题 | 可选值：`flat` `onedark` `gruvbox` `dracula` `monokai` `chalk` `nord` `alduin` `darkhub` `juicyfresh` `buddhism` `oldie` `radical` `onestar` `discord` `algolia` `gitdimmed` `tokyonight` `matrix` `apprentice` `dark_dimmed` `dark_lover` `kimbie_dark`。 |
 | `margin-w` | number | `0` | 边距宽度 |  |
 | `margin-h` | number | `0` | 边距高度 |  |
 | `no-bg` | boolean | `false` | 是否透明背景 |  |
@@ -829,14 +829,14 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
 | `username` | string |  | GitHub 用户名 |  |
-| `theme` | string | `default` | 使用主题 | 可选值：`default` `react` `react-dark` `github` `github-compact` `xcode` `rogue` `merko` `vue` `tokyo-night` `high-contrast` |
+| `theme` | string | `default` | 使用主题 | 可选值：`default` `react` `react-dark` `github` `github-compact` `xcode` `rogue` `merko` `vue` `tokyo-night` `high-contrast`。 |
 | `bg_color` | string |  | 卡片背景颜色 | 格式：`HEX` 例如：`FF0000`。 |
 | `color` | string |  | 图表文本颜色 | 格式：`HEX` 例如：`FF0000`。 |
 | `title_color` | string |  | 图形卡片标题颜色 | 格式：`HEX` 例如：`FF0000`。 |
@@ -886,7 +886,7 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -922,7 +922,7 @@
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)
 
-<details>
+<details >
   <summary>点击展开/收起更多示例</summary><p></p>
 
 ```markdown
@@ -950,36 +950,36 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
 | `user` | string |  | GitHub 用户名 |  |
-| `theme` | string | `default` | 主题 | 可选值：`default` `dark` `highcontrast` `transparent` `radical` 等，更多主题请参考 [themes](https://github.com/DenverCoder1/github-readme-streak-stats/blob/main/docs/themes.md) |
+| `theme` | string | `default` | 主题 | 可选值：`default` `dark` `highcontrast` `transparent` `radical` 等，更多主题请参考 [themes](https://github.com/DenverCoder1/github-readme-streak-stats/blob/main/docs/themes.md)。 |
 | `hide_border` | boolean | `false` | 是否使用透明边框 |  |
-| `border_radius` | number | `4.5` | 设置边缘的圆滑度 | 范围：`0`（锐角） 到 `248`（椭圆） |
-| `background` | string |  | 背景颜色 | 格式：`angle,color1,color2,...` 例如：`180,#fff,#000`，颜色格式：`HEX` `CSS 颜色` 例如：`FF0000` |
-| `border` | string |  | 边框颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
-| `stroke` | string |  | 段落之间的描边颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
-| `ring` | string |  | 当前连续贡献环的颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
-| `fire` | string |  | 火焰的颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
-| `currStreakNum` | string |  | 当前连续天数颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
-| `sideNums` | string |  | 总连续贡献数和最长连续贡献数 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
-| `currStreakLabel` | string |  | 当前连续贡献标签颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
-| `sideLabels` | string |  | 总连续贡献数和最长连续贡献数标签 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
-| `dates` | string |  | 日期范围文本颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
-| `excludeDaysLabel` | string |  | 排除星期的文本颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000` |
-| `date_format` | string |  | 日期格式模式或为空以使用区域格式 | 格式参考：[PHP's date function](https://www.php.net/manual/zh/datetime.format.php#refsect1-datetime.format-parameters)，示例：[example](https://www.php.net/manual/zh/datetime.format.php#refsect1-datetime.format-parameters) |
-| `locale` | string | `en` | 语言 | 格式参考：[Locales](https://github.com/DenverCoder1/github-readme-streak-stats?tab=readme-ov-file#-locales) |
+| `border_radius` | number | `4.5` | 设置边缘的圆滑度 | 范围：`0`（锐角） 到 `248`（椭圆）。 |
+| `background` | string |  | 背景颜色 | 格式：`angle,color1,color2,...` 例如：`180,#fff,#000`，颜色格式：`HEX` `CSS 颜色` 例如：`FF0000`。 |
+| `border` | string |  | 边框颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000`。 |
+| `stroke` | string |  | 段落之间的描边颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000`。 |
+| `ring` | string |  | 当前连续贡献环的颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000`。 |
+| `fire` | string |  | 火焰的颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000`。 |
+| `currStreakNum` | string |  | 当前连续天数颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000`。 |
+| `sideNums` | string |  | 总连续贡献数和最长连续贡献数 | 格式：`HEX` `CSS 颜色` 例如：`FF0000`。 |
+| `currStreakLabel` | string |  | 当前连续贡献标签颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000`。 |
+| `sideLabels` | string |  | 总连续贡献数和最长连续贡献数标签 | 格式：`HEX` `CSS 颜色` 例如：`FF0000`。 |
+| `dates` | string |  | 日期范围文本颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000`。 |
+| `excludeDaysLabel` | string |  | 排除星期的文本颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000`。 |
+| `date_format` | string |  | 日期格式模式或为空以使用区域格式 | 格式参考：[PHP's date function](https://www.php.net/manual/zh/datetime.format.php#refsect1-datetime.format-parameters)，示例：[example](https://www.php.net/manual/zh/datetime.format.php#refsect1-datetime.format-parameters)。 |
+| `locale` | string | `en` | 语言 | 格式参考：[Locales](https://github.com/DenverCoder1/github-readme-streak-stats?tab=readme-ov-file#-locales)。 |
 | `short_numbers` | boolean |  | 是否使用短数字 |  |
-| `type` | string | `svg` | 输出格式 | 可选值：`svg` `json` `png` |
-| `mode` | string | `daily` | 模式 | 可选值：`daily`（每日）`weekly`（每周） |
-| `exclude_days` | string |  | 排除连续贡献的天数 | 可选值：`Sun` `Mon` `Tue` `Wed` `Thu` `Fri` `Sat` 多个值用 `,` 分隔 |
+| `type` | string | `svg` | 输出格式 | 可选值：`svg` `json` `png`。 |
+| `mode` | string | `daily` | 模式 | 可选值：`daily`（每日）`weekly`（每周）。 |
+| `exclude_days` | string |  | 排除连续贡献的天数 | 可选值：`Sun` `Mon` `Tue` `Wed` `Thu` `Fri` `Sat` 多个值用 `,` 分隔。 |
 | `disable_animations` | boolean | `false` | 禁用 SVG 动画 |  |
-| `card_width` | number | `495` | 卡片宽度 | 单位：像素，每列最小宽度为 100 像素 |
-| `card_height` | number | `195` | 卡片高度 | 单位：像素，每列最小高度为 170 像素 |
+| `card_width` | number | `495` | 卡片宽度 | 单位：像素，每列最小宽度为 100 像素。 |
+| `card_height` | number | `195` | 卡片高度 | 单位：像素，每列最小高度为 170 像素。 |
 | `hide_total_contributions` | boolean | `false` | 是否隐藏总贡献数 |  |
 | `hide_current_streak` | boolean | `false` | 是否隐藏当前连续提交数 |  |
 | `hide_longest_streak` | boolean | `false` | 是否隐藏最长贡献 |  |
@@ -1014,7 +1014,7 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -1057,7 +1057,7 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -1072,7 +1072,7 @@
 ![配置颜色](https://ghchart.rshah.org/{color}/{username})
 ```
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -1111,13 +1111,13 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `configId` | string |  | 配置 ID | 登录 [Repobeats](https://repobeats.axiom.co/) 后选择仓库后获取 |
+| `configId` | string |  | 配置 ID | 登录 [Repobeats](https://repobeats.axiom.co/) 后选择仓库后获取。 |
 
 </details>
 
@@ -1149,23 +1149,23 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
-| `description` | boolean | `0` | 是否显示项目描述 | 可选值：`0` `1` |
-| `forks` | boolean | `0` | 是否显示 Forks 数量 | 可选值：`0` `1` |
-| `issues` | boolean | `0` | 是否显示 Issues 数量 | 可选值：`0` `1` |
-| `name` | boolean | `1` | 是否显示项目名称 | 可选值：`0` `1` |
-| `owner` | boolean | `0` | 是否显示用户名 | 可选值：`0` `1` |
-| `pulls` | boolean | `0` | 是否显示 PR 数量 | 可选值：`0` `1` |
-| `stargazers` | boolean | `0` | 是否显示 Stars 数量 | 可选值：`0` `1` |
-| `pattern` | string |  | 背景图样式 | 可选值：`Signal` `Charlie Brown` `Formal Invitation` `Plus` `Circuit Board` `Overlapping Hexagons` `Brick Wall` `Floating Cogs` `Diagonal Stripes` `Solid` `Transparent` |
-| `logo` | string |  | 项目 Logo | 可选类型：`URL` `DATA URI` |
+| `description` | boolean | `0` | 是否显示项目描述 | 可选值：`0` `1`。 |
+| `forks` | boolean | `0` | 是否显示 Forks 数量 | 可选值：`0` `1`。 |
+| `issues` | boolean | `0` | 是否显示 Issues 数量 | 可选值：`0` `1`。 |
+| `name` | boolean | `1` | 是否显示项目名称 | 可选值：`0` `1`。 |
+| `owner` | boolean | `0` | 是否显示用户名 | 可选值：`0` `1`。 |
+| `pulls` | boolean | `0` | 是否显示 PR 数量 | 可选值：`0` `1`。 |
+| `stargazers` | boolean | `0` | 是否显示 Stars 数量 | 可选值：`0` `1`。 |
+| `pattern` | string |  | 背景图样式 | 可选值：`Signal` `Charlie Brown` `Formal Invitation` `Plus` `Circuit Board` `Overlapping Hexagons` `Brick Wall` `Floating Cogs` `Diagonal Stripes` `Solid` `Transparent`。 |
+| `logo` | string |  | 项目 Logo | 可选类型：`URL` `DATA URI`。 |
 | `language` | boolean | `0` | 是否显示项目语言 | 可选值：`0` `1` |
-| `font` | string |  | 字体 | 可选值：`Inter` `Bitter` `Raleway` `Rokkitt` `Source Code Pro` `KoHo` `Jost` |
+| `font` | string |  | 字体 | 可选值：`Inter` `Bitter` `Raleway` `Rokkitt` `Source Code Pro` `KoHo` `Jost`。 |
 
 </details>
 
@@ -1200,7 +1200,7 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -1242,7 +1242,7 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -1258,7 +1258,7 @@
 ![Alt](https://starlines.qoo.monster/assets/{owner}/{repo})
 ```
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -1274,7 +1274,7 @@
 ![Alt](https://starlines.qoo.monster/assets/{owner}/{gist}@gist)
 ```
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -1313,15 +1313,15 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
-| `type` | string | `vertical` | 类型 | 可选值：`vertical` `horizontal` |
-| `theme` | string | `light` | 主题 | 可选值：`dark` `light` `chartreuse-dark` `radical` `merko` `gruvbox` `tokyonight` `catppuccin` `catppuccin_latte` `catppuccin_frappe` `catppuccin_macchiato` `catppuccin_mocha` `algolia` `monokai` `dracula` `nord` `github` `graywhite` `moonlight` `hackerman` `shadow_red` `shadow_green` `shadow_blue` |
-| `quote` | string |  | 名言 | 若为空，则随机获取名言，名言列表：[quotes.json](https://github.com/mudroljub/programming-quotes-api/raw/master/data/quotes.json) |
+| `type` | string | `vertical` | 类型 | 可选值：`vertical` `horizontal`。 |
+| `theme` | string | `light` | 主题 | 可选值：`dark` `light` `chartreuse-dark` `radical` `merko` `gruvbox` `tokyonight` `catppuccin` `catppuccin_latte` `catppuccin_frappe` `catppuccin_macchiato` `catppuccin_mocha` `algolia` `monokai` `dracula` `nord` `github` `graywhite` `moonlight` `hackerman` `shadow_red` `shadow_green` `shadow_blue`。 |
+| `quote` | string |  | 名言 | 若为空，则随机获取名言，名言列表：[quotes.json](https://github.com/mudroljub/programming-quotes-api/raw/master/data/quotes.json)。 |
 | `author` | string | `Me` | 名言作者 |  |
 | `border` | boolean | `false` | 是否使用边框 |  |
 
@@ -1339,7 +1339,7 @@
 
 ![随机名言](https://quotes-github-readme.vercel.app/api?theme=dark\&type=horizontal)
 
-<details>
+<details >
   <summary>点击展开/收起更多示例</summary><p></p>
 
 ```markdown
@@ -1366,18 +1366,18 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
 | `username` | string |  | Twitter 用户名 |  |
-| `theme` | string | `dracula` | 主题 | 可选值：`default` `default_repocard` `transparent` `dark` `tokyonight` 更多主题参考：[Themes](https://github.com/VishwaGauravIn/github-twitter-card-embed?tab=readme-ov-file#-themes) |
-| `icon` | string | `default` | 图标 | 可选值：`default` `thunder` `sun` `beaker` `bookmark` `bug` `cake` `badge` `code` `smile` `fire` `hashtag` `heart` `lock` `moon` `radio` `sparkles` `star` `trophy` `user` |
-| `time` | boolean | `true` | 是否显示时间 | 可选值：`true` `false` |
-| `response` | boolean | `true` | 是否显示点赞、转发和评论 | 可选值：`true` `false` |
-| `border` | boolean | `true` | 是否显示边框 | 可选值：`true` `false` |
+| `theme` | string | `dracula` | 主题 | 可选值：`default` `default_repocard` `transparent` `dark` `tokyonight` 更多主题参考：[Themes](https://github.com/VishwaGauravIn/github-twitter-card-embed?tab=readme-ov-file#-themes)。 |
+| `icon` | string | `default` | 图标 | 可选值：`default` `thunder` `sun` `beaker` `bookmark` `bug` `cake` `badge` `code` `smile` `fire` `hashtag` `heart` `lock` `moon` `radio` `sparkles` `star` `trophy` `user`。 |
+| `time` | boolean | `true` | 是否显示时间 | 可选值：`true` `false`。 |
+| `response` | boolean | `true` | 是否显示点赞、转发和评论 | 可选值：`true` `false`。 |
+| `border` | boolean | `true` | 是否显示边框 | 可选值：`true` `false`。 |
 
 </details>
 
@@ -1412,17 +1412,17 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `badgenNetParams` | any\[] |  | [badgen.net 徽章路径参数](https://badgen.net/help) | 例如：`static/...`（静态徽章） `github/...`（Github 相关） |
+| `badgenNetParams` | any\[] |  | [badgen.net 徽章路径参数](https://badgen.net/help) | 例如：`static/...`（静态徽章） `github/...`（Github 相关）。 |
 | ![rl-link-query] | | | | |
-| `gradient` | string |  | 渐变色 | 格式：`color1,color2` 颜色格式：`HEX` `CSS 颜色` |
-| `style` | string |  | 徽章样式 | 可选值：`flat` |
-| `badgenNetQuerys` | any\[] |  | [badgen.net 徽章查询参数](https://badgen.net/help) | 例如：`color`（图标颜色） `icon`（图标）等 |
+| `gradient` | string |  | 渐变色 | 格式：`color1,color2` 颜色格式：`HEX` `CSS 颜色`。 |
+| `style` | string |  | 徽章样式 | 可选值：`flat`。 |
+| `badgenNetQuerys` | any\[] |  | [badgen.net 徽章查询参数](https://badgen.net/help) | 例如：`color`（图标颜色） `icon`（图标）等。 |
 
 </details>
 
@@ -1443,7 +1443,7 @@
 
 ![rl-line]
 
-### Iconify | 图标徽章
+### Iconify
 
 ![rl-badge-introduction]
 
@@ -1455,7 +1455,7 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -1464,11 +1464,11 @@
 | `prefix` | string |  | 图标集前缀 |  |
 | `name` | string |  | 图标名称 |  |
 | ![rl-link-query] | | | | |
-| `color` | string |  | 图标颜色 | 支持格式：`HEX` `CSS 颜色值`，例如：`#FF0000` `red` `rgb(255, 0, 0)` |
-| `width` | number |  | 图标宽度 | 单位：像素 |
-| `height` | number |  | 图标高度 | 单位：像素 |
-| `flip` | string |  | 翻转图标 | 可选值：`horizontal` `vertical` |
-| `rotate` | string |  | 旋转图标 | 可填类型：`deg` 或是 `number`，`1=90deg` |
+| `color` | string |  | 图标颜色 | 支持格式：`HEX` `CSS 颜色值` 例如：`#FF0000` `red` `rgb(255, 0, 0)`。 |
+| `width` | number |  | 图标宽度 | 单位：像素。 |
+| `height` | number |  | 图标高度 | 单位：像素。 |
+| `flip` | string |  | 翻转图标 | 可选值：`horizontal` `vertical`。 |
+| `rotate` | string |  | 旋转图标 | 格式：`deg` `number` 其中 `1=90deg`。 |
 | `download` | boolean |  | 强制浏览器下载文件 |  |
 | `box` | boolean |  | 是否向 SVG 添加与 viewBox 匹配的空矩形 |  |
 
@@ -1490,7 +1490,7 @@
 
 ![rl-line]
 
-### Open Collective | 财务贡献者图
+### Open Collective
 
 ![rl-badge-introduction]
 
@@ -1501,21 +1501,21 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
 | `collectiveName` | string |  | Open Collective 组织名 |  |
-| `statisticalType` | string |  | 统计类型 | 可选值：`sponsors`（赞助商）、`backers`（支持者）、`contributors`（贡献者） |
+| `statisticalType` | string |  | 统计类型 | 可选值：`sponsors`（赞助商）`backers`（支持者）`contributors`（贡献者）。 |
 | ![rl-link-query] | | | | |
-| `width` | number |  | 图片宽度 | 单位：像素 |
-| `height` | number |  | 图片高度 | 单位：像素 |
-| `limit` | number |  | 最多显示成员数 | 空则表示：无上限 |
+| `width` | number |  | 图片宽度 | 单位：像素。 |
+| `height` | number |  | 图片高度 | 单位：像素。 |
+| `limit` | number |  | 最多显示成员数 | 空则表示：无上限。 |
 | `avatarHeight` | number |  | 每个头像/标志的最大高度 |  |
 | `button` | boolean | `true` | 显示 “成为支持者/赞助商” 按钮 |  |
-| `format` | string |  | 图片格式 | 将 `.svg` 替换为 `.png` 或 `.jpg` |
+| `format` | string |  | 图片格式 | 将 `.svg` 替换为 `.png` 或 `.jpg`。 |
 
 </details>
 
@@ -1532,7 +1532,7 @@
 
 ![Sponsors on Open Collective](https://opencollective.com/vite/sponsors.svg)
 
-<details>
+<details >
   <summary>点击展开/收起更多示例</summary><p></p>
 
 ```markdown
@@ -1560,7 +1560,7 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -1587,7 +1587,7 @@
 
 ![rl-line]
 
-### Open Source Software Insight | 开源软件洞察
+### Open Source Software Insight
 
 > \[!Tip]
 > 由于此项目支持的卡片种类非常多，且功能强大，这里只简单介绍－推送和提交记录卡片，其他卡片使用方式还请移步官方文档。
@@ -1601,14 +1601,14 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
 | `repo_id` | string |  | Github 仓库 ID |  |
-| `color_scheme` | string |  | 卡片颜色主题 | 可选值：`light` `dark` |
+| `color_scheme` | string |  | 卡片颜色主题 | 可选值：`light` `dark`。 |
 
 </details>
 
@@ -1625,7 +1625,7 @@
 
 ![Pushes and Commits of pingcap/ossinsight](https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month/thumbnail.png?repo_id=449649595\&color_scheme=dark)
 
-<details>
+<details >
   <summary>点击展开/收起更多示例</summary><p></p>
 
 ```markdown
@@ -1641,7 +1641,7 @@
 
 ![rl-line]
 
-### PlayBadges | Play Store 应用卡片
+### PlayBadges
 
 ![rl-badge-introduction]
 
@@ -1652,16 +1652,16 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `type` | string |  | 卡片类型 | 可选值：`full` `downloads` `ratings` |
+| `type` | string |  | 卡片类型 | 可选值：`full` `downloads` `ratings`。 |
 | ![rl-link-query] | | | | |
 | `id` | string |  | 软件包名 |  |
-| `pretty` | boolean |  | 是否美化显示数字 | 美化：给数字添加单位符号，例如：`100K`，注意：`&pretty` 表示启用，去除则表示禁用 |
+| `pretty` | boolean |  | 是否美化显示数字 | 美化：给数字添加单位符号，例如：`100K`，注意：`&pretty` 表示启用，去除则表示禁用。 |
 | `country` | string | `us` | 国家代码 |  |
 
 </details>
@@ -1679,22 +1679,22 @@
 
 ![Play Store App](https://PlayBadges.pavi2410.me/badge/full?id=appinventor.ai_pavitragolchha.VR)
 
-<details>
+<details >
   <summary>点击展开/收起更多示例</summary><p></p>
 
 ```markdown
 <!-- pavi2410 -->
-![Play Store App Downloads](https://PlayBadges.pavi2410.me/badge/downloads?id=appinventor.ai_pavitragolchha.VR&pretty)
+![Play Store App 下载量](https://PlayBadges.pavi2410.me/badge/downloads?id=appinventor.ai_pavitragolchha.VR&pretty)
 ```
 
-![Play Store App Downloads](https://PlayBadges.pavi2410.me/badge/downloads?id=appinventor.ai_pavitragolchha.VR\&pretty)
+![Play Store App 下载量](https://PlayBadges.pavi2410.me/badge/downloads?id=appinventor.ai_pavitragolchha.VR\&pretty)
 
 ```markdown
 <!-- pavi2410 -->
-![Play Store App Ratings](https://PlayBadges.pavi2410.me/badge/ratings?id=appinventor.ai_pavitragolchha.VR)
+![Play Store App 评分](https://PlayBadges.pavi2410.me/badge/ratings?id=appinventor.ai_pavitragolchha.VR)
 ```
 
-![Play Store App Ratings](https://PlayBadges.pavi2410.me/badge/ratings?id=appinventor.ai_pavitragolchha.VR)
+![Play Store App 评分](https://PlayBadges.pavi2410.me/badge/ratings?id=appinventor.ai_pavitragolchha.VR)
 
 </details>
 
@@ -1702,7 +1702,7 @@
 
 ![rl-line]
 
-### README Jokes | README 笑话
+### README Jokes
 
 ![rl-badge-introduction]
 
@@ -1713,20 +1713,20 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
-| `bgColor` | string |  | 背景颜色 | 格式：`HEX` 例如：`#FF0000` |
-| `borderColor` | string |  | 边框颜色 | 格式：`HEX` 例如：`#FF0000` |
-| `qColor` | string |  | 问题颜色 | 格式：`HEX` 例如：`#FF0000` |
-| `aColor` | string |  | 回答颜色 | 格式：`HEX` 例如：`#FF0000` |
-| `textColor` | string |  | 正常文字颜色 | 格式：`HEX` 例如：`#FF0000` |
-| `codeColor` | string |  | 代码颜色 | 格式：`HEX` 例如：`#FF0000` |
-| `hideBorder` | boolean | `false` | 是隐藏边框 | 隐藏：`&hideBorder` 正常：不添加 `hideBorder` 即可 |
-| `theme` | string | `default` | 主题 | 可选值：`random` `gradientBlue` `solidBlue` `tokyonight` `halloween` `watermelon` `pinkish` `daySky` `radical` `merko` `gruvbox` `vue` 更多主题参考：[theme](https://github.com/ABSphreak/readme-jokes?tab=readme-ov-file#parameters-available) |
+| `bgColor` | string |  | 背景颜色 | 格式：`HEX` 例如：`#FF0000`。 |
+| `borderColor` | string |  | 边框颜色 | 格式：`HEX` 例如：`#FF0000`。 |
+| `qColor` | string |  | 问题颜色 | 格式：`HEX` 例如：`#FF0000`。 |
+| `aColor` | string |  | 回答颜色 | 格式：`HEX` 例如：`#FF0000`。 |
+| `textColor` | string |  | 正常文字颜色 | 格式：`HEX` 例如：`#FF0000`。 |
+| `codeColor` | string |  | 代码颜色 | 格式：`HEX` 例如：`#FF0000`。 |
+| `hideBorder` | boolean | `false` | 隐藏边框 | 隐藏：`&hideBorder` 正常：不添加 `hideBorder` 即可。 |
+| `theme` | string | `default` | 主题 | 可选值：`random` `gradientBlue` `solidBlue` `tokyonight` `halloween` `watermelon` `pinkish` `daySky` `radical` `merko` `gruvbox` `vue` 更多主题：[theme](https://github.com/ABSphreak/readme-jokes?tab=readme-ov-file#parameters-available)。 |
 
 </details>
 
@@ -1737,16 +1737,16 @@
 ![rl-uses-examples]
 
 ```markdown
-![README Jokes](https://readme-jokes.vercel.app/api?hideBorder)
+![编程笑话](https://readme-jokes.vercel.app/api?hideBorder)
 ```
 
-![README Jokes](https://readme-jokes.vercel.app/api?hideBorder)
+![编程笑话](https://readme-jokes.vercel.app/api?hideBorder)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『回到顶部』-555555?style=for-the-badge"></a></p>
 
 ![rl-line]
 
-### Readme Typing SVG | 打字机效果的动态 SVG 卡片
+### Readme Typing SVG
 
 ![rl-badge-introduction]
 
@@ -1758,27 +1758,27 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
-| `lines` | string |  | 显示的文本 | 多行之间用 `;` 分隔，文本中空格使用 `+` 代替 |
+| `lines` | string |  | 要显示的多行文本 | 多行之间用 `;` 分隔，文本中空格使用 `+` 代替。 |
 | `height` | number | `50` | 输出 SVG 的高度 |  |
 | `width` | number | `400` | 输出 SVG 的宽度 |  |
-| `size` | number | `20` | 字体大小 | 单位：像素 |
-| `font` | string | `monospace` | 字体族 | 任何 Google Fonts 中的字体 |
-| `color` | string | `36BCF7` | 文本颜色 | 十六进制代码不带 # |
-| `background` | string | `00000000` | 文本背景颜色 | 十六进制代码不带 # |
-| `center` | boolean | `false` | 文本水平对齐方式 | 可选值：true（水平居中）false（左对齐） |
-| `vCenter` | boolean | `false` | 文本垂直对齐方式 | 可选值：true（垂直居中）false（居中上方） |
-| `multiline` | boolean | `false` | 文本换行显示方式 | 可选值：true（换行显示）false（同一行重新显示） |
+| `size` | number | `20` | 字体大小 | 单位：像素。 |
+| `font` | string | `monospace` | 字体族 | 任何 Google Fonts 中的字体。 |
+| `color` | string | `36BCF7` | 文本颜色 | 格式：`HEX` 例如：`FF0000`。 |
+| `background` | string | `00000000` | 文本背景颜色 | 格式：`HEX` 例如：`FF0000`。 |
+| `center` | boolean | `false` | 文本水平对齐方式 | 可选值：true（水平居中）false（左对齐）。 |
+| `vCenter` | boolean | `false` | 文本垂直对齐方式 | 可选值：true（垂直居中）false（居中上方）。 |
+| `multiline` | boolean | `false` | 文本换行显示方式 | 可选值：true（换行显示）false（同一行重新显示）。 |
 | `duration` | number | `5000` | 单行打印持续时间 |  |
-| `pause` | number | `0` | 行与行之间的暂停时间 | 单位：毫秒 |
+| `pause` | number | `0` | 行与行之间的暂停时间 | 单位：毫秒。 |
 | `repeat` | boolean | `true` | 在最后一行之后循环回到第一行 |  |
 | `separator` | string | `;` | 行参数中使用的分隔符 |  |
-| `letterSpacing` | string | `normal` | 字母间距 | 任何字母间距（letter-spacing）属性的 CSS 值 |
+| `letterSpacing` | string | `normal` | 字母间距 | 格式：`CSS 颜色`。 |
 
 </details>
 
@@ -1798,7 +1798,7 @@
 
 ![rl-line]
 
-### Sloc Cloc and Code | 代码行数统计
+### Sloc Cloc and Code
 
 ![rl-badge-introduction]
 
@@ -1809,24 +1809,24 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `provider` | string |  | 提供商 | 可选值：`github` |
+| `provider` | string |  | 提供商 | 可选值：`github`。 |
 | `user` | string |  | 用户名 |  |
 | `repo` | string |  | 仓库名 |  |
 | ![rl-link-query] | | | | |
-| `category` | string | `code` | 统计类别 | 可选值：`code` `blanks` `lines` `comments` `cocomo` |
-| `avg-wage` | number | `56286` | 平均工资 | 值必须为正整数，否则将恢复到默认值 `56286` |
+| `category` | string | `code` | 统计类别 | 可选值：`code` `blanks` `lines` `comments` `cocomo`。 |
+| `avg-wage` | number | `56286` | 平均工资 | 值必须为正整数，否则将恢复到默认值 `56286`。 |
 | `lower` | boolean |  | 将标题文本转换为小写 |  |
-| `font-color` | string |  | 字体颜色 | 支持类型：`HEX`，例如：`FF0000` |
-| `font-shadow-color` | string |  | 字体阴影颜色 | 支持类型：`HEX`，例如：`FF0000` |
-| `top-shadow-accent-color` | string |  | 顶部阴影突出颜色 | 支持类型：`HEX`，例如：`FF0000` |
-| `title-bg-color` | string |  | 标题背景颜色 | 支持类型：`HEX`，例如：`FF0000` |
-| `badge-bg-color` | string |  | 徽章背景颜色 | 支持类型：`HEX`，例如：`FF0000` |
+| `font-color` | string |  | 字体颜色 | 支持类型：`HEX`，例如：`FF0000`。 |
+| `font-shadow-color` | string |  | 字体阴影颜色 | 支持类型：`HEX`，例如：`FF0000`。 |
+| `top-shadow-accent-color` | string |  | 顶部阴影突出颜色 | 支持类型：`HEX`，例如：`FF0000`。 |
+| `title-bg-color` | string |  | 标题背景颜色 | 支持类型：`HEX`，例如：`FF0000`。 |
+| `badge-bg-color` | string |  | 徽章背景颜色 | 支持类型：`HEX`，例如：`FF0000`。 |
 
 </details>
 
@@ -1838,16 +1838,16 @@
 
 ```markdown
 <!-- xiaohuohumax/badge-collection -->
-![Total lines](https://sloc.xyz/github/xiaohuohumax/badge-collection)
+![总行数](https://sloc.xyz/github/xiaohuohumax/badge-collection)
 ```
 
-![Total lines](https://sloc.xyz/github/xiaohuohumax/badge-collection)
+![总行数](https://sloc.xyz/github/xiaohuohumax/badge-collection)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『回到顶部』-555555?style=for-the-badge"></a></p>
 
 ![rl-line]
 
-### Stackoverflow Readme Profile | Stackoverflow 个人资料卡片
+### Stackoverflow Readme Profile
 
 ![rl-badge-introduction]
 
@@ -1859,18 +1859,18 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-params] | | | | |
-| `template` | string |  | 显示模板 | 可选值：`profile` `profile-small` |
+| `template` | string |  | 显示模板 | 可选值：`profile` `profile-small`。 |
 | `userId` | string |  | Stackoverflow 用户 ID |  |
 | ![rl-link-query] | | | | |
-| `theme` | string | `default` | 主题 | 可选值：`default` `dark` `cobalt` `monokai` `graywhite` `hotdog` |
-| `website` | boolean | `true` | 是否显示网站 URL | `template=profile` 可用，可选值：`true` `false` |
-| `location` | boolean | `true` | 是否显示位置 | `template=profile` 可用，可选值：`true` `false` |
+| `theme` | string | `default` | 主题 | 可选值：`default` `dark` `cobalt` `monokai` `graywhite` `hotdog`。 |
+| `website` | boolean | `true` | 是否显示网站 URL | 仅当 `template=profile` 时可用，可选值：`true` `false`。 |
+| `location` | boolean | `true` | 是否显示位置 | 仅当 `template=profile` 时可用，可选值：`true` `false`。 |
 
 </details>
 
@@ -1879,7 +1879,7 @@
 ![Alt](https://stackoverflow-readme-profile.johannchopin.fr/{template}/{userId}{?theme,website,location})
 ```
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -1888,7 +1888,7 @@
 | `tagName` | string |  | 标签名称 |  |
 | `userId` | string |  | Stackoverflow 用户 ID |  |
 | ![rl-link-query] | | | | |
-| `theme` | string | `default` | 主题 | 可选值：`default` `dark` `cobalt` `monokai` `graywhite` `hotdog` |
+| `theme` | string | `default` | 主题 | 可选值：`default` `dark` `cobalt` `monokai` `graywhite` `hotdog`。 |
 
 </details>
 
@@ -1922,14 +1922,14 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
 | ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
 | ![rl-link-query] | | | | |
-| `repos` | string |  | 仓库名 | 多个仓库名用 `,` 分隔，例如：`owner1/repo1,owner2/repo2` |
-| `type` | string |  | 显示类型 | 可选值：`Date` `Timeline` |
+| `repos` | string |  | 仓库名 | 多个仓库名用 `,` 分隔，例如：`owner1/repo1,owner2/repo2`。 |
+| `type` | string |  | 显示类型 | 可选值：`Date` `Timeline`。 |
 
 </details>
 
@@ -1950,7 +1950,7 @@
 
 ![rl-line]
 
-### Widget Bite | 速食小组件
+### Widget Bite
 
 ![rl-badge-introduction]
 
@@ -1961,7 +1961,7 @@
 
 ![rl-badge-params]
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -1976,7 +1976,7 @@
 ![Alt](https://widgetbite.com/stats/{username})
 ```
 
-<details>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -1984,10 +1984,10 @@
 | ![rl-link-query] | | | | |
 | `title` | string |  | 标题 |  |
 | `subtitle` | string |  | 副标题 |  |
-| `titletransform` | string | `none` | 标题旋转方式 | 可选值：`none` `rotate` `skew` `scale` |
-| `subtitletransform` | string | `none` | 副标题旋转方式 | 可选值：`none` `rotate` `skew` `scale` |
-| `fontpalette` | string | `none` | 文字样式 | 可选值：`none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn` |
-| `backgroundpalette` | string | `none` | 背景样式 | 可选值：`none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn` |
+| `titletransform` | string | `none` | 标题旋转方式 | 可选值：`none` `rotate` `skew` `scale`。 |
+| `subtitletransform` | string | `none` | 副标题旋转方式 | 可选值：`none` `rotate` `skew` `scale`。 |
+| `fontpalette` | string | `none` | 文字样式 | 可选值：`none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`。 |
+| `backgroundpalette` | string | `none` | 背景样式 | 可选值：`none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`。 |
 
 </details>
 
@@ -2000,12 +2000,12 @@
 
 ```markdown
 <!-- xiaohuohumax -->
-![Visitor Stats](https://widgetbite.com/stats/xiaohuohumax)
+![访客统计](https://widgetbite.com/stats/xiaohuohumax)
 ```
 
-![Visitor Stats](https://widgetbite.com/stats/xiaohuohumax)
+![访客统计](https://widgetbite.com/stats/xiaohuohumax)
 
-<details>
+<details >
   <summary>点击展开/收起更多示例</summary><p></p>
 
 ```markdown
