@@ -1,9 +1,11 @@
 {
-  "title": "Spark | GitHub 星标迷你线图",
+  "title": "Spark",
   "description": "Spark 是一个生成精美小图的生成器，称为 sparklines，帮你生成 Github 星标的迷你线图。",
+  "description:en-US": "Spark is a generator of pretty little graphs called sparklines, which shows GitHub stars velocity of a repo.",
   "alert": {
     "type": "Warning",
-    "messages": "此服务基于 Github API，会有请求限制，使用需谨慎。"
+    "messages": "此服务基于 Github API，会有请求限制，使用需谨慎。",
+    "messages:en-US": "This service is based on Github API, and there are request limits. Use it with caution."
   },
   "tags": {
     "repoUrl": "https://github.com/antonmedv/spark",
@@ -14,12 +16,14 @@
       {
         "name": "owner",
         "type": "string",
-        "description": "Github 用户名"
+        "description": "Github 用户名",
+        "description:en-US": "Github username"
       },
       {
         "name": "repo",
         "type": "string",
-        "description": "Github 仓库名"
+        "description": "Github 仓库名",
+        "description:en-US": "Github repository name"
       }
     ],
     "srcTemplate": "https://stars.medv.io/{owner}/{repo}.svg"
@@ -28,12 +32,14 @@
     {
       "explain": {
         "annotate": "antonmedv/spark",
-        "alt": "Star Sparkline",
+        "alt": "星标迷你线图",
+        "alt:en-US": "Star Sparkline",
         "src": "https://stars.medv.io/antonmedv/spark.svg"
       },
       "images": [
         {
-          "alt": "Star Sparkline",
+          "alt": "星标迷你线图",
+          "alt:en-US": "Star Sparkline",
           "src": "https://stars.medv.io/antonmedv/spark.svg"
         }
       ]
