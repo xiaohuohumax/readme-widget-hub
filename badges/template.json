@@ -1,10 +1,13 @@
 {
   "enabled": false,
   "title": "",
+  "title:en-US": "",
   "description": "",
+  "description:en-US": "",
   "alert": {
     "type": "Tip",
-    "messages": ""
+    "messages": "",
+    "messages:en-US": ""
   },
   "tags": {
     "repoUrl": "",
@@ -19,7 +22,9 @@
         "type": "",
         "default": "",
         "description": "",
-        "extDescription": ""
+        "description:en-US": "",
+        "extDescription": "",
+        "extDescription:en-US": ""
       }
     ],
     "querys": [],
@@ -29,12 +34,15 @@
     {
       "explain": {
         "annotate": "",
+        "annotate:en-US": "",
         "alt": "",
+        "alt:en-US": "",
         "src": ""
       },
       "images": [
         {
           "alt": "",
+          "alt:en-US": "",
           "src": ""
         }
       ]
