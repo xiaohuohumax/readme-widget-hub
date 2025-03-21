@@ -1,6 +1,7 @@
 {
-  "title": "Github Readme Activity Graph | Github 个人活动图",
+  "title": "Github Readme Activity Graph",
   "description": "动态生成的活动图，展示您过去 31 天的 GitHub 活动。",
+  "description:en-US": "A dynamically generated activity graph to show your GitHub activities of last 31 days.",
   "tags": {
     "repoUrl": "https://github.com/Ashutosh00710/github-readme-activity-graph",
     "onlineToolUrl": "https://ashutosh00710.github.io/github-readme-activity-graph/",
@@ -11,110 +12,140 @@
       {
         "name": "username",
         "type": "string",
-        "description": "GitHub 用户名"
+        "description": "GitHub 用户名",
+        "description:en-US": "GitHub username"
       },
       {
         "name": "theme",
         "type": "string",
         "default": "default",
-        "description": "主题",
-        "extDescription": "可选值：`default` `react` `react-dark` `github` `github-compact` `xcode` `rogue` `merko` `vue` `tokyo-night` `high-contrast`"
+        "description": "使用主题",
+        "description:en-US": "Use themes",
+        "extDescription": "可选值：`default` `react` `react-dark` `github` `github-compact` `xcode` `rogue` `merko` `vue` `tokyo-night` `high-contrast`",
+        "extDescription:en-US": "Supported: `default` `react` `react-dark` `github` `github-compact` `xcode` `rogue` `merko` `vue` `tokyo-night` `high-contrast`"
       },
       {
         "name": "bg_color",
         "type": "string",
         "description": "卡片背景颜色",
-        "extDescription": "格式：`HEX` 例如：`FF0000`"
+        "description:en-US": "Card's background color",
+        "extDescription": "格式：`HEX` 例如：`FF0000`。",
+        "extDescription:en-US": "Format: `HEX` e.g. `FF0000`."
       },
       {
         "name": "color",
         "type": "string",
         "description": "图表文本颜色",
-        "extDescription": "格式：`HEX` 例如：`FF0000`"
+        "description:en-US": "Graph card's text color",
+        "extDescription": "格式：`HEX` 例如：`FF0000`。",
+        "extDescription:en-US": "Format: `HEX` e.g. `FF0000`."
       },
       {
         "name": "title_color",
         "type": "string",
         "description": "图形卡片标题颜色",
-        "extDescription": "格式：`HEX` 例如：`FF0000`"
+        "description:en-US": "Graph card's title color",
+        "extDescription": "格式：`HEX` 例如：`FF0000`。",
+        "extDescription:en-US": "Format: `HEX` e.g. `FF0000`."
       },
       {
         "name": "line",
         "type": "string",
         "description": "图表线条颜色",
-        "extDescription": "格式：`HEX` 例如：`FF0000`"
+        "description:en-US": "Graph's line color ",
+        "extDescription": "格式：`HEX` 例如：`FF0000`。",
+        "extDescription:en-US": "Format: `HEX` e.g. `FF0000`."
       },
       {
         "name": "point",
         "type": "string",
         "description": "线图上点的颜色",
-        "extDescription": "格式：`HEX` 例如：`FF0000`"
+        "description:en-US": "Color of points on line graph",
+        "extDescription": "格式：`HEX` 例如：`FF0000`。",
+        "extDescription:en-US": "Format: `HEX` e.g. `FF0000`."
       },
       {
         "name": "area_color",
         "type": "string",
         "description": "图表下方区域的颜色",
-        "extDescription": "格式：`HEX` 例如：`FF0000`"
+        "description:en-US": "Color of the area under the graph",
+        "extDescription": "格式：`HEX` 例如：`FF0000`。",
+        "extDescription:en-US": "Format: `HEX` e.g. `FF0000`."
       },
       {
         "name": "area",
         "type": "boolean",
         "default": "false",
-        "description": "是否显示图表下的面积"
+        "description": "是否显示图表下的面积",
+        "description:en-US": "Shows area under the graph"
       },
       {
         "name": "hide_border",
         "type": "boolean",
         "default": "false",
-        "description": "是否使图表的边框透明"
+        "description": "是否使图表的边框透明",
+        "description:en-US": "Makes the border of the graph transparent"
       },
       {
         "name": "hide_title",
         "type": "boolean",
         "default": "false",
-        "description": "是否设置标题为空字符串"
+        "description": "是否设置标题为空字符串",
+        "description:en-US": "Sets the title to an empty string"
       },
       {
         "name": "custom_title",
         "type": "string",
-        "description": "标题"
+        "description": "标题",
+        "description:en-US": "Set the title to any string"
       },
       {
         "name": "radius",
         "type": "number",
         "description": "图形边框半径",
-        "extDescription": "最小：`0` 最大：`16`"
+        "description:en-US": "Border radius of graph",
+        "extDescription": "范围：`0` 到 `16`。",
+        "extDescription:en-US": "Between `0` and `16`."
       },
       {
         "name": "height",
         "type": "number",
         "description": "图表高度",
-        "extDescription": "最小：`200` 最大：`600`"
+        "description:en-US": "height of the graph",
+        "extDescription": "范围：`200` 到 `600`。",
+        "extDescription:en-US": "Between `200` and `600`."
       },
       {
         "name": "days",
         "type": "number",
         "default": "31",
         "description": "图表上显示的天数数量",
-        "extDescription": "最小：`1` 最大：`90`"
+        "description:en-US": "Number of to days display on graph",
+        "extDescription": "范围：`1` 到 `90`。",
+        "extDescription:en-US": "Between `1` and `90`."
       },
       {
         "name": "from",
         "type": "string",
         "description": "开始日期",
-        "extDescription": "格式：`YYYY-MM-DD`"
+        "description:en-US": "Date from which the graph starts",
+        "extDescription": "格式：`YYYY-MM-DD`。",
+        "extDescription:en-US": "Format: `YYYY-MM-DD`."
       },
       {
         "name": "to",
         "type": "string",
         "description": "结束日期",
-        "extDescription": "格式：`YYYY-MM-DD`"
+        "description:en-US": "Date where the graph will end",
+        "extDescription": "格式：`YYYY-MM-DD`。",
+        "extDescription:en-US": "Format: `YYYY-MM-DD`."
       },
       {
         "name": "grid",
         "type": "boolean",
         "default": "true",
-        "description": "是否显示网格"
+        "description": "是否显示网格",
+        "description:en-US": "Show grid"
       }
     ],
     "srcTemplate": "https://github-readme-activity-graph.vercel.app/graph{?username,theme,bg_color,color,title_color,line,point,area_color,area,hide_border,hide_title,custom_title,radius,height,days,from,to,grid}"
@@ -122,12 +153,14 @@
   "examples": [
     {
       "explain": {
-        "alt": "Github Activity Graph",
+        "alt": "Github 活动图",
+        "alt:en-US": "Github Activity Graph",
         "src": "https://github-readme-activity-graph.vercel.app/graph?username=xiaohuohumax&theme=github&hide_border=true"
       },
       "images": [
         {
-          "alt": "Github Activity Graph",
+          "alt": "Github 活动图",
+          "alt:en-US": "Github Activity Graph",
           "src": "https://github-readme-activity-graph.vercel.app/graph?username=xiaohuohumax&theme=github&hide_border=true"
         }
       ]
