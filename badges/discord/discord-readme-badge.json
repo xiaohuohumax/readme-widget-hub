@@ -1,6 +1,7 @@
 {
-  "title": "Discord README Badge | Discord 用户状态徽章",
+  "title": "Discord README Badge",
   "description": "展示你在 Discord 中正在进行的任何工作！",
+  "description:en-US": "Show whatever you're working on through your GitHub readme!",
   "tags": {
     "repoUrl": "https://github.com/Zyplos/discord-readme-badge"
   },
@@ -9,7 +10,8 @@
       {
         "name": "id",
         "type": "string",
-        "description": "Discord 用户 ID"
+        "description": "Discord 用户 ID",
+        "description:en-US": "Discord User ID"
       }
     ],
     "srcTemplate": "https://discord-readme-badge.vercel.app/api{?id}"
@@ -18,12 +20,14 @@
     {
       "explain": {
         "annotate": "Zyplos",
-        "alt": "Discord Status",
+        "alt": "Discord 状态",
+        "alt:en-US": "Discord Status",
         "src": "https://discord-readme-badge.vercel.app/api?id=204620732259368960"
       },
       "images": [
         {
-          "alt": "Discord Status",
+          "alt": "Discord 状态",
+          "alt:en-US": "Discord Status",
           "src": "https://discord-readme-badge.vercel.app/api?id=204620732259368960"
         }
       ]
