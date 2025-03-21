@@ -1,9 +1,11 @@
 {
-  "title": "GitHub Starlines | GitHub 星标迷你线图",
+  "title": "GitHub Starlines",
   "description": "动态生成 GitHub 星星历史徽章。",
+  "description:en-US": "Create beautiful stargazers histograms of your repositories or gists.",
   "alert": {
     "type": "Tip",
-    "messages": "首次访问需要等待一会，等待图片生成。你也可以查看构建 [workflow runs](https://github.com/qoomon/starlines/actions/workflows/create-starline.yaml)"
+    "messages": "首次访问需要等待一会，等待图片生成。你也可以查看构建 [workflow runs](https://github.com/qoomon/starlines/actions/workflows/create-starline.yaml)",
+    "messages:en-US": "It can take some time until the image is ready, depending on the amount of stargazers to fetch and process. If you are eager to watch the image generation workflows progress jump to [workflow runs](https://github.com/qoomon/starlines/actions/workflows/create-starline.yaml)."
   },
   "tags": {
     "repoUrl": "https://github.com/qoomon/starlines",
@@ -15,12 +17,14 @@
         {
           "name": "owner",
           "type": "string",
-          "description": "Github 用户名"
+          "description": "Github 用户名",
+          "description:en-US": "Github username"
         },
         {
           "name": "repo",
           "type": "string",
-          "description": "Github 仓库名"
+          "description": "Github 仓库名",
+          "description:en-US": "Github repository name"
         }
       ],
       "annotate": "Repositorie",
@@ -31,7 +35,8 @@
         {
           "name": "owner",
           "type": "string",
-          "description": "Github 用户名"
+          "description": "Github 用户名",
+          "description:en-US": "Github username"
         },
         {
           "name": "gist",
@@ -47,7 +52,8 @@
         {
           "name": "username",
           "type": "string",
-          "description": "Github 用户名"
+          "description": "Github 用户名",
+          "description:en-US": "Github username"
         }
       ],
       "annotate": "User",
@@ -58,12 +64,14 @@
     {
       "explain": {
         "annotate": "antonmedv/spark",
-        "alt": "Star Sparkline",
+        "alt": "星标迷你线图",
+        "alt:en-US": "Star Sparkline",
         "src": "https://stars.medv.io/antonmedv/spark.svg"
       },
       "images": [
         {
-          "alt": "Star Sparkline",
+          "alt": "星标迷你线图",
+          "alt:en-US": "Star Sparkline",
           "src": "https://stars.medv.io/antonmedv/spark.svg"
         }
       ]
