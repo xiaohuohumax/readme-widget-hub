@@ -1,6 +1,8 @@
 interface ImportMetaEnv {
   /** GitHub Token */
   readonly VITE_GITHUB_TOKEN?: string
+  /** 输出目录 */
+  readonly VITE_OUTPUT_DIR: string
   /**
    * 指引徽章样式（例如：使用示例、返回顶部等）
    * 可选值：flat、flat-square、plastic、for-the-badge
@@ -19,14 +21,10 @@ interface ImportMetaEnv {
   readonly VITE_BADGES_DIR_PATH: string
   /** 徽章集合信息文件名称 */
   readonly VITE_COLLECTION_FILE_NAME: string
-  /** README 模板文件路径 */
-  readonly VITE_TPL_PATH: string
-  /** README 模板徽章标题级别 */
-  readonly VITE_TPL_BADGE_HEADING_LEVEL: string
   /** 徽章示例折叠阈值，超过该阈值的示例会折叠 */
   readonly VITE_EXAMPLES_FOLD_THRESHOLD: string
-  /** 本地化 README 文件目录 */
-  readonly VITE_LOCALE_README_DIR_PATH: string
+  /** README 整体配置信息文件路径 */
+  readonly VITE_README_JSON_FILE_PATH: string
   /** 是否显示徽章详情页的参数 */
   readonly VITE_OPEN_PARAMS_DETAILS: string
   /** 是否显示徽章详情页的示例 */

@@ -1,5 +1,5 @@
 {
-  "outDir": "dist",
+  "outDir": "dist/spider",
   "languages": [
     "Python",
     "CPP",

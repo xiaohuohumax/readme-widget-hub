@@ -354,9 +354,9 @@ export const readmeSchema = {
       type: 'string',
       description: 'TOC title (locale).',
     },
-    '^badgeCollectionTitle:.*$': {
+    '^backToHomeTitle:.*$': {
       type: 'string',
-      description: 'Badge collection title (locale).',
+      description: 'Back to home title.',
     },
     '^thanksContributorsTitle:.*$': {
       type: 'string',
@@ -376,13 +376,13 @@ export const readmeSchema = {
       type: 'string',
       description: 'Header title.',
     },
+    backToHomeTitle: {
+      type: 'string',
+      description: 'Back to home title.',
+    },
     tocTitle: {
       type: 'string',
       description: 'TOC title.',
-    },
-    badgeCollectionTitle: {
-      type: 'string',
-      description: 'Badge collection title.',
     },
     howToRunProject: {
       $ref: '#/definitions/howToRunProject',
@@ -420,8 +420,8 @@ export const readmeSchema = {
   required: [
     'warningInfo',
     'headerTitle',
+    'backToHomeTitle',
     'tocTitle',
-    'badgeCollectionTitle',
     'howToRunProject',
     'howToAddBadge',
     'howToAddLocale',

@@ -55,3 +55,5 @@ fs.writeJSONSync('.vscode/schema/badge.schema.json', rootBadgeSchema, { spaces: 
 fs.writeJSONSync('.vscode/schema/collection.schema.json', rootCollectionSchema, { spaces: 2 })
 fs.writeJSONSync('.vscode/schema/spider.schema.json', rootSpiderConfigSchema, { spaces: 2 })
 fs.writeJSONSync('.vscode/schema/readme.schema.json', rootReadmeSchema, { spaces: 2 })
+
+console.log('Schema generated...')

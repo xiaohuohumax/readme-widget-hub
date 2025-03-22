@@ -18,7 +18,8 @@
     "lazyload",
     "lazysizes",
     "nodir",
-    "querys"
+    "querys",
+    "tocs"
   ],
   "json.schemas": [
     {
