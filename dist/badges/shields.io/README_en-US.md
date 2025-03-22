@@ -90,7 +90,7 @@
 
 ![rl-badge-params]
 
-<details open>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -123,7 +123,7 @@
 
 ![Static Badge](https://img.shields.io/badge/badges/shields-555555?logo=github)
 
-<details open>
+<details >
   <summary>Click to expand/collapse more examples</summary><p></p>
 
 ```markdown

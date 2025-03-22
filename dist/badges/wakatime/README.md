@@ -87,7 +87,7 @@
 
 ![rl-badge-params]
 
-<details open>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -103,7 +103,7 @@
 ![Alt](https://wakatime.com/badge/user/{userId}/project/{projectId}.{type})
 ```
 
-<details open>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -128,7 +128,7 @@
 
 ![WakaTime](https://wakatime.com/badge/user/55467317-4c40-41a7-b401-2b15b7a7e3f1/project/2da11925-8baf-4de2-9e54-5e87af844cb6.svg)
 
-<details open>
+<details >
   <summary>点击展开/收起更多示例</summary><p></p>
 
 ```markdown

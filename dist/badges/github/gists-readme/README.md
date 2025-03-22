@@ -84,7 +84,7 @@
 
 ![rl-badge-params]
 
-<details open>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -101,7 +101,7 @@
 ![Alt](https://gists-readme.yizack.com/api{?user,n,theme,theme})
 ```
 
-<details open>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -127,7 +127,7 @@
 
 ![Gists](https://gists-readme.yizack.com/api?user=yizack\&theme=dark)
 
-<details open>
+<details >
   <summary>点击展开/收起更多示例</summary><p></p>
 
 ```markdown

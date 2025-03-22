@@ -86,7 +86,7 @@
 
 ![rl-badge-params]
 
-<details open>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -101,7 +101,7 @@
 ![Alt](https://widgetbite.com/stats/{username})
 ```
 
-<details open>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -130,7 +130,7 @@
 
 ![Visitor Stats](https://widgetbite.com/stats/xiaohuohumax)
 
-<details open>
+<details >
   <summary>Click to expand/collapse more examples</summary><p></p>
 
 ```markdown

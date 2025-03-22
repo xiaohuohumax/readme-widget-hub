@@ -84,7 +84,7 @@
 
 ![rl-badge-params]
 
-<details open>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -127,7 +127,7 @@
 
 ![页眉](https://capsule-render.vercel.app/api?type=waving\&color=auto\&height=300\&section=header\&text=capsule%20render\&fontSize=90\&animation=fadeIn\&fontAlignY=38\&desc=Decorate%20GitHub%20Profile%20or%20any%20Repo%20like%20me!\&descAlignY=51\&descAlign=62)
 
-<details open>
+<details >
   <summary>点击展开/收起更多示例</summary><p></p>
 
 ```markdown

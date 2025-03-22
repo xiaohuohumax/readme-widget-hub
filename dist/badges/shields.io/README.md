@@ -87,7 +87,7 @@
 
 ![rl-badge-params]
 
-<details open>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -120,7 +120,7 @@
 
 ![静态徽章](https://img.shields.io/badge/badges/shields-555555?logo=github)
 
-<details open>
+<details >
   <summary>点击展开/收起更多示例</summary><p></p>
 
 ```markdown

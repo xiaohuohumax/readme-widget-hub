@@ -90,7 +90,7 @@
 
 ![rl-badge-params]
 
-<details open>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -106,7 +106,7 @@
 ![Alt](https://wakatime.com/badge/user/{userId}/project/{projectId}.{type})
 ```
 
-<details open>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -131,7 +131,7 @@
 
 ![WakaTime](https://wakatime.com/badge/user/55467317-4c40-41a7-b401-2b15b7a7e3f1/project/2da11925-8baf-4de2-9e54-5e87af844cb6.svg)
 
-<details open>
+<details >
   <summary>Click to expand/collapse more examples</summary><p></p>
 
 ```markdown

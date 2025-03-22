@@ -86,7 +86,7 @@
 
 ![rl-badge-params]
 
-<details open>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -115,7 +115,7 @@
 
 ![Discord User](https://dcbadge.limes.pink/api/shield/406125028065804289)
 
-<details open>
+<details >
   <summary>Click to expand/collapse more examples</summary><p></p>
 
 ```markdown

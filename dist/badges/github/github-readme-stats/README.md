@@ -86,7 +86,7 @@
 
 ![rl-badge-params]
 
-<details open>
+<details >
   <summary>点击展开/收起详细参数</summary><p></p>
 
 | 名称 | 类型 | 默认值 | 描述 | 补充描述 |
@@ -122,7 +122,7 @@
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)
 
-<details open>
+<details >
   <summary>点击展开/收起更多示例</summary><p></p>
 
 ```markdown

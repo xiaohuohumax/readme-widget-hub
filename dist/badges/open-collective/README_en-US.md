@@ -86,7 +86,7 @@
 
 ![rl-badge-params]
 
-<details open>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -117,7 +117,7 @@
 
 ![Sponsors on Open Collective](https://opencollective.com/vite/sponsors.svg)
 
-<details open>
+<details >
   <summary>Click to expand/collapse more examples</summary><p></p>
 
 ```markdown

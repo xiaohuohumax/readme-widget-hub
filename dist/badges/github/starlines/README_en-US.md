@@ -89,7 +89,7 @@
 
 ![rl-badge-params]
 
-<details open>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -105,7 +105,7 @@
 ![Alt](https://starlines.qoo.monster/assets/{owner}/{repo})
 ```
 
-<details open>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -121,7 +121,7 @@
 ![Alt](https://starlines.qoo.monster/assets/{owner}/{gist}@gist)
 ```
 
-<details open>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |

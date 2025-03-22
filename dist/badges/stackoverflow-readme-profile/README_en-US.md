@@ -87,7 +87,7 @@
 
 ![rl-badge-params]
 
-<details open>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -107,7 +107,7 @@
 ![Alt](https://stackoverflow-readme-profile.johannchopin.fr/{template}/{userId}{?theme,website,location})
 ```
 
-<details open>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |

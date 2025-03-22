@@ -87,7 +87,7 @@
 
 ![rl-badge-params]
 
-<details open>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -104,7 +104,7 @@
 ![Alt](https://gists-readme.yizack.com/api{?user,n,theme,theme})
 ```
 
-<details open>
+<details >
   <summary>Click to expand/collapse detailed parameters</summary><p></p>
 
 | Name | Type | Default | Description | Additional Description |
@@ -130,7 +130,7 @@
 
 ![Gists](https://gists-readme.yizack.com/api?user=yizack\&theme=dark)
 
-<details open>
+<details >
   <summary>Click to expand/collapse more examples</summary><p></p>
 
 ```markdown
