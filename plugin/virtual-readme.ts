@@ -1,13 +1,12 @@
 import type { LogOptions, Plugin } from 'vite'
-import type { BadgeBuilderOptions, Logger } from '../scripts/build/badge.js'
+import type { Logger } from '../scripts/log.js'
 import chokidar from 'chokidar'
 import { createLogger } from 'vite'
-import { BadgeReadmeBuilder } from '../scripts/build/badge.js'
+import { BadgeBuilder } from '../scripts/build/badge.js'
 
-const virtualModuleId = 'virtual:readme'
-const resolvedVirtualModuleId = `\0${virtualModuleId}`
-
-export type VirtualReadmeOptions = Omit<BadgeBuilderOptions, 'logger'> & {}
+export interface VirtualReadmeOptions {
+  env: ImportMetaEnv
+}
 
 function createCustomLogger(logOptions: LogOptions): Logger {
   const logger = createLogger()
@@ -24,45 +23,43 @@ function createCustomLogger(logOptions: LogOptions): Logger {
 }
 
 export default function virtualReadme(options: VirtualReadmeOptions): Plugin {
-  const logger: Logger = createCustomLogger({ timestamp: true })
-  const builder = new BadgeReadmeBuilder({ ...options, logger })
+  const logger = createCustomLogger({ timestamp: true })
+
+  const builder = new BadgeBuilder({
+    env: options.env,
+    logger,
+  })
 
   return {
     name: 'vite-plugin-virtual-readme',
-    resolveId(id) {
-      if (id === virtualModuleId) {
-        return resolvedVirtualModuleId
-      }
-    },
-    load(id) {
-      if (id === resolvedVirtualModuleId) {
-        return `export default ${JSON.stringify(builder.generateReadmeAllLocaleMap())}`
-      }
-    },
     configureServer(server) {
+      server.middlewares.use(async (req, res, next) => {
+        const url = req.url
+        if (url === undefined) {
+          return next()
+        }
+        res.setHeader('Content-Type', 'text/html; charset=utf-8')
+
+        if (url === '/' || /^\/.*README(?:_[\w-]+)?\.md$/i.test(url)) {
+          logger.log(`Generating README for ${url}`)
+          return res.end(builder.generateReadmeHtml(url))
+        }
+
+        next()
+      })
+
       const watcher = chokidar.watch([
-        options.badgeDirPath,
-        options.tplPath,
-        options.readmeJsonPath,
+        options.env.VITE_BADGES_DIR_PATH,
+        options.env.VITE_README_JSON_FILE_PATH,
       ], {
         ignoreInitial: true,
         persistent: true,
       })
-      function handleChange(event: string, filePath: string) {
-        const module = server.moduleGraph.getModuleById(resolvedVirtualModuleId)
-        if (!module) {
-          return
-        }
-        logger.warn(`[vite-virtual-readme] ${event} ${filePath}`)
-        server.moduleGraph.invalidateModule(module)
-        server.ws.send({
-          type: 'custom',
-          event: 'virtual:readme:reload',
-          data: builder.generateReadmeAllLocaleMap(),
-        })
-      }
 
-      watcher.on('all', handleChange)
+      watcher.on('all', (file, event) => {
+        logger.log(`File ${file} ${event}, reloading server`)
+        server.ws.send({ type: 'full-reload' })
+      })
 
       server.httpServer?.once('close', () => watcher.close())
     },

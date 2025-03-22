@@ -1,5 +1,11 @@
 # badge-collection
 
+## 2.0.0
+
+### Major Changes
+
+- 文件拆分
+
 ## 1.13.0
 
 ### Minor Changes

@@ -3,7 +3,6 @@ import { defineConfig, loadEnv } from 'vite'
 import virtualReadme from './plugin/virtual-readme.js'
 
 export default defineConfig(({ mode }) => {
-  const env = loadEnv(mode, '')
   return {
     resolve: {
       alias: {
@@ -11,19 +10,7 @@ export default defineConfig(({ mode }) => {
       },
     },
     plugins: [
-      virtualReadme({
-        guideBadgeStyle: env.VITE_GUIDE_BADGE_STYLE,
-        tagBadgeStyle: env.VITE_TAG_BADGE_STYLE,
-        badgeDirPath: env.VITE_BADGES_DIR_PATH,
-        collectionFileName: env.VITE_COLLECTION_FILE_NAME,
-        tplPath: env.VITE_TPL_PATH,
-        tplBadgeHeadingLevel: Number.parseInt(env.VITE_TPL_BADGE_HEADING_LEVEL),
-        examplesFoldThreshold: Number.parseInt(env.VITE_EXAMPLES_FOLD_THRESHOLD),
-        openParamsDetails: env.VITE_OPEN_PARAMS_DETAILS,
-        openExamplesDetails: env.VITE_OPEN_EXAMPLES_DETAILS,
-        readmeJsonPath: 'readme.json',
-        localeDirPath: env.VITE_LOCALE_README_DIR_PATH,
-      }),
+      virtualReadme({ env: loadEnv(mode, '') as ImportMetaEnv }),
     ],
   }
 })

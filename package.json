@@ -1,7 +1,7 @@
 {
   "name": "badge-collection",
   "type": "module",
-  "version": "1.13.0",
+  "version": "2.0.0",
   "private": true,
   "description": "这是一个徽章收集仓库：收集了一些 Github 上热门项目使用过的徽章，以及一些徽章在线制作工具链接。",
   "author": {
@@ -24,7 +24,7 @@
   "scripts": {
     "dev": "vite dev",
     "spider": "vite-node --config scripts/vite.config.ts scripts/spider/index.ts",
-    "build": "rimraf locales && vite-node --config scripts/vite.config.ts scripts/build/index.ts",
+    "build": "rimraf dist/badges && rimraf README*.md -g && vite-node --config scripts/vite.config.ts scripts/build/index.ts",
     "build:schema": "vite-node --config scripts/vite.config.ts scripts/schema/index.ts",
     "commit": "git add . && cz",
     "postinstall": "simple-git-hooks",
@@ -52,7 +52,7 @@
     "remark-gfm": "^4.0.1",
     "remark-parse": "^11.0.0",
     "remark-rehype": "^11.1.1",
-    "remark-toc": "^9.0.0",
+    "resolve": "^1.22.10",
     "unified": "^11.0.5",
     "unist-util-visit": "^5.0.0"
   },
@@ -66,6 +66,7 @@
     "@types/hast": "^3.0.4",
     "@types/klaw-sync": "^6.0.5",
     "@types/node": "^22.13.10",
+    "@types/resolve": "^1.20.6",
     "commitizen": "^4.3.1",
     "cz-git": "^1.11.1",
     "rimraf": "^6.0.1",
