@@ -14,7 +14,7 @@
     <a href="https://github.com/xiaohuohumax/badge-collection/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection" /></a>
-    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-38-84AD64" /></a>
+    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-39-84AD64" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
   <div>
@@ -69,6 +69,7 @@
   * [Sloc Cloc and Code](#sloc-cloc-and-code)
   * [Stackoverflow Readme Profile](#stackoverflow-readme-profile)
   * [Star History](#star-history)
+  * [WakaTime](#wakatime)
   * [Widget Bite](#widget-bite)
 * [📖 如何运行项目](#-如何运行项目)
 * [✍ 如何添加徽章](#-如何添加徽章)
@@ -1989,6 +1990,78 @@
 ```
 
 ![Star History Chart](https://api.star-history.com/svg?repos=star-history/star-history\&type=Date)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『回到顶部』-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
+### WakaTime
+
+> \[!Tip]
+> WakaTime 存在多种统计图表，这里只简单介绍[项目徽章](https://wakatime.com/share/badges/projects)，更多功能请访问 [WakaTime](https://wakatime.com/) 官网。
+
+![rl-badge-introduction]
+
+**WakaTime 可以帮助你实现时间跟踪，记录你每天的编程时间，并展示你编程的习惯、编程语言分布、编程时长等信息。**
+
+[![rl-repo]](https://github.com/wakatime)
+[![rl-online-tool]](https://wakatime.com/share)
+![rl-need-login]
+
+![rl-badge-params]
+
+<details >
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 名称 | 类型 | 默认值 | 描述 | 补充描述 |
+| ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
+| ![rl-link-params] | | | | |
+| `userId` | string |  | WakaTime 用户 ID |  |
+| `projectId` | string |  | WakaTime 项目 ID |  |
+| `type` | string |  | 徽章类型 | 可选值：`svg`、`png` |
+
+</details>
+
+```markdown
+![Alt](https://wakatime.com/badge/user/{userId}/project/{projectId}.{type})
+```
+
+<details >
+  <summary>点击展开/收起详细参数</summary><p></p>
+
+| 名称 | 类型 | 默认值 | 描述 | 补充描述 |
+| ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
+| ![rl-link-params] | | | | |
+| `userId` | string |  | WakaTime 用户 ID |  |
+| `chartConfigId` | string |  | WakaTime 图表配置 ID | 通过配置自动生成。 |
+| `type` | string |  | 徽章类型 | 可选值：`svg`、`png` |
+
+</details>
+
+```markdown
+![Alt](https://wakatime.com/share/@{userId}/{chartConfigId}.{type})
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- xiaohuohumax/badge-collection -->
+![WakaTime](https://wakatime.com/badge/user/55467317-4c40-41a7-b401-2b15b7a7e3f1/project/2da11925-8baf-4de2-9e54-5e87af844cb6.svg)
+```
+
+![WakaTime](https://wakatime.com/badge/user/55467317-4c40-41a7-b401-2b15b7a7e3f1/project/2da11925-8baf-4de2-9e54-5e87af844cb6.svg)
+
+<details >
+  <summary>点击展开/收起更多示例</summary><p></p>
+
+```markdown
+<!-- xiaohuohumax/badge-collection -->
+![WakaTime 编码活动](https://wakatime.com/share/@55467317-4c40-41a7-b401-2b15b7a7e3f1/2bf34c99-3246-4d4c-85da-c9bf54d084cc.svg)
+```
+
+![WakaTime 编码活动](https://wakatime.com/share/@55467317-4c40-41a7-b401-2b15b7a7e3f1/2bf34c99-3246-4d4c-85da-c9bf54d084cc.svg)
+
+</details>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/『回到顶部』-555555?style=for-the-badge"></a></p>
 

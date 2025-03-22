@@ -14,7 +14,7 @@
     <a href="https://github.com/xiaohuohumax/badge-collection/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection" /></a>
-    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-38-84AD64" /></a>
+    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badge_count-39-84AD64" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
   <div>
@@ -72,6 +72,7 @@
   * [Sloc Cloc and Code](#sloc-cloc-and-code)
   * [Stackoverflow Readme Profile](#stackoverflow-readme-profile)
   * [Star History](#star-history)
+  * [WakaTime](#wakatime)
   * [Widget Bite](#widget-bite)
 * [📖 How to run the project](#-how-to-run-the-project)
 * [✍ How to add badges](#-how-to-add-badges)
@@ -1992,6 +1993,78 @@ Do you want to know the visit statistics of the website? These badges can help y
 ```
 
 ![Star History Chart](https://api.star-history.com/svg?repos=star-history/star-history\&type=Date)
+
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to Top-555555?style=for-the-badge"></a></p>
+
+![rl-line]
+
+### WakaTime
+
+> \[!Tip]
+> WakaTime has many charts for statistics, here we only introduce the [project badges](https://wakatime.com/share/badges/projects), for more features, please visit [WakaTime](https://wakatime.com/) website.
+
+![rl-badge-introduction]
+
+**WakaTime is a plugin for IDEs/Editors that automatically tracks your programming activity and shows you your coding statistics, including your coding hours, programming languages, and more.**
+
+[![rl-repo]](https://github.com/wakatime)
+[![rl-online-tool]](https://wakatime.com/share)
+![rl-need-login]
+
+![rl-badge-params]
+
+<details >
+  <summary>Click to expand/collapse detailed parameters</summary><p></p>
+
+| Name | Type | Default | Description | Additional Description |
+| ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
+| ![rl-link-params] | | | | |
+| `userId` | string |  | WakaTime User ID |  |
+| `projectId` | string |  | WakaTime Project ID |  |
+| `type` | string |  | Badge type | Supported: `svg` and `png` |
+
+</details>
+
+```markdown
+![Alt](https://wakatime.com/badge/user/{userId}/project/{projectId}.{type})
+```
+
+<details >
+  <summary>Click to expand/collapse detailed parameters</summary><p></p>
+
+| Name | Type | Default | Description | Additional Description |
+| ---------------------------------- | :--------------------------------- | :------------------------------------ | :---------------------------------------- | :------------------------------------------- |
+| ![rl-link-params] | | | | |
+| `userId` | string |  | WakaTime User ID |  |
+| `chartConfigId` | string |  | WakaTime Chart Config ID | Generated automatically by configuration. |
+| `type` | string |  | Badge type | Supported: `svg` and `png` |
+
+</details>
+
+```markdown
+![Alt](https://wakatime.com/share/@{userId}/{chartConfigId}.{type})
+```
+
+![rl-uses-examples]
+
+```markdown
+<!-- xiaohuohumax/badge-collection -->
+![WakaTime](https://wakatime.com/badge/user/55467317-4c40-41a7-b401-2b15b7a7e3f1/project/2da11925-8baf-4de2-9e54-5e87af844cb6.svg)
+```
+
+![WakaTime](https://wakatime.com/badge/user/55467317-4c40-41a7-b401-2b15b7a7e3f1/project/2da11925-8baf-4de2-9e54-5e87af844cb6.svg)
+
+<details >
+  <summary>Click to expand/collapse more examples</summary><p></p>
+
+```markdown
+<!-- xiaohuohumax/badge-collection -->
+![WakaTime Coding Activity](https://wakatime.com/share/@55467317-4c40-41a7-b401-2b15b7a7e3f1/2bf34c99-3246-4d4c-85da-c9bf54d084cc.svg)
+```
+
+![WakaTime Coding Activity](https://wakatime.com/share/@55467317-4c40-41a7-b401-2b15b7a7e3f1/2bf34c99-3246-4d4c-85da-c9bf54d084cc.svg)
+
+</details>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to Top-555555?style=for-the-badge"></a></p>
 
