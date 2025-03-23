@@ -183,7 +183,7 @@ export class BadgeBuilder {
     const tplData: BadgeTpl | ReadmeTpl = {
       locales: this.getLocales(dir, readme, locale, isReadme),
       readme,
-      badgeCount: 10,
+      badgeCount: tocs.filter(item => item.type === 'badge').length,
       badgeData: undefined!,
       tocs,
       tagBadgeStyle: this.env.VITE_TAG_BADGE_STYLE || 'flat-square',

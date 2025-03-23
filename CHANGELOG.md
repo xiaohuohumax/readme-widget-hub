@@ -1,5 +1,11 @@
 # badge-collection
 
+## 2.0.1
+
+### Patch Changes
+
+- 修复徽章总数统计异常
+
 ## 2.0.0
 
 ### Major Changes
