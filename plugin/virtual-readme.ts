@@ -51,6 +51,7 @@ export default function virtualReadme(options: VirtualReadmeOptions): Plugin {
       const watcher = chokidar.watch([
         options.env.VITE_BADGES_DIR_PATH,
         options.env.VITE_README_JSON_FILE_PATH,
+        ...builder.getWatchFiles(),
       ], {
         ignoreInitial: true,
         persistent: true,

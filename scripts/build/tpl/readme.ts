@@ -6,6 +6,7 @@ export interface ReadmeTpl {
   locales: Locale[]
   readme: Readme
   tocs: TocTpl[]
+  showTags: boolean
   badgeCount: number
   tagBadgeStyle: string
   guideBadgeStyle: string

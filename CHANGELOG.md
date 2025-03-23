@@ -1,5 +1,11 @@
 # badge-collection
 
+## 2.1.0
+
+### Minor Changes
+
+- 删除徽章详情页面的顶部 Tag
+
 ## 2.0.1
 
 ### Patch Changes

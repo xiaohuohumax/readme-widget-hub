@@ -1,6 +1,8 @@
 interface ImportMetaEnv {
   /** GitHub Token */
   readonly VITE_GITHUB_TOKEN?: string
+  /** 应用名称 */ 应用名称
+  readonly VITE_APP_NAME: string
   /** 输出目录 */
   readonly VITE_OUTPUT_DIR: string
   /**

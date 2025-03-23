@@ -41,6 +41,12 @@ export class BadgeBuilder {
     this.OUTPUT_BADGES_DIR = path.join(this.env.VITE_OUTPUT_DIR, 'badges')
   }
 
+  public getWatchFiles(): string[] {
+    return [
+      this.ART_TEMPLATE_OPTIONS.root,
+    ]
+  }
+
   private getReadmeJson(locale?: string): Readme {
     const readmeJson = readAndValidateJsonFile<Readme>(
       this.env.VITE_README_JSON_FILE_PATH,
@@ -79,6 +85,10 @@ export class BadgeBuilder {
         })
         return acc
       }, locales)
+  }
+
+  private getLocaleName(locale: string, readme: Readme): string {
+    return readme.locale.langNameMap[locale]
   }
 
   private getTocs(locale: string): TocTpl[] {
@@ -175,14 +185,17 @@ export class BadgeBuilder {
 
   private createReadmeHtml(url: string, tocs: TocTpl[], mode: 'markdown' | 'html'): string {
     url = removeLeadingSlash(url)
-    const { name, dir } = path.parse(url)
+    const { dir } = path.parse(url)
     const locale = this.getLocale(url)
     const isReadme = dir === ''
     const readme = this.getReadmeJson(locale)
+    const localeName = this.getLocaleName(locale, readme)
+    let title = `${this.env.VITE_APP_NAME} [${localeName}]`
 
     const tplData: BadgeTpl | ReadmeTpl = {
       locales: this.getLocales(dir, readme, locale, isReadme),
       readme,
+      showTags: isReadme,
       badgeCount: tocs.filter(item => item.type === 'badge').length,
       badgeData: undefined!,
       tocs,
@@ -206,6 +219,7 @@ export class BadgeBuilder {
         ),
         Number.parseInt(this.env.VITE_EXAMPLES_FOLD_THRESHOLD),
       )
+      title = `${tplData.badgeData.title} [${localeName}]`
     }
 
     const markdown = artTemplate.render(
@@ -219,7 +233,7 @@ export class BadgeBuilder {
     }
 
     return artTemplate.render(readTpl('./tpl/markdown.html'), {
-      title: name,
+      title,
       markdownHtml: markdown2Html(markdown),
       githubMarkdownCssHref: getNodeModulesUrl('github-markdown-css/github-markdown.css'),
       lazysizesScriptSrc: getNodeModulesUrl('lazysizes'),
