@@ -1,8 +1,9 @@
 <a name="readme-top"></a>
 
-![Capsule-Render Header](https://capsule-render.vercel.app/api?type=waving\&color=4D908E\&height=160\&section=header)
-
 <div align="center">
+  <div>
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=160&section=header">
+  </div>
   <a href="https://github.com/xiaohuohumax/badge-collection">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&height=68&lines=%F0%9F%8E%96%EF%B8%8FBadge+Collection%F0%9F%8E%96%EF%B8%8F"/>
   </a>
@@ -17,8 +18,8 @@
   </div>
   <div>
     <b>
-      <a class="locale-link" href="/README.md">中文</a>
-      <a class="locale-link" href="/README_en-US.md">English</a>
+       <a class="locale-link" href="/README.md">中文</a>
+      . <a class="locale-link" href="/README_en-US.md">English</a>
     </b>
   </div>
   <br/>
@@ -113,7 +114,9 @@ npm run spider
 
 [![Contributors](https://contrib.rocks/image?repo=xiaohuohumax/badge-collection)](https://github.com/xiaohuohumax/badge-collection/contributors)
 
-![Capsule-Render Footer](https://capsule-render.vercel.app/api?type=waving\&color=4D908E\&height=100\&section=footer)
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">
+</div>
 
 <!-- reference links -->
 
