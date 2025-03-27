@@ -1,0 +1,577 @@
+{
+  "type": "object",
+  "$ref": "#/definitions/meta",
+  "definitions": {
+    "locale": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Locale name."
+        },
+        "code": {
+          "type": "string",
+          "description": "Locale code."
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "code"
+      ]
+    },
+    "readme": {
+      "type": "object",
+      "patternProperties": {
+        "^notLocaleWarning.+$": {
+          "type": "string",
+          "description": "Not locale warning."
+        },
+        "^back2Home.+$": {
+          "type": "string",
+          "description": "Back to home."
+        },
+        "^onlinePage.+$": {
+          "type": "string",
+          "description": "Online page."
+        },
+        "^back2Top.+$": {
+          "type": "string",
+          "description": "Back to top."
+        }
+      },
+      "properties": {
+        "notLocaleWarning": {
+          "type": "string",
+          "description": "Not locale warning."
+        },
+        "back2Home": {
+          "type": "string",
+          "description": "Back to home."
+        },
+        "onlinePage": {
+          "type": "string",
+          "description": "Online page."
+        },
+        "back2Top": {
+          "type": "string",
+          "description": "Back to top."
+        },
+        "badgeLayout": {
+          "$ref": "#/definitions/badgeLayout",
+          "description": "Badge layout metadata."
+        },
+        "how2Run": {
+          "$ref": "#/definitions/how2Run",
+          "description": "How to run metadata."
+        },
+        "how2AddBadge": {
+          "$ref": "#/definitions/how2AddBadge",
+          "description": "How to add badge metadata."
+        },
+        "how2AddLocale": {
+          "$ref": "#/definitions/how2AddLocale",
+          "description": "How to add locale metadata."
+        },
+        "finalThanks": {
+          "$ref": "#/definitions/finalThanks",
+          "description": "Final thanks metadata."
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "back2Home",
+        "onlinePage",
+        "back2Top",
+        "badgeLayout",
+        "notLocaleWarning",
+        "how2Run",
+        "how2AddBadge",
+        "how2AddLocale",
+        "finalThanks"
+      ]
+    },
+    "docIndex": {
+      "type": "object",
+      "patternProperties": {
+        "^startButton.+$": {
+          "type": "string",
+          "description": "Start button text."
+        }
+      },
+      "properties": {
+        "startButton": {
+          "type": "string",
+          "description": "Start button text."
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "startButton"
+      ]
+    },
+    "docBadge": {
+      "type": "object",
+      "patternProperties": {
+        "^outlineLabel.+$": {
+          "type": "string",
+          "description": "Outline label."
+        },
+        "^editLinkText.+$": {
+          "type": "string",
+          "description": "Edit link text."
+        }
+      },
+      "properties": {
+        "outlineLabel": {
+          "type": "string",
+          "description": "Outline label."
+        },
+        "editLinkText": {
+          "type": "string",
+          "description": "Edit link text."
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "outlineLabel",
+        "editLinkText"
+      ]
+    },
+    "doc": {
+      "type": "object",
+      "patternProperties": {
+        "^sidebarMenuLabel:.+$": {
+          "type": "string",
+          "description": "Sidebar menu label."
+        },
+        "^darkModeSwitchLabel:.+$": {
+          "type": "string",
+          "description": "Dark mode switch label."
+        },
+        "^notFoundTitle:.+$": {
+          "type": "string",
+          "description": "Not found title."
+        },
+        "^notFoundQuote:.+$": {
+          "type": "string",
+          "description": "Not found quote."
+        },
+        "^notFoundLinkText:.+$": {
+          "type": "string",
+          "description": "Not found link text."
+        }
+      },
+      "properties": {
+        "sidebarMenuLabel": {
+          "type": "string",
+          "description": "Sidebar menu label."
+        },
+        "darkModeSwitchLabel": {
+          "type": "string",
+          "description": "Dark mode switch label."
+        },
+        "notFoundTitle": {
+          "type": "string",
+          "description": "Not found title."
+        },
+        "notFoundQuote": {
+          "type": "string",
+          "description": "Not found quote."
+        },
+        "notFoundLinkText": {
+          "type": "string",
+          "description": "Not found link text."
+        },
+        "docIndex": {
+          "$ref": "#/definitions/docIndex",
+          "description": "Doc index metadata."
+        },
+        "docBadge": {
+          "$ref": "#/definitions/docBadge",
+          "description": "Doc badge metadata."
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "sidebarMenuLabel",
+        "darkModeSwitchLabel",
+        "notFoundTitle",
+        "notFoundQuote",
+        "notFoundLinkText",
+        "docIndex",
+        "docBadge"
+      ]
+    },
+    "tag": {
+      "type": "object",
+      "patternProperties": {
+        "^repo:.+$": {
+          "type": "string",
+          "description": "Repository URL."
+        },
+        "^onlineTool:.+$": {
+          "type": "string",
+          "description": "Online tool URL."
+        },
+        "^officialDoc:.+$": {
+          "type": "string",
+          "description": "Official documentation URL."
+        },
+        "^needRegister:.+$": {
+          "type": "string",
+          "description": "Need register."
+        }
+      },
+      "properties": {
+        "repo": {
+          "type": "string",
+          "description": "Repository URL."
+        },
+        "onlineTool": {
+          "type": "string",
+          "description": "Online tool URL."
+        },
+        "officialDoc": {
+          "type": "string",
+          "description": "Official documentation URL."
+        },
+        "needRegister": {
+          "type": "string",
+          "description": "Need register."
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "repo",
+        "onlineTool",
+        "officialDoc",
+        "needRegister"
+      ]
+    },
+    "badgeLayout": {
+      "type": "object",
+      "patternProperties": {
+        "^paramsTitle.+$": {
+          "type": "string",
+          "description": "Parameters title."
+        },
+        "^tocTitle.+$": {
+          "type": "string",
+          "description": "Table of contents title."
+        },
+        "^showOrCloseParams.+$": {
+          "type": "string",
+          "description": "Show or close parameters."
+        },
+        "^exampleTitle.+$": {
+          "type": "string",
+          "description": "Example title."
+        }
+      },
+      "properties": {
+        "paramsTitle": {
+          "type": "string",
+          "description": "Parameters title."
+        },
+        "tocTitle": {
+          "type": "string",
+          "description": "Table of contents title."
+        },
+        "tag": {
+          "$ref": "#/definitions/tag",
+          "description": "Tag metadata."
+        },
+        "showOrCloseParams": {
+          "type": "string",
+          "description": "Show or close parameters."
+        },
+        "paramsTable": {
+          "$ref": "#/definitions/paramsTable",
+          "description": "Parameters table header metadata."
+        },
+        "exampleTitle": {
+          "type": "string",
+          "description": "Example title."
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "paramsTitle",
+        "tocTitle",
+        "tag",
+        "showOrCloseParams",
+        "paramsTable",
+        "exampleTitle"
+      ]
+    },
+    "paramsTable": {
+      "type": "object",
+      "patternProperties": {
+        "^name:.+$": {
+          "type": "string",
+          "description": "Name."
+        },
+        "^type:.+$": {
+          "type": "string",
+          "description": "Type."
+        },
+        "^required:.+$": {
+          "type": "string",
+          "description": "Required."
+        },
+        "^default:.+$": {
+          "type": "string",
+          "description": "Default."
+        },
+        "^description:.+$": {
+          "type": "string",
+          "description": "Description."
+        },
+        "^moreDescription:.+$": {
+          "type": "string",
+          "description": "More description."
+        },
+        "^paramsTitle:.+$": {
+          "type": "string",
+          "description": "Parameters title."
+        },
+        "^querysTitle:.+$": {
+          "type": "string",
+          "description": "Query parameters title."
+        }
+      },
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Name."
+        },
+        "type": {
+          "type": "string",
+          "description": "Type."
+        },
+        "required": {
+          "type": "string",
+          "description": "Required."
+        },
+        "default": {
+          "type": "string",
+          "description": "Default."
+        },
+        "description": {
+          "type": "string",
+          "description": "Description."
+        },
+        "moreDescription": {
+          "type": "string",
+          "description": "More description."
+        },
+        "paramsTitle": {
+          "type": "string",
+          "description": "Parameters title."
+        },
+        "querysTitle": {
+          "type": "string",
+          "description": "Query parameters title."
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "type",
+        "required",
+        "default",
+        "description",
+        "moreDescription",
+        "paramsTitle",
+        "querysTitle"
+      ]
+    },
+    "how2Run": {
+      "type": "object",
+      "patternProperties": {
+        "^title:.+$": {
+          "type": "string",
+          "description": "How to run title."
+        },
+        "^steps:.+$": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "List of steps."
+        }
+      },
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "How to run title."
+        },
+        "steps": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "List of steps."
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "steps"
+      ]
+    },
+    "how2AddBadge": {
+      "type": "object",
+      "patternProperties": {
+        "^title:.+$": {
+          "type": "string",
+          "description": "How to add badge title."
+        },
+        "^steps:.+$": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "List of steps."
+        }
+      },
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "How to add badge title."
+        },
+        "steps": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "List of steps."
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "steps"
+      ]
+    },
+    "how2AddLocale": {
+      "type": "object",
+      "patternProperties": {
+        "^title:.+$": {
+          "type": "string",
+          "description": "How to add locale title."
+        },
+        "^steps:.+$": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "List of steps."
+        }
+      },
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "How to add locale title."
+        },
+        "steps": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "List of steps."
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "steps"
+      ]
+    },
+    "finalThanks": {
+      "type": "object",
+      "patternProperties": {
+        "^title:.+$": {
+          "type": "string",
+          "description": "Final thanks title."
+        },
+        "^concludingRemarks:.+$": {
+          "type": "string",
+          "description": "Concluding remarks."
+        }
+      },
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Final thanks title."
+        },
+        "concludingRemarks": {
+          "type": "string",
+          "description": "Concluding remarks."
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "concludingRemarks"
+      ]
+    },
+    "meta": {
+      "type": "object",
+      "patternProperties": {
+        "^name.+$": {
+          "type": "string",
+          "description": "Project name."
+        },
+        "^title.+$": {
+          "type": "string",
+          "description": "Project title."
+        },
+        "^description.+$": {
+          "type": "string",
+          "description": "Project description."
+        }
+      },
+      "properties": {
+        "locales": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/locale"
+          },
+          "minItems": 1,
+          "description": "List of locales."
+        },
+        "name": {
+          "type": "string",
+          "description": "Project name."
+        },
+        "title": {
+          "type": "string",
+          "description": "Project title."
+        },
+        "description": {
+          "type": "string",
+          "description": "Project description."
+        },
+        "readme": {
+          "$ref": "#/definitions/readme",
+          "description": "Readme metadata."
+        },
+        "doc": {
+          "$ref": "#/definitions/doc",
+          "description": "Doc metadata."
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "locales",
+        "name",
+        "title",
+        "description",
+        "readme",
+        "doc"
+      ]
+    }
+  }
+}

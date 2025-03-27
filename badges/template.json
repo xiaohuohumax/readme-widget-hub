@@ -9,43 +9,49 @@
     "messages": "",
     "messages:en-US": ""
   },
-  "tags": {
-    "repoUrl": "",
-    "onlineToolUrl": "",
-    "officialDocsUrl": "",
-    "needLogin": true
+  "tag": {
+    "repo": "",
+    "onlineTool": "",
+    "officialDoc": "",
+    "needRegister": true
   },
-  "rules": {
+  "linkRules": {
     "params": [
       {
         "name": "",
-        "type": "",
+        "type": "string",
         "default": "",
         "description": "",
         "description:en-US": "",
-        "extDescription": "",
-        "extDescription:en-US": ""
+        "moreDescription": "",
+        "moreDescription:en-US": ""
       }
     ],
-    "querys": [],
-    "srcTemplate": ""
+    "querys": [
+      {
+        "name": "",
+        "type": "string",
+        "default": "",
+        "description": "",
+        "description:en-US": "",
+        "moreDescription": "",
+        "moreDescription:en-US": ""
+      }
+    ],
+    "uriTemplate": ""
   },
-  "examples": [
-    {
-      "explain": {
-        "annotate": "",
-        "annotate:en-US": "",
+  "examples": {
+    "annotate": "",
+    "annotate:en-US": "",
+    "alt": "",
+    "alt:en-US": "",
+    "href": "",
+    "images": [
+      {
         "alt": "",
         "alt:en-US": "",
-        "src": ""
-      },
-      "images": [
-        {
-          "alt": "",
-          "alt:en-US": "",
-          "src": ""
-        }
-      ]
-    }
-  ]
+        "href": ""
+      }
+    ]
+  }
 }

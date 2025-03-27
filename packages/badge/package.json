@@ -1,0 +1,28 @@
+{
+  "name": "@badge-collection/badge",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c --configPlugin esbuild",
+    "build:watch": "pnpm run build --watch",
+    "build:schema": "rimraf schema && vite-node ./build-schema.ts"
+  },
+  "dependencies": {
+    "@badge-collection/utils": "workspace:*",
+    "json-schema-to-ts": "^3.1.1"
+  },
+  "devDependencies": {
+    "@badge-collection/rollup": "workspace:*"
+  }
+}

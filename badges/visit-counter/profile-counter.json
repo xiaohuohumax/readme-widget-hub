@@ -7,8 +7,8 @@
     "messages": "此接口暂未找到官方项目地址或文档链接，如有知晓欢迎补充，非常感谢。",
     "messages:en-US": "This API does not have a official project address or documentation link, if you know, please supplement, thank you very much."
   },
-  "tags": {},
-  "rules": {
+  "tag": {},
+  "linkRules": {
     "params": [
       {
         "name": "countId",
@@ -17,23 +17,19 @@
         "description:en-US": "The count ID"
       }
     ],
-    "srcTemplate": "https://profile-counter.glitch.me/{countId}/count.svg"
+    "uriTemplate": "https://profile-counter.glitch.me/{countId}/count.svg"
   },
-  "examples": [
-    {
-      "explain": {
-        "annotate": "badge-collection",
+  "examples": {
+    "annotate": "badge-collection",
+    "alt": "访问统计",
+    "alt:en-US": "Visitor Count",
+    "href": "https://profile-counter.glitch.me/badge-collection/count.svg",
+    "images": [
+      {
         "alt": "访问统计",
         "alt:en-US": "Visitor Count",
-        "src": "https://profile-counter.glitch.me/badge-collection/count.svg"
-      },
-      "images": [
-        {
-          "alt": "访问统计",
-          "alt:en-US": "Visitor Count",
-          "src": "https://profile-counter.glitch.me/badge-collection/count.svg"
-        }
-      ]
-    }
-  ]
+        "href": "https://profile-counter.glitch.me/badge-collection/count.svg"
+      }
+    ]
+  }
 }

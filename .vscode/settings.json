@@ -1,25 +1,22 @@
 {
+  "cSpell.words": [
+    "esbuild",
+    "navs",
+    "npmjs",
+    "querys",
+    "tocs",
+    "vite"
+  ],
   "cSpell.ignorePaths": [
-    ".git",
+    "package.json",
+    "package-lock.json",
+    "node_modules",
+    ".git/{info,lfs,logs,refs,objects}/**",
+    ".git/{index,*refs,*HEAD}",
     ".vscode",
     ".github",
-    "node_modules",
-    "dist",
-    "/*.md",
-    "locales/*.md",
-    "*.json",
-    ".env*",
-    "eslint.config.mjs",
-    "commitlint.config.cjs"
-  ],
-  "cSpell.words": [
-    "Jsons",
-    "klaw",
-    "lazyload",
-    "lazysizes",
-    "nodir",
-    "querys",
-    "tocs"
+    "badges",
+    "README*.md"
   ],
   "json.schemas": [
     {
@@ -27,25 +24,19 @@
         "/badges/**/*.json",
         "!/badges/**/collection.json"
       ],
-      "url": "/.vscode/schema/badge.schema.json"
+      "url": "/packages/badge/schema/badge.schema.json"
     },
     {
       "fileMatch": [
         "/badges/**/collection.json"
       ],
-      "url": "/.vscode/schema/collection.schema.json"
+      "url": "/packages/badge/schema/collection.schema.json"
     },
     {
       "fileMatch": [
-        "/scripts/spider/config.json"
+        "/meta.json"
       ],
-      "url": "/.vscode/schema/spider.schema.json"
-    },
-    {
-      "fileMatch": [
-        "/readme.json"
-      ],
-      "url": "/.vscode/schema/readme.schema.json"
+      "url": "/packages/meta/schema/meta.schema.json"
     }
   ]
 }

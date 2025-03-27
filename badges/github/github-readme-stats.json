@@ -7,11 +7,11 @@
     "messages": "由于此项目支持的卡片种类非常多，且功能强大，这里只简单介绍－GitHub 状态卡片，其他卡片使用方式还请移步官方文档。",
     "messages:en-US": "Due to the many card types supported by this project and its powerful features, here is a simple introduction to the GitHub status card. For other card types, please refer to the official documentation."
   },
-  "tags": {
-    "repoUrl": "https://github.com/anuraghazra/github-readme-stats",
-    "officialDocsUrl": "https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#features-"
+  "tag": {
+    "repo": "https://github.com/anuraghazra/github-readme-stats",
+    "officialDoc": "https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#features-"
   },
-  "rules": {
+  "linkRules": {
     "querys": [
       {
         "name": "username",
@@ -25,8 +25,8 @@
         "default": "2F80ED",
         "description": "卡片标题颜色",
         "description:en-US": "Card's title color",
-        "extDescription": "支持 HEX 颜色值，如 `FF0000`。",
-        "extDescription:en-US": "Supported: `HEX`, e.g. `FF0000`."
+        "moreDescription": "支持 HEX 颜色值，如 `FF0000`。",
+        "moreDescription:en-US": "Supported: `HEX`, e.g. `FF0000`."
       },
       {
         "name": "text_color",
@@ -34,8 +34,8 @@
         "default": "434D58",
         "description": "正文文本颜色",
         "description:en-US": "Body text color",
-        "extDescription": "支持 HEX 颜色值，如 `FF0000`。",
-        "extDescription:en-US": "Supported: `HEX`, e.g. `FF0000`."
+        "moreDescription": "支持 HEX 颜色值，如 `FF0000`。",
+        "moreDescription:en-US": "Supported: `HEX`, e.g. `FF0000`."
       },
       {
         "name": "icon_color",
@@ -43,8 +43,8 @@
         "default": "4C71F2",
         "description": "图标颜色",
         "description:en-US": "Icons color if available",
-        "extDescription": "支持 HEX 颜色值，如 `FF0000`。",
-        "extDescription:en-US": "Supported: `HEX`, e.g. `FF0000`."
+        "moreDescription": "支持 HEX 颜色值，如 `FF0000`。",
+        "moreDescription:en-US": "Supported: `HEX`, e.g. `FF0000`."
       },
       {
         "name": "border_color",
@@ -52,8 +52,8 @@
         "default": "E4E2E2",
         "description": "卡片边框颜色",
         "description:en-US": "Card's border color",
-        "extDescription": "支持 HEX 颜色值，如 `FF0000`，当启用 `hide_border` 时，不适用。",
-        "extDescription:en-US": "Supported: `HEX`, e.g. `FF0000`. does not apply when `hide_border` is enabled."
+        "moreDescription": "支持 HEX 颜色值，如 `FF0000`，当启用 `hide_border` 时，不适用。",
+        "moreDescription:en-US": "Supported: `HEX`, e.g. `FF0000`. does not apply when `hide_border` is enabled."
       },
       {
         "name": "hide_border",
@@ -67,8 +67,8 @@
         "type": "string",
         "description": "设置主题",
         "description:en-US": "Name of the theme",
-        "extDescription": "可选值：`dark` `radical` `merko` `gruvbox` `tokyonight` `onedark` `cobalt` `synthwave` `highcontrast` `dracula` `transparent`。",
-        "extDescription:en-US": "Supported: `dark` `radical` `merko` `gruvbox` `tokyonight` `onedark` `cobalt` `synthwave` `highcontrast` `dracula` `transparent`."
+        "moreDescription": "可选值：`dark` `radical` `merko` `gruvbox` `tokyonight` `onedark` `cobalt` `synthwave` `highcontrast` `dracula` `transparent`。",
+        "moreDescription:en-US": "Supported: `dark` `radical` `merko` `gruvbox` `tokyonight` `onedark` `cobalt` `synthwave` `highcontrast` `dracula` `transparent`."
       },
       {
         "name": "cache_seconds",
@@ -76,8 +76,8 @@
         "default": "21600",
         "description": "卡片缓存时间",
         "description:en-US": "Sets the cache header manually",
-        "extDescription": "单位：秒，范围：`21600` 到 `86400`。",
-        "extDescription:en-US": "Unit: seconds, range: `21600` to `86400`."
+        "moreDescription": "单位：秒，范围：`21600` 到 `86400`。",
+        "moreDescription:en-US": "Unit: seconds, range: `21600` to `86400`."
       },
       {
         "name": "locale",
@@ -85,8 +85,8 @@
         "default": "en",
         "description": "设置语言",
         "description:en-US": "Sets the language in the card",
-        "extDescription": "语言参考：[locales](https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#available-locales)。",
-        "extDescription:en-US": "Language reference: [locales](https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#available-locales)."
+        "moreDescription": "语言参考：[locales](https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#available-locales)。",
+        "moreDescription:en-US": "Language reference: [locales](https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#available-locales)."
       },
       {
         "name": "border_radius",
@@ -100,16 +100,16 @@
         "type": "string",
         "description": "隐藏特定的统计数据",
         "description:en-US": "Hides the [specified items](https://github.com/anuraghazra/github-readme-stats#hiding-individual-stats) from stats",
-        "extDescription": "数据类型之间用 `,` 分隔。",
-        "extDescription:en-US": "Data types are separated by `,`."
+        "moreDescription": "数据类型之间用 `,` 分隔。",
+        "moreDescription:en-US": "Data types are separated by `,`."
       },
       {
         "name": "show",
         "type": "string",
         "description": "显示附加统计信息",
         "description:en-US": "Shows [additional items](https://github.com/anuraghazra/github-readme-stats#showing-additional-individual-stats) on stats card",
-        "extDescription": "数据类型之间用 `,` 分隔。",
-        "extDescription:en-US": "Data types are separated by `,`."
+        "moreDescription": "数据类型之间用 `,` 分隔。",
+        "moreDescription:en-US": "Data types are separated by `,`."
       },
       {
         "name": "show_icons",
@@ -123,36 +123,32 @@
         "type": "string",
         "description": "卡片背景色",
         "description:en-US": "Card's background color",
-        "extDescription": "背景色支持渐变，格式：`deg,color1,color2,color3,...`。",
-        "extDescription:en-US": "Background color supports gradients, format: `deg,color1,color2,color3,...`."
+        "moreDescription": "背景色支持渐变，格式：`deg,color1,color2,color3,...`。",
+        "moreDescription:en-US": "Background color supports gradients, format: `deg,color1,color2,color3,...`."
       }
     ],
-    "srcTemplate": "https://github-readme-stats.vercel.app/api{?username,title_color,text_color,icon_color,border_color,hide_border,theme,cache_seconds,locale,border_radius,hide,show,show_icons,bg_color}"
+    "uriTemplate": "https://github-readme-stats.vercel.app/api{?username,title_color,text_color,icon_color,border_color,hide_border,theme,cache_seconds,locale,border_radius,hide,show,show_icons,bg_color}"
   },
   "examples": [
     {
-      "explain": {
-        "annotate": "anuraghazra",
-        "alt": "GitHub stats",
-        "src": "https://github-readme-stats.vercel.app/api?username=anuraghazra"
-      },
+      "annotate": "anuraghazra",
+      "alt": "GitHub stats",
+      "href": "https://github-readme-stats.vercel.app/api?username=anuraghazra",
       "images": [
         {
           "alt": "GitHub stats",
-          "src": "https://github-readme-stats.vercel.app/api?username=anuraghazra"
+          "href": "https://github-readme-stats.vercel.app/api?username=anuraghazra"
         }
       ]
     },
     {
-      "explain": {
-        "annotate": "anuraghazra",
-        "alt": "GitHub stats",
-        "src": "https://github-readme-stats.vercel.app/api?username=anuraghazra&locale=cn&theme=dark&hide_border=true"
-      },
+      "annotate": "anuraghazra",
+      "alt": "GitHub stats",
+      "href": "https://github-readme-stats.vercel.app/api?username=anuraghazra&locale=cn&theme=dark&hide_border=true",
       "images": [
         {
           "alt": "GitHub stats",
-          "src": "https://github-readme-stats.vercel.app/api?username=anuraghazra&locale=cn&theme=dark&hide_border=true"
+          "href": "https://github-readme-stats.vercel.app/api?username=anuraghazra&locale=cn&theme=dark&hide_border=true"
         }
       ]
     }

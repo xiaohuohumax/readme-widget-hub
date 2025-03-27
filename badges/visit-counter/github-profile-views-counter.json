@@ -1,12 +1,12 @@
 {
   "title": "GitHub Profile Views Counter",
   "description": "它统计了你的 GitHub 个人资料被查看的次数。",
-  "description:en-US": "It counts how many times your GitHub profile has been viewed. ",
-  "tags": {
-    "repoUrl": "https://github.com/antonkomarev/github-profile-views-counter",
-    "officialDocsUrl": "https://github.com/antonkomarev/github-profile-views-counter?tab=readme-ov-file#usage"
+  "description:en-US": "It counts how many times your GitHub profile has been viewed.",
+  "tag": {
+    "repo": "https://github.com/antonkomarev/github-profile-views-counter",
+    "officialDoc": "https://github.com/antonkomarev/github-profile-views-counter?tab=readme-ov-file#usage"
   },
-  "rules": {
+  "linkRules": {
     "querys": [
       {
         "name": "username",
@@ -20,8 +20,8 @@
         "default": "blue",
         "description": "颜色",
         "description:en-US": "Color",
-        "extDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`。",
-        "extDescription:en-US": "Format: `HEX` `CSS color` e.g. `FF0000`."
+        "moreDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`。",
+        "moreDescription:en-US": "Format: `HEX` `CSS color` e.g. `FF0000`."
       },
       {
         "name": "style",
@@ -29,8 +29,8 @@
         "default": "flat",
         "description": "样式",
         "description:en-US": "Styles",
-        "extDescription": "可选值：`flat` `flat-square` `for-the-badge` `plastic` `pixel`（隐身）。",
-        "extDescription:en-US": "Supported: `flat` `flat-square` `for-the-badge` `plastic` `pixel` (invisible)."
+        "moreDescription": "可选值：`flat` `flat-square` `for-the-badge` `plastic` `pixel`（隐身）。",
+        "moreDescription:en-US": "Supported: `flat` `flat-square` `for-the-badge` `plastic` `pixel` (invisible)."
       },
       {
         "name": "label",
@@ -38,8 +38,8 @@
         "default": "Profile views",
         "description": "标签",
         "description:en-US": "Label",
-        "extDescription": "在多词标签中，将空格替换为 `+` 字符。",
-        "extDescription:en-US": "Replace whitespace with `+` character in multi-word labels."
+        "moreDescription": "在多词标签中，将空格替换为 `+` 字符。",
+        "moreDescription:en-US": "Replace whitespace with `+` character in multi-word labels."
       },
       {
         "name": "base",
@@ -53,27 +53,23 @@
         "default": "false",
         "description": "是否缩写",
         "description:en-US": "Abbreviated",
-        "extDescription": "例如，一个有 12345 次查看的计数器，将显示为 12.3K。",
-        "extDescription:en-US": "For example, a counter with 12345 views, will be displayed as 12.3K."
+        "moreDescription": "例如，一个有 12345 次查看的计数器，将显示为 12.3K。",
+        "moreDescription:en-US": "For example, a counter with 12345 views, will be displayed as 12.3K."
       }
     ],
-    "srcTemplate": "https://komarev.com/ghpvc/{?username,color,style,label,base,abbreviated}"
+    "uriTemplate": "https://komarev.com/ghpvc/{?username,color,style,label,base,abbreviated}"
   },
-  "examples": [
-    {
-      "explain": {
-        "annotate": "xiaohuohumax",
+  "examples": {
+    "annotate": "xiaohuohumax",
+    "alt": "访客统计",
+    "alt:en-US": "visit counter",
+    "href": "https://komarev.com/ghpvc/?username=xiaohuohumaxS&color=blue&style=flat-square&label=PROFILE+VIEWS",
+    "images": [
+      {
         "alt": "访客统计",
         "alt:en-US": "visit counter",
-        "src": "https://komarev.com/ghpvc/?username=xiaohuohumaxS&color=blue&style=flat-square&label=PROFILE+VIEWS"
-      },
-      "images": [
-        {
-          "alt": "访客统计",
-          "alt:en-US": "visit counter",
-          "src": "https://komarev.com/ghpvc/?username=xiaohuohumaxS&color=blue&style=flat-square&label=PROFILE+VIEWS"
-        }
-      ]
-    }
-  ]
+        "href": "https://komarev.com/ghpvc/?username=xiaohuohumaxS&color=blue&style=flat-square&label=PROFILE+VIEWS"
+      }
+    ]
+  }
 }

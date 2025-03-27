@@ -2,38 +2,34 @@
   "title": "Repobeats",
   "description": "为你的 GitHub 仓库提供惊艳的见解，让你的 README.md 增添一些吸引眼球的精彩内容。",
   "description:en-US": "Stunning insights for your GitHub Repo, Give your README.md some insightful eye-candy.",
-  "tags": {
-    "repoUrl": "https://github.com/axiomhq",
-    "onlineToolUrl": "https://repobeats.axiom.co/configs",
-    "officialDocsUrl": "https://repobeats.axiom.co/",
-    "needLogin": true
+  "tag": {
+    "repo": "https://github.com/axiomhq",
+    "onlineTool": "https://repobeats.axiom.co/configs",
+    "officialDoc": "https://repobeats.axiom.co/",
+    "needRegister": true
   },
-  "rules": {
+  "linkRules": {
     "params": [
       {
         "name": "configId",
         "type": "string",
         "description": "配置 ID",
         "description:en-US": "Config ID",
-        "extDescription": "登录 [Repobeats](https://repobeats.axiom.co/) 后选择仓库后获取。",
-        "extDescription:en-US": "Login [Repobeats](https://repobeats.axiom.co/) and select the repository to get the config ID."
+        "moreDescription": "登录 [Repobeats](https://repobeats.axiom.co/) 后选择仓库后获取。",
+        "moreDescription:en-US": "Login [Repobeats](https://repobeats.axiom.co/) and select the repository to get the config ID."
       }
     ],
-    "srcTemplate": "https://repobeats.axiom.co/api/embed/{configId}.svg"
+    "uriTemplate": "https://repobeats.axiom.co/api/embed/{configId}.svg"
   },
-  "examples": [
-    {
-      "explain": {
-        "annotate": "xiaohuohumax/badge-collection",
+  "examples": {
+    "annotate": "xiaohuohumax/badge-collection",
+    "alt": "Repobeats analytics image",
+    "href": "https://repobeats.axiom.co/api/embed/65971378c4d394852dd1d92144244cbe14f0639c.svg",
+    "images": [
+      {
         "alt": "Repobeats analytics image",
-        "src": "https://repobeats.axiom.co/api/embed/65971378c4d394852dd1d92144244cbe14f0639c.svg"
-      },
-      "images": [
-        {
-          "alt": "Repobeats analytics image",
-          "src": "https://repobeats.axiom.co/api/embed/65971378c4d394852dd1d92144244cbe14f0639c.svg"
-        }
-      ]
-    }
-  ]
+        "href": "https://repobeats.axiom.co/api/embed/65971378c4d394852dd1d92144244cbe14f0639c.svg"
+      }
+    ]
+  }
 }

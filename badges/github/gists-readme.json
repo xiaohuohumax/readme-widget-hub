@@ -2,12 +2,12 @@
   "title": "GitHub Gists Readme",
   "description": "显示一些你的 GitHub Gists 内容。",
   "description:en-US": "Display a card with your Gists on your GitHub README.md",
-  "tags": {
-    "repoUrl": "https://github.com/Yizack/gists-readme",
-    "onlineToolUrl": "https://gists-readme.yizack.com/",
-    "officialDocsUrl": "https://gists-readme.yizack.com/docs/"
+  "tag": {
+    "repo": "https://github.com/Yizack/gists-readme",
+    "onlineTool": "https://gists-readme.yizack.com/",
+    "officialDoc": "https://gists-readme.yizack.com/docs/"
   },
-  "rules": [
+  "linkRules": [
     {
       "querys": [
         {
@@ -35,11 +35,13 @@
           "default": "default",
           "description": "主题",
           "description:en-US": "Set the theme of the card",
-          "extDescription": "可选值：`default` `dark`。",
-          "extDescription:en-US": "Supported: `default` `dark`."
+          "moreDescription": "可选值：`default` `dark`。",
+          "moreDescription:en-US": "Supported: `default` `dark`."
         }
       ],
-      "srcTemplate": "https://gists-readme.yizack.com/api{?user,n,theme,theme}"
+      "description": "显示 GitHub 用户的 Gists",
+      "description:en-US": "Displays a card with your Gists",
+      "uriTemplate": "https://gists-readme.yizack.com/api{?user,n,theme,theme}"
     },
     {
       "querys": [
@@ -61,38 +63,35 @@
           "default": "default",
           "description": "主题",
           "description:en-US": "Sets the theme of the pin",
-          "extDescription": "可选值：`default` `dark`。",
-          "extDescription:en-US": "Supported: `default` `dark`."
+          "moreDescription": "可选值：`default` `dark`。",
+          "moreDescription:en-US": "Supported: `default` `dark`."
         }
       ],
-      "annotate": "Gists Pin",
-      "srcTemplate": "https://gists-readme.yizack.com/api/pin{?id,owner,theme}"
+      "description": "显示单个 Gist",
+      "description:en-US": "Displays a single Gist",
+      "uriTemplate": "https://gists-readme.yizack.com/api/pin{?id,owner,theme}"
     }
   ],
   "examples": [
     {
-      "explain": {
-        "annotate": "Yizack",
-        "alt": "Gists",
-        "src": "https://gists-readme.yizack.com/api?user=yizack&theme=dark"
-      },
+      "annotate": "Yizack",
+      "alt": "Gists",
+      "href": "https://gists-readme.yizack.com/api?user=yizack&theme=dark",
       "images": [
         {
           "alt": "Gists",
-          "src": "https://gists-readme.yizack.com/api?user=yizack&theme=dark"
+          "href": "https://gists-readme.yizack.com/api?user=yizack&theme=dark"
         }
       ]
     },
     {
-      "explain": {
-        "annotate": "Yizack",
-        "alt": "Gists Pin",
-        "src": "https://gists-readme.yizack.com/api/pin?id=07694a749c8fc5f4d996a2bd50237939&owner=true&theme=dark"
-      },
+      "annotate": "Yizack",
+      "alt": "Gists Pin",
+      "href": "https://gists-readme.yizack.com/api/pin?id=07694a749c8fc5f4d996a2bd50237939&owner=true&theme=dark",
       "images": [
         {
           "alt": "Gists Pin",
-          "src": "https://gists-readme.yizack.com/api/pin?id=07694a749c8fc5f4d996a2bd50237939&owner=true&theme=dark"
+          "href": "https://gists-readme.yizack.com/api/pin?id=07694a749c8fc5f4d996a2bd50237939&owner=true&theme=dark"
         }
       ]
     }

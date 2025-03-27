@@ -1,0 +1,172 @@
+{
+  "index": 1,
+  "title": "Shields.io",
+  "description": "Shields.io 是一个提供简洁、一致和易读的 SVG 和位图格式徽章的服务，可以轻松地包含在 GitHub 的 README 文件或任何其他网页中。",
+  "description:en-US": "Concise, consistent, and legible badges in SVG and raster format.",
+  "alert": {
+    "type": "Tip",
+    "messages": "由于此项目支持的徽章种类非常多，且功能强大，这里只简单介绍－静态徽章，其他徽章使用方式还请移步官方文档。",
+    "messages:en-US": "Due to the large number of badge types supported by this project and its powerful functions, here is a simple introduction to static badges. For other badge types, please refer to the official documentation."
+  },
+  "tag": {
+    "repo": "https://github.com/badges/shields",
+    "onlineTool": "https://shields.io/badges",
+    "officialDoc": "https://shields.io/badges"
+  },
+  "linkRules": {
+    "params": [
+      {
+        "name": "badgeContent",
+        "type": "string",
+        "description": "徽章内容",
+        "description:en-US": "Label, (optional) message, and color. Separated by dashes",
+        "moreDescription": "格式：`标签-消息-消息背景颜色`。",
+        "moreDescription:en-US": "Example: `build-passing-brightgreen`."
+      }
+    ],
+    "querys": [
+      {
+        "name": "style",
+        "type": "string",
+        "default": "flat",
+        "description": "徽章整体风格",
+        "description:en-US": "Badge style",
+        "moreDescription": "可选值：`flat` `flat-square` `plastic` `for-the-badge` `social`。",
+        "moreDescription:en-US": "Possible values: `flat` `flat-square` `plastic` `for-the-badge` `social`."
+      },
+      {
+        "name": "logo",
+        "type": "string",
+        "description": "Logo 图标名称",
+        "description:en-US": "Icon slug from simple-icons",
+        "moreDescription": "支持 Base64，[slugs.md](https://github.com/simple-icons/simple-icons/blob/master/slugs.md)，[Simple Icons](https://simpleicons.org/)。",
+        "moreDescription:en-US": "You can click the icon title on [simple-icons](https://simpleicons.org/) to copy the slug or they can be found in the [slugs.md file](https://github.com/simple-icons/simple-icons/blob/master/slugs.md) in the simple-icons repository. [Further](https://shields.io/docs/logos) info."
+      },
+      {
+        "name": "logoColor",
+        "type": "string",
+        "description": "Logo 颜色",
+        "description:en-US": "The color of the logo",
+        "moreDescription": "支持格式：`HEX` `RGB` `RGBA` `HSL` `HSLA` `CSS颜色`，适用于 simple-icons 库中的标志，但不适用于自定义标志。",
+        "moreDescription:en-US": "Supported: `hex`, `rgb`, `rgba`, `hsl`, `hsla` and `css named colors`. Supported for simple-icons logos but not for custom logos."
+      },
+      {
+        "name": "logoSize",
+        "type": "string",
+        "description": "Logo 自适应大小",
+        "description:en-US": "Make icons adaptively resize by setting `auto`",
+        "moreDescription": "可选值：`auto`。",
+        "moreDescription:en-US": "Useful for some wider logos like `amd` and `amg`. Supported for simple-icons logos but not for custom logos."
+      },
+      {
+        "name": "label",
+        "type": "string",
+        "description": "左侧标签文字",
+        "description:en-US": "Override the default left-hand-side text",
+        "moreDescription": "覆盖 `badgeContent` 中 `标签` 部分。",
+        "moreDescription:en-US": "[URL-Encoding](https://developer.mozilla.org/en-US/docs/Glossary/Percent-encoding) needed for spaces or special characters!."
+      },
+      {
+        "name": "labelColor",
+        "type": "string",
+        "description": "左侧标签背景颜色",
+        "description:en-US": "The color of the logo",
+        "moreDescription": "支持格式：`HEX` `RGB` `RGBA` `HSL` `HSLA` `CSS颜色`，适用于 simple-icons 库中的标志，但不适用于自定义标志。",
+        "moreDescription:en-US": "Supported: `hex`, `rgb`, `rgba`, `hsl`, `hsla` and `css named colors`. Supported for simple-icons logos but not for custom logos."
+      },
+      {
+        "name": "color",
+        "type": "string",
+        "description": "右侧消息背景颜色",
+        "description:en-US": "Background color of the right part",
+        "moreDescription": "覆盖 `badgeContent` 中 `消息背景颜色` 部分, 支持格式：同上 `logoColor`。",
+        "moreDescription:en-US": "Supported: `hex`, `rgb`, `rgba`, `hsl`, `hsla` and `css named colors`."
+      },
+      {
+        "name": "cacheSeconds",
+        "type": "string",
+        "default": "3600",
+        "description": "HTTP 缓存有效期",
+        "description:en-US": "HTTP cache lifetime",
+        "moreDescription": "单位：秒，规则应用于推断每个徽标的默认值，任何低于默认值的指定都将被忽略。",
+        "moreDescription:en-US": "Unit: seconds. Rules are applied to infer a default value on a per-badge basis. Any values specified below the default will be ignored."
+      },
+      {
+        "name": "link",
+        "type": "string",
+        "default": "",
+        "description": "指定点击徽标左侧/右侧应执行的操作",
+        "description:en-US": "Specify the action to perform when clicking the left/right side of the badge",
+        "moreDescription": "注意：这仅在将徽标集成到 `&lt;object>` HTML 标签时有效，但不适用于 `<img>` 标签或标记语言。",
+        "moreDescription:en-US": "Note: This only works when integrating your badge in an `<object>` HTML tag, but not an `<img>` tag or a markup language."
+      }
+    ],
+    "uriTemplate": "https://img.shields.io/badge/{badgeContent}{?style,logo,logoColor,logoSize,label,labelColor,color,cacheSeconds,link}"
+  },
+  "examples": [
+    {
+      "annotate": "badges/shields",
+      "alt": "静态徽章",
+      "alt:en-US": "Static Badge",
+      "href": "https://img.shields.io/badge/badges/shields-555555?logo=github",
+      "images": [
+        {
+          "alt": "静态徽章",
+          "alt:en-US": "Static Badge",
+          "href": "https://img.shields.io/badge/badges/shields-555555?logo=github"
+        }
+      ]
+    },
+    {
+      "alt": "颜色徽章",
+      "alt:en-US": "Color Badge",
+      "href": "https://img.shields.io/badge/F94144-F94144",
+      "images": [
+        {
+          "alt": "Color Badge F94144",
+          "href": "https://img.shields.io/badge/F94144-F94144"
+        },
+        {
+          "alt": "Color Badge F3722C",
+          "href": "https://img.shields.io/badge/F3722C-F3722C"
+        },
+        {
+          "alt": "Color Badge F8961E",
+          "href": "https://img.shields.io/badge/F8961E-F8961E"
+        },
+        {
+          "alt": "Color Badge F9844A",
+          "href": "https://img.shields.io/badge/F9844A-F9844A"
+        },
+        {
+          "alt": "Color Badge F9C74F",
+          "href": "https://img.shields.io/badge/F9C74F-F9C74F"
+        },
+        {
+          "alt": "Color Badge 90BE6D",
+          "href": "https://img.shields.io/badge/90BE6D-90BE6D"
+        },
+        {
+          "alt": "Color Badge 43AA8B",
+          "href": "https://img.shields.io/badge/43AA8B-43AA8B"
+        },
+        {
+          "alt": "Color Badge 4D908E",
+          "href": "https://img.shields.io/badge/4D908E-4D908E"
+        },
+        {
+          "alt": "Color Badge 577590",
+          "href": "https://img.shields.io/badge/577590-577590"
+        },
+        {
+          "alt": "Color Badge 555555",
+          "href": "https://img.shields.io/badge/555555-555555"
+        },
+        {
+          "alt": "Color Badge 277DA1",
+          "href": "https://img.shields.io/badge/277DA1-277DA1"
+        }
+      ]
+    }
+  ]
+}

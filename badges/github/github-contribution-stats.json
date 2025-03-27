@@ -1,12 +1,12 @@
 {
   "title": "Github Contribution Stats",
   "description": "动态生成 GitHub 贡献统计卡片！",
-  "description:en-US": "Get your dynamically generated Github Contribution Stats! 📈 📆",
-  "tags": {
-    "repoUrl": "https://github.com/LordDashMe/github-contribution-stats",
-    "officialDocsUrl": "https://github.com/LordDashMe/github-contribution-stats?tab=readme-ov-file#usage"
+  "description:en-US": "Get your dynamically generated Github Contribution Stats!",
+  "tag": {
+    "repo": "https://github.com/LordDashMe/github-contribution-stats",
+    "officialDoc": "https://github.com/LordDashMe/github-contribution-stats?tab=readme-ov-file#usage"
   },
-  "rules": {
+  "linkRules": {
     "querys": [
       {
         "name": "username",
@@ -15,23 +15,19 @@
         "description:en-US": "Github username"
       }
     ],
-    "srcTemplate": "https://github-contribution-stats.vercel.app/api/{?username}"
+    "uriTemplate": "https://github-contribution-stats.vercel.app/api/{?username}"
   },
-  "examples": [
-    {
-      "explain": {
-        "annotate": "LordDashMe",
+  "examples": {
+    "annotate": "LordDashMe",
+    "alt": "贡献统计",
+    "alt:en-US": "Contribution Stats",
+    "href": "https://github-contribution-stats.vercel.app/api?username=LordDashMe",
+    "images": [
+      {
         "alt": "贡献统计",
         "alt:en-US": "Contribution Stats",
-        "src": "https://github-contribution-stats.vercel.app/api?username=LordDashMe"
-      },
-      "images": [
-        {
-          "alt": "贡献统计",
-          "alt:en-US": "Contribution Stats",
-          "src": "https://github-contribution-stats.vercel.app/api?username=LordDashMe"
-        }
-      ]
-    }
-  ]
+        "href": "https://github-contribution-stats.vercel.app/api?username=LordDashMe"
+      }
+    ]
+  }
 }

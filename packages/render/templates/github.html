@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{title}}</title>
+  <link rel="icon" href="https://raw.githubusercontent.com/xiaohuohumax/logo/refs/heads/main/logos/logo.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.8.1/github-markdown.css"
+    integrity="sha512-Hasfm7Iv5AG2/v5DSRXetpC33VjyPBXn5giooMag2EgSbiJ2Xp4GGvYGKSvc68SiJIflF/WrbDFdNmtlZHE5HA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    html {
+      background-color: #0D1117;
+      color: #F0F6FC;
+    }
+
+    .markdown-body {
+      box-sizing: border-box;
+      min-width: 200px;
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 32px;
+      border: 1px solid #3D444D;
+    }
+
+    @media (max-width: 767px) {
+      .markdown-body {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="markdown-body">{{@content}}</div>
+  <script type="module" src="/@vite/client"></script>
+</body>
+
+</html>

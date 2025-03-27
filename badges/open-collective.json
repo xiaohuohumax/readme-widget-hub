@@ -2,11 +2,11 @@
   "title": "Open Collective",
   "description": "创建一个 SVG，展示您的财务贡献者的卡片。",
   "description:en-US": "Create an SVG showing the icons of your financial contributors.",
-  "tags": {
-    "repoUrl": "https://github.com/opencollective",
-    "officialDocsUrl": "https://docs.opencollective.com/help/collectives/collective-settings/data-export#contributor-image"
+  "tag": {
+    "repo": "https://github.com/opencollective",
+    "officialDoc": "https://docs.opencollective.com/help/collectives/collective-settings/data-export#contributor-image"
   },
-  "rules": {
+  "linkRules": {
     "params": [
       {
         "name": "collectiveName",
@@ -19,8 +19,8 @@
         "type": "string",
         "description": "统计类型",
         "description:en-US": "Statistics type",
-        "extDescription": "可选值：`sponsors`（赞助商）`backers`（支持者）`contributors`（贡献者）。",
-        "extDescription:en-US": "supported: `sponsors` `backers` `contributors`."
+        "moreDescription": "可选值：`sponsors`（赞助商）`backers`（支持者）`contributors`（贡献者）。",
+        "moreDescription:en-US": "supported: `sponsors` `backers` `contributors`."
       }
     ],
     "querys": [
@@ -29,24 +29,24 @@
         "type": "number",
         "description": "图片宽度",
         "description:en-US": "Width of the image",
-        "extDescription": "单位：像素。",
-        "extDescription:en-US": "Unit: pixels."
+        "moreDescription": "单位：像素。",
+        "moreDescription:en-US": "Unit: pixels."
       },
       {
         "name": "height",
         "type": "number",
         "description": "图片高度",
         "description:en-US": "Height of the image",
-        "extDescription": "单位：像素。",
-        "extDescription:en-US": "Unit: pixels."
+        "moreDescription": "单位：像素。",
+        "moreDescription:en-US": "Unit: pixels."
       },
       {
         "name": "limit",
         "type": "number",
         "description": "最多显示成员数",
         "description:en-US": "Max number of members to show",
-        "extDescription": "空则表示：无上限。",
-        "extDescription:en-US": "Empty means: unlimited."
+        "moreDescription": "空则表示：无上限。",
+        "moreDescription:en-US": "Empty means: unlimited."
       },
       {
         "name": "avatarHeight",
@@ -66,36 +66,32 @@
         "type": "string",
         "description": "图片格式",
         "description:en-US": "Format of the image",
-        "extDescription": "将 `.svg` 替换为 `.png` 或 `.jpg`。",
-        "extDescription:en-US": "Replace `.svg` with `.png` or `.jpg`."
+        "moreDescription": "将 `.svg` 替换为 `.png` 或 `.jpg`。",
+        "moreDescription:en-US": "Replace `.svg` with `.png` or `.jpg`."
       }
     ],
-    "srcTemplate": "https://opencollective.com/{collectiveName}/{statisticalType}.svg{?width,height,limit,avatarHeight,button,format}"
+    "uriTemplate": "https://opencollective.com/{collectiveName}/{statisticalType}.svg{?width,height,limit,avatarHeight,button,format}"
   },
   "examples": [
     {
-      "explain": {
-        "annotate": "vitejs/vite",
-        "alt": "Sponsors on Open Collective",
-        "src": "https://opencollective.com/vite/sponsors.svg"
-      },
+      "annotate": "vitejs/vite",
+      "alt": "Sponsors on Open Collective",
+      "href": "https://opencollective.com/vite/sponsors.svg",
       "images": [
         {
           "alt": "Sponsors on Open Collective",
-          "src": "https://opencollective.com/vite/sponsors.svg"
+          "href": "https://opencollective.com/vite/sponsors.svg"
         }
       ]
     },
     {
-      "explain": {
-        "annotate": "vitejs/vite",
-        "alt": "Sponsors Badge on Open Collective",
-        "src": "https://opencollective.com/vite/sponsors/badge.svg"
-      },
+      "annotate": "vitejs/vite",
+      "alt": "Sponsors Badge on Open Collective",
+      "href": "https://opencollective.com/vite/sponsors/badge.svg",
       "images": [
         {
           "alt": "Sponsors Badge on Open Collective",
-          "src": "https://opencollective.com/vite/sponsors/badge.svg"
+          "href": "https://opencollective.com/vite/sponsors/badge.svg"
         }
       ]
     }

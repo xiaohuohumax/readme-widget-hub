@@ -2,12 +2,12 @@
   "title": "OpenSSF Best Practices Badge",
   "description": "开源安全基金会（OpenSSF）最佳实践徽章。",
   "description:en-US": "Open Source Security Foundation (OpenSSF) Best Practices Badge.",
-  "tags": {
-    "repoUrl": "https://github.com/coreinfrastructure/best-practices-badge",
-    "onlineToolUrl": "https://www.bestpractices.dev",
-    "needLogin": true
+  "tag": {
+    "repo": "https://github.com/coreinfrastructure/best-practices-badge",
+    "onlineTool": "https://www.bestpractices.dev",
+    "needRegister": true
   },
-  "rules": {
+  "linkRules": {
     "params": [
       {
         "name": "id",
@@ -16,21 +16,17 @@
         "description:en-US": "Project ID"
       }
     ],
-    "srcTemplate": "https://www.bestpractices.dev/projects/{id}/badge"
+    "uriTemplate": "https://www.bestpractices.dev/projects/{id}/badge"
   },
-  "examples": [
-    {
-      "explain": {
-        "annotate": "best-practices-badge",
+  "examples": {
+    "annotate": "best-practices-badge",
+    "alt": "OpenSSF Best Practices",
+    "href": "https://www.bestpractices.dev/projects/7652/badge",
+    "images": [
+      {
         "alt": "OpenSSF Best Practices",
-        "src": "https://www.bestpractices.dev/projects/7652/badge"
-      },
-      "images": [
-        {
-          "alt": "OpenSSF Best Practices",
-          "src": "https://www.bestpractices.dev/projects/7652/badge"
-        }
-      ]
-    }
-  ]
+        "href": "https://www.bestpractices.dev/projects/7652/badge"
+      }
+    ]
+  }
 }

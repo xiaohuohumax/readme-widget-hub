@@ -1,13 +1,13 @@
 {
   "title": "GitHub Twitter Card Embed",
   "description": "展示你 Twitter 的推文、创建时间、点赞、认证徽章等信息。",
-  "description:en-US": " Get a Verified badge, Showcase your Tweet on Website, GitHub ReadMe or anywhere else.",
-  "tags": {
-    "repoUrl": "https://github.com/VishwaGauravIn/github-twitter-card-embed",
-    "onlineToolUrl": "https://gtce.itsvg.in/",
-    "officialDocsUrl": "https://github.com/VishwaGauravIn/github-twitter-card-embed?tab=readme-ov-file#-parameters"
+  "description:en-US": "Get a Verified badge, Showcase your Tweet on Website, GitHub ReadMe or anywhere else.",
+  "tag": {
+    "repo": "https://github.com/VishwaGauravIn/github-twitter-card-embed",
+    "onlineTool": "https://gtce.itsvg.in/",
+    "officialDoc": "https://github.com/VishwaGauravIn/github-twitter-card-embed?tab=readme-ov-file#-parameters"
   },
-  "rules": {
+  "linkRules": {
     "querys": [
       {
         "name": "username",
@@ -21,8 +21,8 @@
         "default": "dracula",
         "description": "主题",
         "description:en-US": "Theme",
-        "extDescription": "可选值：`default` `default_repocard` `transparent` `dark` `tokyonight` 更多主题参考：[Themes](https://github.com/VishwaGauravIn/github-twitter-card-embed?tab=readme-ov-file#-themes)。",
-        "extDescription:en-US": "Supported: `default` `default_repocard` `transparent` `dark` `tokyonight` main theme references: [Themes](https://github.com/VishwaGauravIn/github-twitter-card-embed?tab=readme-ov-file#-themes)."
+        "moreDescription": "可选值：`default` `default_repocard` `transparent` `dark` `tokyonight` 更多主题参考：[Themes](https://github.com/VishwaGauravIn/github-twitter-card-embed?tab=readme-ov-file#-themes)。",
+        "moreDescription:en-US": "Supported: `default` `default_repocard` `transparent` `dark` `tokyonight` main theme references: [Themes](https://github.com/VishwaGauravIn/github-twitter-card-embed?tab=readme-ov-file#-themes)."
       },
       {
         "name": "icon",
@@ -30,8 +30,8 @@
         "default": "default",
         "description": "图标",
         "description:en-US": "Icon",
-        "extDescription": "可选值：`default` `thunder` `sun` `beaker` `bookmark` `bug` `cake` `badge` `code` `smile` `fire` `hashtag` `heart` `lock` `moon` `radio` `sparkles` `star` `trophy` `user`。",
-        "extDescription:en-US": "Supported: `default` `thunder` `sun` `beaker` `bookmark` `bug` `cake` `badge` `code` `smile` `fire` `hashtag` `heart` `lock` `moon` `radio` `sparkles` `star` `trophy` `user`."
+        "moreDescription": "可选值：`default` `thunder` `sun` `beaker` `bookmark` `bug` `cake` `badge` `code` `smile` `fire` `hashtag` `heart` `lock` `moon` `radio` `sparkles` `star` `trophy` `user`。",
+        "moreDescription:en-US": "Supported: `default` `thunder` `sun` `beaker` `bookmark` `bug` `cake` `badge` `code` `smile` `fire` `hashtag` `heart` `lock` `moon` `radio` `sparkles` `star` `trophy` `user`."
       },
       {
         "name": "time",
@@ -39,8 +39,8 @@
         "default": "true",
         "description": "是否显示时间",
         "description:en-US": "Show time",
-        "extDescription": "可选值：`true` `false`。",
-        "extDescription:en-US": "Supported: `true` `false`."
+        "moreDescription": "可选值：`true` `false`。",
+        "moreDescription:en-US": "Supported: `true` `false`."
       },
       {
         "name": "response",
@@ -48,8 +48,8 @@
         "default": "true",
         "description": "是否显示点赞、转发和评论",
         "description:en-US": "Show response",
-        "extDescription": "可选值：`true` `false`。",
-        "extDescription:en-US": "Supported: `true` `false`."
+        "moreDescription": "可选值：`true` `false`。",
+        "moreDescription:en-US": "Supported: `true` `false`."
       },
       {
         "name": "border",
@@ -57,25 +57,21 @@
         "default": "true",
         "description": "是否显示边框",
         "description:en-US": "Show border",
-        "extDescription": "可选值：`true` `false`。",
-        "extDescription:en-US": "Supported: `true` `false`."
+        "moreDescription": "可选值：`true` `false`。",
+        "moreDescription:en-US": "Supported: `true` `false`."
       }
     ],
-    "srcTemplate": "https://gtce.itsvg.in/api{?username,theme,icon,time,response,border}"
+    "uriTemplate": "https://gtce.itsvg.in/api{?username,theme,icon,time,response,border}"
   },
-  "examples": [
-    {
-      "explain": {
-        "annotate": "VishwaGauravIn",
+  "examples": {
+    "annotate": "VishwaGauravIn",
+    "alt": "Twitter Card",
+    "href": "https://gtce.itsvg.in/api?username=VishwaGauravIn&theme=jolly&response=false&border=false",
+    "images": [
+      {
         "alt": "Twitter Card",
-        "src": "https://gtce.itsvg.in/api?username=VishwaGauravIn&theme=jolly&response=false&border=false"
-      },
-      "images": [
-        {
-          "alt": "Twitter Card",
-          "src": "https://gtce.itsvg.in/api?username=VishwaGauravIn&theme=jolly&response=false&border=false"
-        }
-      ]
-    }
-  ]
+        "href": "https://gtce.itsvg.in/api?username=VishwaGauravIn&theme=jolly&response=false&border=false"
+      }
+    ]
+  }
 }

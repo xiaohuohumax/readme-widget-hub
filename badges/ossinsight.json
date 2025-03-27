@@ -7,11 +7,11 @@
     "messages": "由于此项目支持的卡片种类非常多，且功能强大，这里只简单介绍－推送和提交记录卡片，其他卡片使用方式还请移步官方文档。",
     "messages:en-US": "Since the card type supported by this project is very many and powerful, here we only introduce - push and commit records card, other cards usage please refer to the official documentation."
   },
-  "tags": {
-    "repoUrl": "https://github.com/pingcap/ossinsight",
-    "onlineToolUrl": "https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month?repo_id=449649595"
+  "tag": {
+    "repo": "https://github.com/pingcap/ossinsight",
+    "onlineTool": "https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month?repo_id=449649595"
   },
-  "rules": {
+  "linkRules": {
     "querys": [
       {
         "name": "repo_id",
@@ -24,36 +24,32 @@
         "type": "string",
         "description": "卡片颜色主题",
         "description:en-US": "Card color scheme",
-        "extDescription": "可选值：`light` `dark`。",
-        "extDescription:en-US": "Supported: `light` `dark`."
+        "moreDescription": "可选值：`light` `dark`。",
+        "moreDescription:en-US": "Supported: `light` `dark`."
       }
     ],
-    "srcTemplate": "https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month{?repo_id,color_scheme}"
+    "uriTemplate": "https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month{?repo_id,color_scheme}"
   },
   "examples": [
     {
-      "explain": {
-        "annotate": "pingcap/ossinsight",
-        "alt": "Pushes and Commits of pingcap/ossinsight",
-        "src": "https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month/thumbnail.png?repo_id=449649595&color_scheme=dark"
-      },
+      "annotate": "pingcap/ossinsight",
+      "alt": "Pushes and Commits of pingcap/ossinsight",
+      "href": "https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month/thumbnail.png?repo_id=449649595&color_scheme=dark",
       "images": [
         {
           "alt": "Pushes and Commits of pingcap/ossinsight",
-          "src": "https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month/thumbnail.png?repo_id=449649595&color_scheme=dark"
+          "href": "https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month/thumbnail.png?repo_id=449649595&color_scheme=dark"
         }
       ]
     },
     {
-      "explain": {
-        "annotate": "antfu",
-        "alt": "Dashboard stats of @antfu",
-        "src": "https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=11247099&image_size=auto&color_scheme=dark"
-      },
+      "annotate": "antfu",
+      "alt": "Dashboard stats of @antfu",
+      "href": "https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=11247099&image_size=auto&color_scheme=dark",
       "images": [
         {
           "alt": "Dashboard stats of @antfu",
-          "src": "https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=11247099&image_size=auto&color_scheme=dark"
+          "href": "https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=11247099&image_size=auto&color_scheme=dark"
         }
       ]
     }

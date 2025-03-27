@@ -2,20 +2,20 @@
   "title": "Moe Counter",
   "description": "多种风格可选的萌萌计数器。",
   "description:en-US": "Moe counter badge with multiple themes。",
-  "tags": {
-    "repoUrl": "https://github.com/journey-ad/Moe-Counter",
-    "onlineToolUrl": "https://count.getloli.com/",
-    "officialDocsUrl": "https://count.getloli.com/"
+  "tag": {
+    "repo": "https://github.com/journey-ad/Moe-Counter",
+    "onlineTool": "https://count.getloli.com/",
+    "officialDoc": "https://count.getloli.com/"
   },
-  "rules": {
+  "linkRules": {
     "params": [
       {
         "name": "countId",
         "type": "string",
         "description": "计数器 ID",
         "description:en-US": "Unique counter name",
-        "extDescription": "不能包含特殊字符。",
-        "extDescription:en-US": "Not allowed to contain special characters."
+        "moreDescription": "不能包含特殊字符。",
+        "moreDescription:en-US": "Not allowed to contain special characters."
       }
     ],
     "querys": [
@@ -25,8 +25,8 @@
         "default": "moebooru",
         "description": "主题",
         "description:en-US": "Select a counter image theme",
-        "extDescription": "可选值：`random` `3d-num` `ai-1` `asoul` `booru-ffsr` `moebooru`，更多主题：[More theme](https://github.com/journey-ad/Moe-Counter?tab=readme-ov-file#more-theme)。",
-        "extDescription:en-US": "Supported: `random` `3d-num` `ai-1` `asoul` `booru-ffsr` `moebooru`. More themes: [More theme](https://github.com/journey-ad/Moe-Counter?tab=readme-ov-file#more-theme)."
+        "moreDescription": "可选值：`random` `3d-num` `ai-1` `asoul` `booru-ffsr` `moebooru`，更多主题：[More theme](https://github.com/journey-ad/Moe-Counter?tab=readme-ov-file#more-theme)。",
+        "moreDescription:en-US": "Supported: `random` `3d-num` `ai-1` `asoul` `booru-ffsr` `moebooru`. More themes: [More theme](https://github.com/journey-ad/Moe-Counter?tab=readme-ov-file#more-theme)."
       },
       {
         "name": "padding",
@@ -34,8 +34,8 @@
         "default": "7",
         "description": "最小长度",
         "description:en-US": "Set the minimum length",
-        "extDescription": "范围：`1` 到 `17`。",
-        "extDescription:en-US": "Bettwen `1` and `17`."
+        "moreDescription": "范围：`1` 到 `17`。",
+        "moreDescription:en-US": "Bettwen `1` and `17`."
       },
       {
         "name": "offset",
@@ -43,8 +43,8 @@
         "default": "0",
         "description": "像素偏移值",
         "description:en-US": "Set the offset pixel value",
-        "extDescription": "范围：`-500` 到 `500`。",
-        "extDescription:en-US": "Bettwen `-500` and `500`."
+        "moreDescription": "范围：`-500` 到 `500`。",
+        "moreDescription:en-US": "Bettwen `-500` and `500`."
       },
       {
         "name": "scale",
@@ -52,8 +52,8 @@
         "default": "1",
         "description": "图像缩放比例",
         "description:en-US": "Set the image scale",
-        "extDescription": "范围：`0.1` 到 `2`。",
-        "extDescription:en-US": "Bettwen `0.1` and `2`."
+        "moreDescription": "范围：`0.1` 到 `2`。",
+        "moreDescription:en-US": "Bettwen `0.1` and `2`."
       },
       {
         "name": "align",
@@ -61,8 +61,8 @@
         "default": "top",
         "description": "图像对齐方式",
         "description:en-US": "Set the image align",
-        "extDescription": "可选值：`top` `bottom` `center`。",
-        "extDescription:en-US": "Supported: `top` `bottom` `center`."
+        "moreDescription": "可选值：`top` `bottom` `center`。",
+        "moreDescription:en-US": "Supported: `top` `bottom` `center`."
       },
       {
         "name": "pixelated",
@@ -70,8 +70,8 @@
         "default": "1",
         "description": "是否启用像素化模式",
         "description:en-US": "Enable pixelated mode",
-        "extDescription": "可选值：`0` `1`。",
-        "extDescription:en-US": "Supported: `0` `1`."
+        "moreDescription": "可选值：`0` `1`。",
+        "moreDescription:en-US": "Supported: `0` `1`."
       },
       {
         "name": "darkmode",
@@ -79,8 +79,8 @@
         "default": "auto",
         "description": "是否启用暗黑模式",
         "description:en-US": "Enable dark mode",
-        "extDescription": "可选值：`0` `1` `auto`。",
-        "extDescription:en-US": "Supported: `0` `1` `auto`."
+        "moreDescription": "可选值：`0` `1` `auto`。",
+        "moreDescription:en-US": "Supported: `0` `1` `auto`."
       },
       {
         "name": "num",
@@ -88,35 +88,33 @@
         "default": "0",
         "description": "统计数字",
         "description:en-US": "Set counter display number",
-        "extDescription": "`0` 代表禁用，如设置后将不再有统计计数效果，仅显示配置的数字。",
-        "extDescription:en-US": "`0` for disable, if set, the counter will not count, only display the configured number."
+        "moreDescription": "`0` 代表禁用，如设置后将不再有统计计数效果，仅显示配置的数字。",
+        "moreDescription:en-US": "`0` for disable, if set, the counter will not count, only display the configured number."
       },
       {
         "name": "prefix",
         "type": "number",
         "description": "统计数字前缀数字",
         "description:en-US": "Set the prefix number",
-        "extDescription": "在统计数字前添加的数字，最大：`999999`，留空则不启用。",
-        "extDescription:en-US": "The maximum value is `999999`, empty for disable."
+        "moreDescription": "在统计数字前添加的数字，最大：`999999`，留空则不启用。",
+        "moreDescription:en-US": "The maximum value is `999999`, empty for disable."
       }
     ],
-    "srcTemplate": "https://count.getloli.com/@{countId}{?theme,padding,offset,scale,align,pixelated,darkmode,num,prefix}"
+    "uriTemplate": "https://count.getloli.com/@{countId}{?theme,padding,offset,scale,align,pixelated,darkmode,num,prefix}"
   },
-  "examples": [
+  "examples":
     {
-      "explain": {
-        "annotate": "xiaohuohumax/badge-collection",
-        "alt": "萌萌计数器",
-        "alt:en-US": "Moe Counter",
-        "src": "https://count.getloli.com/@xiaohuohumax-badge-collection"
-      },
+      "annotate": "xiaohuohumax/badge-collection",
+      "alt": "萌萌计数器",
+      "alt:en-US": "Moe Counter",
+      "href": "https://count.getloli.com/@xiaohuohumax-badge-collection",
       "images": [
         {
           "alt": "萌萌计数器",
           "alt:en-US": "Moe Counter",
-          "src": "https://count.getloli.com/@xiaohuohumax-badge-collection"
+          "href": "https://count.getloli.com/@xiaohuohumax-badge-collection"
         }
       ]
     }
-  ]
+
 }

@@ -2,11 +2,11 @@
   "title": "Widget Bite",
   "description": "为你的 README 添加一些小组件（包含：访客计数，投票以及一个好看的 Banner），让你的项目更加生动有趣。",
   "description:en-US": "Add some small components (such as visitor count, voting, and a beautiful banner) to your README to make your project more engaging and interesting.",
-  "tags": {
-    "onlineToolUrl": "https://widgetbite.com/",
-    "officialDocsUrl": "https://widgetbite.com/"
+  "tag": {
+    "onlineTool": "https://widgetbite.com/",
+    "officialDoc": "https://widgetbite.com/"
   },
-  "rules": [
+  "linkRules": [
     {
       "params": [
         {
@@ -16,8 +16,9 @@
           "description:en-US": "Github username"
         }
       ],
-      "annotate": "Visitor Stats",
-      "srcTemplate": "https://widgetbite.com/stats/{username}"
+      "description": "访客统计",
+      "description:en-US": "Visitor Stats",
+      "uriTemplate": "https://widgetbite.com/stats/{username}"
     },
     {
       "querys": [
@@ -39,8 +40,8 @@
           "default": "none",
           "description": "标题旋转方式",
           "description:en-US": "Title transform",
-          "extDescription": "可选值：`none` `rotate` `skew` `scale`。",
-          "extDescription:en-US": "Supported: `none` `rotate` `skew` `scale`."
+          "moreDescription": "可选值：`none` `rotate` `skew` `scale`。",
+          "moreDescription:en-US": "Supported: `none` `rotate` `skew` `scale`."
         },
         {
           "name": "subtitletransform",
@@ -48,8 +49,8 @@
           "default": "none",
           "description": "副标题旋转方式",
           "description:en-US": "Subtitle transform",
-          "extDescription": "可选值：`none` `rotate` `skew` `scale`。",
-          "extDescription:en-US": "Supported: `none` `rotate` `skew` `scale`."
+          "moreDescription": "可选值：`none` `rotate` `skew` `scale`。",
+          "moreDescription:en-US": "Supported: `none` `rotate` `skew` `scale`."
         },
         {
           "name": "fontpalette",
@@ -57,8 +58,8 @@
           "default": "none",
           "description": "文字样式",
           "description:en-US": "Text palette",
-          "extDescription": "可选值：`none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`。",
-          "extDescription:en-US": "Supported: `none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`."
+          "moreDescription": "可选值：`none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`。",
+          "moreDescription:en-US": "Supported: `none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`."
         },
         {
           "name": "backgroundpalette",
@@ -66,39 +67,35 @@
           "default": "none",
           "description": "背景样式",
           "description:en-US": "Background palette",
-          "extDescription": "可选值：`none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`。",
-          "extDescription:en-US": "Supported: `none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`."
+          "moreDescription": "可选值：`none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`。",
+          "moreDescription:en-US": "Supported: `none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`."
         }
       ],
-      "annotate": "Banner",
-      "srcTemplate": "https://widgetbite.com/banner{?title,subtitle,titletransform,subtitletransform,fontpalette,backgroundpalette}"
+      "description": "Banner",
+      "uriTemplate": "https://widgetbite.com/banner{?title,subtitle,titletransform,subtitletransform,fontpalette,backgroundpalette}"
     }
   ],
   "examples": [
     {
-      "explain": {
-        "annotate": "xiaohuohumax",
-        "alt": "访客统计",
-        "alt:en-US": "Visitor Stats",
-        "src": "https://widgetbite.com/stats/xiaohuohumax"
-      },
+      "annotate": "xiaohuohumax",
+      "alt": "访客统计",
+      "alt:en-US": "Visitor Stats",
+      "href": "https://widgetbite.com/stats/xiaohuohumax",
       "images": [
         {
           "alt": "访客统计",
           "alt:en-US": "Visitor Stats",
-          "src": "https://widgetbite.com/stats/xiaohuohumax"
+          "href": "https://widgetbite.com/stats/xiaohuohumax"
         }
       ]
     },
     {
-      "explain": {
-        "alt": "Banner",
-        "src": "https://widgetbite.com/banner?title=Badge%20Collection&subtitle=&backgroundpalette=pastels&fontpalette=pastels&titletransform=rotate"
-      },
+      "alt": "Banner",
+      "href": "https://widgetbite.com/banner?title=Badge%20Collection&subtitle=&backgroundpalette=pastels&fontpalette=pastels&titletransform=rotate",
       "images": [
         {
           "alt": "Banner",
-          "src": "https://widgetbite.com/banner?title=Badge%20Collection&subtitle=&backgroundpalette=pastels&fontpalette=pastels&titletransform=rotate"
+          "href": "https://widgetbite.com/banner?title=Badge%20Collection&subtitle=&backgroundpalette=pastels&fontpalette=pastels&titletransform=rotate"
         }
       ]
     }

@@ -7,12 +7,12 @@
     "messages": "WakaTime 存在多种统计图表，这里只简单介绍[项目徽章](https://wakatime.com/share/badges/projects)，更多功能请访问 [WakaTime](https://wakatime.com/) 官网。",
     "messages:en-US": "WakaTime has many charts for statistics, here we only introduce the [project badges](https://wakatime.com/share/badges/projects), for more features, please visit [WakaTime](https://wakatime.com/) website."
   },
-  "tags": {
-    "repoUrl": "https://github.com/wakatime",
-    "onlineToolUrl": "https://wakatime.com/share",
-    "needLogin": true
+  "tag": {
+    "repo": "https://github.com/wakatime",
+    "onlineTool": "https://wakatime.com/share",
+    "needRegister": true
   },
-  "rules": [
+  "linkRules": [
     {
       "params": [
         {
@@ -32,11 +32,13 @@
           "type": "string",
           "description": "徽章类型",
           "description:en-US": "Badge type",
-          "extDescription": "可选值：`svg`、`png`",
-          "extDescription:en-US": "Supported: `svg` and `png`"
+          "moreDescription": "可选值：`svg`、`png`",
+          "moreDescription:en-US": "Supported: `svg` and `png`"
         }
       ],
-      "srcTemplate": "https://wakatime.com/badge/user/{userId}/project/{projectId}.{type}"
+      "description": "WakaTime 项目徽章",
+      "description:en-US": "WakaTime Project Badge",
+      "uriTemplate": "https://wakatime.com/badge/user/{userId}/project/{projectId}.{type}"
     },
     {
       "params": [
@@ -51,47 +53,45 @@
           "type": "string",
           "description": "WakaTime 图表配置 ID",
           "description:en-US": "WakaTime Chart Config ID",
-          "extDescription": "通过配置自动生成。",
-          "extDescription:en-US": "Generated automatically by configuration."
+          "moreDescription": "通过配置自动生成。",
+          "moreDescription:en-US": "Generated automatically by configuration."
         },
         {
           "name": "type",
           "type": "string",
           "description": "徽章类型",
           "description:en-US": "Badge type",
-          "extDescription": "可选值：`svg`、`png`",
-          "extDescription:en-US": "Supported: `svg` and `png`"
+          "moreDescription": "可选值：`svg`、`png`",
+          "moreDescription:en-US": "Supported: `svg` and `png`"
         }
       ],
-      "srcTemplate": "https://wakatime.com/share/@{userId}/{chartConfigId}.{type}"
+      "description": "WakaTime 自定义图表",
+      "description:en-US": "WakaTime Custom Chart",
+      "uriTemplate": "https://wakatime.com/share/@{userId}/{chartConfigId}.{type}"
     }
   ],
   "examples": [
     {
-      "explain": {
-        "annotate": "xiaohuohumax/badge-collection",
-        "alt": "WakaTime",
-        "src": "https://wakatime.com/badge/user/55467317-4c40-41a7-b401-2b15b7a7e3f1/project/2da11925-8baf-4de2-9e54-5e87af844cb6.svg"
-      },
+      "annotate": "xiaohuohumax/badge-collection",
+      "alt": "WakaTime",
+      "href": "https://wakatime.com/badge/user/55467317-4c40-41a7-b401-2b15b7a7e3f1/project/2da11925-8baf-4de2-9e54-5e87af844cb6.svg",
       "images": [
         {
           "alt": "WakaTime",
-          "src": "https://wakatime.com/badge/user/55467317-4c40-41a7-b401-2b15b7a7e3f1/project/2da11925-8baf-4de2-9e54-5e87af844cb6.svg"
+          "href": "https://wakatime.com/badge/user/55467317-4c40-41a7-b401-2b15b7a7e3f1/project/2da11925-8baf-4de2-9e54-5e87af844cb6.svg"
         }
       ]
     },
     {
-      "explain": {
-        "annotate": "xiaohuohumax/badge-collection",
-        "alt": "WakaTime 编码活动",
-        "alt:en-US": "WakaTime Coding Activity",
-        "src": "https://wakatime.com/share/@55467317-4c40-41a7-b401-2b15b7a7e3f1/2bf34c99-3246-4d4c-85da-c9bf54d084cc.svg"
-      },
+      "annotate": "xiaohuohumax/badge-collection",
+      "alt": "WakaTime 编码活动",
+      "alt:en-US": "WakaTime Coding Activity",
+      "href": "https://wakatime.com/share/@55467317-4c40-41a7-b401-2b15b7a7e3f1/2bf34c99-3246-4d4c-85da-c9bf54d084cc.svg",
       "images": [
         {
           "alt": "WakaTime 编码活动",
           "alt:en-US": "WakaTime Coding Activity",
-          "src": "https://wakatime.com/share/@55467317-4c40-41a7-b401-2b15b7a7e3f1/2bf34c99-3246-4d4c-85da-c9bf54d084cc.svg"
+          "href": "https://wakatime.com/share/@55467317-4c40-41a7-b401-2b15b7a7e3f1/2bf34c99-3246-4d4c-85da-c9bf54d084cc.svg"
         }
       ]
     }

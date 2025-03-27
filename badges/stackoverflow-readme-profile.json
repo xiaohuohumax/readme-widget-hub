@@ -2,12 +2,12 @@
   "title": "Stackoverflow Readme Profile",
   "description": "轻松分享你的 Stackoverflow 个人资料到你的 README。",
   "description:en-US": "Easily share your Stackoverflow's profile on your README.",
-  "tags": {
-    "repoUrl": "https://github.com/johannchopin/stackoverflow-readme-profile",
-    "onlineToolUrl": "https://stackoverflow-readme-profile.vercel.app/",
-    "officialDocsUrl": "https://github.com/johannchopin/stackoverflow-readme-profile?tab=readme-ov-file#stackoverflow-readme-profile"
+  "tag": {
+    "repo": "https://github.com/johannchopin/stackoverflow-readme-profile",
+    "onlineTool": "https://stackoverflow-readme-profile.vercel.app/",
+    "officialDoc": "https://github.com/johannchopin/stackoverflow-readme-profile?tab=readme-ov-file#stackoverflow-readme-profile"
   },
-  "rules": [
+  "linkRules": [
     {
       "params": [
         {
@@ -15,8 +15,8 @@
           "type": "string",
           "description": "显示模板",
           "description:en-US": "Display template",
-          "extDescription": "可选值：`profile` `profile-small`。",
-          "extDescription:en-US": "Supported: `profile` `profile-small`."
+          "moreDescription": "可选值：`profile` `profile-small`。",
+          "moreDescription:en-US": "Supported: `profile` `profile-small`."
         },
         {
           "name": "userId",
@@ -32,8 +32,8 @@
           "default": "default",
           "description": "主题",
           "description:en-US": "Theme to use",
-          "extDescription": "可选值：`default` `dark` `cobalt` `monokai` `graywhite` `hotdog`。",
-          "extDescription:en-US": "Supported: `default` `dark` `cobalt` `monokai` `graywhite` `hotdog`."
+          "moreDescription": "可选值：`default` `dark` `cobalt` `monokai` `graywhite` `hotdog`。",
+          "moreDescription:en-US": "Supported: `default` `dark` `cobalt` `monokai` `graywhite` `hotdog`."
         },
         {
           "name": "website",
@@ -41,8 +41,8 @@
           "default": "true",
           "description": "是否显示网站 URL",
           "description:en-US": "Show or not the website URL",
-          "extDescription": "仅当 `template=profile` 时可用，可选值：`true` `false`。",
-          "extDescription:en-US": "Only when `template=profile` is available, supported: `true` `false`."
+          "moreDescription": "仅当 `template=profile` 时可用，可选值：`true` `false`。",
+          "moreDescription:en-US": "Only when `template=profile` is available, supported: `true` `false`."
         },
         {
           "name": "location",
@@ -50,12 +50,13 @@
           "default": "true",
           "description": "是否显示位置",
           "description:en-US": "Show or not the location",
-          "extDescription": "仅当 `template=profile` 时可用，可选值：`true` `false`。",
-          "extDescription:en-US": "Only when `template=profile` is available, supported: `true` `false`."
+          "moreDescription": "仅当 `template=profile` 时可用，可选值：`true` `false`。",
+          "moreDescription:en-US": "Only when `template=profile` is available, supported: `true` `false`."
         }
       ],
-      "annotate": "Profile",
-      "srcTemplate": "https://stackoverflow-readme-profile.johannchopin.fr/{template}/{userId}{?theme,website,location}"
+      "description": "Stackoverflow 个人资料",
+      "description:en-US": "Stackoverflow's profile",
+      "uriTemplate": "https://stackoverflow-readme-profile.johannchopin.fr/{template}/{userId}{?theme,website,location}"
     },
     {
       "params": [
@@ -79,27 +80,24 @@
           "default": "default",
           "description": "主题",
           "description:en-US": "Theme to use",
-          "extDescription": "可选值：`default` `dark` `cobalt` `monokai` `graywhite` `hotdog`。",
-          "extDescription:en-US": "Supported: `default` `dark` `cobalt` `monokai` `graywhite` `hotdog`."
+          "moreDescription": "可选值：`default` `dark` `cobalt` `monokai` `graywhite` `hotdog`。",
+          "moreDescription:en-US": "Supported: `default` `dark` `cobalt` `monokai` `graywhite` `hotdog`."
         }
       ],
-      "annotate": "Tags League Ranking",
-      "srcTemplate": "https://stackoverflow-readme-profile.johannchopin.fr/tags-league-ranking/{tagName}/{userId}{?theme}"
+      "description": "标签排行榜",
+      "description:en-US": "Tag league ranking",
+      "uriTemplate": "https://stackoverflow-readme-profile.johannchopin.fr/tags-league-ranking/{tagName}/{userId}{?theme}"
     }
   ],
-  "examples": [
-    {
-      "explain": {
-        "annotate": "johannchopin",
+  "examples": {
+    "annotate": "johannchopin",
+    "alt": "Stackoverflow Profile",
+    "href": "https://stackoverflow-readme-profile.johannchopin.fr/profile/8583669?theme=dark",
+    "images": [
+      {
         "alt": "Stackoverflow Profile",
-        "src": "https://stackoverflow-readme-profile.johannchopin.fr/profile/8583669?theme=dark"
-      },
-      "images": [
-        {
-          "alt": "Stackoverflow Profile",
-          "src": "https://stackoverflow-readme-profile.johannchopin.fr/profile/8583669?theme=dark"
-        }
-      ]
-    }
-  ]
+        "href": "https://stackoverflow-readme-profile.johannchopin.fr/profile/8583669?theme=dark"
+      }
+    ]
+  }
 }

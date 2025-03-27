@@ -2,12 +2,12 @@
   "title": "Iconify",
   "description": "Iconify API 可以动态生成 SVG，其中包含大量的图标集可供选择，可用于 HTML 或 CSS。",
   "description:en-US": "Iconify API can dynamically generate SVG, which includes a large number of icon sets for selection, and can be used for HTML or CSS.",
-  "tags": {
-    "repoUrl": "https://github.com/iconify/iconify",
-    "officialDocsUrl": "https://iconify.design/docs/api/svg.html",
-    "onlineToolUrl": "https://icon-sets.iconify.design/?category=Emoji"
+  "tag": {
+    "repo": "https://github.com/iconify/iconify",
+    "officialDoc": "https://iconify.design/docs/api/svg.html",
+    "onlineTool": "https://icon-sets.iconify.design/?category=Emoji"
   },
-  "rules": {
+  "linkRules": {
     "params": [
       {
         "name": "prefix",
@@ -28,40 +28,40 @@
         "type": "string",
         "description": "图标颜色",
         "description:en-US": "Icon color",
-        "extDescription": "支持格式：`HEX` `CSS 颜色值` 例如：`#FF0000` `red` `rgb(255, 0, 0)`。",
-        "extDescription:en-US": "Supported: `HEX` `CSS name` e.g. `#FF0000` `red` `rgb(255, 0, 0)`."
+        "moreDescription": "支持格式：`HEX` `CSS 颜色值` 例如：`#FF0000` `red` `rgb(255, 0, 0)`。",
+        "moreDescription:en-US": "Supported: `HEX` `CSS name` e.g. `#FF0000` `red` `rgb(255, 0, 0)`."
       },
       {
         "name": "width",
         "type": "number",
         "description": "图标宽度",
         "description:en-US": "Image width",
-        "extDescription": "单位：像素。",
-        "extDescription:en-US": "Unit: pixels."
+        "moreDescription": "单位：像素。",
+        "moreDescription:en-US": "Unit: pixels."
       },
       {
         "name": "height",
         "type": "number",
         "description": "图标高度",
         "description:en-US": "Image height",
-        "extDescription": "单位：像素。",
-        "extDescription:en-US": "Unit: pixels."
+        "moreDescription": "单位：像素。",
+        "moreDescription:en-US": "Unit: pixels."
       },
       {
         "name": "flip",
         "type": "string",
         "description": "翻转图标",
         "description:en-US": "Flip icon",
-        "extDescription": "可选值：`horizontal` `vertical`。",
-        "extDescription:en-US": "Supported: `horizontal` `vertical`."
+        "moreDescription": "可选值：`horizontal` `vertical`。",
+        "moreDescription:en-US": "Supported: `horizontal` `vertical`."
       },
       {
         "name": "rotate",
         "type": "string",
         "description": "旋转图标",
         "description:en-US": "Rotate icon",
-        "extDescription": "格式：`deg` `number` 其中 `1=90deg`。",
-        "extDescription:en-US": "Format: `deg` `number` where `1=90deg`."
+        "moreDescription": "格式：`deg` `number` 其中 `1=90deg`。",
+        "moreDescription:en-US": "Format: `deg` `number` where `1=90deg`."
       },
       {
         "name": "download",
@@ -76,20 +76,16 @@
         "description:en-US": "Adds an empty rectangle to SVG that matches viewBox"
       }
     ],
-    "srcTemplate": "https://api.iconify.design/{prefix}/{name}.svg{?color,width,height,flip,rotate,download,box}"
+    "uriTemplate": "https://api.iconify.design/{prefix}/{name}.svg{?color,width,height,flip,rotate,download,box}"
   },
-  "examples": [
-    {
-      "explain": {
+  "examples": {
+    "alt": "Iconify 1st Place Medal Badge",
+    "href": "https://api.iconify.design/fluent-emoji-flat/1st-place-medal.svg?width=64",
+    "images": [
+      {
         "alt": "Iconify 1st Place Medal Badge",
-        "src": "https://api.iconify.design/fluent-emoji-flat/1st-place-medal.svg?width=64"
-      },
-      "images": [
-        {
-          "alt": "Iconify 1st Place Medal Badge",
-          "src": "https://api.iconify.design/fluent-emoji-flat/1st-place-medal.svg?width=64"
-        }
-      ]
-    }
-  ]
+        "href": "https://api.iconify.design/fluent-emoji-flat/1st-place-medal.svg?width=64"
+      }
+    ]
+  }
 }

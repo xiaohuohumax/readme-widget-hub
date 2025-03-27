@@ -2,10 +2,10 @@
   "title": "GitHub Workflows Badge",
   "description": "GitHub 官方徽章，显示你的 GitHub 仓库中正在运行的工作流状态。",
   "description:en-US": "You can display a status badge in your repository to indicate the status of your workflows.",
-  "tags": {
-    "officialDocsUrl": "https://docs.github.com/zh/actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/adding-a-workflow-status-badge"
+  "tag": {
+    "officialDoc": "https://docs.github.com/zh/actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/adding-a-workflow-status-badge"
   },
-  "rules": {
+  "linkRules": {
     "params": [
       {
         "name": "owner",
@@ -40,21 +40,17 @@
         "description:en-US": "Workflow trigger event name"
       }
     ],
-    "srcTemplate": "https://github.com/github/{owner}/{repo}/workflows/{workflowFile}/badge.svg{?branch,event}"
+    "uriTemplate": "https://github.com/github/{owner}/{repo}/workflows/{workflowFile}/badge.svg{?branch,event}"
   },
-  "examples": [
-    {
-      "explain": {
-        "annotate": "xiaohuohumax/badge-collection",
+  "examples": {
+    "annotate": "xiaohuohumax/badge-collection",
+    "alt": "Workflow Status",
+    "href": "https://github.com/xiaohuohumax/badge-collection/actions/workflows/build-readme.yaml/badge.svg",
+    "images": [
+      {
         "alt": "Workflow Status",
-        "src": "https://github.com/xiaohuohumax/badge-collection/actions/workflows/build-readme.yaml/badge.svg"
-      },
-      "images": [
-        {
-          "alt": "Workflow Status",
-          "src": "https://github.com/xiaohuohumax/badge-collection/actions/workflows/build-readme.yaml/badge.svg"
-        }
-      ]
-    }
-  ]
+        "href": "https://github.com/xiaohuohumax/badge-collection/actions/workflows/build-readme.yaml/badge.svg"
+      }
+    ]
+  }
 }

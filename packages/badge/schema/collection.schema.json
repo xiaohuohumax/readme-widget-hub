@@ -1,0 +1,45 @@
+{
+  "type": "object",
+  "$ref": "#/definitions/collection",
+  "definitions": {
+    "collection": {
+      "type": "object",
+      "patternProperties": {
+        "^index:.+$": {
+          "type": "number",
+          "description": "Collection order index, smaller is earlier."
+        },
+        "^title:.+$": {
+          "type": "string",
+          "description": "Collection title."
+        },
+        "^description:.+$": {
+          "type": "string",
+          "description": "Collection description."
+        }
+      },
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "description": "Whether the collection is enabled."
+        },
+        "index": {
+          "type": "number",
+          "description": "Collection order index, smaller is earlier."
+        },
+        "title": {
+          "type": "string",
+          "description": "Collection title."
+        },
+        "description": {
+          "type": "string",
+          "description": "Collection description."
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "title"
+      ]
+    }
+  }
+}

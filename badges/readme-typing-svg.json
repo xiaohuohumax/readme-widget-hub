@@ -2,12 +2,12 @@
   "title": "Readme Typing SVG",
   "description": "动态生成、可定制的 SVG，可模拟文本输入和删除效果，适用于个人主页、仓库或网站。",
   "description:en-US": "Dynamically generated, customizable SVG that gives the appearance of typing and deleting text for use on your profile page, repositories, or website.",
-  "tags": {
-    "repoUrl": "https://github.com/denvercoder1/readme-typing-svg",
-    "onlineToolUrl": "https://readme-typing-svg.demolab.com/demo/",
-    "officialDocsUrl": "https://github.com/denvercoder1/readme-typing-svg?tab=readme-ov-file#-options"
+  "tag": {
+    "repo": "https://github.com/denvercoder1/readme-typing-svg",
+    "onlineTool": "https://readme-typing-svg.demolab.com/demo/",
+    "officialDoc": "https://github.com/denvercoder1/readme-typing-svg?tab=readme-ov-file#-options"
   },
-  "rules": {
+  "linkRules": {
     "querys": [
       {
         "name": "lines",
@@ -15,8 +15,8 @@
         "default": "",
         "description": "要显示的多行文本",
         "description:en-US": "The multi-line text to display",
-        "extDescription": "多行之间用 `;` 分隔，文本中空格使用 `+` 代替。",
-        "extDescription:en-US": "Text to display with lines separated by `;` and `+` for spaces."
+        "moreDescription": "多行之间用 `;` 分隔，文本中空格使用 `+` 代替。",
+        "moreDescription:en-US": "Text to display with lines separated by `;` and `+` for spaces."
       },
       {
         "name": "height",
@@ -38,8 +38,8 @@
         "default": "20",
         "description": "字体大小",
         "description:en-US": "Font size in pixels",
-        "extDescription": "单位：像素。",
-        "extDescription:en-US": "Unit: pixels."
+        "moreDescription": "单位：像素。",
+        "moreDescription:en-US": "Unit: pixels."
       },
       {
         "name": "font",
@@ -47,8 +47,8 @@
         "default": "monospace",
         "description": "字体族",
         "description:en-US": "Font family",
-        "extDescription": "任何 Google Fonts 中的字体。",
-        "extDescription:en-US": "Any font from Google Fonts."
+        "moreDescription": "任何 Google Fonts 中的字体。",
+        "moreDescription:en-US": "Any font from Google Fonts."
       },
       {
         "name": "color",
@@ -56,8 +56,8 @@
         "default": "36BCF7",
         "description": "文本颜色",
         "description:en-US": "Color of the text",
-        "extDescription": "格式：`HEX` 例如：`FF0000`。",
-        "extDescription:en-US": "Format: `HEX` e.g. `FF0000`."
+        "moreDescription": "格式：`HEX` 例如：`FF0000`。",
+        "moreDescription:en-US": "Format: `HEX` e.g. `FF0000`."
       },
       {
         "name": "background",
@@ -65,8 +65,8 @@
         "default": "00000000",
         "description": "文本背景颜色",
         "description:en-US": "Background color of the text",
-        "extDescription": "格式：`HEX` 例如：`FF0000`。",
-        "extDescription:en-US": "Format: `HEX` e.g. `FF0000`."
+        "moreDescription": "格式：`HEX` 例如：`FF0000`。",
+        "moreDescription:en-US": "Format: `HEX` e.g. `FF0000`."
       },
       {
         "name": "center",
@@ -74,8 +74,8 @@
         "default": "false",
         "description": "文本水平对齐方式",
         "description:en-US": "Text horizontal alignment",
-        "extDescription": "可选值：true（水平居中）false（左对齐）。",
-        "extDescription:en-US": "Supported: true (horizontal center) false (left align)."
+        "moreDescription": "可选值：true（水平居中）false（左对齐）。",
+        "moreDescription:en-US": "Supported: true (horizontal center) false (left align)."
       },
       {
         "name": "vCenter",
@@ -83,8 +83,8 @@
         "default": "false",
         "description": "文本垂直对齐方式",
         "description:en-US": "Text vertical alignment",
-        "extDescription": "可选值：true（垂直居中）false（居中上方）。",
-        "extDescription:en-US": "Supported: true (vertical center) false (center top)."
+        "moreDescription": "可选值：true（垂直居中）false（居中上方）。",
+        "moreDescription:en-US": "Supported: true (vertical center) false (center top)."
       },
       {
         "name": "multiline",
@@ -92,8 +92,8 @@
         "default": "false",
         "description": "文本换行显示方式",
         "description:en-US": "Text line break display",
-        "extDescription": "可选值：true（换行显示）false（同一行重新显示）。",
-        "extDescription:en-US": "Supported: true (wrap lines) false (retype on one line)."
+        "moreDescription": "可选值：true（换行显示）false（同一行重新显示）。",
+        "moreDescription:en-US": "Supported: true (wrap lines) false (retype on one line)."
       },
       {
         "name": "duration",
@@ -108,8 +108,8 @@
         "default": "0",
         "description": "行与行之间的暂停时间",
         "description:en-US": "Duration of the pause between lines in milliseconds",
-        "extDescription": "单位：毫秒。",
-        "extDescription:en-US": "Unit: milliseconds."
+        "moreDescription": "单位：毫秒。",
+        "moreDescription:en-US": "Unit: milliseconds."
       },
       {
         "name": "repeat",
@@ -131,24 +131,20 @@
         "default": "normal",
         "description": "字母间距",
         "description:en-US": "Letter spacing",
-        "extDescription": "格式：`CSS 颜色`。",
-        "extDescription:en-US": "Format: `CSS color`."
+        "moreDescription": "格式：`CSS 颜色`。",
+        "moreDescription:en-US": "Format: `CSS color`."
       }
     ],
-    "srcTemplate": "https://readme-typing-svg.demolab.com{?lines,height,width,size,font,color,background,center,vCenter,multiline,duration,pause,repeat,separator,letterSpacing}"
+    "uriTemplate": "https://readme-typing-svg.demolab.com{?lines,height,width,size,font,color,background,center,vCenter,multiline,duration,pause,repeat,separator,letterSpacing}"
   },
-  "examples": [
-    {
-      "explain": {
+  "examples": {
+    "alt": "Readme Typing SVG",
+    "href": "https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hello+World;Badge+Collection",
+    "images": [
+      {
         "alt": "Readme Typing SVG",
-        "src": "https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hello+World;Badge+Collection"
-      },
-      "images": [
-        {
-          "alt": "Readme Typing SVG",
-          "src": "https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hello+World;Badge+Collection"
-        }
-      ]
-    }
-  ]
+        "href": "https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hello+World;Badge+Collection"
+      }
+    ]
+  }
 }

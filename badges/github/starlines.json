@@ -7,11 +7,11 @@
     "messages": "首次访问需要等待一会，等待图片生成。你也可以查看构建 [workflow runs](https://github.com/qoomon/starlines/actions/workflows/create-starline.yaml)",
     "messages:en-US": "It can take some time until the image is ready, depending on the amount of stargazers to fetch and process. If you are eager to watch the image generation workflows progress jump to [workflow runs](https://github.com/qoomon/starlines/actions/workflows/create-starline.yaml)."
   },
-  "tags": {
-    "repoUrl": "https://github.com/qoomon/starlines",
-    "officialDocsUrl": "https://github.com/qoomon/starlines?tab=readme-ov-file#usage"
+  "tag": {
+    "repo": "https://github.com/qoomon/starlines",
+    "officialDoc": "https://github.com/qoomon/starlines?tab=readme-ov-file#usage"
   },
-  "rules": [
+  "linkRules": [
     {
       "params": [
         {
@@ -27,8 +27,9 @@
           "description:en-US": "Github repository name"
         }
       ],
-      "annotate": "Repositorie",
-      "srcTemplate": "https://starlines.qoo.monster/assets/{owner}/{repo}"
+      "description": "统计仓库的星标数量",
+      "description:en-US": "Count the number of stargazers of a repository",
+      "uriTemplate": "https://starlines.qoo.monster/assets/{owner}/{repo}"
     },
     {
       "params": [
@@ -44,8 +45,9 @@
           "description": "Gist ID"
         }
       ],
-      "annotate": "Gist",
-      "srcTemplate": "https://starlines.qoo.monster/assets/{owner}/{gist}@gist"
+      "description": "统计 Gist 的星标数量",
+      "description:en-US": "Count the number of stargazers of a gist",
+      "uriTemplate": "https://starlines.qoo.monster/assets/{owner}/{gist}@gist"
     },
     {
       "params": [
@@ -56,25 +58,22 @@
           "description:en-US": "Github username"
         }
       ],
-      "annotate": "User",
-      "srcTemplate": "https://starlines.qoo.monster/assets/{username}"
+      "description": "统计用户的星标数量",
+      "description:en-US": "Count the number of stargazers of a user",
+      "uriTemplate": "https://starlines.qoo.monster/assets/{username}"
     }
   ],
-  "examples": [
-    {
-      "explain": {
-        "annotate": "antonmedv/spark",
+  "examples": {
+    "annotate": "antonmedv/spark",
+    "alt": "星标迷你线图",
+    "alt:en-US": "Star Sparkline",
+    "href": "https://stars.medv.io/antonmedv/spark.svg",
+    "images": [
+      {
         "alt": "星标迷你线图",
         "alt:en-US": "Star Sparkline",
-        "src": "https://stars.medv.io/antonmedv/spark.svg"
-      },
-      "images": [
-        {
-          "alt": "星标迷你线图",
-          "alt:en-US": "Star Sparkline",
-          "src": "https://stars.medv.io/antonmedv/spark.svg"
-        }
-      ]
-    }
-  ]
+        "href": "https://stars.medv.io/antonmedv/spark.svg"
+      }
+    ]
+  }
 }

@@ -1,13 +1,13 @@
 {
   "title": "Github Readme Streak Stats",
   "description": "显示你的总贡献数、当前连续贡献天数、最长连续贡献天数等信息。",
-  "description:en-US": "显示你的总贡献数、当前连续贡献天数、最长连续贡献天数等信息。",
-  "tags": {
-    "repoUrl": "https://github.com/DenverCoder1/github-readme-streak-stats",
-    "onlineToolUrl": "https://streak-stats.demolab.com/demo/",
-    "officialDocsUrl": "https://github.com/DenverCoder1/github-readme-streak-stats?tab=readme-ov-file#-options"
+  "description:en-US": "Display your total contributions, current streak, and longest streak on your GitHub profile README.",
+  "tag": {
+    "repo": "https://github.com/DenverCoder1/github-readme-streak-stats",
+    "onlineTool": "https://streak-stats.demolab.com/demo/",
+    "officialDoc": "https://github.com/DenverCoder1/github-readme-streak-stats?tab=readme-ov-file#-options"
   },
-  "rules": {
+  "linkRules": {
     "querys": [
       {
         "name": "user",
@@ -21,8 +21,8 @@
         "default": "default",
         "description": "主题",
         "description:en-US": "The theme to apply",
-        "extDescription": "可选值：`default` `dark` `highcontrast` `transparent` `radical` 等，更多主题请参考 [themes](https://github.com/DenverCoder1/github-readme-streak-stats/blob/main/docs/themes.md)。",
-        "extDescription:en-US": "Supported: `default` `dark` `highcontrast` `transparent` `radical` and more, please refer to [themes](https://github.com/DenverCoder1/github-readme-streak-stats/blob/main/docs/themes.md)."
+        "moreDescription": "可选值：`default` `dark` `highcontrast` `transparent` `radical` 等，更多主题请参考 [themes](https://github.com/DenverCoder1/github-readme-streak-stats/blob/main/docs/themes.md)。",
+        "moreDescription:en-US": "Supported: `default` `dark` `highcontrast` `transparent` `radical` and more, please refer to [themes](https://github.com/DenverCoder1/github-readme-streak-stats/blob/main/docs/themes.md)."
       },
       {
         "name": "hide_border",
@@ -37,104 +37,104 @@
         "default": "4.5",
         "description": "设置边缘的圆滑度",
         "description:en-US": "Set the roundness of the edges",
-        "extDescription": "范围：`0`（锐角） 到 `248`（椭圆）。",
-        "extDescription:en-US": "Between: `0` (sharp corners) to 248 (ellipse)."
+        "moreDescription": "范围：`0`（锐角） 到 `248`（椭圆）。",
+        "moreDescription:en-US": "Between: `0` (sharp corners) to 248 (ellipse)."
       },
       {
         "name": "background",
         "type": "string",
         "description": "背景颜色",
         "description:en-US": "Background color",
-        "extDescription": "格式：`angle,color1,color2,...` 例如：`180,#fff,#000`，颜色格式：`HEX` `CSS 颜色` 例如：`FF0000`。",
-        "extDescription:en-US": "Format: `angle,color1,color2,...` for example: `180,#fff,#000`, color format: `HEX` or `CSS color` for example: `FF0000`."
+        "moreDescription": "格式：`angle,color1,color2,...` 例如：`180,#fff,#000`，颜色格式：`HEX` `CSS 颜色` 例如：`FF0000`。",
+        "moreDescription:en-US": "Format: `angle,color1,color2,...` for example: `180,#fff,#000`, color format: `HEX` or `CSS color` for example: `FF0000`."
       },
       {
         "name": "border",
         "type": "string",
         "description": "边框颜色",
         "description:en-US": "Border color",
-        "extDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`。",
-        "extDescription:en-US": "Format: `HEX` or `CSS color` for example: `FF0000`."
+        "moreDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`。",
+        "moreDescription:en-US": "Format: `HEX` or `CSS color` for example: `FF0000`."
       },
       {
         "name": "stroke",
         "type": "string",
         "description": "段落之间的描边颜色",
         "description:en-US": "Stroke line color between sections",
-        "extDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`。",
-        "extDescription:en-US": "Format: `HEX` or `CSS color` for example: `FF0000`."
+        "moreDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`。",
+        "moreDescription:en-US": "Format: `HEX` or `CSS color` for example: `FF0000`."
       },
       {
         "name": "ring",
         "type": "string",
         "description": "当前连续贡献环的颜色",
         "description:en-US": "Color of the ring around the current streak",
-        "extDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`。",
-        "extDescription:en-US": "Format: `HEX` or `CSS color` for example: `FF0000`."
+        "moreDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`。",
+        "moreDescription:en-US": "Format: `HEX` or `CSS color` for example: `FF0000`."
       },
       {
         "name": "fire",
         "type": "string",
         "description": "火焰的颜色",
         "description:en-US": "Color of the fire in the ring",
-        "extDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`。",
-        "extDescription:en-US": "Format: `HEX` or `CSS color` for example: `FF0000`."
+        "moreDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`。",
+        "moreDescription:en-US": "Format: `HEX` or `CSS color` for example: `FF0000`."
       },
       {
         "name": "currStreakNum",
         "type": "string",
         "description": "当前连续天数颜色",
         "description:en-US": "Current streak number",
-        "extDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`。",
-        "extDescription:en-US": "Format: `HEX` or `CSS color` for example: `FF0000`."
+        "moreDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`。",
+        "moreDescription:en-US": "Format: `HEX` or `CSS color` for example: `FF0000`."
       },
       {
         "name": "sideNums",
         "type": "string",
         "description": "总连续贡献数和最长连续贡献数",
         "description:en-US": "Total and longest streak numbers",
-        "extDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`。",
-        "extDescription:en-US": "Format: `HEX` or `CSS color` for example: `FF0000`."
+        "moreDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`。",
+        "moreDescription:en-US": "Format: `HEX` or `CSS color` for example: `FF0000`."
       },
       {
         "name": "currStreakLabel",
         "type": "string",
         "description": "当前连续贡献标签颜色",
         "description:en-US": "Current streak label",
-        "extDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`。",
-        "extDescription:en-US": "Format: `HEX` or `CSS color` for example: `FF0000`."
+        "moreDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`。",
+        "moreDescription:en-US": "Format: `HEX` or `CSS color` for example: `FF0000`."
       },
       {
         "name": "sideLabels",
         "type": "string",
         "description": "总连续贡献数和最长连续贡献数标签",
         "description:en-US": "Total and longest streak labels",
-        "extDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`。",
-        "extDescription:en-US": "Format: `HEX` or `CSS color` for example: `FF0000`."
+        "moreDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`。",
+        "moreDescription:en-US": "Format: `HEX` or `CSS color` for example: `FF0000`."
       },
       {
         "name": "dates",
         "type": "string",
         "description": "日期范围文本颜色",
         "description:en-US": "Date range text color",
-        "extDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`。",
-        "extDescription:en-US": "Format: `HEX` or `CSS color` for example: `FF0000`."
+        "moreDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`。",
+        "moreDescription:en-US": "Format: `HEX` or `CSS color` for example: `FF0000`."
       },
       {
         "name": "excludeDaysLabel",
         "type": "string",
         "description": "排除星期的文本颜色",
         "description:en-US": "Excluded days of the week text color",
-        "extDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`。",
-        "extDescription:en-US": "Format: `HEX` or `CSS color` for example: `FF0000`."
+        "moreDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`。",
+        "moreDescription:en-US": "Format: `HEX` or `CSS color` for example: `FF0000`."
       },
       {
         "name": "date_format",
         "type": "string",
         "description": "日期格式模式或为空以使用区域格式",
         "description:en-US": "Date format pattern or empty for locale format",
-        "extDescription": "格式参考：[PHP's date function](https://www.php.net/manual/zh/datetime.format.php#refsect1-datetime.format-parameters)，示例：[example](https://www.php.net/manual/zh/datetime.format.php#refsect1-datetime.format-parameters)。",
-        "extDescription:en-US": "Format reference: [PHP's date function](https://www.php.net/manual/zh/datetime.format.php#refsect1-datetime.format-parameters)，示例：[example](https://www.php.net/manual/zh/datetime.format.php#refsect1-datetime.format-parameters)."
+        "moreDescription": "格式参考：[PHP's date function](https://www.php.net/manual/zh/datetime.format.php#refsect1-datetime.format-parameters)，示例：[example](https://www.php.net/manual/zh/datetime.format.php#refsect1-datetime.format-parameters)。",
+        "moreDescription:en-US": "Format reference: [PHP's date function](https://www.php.net/manual/zh/datetime.format.php#refsect1-datetime.format-parameters)，示例：[example](https://www.php.net/manual/zh/datetime.format.php#refsect1-datetime.format-parameters)."
       },
       {
         "name": "locale",
@@ -142,8 +142,8 @@
         "default": "en",
         "description": "语言",
         "description:en-US": "Locale for labels and numbers",
-        "extDescription": "格式参考：[Locales](https://github.com/DenverCoder1/github-readme-streak-stats?tab=readme-ov-file#-locales)。",
-        "extDescription:en-US": "Format reference: [Locales](https://github.com/DenverCoder1/github-readme-streak-stats?tab=readme-ov-file#-locales)."
+        "moreDescription": "格式参考：[Locales](https://github.com/DenverCoder1/github-readme-streak-stats?tab=readme-ov-file#-locales)。",
+        "moreDescription:en-US": "Format reference: [Locales](https://github.com/DenverCoder1/github-readme-streak-stats?tab=readme-ov-file#-locales)."
       },
       {
         "name": "short_numbers",
@@ -157,8 +157,8 @@
         "default": "svg",
         "description": "输出格式",
         "description:en-US": "Output format",
-        "extDescription": "可选值：`svg` `json` `png`。",
-        "extDescription:en-US": "Supported:`svg` `json` `png`."
+        "moreDescription": "可选值：`svg` `json` `png`。",
+        "moreDescription:en-US": "Supported:`svg` `json` `png`."
       },
       {
         "name": "mode",
@@ -166,16 +166,16 @@
         "default": "daily",
         "description": "模式",
         "description:en-US": "Streak mode",
-        "extDescription": "可选值：`daily`（每日）`weekly`（每周）。",
-        "extDescription:en-US": "Supported: `daily` `weekly`."
+        "moreDescription": "可选值：`daily`（每日）`weekly`（每周）。",
+        "moreDescription:en-US": "Supported: `daily` `weekly`."
       },
       {
         "name": "exclude_days",
         "type": "string",
         "description": "排除连续贡献的天数",
         "description:en-US": "List of days of the week to exclude from streaks",
-        "extDescription": "可选值：`Sun` `Mon` `Tue` `Wed` `Thu` `Fri` `Sat` 多个值用 `,` 分隔。",
-        "extDescription:en-US": "Supported: `Sun` `Mon` `Tue` `Wed` `Thu` `Fri` `Sat` separate values with `,`."
+        "moreDescription": "可选值：`Sun` `Mon` `Tue` `Wed` `Thu` `Fri` `Sat` 多个值用 `,` 分隔。",
+        "moreDescription:en-US": "Supported: `Sun` `Mon` `Tue` `Wed` `Thu` `Fri` `Sat` separate values with `,`."
       },
       {
         "name": "disable_animations",
@@ -190,8 +190,8 @@
         "default": "495",
         "description": "卡片宽度",
         "description:en-US": "Width of the card in pixels",
-        "extDescription": "单位：像素，每列最小宽度为 100 像素。",
-        "extDescription:en-US": "Unit: pixels, minimum width is 100px per column."
+        "moreDescription": "单位：像素，每列最小宽度为 100 像素。",
+        "moreDescription:en-US": "Unit: pixels, minimum width is 100px per column."
       },
       {
         "name": "card_height",
@@ -199,8 +199,8 @@
         "default": "195",
         "description": "卡片高度",
         "description:en-US": "Height of the card in pixels",
-        "extDescription": "单位：像素，每列最小高度为 170 像素。",
-        "extDescription:en-US": "Unit: pixels, minimum height is 170px."
+        "moreDescription": "单位：像素，每列最小高度为 170 像素。",
+        "moreDescription:en-US": "Unit: pixels, minimum height is 170px."
       },
       {
         "name": "hide_total_contributions",
@@ -230,21 +230,17 @@
         "description:en-US": "Starting year of contributions"
       }
     ],
-    "srcTemplate": "https://streak-stats.demolab.com/{?user,theme,hide_border,border_radius,background,border,stroke,ring,fire,currStreakNum,sideNums,currStreakLabel,sideLabels,dates,excludeDaysLabel,date_format,locale,short_numbers,type,mode,exclude_days,disable_animations,card_width,card_height,hide_total_contributions,hide_current_streak,hide_longest_streak,starting_year}"
+    "uriTemplate": "https://streak-stats.demolab.com/{?user,theme,hide_border,border_radius,background,border,stroke,ring,fire,currStreakNum,sideNums,currStreakLabel,sideLabels,dates,excludeDaysLabel,date_format,locale,short_numbers,type,mode,exclude_days,disable_animations,card_width,card_height,hide_total_contributions,hide_current_streak,hide_longest_streak,starting_year}"
   },
-  "examples": [
-    {
-      "explain": {
-        "annotate": "DenverCoder1",
+  "examples": {
+    "annotate": "DenverCoder1",
+    "alt": "GitHub Streak",
+    "href": "https://streak-stats.demolab.com/?user=DenverCoder1&theme=dark&hide_border=true",
+    "images": [
+      {
         "alt": "GitHub Streak",
-        "src": "https://streak-stats.demolab.com/?user=DenverCoder1&theme=dark&hide_border=true"
-      },
-      "images": [
-        {
-          "alt": "GitHub Streak",
-          "src": "https://streak-stats.demolab.com/?user=DenverCoder1&theme=dark&hide_border=true"
-        }
-      ]
-    }
-  ]
+        "href": "https://streak-stats.demolab.com/?user=DenverCoder1&theme=dark&hide_border=true"
+      }
+    ]
+  }
 }

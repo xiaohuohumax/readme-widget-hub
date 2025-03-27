@@ -16,18 +16,21 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+
       - name: Set node version to 20
         uses: actions/setup-node@v4
         with:
           node-version: 20
           registry-url: https://registry.npmjs.org/
-          cache: npm
+          cache: pnpm
 
       - name: Install
-        run: npm install
+        run: pnpm install --frozen-lockfile
 
-      - name: Build README
-        run: npm run build
+      - name: Build
+        run: pnpm build:readme
 
       - name: Push README.md
         uses: stefanzweifel/git-auto-commit-action@v5

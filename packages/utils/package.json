@@ -1,0 +1,32 @@
+{
+  "name": "@badge-collection/utils",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c --configPlugin esbuild",
+    "build:watch": "pnpm run build --watch"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "json-schema-to-ts": "^3.1.1",
+    "markdown-it": "^14.1.0",
+    "markdown-it-github-alerts": "^0.3.1",
+    "remark": "^15.0.1",
+    "remark-frontmatter": "^5.0.0"
+  },
+  "devDependencies": {
+    "@badge-collection/rollup": "workspace:*",
+    "@types/markdown-it": "^14.1.2"
+  }
+}

@@ -2,10 +2,10 @@
   "title": "Discord README Badge",
   "description": "展示你在 Discord 中正在进行的任何工作！",
   "description:en-US": "Show whatever you're working on through your GitHub readme!",
-  "tags": {
-    "repoUrl": "https://github.com/Zyplos/discord-readme-badge"
+  "tag": {
+    "repo": "https://github.com/Zyplos/discord-readme-badge"
   },
-  "rules": {
+  "linkRules": {
     "querys": [
       {
         "name": "id",
@@ -14,23 +14,19 @@
         "description:en-US": "Discord User ID"
       }
     ],
-    "srcTemplate": "https://discord-readme-badge.vercel.app/api{?id}"
+    "uriTemplate": "https://discord-readme-badge.vercel.app/api{?id}"
   },
-  "examples": [
-    {
-      "explain": {
-        "annotate": "Zyplos",
+  "examples": {
+    "annotate": "Zyplos",
+    "alt": "Discord 状态",
+    "alt:en-US": "Discord Status",
+    "href": "https://discord-readme-badge.vercel.app/api?id=204620732259368960",
+    "images": [
+      {
         "alt": "Discord 状态",
         "alt:en-US": "Discord Status",
-        "src": "https://discord-readme-badge.vercel.app/api?id=204620732259368960"
-      },
-      "images": [
-        {
-          "alt": "Discord 状态",
-          "alt:en-US": "Discord Status",
-          "src": "https://discord-readme-badge.vercel.app/api?id=204620732259368960"
-        }
-      ]
-    }
-  ]
+        "href": "https://discord-readme-badge.vercel.app/api?id=204620732259368960"
+      }
+    ]
+  }
 }

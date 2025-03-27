@@ -2,11 +2,11 @@
   "title": "HITS",
   "description": "一个简单的方法来查看有多少人访问了您的网站或 GitHub 仓库。",
   "description:en-US": "A simple way to see how many people have visited your website or GitHub repo.",
-  "tags": {
-    "repoUrl": "https://github.com/gjbae1212/hit-counter",
-    "onlineToolUrl": "https://hits.seeyoufarm.com/#badge"
+  "tag": {
+    "repo": "https://github.com/gjbae1212/hit-counter",
+    "onlineTool": "https://hits.seeyoufarm.com/#badge"
   },
-  "rules": {
+  "linkRules": {
     "querys": [
       {
         "name": "url",
@@ -19,8 +19,8 @@
         "type": "boolean",
         "description": "徽章整体风格",
         "description:en-US": "Badge style",
-        "extDescription": "可选值：`true`（Flat） `false`（Round）。",
-        "extDescription:en-US": "Supported: `true` (Flat) `false` (Round)."
+        "moreDescription": "可选值：`true`（Flat） `false`（Round）。",
+        "moreDescription:en-US": "Supported: `true` (Flat) `false` (Round)."
       },
       {
         "name": "title",
@@ -35,8 +35,8 @@
         "default": "#555555",
         "description": "左侧标签背景颜色",
         "description:en-US": "Left label background color",
-        "extDescription": "格式：`HEX`，例如：`#FF0000`。",
-        "extDescription:en-US": "Supported: `Hex`, e.g. `#FF0000`."
+        "moreDescription": "格式：`HEX`，例如：`#FF0000`。",
+        "moreDescription:en-US": "Supported: `Hex`, e.g. `#FF0000`."
       },
       {
         "name": "count_bg",
@@ -44,35 +44,33 @@
         "default": "#79C83D",
         "description": "右侧信息背景颜色",
         "description:en-US": "Right information background color",
-        "extDescription": "格式：`HEX`，例如：`#FF0000`。",
-        "extDescription:en-US": "Supported: `Hex`, e.g. `#FF0000`."
+        "moreDescription": "格式：`HEX`，例如：`#FF0000`。",
+        "moreDescription:en-US": "Supported: `Hex`, e.g. `#FF0000`."
       },
       {
         "name": "icon_color",
         "type": "string",
         "description": "图标颜色",
         "description:en-US": "Icon color",
-        "extDescription": "格式：`HEX`，例如：`#FF0000`。",
-        "extDescription:en-US": "Supported: `Hex`, e.g. `#FF0000`."
+        "moreDescription": "格式：`HEX`，例如：`#FF0000`。",
+        "moreDescription:en-US": "Supported: `Hex`, e.g. `#FF0000`."
       }
     ],
-    "srcTemplate": "https://hits.seeyoufarm.com/api/count/incr/badge.svg{?url,edge_flat,title,title_bg,count_bg,icon_color}"
+    "uriTemplate": "https://hits.seeyoufarm.com/api/count/incr/badge.svg{?url,edge_flat,title,title_bg,count_bg,icon_color}"
   },
-  "examples": [
+  "examples":
     {
-      "explain": {
-        "annotate": "xiaohuohumax/badge-collection",
-        "alt": "点击统计",
-        "alt:en-US": "Hit Counter",
-        "src": "https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection"
-      },
+      "annotate": "xiaohuohumax/badge-collection",
+      "alt": "点击统计",
+      "alt:en-US": "Hit Counter",
+      "href": "https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection",
       "images": [
         {
           "alt": "点击统计",
           "alt:en-US": "Hit Counter",
-          "src": "https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection"
+          "href": "https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection"
         }
       ]
     }
-  ]
+
 }

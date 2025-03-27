@@ -1,21 +1,3 @@
 {
-  "compilerOptions": {
-    "target": "ESNext",
-    "baseUrl": ".",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-    "paths": {
-      "@/*": [
-        "./src/*"
-      ]
-    },
-    "resolveJsonModule": true,
-    "types": [
-      "vite-node/client",
-      "vite/client"
-    ],
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true
-  }
+  "extends": "./tsconfig.base.json"
 }

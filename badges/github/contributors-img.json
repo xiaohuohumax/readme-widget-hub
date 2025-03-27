@@ -2,19 +2,19 @@
   "title": "Contributors Img",
   "description": "生成一个贡献者图片，让你的 README.md 文件保持同步。",
   "description:en-US": "Generate an image of contributors to keep your README.md in sync.",
-  "tags": {
-    "repoUrl": "https://github.com/lacolaco/contributors-img",
-    "onlineToolUrl": "https://contrib.rocks/preview"
+  "tag": {
+    "repo": "https://github.com/lacolaco/contributors-img",
+    "onlineTool": "https://contrib.rocks/preview"
   },
-  "rules": {
+  "linkRules": {
     "querys": [
       {
         "name": "repo",
         "type": "string",
         "description": "仓库名",
         "description:en-US": "Repository name",
-        "extDescription": "格式：`owner/repo`。",
-        "extDescription:en-US": "Format: `owner/repo`."
+        "moreDescription": "格式：`owner/repo`。",
+        "moreDescription:en-US": "Format: `owner/repo`."
       },
       {
         "name": "max",
@@ -36,27 +36,23 @@
         "default": "0",
         "description": "是否显示匿名贡献者",
         "description:en-US": "Whether to display anonymous contributors",
-        "extDescription": "可选值：`0` `1`。",
-        "extDescription:en-US": "Supported: `0` `1`."
+        "moreDescription": "可选值：`0` `1`。",
+        "moreDescription:en-US": "Supported: `0` `1`."
       }
     ],
-    "srcTemplate": "https://contrib.rocks/image{?repo,max,columns,anon}"
+    "uriTemplate": "https://contrib.rocks/image{?repo,max,columns,anon}"
   },
-  "examples": [
-    {
-      "explain": {
-        "annotate": "lacolaco/contributors-img",
+  "examples": {
+    "annotate": "lacolaco/contributors-img",
+    "alt": "贡献",
+    "alt:en-US": "Contributors Image",
+    "href": "https://contrib.rocks/image?repo=lacolaco/contributors-img",
+    "images": [
+      {
         "alt": "贡献",
         "alt:en-US": "Contributors Image",
-        "src": "https://contrib.rocks/image?repo=lacolaco/contributors-img"
-      },
-      "images": [
-        {
-          "alt": "贡献",
-          "alt:en-US": "Contributors Image",
-          "src": "https://contrib.rocks/image?repo=lacolaco/contributors-img"
-        }
-      ]
-    }
-  ]
+        "href": "https://contrib.rocks/image?repo=lacolaco/contributors-img"
+      }
+    ]
+  }
 }

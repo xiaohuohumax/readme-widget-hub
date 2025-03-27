@@ -1,0 +1,143 @@
+{
+  "name": "Badge Collection",
+  "title": "这里收集了一些 Github 上热门项目使用过的徽章，以及一些在线制作工具。",
+  "title:en-US": "Here's a curated list of badges used in trending GitHub projects, along with online tools to create them.",
+  "description": "Badge（徽章）是嵌入在项目 README 文件中的 SVG 矢量图标，用于直观展示项目状态、版本、测试覆盖率等关键信息‌。",
+  "description:en-US": "Badges are small images that can be embedded in a project's README file to convey information about the project's status, version, test coverage, and more.",
+  "locales": [
+    {
+      "name": "中文",
+      "code": "zh-CN"
+    },
+    {
+      "name": "English",
+      "code": "en-US"
+    }
+  ],
+  "readme": {
+    "back2Home": "首页",
+    "back2Home:en-US": "Home",
+    "onlinePage": "在线文档",
+    "onlinePage:en-US": "Online Doc",
+    "back2Top": "回到顶部",
+    "back2Top:en-US": "Back to top",
+    "notLocaleWarning": "当前页面没有对应的语言版本，你可以切换到其他语言，或者查看下面使用默认语言的版本。",
+    "notLocaleWarning:en-US": "This page doesn't have a translated version, you can switch to other languages or view the default language version below.",
+    "badgeLayout": {
+      "tocTitle": "📑 徽章目录",
+      "tocTitle:en-US": "📑 Badge Contents",
+      "tag": {
+        "repo": "项目地址",
+        "repo:en-US": "Repository",
+        "onlineTool": "在线工具",
+        "onlineTool:en-US": "Online Tools",
+        "officialDoc": "官方文档",
+        "officialDoc:en-US": "Official Doc",
+        "needRegister": "需要注册",
+        "needRegister:en-US": "Need Register"
+      },
+      "paramsTitle": "参数",
+      "paramsTitle:en-US": "Parameters",
+      "showOrCloseParams": "点击显示/关闭参数",
+      "showOrCloseParams:en-US": "Click to show/close parameters",
+      "paramsTable": {
+        "name": "名称",
+        "name:en-US": "Name",
+        "type": "类型",
+        "type:en-US": "Type",
+        "required": "必填",
+        "required:en-US": "Required",
+        "default": "默认值",
+        "default:en-US": "Default",
+        "description": "参数描述",
+        "description:en-US": "Description",
+        "moreDescription": "更多描述",
+        "moreDescription:en-US": "More Description",
+        "paramsTitle": "路径参数",
+        "paramsTitle:en-US": "Path Params",
+        "querysTitle": "查询参数",
+        "querysTitle:en-US": "Query Params"
+      },
+      "exampleTitle": "示例",
+      "exampleTitle:en-US": "Examples"
+    },
+    "how2Run": {
+      "title": "🏃 如何使用",
+      "title:en-US": "🏃Usage",
+      "steps": [
+        "# 安装依赖",
+        "pnpm install",
+        "# 运行项目",
+        "pnpm dev",
+        "# 构建项目",
+        "pnpm build"
+      ],
+      "steps:en-US": [
+        "# Install dependencies",
+        "pnpm install",
+        "# Run the project",
+        "pnpm dev",
+        "# Build the project",
+        "pnpm build"
+      ]
+    },
+    "how2AddBadge": {
+      "title": "✍ 添加徽章",
+      "title:en-US": "✍ Add Badge",
+      "steps": [
+        "Fork 项目",
+        "参考模板文件 [template.json](/badges/template.json)，在 [badges](/badges) 目录下新建一个 JSON 文件，并按照模板格式填写徽章信息内容。",
+        "`pnpm dev` 或者 `pnpm dev:docs` 启动项目, 查看徽章效果。",
+        "使用 `pnpm commit` 命令并选择 `docs` 提交 PR, 等待合并。"
+      ],
+      "steps:en-US": [
+        "Fork the project",
+        "Refer to the [template.json](/badges/template.json) file, create a JSON file in the [badges](/badges) directory, and fill in the badge information according to the template format.",
+        "`pnpm dev` or `pnpm dev:docs` to start the project, check the badge effect.",
+        "Use the `pnpm commit` command and select `docs` to submit a PR, wait for merging."
+      ]
+    },
+    "how2AddLocale": {
+      "title": "🌏 添加语言",
+      "title:en-US": "🌏 Add Language",
+      "steps": [
+        "Fork 项目",
+        "在 [meta.json](/meta.json) 配置文件的 `locales` 字段中添加新的语言配置。",
+        "为 [locales](/locales) 目录下徽章信息文件添加对应的语言版本。",
+        "使用 `pnpm commit` 命令并选择 `docs` 提交 PR, 等待合并。"
+      ],
+      "steps:en-US": [
+        "Fork the project",
+        "Add a new language configuration to the `locales` field in the [meta.json](/meta.json) configuration file.",
+        "Add a translated version of the badge information file to the [locales](/locales) directory.",
+        "Use the `pnpm commit` command and select `docs` to submit a PR, wait for merging."
+      ]
+    },
+    "finalThanks": {
+      "title": "💖 感谢",
+      "title:en-US": "💖 Thanks",
+      "concludingRemarks": "最后，如果能够帮助到你，还请多多 Star 项目，感谢你的关注。",
+      "concludingRemarks:en-US": "Lastly, if you find this project helpful, please star it to show your support. Thank you for your attention."
+    }
+  },
+  "doc": {
+    "sidebarMenuLabel": "目录",
+    "sidebarMenuLabel:en-US": "Contents",
+    "darkModeSwitchLabel": "外观",
+    "darkModeSwitchLabel:en-US": "Appearance",
+    "notFoundTitle": "PAGE NOT FOUND",
+    "notFoundQuote": "But if you don't change your direction, and if you keep looking, you may end up where you are heading.",
+    "notFoundLinkText": "返回首页",
+    "notFoundLinkText:en-US": "Back to Homepage",
+    "docIndex": {
+      "startButton": "开始阅读",
+      "startButton:en-US": "Start Reading"
+    },
+    "docBadge": {
+      "outlineLabel": "概述",
+      "outlineLabel:en-US": "On this page",
+      "editLinkText": "在 GitHub 上编辑此页",
+      "editLinkText:en-US": "Edit this page on GitHub"
+    }
+  }
+}
