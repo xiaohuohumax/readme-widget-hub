@@ -29,7 +29,7 @@
 
 #### Displays a card with your Gists
 
-<details open>
+<details >
 <summary><small>Click to show/close parameters</small></summary><p></p>
 
 | Name | Type | Required | Default | Description | More Description |
@@ -48,7 +48,7 @@ https://gists-readme.yizack.com/api{?user,n,theme,theme}
 
 #### Displays a single Gist
 
-<details open>
+<details >
 <summary><small>Click to show/close parameters</small></summary><p></p>
 
 | Name | Type | Required | Default | Description | More Description |

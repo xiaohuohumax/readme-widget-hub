@@ -32,7 +32,7 @@
 
 #### WakaTime Project Badge
 
-<details open>
+<details >
 <summary><small>Click to show/close parameters</small></summary><p></p>
 
 | Name | Type | Required | Default | Description | More Description |
@@ -50,7 +50,7 @@ https://wakatime.com/badge/user/{userId}/project/{projectId}.{type}
 
 #### WakaTime Custom Chart
 
-<details open>
+<details >
 <summary><small>Click to show/close parameters</small></summary><p></p>
 
 | Name | Type | Required | Default | Description | More Description |
