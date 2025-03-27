@@ -50,7 +50,12 @@ export function object2Navs(addHome: boolean, obj: any, readme: Readme, onlinePa
     navs.push({ name: readme.back2Home, href: `/${manager.locale2FileName(nowLocale)}` })
   }
   else {
-    navs.push({ name: readme.onlinePage, href: `${onlinePageUtl}${nowLocale.code}/` })
+    navs.push({
+      name: readme.onlinePage,
+      href: manager.isDefaultLocale(nowLocale)
+        ? onlinePageUtl
+        : `${onlinePageUtl}${nowLocale.code}/`,
+    })
   }
 
   for (const l of manager.objectHasLocales(obj)) {

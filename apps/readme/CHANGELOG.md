@@ -1,5 +1,11 @@
 # badge-collection
 
+## 3.0.1
+
+### Patch Changes
+
+- 修复默认语言跳转文档链接异常
+
 ## 3.0.0
 
 ### Major Changes
