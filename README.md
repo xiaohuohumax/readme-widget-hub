@@ -18,7 +18,7 @@
   </div>
   <div>
     <b>
-       <a href="https://xiaohuohumax.github.io/badge-collection/zh-CN/">在线文档</a>
+       <a href="https://xiaohuohumax.github.io/badge-collection/">在线文档</a>
       · <a href="README_en-US.md">English</a>
     </b>
   </div>
