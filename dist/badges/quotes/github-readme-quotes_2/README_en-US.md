@@ -17,12 +17,13 @@
   <br/>
 </div>
 
-## Github Readme Quotes
+## Github Readme Quotes (shravan20)
 
-**Add Programming Quotes To Your GitHub Readme.**
+**Dynamic quote generator for your GitHub readmes.**
 
-[![ref-repo]](https://github.com/PiyushSuthar/github-readme-quotes)
-[![ref-official-doc]](https://github.com/PiyushSuthar/github-readme-quotes?tab=readme-ov-file#usage-%EF%B8%8F)
+[![ref-repo]](https://github.com/shravan20/github-readme-quotes)
+[![ref-online-tool]](https://github-readme-quotes-returns.vercel.app/)
+[![ref-official-doc]](https://github.com/shravan20/github-readme-quotes#current-status)
 
 ### Parameters
 
@@ -32,16 +33,18 @@
 | Name | Type | Required | Default | Description | More Description |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `type` | `string` |  | `vertical` | Type | Supported: `vertical` `horizontal`. |
-| `theme` | `string` |  | `light` | Theme | Supported: `dark` `light` `chartreuse-dark` `radical` `merko` `gruvbox` `tokyonight` `catppuccin` `catppuccin_latte` `catppuccin_frappe` `catppuccin_macchiato` `catppuccin_mocha` `algolia` `monokai` `dracula` `nord` `github` `graywhite` `moonlight` `hackerman` `shadow_red` `shadow_green` `shadow_blue`. |
-| `quote` | `string` |  |  | Quote | If empty, a random quote will be retrieved, quote list: [quotes.json](https://github.com/mudroljub/programming-quotes-api/raw/master/data/quotes.json). |
-| `author` | `string` |  | `Me` | Quote Author |  |
-| `border` | `boolean` |  | `false` | Use Border |  |
+| `theme` | `string` |  | `default` | Theme | Supported: `default` `dark` `radical` `merko` `gruvbox` `tokyonight` `onedark` etc. More themes: [themes](https://github.com/shravan20/github-readme-quotes/blob/main/src/themes/README.md). |
+| `layout` | `string` |  | `default` | Layouts | Supported: `default` `socrates` `churchill` `samuel` etc. More layouts: [layouts](https://github.com/shravan20/github-readme-quotes/blob/main/src/layouts/README.md). |
+| `font` | `string` |  |  | Fonts | Supported: `Gabrielle` `Redressed` `Architect`. |
+| `animation` | `string` |  | `default` | Animations | Supported: `default` `grow_out_in`. |
+| `quotesUrl` | `string` |  |  | Quotes URL | Custom quotes library, quote template: [quotes.json](https://github.com/shravan20/github-readme-quotes/blob/main/customQuotes/quotes.json). |
+| `quoteCategory` | `string` |  |  | Quote Category | Supported: `general` `life` `success` `motivational` `fun` `programming` `dream` `failure` `gaming` `birthday` `Humorous` `Travel`. |
+| `borderColor` | `string` |  |  | Border Color | Format: `HEX` `CSS Color` e.g. `#FF0000`, Please note that this feature is available only with the Default layout. |
 
 </details>
 
 ```txt
-https://quotes-github-readme.vercel.app/api{?type,theme,quote,author,border}
+https://github-readme-quotes-bay.vercel.app/quote{?theme,layout,font,animation,quotesUrl,quoteCategory,borderColor}
 ```
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
@@ -49,16 +52,10 @@ https://quotes-github-readme.vercel.app/api{?type,theme,quote,author,border}
 ### Examples
 
 ```markdown
-![Random Quote](https://quotes-github-readme.vercel.app/api?theme=dark&type=horizontal)
+![Random Quote](https://github-readme-quotes-bay.vercel.app/quote)
 ```
 
-![Random Quote](https://quotes-github-readme.vercel.app/api?theme=dark\&type=horizontal)
-
-```markdown
-![Random Quote](https://quotes-github-readme.vercel.app/api?theme=nord&type=horizontal&border=true)
-```
-
-![Random Quote](https://quotes-github-readme.vercel.app/api?theme=nord\&type=horizontal\&border=true)
+![Random Quote](https://github-readme-quotes-bay.vercel.app/quote)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
 

@@ -13,7 +13,7 @@
     <a href="https://github.com/xiaohuohumax/badge-collection/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection&countColor=%2337D67A&style=flat&labelStyle=lower" /></a>
-    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badges-39-37D67A?labelColor=555555" /></a>
+    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badges-40-37D67A?labelColor=555555" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
   <div>
@@ -57,7 +57,6 @@
   * [Socialify](dist/badges/github/socialify/README.md)
   * [Spark](dist/badges/github/spark/README.md)
   * [GitHub Starlines](dist/badges/github/starlines/README.md)
-* [Github Readme Quotes](dist/badges/github-readme-quotes/README.md)
 * [GitHub Twitter Card Embed](dist/badges/github-twitter-card-embed/README.md)
 * [Gradgen](dist/badges/gradgen/README.md)
 * [Iconify](dist/badges/iconify/README.md)
@@ -65,6 +64,9 @@
 * [OpenSSF Best Practices Badge](dist/badges/openssf-best-practices/README.md)
 * [Open Source Software Insight](dist/badges/ossinsight/README.md)
 * [PlayBadges](dist/badges/play-badges/README.md)
+* 名言引用
+  * [Github Readme Quotes (PiyushSuthar)](dist/badges/quotes/github-readme-quotes_1/README.md)
+  * [Github Readme Quotes (shravan20)](dist/badges/quotes/github-readme-quotes_2/README.md)
 * [README Jokes](dist/badges/readme-jokes/README.md)
 * [Readme Typing SVG](dist/badges/readme-typing-svg/README.md)
 * [Sloc Cloc and Code](dist/badges/scc/README.md)
