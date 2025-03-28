@@ -1,12 +1,7 @@
 {
   "extends": "../../tsconfig.base.json",
-  "compilerOptions": {
-    "types": [
-      "vite/client"
-    ]
-  },
   "include": [
     ".vitepress/**/*.ts",
-    "../../types"
+    "../../types/*.ts"
   ]
 }

@@ -1,5 +1,11 @@
 # badge-collection
 
+## 3.0.1
+
+### Patch Changes
+
+- 修复热更新
+
 ## 3.0.0
 
 ### Major Changes

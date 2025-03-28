@@ -4,7 +4,7 @@ import path from 'node:path'
 import { Manager } from '@badge-collection/manager'
 import { renderBadgeDoc, renderIndexDoc } from '@badge-collection/render'
 import { path2Url } from '@badge-collection/utils'
-import { loadEnv } from 'vite'
+import { loadEnv } from './.vitepress/env'
 
 interface Path {
   params: {
@@ -14,7 +14,7 @@ interface Path {
 }
 
 const rootDir = path.resolve(__dirname, '../../')
-const env = loadEnv('', rootDir) as unknown as ImportMetaEnv
+const env = loadEnv(rootDir)
 const manager = new Manager({
   defaultLocaleCode: env.VITE_DEFAULT_LOCALE_CODE,
   absBadgesDir: path.join(rootDir, env.VITE_BADGES_DIR),

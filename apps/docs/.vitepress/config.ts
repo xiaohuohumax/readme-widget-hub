@@ -6,14 +6,15 @@ import { Manager } from '@badge-collection/manager'
 import { path2Url } from '@badge-collection/utils'
 // @ts-expect-error ignore export default warning
 import MarkdownItGitHubAlerts from 'markdown-it-github-alerts'
-import { defineConfig, loadEnv } from 'vite'
+import { defineConfig } from 'vite'
 import pkg from '../package.json'
+import { loadEnv } from './env'
 import { watchFiles } from './plugin/watch-files'
 
 const rootDir = path.resolve(__dirname, '../../../')
 
 export default defineConfig(() => {
-  const env = loadEnv('', rootDir) as unknown as ImportMetaEnv
+  const env = loadEnv(rootDir)
   const manager = new Manager({
     defaultLocaleCode: env.VITE_DEFAULT_LOCALE_CODE,
     absBadgesDir: path.join(rootDir, env.VITE_BADGES_DIR),
