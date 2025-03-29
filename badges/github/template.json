@@ -1,0 +1,120 @@
+{
+  "title": "AWESOME Github Stats",
+  "description": "向众人展现你的非凡之处！保持动力，将你的代码贡献总量与开发者等级展示在GitHub个人主页的README文档中。‌",
+  "description:en-US": "Show everyone how amazing you are! Stay motivated and display your total contributions and level on your GitHub profile README.",
+  "tag": {
+    "repo": "https://github.com/brunobritodev/awesome-github-stats",
+    "onlineTool": "https://awesome-github-stats.azurewebsites.net/",
+    "officialDoc": "https://github.com/brunobritodev/awesome-github-stats?tab=readme-ov-file#-options"
+  },
+  "linkRules": {
+    "params": [
+      {
+        "name": "username",
+        "type": "string",
+        "description": "Github 用户名",
+        "description:en-US": "Github username"
+      }
+    ],
+    "querys": [
+      {
+        "name": "cardType",
+        "type": "string",
+        "default": "level",
+        "description": "卡片类型",
+        "description:en-US": "Card types",
+        "moreDescription": "可选值：`level` `level-alternate` `github` `octocat`。‌",
+        "moreDescription:en-US": "Supported: `level` `level-alternate` `github` `octocat`."
+      },
+      {
+        "name": "theme",
+        "type": "string",
+        "default": "default",
+        "description": "主题",
+        "description:en-US": "Theme",
+        "moreDescription": "可选值：`default` `dark` `radical` `merko` `gruvbox` 等，更多主题参考：[theme](https://github.com/brunobritodev/awesome-github-stats/blob/master/docs/themes/README.md)。‌",
+        "moreDescription:en-US": "Supported: `default` `dark` `radical` `merko` `gruvbox` and more, see [theme](https://github.com/brunobritodev/awesome-github-stats/blob/master/docs/themes/README.md)."
+      },
+      {
+        "name": "show_icons",
+        "type": "boolean",
+        "default": "true",
+        "description": "是否显示左侧图标",
+        "description:en-US": "Shown icons at left of labels",
+        "moreDescription": "可选值：`true` `false`。‌",
+        "moreDescription:en-US": "Supported: `true` `false`."
+      },
+      {
+        "name": "preferLogin",
+        "type": "boolean",
+        "default": "false",
+        "description": "使用 GitHub 登录代替用户名",
+        "description:en-US": "Use github login instead of name",
+        "moreDescription": "可选值：`true` `false`。‌",
+        "moreDescription:en-US": "Supported: `true` `false`."
+      },
+      {
+        "name": "background",
+        "type": "string",
+        "description": "背景颜色",
+        "description:en-US": "Background color",
+        "moreDescription": "格式‌：`HEX` `CSS 颜色`，例如：`FF0000`。",
+        "moreDescription:en-US": "Format: `HEX` `CSS color`, e.g. `FF0000`."
+      },
+      {
+        "name": "border",
+        "type": "string",
+        "description": "边框颜色",
+        "description:en-US": "Border color",
+        "moreDescription": "格式‌：`HEX` `CSS 颜色`，例如：`FF0000`。",
+        "moreDescription:en-US": "Format: `HEX` `CSS color`, e.g. `FF0000`."
+      },
+      {
+        "name": "text",
+        "type": "string",
+        "description": "文本颜色",
+        "description:en-US": "Color of the text",
+        "moreDescription": "格式‌：`HEX` `CSS 颜色`，例如：`FF0000`。",
+        "moreDescription:en-US": "Format: `HEX` `CSS color`, e.g. `FF0000`."
+      },
+      {
+        "name": "title",
+        "type": "string",
+        "description": "顶部标题的颜色",
+        "description:en-US": "Color of the title at top",
+        "moreDescription": "格式‌：`HEX` `CSS 颜色`，例如：`FF0000`。",
+        "moreDescription:en-US": "Format: `HEX` `CSS color`, e.g. `FF0000`."
+      },
+      {
+        "name": "icon",
+        "type": "string",
+        "description": "图标的颜色",
+        "description:en-US": "Color of the icons",
+        "moreDescription": "格式‌：`HEX` `CSS 颜色`，例如：`FF0000`。",
+        "moreDescription:en-US": "Format: `HEX` `CSS color`, e.g. `FF0000`."
+      },
+      {
+        "name": "ring",
+        "type": "string",
+        "description": "等级周围环的颜色",
+        "description:en-US": "Color of the ring around the level",
+        "moreDescription": "格式‌：`HEX` `CSS 颜色`，例如：`FF0000`。",
+        "moreDescription:en-US": "Format: `HEX` `CSS color`, e.g. `FF0000`."
+      }
+    ],
+    "uriTemplate": "https://awesome-github-stats.azurewebsites.net/user-stats/{username}{?cardType,theme,show_icons,preferLogin,background,border,text,title,icon,ring}"
+  },
+  "examples": {
+    "annotate": "brunobritodev",
+    "alt": "Github 统计卡片",
+    "alt:en-US": "Github Stats Card",
+    "href": "https://awesome-github-stats.azurewebsites.net/user-stats/brunobritodev?cardType=level",
+    "images": [
+      {
+        "alt": "Github 统计卡片",
+        "alt:en-US": "Github Stats Card",
+        "href": "https://awesome-github-stats.azurewebsites.net/user-stats/brunobritodev?cardType=level"
+      }
+    ]
+  }
+}
