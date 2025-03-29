@@ -13,7 +13,7 @@
     <a href="https://github.com/xiaohuohumax/badge-collection/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection&countColor=%2337D67A&style=flat&labelStyle=lower" /></a>
-    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badges-41-37D67A?labelColor=555555" /></a>
+    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badges-42-37D67A?labelColor=555555" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
   <div>
@@ -58,6 +58,7 @@
   * [Socialify](dist/badges/github/socialify/README_en-US.md)
   * [Spark](dist/badges/github/spark/README_en-US.md)
   * [GitHub Starlines](dist/badges/github/starlines/README_en-US.md)
+  * [AWESOME Github Stats](dist/badges/github/template/README_en-US.md)
 * [GitHub Twitter Card Embed](dist/badges/github-twitter-card-embed/README_en-US.md)
 * [Gradgen](dist/badges/gradgen/README_en-US.md)
 * [Iconify](dist/badges/iconify/README_en-US.md)
