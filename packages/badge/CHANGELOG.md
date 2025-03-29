@@ -1,5 +1,11 @@
 # @badge-collection/badge
 
+## 1.2.0
+
+### Minor Changes
+
+- 徽章参数改为可以缺省
+
 ## 1.1.0
 
 ### Minor Changes

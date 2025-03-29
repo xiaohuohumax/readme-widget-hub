@@ -122,7 +122,6 @@ export const paramsTableSchema = {
     },
   },
   properties: {
-
     name: {
       type: 'string',
       description: 'Name.',

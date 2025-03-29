@@ -369,7 +369,7 @@ const badgeSchema = {
     example: exampleSchema,
   },
   additionalProperties: false,
-  required: ['title', 'description', 'linkRules'],
+  required: ['title', 'description'],
 } as const satisfies JSONSchema
 
 export type Badge = FromSchema<typeof badgeSchema, {

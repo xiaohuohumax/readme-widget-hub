@@ -336,8 +336,7 @@
       "additionalProperties": false,
       "required": [
         "title",
-        "description",
-        "linkRules"
+        "description"
       ]
     }
   }

@@ -9,7 +9,9 @@
 > {{$value}}{{/each}}
 {{/if}}
 
+{{if badge.linkRules.length>0}}
 ## {{readme.badgeLayout.paramsTitle}}
+{{/if}}
 
 {{ include "./layout/params.md"}}
 
