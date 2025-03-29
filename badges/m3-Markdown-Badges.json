@@ -1,0 +1,115 @@
+{
+  "title": "m3 Markdown Badges",
+  "description": "一个受 Material You 启发的 Markdown 徽章集合。",
+  "description:en-US": "A Material You inspired markdown badge collection.",
+  "alert": {
+    "type": "Tip",
+    "messages": "此项目包含超多静态徽章，详细静态徽章链接请前往仓库 [m3-Markdown-Badges](https://github.com/ziadOUA/m3-Markdown-Badges?tab=readme-ov-file#static-badges) 查找。",
+    "messages:en-US": "This project contains a lot of static badges, detailed static badge links can be found in the repository [m3-Markdown-Badges](https://github.com/ziadOUA/m3-Markdown-Badges?tab=readme-ov-file#static-badges)."
+  },
+  "tag": {
+    "repo": "https://github.com/ziadOUA/m3-Markdown-Badges",
+    "officialDoc": "https://github.com/ziadOUA/m3-Markdown-Badges?tab=readme-ov-file#how-to-use",
+    "staticBadge": true
+  },
+  "linkRules": {
+    "params": [
+      {
+        "name": "type",
+        "type": "string",
+        "description": "徽章类型",
+        "description:en-US": "Badge type",
+        "moreDescription": "可选值：`stars` `issues`。",
+        "moreDescription:en-US": "Supported: `stars` `issues`."
+      },
+      {
+        "name": "hue",
+        "type": "number",
+        "description": "色调",
+        "description:en-US": "Hue",
+        "moreDescription": "范围：`1` 到 `12`。",
+        "moreDescription:en-US": "Bettween `1` and `12`."
+      },
+      {
+        "name": "tint",
+        "type": "number",
+        "description": "色深",
+        "description:en-US": "Tint",
+        "moreDescription": "范围：`1` 到 `3`。",
+        "moreDescription:en-US": "Bettween `1` and `3`."
+      },
+      {
+        "name": "owner",
+        "type": "string",
+        "description": "Github 用户名",
+        "description:en-US": "Github username"
+      },
+      {
+        "name": "repo",
+        "type": "string",
+        "description": "Github 仓库名",
+        "description:en-US": "Github repository name"
+      }
+    ],
+    "uriTemplate": "https://m3-markdown-badges.vercel.app/{type}/{hue}/{tint}/{owner}/{repo}"
+  },
+  "examples": [
+    {
+      "description": "动态徽章",
+      "description:en-US": "Dynamic badges",
+      "alt": "Github Stars",
+      "annotate": "ziadOUA/m3-Markdown-Badges",
+      "href": "https://m3-markdown-badges.vercel.app/stars/1/2/ziadOUA/m3-Markdown-Badges",
+      "images": [
+        {
+          "alt": "Github Stars",
+          "href": "https://m3-markdown-badges.vercel.app/stars/1/2/ziadOUA/m3-Markdown-Badges"
+        },
+        {
+          "alt": "Github Issues",
+          "href": "https://m3-markdown-badges.vercel.app/issues/1/2/ziadOUA/m3-Markdown-Badges"
+        }
+      ]
+    },
+    {
+      "description": "静态徽章",
+      "description:en-US": "Static badges",
+      "alt": "Github",
+      "href": "https://ziadoua.github.io/m3-Markdown-Badges/badges/Github/github2.svg",
+      "images": [
+        {
+          "alt": "Github",
+          "href": "https://ziadoua.github.io/m3-Markdown-Badges/badges/Github/github2.svg"
+        },
+        {
+          "alt": "TypeScript",
+          "href": "https://ziadoua.github.io/m3-Markdown-Badges/badges/TypeScript/typescript2.svg"
+        },
+        {
+          "alt": "Ko-fi",
+          "href": "https://ziadoua.github.io/m3-Markdown-Badges/badges/Ko-fi/ko-fi2.svg"
+        },
+        {
+          "alt": "Licence MIT",
+          "href": "https://ziadoua.github.io/m3-Markdown-Badges/badges/LicenceMIT/licencemit2.svg"
+        },
+        {
+          "alt": "NodeJS",
+          "href": "https://ziadoua.github.io/m3-Markdown-Badges/badges/NodeJS/nodejs2.svg"
+        },
+        {
+          "alt": "npm",
+          "href": "https://ziadoua.github.io/m3-Markdown-Badges/badges/npm/npm2.svg"
+        },
+        {
+          "alt": "Markdown",
+          "href": "https://ziadoua.github.io/m3-Markdown-Badges/badges/Markdown/markdown2.svg"
+        },
+        {
+          "alt": "ViteJS",
+          "href": "https://ziadoua.github.io/m3-Markdown-Badges/badges/ViteJS/vitejs2.svg"
+        }
+      ]
+    }
+  ]
+}

@@ -13,7 +13,8 @@
     "repo": "",
     "onlineTool": "",
     "officialDoc": "",
-    "needRegister": true
+    "needRegister": true,
+    "staticBadge": true
   },
   "linkRules": {
     "params": [
