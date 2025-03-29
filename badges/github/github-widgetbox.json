@@ -1,0 +1,121 @@
+{
+  "title": "GitHub Widgetbox",
+  "description": "美丽的动态小部件，适用于 GitHub Readme 页面（统计信息、技能等）。",
+  "description:en-US": "Beautiful, dynamic widgets for GitHub Readme pages (Statistics, Skills, etc).",
+  "tag": {
+    "repo": "https://github.com/Jurredr/github-widgetbox",
+    "officialDoc": "https://github.com/Jurredr/github-widgetbox?tab=readme-ov-file#widgets"
+  },
+  "linkRules": [
+    {
+      "querys": [
+        {
+          "name": "username",
+          "type": "string",
+          "description": "Github 用户名",
+          "description:en-US": "Github Username"
+        },
+        {
+          "name": "data",
+          "type": "string",
+          "description": "需要展示的数据",
+          "description:en-US": "Data to show",
+          "moreDescription": "可选值：`followers` `repositories` `stars` `commits`，多个数据用 `,` 分隔，例如：`followers,repositories,stars,commits`。",
+          "moreDescription:en-US": "Supported: `followers` `repositories` `stars` `commits`. Multiple data can be separated by `,`. For example: `followers,repositories,stars,commits`."
+        }
+      ],
+      "uriTemplate": "https://github-widgetbox.vercel.app/api/profile{?username,data}"
+    },
+    {
+      "querys": [
+        {
+          "name": "languages",
+          "type": "string",
+          "description": "语言",
+          "description:en-US": "Languages",
+          "moreDescription": "格式：语言名称用 `,` 分隔，例如：`javascript,python,html,css`。",
+          "moreDescription:en-US": "Format: Languages are separated by `,`. For example: `javascript,python,html,css`."
+        },
+        {
+          "name": "frameworks",
+          "type": "string",
+          "description": "框架",
+          "description:en-US": "Frameworks",
+          "moreDescription": "格式：多个框架用 `,` 分隔，例如：`react,vue,angular`。",
+          "moreDescription:en-US": "Format: Multiple frameworks are separated by `,`. For example: `react,vue,angular`."
+        },
+        {
+          "name": "libraries",
+          "type": "string",
+          "description": "库",
+          "description:en-US": "Libraries",
+          "moreDescription": "格式：多个库用 `,` 分隔，例如：`react,vue,angular`。",
+          "moreDescription:en-US": "Format: Multiple libraries are separated by `,`. For example: `react,vue,angular`."
+        },
+        {
+          "name": "tools",
+          "type": "string",
+          "description": "工具",
+          "description:en-US": "Tools",
+          "moreDescription": "格式：多个工具用 `,` 分隔，例如：`git,docker,npm,yarn,webpack`。",
+          "moreDescription:en-US": "Format: Multiple tools are separated by `,`. For example: `git,docker,npm,yarn,webpack`."
+        },
+        {
+          "name": "software",
+          "type": "string",
+          "description": "软件",
+          "description:en-US": "Software",
+          "moreDescription": "格式：多个软件用 `,` 分隔，例如：`windows,linux,vscode`。",
+          "moreDescription:en-US": "Format: Multiple software are separated by `,`. For example: `windows,linux,vscode`."
+        },
+        {
+          "name": "includeNames",
+          "type": "boolean",
+          "default": "false",
+          "description": "是否显示名称",
+          "description:en-US": "Show Names",
+          "moreDescription": "可选值：`true` `false`。",
+          "moreDescription:en-US": "Supported: `true` `false`."
+        },
+        {
+          "name": "theme",
+          "type": "string",
+          "description": "主题",
+          "description:en-US": "Theme",
+          "moreDescription": "可选值：`default` `darkmode` `viridescent` `carbon` `nautilus` `serika`。",
+          "moreDescription:en-US": "Supported: `default` `darkmode` `viridescent` `carbon` `nautilus` `serika`."
+        }
+      ],
+      "description": "技能",
+      "description:en-US": "Skills",
+      "uriTemplate": "https://github-widgetbox.vercel.app/api/skills{?languages,frameworks,libraries,software,includeNames,theme}"
+    }
+  ],
+  "examples": [
+    {
+      "annotate": "Jurredr",
+      "alt": "个人资料",
+      "alt:en-US": "Profile",
+      "href": "https://github-widgetbox.vercel.app/api/profile?username=Jurredr&data=followers,repositories,stars,commits&theme=darkmode",
+      "images": [
+        {
+          "alt": "个人资料",
+          "alt:en-US": "Profile",
+          "href": "https://github-widgetbox.vercel.app/api/profile?username=Jurredr&data=followers,repositories,stars,commits&theme=darkmode"
+        }
+      ]
+    },
+    {
+      "alt": "技能",
+      "alt:en-US": "Skills",
+      "href": "https://github-widgetbox.vercel.app/api/skills?frameworks=vue,react,electron,bootstrap,tailwind,express&includeNames=true&theme=darkmode",
+      "images": [
+        {
+          "alt": "技能",
+          "alt:en-US": "Skills",
+          "href": "https://github-widgetbox.vercel.app/api/skills?frameworks=vue,react,electron,bootstrap,tailwind,express&includeNames=true&theme=darkmode"
+        }
+      ]
+    }
+  ]
+}
