@@ -221,6 +221,10 @@
         "^needRegister:.+$": {
           "type": "string",
           "description": "Need register."
+        },
+        "^staticBadge:.+$": {
+          "type": "string",
+          "description": "Static badge."
         }
       },
       "properties": {
@@ -239,6 +243,10 @@
         "needRegister": {
           "type": "string",
           "description": "Need register."
+        },
+        "staticBadge": {
+          "type": "string",
+          "description": "Static badge."
         }
       },
       "additionalProperties": false,
@@ -246,7 +254,8 @@
         "repo",
         "onlineTool",
         "officialDoc",
-        "needRegister"
+        "needRegister",
+        "staticBadge"
       ]
     },
     "badgeLayout": {

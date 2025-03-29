@@ -34,7 +34,9 @@
         "officialDoc": "官方文档",
         "officialDoc:en-US": "Official Doc",
         "needRegister": "需要注册",
-        "needRegister:en-US": "Need Register"
+        "needRegister:en-US": "Need Register",
+        "staticBadge": "静态徽章",
+        "staticBadge:en-US": "Static Badge"
       },
       "paramsTitle": "参数",
       "paramsTitle:en-US": "Parameters",

@@ -1,5 +1,11 @@
 # @badge-collection/badge
 
+## 1.1.0
+
+### Minor Changes
+
+- 标签添加静态徽章
+
 ## 1.0.0
 
 ### Major Changes

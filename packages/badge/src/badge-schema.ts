@@ -77,6 +77,10 @@ const tagSchema = {
       type: 'boolean',
       description: 'Whether registration is required.',
     },
+    staticBadge: {
+      type: 'boolean',
+      description: 'Whether the badge is static.',
+    },
   },
   additionalProperties: false,
 } as const satisfies JSONSchema

@@ -46,3 +46,12 @@
   cursor: pointer;
   user-select: none;
 }
+
+.vp-doc table thead {
+  word-break: keep-all;
+}
+
+.vp-doc th,
+.vp-doc td {
+  padding: 8px;
+}
