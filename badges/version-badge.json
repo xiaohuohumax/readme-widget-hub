@@ -1,0 +1,79 @@
+{
+  "title": "Version Badge",
+  "description": "生成各种类型项目的版本号徽章（Pyhton、Go、npm、PHP、Github等）。",
+  "description:en-US": "Generate version badges for various types of projects (Python, Go, npm, PHP, Github, etc.).",
+  "tag": {
+    "onlineTool": "https://badge.fury.io/"
+  },
+  "linkRules": {
+    "params": [
+      {
+        "name": "type",
+        "type": "string",
+        "description": "徽章类型",
+        "description:en-US": "Badge type",
+        "moreDescription": "可选值：`js`（npm）`rb`（Ruby）`py`（Python）`go`（Go）`bo`（Bower）`gh`（Github）`nu`（NuGet）`ph`（PHP）`co`（CocoaPods）`pl`（Perl）`pg`（PGXN）。",
+        "moreDescription:en-US": "Supported: `js` (npm) `rb` (Ruby) `py` (Python) `go` (Go) `bo` (Bower) `gh` (Github) `nu` (NuGet) `ph` (PHP) `co` (CocoaPods) `pl` (Perl) `pg` (PGXN)."
+      },
+      {
+        "name": "packageName",
+        "type": "string",
+        "description": "包名",
+        "description:en-US": "Package name",
+        "moreDescription": "特殊字符需要转义，例如：`/` 转义为 `%2F`。",
+        "moreDescription:en-US": "Escape special characters, such as `/` to `%2F`."
+      },
+      {
+        "name": "format",
+        "type": "string",
+        "description": "格式",
+        "description:en-US": "Format",
+        "moreDescription": "可选值：`.svg` `.png` `@2x.png`。",
+        "moreDescription:en-US": "Supported: `.svg` `.png` `@2x.png`."
+      }
+    ],
+    "querys": [
+      {
+        "name": "icon",
+        "type": "string",
+        "description": "图标",
+        "description:en-US": "Icon",
+        "moreDescription": "固定前缀：`si%3A` 例如：`icon=si%3Agithub`。",
+        "moreDescription:en-US": "Fixed prefix: `si%3A` for example: `icon=si%3Agithub`."
+      },
+      {
+        "name": "icon_color",
+        "type": "string",
+        "description": "图标颜色",
+        "description:en-US": "Icon color",
+        "moreDescription": "格式：`HEX` 例如：`#FF0000`。",
+        "moreDescription:en-US": "Format: `HEX` for example: `#FF0000`."
+      }
+    ],
+    "uriTemplate": "https://badge.fury.io/{type}/{packageName}{format}{?icon,icon_color}"
+  },
+  "examples": [
+    {
+      "annotate": "xiaohuohumax/auto-unpack",
+      "alt": "Pyhton version",
+      "href": "https://badge.fury.io/py/auto-unpack.svg",
+      "images": [
+        {
+          "alt": "Pyhton version",
+          "href": "https://badge.fury.io/py/auto-unpack.svg"
+        }
+      ]
+    },
+    {
+      "annotate": "xiaohuohumax/vscode-export-profiles",
+      "alt": "Github repo version",
+      "href": "https://badge.fury.io/gh/xiaohuohumax%2Fvscode-export-profiles.svg",
+      "images": [
+        {
+          "alt": "Github repo version",
+          "href": "https://badge.fury.io/gh/xiaohuohumax%2Fvscode-export-profiles.svg"
+        }
+      ]
+    }
+  ]
+}
