@@ -33,7 +33,7 @@
 | 名称 | 类型 | 必填 | 默认值 | 参数描述 | 更多描述 |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `username` | `string` |  |  | Twitter 用户名 |  |
+| `username` | `string` | `true` |  | Twitter 用户名 |  |
 | `theme` | `string` |  | `dracula` | 主题 | 可选值：`default` `default_repocard` `transparent` `dark` `tokyonight` 更多主题参考：[Themes](https://github.com/VishwaGauravIn/github-twitter-card-embed?tab=readme-ov-file#-themes)。 |
 | `icon` | `string` |  | `default` | 图标 | 可选值：`default` `thunder` `sun` `beaker` `bookmark` `bug` `cake` `badge` `code` `smile` `fire` `hashtag` `heart` `lock` `moon` `radio` `sparkles` `star` `trophy` `user`。 |
 | `time` | `boolean` |  | `true` | 是否显示时间 | 可选值：`true` `false`。 |

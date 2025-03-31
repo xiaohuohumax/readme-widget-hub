@@ -33,7 +33,7 @@
 | 名称 | 类型 | 必填 | 默认值 | 参数描述 | 更多描述 |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `username` | `string` |  |  | GitHub 用户名 |  |
+| `username` | `string` | `true` |  | GitHub 用户名 |  |
 | `title` | `string` |  |  | 按标题筛选奖杯 | 可选值：`Commits` `Stars` `Issues` `Repositories` `Experience` `Followers` `PullRequest` `Reviews` 多个标题间以 `,` 分隔，如果想要排除则在标题前加 `-`，例如 `-Commits`。 |
 | `rank` | `string` |  |  | 按排名筛选奖杯 | 可选值：`SECRET` `?`（UNKNOWN） `SSS` `SS` `S` `AAA` `AA` `A` `B` `C`，多个排名间以 `,` 分隔，如果想要排除则在排名前加 `-`，例如 `-?`。 |
 | `column` | `number` |  | `6` | 显示的列数 | 自适应列：设置 `column` 到 `-1` 以适应奖杯数量，参数 `row` 将被忽略。 |

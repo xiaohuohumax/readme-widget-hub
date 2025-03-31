@@ -33,7 +33,7 @@
 | 名称 | 类型 | 必填 | 默认值 | 参数描述 | 更多描述 |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `username` | `string` |  |  | GitHub 用户名 |  |
+| `username` | `string` | `true` |  | GitHub 用户名 |  |
 | `theme` | `string` |  | `default` | 使用主题 | 可选值：`default` `react` `react-dark` `github` `github-compact` `xcode` `rogue` `merko` `vue` `tokyo-night` `high-contrast`。 |
 | `bg_color` | `string` |  |  | 卡片背景颜色 | 格式：`HEX` 例如：`FF0000`。 |
 | `color` | `string` |  |  | 图表文本颜色 | 格式：`HEX` 例如：`FF0000`。 |

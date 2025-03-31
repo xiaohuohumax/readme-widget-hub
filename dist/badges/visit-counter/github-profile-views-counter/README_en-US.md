@@ -32,7 +32,7 @@
 | Name | Type | Required | Default | Description | More Description |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `username` | `string` |  |  | Github username |  |
+| `username` | `string` | `true` |  | Github username |  |
 | `color` | `string` |  | `blue` | Color | Format: `HEX` `CSS color` e.g. `FF0000`. |
 | `style` | `string` |  | `flat` | Styles | Supported: `flat` `flat-square` `for-the-badge` `plastic` `pixel` (invisible). |
 | `label` | `string` |  | `Profile views` | Label | Replace whitespace with `+` character in multi-word labels. |

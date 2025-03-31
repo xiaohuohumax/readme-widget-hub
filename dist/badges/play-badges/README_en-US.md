@@ -34,7 +34,7 @@
 | ![ref-params] | | | | | |
 | `type` | `string` | `true` |  | Card type | Supported: `full` `downloads` `ratings`. |
 | ![ref-querys] | | | | | |
-| `id` | `string` |  |  | Package name |  |
+| `id` | `string` | `true` |  | Package name |  |
 | `pretty` | `boolean` |  |  | Shows the numbers prettily | Prettify: Adds unit symbols to the numbers, such as: `100K`, note: `&pretty` means enable, and remove it means disable. |
 | `country` | `string` |  | `us` | Country code |  |
 

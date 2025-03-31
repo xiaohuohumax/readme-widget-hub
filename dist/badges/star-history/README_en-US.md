@@ -33,7 +33,7 @@
 | Name | Type | Required | Default | Description | More Description |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `repos` | `string` |  |  | Repository name | Multiple repository names separated by `,`, such as: `owner1/repo1,owner2/repo2`. |
+| `repos` | `string` | `true` |  | Repository name | Multiple repository names separated by `,`, such as: `owner1/repo1,owner2/repo2`. |
 | `type` | `string` |  |  | Display type | Supported: `Date` `Timeline`. |
 
 </details>

@@ -32,7 +32,7 @@
 | Name | Type | Required | Default | Description | More Description |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `repo` | `string` |  |  | Repository name | Format: `owner/repo`. |
+| `repo` | `string` | `true` |  | Repository name | Format: `owner/repo`. |
 | `max` | `number` |  | `100` | Maximum number of contributors to display |  |
 | `columns` | `number` |  | `12` | Number of columns to display |  |
 | `anon` | `number` |  | `0` | Whether to display anonymous contributors | Supported: `0` `1`. |

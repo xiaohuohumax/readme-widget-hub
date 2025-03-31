@@ -33,7 +33,7 @@
 | Name | Type | Required | Default | Description | More Description |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `lines` | `string` |  |  | The multi-line text to display | Text to display with lines separated by `;` and `+` for spaces. |
+| `lines` | `string` | `true` |  | The multi-line text to display | Text to display with lines separated by `;` and `+` for spaces. |
 | `height` | `number` |  | `50` | Height of the output SVG in pixels |  |
 | `width` | `number` |  | `400` | Width of the output SVG in pixels |  |
 | `size` | `number` |  | `20` | Font size in pixels | Unit: pixels. |

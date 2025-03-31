@@ -34,7 +34,7 @@
 | ![ref-params] | | | | | |
 | `type` | `string` | `true` |  | Badge type | Supported: `visitors` (total), `daily` (single day), `combined` (two combined). |
 | ![ref-querys] | | | | | |
-| `path` | `string` |  |  | Statistics path | URL or username/repository to uniquely identify the link or string for statistics. |
+| `path` | `string` | `true` |  | Statistics path | URL or username/repository to uniquely identify the link or string for statistics. |
 | `label` | `string` |  |  | Badge label |  |
 | `labelColor` | `string` |  | `#555555` | Badge label background color | Supported: `HEX`, for example: `#FF0000`. |
 | `countColor` | `string` |  | `#263759` | Badge count background color | Supported: `HEX`, for example: `#FF0000`. |

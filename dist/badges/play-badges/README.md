@@ -34,7 +34,7 @@
 | ![ref-params] | | | | | |
 | `type` | `string` | `true` |  | 卡片类型 | 可选值：`full` `downloads` `ratings`。 |
 | ![ref-querys] | | | | | |
-| `id` | `string` |  |  | 软件包名 |  |
+| `id` | `string` | `true` |  | 软件包名 |  |
 | `pretty` | `boolean` |  |  | 是否美化显示数字 | 美化：给数字添加单位符号，例如：`100K`，注意：`&pretty` 表示启用，去除则表示禁用。 |
 | `country` | `string` |  | `us` | 国家代码 |  |
 

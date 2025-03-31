@@ -35,8 +35,8 @@
 | Name | Type | Required | Default | Description | More Description |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `repo_id` | `string` |  |  | Github repository ID |  |
-| `color_scheme` | `string` |  |  | Card color scheme | Supported: `light` `dark`. |
+| `repo_id` | `string` | `true` |  | Github repository ID |  |
+| `color_scheme` | `string` |  | `dark` | Card color scheme | Supported: `light` `dark`. |
 
 </details>
 

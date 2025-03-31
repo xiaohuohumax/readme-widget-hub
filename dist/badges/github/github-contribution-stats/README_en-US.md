@@ -32,7 +32,7 @@
 | Name | Type | Required | Default | Description | More Description |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `username` | `string` |  |  | Github username |  |
+| `username` | `string` | `true` |  | Github username |  |
 
 </details>
 

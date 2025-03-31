@@ -36,7 +36,7 @@
 | 名称 | 类型 | 必填 | 默认值 | 参数描述 | 更多描述 |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `username` | `string` |  |  | Github 用户名 |  |
+| `username` | `string` | `true` |  | Github 用户名 |  |
 | `theme` | `string` |  | `default` | 主题 | 可选值：`2077` `dracula` `github` `github_dark` `gruvbox` `monokai` 等，更多主题请参考 [thems](https://github.com/vn7n24fzkq/github-profile-summary-cards-example/tree/master/profile-summary-card-output)。 |
 
 </details>

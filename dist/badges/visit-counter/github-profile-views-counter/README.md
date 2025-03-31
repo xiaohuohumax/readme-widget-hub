@@ -32,7 +32,7 @@
 | 名称 | 类型 | 必填 | 默认值 | 参数描述 | 更多描述 |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `username` | `string` |  |  | Github 用户名 |  |
+| `username` | `string` | `true` |  | Github 用户名 |  |
 | `color` | `string` |  | `blue` | 颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000`。 |
 | `style` | `string` |  | `flat` | 样式 | 可选值：`flat` `flat-square` `for-the-badge` `plastic` `pixel`（隐身）。 |
 | `label` | `string` |  | `Profile views` | 标签 | 在多词标签中，将空格替换为 `+` 字符。 |

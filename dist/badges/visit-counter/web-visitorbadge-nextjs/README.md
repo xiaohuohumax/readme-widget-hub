@@ -34,7 +34,7 @@
 | ![ref-params] | | | | | |
 | `type` | `string` | `true` |  | 徽章类型 | 可选值：`visitors`（总数）、`daily`（单日）、`combined`（前两个组合）。 |
 | ![ref-querys] | | | | | |
-| `path` | `string` |  |  | 统计路径 | URL 或 用户名/仓库，用于唯一统计的链接或字符串。 |
+| `path` | `string` | `true` |  | 统计路径 | URL 或 用户名/仓库，用于唯一统计的链接或字符串。 |
 | `label` | `string` |  |  | 徽章标签 |  |
 | `labelColor` | `string` |  | `#555555` | 徽章标签背景颜色 | 支持类型：`HEX`，例如：`#FF0000`。 |
 | `countColor` | `string` |  | `#263759` | 徽章数字背景颜色 | 支持类型：`HEX`，例如：`#FF0000`。 |

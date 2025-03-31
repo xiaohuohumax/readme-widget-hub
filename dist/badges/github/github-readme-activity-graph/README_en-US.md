@@ -33,7 +33,7 @@
 | Name | Type | Required | Default | Description | More Description |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `username` | `string` |  |  | GitHub username |  |
+| `username` | `string` | `true` |  | GitHub username |  |
 | `theme` | `string` |  | `default` | Use themes | Supported: `default` `react` `react-dark` `github` `github-compact` `xcode` `rogue` `merko` `vue` `tokyo-night` `high-contrast`. |
 | `bg_color` | `string` |  |  | Card's background color | Format: `HEX` e.g. `FF0000`. |
 | `color` | `string` |  |  | Graph card's text color | Format: `HEX` e.g. `FF0000`. |

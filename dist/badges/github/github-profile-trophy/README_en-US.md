@@ -33,7 +33,7 @@
 | Name | Type | Required | Default | Description | More Description |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `username` | `string` |  |  | GitHub username |  |
+| `username` | `string` | `true` |  | GitHub username |  |
 | `title` | `string` |  |  | Filter by titles | Supported: `Commits` `Stars` `Issues` `Repositories` `Experience` `Followers` `PullRequest` `Reviews` Multiple titles are separated by `,` and `-` can be added before the title to exclude it, for example `-Commits`. |
 | `rank` | `string` |  |  | Filter trophies by rank | Supported: `SECRET` `?` (UNKNOWN) `SSS` `SS` `S` `AAA` `AA` `A` `B` `C`, multiple ranks are separated by `,` and `-` can be added before the rank to exclude it, for example `-?`. |
 | `column` | `number` |  | `6` | Number of columns to display | You can set `column` to `-1` to adapt the width to the number of trophies, the parameter `row` will be ignored. |

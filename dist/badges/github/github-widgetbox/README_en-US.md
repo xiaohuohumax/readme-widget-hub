@@ -32,7 +32,7 @@
 | Name | Type | Required | Default | Description | More Description |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `username` | `string` |  |  | Github Username |  |
+| `username` | `string` | `true` |  | Github Username |  |
 | `data` | `string` |  |  | Data to show | Supported: `followers` `repositories` `stars` `commits`. Multiple data can be separated by `,`. For example: `followers,repositories,stars,commits`. |
 
 </details>

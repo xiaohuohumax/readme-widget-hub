@@ -33,7 +33,7 @@
 | Name | Type | Required | Default | Description | More Description |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `user` | `string` |  |  | GitHub username |  |
+| `user` | `string` | `true` |  | GitHub username |  |
 | `theme` | `string` |  | `default` | The theme to apply | Supported: `default` `dark` `highcontrast` `transparent` `radical` and more, please refer to [themes](https://github.com/DenverCoder1/github-readme-streak-stats/blob/main/docs/themes.md). |
 | `hide_border` | `boolean` |  | `false` | Make the border transparent |  |
 | `border_radius` | `number` |  | `4.5` | Set the roundness of the edges | Between: `0` (sharp corners) to 248 (ellipse). |

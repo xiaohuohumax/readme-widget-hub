@@ -36,7 +36,7 @@
 | Name | Type | Required | Default | Description | More Description |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `username` | `string` |  |  | Github username |  |
+| `username` | `string` | `true` |  | Github username |  |
 | `theme` | `string` |  | `default` | Theme | Supported: `2077` `dracula` `github` `github_dark` `gruvbox` `monokai` etc. More themes please refer to [thems](https://github.com/vn7n24fzkq/github-profile-summary-cards-example/tree/master/profile-summary-card-output). |
 
 </details>

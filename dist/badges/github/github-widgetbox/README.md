@@ -32,7 +32,7 @@
 | 名称 | 类型 | 必填 | 默认值 | 参数描述 | 更多描述 |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `username` | `string` |  |  | Github 用户名 |  |
+| `username` | `string` | `true` |  | Github 用户名 |  |
 | `data` | `string` |  |  | 需要展示的数据 | 可选值：`followers` `repositories` `stars` `commits`，多个数据用 `,` 分隔，例如：`followers,repositories,stars,commits`。 |
 
 </details>

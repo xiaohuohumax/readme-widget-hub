@@ -17,12 +17,12 @@
   <br/>
 </div>
 
-## Socialify
+## Github Immortality
 
-**Want your project to stand out? Socialify helps you showcase your project to the world by generating a beautiful project image like the one above!**
+**Github stats card based on the system of "A Record of a Mortal's Journey to Immortality".**
 
-[![ref-repo]](https://github.com/wei/socialify)
-[![ref-online-tool]](https://socialify.git.ci/)
+[![ref-repo]](https://github.com/IceEnd/github-immortality)
+[![ref-official-doc]](https://github.com/IceEnd/github-immortality?tab=readme-ov-file#get-start)
 
 ### Parameters
 
@@ -31,26 +31,13 @@
 
 | Name | Type | Required | Default | Description | More Description |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
-| ![ref-params] | | | | | |
-| `owner` | `string` | `true` |  | Github username |  |
-| `repo` | `string` | `true` |  | Github repository name |  |
 | ![ref-querys] | | | | | |
-| `description` | `boolean` |  | `0` | Show project description | Supported: `0` `1`. |
-| `forks` | `boolean` |  | `0` | Show Forks count | Supported: `0` `1`. |
-| `issues` | `boolean` |  | `0` | Show Issues count | Supported: `0` `1`. |
-| `name` | `boolean` |  | `1` | Show project name | Supported: `0` `1`. |
-| `owner` | `boolean` |  | `0` | Show username | Supported: `0` `1`. |
-| `pulls` | `boolean` |  | `0` | Show PR count | Supported: `0` `1`. |
-| `stargazers` | `boolean` |  | `0` | Show Stars count | Supported: `0` `1`. |
-| `pattern` | `string` |  |  | Background pattern | Supported: `Signal` `Charlie Brown` `Formal Invitation` `Plus` `Circuit Board` `Overlapping Hexagons` `Brick Wall` `Floating Cogs` `Diagonal Stripes` `Solid` `Transparent`. |
-| `logo` | `string` |  |  | Project logo | Supported type: `URL` `DATA URI`. |
-| `language` | `boolean` |  | `0` | Show project language | 可选值：`0` `1` |
-| `font` | `string` |  |  | Font | Supported: `Inter` `Bitter` `Raleway` `Rokkitt` `Source Code Pro` `KoHo` `Jost`. |
+| `username` | `string` | `true` |  | Github username |  |
 
 </details>
 
 ```txt
-https://socialify.git.ci/{owner}/{repo}/image{?description,forks,issues,name,owner,pulls,stargazers,pattern,logo,language,font}
+https://github-immortality.vercel.app/api{?username}
 ```
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
@@ -58,11 +45,11 @@ https://socialify.git.ci/{owner}/{repo}/image{?description,forks,issues,name,own
 ### Examples
 
 ```markdown
-<!-- xiaohuohumax/badge-collection -->
-![GitHub Socialify](https://socialify.git.ci/xiaohuohumax/badge-collection/image?font=Rokkitt&forks=1&issues=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fxiaohuohumax%2Flogo%2Frefs%2Fheads%2Fmain%2Flogos%2Flogo.svg&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Auto)
+<!-- iceend -->
+![IceEnd&#39;s GitHub stats](https://github-immortality.vercel.app/api?username=iceend)
 ```
 
-![GitHub Socialify](https://socialify.git.ci/xiaohuohumax/badge-collection/image?font=Rokkitt\&forks=1\&issues=1\&language=1\&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fxiaohuohumax%2Flogo%2Frefs%2Fheads%2Fmain%2Flogos%2Flogo.svg\&name=1\&owner=1\&pattern=Plus\&pulls=1\&stargazers=1\&theme=Auto)
+![IceEnd's GitHub stats](https://github-immortality.vercel.app/api?username=iceend)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
 

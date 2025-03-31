@@ -32,7 +32,7 @@
 | Name | Type | Required | Default | Description | More Description |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `url` | `string` |  |  | The URL of the website or GitHub repository to be counted |  |
+| `url` | `string` | `true` |  | The URL of the website or GitHub repository to be counted |  |
 | `edge_flat` | `boolean` |  |  | Badge style | Supported: `true` (Flat) `false` (Round). |
 | `title` | `string` |  | `hits` | Left label content |  |
 | `title_bg` | `string` |  | `#555555` | Left label background color | Supported: `Hex`, e.g. `#FF0000`. |

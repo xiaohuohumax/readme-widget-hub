@@ -35,7 +35,7 @@
 | Name | Type | Required | Default | Description | More Description |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `user` | `string` |  |  | GitHub profile username |  |
+| `user` | `string` | `true` |  | GitHub profile username |  |
 | `n` | `number` |  | `30` | Number of Gists to display |  |
 | `title` | `string` |  |  | Set the title of the card |  |
 | `theme` | `string` |  | `default` | Set the theme of the card | Supported: `default` `dark`. |
@@ -54,7 +54,7 @@ https://gists-readme.yizack.com/api{?user,n,theme,theme}
 | Name | Type | Required | Default | Description | More Description |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `id` | `string` |  |  | Gist ID |  |
+| `id` | `string` | `true` |  | Gist ID |  |
 | `owner` | `boolean` |  | `false` | Shows the owner of the gist |  |
 | `theme` | `string` |  | `default` | Sets the theme of the pin | Supported: `default` `dark`. |
 

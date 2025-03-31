@@ -17,12 +17,12 @@
   <br/>
 </div>
 
-## Socialify
+## Github Immortality
 
-**希望你的项目能够脱颖而出？Socialify 通过生成各种精美的项目描述卡片，帮助你向全世界展示你的项目！**
+**基于“凡人修仙传”系统的 GitHub 统计卡片。**
 
-[![ref-repo]](https://github.com/wei/socialify)
-[![ref-online-tool]](https://socialify.git.ci/)
+[![ref-repo]](https://github.com/IceEnd/github-immortality)
+[![ref-official-doc]](https://github.com/IceEnd/github-immortality?tab=readme-ov-file#get-start)
 
 ### 参数
 
@@ -31,26 +31,13 @@
 
 | 名称 | 类型 | 必填 | 默认值 | 参数描述 | 更多描述 |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
-| ![ref-params] | | | | | |
-| `owner` | `string` | `true` |  | Github 用户名 |  |
-| `repo` | `string` | `true` |  | Github 仓库名 |  |
 | ![ref-querys] | | | | | |
-| `description` | `boolean` |  | `0` | 是否显示项目描述 | 可选值：`0` `1`。 |
-| `forks` | `boolean` |  | `0` | 是否显示 Forks 数量 | 可选值：`0` `1`。 |
-| `issues` | `boolean` |  | `0` | 是否显示 Issues 数量 | 可选值：`0` `1`。 |
-| `name` | `boolean` |  | `1` | 是否显示项目名称 | 可选值：`0` `1`。 |
-| `owner` | `boolean` |  | `0` | 是否显示用户名 | 可选值：`0` `1`。 |
-| `pulls` | `boolean` |  | `0` | 是否显示 PR 数量 | 可选值：`0` `1`。 |
-| `stargazers` | `boolean` |  | `0` | 是否显示 Stars 数量 | 可选值：`0` `1`。 |
-| `pattern` | `string` |  |  | 背景图样式 | 可选值：`Signal` `Charlie Brown` `Formal Invitation` `Plus` `Circuit Board` `Overlapping Hexagons` `Brick Wall` `Floating Cogs` `Diagonal Stripes` `Solid` `Transparent`。 |
-| `logo` | `string` |  |  | 项目 Logo | 可选类型：`URL` `DATA URI`。 |
-| `language` | `boolean` |  | `0` | 是否显示项目语言 | 可选值：`0` `1` |
-| `font` | `string` |  |  | 字体 | 可选值：`Inter` `Bitter` `Raleway` `Rokkitt` `Source Code Pro` `KoHo` `Jost`。 |
+| `username` | `string` | `true` |  | Github 用户名 |  |
 
 </details>
 
 ```txt
-https://socialify.git.ci/{owner}/{repo}/image{?description,forks,issues,name,owner,pulls,stargazers,pattern,logo,language,font}
+https://github-immortality.vercel.app/api{?username}
 ```
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
@@ -58,11 +45,11 @@ https://socialify.git.ci/{owner}/{repo}/image{?description,forks,issues,name,own
 ### 示例
 
 ```markdown
-<!-- xiaohuohumax/badge-collection -->
-![GitHub Socialify](https://socialify.git.ci/xiaohuohumax/badge-collection/image?font=Rokkitt&forks=1&issues=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fxiaohuohumax%2Flogo%2Frefs%2Fheads%2Fmain%2Flogos%2Flogo.svg&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Auto)
+<!-- iceend -->
+![IceEnd&#39;s GitHub stats](https://github-immortality.vercel.app/api?username=iceend)
 ```
 
-![GitHub Socialify](https://socialify.git.ci/xiaohuohumax/badge-collection/image?font=Rokkitt\&forks=1\&issues=1\&language=1\&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fxiaohuohumax%2Flogo%2Frefs%2Fheads%2Fmain%2Flogos%2Flogo.svg\&name=1\&owner=1\&pattern=Plus\&pulls=1\&stargazers=1\&theme=Auto)
+![IceEnd's GitHub stats](https://github-immortality.vercel.app/api?username=iceend)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 

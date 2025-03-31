@@ -33,7 +33,7 @@
 | 名称 | 类型 | 必填 | 默认值 | 参数描述 | 更多描述 |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `user` | `string` |  |  | GitHub 用户名 |  |
+| `user` | `string` | `true` |  | GitHub 用户名 |  |
 | `theme` | `string` |  | `default` | 主题 | 可选值：`default` `dark` `highcontrast` `transparent` `radical` 等，更多主题请参考 [themes](https://github.com/DenverCoder1/github-readme-streak-stats/blob/main/docs/themes.md)。 |
 | `hide_border` | `boolean` |  | `false` | 是否使用透明边框 |  |
 | `border_radius` | `number` |  | `4.5` | 设置边缘的圆滑度 | 范围：`0`（锐角） 到 `248`（椭圆）。 |
