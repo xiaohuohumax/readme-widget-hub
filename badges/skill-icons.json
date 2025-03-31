@@ -31,7 +31,9 @@
         "type": "number",
         "default": "15",
         "description": "每行显示图标数",
-        "description:en-US": "Number of icons per line"
+        "description:en-US": "Number of icons per line",
+        "moreDescription": "范围：`1` 到 `50`。",
+        "moreDescription:en-US": "Range: `1` to `50`."
       }
     ],
     "uriTemplate": "https://skillicons.dev/icons{?i,theme,perline}"
