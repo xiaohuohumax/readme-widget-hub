@@ -1,0 +1,51 @@
+{
+  "title": "Skill Icons",
+  "description": "轻松的在 GitHub 或简历上展示你的技能！",
+  "description:en-US": "Showcase your skills on your GitHub or resumé with ease!",
+  "tag": {
+    "repo": "https://github.com/tandpfun/skill-icons",
+    "officialDoc": "https://github.com/tandpfun/skill-icons?tab=readme-ov-file#docs"
+  },
+  "linkRules": {
+    "querys": [
+      {
+        "name": "i",
+        "type": "string",
+        "required": true,
+        "description": "显示图标",
+        "description:en-US": "Specifying Icons",
+        "moreDescription": "多个图标使用 `,` 分隔，例如 `i=js,html,css`，图标名称请参考 [Icons List](https://github.com/tandpfun/skill-icons?tab=readme-ov-file#icons-list)。",
+        "moreDescription:en-US": "Multiple icons can be specified using `,` separator, e.g. `i=js,html,css`, Please refer to [Icons List](https://github.com/tandpfun/skill-icons?tab=readme-ov-file#icons-list) for icon names."
+      },
+      {
+        "name": "theme",
+        "type": "string",
+        "default": "dark",
+        "description": "主题",
+        "description:en-US": "Themed Icons",
+        "moreDescription": "可选值：`light` `dark`。",
+        "moreDescription:en-US": "Supported: `light` `dark`."
+      },
+      {
+        "name": "perline",
+        "type": "number",
+        "default": "15",
+        "description": "每行显示图标数",
+        "description:en-US": "Number of icons per line"
+      }
+    ],
+    "uriTemplate": "https://skillicons.dev/icons{?i,theme,perline}"
+  },
+  "examples": {
+    "alt": "技能",
+    "alt:en-US": "Skills",
+    "href": "https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter&perline=3",
+    "images": [
+      {
+        "alt": "技能",
+        "alt:en-US": "Skills",
+        "href": "https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter&perline=3"
+      }
+    ]
+  }
+}
