@@ -12,6 +12,7 @@
       {
         "name": "repos",
         "type": "string",
+        "required": true,
         "description": "仓库名",
         "description:en-US": "Repository name",
         "moreDescription": "多个仓库名用 `,` 分隔，例如：`owner1/repo1,owner2/repo2`。",

@@ -11,6 +11,7 @@
       {
         "name": "url",
         "type": "string",
+        "required": true,
         "description": "需要统计的网站或 GitHub 仓库的 URL",
         "description:en-US": "The URL of the website or GitHub repository to be counted"
       },
@@ -58,19 +59,17 @@
     ],
     "uriTemplate": "https://hits.seeyoufarm.com/api/count/incr/badge.svg{?url,edge_flat,title,title_bg,count_bg,icon_color}"
   },
-  "examples":
-    {
-      "annotate": "xiaohuohumax/badge-collection",
-      "alt": "点击统计",
-      "alt:en-US": "Hit Counter",
-      "href": "https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection",
-      "images": [
-        {
-          "alt": "点击统计",
-          "alt:en-US": "Hit Counter",
-          "href": "https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection"
-        }
-      ]
-    }
-
+  "examples": {
+    "annotate": "xiaohuohumax/badge-collection",
+    "alt": "点击统计",
+    "alt:en-US": "Hit Counter",
+    "href": "https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection",
+    "images": [
+      {
+        "alt": "点击统计",
+        "alt:en-US": "Hit Counter",
+        "href": "https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection"
+      }
+    ]
+  }
 }

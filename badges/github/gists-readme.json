@@ -13,6 +13,7 @@
         {
           "name": "user",
           "type": "string",
+          "required": true,
           "description": "Github 用户名",
           "description:en-US": "GitHub profile username"
         },
@@ -48,6 +49,7 @@
         {
           "name": "id",
           "type": "string",
+          "required": true,
           "description": "Gist ID"
         },
         {

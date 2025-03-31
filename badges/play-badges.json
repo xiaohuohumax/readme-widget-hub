@@ -21,6 +21,7 @@
       {
         "name": "id",
         "type": "string",
+        "required": true,
         "description": "软件包名",
         "description:en-US": "Package name"
       },

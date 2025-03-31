@@ -16,12 +16,14 @@
       {
         "name": "repo_id",
         "type": "string",
+        "required": true,
         "description": "Github 仓库 ID",
         "description:en-US": "Github repository ID"
       },
       {
         "name": "color_scheme",
         "type": "string",
+        "default": "dark",
         "description": "卡片颜色主题",
         "description:en-US": "Card color scheme",
         "moreDescription": "可选值：`light` `dark`。",

@@ -11,6 +11,7 @@
       {
         "name": "repo",
         "type": "string",
+        "required": true,
         "description": "仓库名",
         "description:en-US": "Repository name",
         "moreDescription": "格式：`owner/repo`。",

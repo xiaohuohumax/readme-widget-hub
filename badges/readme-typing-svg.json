@@ -12,7 +12,7 @@
       {
         "name": "lines",
         "type": "string",
-        "default": "",
+        "required": true,
         "description": "要显示的多行文本",
         "description:en-US": "The multi-line text to display",
         "moreDescription": "多行之间用 `;` 分隔，文本中空格使用 `+` 代替。",

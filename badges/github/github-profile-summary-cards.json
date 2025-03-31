@@ -17,6 +17,7 @@
       {
         "name": "username",
         "type": "string",
+        "required": true,
         "description": "Github 用户名",
         "description:en-US": "Github username"
       },

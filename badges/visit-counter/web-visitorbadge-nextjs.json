@@ -21,6 +21,7 @@
       {
         "name": "path",
         "type": "string",
+        "required": true,
         "description": "统计路径",
         "description:en-US": "Statistics path",
         "moreDescription": "URL 或 用户名/仓库，用于唯一统计的链接或字符串。",
@@ -71,19 +72,17 @@
     ],
     "uriTemplate": "https://api.visitorbadge.io/api/{type}{?path,label,labelColor,countColor,style,labelStyle}"
   },
-  "examples":
-    {
-      "annotate": "xiaohuohumax/badge-collection",
-      "alt": "访问数",
-      "alt:en-US": "Visitors",
-      "href": "https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection&label=VISITORS&countColor=%23f3722c",
-      "images": [
-        {
-          "alt": "访问数",
-          "alt:en-US": "Visitors",
-          "href": "https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection&label=VISITORS&countColor=%23f3722c"
-        }
-      ]
-    }
-
+  "examples": {
+    "annotate": "xiaohuohumax/badge-collection",
+    "alt": "访问数",
+    "alt:en-US": "Visitors",
+    "href": "https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection&label=VISITORS&countColor=%23f3722c",
+    "images": [
+      {
+        "alt": "访问数",
+        "alt:en-US": "Visitors",
+        "href": "https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection&label=VISITORS&countColor=%23f3722c"
+      }
+    ]
+  }
 }
