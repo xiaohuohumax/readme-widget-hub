@@ -1,0 +1,119 @@
+{
+  "title": "NodeICO",
+  "description": "精致的 node.js 徽章，仅此而已。",
+  "description:en-US": "Classy node.js badges, that's all.",
+  "tag": {
+    "repo": "https://github.com/rvagg/nodei.co",
+    "onlineTool": "https://nodei.co/",
+    "officialDoc": "https://nodei.co/"
+  },
+  "linkRules": [
+    {
+      "params": [
+        {
+          "name": "package",
+          "type": "string",
+          "description": "npm 包名",
+          "description:en-US": "npm package name"
+        }
+      ],
+      "querys": [
+        {
+          "name": "compact",
+          "type": "boolean",
+          "default": "false",
+          "description": "是否使用紧凑布局",
+          "description:en-US": "Use compact layout"
+        },
+        {
+          "name": "mini",
+          "type": "boolean",
+          "default": "false",
+          "description": "是否使用迷你布局",
+          "description:en-US": "Use mini layout"
+        },
+        {
+          "name": "downloads",
+          "type": "boolean",
+          "default": "false",
+          "description": "是否显示下载量",
+          "description:en-US": "Show downloads"
+        },
+        {
+          "name": "downloadRank",
+          "type": "boolean",
+          "default": "false",
+          "description": "是否显示下载排名",
+          "description:en-US": "Show download rank"
+        },
+        {
+          "name": "stars",
+          "type": "boolean",
+          "default": "false",
+          "description": "是否显示星标数",
+          "description:en-US": "Show stars"
+        }
+      ],
+      "description": "NPM 包徽章",
+      "description:en-US": "NPM package badge",
+      "uriTemplate": "https://nodei.co/npm/{package}.png{?compact,mini,downloads,downloadRank,stars}"
+    },
+    {
+      "params": [
+        {
+          "name": "package",
+          "type": "string",
+          "description": "npm 包名",
+          "description:en-US": "npm package name"
+        }
+      ],
+      "querys": [
+        {
+          "name": "months",
+          "type": "number",
+          "default": "12",
+          "description": "显示最近多少个月的下载量",
+          "description:en-US": "Show downloads of the last n months",
+          "moreDescription": "范围：`1` 到 `12`",
+          "moreDescription:en-US": "Range: `1` to `12`"
+        },
+        {
+          "name": "height",
+          "type": "number",
+          "default": "1",
+          "description": "高度",
+          "description:en-US": "Height",
+          "moreDescription": "范围：`1` 到 `3`",
+          "moreDescription:en-US": "Range: `1` to `3`"
+        }
+      ],
+      "description": "NPM 包下载徽章",
+      "description:en-US": "NPM package download badge",
+      "uriTemplate": "https://nodei.co/npm-dl/{package}.png{?months,height}"
+    }
+  ],
+  "examples": [
+    {
+      "annotate": "Vue",
+      "alt": "Vue",
+      "href": "https://nodei.co/npm/vue.png",
+      "images": [
+        {
+          "alt": "Vue",
+          "href": "https://nodei.co/npm/vue.png"
+        }
+      ]
+    },
+    {
+      "annotate": "Vue",
+      "alt": "Vue",
+      "href": "https://nodei.co/npm-dl/vue.png",
+      "images": [
+        {
+          "alt": "Vue",
+          "href": "https://nodei.co/npm-dl/vue.png"
+        }
+      ]
+    }
+  ]
+}
