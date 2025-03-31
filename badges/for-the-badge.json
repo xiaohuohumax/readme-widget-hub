@@ -1,0 +1,32 @@
+{
+  "title": "FOR THE BADGE",
+  "description": "专注于提供各种风格独特、幽默风趣的徽章（badges）设计。",
+  "description:en-US": "Focuses on providing diverse and unique styles of humorous and witty badge designs.‌",
+  "tag": {
+    "repo": "https://github.com/forthebadge/for-the-badge",
+    "onlineTool": "https://forthebadge.com/#/generator",
+    "staticBadge": true
+  },
+  "examples": [
+    {
+      "alt": "Built with love",
+      "href": "https://forthebadge.com/images/featured/featured-built-with-love.svg",
+      "images": [
+        {
+          "alt": "Built with love",
+          "href": "https://forthebadge.com/images/featured/featured-built-with-love.svg"
+        }
+      ]
+    },
+    {
+      "alt": "Uses HTML",
+      "href": "https://forthebadge.com/images/featured/featured-uses-html.svg",
+      "images": [
+        {
+          "alt": "Uses HTML",
+          "href": "https://forthebadge.com/images/featured/featured-uses-html.svg"
+        }
+      ]
+    }
+  ]
+}
