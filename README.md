@@ -13,7 +13,7 @@
     <a href="https://github.com/xiaohuohumax/badge-collection/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection&countColor=%2337D67A&style=flat&labelStyle=lower" /></a>
-    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badges-45-37D67A?labelColor=555555" /></a>
+    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badges-46-37D67A?labelColor=555555" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
   <div>
@@ -32,6 +32,7 @@
 
 * [Shields.io](dist/badges/shields-io/README.md)
 * [Badgen](dist/badges/badgen/README.md)
+* [GitHub Readme Stats](dist/badges/github-readme-stats/README.md)
 * 访客统计徽章
   * [GitHub Profile Views Counter](dist/badges/visit-counter/github-profile-views-counter/README.md)
   * [HITS](dist/badges/visit-counter/hit-counter/README.md)
@@ -50,7 +51,6 @@
   * [GitHub Profile Summary Cards](dist/badges/github/github-profile-summary-cards/README.md)
   * [GitHub Profile Trophy](dist/badges/github/github-profile-trophy/README.md)
   * [Github Readme Activity Graph](dist/badges/github/github-readme-activity-graph/README.md)
-  * [GitHub Readme Stats](dist/badges/github/github-readme-stats/README.md)
   * [Github Readme Streak Stats](dist/badges/github/github-readme-streak-stats/README.md)
   * [GitHub Widgetbox](dist/badges/github/github-widgetbox/README.md)
   * [GitHub Workflows Badge](dist/badges/github/github-workflows/README.md)
@@ -64,6 +64,7 @@
 * [Gradgen](dist/badges/gradgen/README.md)
 * [Iconify](dist/badges/iconify/README.md)
 * [m3 Markdown Badges](dist/badges/m3-Markdown-Badges/README.md)
+* [NodeICO](dist/badges/nodei-co/README.md)
 * [Open Collective](dist/badges/open-collective/README.md)
 * [OpenSSF Best Practices Badge](dist/badges/openssf-best-practices/README.md)
 * [Open Source Software Insight](dist/badges/ossinsight/README.md)
