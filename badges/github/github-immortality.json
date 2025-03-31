@@ -1,0 +1,32 @@
+{
+  "title": "Github Immortality",
+  "description": "基于“凡人修仙传”系统的 GitHub 统计卡片。",
+  "description:en-US": "Github stats card based on the system of \"A Record of a Mortal's Journey to Immortality\".",
+  "tag": {
+    "repo": "https://github.com/IceEnd/github-immortality",
+    "officialDoc": "https://github.com/IceEnd/github-immortality?tab=readme-ov-file#get-start"
+  },
+  "linkRules": {
+    "querys": [
+      {
+        "name": "username",
+        "type": "string",
+        "required": true,
+        "description": "Github 用户名",
+        "description:en-US": "Github username"
+      }
+    ],
+    "uriTemplate": "https://github-immortality.vercel.app/api{?username}"
+  },
+  "examples": {
+    "annotate": "iceend",
+    "alt": "IceEnd's GitHub stats",
+    "href": "https://github-immortality.vercel.app/api?username=iceend",
+    "images": [
+      {
+        "alt": "IceEnd's GitHub stats",
+        "href": "https://github-immortality.vercel.app/api?username=iceend"
+      }
+    ]
+  }
+}
