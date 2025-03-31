@@ -1,0 +1,164 @@
+{
+  "title": "Lanyard Profile Readme",
+  "description": "在你的 GitHub 个人资料中显示 Discord 在线状态。",
+  "description:en-US": "Discord Presence in your GitHub Profile.",
+  "tag": {
+    "repo": "https://github.com/cnrad/lanyard-profile-readme",
+    "onlineTool": "https://lanyard.cnrad.dev/",
+    "officialDoc": "https://github.com/cnrad/lanyard-profile-readme?tab=readme-ov-file#usage"
+  },
+  "linkRules": {
+    "params": [
+      {
+        "name": "discordId",
+        "type": "string",
+        "description": "Discord 用户 ID",
+        "description:en-US": "Discord User ID"
+      }
+    ],
+    "querys": [
+      {
+        "name": "theme",
+        "type": "string",
+        "default": "dark",
+        "description": "主题",
+        "description:en-US": "Theme",
+        "moreDescription": "可选值：`light` `dark`。",
+        "moreDescription:en-US": "Supported: `light` `dark`."
+      },
+      {
+        "name": "bg",
+        "type": "string",
+        "description": "背景颜色",
+        "description:en-US": "Background Color",
+        "moreDescription": "格式：`HEX`，例如：`FF0000`。",
+        "moreDescription:en-US": "Format: `HEX`, e.g. `FF0000`."
+      },
+      {
+        "name": "borderRadius",
+        "type": "string",
+        "default": "10px",
+        "description": "边框半径",
+        "description:en-US": "Border Radius",
+        "moreDescription": "格式：`CSS 宽度值`，例如：`10px` `1em`。",
+        "moreDescription:en-US": "Format: `CSS width value`, e.g. `10px` `1em`."
+      },
+      {
+        "name": "animated",
+        "type": "boolean",
+        "default": "true",
+        "description": "是否切换动画头像",
+        "description:en-US": "Toggle Animated Avatar",
+        "moreDescription": "可选值：`true` `false`。",
+        "moreDescription:en-US": "Supported: `true` `false`."
+      },
+      {
+        "name": "idleMessage",
+        "type": "string",
+        "description": "自定义空闲消息",
+        "description:en-US": "Custom Idle Message"
+      },
+      {
+        "name": "showDisplayName",
+        "type": "boolean",
+        "default": "false",
+        "description": "是否同时显示全局显示名称和用户名",
+        "description:en-US": "Show Global Display Name and Username",
+        "moreDescription": "可选值：`true` `false`。",
+        "moreDescription:en-US": "Supported: `true` `false`."
+      },
+      {
+        "name": "hideDecoration",
+        "type": "boolean",
+        "default": "false",
+        "description": "是否隐藏头像装饰",
+        "description:en-US": "Hide Avatar Decoration",
+        "moreDescription": "可选值：`true` `false`。",
+        "moreDescription:en-US": "Supported: `true` `false`."
+      },
+      {
+        "name": "animatedDecoration",
+        "type": "boolean",
+        "default": "false",
+        "description": "是否启用动态头像装饰",
+        "description:en-US": "Enable Animated Avatar Decoration",
+        "moreDescription": "可选值：`true` `false`。",
+        "moreDescription:en-US": "Supported: `true` `false`."
+      },
+      {
+        "name": "hideStatus",
+        "type": "boolean",
+        "default": "false",
+        "description": "是否隐藏状态",
+        "description:en-US": "Hide Status",
+        "moreDescription": "可选值：`true` `false`。",
+        "moreDescription:en-US": "Supported: `true` `false`."
+      },
+      {
+        "name": "hideTimestamp",
+        "type": "boolean",
+        "default": "false",
+        "description": "是否隐藏已过时间",
+        "description:en-US": "Hide Elapsed Time",
+        "moreDescription": "可选值：`true` `false`。",
+        "moreDescription:en-US": "Supported: `true` `false`."
+      },
+      {
+        "name": "hideBadges",
+        "type": "boolean",
+        "default": "false",
+        "description": "是否隐藏徽章",
+        "description:en-US": "Hide Badges",
+        "moreDescription": "可选值：`true` `false`。",
+        "moreDescription:en-US": "Supported: `true` `false`."
+      },
+      {
+        "name": "hideProfile",
+        "type": "boolean",
+        "default": "false",
+        "description": "是否隐藏资料",
+        "description:en-US": "Hide Profile",
+        "moreDescription": "可选值：`true` `false`。",
+        "moreDescription:en-US": "Supported: `true` `false`."
+      },
+      {
+        "name": "hideActivity",
+        "type": "boolean",
+        "default": "false",
+        "description": "是否隐藏活动",
+        "description:en-US": "Hide Activity",
+        "moreDescription": "可选值：`true` `false`。",
+        "moreDescription:en-US": "Supported: `true` `false`."
+      },
+      {
+        "name": "hideSpotify",
+        "type": "boolean",
+        "default": "false",
+        "description": "是否隐藏 Spotify",
+        "description:en-US": "Hide Spotify",
+        "moreDescription": "可选值：`true` `false`。",
+        "moreDescription:en-US": "Supported: `true` `false`."
+      },
+      {
+        "name": "ignoreAppId",
+        "type": "string",
+        "description": "通过 App ID 隐藏部分应用",
+        "description:en-US": "Hide App by ID ",
+        "moreDescription": "格式：`appId1,appId2,appId3`。",
+        "moreDescription:en-US": "Format: `appId1,appId2,appId3`."
+      }
+    ],
+    "uriTemplate": "https://lanyard.cnrad.dev/api/{discordId}{?theme,bg,borderRadius,animated,idleMessage,showDisplayName,hideDecoration,animatedDecoration,hideStatus,hideTimestamp,hideBadges,hideProfile,hideActivity,hideSpotify,ignoreAppId}"
+  },
+  "examples": {
+    "annotate": "cnrad",
+    "alt": "Discord",
+    "href": "https://lanyard.cnrad.dev/api/705665813994012695",
+    "images": [
+      {
+        "alt": "Discord",
+        "href": "https://lanyard.cnrad.dev/api/705665813994012695"
+      }
+    ]
+  }
+}
