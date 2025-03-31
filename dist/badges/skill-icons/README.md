@@ -34,7 +34,7 @@
 | ![ref-querys] | | | | | |
 | `i` | `string` | `true` |  | 显示图标 | 多个图标使用 `,` 分隔，例如 `i=js,html,css`，图标名称请参考 [Icons List](https://github.com/tandpfun/skill-icons?tab=readme-ov-file#icons-list)。 |
 | `theme` | `string` |  | `dark` | 主题 | 可选值：`light` `dark`。 |
-| `perline` | `number` |  | `15` | 每行显示图标数 |  |
+| `perline` | `number` |  | `15` | 每行显示图标数 | 范围：`1` 到 `50`。 |
 
 </details>
 

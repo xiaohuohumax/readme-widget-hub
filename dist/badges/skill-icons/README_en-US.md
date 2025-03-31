@@ -34,7 +34,7 @@
 | ![ref-querys] | | | | | |
 | `i` | `string` | `true` |  | Specifying Icons | Multiple icons can be specified using `,` separator, e.g. `i=js,html,css`, Please refer to [Icons List](https://github.com/tandpfun/skill-icons?tab=readme-ov-file#icons-list) for icon names. |
 | `theme` | `string` |  | `dark` | Themed Icons | Supported: `light` `dark`. |
-| `perline` | `number` |  | `15` | Number of icons per line |  |
+| `perline` | `number` |  | `15` | Number of icons per line | Range: `1` to `50`. |
 
 </details>
 
