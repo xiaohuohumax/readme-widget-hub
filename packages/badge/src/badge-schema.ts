@@ -217,6 +217,14 @@ const imageSchema = {
       type: 'string',
       description: 'Example link href.',
     },
+    width: {
+      type: 'string',
+      description: 'Image width.',
+    },
+    height: {
+      type: 'string',
+      description: 'Image height.',
+    },
   },
   additionalProperties: false,
   required: ['href'],

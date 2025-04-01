@@ -1,5 +1,16 @@
 # @badge-collection/render
 
+## 1.3.0
+
+### Minor Changes
+
+- 徽章支持设置宽高
+
+### Patch Changes
+
+- Updated dependencies
+  - @badge-collection/badge@1.3.0
+
 ## 1.2.0
 
 ### Minor Changes

@@ -9,6 +9,6 @@
 ![{{$value.alt}}]({{@$value.href}})
 ```
 {{each $value.images}}
-![{{$value.alt}}]({{$value.href}}){{/each}}
+<img src="{{$value.href}}" alt="{{$value.alt}}" width="{{$value.width}}" height="{{$value.height}}" />{{/each}}
 
 {{/each}}
