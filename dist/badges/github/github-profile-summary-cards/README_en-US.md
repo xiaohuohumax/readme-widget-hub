@@ -54,14 +54,14 @@ http://github-profile-summary-cards.vercel.app/api/cards/profile-details{?userna
 ![Profile details](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vn7n24fzkq)
 ```
 
-![Profile details](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vn7n24fzkq)
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vn7n24fzkq" alt="Profile details" width="" height="" />
 
 ```markdown
 <!-- vn7n24fzkq -->
 ![GitHub stats card](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=vn7n24fzkq)
 ```
 
-![GitHub stats card](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=vn7n24fzkq)
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=vn7n24fzkq" alt="GitHub stats card" width="" height="" />
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
 

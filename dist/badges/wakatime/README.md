@@ -75,14 +75,14 @@ https://wakatime.com/share/@{userId}/{chartConfigId}.{type}
 ![WakaTime](https://wakatime.com/badge/user/55467317-4c40-41a7-b401-2b15b7a7e3f1/project/2da11925-8baf-4de2-9e54-5e87af844cb6.svg)
 ```
 
-![WakaTime](https://wakatime.com/badge/user/55467317-4c40-41a7-b401-2b15b7a7e3f1/project/2da11925-8baf-4de2-9e54-5e87af844cb6.svg)
+<img src="https://wakatime.com/badge/user/55467317-4c40-41a7-b401-2b15b7a7e3f1/project/2da11925-8baf-4de2-9e54-5e87af844cb6.svg" alt="WakaTime" width="" height="" />
 
 ```markdown
 <!-- xiaohuohumax/badge-collection -->
 ![WakaTime 编码活动](https://wakatime.com/share/@55467317-4c40-41a7-b401-2b15b7a7e3f1/2bf34c99-3246-4d4c-85da-c9bf54d084cc.svg)
 ```
 
-![WakaTime 编码活动](https://wakatime.com/share/@55467317-4c40-41a7-b401-2b15b7a7e3f1/2bf34c99-3246-4d4c-85da-c9bf54d084cc.svg)
+<img src="https://wakatime.com/share/@55467317-4c40-41a7-b401-2b15b7a7e3f1/2bf34c99-3246-4d4c-85da-c9bf54d084cc.svg" alt="WakaTime 编码活动" width="" height="" />
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 

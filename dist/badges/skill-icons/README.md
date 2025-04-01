@@ -50,7 +50,7 @@ https://skillicons.dev/icons{?i,theme,perline}
 ![技能](https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter&perline=3)
 ```
 
-![技能](https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter\&perline=3)
+<img src="https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter&#38;perline=3" alt="技能" width="" height="" />
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 

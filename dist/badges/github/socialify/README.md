@@ -62,7 +62,7 @@ https://socialify.git.ci/{owner}/{repo}/image{?description,forks,issues,name,own
 ![GitHub Socialify](https://socialify.git.ci/xiaohuohumax/badge-collection/image?font=Rokkitt&forks=1&issues=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fxiaohuohumax%2Flogo%2Frefs%2Fheads%2Fmain%2Flogos%2Flogo.svg&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Auto)
 ```
 
-![GitHub Socialify](https://socialify.git.ci/xiaohuohumax/badge-collection/image?font=Rokkitt\&forks=1\&issues=1\&language=1\&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fxiaohuohumax%2Flogo%2Frefs%2Fheads%2Fmain%2Flogos%2Flogo.svg\&name=1\&owner=1\&pattern=Plus\&pulls=1\&stargazers=1\&theme=Auto)
+<img src="https://socialify.git.ci/xiaohuohumax/badge-collection/image?font=Rokkitt&#38;forks=1&#38;issues=1&#38;language=1&#38;logo=https%3A%2F%2Fraw.githubusercontent.com%2Fxiaohuohumax%2Flogo%2Frefs%2Fheads%2Fmain%2Flogos%2Flogo.svg&#38;name=1&#38;owner=1&#38;pattern=Plus&#38;pulls=1&#38;stargazers=1&#38;theme=Auto" alt="GitHub Socialify" width="" height="" />
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 

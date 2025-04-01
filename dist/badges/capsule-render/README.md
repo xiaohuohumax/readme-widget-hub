@@ -70,14 +70,14 @@ https://capsule-render.vercel.app/api{?type,color,customColorList,theme,section,
 ![页眉](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=capsule%20render&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Decorate%20GitHub%20Profile%20or%20any%20Repo%20like%20me!&descAlignY=51&descAlign=62)
 ```
 
-![页眉](https://capsule-render.vercel.app/api?type=waving\&color=auto\&height=300\&section=header\&text=capsule%20render\&fontSize=90\&animation=fadeIn\&fontAlignY=38\&desc=Decorate%20GitHub%20Profile%20or%20any%20Repo%20like%20me!\&descAlignY=51\&descAlign=62)
+<img src="https://capsule-render.vercel.app/api?type=waving&#38;color=auto&#38;height=300&#38;section=header&#38;text=capsule%20render&#38;fontSize=90&#38;animation=fadeIn&#38;fontAlignY=38&#38;desc=Decorate%20GitHub%20Profile%20or%20any%20Repo%20like%20me!&#38;descAlignY=51&#38;descAlign=62" alt="页眉" width="" height="" />
 
 ```markdown
 <!-- kyechan99/capsule-render -->
 ![页脚](https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer)
 ```
 
-![页脚](https://capsule-render.vercel.app/api?type=waving\&color=auto\&height=100\&section=footer)
+<img src="https://capsule-render.vercel.app/api?type=waving&#38;color=auto&#38;height=100&#38;section=footer" alt="页脚" width="" height="" />
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 

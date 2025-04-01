@@ -88,7 +88,7 @@ https://starlines.qoo.monster/assets/{username}
 ![星标迷你线图](https://stars.medv.io/antonmedv/spark.svg)
 ```
 
-![星标迷你线图](https://stars.medv.io/antonmedv/spark.svg)
+<img src="https://stars.medv.io/antonmedv/spark.svg" alt="星标迷你线图" width="" height="" />
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 

@@ -17,70 +17,33 @@
   <br/>
 </div>
 
-## GitHub Gists Readme
+## GitHub Achievements
 
-**Display a card with your Gists on your GitHub README.md**
+**A Complete List of GitHub Profile Badges and Achievements.**
 
-[![ref-repo]](https://github.com/Yizack/gists-readme)
-[![ref-online-tool]](https://gists-readme.yizack.com/)
-[![ref-official-doc]](https://gists-readme.yizack.com/docs/)
-
-### Parameters
-
-#### Displays a card with your Gists
-
-<details >
-<summary><small>Click to show/close parameters</small></summary><p></p>
-
-| Name | Type | Required | Default | Description | More Description |
-| -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
-| ![ref-querys] | | | | | |
-| `user` | `string` | `true` |  | GitHub profile username |  |
-| `n` | `number` |  | `30` | Number of Gists to display |  |
-| `title` | `string` |  |  | Set the title of the card |  |
-| `theme` | `string` |  | `default` | Set the theme of the card | Supported: `default` `dark`. |
-
-</details>
-
-```txt
-https://gists-readme.yizack.com/api{?user,n,theme,theme}
-```
-
-#### Displays a single Gist
-
-<details >
-<summary><small>Click to show/close parameters</small></summary><p></p>
-
-| Name | Type | Required | Default | Description | More Description |
-| -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
-| ![ref-querys] | | | | | |
-| `id` | `string` | `true` |  | Gist ID |  |
-| `owner` | `boolean` |  | `false` | Shows the owner of the gist |  |
-| `theme` | `string` |  | `default` | Sets the theme of the pin | Supported: `default` `dark`. |
-
-</details>
-
-```txt
-https://gists-readme.yizack.com/api/pin{?id,owner,theme}
-```
+[![ref-repo]](https://github.com/drknzz/GitHub-Achievements)
+[![ref-official-doc]](https://github.com/drknzz/GitHub-Achievements?tab=readme-ov-file#-achievement-list-)
+![ref-static-badge]
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
 
 ### Examples
 
 ```markdown
-<!-- Yizack -->
-![Gists](https://gists-readme.yizack.com/api?user=yizack&theme=dark)
+![Heart On Your Sleeve](https://raw.gitmirror.com/drknzz/GitHub-Achievements/main/Media/Badges/Heart-on-your-sleeve/PNG/HeartOnYourSleeve.png)
 ```
 
-<img src="https://gists-readme.yizack.com/api?user=yizack&#38;theme=dark" alt="Gists" width="" height="" />
-
-```markdown
-<!-- Yizack -->
-![Gists Pin](https://gists-readme.yizack.com/api/pin?id=07694a749c8fc5f4d996a2bd50237939&owner=true&theme=dark)
-```
-
-<img src="https://gists-readme.yizack.com/api/pin?id=07694a749c8fc5f4d996a2bd50237939&#38;owner=true&#38;theme=dark" alt="Gists Pin" width="" height="" />
+<img src="https://raw.gitmirror.com/drknzz/GitHub-Achievements/main/Media/Badges/Heart-on-your-sleeve/PNG/HeartOnYourSleeve.png" alt="Heart On Your Sleeve" width="70px" height="" />
+<img src="https://raw.gitmirror.com/drknzz/GitHub-Achievements/main/Media/Badges/Open-Sourcerer/PNG/OpenSourcerer.png" alt="Open Sourcerer" width="70px" height="" />
+<img src="https://raw.gitmirror.com/drknzz/GitHub-Achievements/main/Media/Badges/Star-Struck/PNG/Skin-Tones/StarStruck_SkinTone1.png" alt="Starstruck" width="70px" height="" />
+<img src="https://raw.gitmirror.com/drknzz/GitHub-Achievements/main/Media/Badges/Quick-Draw/PNG/Skin-Tones/QuickDraw_SkinTone1.png" alt="Quickdraw" width="70px" height="" />
+<img src="https://raw.gitmirror.com/drknzz/GitHub-Achievements/main/Media/Badges/Pair-Extraordinaire/PNG/PairExtraordinaire.png" alt="Pair Extraordinaire" width="70px" height="" />
+<img src="https://raw.gitmirror.com/drknzz/GitHub-Achievements/main/Media/Badges/Pull-Shark/PNG/PullShark.png" alt="Pull Shark" width="70px" height="" />
+<img src="https://raw.gitmirror.com/drknzz/GitHub-Achievements/main/Media/Badges/Galaxy-Brain/PNG/GalaxyBrain.png" alt="Galaxy Brain" width="70px" height="" />
+<img src="https://raw.gitmirror.com/drknzz/GitHub-Achievements/main/Media/Badges/YOLO/PNG/YOLO_Badge.png" alt="YOLO" width="70px" height="" />
+<img src="https://raw.gitmirror.com/drknzz/GitHub-Achievements/main/Media/Badges/GitHub-Sponsor/PNG/GitHubSponsorBadge.png" alt="Public Sponsor" width="70px" height="" />
+<img src="https://raw.gitmirror.com/drknzz/GitHub-Achievements/main/Media/Badges/Mars-2020-Contributor/PNG/Mars2020ContributorBadge.png" alt="Mars 2020 Contributor" width="70px" height="" />
+<img src="https://raw.gitmirror.com/drknzz/GitHub-Achievements/main/Media/Badges/2020-Arctic-Code-Vault-Contributor/PNG/2020ArcticCodeVaultBadge.png" alt="Arctic Code Vault Contributor" width="70px" height="" />
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
 

@@ -17,46 +17,33 @@
   <br/>
 </div>
 
-## Gradgen
+## GitHub Achievements
 
-**Gradgen 是一个简单而强大的徽章生成器，它为 [badgen.net](https://badgen.net/) 上的徽章增添了令人惊叹的渐变效果。**
+**一个 GitHub 个人资料徽章和成就清单。**
 
-[![ref-repo]](https://github.com/bokub/gradgen)
-[![ref-official-doc]](https://github.com/bokub/gradgen?tab=readme-ov-file#usage)
-
-> [!Tip]
-> 由于此项目徽章是基于 [badgen.net](https://badgen.net/) 生成，因此配置参数可直接参考 [badgen.net help](https://badgen.net/help)，下面配置仅展示此项目扩展参数。
-
-### 参数
-
-<details >
-<summary><small>点击显示/关闭参数</small></summary><p></p>
-
-| 名称 | 类型 | 必填 | 默认值 | 参数描述 | 更多描述 |
-| -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
-| ![ref-params] | | | | | |
-| `badgenNetParams` | `any` | `true` |  | [badgen.net 徽章路径参数](https://badgen.net/help) | 例如：`static/...`（静态徽章） `github/...`（Github 相关）。 |
-| ![ref-querys] | | | | | |
-| `gradient` | `string` |  |  | 渐变色 | 格式：`color1,color2` 颜色格式：`HEX` `CSS 颜色`。 |
-| `style` | `string` |  |  | 徽章样式 | 可选值：`flat`。 |
-| `badgenNetQuerys` | `any` |  |  | [badgen.net 徽章查询参数](https://badgen.net/help) | 例如：`color`（图标颜色） `icon`（图标）等。 |
-
-</details>
-
-```txt
-https://gradgen.bokub.workers.dev/{badgenNetParams}{?gradient,badgenNetQuerys
-```
+[![ref-repo]](https://github.com/drknzz/GitHub-Achievements)
+[![ref-official-doc]](https://github.com/drknzz/GitHub-Achievements?tab=readme-ov-file#-achievement-list-)
+![ref-static-badge]
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 
 ### 示例
 
 ```markdown
-![Gradgen](https://gradgen.bokub.workers.dev/github/checks/nodejs/node?gradient=F3722C,F94144&style=flat)
+![Heart On Your Sleeve](https://raw.gitmirror.com/drknzz/GitHub-Achievements/main/Media/Badges/Heart-on-your-sleeve/PNG/HeartOnYourSleeve.png)
 ```
 
-<img src="https://gradgen.bokub.workers.dev/github/checks/nodejs/node?gradient=F3722C,F94144" alt="Gradgen Default" width="" height="" />
-<img src="https://gradgen.bokub.workers.dev/github/checks/nodejs/node?gradient=F3722C,F94144&#38;style=flat" alt="Gradgen Flat" width="" height="" />
+<img src="https://raw.gitmirror.com/drknzz/GitHub-Achievements/main/Media/Badges/Heart-on-your-sleeve/PNG/HeartOnYourSleeve.png" alt="Heart On Your Sleeve" width="70px" height="" />
+<img src="https://raw.gitmirror.com/drknzz/GitHub-Achievements/main/Media/Badges/Open-Sourcerer/PNG/OpenSourcerer.png" alt="Open Sourcerer" width="70px" height="" />
+<img src="https://raw.gitmirror.com/drknzz/GitHub-Achievements/main/Media/Badges/Star-Struck/PNG/Skin-Tones/StarStruck_SkinTone1.png" alt="Starstruck" width="70px" height="" />
+<img src="https://raw.gitmirror.com/drknzz/GitHub-Achievements/main/Media/Badges/Quick-Draw/PNG/Skin-Tones/QuickDraw_SkinTone1.png" alt="Quickdraw" width="70px" height="" />
+<img src="https://raw.gitmirror.com/drknzz/GitHub-Achievements/main/Media/Badges/Pair-Extraordinaire/PNG/PairExtraordinaire.png" alt="Pair Extraordinaire" width="70px" height="" />
+<img src="https://raw.gitmirror.com/drknzz/GitHub-Achievements/main/Media/Badges/Pull-Shark/PNG/PullShark.png" alt="Pull Shark" width="70px" height="" />
+<img src="https://raw.gitmirror.com/drknzz/GitHub-Achievements/main/Media/Badges/Galaxy-Brain/PNG/GalaxyBrain.png" alt="Galaxy Brain" width="70px" height="" />
+<img src="https://raw.gitmirror.com/drknzz/GitHub-Achievements/main/Media/Badges/YOLO/PNG/YOLO_Badge.png" alt="YOLO" width="70px" height="" />
+<img src="https://raw.gitmirror.com/drknzz/GitHub-Achievements/main/Media/Badges/GitHub-Sponsor/PNG/GitHubSponsorBadge.png" alt="Public Sponsor" width="70px" height="" />
+<img src="https://raw.gitmirror.com/drknzz/GitHub-Achievements/main/Media/Badges/Mars-2020-Contributor/PNG/Mars2020ContributorBadge.png" alt="Mars 2020 Contributor" width="70px" height="" />
+<img src="https://raw.gitmirror.com/drknzz/GitHub-Achievements/main/Media/Badges/2020-Arctic-Code-Vault-Contributor/PNG/2020ArcticCodeVaultBadge.png" alt="Arctic Code Vault Contributor" width="70px" height="" />
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 

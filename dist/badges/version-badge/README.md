@@ -53,14 +53,14 @@ https://badge.fury.io/{type}/{packageName}{format}{?icon,icon_color}
 ![Pyhton version](https://badge.fury.io/py/auto-unpack.svg)
 ```
 
-![Pyhton version](https://badge.fury.io/py/auto-unpack.svg)
+<img src="https://badge.fury.io/py/auto-unpack.svg" alt="Pyhton version" width="" height="" />
 
 ```markdown
 <!-- xiaohuohumax/vscode-export-profiles -->
 ![Github repo version](https://badge.fury.io/gh/xiaohuohumax%2Fvscode-export-profiles.svg)
 ```
 
-![Github repo version](https://badge.fury.io/gh/xiaohuohumax%2Fvscode-export-profiles.svg)
+<img src="https://badge.fury.io/gh/xiaohuohumax%2Fvscode-export-profiles.svg" alt="Github repo version" width="" height="" />
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 

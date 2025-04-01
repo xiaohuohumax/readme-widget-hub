@@ -56,7 +56,7 @@ https://custom-icon-badges.demolab.com/{shieldsIoParams}{?host,shieldsIoQuerys}
 ![自定义图标徽章](https://custom-icon-badges.demolab.com/badge/custom-badge-blue.svg?logo=paintbrush&logoColor=white)
 ```
 
-![自定义图标徽章](https://custom-icon-badges.demolab.com/badge/custom-badge-blue.svg?logo=paintbrush\&logoColor=white)
+<img src="https://custom-icon-badges.demolab.com/badge/custom-badge-blue.svg?logo=paintbrush&#38;logoColor=white" alt="自定义图标徽章" width="" height="" />
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 

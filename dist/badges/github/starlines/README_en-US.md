@@ -88,7 +88,7 @@ https://starlines.qoo.monster/assets/{username}
 ![Star Sparkline](https://stars.medv.io/antonmedv/spark.svg)
 ```
 
-![Star Sparkline](https://stars.medv.io/antonmedv/spark.svg)
+<img src="https://stars.medv.io/antonmedv/spark.svg" alt="Star Sparkline" width="" height="" />
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
 

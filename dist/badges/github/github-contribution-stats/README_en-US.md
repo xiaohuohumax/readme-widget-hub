@@ -49,7 +49,7 @@ https://github-contribution-stats.vercel.app/api/{?username}
 ![Contribution Stats](https://github-contribution-stats.vercel.app/api?username=LordDashMe)
 ```
 
-![Contribution Stats](https://github-contribution-stats.vercel.app/api?username=LordDashMe)
+<img src="https://github-contribution-stats.vercel.app/api?username=LordDashMe" alt="Contribution Stats" width="" height="" />
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
 

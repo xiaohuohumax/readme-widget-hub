@@ -51,7 +51,7 @@ https://api.star-history.com/svg{?repos,type}
 ![Star History Chart](https://api.star-history.com/svg?repos=star-history/star-history&type=Date)
 ```
 
-![Star History Chart](https://api.star-history.com/svg?repos=star-history/star-history\&type=Date)
+<img src="https://api.star-history.com/svg?repos=star-history/star-history&#38;type=Date" alt="Star History Chart" width="" height="" />
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 

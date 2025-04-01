@@ -50,7 +50,7 @@ https://www.bestpractices.dev/projects/{id}/badge
 ![OpenSSF Best Practices](https://www.bestpractices.dev/projects/7652/badge)
 ```
 
-![OpenSSF Best Practices](https://www.bestpractices.dev/projects/7652/badge)
+<img src="https://www.bestpractices.dev/projects/7652/badge" alt="OpenSSF Best Practices" width="" height="" />
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 

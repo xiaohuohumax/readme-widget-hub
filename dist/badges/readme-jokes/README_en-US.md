@@ -55,7 +55,7 @@ https://readme-jokes.vercel.app/api{?bgColor,borderColor,qColor,aColor,textColor
 ![README Jokes](https://readme-jokes.vercel.app/api?hideBorder)
 ```
 
-![README Jokes](https://readme-jokes.vercel.app/api?hideBorder)
+<img src="https://readme-jokes.vercel.app/api?hideBorder" alt="README Jokes" width="" height="" />
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
 

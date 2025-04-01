@@ -73,14 +73,14 @@ https://gists-readme.yizack.com/api/pin{?id,owner,theme}
 ![Gists](https://gists-readme.yizack.com/api?user=yizack&theme=dark)
 ```
 
-![Gists](https://gists-readme.yizack.com/api?user=yizack\&theme=dark)
+<img src="https://gists-readme.yizack.com/api?user=yizack&#38;theme=dark" alt="Gists" width="" height="" />
 
 ```markdown
 <!-- Yizack -->
 ![Gists Pin](https://gists-readme.yizack.com/api/pin?id=07694a749c8fc5f4d996a2bd50237939&owner=true&theme=dark)
 ```
 
-![Gists Pin](https://gists-readme.yizack.com/api/pin?id=07694a749c8fc5f4d996a2bd50237939\&owner=true\&theme=dark)
+<img src="https://gists-readme.yizack.com/api/pin?id=07694a749c8fc5f4d996a2bd50237939&#38;owner=true&#38;theme=dark" alt="Gists Pin" width="" height="" />
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 

@@ -77,7 +77,7 @@ https://streak-stats.demolab.com/{?user,theme,hide_border,border_radius,backgrou
 ![GitHub Streak](https://streak-stats.demolab.com/?user=DenverCoder1&theme=dark&hide_border=true)
 ```
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=DenverCoder1\&theme=dark\&hide_border=true)
+<img src="https://streak-stats.demolab.com/?user=DenverCoder1&#38;theme=dark&#38;hide_border=true" alt="GitHub Streak" width="" height="" />
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 

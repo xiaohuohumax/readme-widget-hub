@@ -60,7 +60,7 @@ https://count.getloli.com/@{countId}{?theme,padding,offset,scale,align,pixelated
 ![Moe Counter](https://count.getloli.com/@xiaohuohumax-badge-collection)
 ```
 
-![Moe Counter](https://count.getloli.com/@xiaohuohumax-badge-collection)
+<img src="https://count.getloli.com/@xiaohuohumax-badge-collection" alt="Moe Counter" width="" height="" />
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
 
