@@ -13,7 +13,7 @@
     <a href="https://github.com/xiaohuohumax/badge-collection/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection&countColor=%2337D67A&style=flat&labelStyle=lower" /></a>
-    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badges-52-37D67A?labelColor=555555" /></a>
+    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badges-53-37D67A?labelColor=555555" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
   <div>
@@ -41,6 +41,7 @@
   * [Visitor Badge](dist/badges/visit-counter/web-visitorbadge-nextjs/README.md)
 * [Custom Icon Badges](dist/badges/custom-icon-badges/README.md)
 * [Capsule Render](dist/badges/capsule-render/README.md)
+* [Deploy Badge](dist/badges/deploy-badge/README.md)
 * Discord 徽章
   * [Discord Markdown Badge](dist/badges/discord/dcbadge/README.md)
   * [Discord README Badge](dist/badges/discord/discord-readme-badge/README.md)
