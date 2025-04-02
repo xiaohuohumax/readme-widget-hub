@@ -1,0 +1,56 @@
+{
+  "title": "Deploy Badge",
+  "description": "为你的 README 添加项目部署状态徽章。",
+  "description:en-US": "Generate a deployment badge for your project's README.",
+  "tag": {
+    "repo": "https://github.com/therealsujitk/deploy-badge",
+    "onlineTool": "https://deploy-badge.vercel.app/",
+    "officialDoc": "https://github.com/therealsujitk/deploy-badge?tab=readme-ov-file#usage"
+  },
+  "linkRules": {
+    "querys": [
+      {
+        "name": "url",
+        "type": "string",
+        "required": true,
+        "description": "需要检测的项目地址",
+        "description:en-US": "The URL of the project to be checked"
+      },
+      {
+        "name": "style",
+        "type": "string",
+        "default": "flat",
+        "description": "徽章样式",
+        "description:en-US": "Badge style",
+        "moreDescription": "可选值：`flat` `flat-square` `for-the-badge` `plastic`。",
+        "moreDescription:en-US": "Supported: `flat` `flat-square` `for-the-badge` `plastic`."
+      },
+      {
+        "name": "logo",
+        "type": "string",
+        "description": "Logo 样式",
+        "description:en-US": "Logo style",
+        "moreDescription": "参考：[shields.io](https://shields.io/docs/logos)。",
+        "moreDescription:en-US": "Refer: [shields.io](https://shields.io/docs/logos)."
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "description": "徽章名称",
+        "description:en-US": "Badge name"
+      }
+    ],
+    "uriTemplate": "https://deploy-badge.vercel.app/{?url,style,logo,name}"
+  },
+  "examples": {
+    "annotate": "https://xiaohuohumax.github.io/badge-collection/",
+    "alt": "Deploy Badge",
+    "href": "https://deploy-badge.vercel.app/?url=https://xiaohuohumax.github.io/badge-collection/&logo=github&name=Github+Page",
+    "images": [
+      {
+        "alt": "Deploy Badge",
+        "href": "https://deploy-badge.vercel.app/?url=https://xiaohuohumax.github.io/badge-collection/&logo=github&name=Github+Page"
+      }
+    ]
+  }
+}
