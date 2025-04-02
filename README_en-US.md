@@ -13,7 +13,7 @@
     <a href="https://github.com/xiaohuohumax/badge-collection/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection&countColor=%2337D67A&style=flat&labelStyle=lower" /></a>
-    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badges-55-37D67A?labelColor=555555" /></a>
+    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badges-56-37D67A?labelColor=555555" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
   <div>
@@ -70,6 +70,7 @@
 * [Gradgen](dist/badges/gradgen/README_en-US.md)
 * [Iconify](dist/badges/iconify/README_en-US.md)
 * [Lanyard Profile Readme](dist/badges/lanyard-profile-readme/README_en-US.md)
+* [Last.fm Recently Played README](dist/badges/lastfm-recently-played-readme/README_en-US.md)
 * [m3 Markdown Badges](dist/badges/m3-Markdown-Badges/README_en-US.md)
 * [NodeICO](dist/badges/nodei-co/README_en-US.md)
 * [Open Collective](dist/badges/open-collective/README_en-US.md)
