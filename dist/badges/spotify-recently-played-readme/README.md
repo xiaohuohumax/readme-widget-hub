@@ -17,15 +17,16 @@
   <br/>
 </div>
 
-## Spark
+## Spotify Recently Played README
 
-**Spark 是一个生成精美小图的生成器，称为 sparklines，帮你生成 Github 星标的迷你线图。**
+**在你的 README 中展示最近在 Spotify 上播放的曲目。**
 
-[![ref-repo]](https://github.com/antonmedv/spark)
-[![ref-online-tool]](https://stars.medv.io/)
+[![ref-repo]](https://github.com/JeffreyCA/spotify-recently-played-readme)
+[![ref-official-doc]](https://github.com/JeffreyCA/spotify-recently-played-readme?tab=readme-ov-file#getting-started)
+![ref-need-auth]
 
-> [!Warning]
-> 此服务基于 Github API，会有请求限制，使用需谨慎。
+> [!Tip]
+> 需要授权 Spotify API 才能使用该功能，[授权地址](https://spotify-recently-played-readme.vercel.app/)。
 
 ### 参数
 
@@ -34,14 +35,16 @@
 
 | 名称 | 类型 | 必填 | 默认值 | 参数描述 | 更多描述 |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
-| ![ref-params] | | | | | |
-| `owner` | `string` | `true` |  | Github 用户名 |  |
-| `repo` | `string` | `true` |  | Github 仓库名 |  |
+| ![ref-querys] | | | | | |
+| `user` | `string` |  |  | Spotify 用户名 |  |
+| `count` | `string` |  | `5` | 自定义曲目数量 | 范围：`1` 到 `10`。 |
+| `width` | `string` |  | `400` | 自定义卡片宽度 | 范围：`300` 到 `1000`。 |
+| `unique` | `boolean` |  | `false` | 是否显示最近播放列表中的唯一曲目 | 可选值：`false` `true` `on` `yes` `1`。 |
 
 </details>
 
 ```txt
-https://stars.medv.io/{owner}/{repo}.svg
+https://spotify-recently-played-readme.vercel.app/api{?user,count,width,unique}
 ```
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
@@ -49,11 +52,11 @@ https://stars.medv.io/{owner}/{repo}.svg
 ### 示例
 
 ```markdown
-<!-- antonmedv/spark -->
-![星标迷你线图](https://stars.medv.io/antonmedv/spark.svg)
+<!-- jeffreyca16 -->
+![Spotify](https://spotify-recently-played-readme.vercel.app/api?user=jeffreyca16)
 ```
 
-<img src="https://stars.medv.io/antonmedv/spark.svg" alt="星标迷你线图" width="" height="" />
+<img src="https://spotify-recently-played-readme.vercel.app/api?user=jeffreyca16" alt="Spotify" width="" height="" />
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 

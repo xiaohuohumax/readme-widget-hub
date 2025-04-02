@@ -17,12 +17,16 @@
   <br/>
 </div>
 
-## Contributors Img
+## Spotify Recently Played README
 
-**Generate an image of contributors to keep your README.md in sync.**
+**Display your recently played Spotify tracks on your GitHub profile README.**
 
-[![ref-repo]](https://github.com/lacolaco/contributors-img)
-[![ref-online-tool]](https://contrib.rocks/preview)
+[![ref-repo]](https://github.com/JeffreyCA/spotify-recently-played-readme)
+[![ref-official-doc]](https://github.com/JeffreyCA/spotify-recently-played-readme?tab=readme-ov-file#getting-started)
+![ref-need-auth]
+
+> [!Tip]
+> You need to authorize the Spotify API to use this feature, [authorization address](https://spotify-recently-played-readme.vercel.app/).
 
 ### Parameters
 
@@ -32,15 +36,15 @@
 | Name | Type | Required | Default | Description | More Description |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `repo` | `string` | `true` |  | Repository name | Format: `owner/repo`. |
-| `max` | `number` |  | `100` | Maximum number of contributors to display |  |
-| `columns` | `number` |  | `12` | Number of columns to display |  |
-| `anon` | `number` |  | `0` | Whether to display anonymous contributors | Supported: `0` `1`. |
+| `user` | `string` |  |  | Spotify username |  |
+| `count` | `string` |  | `5` | Custom track count | Range: `1` to `10`. |
+| `width` | `string` |  | `400` | Custom track count | Range: `300` to `1000`. |
+| `unique` | `boolean` |  | `false` | Whether to show only unique tracks in the recently played list | Supported: `false` `true` `on` `yes` `1`. |
 
 </details>
 
 ```txt
-https://contrib.rocks/image{?repo,max,columns,anon}
+https://spotify-recently-played-readme.vercel.app/api{?user,count,width,unique}
 ```
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
@@ -48,11 +52,11 @@ https://contrib.rocks/image{?repo,max,columns,anon}
 ### Examples
 
 ```markdown
-<!-- lacolaco/contributors-img -->
-![Contributors Image](https://contrib.rocks/image?repo=lacolaco/contributors-img)
+<!-- jeffreyca16 -->
+![Spotify](https://spotify-recently-played-readme.vercel.app/api?user=jeffreyca16)
 ```
 
-<img src="https://contrib.rocks/image?repo=lacolaco/contributors-img" alt="Contributors Image" width="" height="" />
+<img src="https://spotify-recently-played-readme.vercel.app/api?user=jeffreyca16" alt="Spotify" width="" height="" />
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
 
