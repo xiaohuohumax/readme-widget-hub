@@ -1,0 +1,134 @@
+{
+  "title": "Last.fm Recently Played README",
+  "description": "在你的 README 中展示最近在 Last.fm 上播放的曲目。",
+  "description:en-US": "Display your recent Last.fm scrobbles on your GitHub profile README.",
+  "tag": {
+    "repo": "https://github.com/JeffreyCA/lastfm-recently-played-readme",
+    "officialDoc": "https://github.com/JeffreyCA/lastfm-recently-played-readme?tab=readme-ov-file#customization"
+  },
+  "linkRules": {
+    "querys": [
+      {
+        "name": "user",
+        "type": "string",
+        "description": "Last.fm 用户名",
+        "description:en-US": "Last.fm username"
+      },
+      {
+        "name": "count",
+        "type": "string",
+        "default": "5",
+        "description": "自定义曲目数量",
+        "description:en-US": "Custom track count",
+        "moreDescription": "范围：`1` 到 `10`。",
+        "moreDescription:en-US": "Range: `1` to `10`."
+      },
+      {
+        "name": "width",
+        "type": "string",
+        "default": "400",
+        "description": "自定义卡片宽度",
+        "description:en-US": "Custom track count",
+        "moreDescription": "范围：`300` 到 `1000`。",
+        "moreDescription:en-US": "Range: `300` to `1000`."
+      },
+      {
+        "name": "loved",
+        "type": "boolean",
+        "default": "false",
+        "description": "是否显示喜欢的曲目心形指示器",
+        "description:en-US": "Show a heart indicator for loved tracks",
+        "moreDescription": "可选值：`true` `false`。",
+        "moreDescription:en-US": "Supported: `true` `false`."
+      },
+      {
+        "name": "show_user",
+        "type": "string",
+        "default": "never",
+        "description": "在指定位置显示您的用户名和头像",
+        "description:en-US": "Show your username and profile picture in the specified location",
+        "moreDescription": "可选值：`never` `always` `header` `footer`。",
+        "moreDescription:en-US": "Supported: `never` `always` `header` `footer`."
+      },
+      {
+        "name": "header_style",
+        "type": "string",
+        "default": "normal",
+        "description": "调整页眉大小或隐藏它",
+        "description:en-US": "Adjust the size of the header or hide it",
+        "moreDescription": "可选值：`none` `compact` `normal` `compact_stats` `normal_stats` `compact_stats_only` `normal_stats_only`。",
+        "moreDescription:en-US": "Supported: `none` `compact` `normal` `compact_stats` `normal_stats` `compact_stats_only` `normal_stats_only`."
+      },
+      {
+        "name": "footer_style",
+        "type": "string",
+        "default": "normal",
+        "description": "调整页脚大小或隐藏它",
+        "description:en-US": "Adjust the size of the footer or hide it",
+        "moreDescription": "可选值：`none` `wave` `compact` `normal` `compact_stats` `normal_stats`。",
+        "moreDescription:en-US": "Supported: `none` `wave` `compact` `normal` `compact_stats` `normal_stats`."
+      },
+      {
+        "name": "border_radius",
+        "type": "number",
+        "default": "10",
+        "description": "卡片圆角半径",
+        "description:en-US": "Adjust the radius of the card",
+        "moreDescription": "范围：`0` 到 `100`。",
+        "moreDescription:en-US": "Range: `0` to `100`."
+      },
+      {
+        "name": "loved_style",
+        "type": "number",
+        "default": "1",
+        "description": "自定义喜爱歌曲的指示器位置",
+        "description:en-US": "Customize the indicator placement for loved tracks",
+        "moreDescription": "可选值：`1` `2` `3` `4`。",
+        "moreDescription:en-US": "Supported: `1` `2` `3` `4`."
+      },
+      {
+        "name": "bg_color",
+        "type": "string",
+        "default": "212121",
+        "description": "自定义卡片背景颜色",
+        "description:en-US": "Customize the background color of the card",
+        "moreDescription": "格式：`RGB/A` `HEX`，例如：`FF0000`。",
+        "moreDescription:en-US": "Format: `RGB/A` `HEX`, e.g. `FF0000`."
+      },
+      {
+        "name": "maxage",
+        "type": "number",
+        "default": "120",
+        "description": "缓存时长",
+        "description:en-US": "Cache duration",
+        "moreDescription": "单位：秒，范围：`60` 到 `3600`。",
+        "moreDescription:en-US": "Unit: seconds, Range: `60` to `3600`."
+      }
+    ],
+    "uriTemplate": "https://lastfm-recently-played.vercel.app/api"
+  },
+  "examples": [
+    {
+      "annotate": "JeffreyCA01",
+      "alt": "Last.fm",
+      "href": "https://lastfm-recently-played.vercel.app/api?user=JeffreyCA01",
+      "images": [
+        {
+          "alt": "Last.fm",
+          "href": "https://lastfm-recently-played.vercel.app/api?user=JeffreyCA01"
+        }
+      ]
+    },
+    {
+      "annotate": "JeffreyCA01",
+      "alt": "Last.fm",
+      "href": "https://lastfm-recently-played.vercel.app/api?user=JeffreyCA01&width=300&count=2&header_style=none",
+      "images": [
+        {
+          "alt": "Last.fm",
+          "href": "https://lastfm-recently-played.vercel.app/api?user=JeffreyCA01&width=300&count=2&header_style=none"
+        }
+      ]
+    }
+  ]
+}
