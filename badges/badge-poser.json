@@ -1,0 +1,54 @@
+{
+  "title": "Badge Poser",
+  "description": "为你的 README 文件添加包含 Packagist 信息的 PHP 徽章‌。",
+  "description:en-US": "he PHP badges, renders some badges for your readme with the packagist information.",
+  "tag": {
+    "repo": "https://github.com/PUGX/badge-poser",
+    "onlineTool": "https://poser.pugx.org/#badges"
+  },
+  "linkRules": {
+    "params": [
+      {
+        "name": "package",
+        "type": "string",
+        "description": "包名",
+        "description:en-US": "Package name",
+        "moreDescription": "例如：`phpunit/phpunit`。",
+        "moreDescription:en-US": "For example: `phpunit/phpunit`."
+      },
+      {
+        "name": "type",
+        "type": "string",
+        "description": "徽章类型",
+        "description:en-US": "Badge type",
+        "moreDescription": "可选值：`v`（最新稳定版本）`v/unstable`（最新不稳定版本）`downloads`（总下载量）`license`（许可证），更多值请参考 [Packagist 徽章](https://poser.pugx.org/#badges)。",
+        "moreDescription:en-US": "Supported: `v` (latest stable version), `v/unstable` (latest unstable version), `downloads` (total downloads), `license` (license), and more values can be found in [Packagist badges](https://poser.pugx.org/#badges)."
+      }
+    ],
+    "querys": [
+      {
+        "name": "style",
+        "type": "string",
+        "default": "flat",
+        "description": "徽章整体风格",
+        "description:en-US": "Badge style",
+        "moreDescription": "可选值：`flat` `flat-square` `plastic` `for-the-badge`。",
+        "moreDescription:en-US": "Supported: `flat` `flat-square` `plastic` `for-the-badge`."
+      }
+    ],
+    "uriTemplate": "https://poser.pugx.org/{package}/{type}{?style}"
+  },
+  "examples": {
+    "annotate": "phpunit/phpunit",
+    "alt": "最新稳定版本",
+    "alt:en-US": "Latest Stable Version",
+    "href": "http://poser.pugx.org/phpunit/phpunit/v",
+    "images": [
+      {
+        "alt": "最新稳定版本",
+        "alt:en-US": "Latest Stable Version",
+        "href": "http://poser.pugx.org/phpunit/phpunit/v"
+      }
+    ]
+  }
+}
