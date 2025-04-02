@@ -1,5 +1,11 @@
 # @badge-collection/meta
 
+## 1.3.0
+
+### Minor Changes
+
+- 添加需要授权标签
+
 ## 1.2.0
 
 ### Minor Changes

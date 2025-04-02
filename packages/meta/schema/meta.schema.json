@@ -225,6 +225,10 @@
         "^staticBadge:.+$": {
           "type": "string",
           "description": "Static badge."
+        },
+        "^needAuth:.+$": {
+          "type": "string",
+          "description": "Need authentication."
         }
       },
       "properties": {
@@ -247,6 +251,10 @@
         "staticBadge": {
           "type": "string",
           "description": "Static badge."
+        },
+        "needAuth": {
+          "type": "string",
+          "description": "Need authentication."
         }
       },
       "additionalProperties": false,
@@ -255,7 +263,8 @@
         "onlineTool",
         "officialDoc",
         "needRegister",
-        "staticBadge"
+        "staticBadge",
+        "needAuth"
       ]
     },
     "badgeLayout": {

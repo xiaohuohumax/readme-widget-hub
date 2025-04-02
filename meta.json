@@ -36,7 +36,9 @@
         "needRegister": "需要注册",
         "needRegister:en-US": "Need Register",
         "staticBadge": "静态徽章",
-        "staticBadge:en-US": "Static Badge"
+        "staticBadge:en-US": "Static Badge",
+        "needAuth": "需要授权",
+        "needAuth:en-US": "Need Auth"
       },
       "paramsTitle": "参数",
       "paramsTitle:en-US": "Parameters",

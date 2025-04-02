@@ -1,5 +1,13 @@
 # @badge-collection/manager
 
+## 1.0.4
+
+### Patch Changes
+
+- Updated dependencies
+  - @badge-collection/badge@1.4.0
+  - @badge-collection/meta@1.3.0
+
 ## 1.0.3
 
 ### Patch Changes

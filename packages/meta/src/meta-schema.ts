@@ -49,6 +49,10 @@ export const tagSchema = {
       type: 'string',
       description: 'Static badge.',
     },
+    '^needAuth:.+$': {
+      type: 'string',
+      description: 'Need authentication.',
+    },
   },
   properties: {
     repo: {
@@ -71,6 +75,10 @@ export const tagSchema = {
       type: 'string',
       description: 'Static badge.',
     },
+    needAuth: {
+      type: 'string',
+      description: 'Need authentication.',
+    },
   },
   additionalProperties: false,
   required: [
@@ -79,6 +87,7 @@ export const tagSchema = {
     'officialDoc',
     'needRegister',
     'staticBadge',
+    'needAuth',
   ],
 } as const satisfies JSONSchema
 
