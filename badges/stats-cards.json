@@ -1,0 +1,157 @@
+{
+  "title": "Stats Cards",
+  "description": "在 README 中展示网站数据（B站、知乎、GitHub、CSDN、LeetCode等），也可用于网站状态监控。",
+  "description:en-US": "Show website stats (Bilibili, Zhihu, GitHub, CSDN, LeetCode, etc.) in README, or use it for website status monitoring.",
+  "tag": {
+    "repo": "https://github.com/songquanpeng/stats-cards",
+    "officialDoc": "https://github.com/songquanpeng/stats-cards#readme"
+  },
+  "linkRules": [
+    {
+      "querys": [
+        {
+          "name": "url",
+          "type": "string",
+          "required": true,
+          "description": "监控目标网站地址",
+          "description:en-US": "The URL of the website to be monitored"
+        },
+        {
+          "name": "logo",
+          "type": "string",
+          "description": "徽章 Logo",
+          "description:en-US": "Badge logo",
+          "moreDescription": "参考 [shield.io](https://shields.io/docs/logos)。",
+          "moreDescription:en-US": "Refer to [shields.io](https://shields.io/) for more information."
+        },
+        {
+          "name": "style",
+          "type": "string",
+          "description": "徽章样式",
+          "description:en-US": "Badge style",
+          "default": "flat",
+          "moreDescription": "可选值：`flat` `flat-square` `for-the-badge` `plastic` `social`。",
+          "moreDescription:en-US": "Supported: `flat` `flat-square` `for-the-badge` `plastic` `social`."
+        }
+      ],
+      "description": "网站监控",
+      "uriTemplate": "https://stats.justsong.cn/api/website/{?url,logo,style}"
+    },
+    {
+      "params": [
+        {
+          "name": "platform",
+          "type": "string",
+          "description": "数据来源平台",
+          "description:en-US": "Data source platform",
+          "moreDescription": "可选值：`github` `zhihu` `bilibili` `leetcode` `juejin` `csdn` `nowcoder` `steam`。",
+          "moreDescription:en-US": "Supported: `github` `zhihu` `bilibili` `leetcode` `juejin` `csdn` `nowcoder` `steam`."
+        }
+      ],
+      "querys": [
+        {
+          "name": "theme",
+          "type": "string",
+          "default": "light",
+          "description": "主题",
+          "description:en-US": "Theme",
+          "moreDescription": "可选值：`light` `dark` `dark2` `radical` 更多主题参考 [theme.js](https://github.com/songquanpeng/stats-cards/blob/master/common/theme.js)。",
+          "moreDescription:en-US": "Supported: `light` `dark` `dark2` `radical`. More themes refer to [theme.js](https://github.com/songquanpeng/stats-cards/blob/master/common/theme.js)."
+        },
+        {
+          "name": "username",
+          "type": "string",
+          "required": true,
+          "description": "用户名",
+          "description:en-US": "Username",
+          "moreDescription": "适用平台: `github` `zhihu` `leetcode`。",
+          "moreDescription:en-US": "Applicable platforms: `github` `zhihu` `leetcode`."
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "required": true,
+          "description": "ID",
+          "description:en-US": "ID",
+          "moreDescription": "适用平台: `bilibili` `juejin` `csdn` `nowcoder`。",
+          "moreDescription:en-US": "Applicable platforms: `bilibili` `juejin` `csdn` `nowcoder`."
+        },
+        {
+          "name": "lang",
+          "type": "string",
+          "default": "en-US",
+          "description": "语言",
+          "description:en-US": "Language",
+          "moreDescription": "可选值：`en-US` `zh-CN`。",
+          "moreDescription:en-US": "Supported: `en-US` `zh-CN`."
+        },
+        {
+          "name": "cn",
+          "type": "boolean",
+          "default": "false",
+          "description": "LeetCode 中文站",
+          "description:en-US": "LeetCode Chinese Site",
+          "moreDescription": "适用平台: `leetcode`。",
+          "moreDescription:en-US": "Applicable platforms: `leetcode`."
+        },
+        {
+          "name": "cn_username",
+          "type": "string",
+          "description": "LeetCode 中文站用户名",
+          "description:en-US": "LeetCode Chinese Site Username",
+          "moreDescription": "适用平台: `leetcode`，同时显示中英双站数据：同时配置`username` 和 `cn_username`即可。",
+          "moreDescription:en-US": "Applicable platforms: `leetcode`, display both English and Chinese data: set `username` and `cn_username` at the same time."
+        }
+      ],
+      "description": "网站数据",
+      "uriTemplate": "https://stats.justsong.cn/api/{platform}{?username,id,lang,cn,cn_username,theme}"
+    }
+  ],
+  "examples": [
+    {
+      "alt": "GitHub 状态",
+      "alt:en-US": "GitHub Status",
+      "href": "https://stats.justsong.cn/api/website/?url=https://github.com/&style=flat&logo=github",
+      "images": [
+        {
+          "alt": "GitHub 状态",
+          "alt:en-US": "GitHub Status",
+          "href": "https://stats.justsong.cn/api/website/?url=https://github.com/&style=flat&logo=github"
+        }
+      ]
+    },
+    {
+      "annotate": "掘金酱",
+      "alt": "掘金酱的掘金数据",
+      "href": "https://stats.justsong.cn/api/juejin?id=1556564194374926&lang=zh-CN&theme=dark",
+      "images": [
+        {
+          "alt": "掘金酱的掘金数据",
+          "href": "https://stats.justsong.cn/api/juejin?id=1556564194374926&lang=zh-CN&theme=dark"
+        }
+      ]
+    },
+    {
+      "annotate": "quanpeng",
+      "alt": "quanpeng",
+      "href": "https://stats.justsong.cn/api/leetcode/?username=quanpeng&cn_username=quanpeng&theme=dark",
+      "images": [
+        {
+          "alt": "quanpeng",
+          "href": "https://stats.justsong.cn/api/leetcode/?username=quanpeng&cn_username=quanpeng&theme=dark"
+        }
+      ]
+    },
+    {
+      "annotate": "红警魔鬼蓝天",
+      "alt": "蓝天的 B 站数据",
+      "href": "https://stats.justsong.cn/api/bilibili/?id=483246073&lang=zh-CN&theme=dark",
+      "images": [
+        {
+          "alt": "蓝天的 B 站数据",
+          "href": "https://stats.justsong.cn/api/bilibili/?id=483246073&lang=zh-CN&theme=dark"
+        }
+      ]
+    }
+  ]
+}
