@@ -13,7 +13,7 @@
     <a href="https://github.com/xiaohuohumax/badge-collection/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection&countColor=%2337D67A&style=flat&labelStyle=lower" /></a>
-    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badges-58-37D67A?labelColor=555555" /></a>
+    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badges-59-37D67A?labelColor=555555" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
   <div>
@@ -35,6 +35,7 @@
 * [GitHub Readme Stats](dist/badges/github-readme-stats/README_en-US.md)
 * Visit Counter Badge
   * [GitHub Profile Views Counter](dist/badges/visit-counter/github-profile-views-counter/README_en-US.md)
+  * [Profile views counter](dist/badges/visit-counter/go-u8views/README_en-US.md)
   * [HITS](dist/badges/visit-counter/hit-counter/README_en-US.md)
   * [Moe Counter](dist/badges/visit-counter/moe-counter/README_en-US.md)
   * [Profile Counter](dist/badges/visit-counter/profile-counter/README_en-US.md)
