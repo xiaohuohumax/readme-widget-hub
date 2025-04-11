@@ -1,0 +1,85 @@
+{
+  "title": "Github Stats",
+  "description": "GitHub Readme 多维度统计展示。",
+  "description:en-US": "Github readme stats in multi angles.",
+  "tag": {
+    "repo": "https://github.com/hyochan/github-stats",
+    "onlineTool": "https://stats.hyo.dev/",
+    "officialDoc": "https://github.com/hyochan/github-stats?tab=readme-ov-file#github-stats"
+  },
+  "linkRules": [
+    {
+      "params": [
+        {
+          "name": "type",
+          "type": "string",
+          "description": "统计类型",
+          "description:en-US": "Statistics type",
+          "moreDescription": "可选值：`github-stats-advanced`（详细）`github-stats`（简略）。",
+          "moreDescription:en-US": "Supported: `github-stats-advanced` (detailed) `github-stats` (brief)."
+        }
+      ],
+      "querys": [
+        {
+          "name": "login",
+          "type": "string",
+          "required": true,
+          "description": "Github 用户名",
+          "description:en-US": "Github username"
+        }
+      ],
+      "description": "Github 统计",
+      "description:en-US": "Github stats",
+      "uriTemplate": "https://stats.hyo.dev/api/{type}{?login}"
+    },
+    {
+      "querys": [
+        {
+          "name": "login",
+          "type": "string",
+          "required": true,
+          "description": "Github 用户名",
+          "description:en-US": "Github username"
+        }
+      ],
+      "description": "Github 奖杯",
+      "description:en-US": "GitHub Trophies",
+      "uriTemplate": "https://stats.hyo.dev/api/github-trophies{?login}"
+    }
+  ],
+  "examples": [
+    {
+      "annotate": "hyochan",
+      "alt": "github-stats",
+      "href": "https://stats.hyo.dev/api/github-stats?login=hyochan",
+      "images": [
+        {
+          "alt": "github-stats",
+          "href": "https://stats.hyo.dev/api/github-stats?login=hyochan"
+        }
+      ]
+    },
+    {
+      "annotate": "hyochan",
+      "alt": "github-stats",
+      "href": "https://stats.hyo.dev/api/github-stats-advanced?login=hyochan",
+      "images": [
+        {
+          "alt": "github-stats",
+          "href": "https://stats.hyo.dev/api/github-stats-advanced?login=hyochan"
+        }
+      ]
+    },
+    {
+      "annotate": "hyochan",
+      "alt": "github-trophies",
+      "href": "https://stats.hyo.dev/api/github-trophies?login=hyochan",
+      "images": [
+        {
+          "alt": "github-trophies",
+          "href": "https://stats.hyo.dev/api/github-trophies?login=hyochan"
+        }
+      ]
+    }
+  ]
+}
