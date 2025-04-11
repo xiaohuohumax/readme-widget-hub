@@ -25,6 +25,8 @@
           "moreDescription:en-US": "Supported: `followers` `repositories` `stars` `commits`. Multiple data can be separated by `,`. For example: `followers,repositories,stars,commits`."
         }
       ],
+      "description": "个人资料",
+      "description:en-US": "Profile",
       "uriTemplate": "https://github-widgetbox.vercel.app/api/profile{?username,data}"
     },
     {
