@@ -13,7 +13,7 @@
     <a href="https://github.com/xiaohuohumax/badge-collection/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection&countColor=%2337D67A&style=flat&labelStyle=lower" /></a>
-    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badges-57-37D67A?labelColor=555555" /></a>
+    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badges-58-37D67A?labelColor=555555" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
   <div>
@@ -58,6 +58,7 @@
   * [GitHub Profile Trophy](dist/badges/github/github-profile-trophy/README.md)
   * [Github Readme Activity Graph](dist/badges/github/github-readme-activity-graph/README.md)
   * [Github Readme Streak Stats](dist/badges/github/github-readme-streak-stats/README.md)
+  * [Github Stats](dist/badges/github/github-stats/README.md)
   * [GitHub Widgetbox](dist/badges/github/github-widgetbox/README.md)
   * [GitHub Workflows Badge](dist/badges/github/github-workflows/README.md)
   * [Github Chart API](dist/badges/github/githubchart-api/README.md)

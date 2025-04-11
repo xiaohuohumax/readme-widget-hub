@@ -17,33 +17,35 @@
   <br/>
 </div>
 
-## GitHub Widgetbox
+## Github Stats
 
-**美丽的动态小部件，适用于 GitHub Readme 页面（统计信息、技能等）。**
+**GitHub Readme 多维度统计展示。**
 
-[![ref-repo]](https://github.com/Jurredr/github-widgetbox)
-[![ref-official-doc]](https://github.com/Jurredr/github-widgetbox?tab=readme-ov-file#widgets)
+[![ref-repo]](https://github.com/hyochan/github-stats)
+[![ref-online-tool]](https://stats.hyo.dev/)
+[![ref-official-doc]](https://github.com/hyochan/github-stats?tab=readme-ov-file#github-stats)
 
 ### 参数
 
-#### 个人资料
+#### Github 统计
 
 <details >
 <summary><small>点击显示/关闭参数</small></summary><p></p>
 
 | 名称 | 类型 | 必填 | 默认值 | 参数描述 | 更多描述 |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
+| ![ref-params] | | | | | |
+| `type` | `string` | `true` |  | 统计类型 | 可选值：`github-stats-advanced`（详细）`github-stats`（简略）。 |
 | ![ref-querys] | | | | | |
-| `username` | `string` | `true` |  | Github 用户名 |  |
-| `data` | `string` |  |  | 需要展示的数据 | 可选值：`followers` `repositories` `stars` `commits`，多个数据用 `,` 分隔，例如：`followers,repositories,stars,commits`。 |
+| `login` | `string` | `true` |  | Github 用户名 |  |
 
 </details>
 
 ```txt
-https://github-widgetbox.vercel.app/api/profile{?username,data}
+https://stats.hyo.dev/api/{type}{?login}
 ```
 
-#### 技能
+#### Github 奖杯
 
 <details >
 <summary><small>点击显示/关闭参数</small></summary><p></p>
@@ -51,18 +53,12 @@ https://github-widgetbox.vercel.app/api/profile{?username,data}
 | 名称 | 类型 | 必填 | 默认值 | 参数描述 | 更多描述 |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `languages` | `string` |  |  | 语言 | 格式：语言名称用 `,` 分隔，例如：`javascript,python,html,css`。 |
-| `frameworks` | `string` |  |  | 框架 | 格式：多个框架用 `,` 分隔，例如：`react,vue,angular`。 |
-| `libraries` | `string` |  |  | 库 | 格式：多个库用 `,` 分隔，例如：`react,vue,angular`。 |
-| `tools` | `string` |  |  | 工具 | 格式：多个工具用 `,` 分隔，例如：`git,docker,npm,yarn,webpack`。 |
-| `software` | `string` |  |  | 软件 | 格式：多个软件用 `,` 分隔，例如：`windows,linux,vscode`。 |
-| `includeNames` | `boolean` |  | `false` | 是否显示名称 | 可选值：`true` `false`。 |
-| `theme` | `string` |  |  | 主题 | 可选值：`default` `darkmode` `viridescent` `carbon` `nautilus` `serika`。 |
+| `login` | `string` | `true` |  | Github 用户名 |  |
 
 </details>
 
 ```txt
-https://github-widgetbox.vercel.app/api/skills{?languages,frameworks,libraries,software,includeNames,theme}
+https://stats.hyo.dev/api/github-trophies{?login}
 ```
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
@@ -70,17 +66,25 @@ https://github-widgetbox.vercel.app/api/skills{?languages,frameworks,libraries,s
 ### 示例
 
 ```markdown
-<!-- Jurredr -->
-![个人资料](https://github-widgetbox.vercel.app/api/profile?username=Jurredr&data=followers,repositories,stars,commits&theme=darkmode)
+<!-- hyochan -->
+![github-stats](https://stats.hyo.dev/api/github-stats?login=hyochan)
 ```
 
-<img src="https://github-widgetbox.vercel.app/api/profile?username=Jurredr&#38;data=followers,repositories,stars,commits&#38;theme=darkmode" alt="个人资料" width="" height="" />
+<img src="https://stats.hyo.dev/api/github-stats?login=hyochan" alt="github-stats" width="" height="" />
 
 ```markdown
-![技能](https://github-widgetbox.vercel.app/api/skills?frameworks=vue,react,electron,bootstrap,tailwind,express&includeNames=true&theme=darkmode)
+<!-- hyochan -->
+![github-stats](https://stats.hyo.dev/api/github-stats-advanced?login=hyochan)
 ```
 
-<img src="https://github-widgetbox.vercel.app/api/skills?frameworks=vue,react,electron,bootstrap,tailwind,express&#38;includeNames=true&#38;theme=darkmode" alt="技能" width="" height="" />
+<img src="https://stats.hyo.dev/api/github-stats-advanced?login=hyochan" alt="github-stats" width="" height="" />
+
+```markdown
+<!-- hyochan -->
+![github-trophies](https://stats.hyo.dev/api/github-trophies?login=hyochan)
+```
+
+<img src="https://stats.hyo.dev/api/github-trophies?login=hyochan" alt="github-trophies" width="" height="" />
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 

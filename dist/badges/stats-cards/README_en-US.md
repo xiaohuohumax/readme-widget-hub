@@ -26,7 +26,7 @@
 
 ### Parameters
 
-#### 网站监控
+#### Website monitoring
 
 <details >
 <summary><small>Click to show/close parameters</small></summary><p></p>
@@ -44,7 +44,7 @@
 https://stats.justsong.cn/api/website/{?url,logo,style}
 ```
 
-#### 网站数据
+#### Website data
 
 <details >
 <summary><small>Click to show/close parameters</small></summary><p></p>

@@ -17,33 +17,35 @@
   <br/>
 </div>
 
-## GitHub Widgetbox
+## Github Stats
 
-**Beautiful, dynamic widgets for GitHub Readme pages (Statistics, Skills, etc).**
+**Github readme stats in multi angles.**
 
-[![ref-repo]](https://github.com/Jurredr/github-widgetbox)
-[![ref-official-doc]](https://github.com/Jurredr/github-widgetbox?tab=readme-ov-file#widgets)
+[![ref-repo]](https://github.com/hyochan/github-stats)
+[![ref-online-tool]](https://stats.hyo.dev/)
+[![ref-official-doc]](https://github.com/hyochan/github-stats?tab=readme-ov-file#github-stats)
 
 ### Parameters
 
-#### Profile
+#### Github stats
 
 <details >
 <summary><small>Click to show/close parameters</small></summary><p></p>
 
 | Name | Type | Required | Default | Description | More Description |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
+| ![ref-params] | | | | | |
+| `type` | `string` | `true` |  | Statistics type | Supported: `github-stats-advanced` (detailed) `github-stats` (brief). |
 | ![ref-querys] | | | | | |
-| `username` | `string` | `true` |  | Github Username |  |
-| `data` | `string` |  |  | Data to show | Supported: `followers` `repositories` `stars` `commits`. Multiple data can be separated by `,`. For example: `followers,repositories,stars,commits`. |
+| `login` | `string` | `true` |  | Github username |  |
 
 </details>
 
 ```txt
-https://github-widgetbox.vercel.app/api/profile{?username,data}
+https://stats.hyo.dev/api/{type}{?login}
 ```
 
-#### Skills
+#### GitHub Trophies
 
 <details >
 <summary><small>Click to show/close parameters</small></summary><p></p>
@@ -51,18 +53,12 @@ https://github-widgetbox.vercel.app/api/profile{?username,data}
 | Name | Type | Required | Default | Description | More Description |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `languages` | `string` |  |  | Languages | Format: Languages are separated by `,`. For example: `javascript,python,html,css`. |
-| `frameworks` | `string` |  |  | Frameworks | Format: Multiple frameworks are separated by `,`. For example: `react,vue,angular`. |
-| `libraries` | `string` |  |  | Libraries | Format: Multiple libraries are separated by `,`. For example: `react,vue,angular`. |
-| `tools` | `string` |  |  | Tools | Format: Multiple tools are separated by `,`. For example: `git,docker,npm,yarn,webpack`. |
-| `software` | `string` |  |  | Software | Format: Multiple software are separated by `,`. For example: `windows,linux,vscode`. |
-| `includeNames` | `boolean` |  | `false` | Show Names | Supported: `true` `false`. |
-| `theme` | `string` |  |  | Theme | Supported: `default` `darkmode` `viridescent` `carbon` `nautilus` `serika`. |
+| `login` | `string` | `true` |  | Github username |  |
 
 </details>
 
 ```txt
-https://github-widgetbox.vercel.app/api/skills{?languages,frameworks,libraries,software,includeNames,theme}
+https://stats.hyo.dev/api/github-trophies{?login}
 ```
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
@@ -70,17 +66,25 @@ https://github-widgetbox.vercel.app/api/skills{?languages,frameworks,libraries,s
 ### Examples
 
 ```markdown
-<!-- Jurredr -->
-![Profile](https://github-widgetbox.vercel.app/api/profile?username=Jurredr&data=followers,repositories,stars,commits&theme=darkmode)
+<!-- hyochan -->
+![github-stats](https://stats.hyo.dev/api/github-stats?login=hyochan)
 ```
 
-<img src="https://github-widgetbox.vercel.app/api/profile?username=Jurredr&#38;data=followers,repositories,stars,commits&#38;theme=darkmode" alt="Profile" width="" height="" />
+<img src="https://stats.hyo.dev/api/github-stats?login=hyochan" alt="github-stats" width="" height="" />
 
 ```markdown
-![Skills](https://github-widgetbox.vercel.app/api/skills?frameworks=vue,react,electron,bootstrap,tailwind,express&includeNames=true&theme=darkmode)
+<!-- hyochan -->
+![github-stats](https://stats.hyo.dev/api/github-stats-advanced?login=hyochan)
 ```
 
-<img src="https://github-widgetbox.vercel.app/api/skills?frameworks=vue,react,electron,bootstrap,tailwind,express&#38;includeNames=true&#38;theme=darkmode" alt="Skills" width="" height="" />
+<img src="https://stats.hyo.dev/api/github-stats-advanced?login=hyochan" alt="github-stats" width="" height="" />
+
+```markdown
+<!-- hyochan -->
+![github-trophies](https://stats.hyo.dev/api/github-trophies?login=hyochan)
+```
+
+<img src="https://stats.hyo.dev/api/github-trophies?login=hyochan" alt="github-trophies" width="" height="" />
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
 
