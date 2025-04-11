@@ -12,8 +12,8 @@ hero:
       link: {{localeCode}}/badges/shields-io
 
 features:
-{{each features}}  - title: {{$value.title}}
-    details: {{$value.details}}
+{{each features}}  - title: "{{$value.title}}"
+    details: "{{$value.details}}"
     link: {{$value.link}}
 {{/each}}
 ---

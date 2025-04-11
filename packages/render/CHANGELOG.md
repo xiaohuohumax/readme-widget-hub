@@ -1,5 +1,11 @@
 # @badge-collection/render
 
+## 1.4.1
+
+### Patch Changes
+
+- 修复徽章描述信息包含字符:时打包异常
+
 ## 1.4.0
 
 ### Minor Changes

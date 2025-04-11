@@ -1,7 +1,7 @@
 {
   "name": "@badge-collection/docs",
   "type": "module",
-  "version": "3.0.5",
+  "version": "3.0.6",
   "private": true,
   "license": "MIT",
   "scripts": {

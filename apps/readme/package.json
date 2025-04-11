@@ -1,7 +1,7 @@
 {
   "name": "@badge-collection/readme",
   "type": "module",
-  "version": "3.0.5",
+  "version": "3.0.6",
   "private": true,
   "scripts": {
     "dev": "vite",
