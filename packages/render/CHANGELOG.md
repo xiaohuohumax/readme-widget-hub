@@ -1,5 +1,11 @@
 # @badge-collection/render
 
+## 1.4.2
+
+### Patch Changes
+
+- 修复多个示例徽章换行异常
+
 ## 1.4.1
 
 ### Patch Changes

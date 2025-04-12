@@ -8,7 +8,10 @@
 <!-- {{$value.annotate}} -->{{/if}}
 ![{{$value.alt}}]({{@$value.href}})
 ```
-{{each $value.images}}
-<img src="{{$value.href}}" alt="{{$value.alt}}" width="{{$value.width}}" height="{{$value.height}}" />{{/each}}
+{{if $value.images.length>0}}
+<div>{{each $value.images}}
+  <img src="{{$value.href}}" alt="{{$value.alt}}" width="{{$value.width}}" height="{{$value.height}}" />{{/each}}
+</div>
+{{/if}}
 
 {{/each}}
