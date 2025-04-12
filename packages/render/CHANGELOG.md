@@ -1,5 +1,11 @@
 # @badge-collection/render
 
+## 1.4.3
+
+### Patch Changes
+
+- 修复示例徽章无效宽高参数问题
+
 ## 1.4.2
 
 ### Patch Changes

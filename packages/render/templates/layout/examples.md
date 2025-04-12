@@ -10,7 +10,7 @@
 ```
 {{if $value.images.length>0}}
 <div>{{each $value.images}}
-  <img src="{{$value.href}}" alt="{{$value.alt}}" width="{{$value.width}}" height="{{$value.height}}" />{{/each}}
+  <img src="{{$value.href}}" alt="{{$value.alt}}"{{if $value.width}} width="{{$value.width}}"{{/if}}{{if $value.height}} height="{{$value.height}}"{{/if}} />{{/each}}
 </div>
 {{/if}}
 
