@@ -56,7 +56,7 @@ https://gtce.itsvg.in/api{?username,theme,icon,time,response,border}
 ```
 
 <div>
-  <img src="https://gtce.itsvg.in/api?username=VishwaGauravIn&#38;theme=jolly&#38;response=false&#38;border=false" alt="Twitter Card" width="" height="" />
+  <img src="https://gtce.itsvg.in/api?username=VishwaGauravIn&#38;theme=jolly&#38;response=false&#38;border=false" alt="Twitter Card" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>

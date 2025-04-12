@@ -34,7 +34,7 @@
 ```
 
 <div>
-  <img src="https://forthebadge.com/images/featured/featured-built-with-love.svg" alt="Built with love" width="" height="" />
+  <img src="https://forthebadge.com/images/featured/featured-built-with-love.svg" alt="Built with love" />
 </div>
 
 ```markdown
@@ -42,7 +42,7 @@
 ```
 
 <div>
-  <img src="https://forthebadge.com/images/featured/featured-uses-html.svg" alt="Uses HTML" width="" height="" />
+  <img src="https://forthebadge.com/images/featured/featured-uses-html.svg" alt="Uses HTML" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>

@@ -78,7 +78,7 @@ https://nodei.co/npm-dl/{package}.png{?months,height}
 ```
 
 <div>
-  <img src="https://nodei.co/npm/vue.png" alt="Vue" width="" height="" />
+  <img src="https://nodei.co/npm/vue.png" alt="Vue" />
 </div>
 
 ```markdown
@@ -87,7 +87,7 @@ https://nodei.co/npm-dl/{package}.png{?months,height}
 ```
 
 <div>
-  <img src="https://nodei.co/npm-dl/vue.png" alt="Vue" width="" height="" />
+  <img src="https://nodei.co/npm-dl/vue.png" alt="Vue" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>

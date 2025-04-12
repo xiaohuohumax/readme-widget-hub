@@ -74,7 +74,7 @@ https://render.gitanimals.org/guilds/{guildId}/draw
 ```
 
 <div>
-  <img src="https://render.gitanimals.org/lines/xiaohuohumax" alt="Git Animals" width="" height="" />
+  <img src="https://render.gitanimals.org/lines/xiaohuohumax" alt="Git Animals" />
 </div>
 
 #### 农场模式
@@ -85,7 +85,7 @@ https://render.gitanimals.org/guilds/{guildId}/draw
 ```
 
 <div>
-  <img src="https://render.gitanimals.org/farms/xiaohuohumax" alt="Git Animals" width="" height="" />
+  <img src="https://render.gitanimals.org/farms/xiaohuohumax" alt="Git Animals" />
 </div>
 
 #### 公会模式
@@ -96,7 +96,7 @@ https://render.gitanimals.org/guilds/{guildId}/draw
 ```
 
 <div>
-  <img src="https://render.gitanimals.org/guilds/668749238833660322/draw" alt="Git Animals" width="" height="" />
+  <img src="https://render.gitanimals.org/guilds/668749238833660322/draw" alt="Git Animals" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>

@@ -50,7 +50,7 @@ https://github-contribution-stats.vercel.app/api/{?username}
 ```
 
 <div>
-  <img src="https://github-contribution-stats.vercel.app/api?username=LordDashMe" alt="贡献统计" width="" height="" />
+  <img src="https://github-contribution-stats.vercel.app/api?username=LordDashMe" alt="贡献统计" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>

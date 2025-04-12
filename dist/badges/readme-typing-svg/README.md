@@ -64,7 +64,7 @@ https://readme-typing-svg.demolab.com{?lines,height,width,size,font,color,backgr
 ```
 
 <div>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&#38;pause=1000&#38;width=435&#38;lines=Hello+World;Badge+Collection" alt="Readme Typing SVG" width="" height="" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&#38;pause=1000&#38;width=435&#38;lines=Hello+World;Badge+Collection" alt="Readme Typing SVG" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>

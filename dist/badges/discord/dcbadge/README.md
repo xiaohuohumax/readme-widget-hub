@@ -56,7 +56,7 @@ https://dcbadge.limes.pink/api/{type}/{id}{?style,theme,compact,logoColor,bot}
 ```
 
 <div>
-  <img src="https://dcbadge.limes.pink/api/shield/406125028065804289" alt="用户" width="" height="" />
+  <img src="https://dcbadge.limes.pink/api/shield/406125028065804289" alt="用户" />
 </div>
 
 ```markdown
@@ -64,7 +64,7 @@ https://dcbadge.limes.pink/api/{type}/{id}{?style,theme,compact,logoColor,bot}
 ```
 
 <div>
-  <img src="https://dcbadge.limes.pink/api/server/zkspfFwqDg" alt="服务器" width="" height="" />
+  <img src="https://dcbadge.limes.pink/api/server/zkspfFwqDg" alt="服务器" />
 </div>
 
 ```markdown
@@ -72,7 +72,7 @@ https://dcbadge.limes.pink/api/{type}/{id}{?style,theme,compact,logoColor,bot}
 ```
 
 <div>
-  <img src="https://dcbadge.limes.pink/api/shield/852977967776399400?bot=true" alt="机器人" width="" height="" />
+  <img src="https://dcbadge.limes.pink/api/shield/852977967776399400?bot=true" alt="机器人" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>

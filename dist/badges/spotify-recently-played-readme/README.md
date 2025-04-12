@@ -57,7 +57,7 @@ https://spotify-recently-played-readme.vercel.app/api{?user,count,width,unique}
 ```
 
 <div>
-  <img src="https://spotify-recently-played-readme.vercel.app/api?user=jeffreyca16" alt="Spotify" width="" height="" />
+  <img src="https://spotify-recently-played-readme.vercel.app/api?user=jeffreyca16" alt="Spotify" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>

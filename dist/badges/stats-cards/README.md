@@ -76,7 +76,7 @@ https://stats.justsong.cn/api/{platform}{?username,id,lang,cn,cn_username,theme}
 ```
 
 <div>
-  <img src="https://stats.justsong.cn/api/website/?url=https://github.com/&#38;style=flat&#38;logo=github" alt="GitHub 状态" width="" height="" />
+  <img src="https://stats.justsong.cn/api/website/?url=https://github.com/&#38;style=flat&#38;logo=github" alt="GitHub 状态" />
 </div>
 
 ```markdown
@@ -85,7 +85,7 @@ https://stats.justsong.cn/api/{platform}{?username,id,lang,cn,cn_username,theme}
 ```
 
 <div>
-  <img src="https://stats.justsong.cn/api/juejin?id=1556564194374926&#38;lang=zh-CN&#38;theme=dark" alt="掘金酱的掘金数据" width="" height="" />
+  <img src="https://stats.justsong.cn/api/juejin?id=1556564194374926&#38;lang=zh-CN&#38;theme=dark" alt="掘金酱的掘金数据" />
 </div>
 
 ```markdown
@@ -94,7 +94,7 @@ https://stats.justsong.cn/api/{platform}{?username,id,lang,cn,cn_username,theme}
 ```
 
 <div>
-  <img src="https://stats.justsong.cn/api/leetcode/?username=quanpeng&#38;cn_username=quanpeng&#38;theme=dark" alt="quanpeng" width="" height="" />
+  <img src="https://stats.justsong.cn/api/leetcode/?username=quanpeng&#38;cn_username=quanpeng&#38;theme=dark" alt="quanpeng" />
 </div>
 
 ```markdown
@@ -103,7 +103,7 @@ https://stats.justsong.cn/api/{platform}{?username,id,lang,cn,cn_username,theme}
 ```
 
 <div>
-  <img src="https://stats.justsong.cn/api/bilibili/?id=483246073&#38;lang=zh-CN&#38;theme=dark" alt="蓝天的 B 站数据" width="" height="" />
+  <img src="https://stats.justsong.cn/api/bilibili/?id=483246073&#38;lang=zh-CN&#38;theme=dark" alt="蓝天的 B 站数据" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>

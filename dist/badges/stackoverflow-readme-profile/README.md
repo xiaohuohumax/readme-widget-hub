@@ -77,7 +77,7 @@ https://stackoverflow-readme-profile.johannchopin.fr/tags-league-ranking/{tagNam
 ```
 
 <div>
-  <img src="https://stackoverflow-readme-profile.johannchopin.fr/profile/8583669?theme=dark" alt="Stackoverflow Profile" width="" height="" />
+  <img src="https://stackoverflow-readme-profile.johannchopin.fr/profile/8583669?theme=dark" alt="Stackoverflow Profile" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>

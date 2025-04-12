@@ -52,7 +52,7 @@ https://api.star-history.com/svg{?repos,type}
 ```
 
 <div>
-  <img src="https://api.star-history.com/svg?repos=star-history/star-history&#38;type=Date" alt="Star History Chart" width="" height="" />
+  <img src="https://api.star-history.com/svg?repos=star-history/star-history&#38;type=Date" alt="Star History Chart" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>

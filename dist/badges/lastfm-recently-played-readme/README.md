@@ -60,7 +60,7 @@ https://lastfm-recently-played.vercel.app/api
 ```
 
 <div>
-  <img src="https://lastfm-recently-played.vercel.app/api?user=JeffreyCA01" alt="Last.fm" width="" height="" />
+  <img src="https://lastfm-recently-played.vercel.app/api?user=JeffreyCA01" alt="Last.fm" />
 </div>
 
 ```markdown
@@ -69,7 +69,7 @@ https://lastfm-recently-played.vercel.app/api
 ```
 
 <div>
-  <img src="https://lastfm-recently-played.vercel.app/api?user=JeffreyCA01&#38;width=300&#38;count=2&#38;header_style=none" alt="Last.fm" width="" height="" />
+  <img src="https://lastfm-recently-played.vercel.app/api?user=JeffreyCA01&#38;width=300&#38;count=2&#38;header_style=none" alt="Last.fm" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>

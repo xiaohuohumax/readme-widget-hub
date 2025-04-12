@@ -56,7 +56,7 @@ https://readme-jokes.vercel.app/api{?bgColor,borderColor,qColor,aColor,textColor
 ```
 
 <div>
-  <img src="https://readme-jokes.vercel.app/api?hideBorder" alt="编程笑话" width="" height="" />
+  <img src="https://readme-jokes.vercel.app/api?hideBorder" alt="编程笑话" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>

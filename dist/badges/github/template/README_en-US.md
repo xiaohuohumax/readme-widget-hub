@@ -62,7 +62,7 @@ https://awesome-github-stats.azurewebsites.net/user-stats/{username}{?cardType,t
 ```
 
 <div>
-  <img src="https://awesome-github-stats.azurewebsites.net/user-stats/brunobritodev?cardType=level" alt="Github Stats Card" width="" height="" />
+  <img src="https://awesome-github-stats.azurewebsites.net/user-stats/brunobritodev?cardType=level" alt="Github Stats Card" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>

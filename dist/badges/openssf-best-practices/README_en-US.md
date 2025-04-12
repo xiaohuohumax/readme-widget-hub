@@ -51,7 +51,7 @@ https://www.bestpractices.dev/projects/{id}/badge
 ```
 
 <div>
-  <img src="https://www.bestpractices.dev/projects/7652/badge" alt="OpenSSF Best Practices" width="" height="" />
+  <img src="https://www.bestpractices.dev/projects/7652/badge" alt="OpenSSF Best Practices" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>

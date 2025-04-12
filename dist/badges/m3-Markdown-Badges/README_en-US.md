@@ -60,8 +60,8 @@ https://m3-markdown-badges.vercel.app/{type}/{hue}/{tint}/{owner}/{repo}
 ```
 
 <div>
-  <img src="https://m3-markdown-badges.vercel.app/stars/1/2/ziadOUA/m3-Markdown-Badges" alt="Github Stars" width="" height="" />
-  <img src="https://m3-markdown-badges.vercel.app/issues/1/2/ziadOUA/m3-Markdown-Badges" alt="Github Issues" width="" height="" />
+  <img src="https://m3-markdown-badges.vercel.app/stars/1/2/ziadOUA/m3-Markdown-Badges" alt="Github Stars" />
+  <img src="https://m3-markdown-badges.vercel.app/issues/1/2/ziadOUA/m3-Markdown-Badges" alt="Github Issues" />
 </div>
 
 #### Static badges
@@ -71,14 +71,14 @@ https://m3-markdown-badges.vercel.app/{type}/{hue}/{tint}/{owner}/{repo}
 ```
 
 <div>
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Github/github2.svg" alt="Github" width="" height="" />
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/TypeScript/typescript2.svg" alt="TypeScript" width="" height="" />
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Ko-fi/ko-fi2.svg" alt="Ko-fi" width="" height="" />
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/LicenceMIT/licencemit2.svg" alt="Licence MIT" width="" height="" />
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/NodeJS/nodejs2.svg" alt="NodeJS" width="" height="" />
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/npm/npm2.svg" alt="npm" width="" height="" />
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Markdown/markdown2.svg" alt="Markdown" width="" height="" />
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/ViteJS/vitejs2.svg" alt="ViteJS" width="" height="" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Github/github2.svg" alt="Github" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/TypeScript/typescript2.svg" alt="TypeScript" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Ko-fi/ko-fi2.svg" alt="Ko-fi" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/LicenceMIT/licencemit2.svg" alt="Licence MIT" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/NodeJS/nodejs2.svg" alt="NodeJS" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/npm/npm2.svg" alt="npm" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Markdown/markdown2.svg" alt="Markdown" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/ViteJS/vitejs2.svg" alt="ViteJS" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>

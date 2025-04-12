@@ -61,7 +61,7 @@ https://count.getloli.com/@{countId}{?theme,padding,offset,scale,align,pixelated
 ```
 
 <div>
-  <img src="https://count.getloli.com/@xiaohuohumax-badge-collection" alt="萌萌计数器" width="" height="" />
+  <img src="https://count.getloli.com/@xiaohuohumax-badge-collection" alt="萌萌计数器" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>

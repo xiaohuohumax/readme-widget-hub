@@ -58,7 +58,7 @@ https://opencollective.com/{collectiveName}/{statisticalType}.svg{?width,height,
 ```
 
 <div>
-  <img src="https://opencollective.com/vite/sponsors.svg" alt="Sponsors on Open Collective" width="" height="" />
+  <img src="https://opencollective.com/vite/sponsors.svg" alt="Sponsors on Open Collective" />
 </div>
 
 ```markdown
@@ -67,7 +67,7 @@ https://opencollective.com/{collectiveName}/{statisticalType}.svg{?width,height,
 ```
 
 <div>
-  <img src="https://opencollective.com/vite/sponsors/badge.svg" alt="Sponsors Badge on Open Collective" width="" height="" />
+  <img src="https://opencollective.com/vite/sponsors/badge.svg" alt="Sponsors Badge on Open Collective" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>

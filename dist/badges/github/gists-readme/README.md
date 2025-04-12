@@ -74,7 +74,7 @@ https://gists-readme.yizack.com/api/pin{?id,owner,theme}
 ```
 
 <div>
-  <img src="https://gists-readme.yizack.com/api?user=yizack&#38;theme=dark" alt="Gists" width="" height="" />
+  <img src="https://gists-readme.yizack.com/api?user=yizack&#38;theme=dark" alt="Gists" />
 </div>
 
 ```markdown
@@ -83,7 +83,7 @@ https://gists-readme.yizack.com/api/pin{?id,owner,theme}
 ```
 
 <div>
-  <img src="https://gists-readme.yizack.com/api/pin?id=07694a749c8fc5f4d996a2bd50237939&#38;owner=true&#38;theme=dark" alt="Gists Pin" width="" height="" />
+  <img src="https://gists-readme.yizack.com/api/pin?id=07694a749c8fc5f4d996a2bd50237939&#38;owner=true&#38;theme=dark" alt="Gists Pin" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>

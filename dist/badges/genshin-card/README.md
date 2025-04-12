@@ -53,7 +53,7 @@ https://hoyocard.qhy04.com/{gameName}/{bgImageId}/{miyousheUID}.png
 ```
 
 <div>
-  <img src="https://hoyocard.qhy04.com/gs/detail/rand/318490747.png" alt="原神" width="" height="" />
+  <img src="https://hoyocard.qhy04.com/gs/detail/rand/318490747.png" alt="原神" />
 </div>
 
 ```markdown
@@ -62,7 +62,7 @@ https://hoyocard.qhy04.com/{gameName}/{bgImageId}/{miyousheUID}.png
 ```
 
 <div>
-  <img src="https://hoyocard.qhy04.com/sr/detail/rand/318490747.png" alt="崩坏：星穹铁道" width="" height="" />
+  <img src="https://hoyocard.qhy04.com/sr/detail/rand/318490747.png" alt="崩坏：星穹铁道" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>

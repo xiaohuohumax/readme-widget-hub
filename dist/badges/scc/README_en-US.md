@@ -61,7 +61,7 @@ https://sloc.xyz/{provider}/{user}/{repo}{?category,avg-wage,lower,font-color,fo
 ```
 
 <div>
-  <img src="https://sloc.xyz/github/xiaohuohumax/badge-collection" alt="Total lines" width="" height="" />
+  <img src="https://sloc.xyz/github/xiaohuohumax/badge-collection" alt="Total lines" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>

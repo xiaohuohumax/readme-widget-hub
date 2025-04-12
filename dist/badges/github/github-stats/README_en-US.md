@@ -71,7 +71,7 @@ https://stats.hyo.dev/api/github-trophies{?login}
 ```
 
 <div>
-  <img src="https://stats.hyo.dev/api/github-stats?login=hyochan" alt="github-stats" width="" height="" />
+  <img src="https://stats.hyo.dev/api/github-stats?login=hyochan" alt="github-stats" />
 </div>
 
 ```markdown
@@ -80,7 +80,7 @@ https://stats.hyo.dev/api/github-trophies{?login}
 ```
 
 <div>
-  <img src="https://stats.hyo.dev/api/github-stats-advanced?login=hyochan" alt="github-stats" width="" height="" />
+  <img src="https://stats.hyo.dev/api/github-stats-advanced?login=hyochan" alt="github-stats" />
 </div>
 
 ```markdown
@@ -89,7 +89,7 @@ https://stats.hyo.dev/api/github-trophies{?login}
 ```
 
 <div>
-  <img src="https://stats.hyo.dev/api/github-trophies?login=hyochan" alt="github-trophies" width="" height="" />
+  <img src="https://stats.hyo.dev/api/github-trophies?login=hyochan" alt="github-trophies" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>

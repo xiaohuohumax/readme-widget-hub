@@ -54,7 +54,7 @@ https://badge.fury.io/{type}/{packageName}{format}{?icon,icon_color}
 ```
 
 <div>
-  <img src="https://badge.fury.io/py/auto-unpack.svg" alt="Pyhton version" width="" height="" />
+  <img src="https://badge.fury.io/py/auto-unpack.svg" alt="Pyhton version" />
 </div>
 
 ```markdown
@@ -63,7 +63,7 @@ https://badge.fury.io/{type}/{packageName}{format}{?icon,icon_color}
 ```
 
 <div>
-  <img src="https://badge.fury.io/gh/xiaohuohumax%2Fvscode-export-profiles.svg" alt="Github repo version" width="" height="" />
+  <img src="https://badge.fury.io/gh/xiaohuohumax%2Fvscode-export-profiles.svg" alt="Github repo version" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>

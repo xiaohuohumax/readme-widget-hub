@@ -53,7 +53,7 @@ https://quotes-github-readme.vercel.app/api{?type,theme,quote,author,border}
 ```
 
 <div>
-  <img src="https://quotes-github-readme.vercel.app/api?theme=dark&#38;type=horizontal" alt="Random Quote" width="" height="" />
+  <img src="https://quotes-github-readme.vercel.app/api?theme=dark&#38;type=horizontal" alt="Random Quote" />
 </div>
 
 ```markdown
@@ -61,7 +61,7 @@ https://quotes-github-readme.vercel.app/api{?type,theme,quote,author,border}
 ```
 
 <div>
-  <img src="https://quotes-github-readme.vercel.app/api?theme=nord&#38;type=horizontal&#38;border=true" alt="Random Quote" width="" height="" />
+  <img src="https://quotes-github-readme.vercel.app/api?theme=nord&#38;type=horizontal&#38;border=true" alt="Random Quote" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>

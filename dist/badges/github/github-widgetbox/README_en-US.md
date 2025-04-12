@@ -75,7 +75,7 @@ https://github-widgetbox.vercel.app/api/skills{?languages,frameworks,libraries,s
 ```
 
 <div>
-  <img src="https://github-widgetbox.vercel.app/api/profile?username=Jurredr&#38;data=followers,repositories,stars,commits&#38;theme=darkmode" alt="Profile" width="" height="" />
+  <img src="https://github-widgetbox.vercel.app/api/profile?username=Jurredr&#38;data=followers,repositories,stars,commits&#38;theme=darkmode" alt="Profile" />
 </div>
 
 ```markdown
@@ -83,7 +83,7 @@ https://github-widgetbox.vercel.app/api/skills{?languages,frameworks,libraries,s
 ```
 
 <div>
-  <img src="https://github-widgetbox.vercel.app/api/skills?frameworks=vue,react,electron,bootstrap,tailwind,express&#38;includeNames=true&#38;theme=darkmode" alt="Skills" width="" height="" />
+  <img src="https://github-widgetbox.vercel.app/api/skills?frameworks=vue,react,electron,bootstrap,tailwind,express&#38;includeNames=true&#38;theme=darkmode" alt="Skills" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>

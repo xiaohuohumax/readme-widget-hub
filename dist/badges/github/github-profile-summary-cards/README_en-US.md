@@ -55,7 +55,7 @@ http://github-profile-summary-cards.vercel.app/api/cards/profile-details{?userna
 ```
 
 <div>
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vn7n24fzkq" alt="Profile details" width="" height="" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vn7n24fzkq" alt="Profile details" />
 </div>
 
 ```markdown
@@ -64,7 +64,7 @@ http://github-profile-summary-cards.vercel.app/api/cards/profile-details{?userna
 ```
 
 <div>
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=vn7n24fzkq" alt="GitHub stats card" width="" height="" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=vn7n24fzkq" alt="GitHub stats card" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>

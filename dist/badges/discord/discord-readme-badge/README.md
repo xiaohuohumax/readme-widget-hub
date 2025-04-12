@@ -49,7 +49,7 @@ https://discord-readme-badge.vercel.app/api{?id}
 ```
 
 <div>
-  <img src="https://discord-readme-badge.vercel.app/api?id=204620732259368960" alt="Discord 状态" width="" height="" />
+  <img src="https://discord-readme-badge.vercel.app/api?id=204620732259368960" alt="Discord 状态" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>

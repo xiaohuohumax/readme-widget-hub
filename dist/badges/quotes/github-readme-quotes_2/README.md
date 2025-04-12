@@ -56,7 +56,7 @@ https://github-readme-quotes-bay.vercel.app/quote{?theme,layout,font,animation,q
 ```
 
 <div>
-  <img src="https://github-readme-quotes-bay.vercel.app/quote" alt="随机名言" width="" height="" />
+  <img src="https://github-readme-quotes-bay.vercel.app/quote" alt="随机名言" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>

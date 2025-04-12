@@ -51,7 +51,7 @@ https://skillicons.dev/icons{?i,theme,perline}
 ```
 
 <div>
-  <img src="https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter&#38;perline=3" alt="技能" width="" height="" />
+  <img src="https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter&#38;perline=3" alt="技能" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>

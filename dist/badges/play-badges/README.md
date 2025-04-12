@@ -54,7 +54,7 @@ https://PlayBadges.pavi2410.me/badge/{type}{?id}
 ```
 
 <div>
-  <img src="https://PlayBadges.pavi2410.me/badge/full?id=appinventor.ai_pavitragolchha.VR" alt="Play Store App" width="" height="" />
+  <img src="https://PlayBadges.pavi2410.me/badge/full?id=appinventor.ai_pavitragolchha.VR" alt="Play Store App" />
 </div>
 
 ```markdown
@@ -63,7 +63,7 @@ https://PlayBadges.pavi2410.me/badge/{type}{?id}
 ```
 
 <div>
-  <img src="https://PlayBadges.pavi2410.me/badge/downloads?id=appinventor.ai_pavitragolchha.VR&#38;pretty" alt="Play Store App 下载量" width="" height="" />
+  <img src="https://PlayBadges.pavi2410.me/badge/downloads?id=appinventor.ai_pavitragolchha.VR&#38;pretty" alt="Play Store App 下载量" />
 </div>
 
 ```markdown
@@ -72,7 +72,7 @@ https://PlayBadges.pavi2410.me/badge/{type}{?id}
 ```
 
 <div>
-  <img src="https://PlayBadges.pavi2410.me/badge/ratings?id=appinventor.ai_pavitragolchha.VR" alt="Play Store App 评分" width="" height="" />
+  <img src="https://PlayBadges.pavi2410.me/badge/ratings?id=appinventor.ai_pavitragolchha.VR" alt="Play Store App 评分" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>

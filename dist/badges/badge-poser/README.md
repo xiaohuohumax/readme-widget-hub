@@ -53,7 +53,7 @@ https://poser.pugx.org/{package}/{type}{?style}
 ```
 
 <div>
-  <img src="http://poser.pugx.org/phpunit/phpunit/v" alt="最新稳定版本" width="" height="" />
+  <img src="http://poser.pugx.org/phpunit/phpunit/v" alt="最新稳定版本" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>

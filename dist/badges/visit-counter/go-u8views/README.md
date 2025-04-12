@@ -52,7 +52,7 @@ https://u8views.com/api/v1/github/profiles/{userId}/views/{type}.svg
 ```
 
 <div>
-  <img src="https://u8views.com/api/v1/github/profiles/121827373/views/day-week-month-total-count.svg" alt="访问统计" width="" height="" />
+  <img src="https://u8views.com/api/v1/github/profiles/121827373/views/day-week-month-total-count.svg" alt="访问统计" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>

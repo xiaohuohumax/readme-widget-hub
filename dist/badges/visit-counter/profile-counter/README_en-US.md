@@ -50,7 +50,7 @@ https://profile-counter.glitch.me/{countId}/count.svg
 ```
 
 <div>
-  <img src="https://profile-counter.glitch.me/badge-collection/count.svg" alt="Visitor Count" width="" height="" />
+  <img src="https://profile-counter.glitch.me/badge-collection/count.svg" alt="Visitor Count" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>

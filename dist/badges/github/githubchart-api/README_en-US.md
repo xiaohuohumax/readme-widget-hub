@@ -68,7 +68,7 @@ https://ghchart.rshah.org/{username}
 ```
 
 <div>
-  <img src="https://ghchart.rshah.org/xiaohuohumax" alt="Github chart" width="" height="" />
+  <img src="https://ghchart.rshah.org/xiaohuohumax" alt="Github chart" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>

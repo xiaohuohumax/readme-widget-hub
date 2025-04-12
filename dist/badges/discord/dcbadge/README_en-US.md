@@ -56,7 +56,7 @@ https://dcbadge.limes.pink/api/{type}/{id}{?style,theme,compact,logoColor,bot}
 ```
 
 <div>
-  <img src="https://dcbadge.limes.pink/api/shield/406125028065804289" alt="Discord User" width="" height="" />
+  <img src="https://dcbadge.limes.pink/api/shield/406125028065804289" alt="Discord User" />
 </div>
 
 ```markdown
@@ -64,7 +64,7 @@ https://dcbadge.limes.pink/api/{type}/{id}{?style,theme,compact,logoColor,bot}
 ```
 
 <div>
-  <img src="https://dcbadge.limes.pink/api/server/zkspfFwqDg" alt="Discord Server" width="" height="" />
+  <img src="https://dcbadge.limes.pink/api/server/zkspfFwqDg" alt="Discord Server" />
 </div>
 
 ```markdown
@@ -72,7 +72,7 @@ https://dcbadge.limes.pink/api/{type}/{id}{?style,theme,compact,logoColor,bot}
 ```
 
 <div>
-  <img src="https://dcbadge.limes.pink/api/shield/852977967776399400?bot=true" alt="Discord Bot" width="" height="" />
+  <img src="https://dcbadge.limes.pink/api/shield/852977967776399400?bot=true" alt="Discord Bot" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>

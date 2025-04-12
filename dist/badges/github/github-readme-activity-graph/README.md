@@ -67,7 +67,7 @@ https://github-readme-activity-graph.vercel.app/graph{?username,theme,bg_color,c
 ```
 
 <div>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=xiaohuohumax&#38;theme=github&#38;hide_border=true" alt="Github 活动图" width="" height="" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=xiaohuohumax&#38;theme=github&#38;hide_border=true" alt="Github 活动图" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>

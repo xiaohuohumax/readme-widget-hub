@@ -73,7 +73,7 @@ https://widgetbite.com/banner{?title,subtitle,titletransform,subtitletransform,f
 ```
 
 <div>
-  <img src="https://widgetbite.com/stats/xiaohuohumax" alt="访客统计" width="" height="" />
+  <img src="https://widgetbite.com/stats/xiaohuohumax" alt="访客统计" />
 </div>
 
 ```markdown
@@ -81,7 +81,7 @@ https://widgetbite.com/banner{?title,subtitle,titletransform,subtitletransform,f
 ```
 
 <div>
-  <img src="https://widgetbite.com/banner?title=Badge%20Collection&#38;subtitle=&#38;backgroundpalette=pastels&#38;fontpalette=pastels&#38;titletransform=rotate" alt="Banner" width="" height="" />
+  <img src="https://widgetbite.com/banner?title=Badge%20Collection&#38;subtitle=&#38;backgroundpalette=pastels&#38;fontpalette=pastels&#38;titletransform=rotate" alt="Banner" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>

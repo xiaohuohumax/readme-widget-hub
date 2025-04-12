@@ -54,7 +54,7 @@ https://stars.medv.io/{owner}/{repo}.svg
 ```
 
 <div>
-  <img src="https://stars.medv.io/antonmedv/spark.svg" alt="星标迷你线图" width="" height="" />
+  <img src="https://stars.medv.io/antonmedv/spark.svg" alt="星标迷你线图" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>

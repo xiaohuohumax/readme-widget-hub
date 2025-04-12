@@ -60,7 +60,7 @@ https://github-profile-trophy.vercel.app/{?username,title,rank,column,row,theme,
 ```
 
 <div>
-  <img src="https://github-profile-trophy.vercel.app/?username=ryo-ma" alt="奖杯" width="" height="" />
+  <img src="https://github-profile-trophy.vercel.app/?username=ryo-ma" alt="奖杯" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>

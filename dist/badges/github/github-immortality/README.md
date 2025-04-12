@@ -50,7 +50,7 @@ https://github-immortality.vercel.app/api{?username}
 ```
 
 <div>
-  <img src="https://github-immortality.vercel.app/api?username=iceend" alt="IceEnd&#39;s GitHub stats" width="" height="" />
+  <img src="https://github-immortality.vercel.app/api?username=iceend" alt="IceEnd&#39;s GitHub stats" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>

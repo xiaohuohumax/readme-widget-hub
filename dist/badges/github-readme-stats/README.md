@@ -66,7 +66,7 @@ https://github-readme-stats.vercel.app/api{?username,title_color,text_color,icon
 ```
 
 <div>
-  <img src="https://github-readme-stats.vercel.app/api?username=anuraghazra" alt="GitHub stats" width="" height="" />
+  <img src="https://github-readme-stats.vercel.app/api?username=anuraghazra" alt="GitHub stats" />
 </div>
 
 ```markdown
@@ -75,7 +75,7 @@ https://github-readme-stats.vercel.app/api{?username,title_color,text_color,icon
 ```
 
 <div>
-  <img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&#38;locale=cn&#38;theme=dark&#38;hide_border=true" alt="GitHub stats" width="" height="" />
+  <img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&#38;locale=cn&#38;theme=dark&#38;hide_border=true" alt="GitHub stats" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
