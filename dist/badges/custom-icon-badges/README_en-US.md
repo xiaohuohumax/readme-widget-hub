@@ -56,7 +56,9 @@ https://custom-icon-badges.demolab.com/{shieldsIoParams}{?host,shieldsIoQuerys}
 ![Custom Icon Badge](https://custom-icon-badges.demolab.com/badge/custom-badge-blue.svg?logo=paintbrush&logoColor=white)
 ```
 
-<img src="https://custom-icon-badges.demolab.com/badge/custom-badge-blue.svg?logo=paintbrush&#38;logoColor=white" alt="Custom Icon Badge" width="" height="" />
+<div>
+  <img src="https://custom-icon-badges.demolab.com/badge/custom-badge-blue.svg?logo=paintbrush&#38;logoColor=white" alt="Custom Icon Badge" width="" height="" />
+</div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
 

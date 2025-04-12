@@ -75,28 +75,36 @@ https://stats.justsong.cn/api/{platform}{?username,id,lang,cn,cn_username,theme}
 ![GitHub Status](https://stats.justsong.cn/api/website/?url=https://github.com/&style=flat&logo=github)
 ```
 
-<img src="https://stats.justsong.cn/api/website/?url=https://github.com/&#38;style=flat&#38;logo=github" alt="GitHub Status" width="" height="" />
+<div>
+  <img src="https://stats.justsong.cn/api/website/?url=https://github.com/&#38;style=flat&#38;logo=github" alt="GitHub Status" width="" height="" />
+</div>
 
 ```markdown
 <!-- 掘金酱 -->
 ![掘金酱的掘金数据](https://stats.justsong.cn/api/juejin?id=1556564194374926&lang=zh-CN&theme=dark)
 ```
 
-<img src="https://stats.justsong.cn/api/juejin?id=1556564194374926&#38;lang=zh-CN&#38;theme=dark" alt="掘金酱的掘金数据" width="" height="" />
+<div>
+  <img src="https://stats.justsong.cn/api/juejin?id=1556564194374926&#38;lang=zh-CN&#38;theme=dark" alt="掘金酱的掘金数据" width="" height="" />
+</div>
 
 ```markdown
 <!-- quanpeng -->
 ![quanpeng](https://stats.justsong.cn/api/leetcode/?username=quanpeng&cn_username=quanpeng&theme=dark)
 ```
 
-<img src="https://stats.justsong.cn/api/leetcode/?username=quanpeng&#38;cn_username=quanpeng&#38;theme=dark" alt="quanpeng" width="" height="" />
+<div>
+  <img src="https://stats.justsong.cn/api/leetcode/?username=quanpeng&#38;cn_username=quanpeng&#38;theme=dark" alt="quanpeng" width="" height="" />
+</div>
 
 ```markdown
 <!-- 红警魔鬼蓝天 -->
 ![蓝天的 B 站数据](https://stats.justsong.cn/api/bilibili/?id=483246073&lang=zh-CN&theme=dark)
 ```
 
-<img src="https://stats.justsong.cn/api/bilibili/?id=483246073&#38;lang=zh-CN&#38;theme=dark" alt="蓝天的 B 站数据" width="" height="" />
+<div>
+  <img src="https://stats.justsong.cn/api/bilibili/?id=483246073&#38;lang=zh-CN&#38;theme=dark" alt="蓝天的 B 站数据" width="" height="" />
+</div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
 

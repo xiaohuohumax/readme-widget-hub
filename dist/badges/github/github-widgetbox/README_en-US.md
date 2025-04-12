@@ -74,13 +74,17 @@ https://github-widgetbox.vercel.app/api/skills{?languages,frameworks,libraries,s
 ![Profile](https://github-widgetbox.vercel.app/api/profile?username=Jurredr&data=followers,repositories,stars,commits&theme=darkmode)
 ```
 
-<img src="https://github-widgetbox.vercel.app/api/profile?username=Jurredr&#38;data=followers,repositories,stars,commits&#38;theme=darkmode" alt="Profile" width="" height="" />
+<div>
+  <img src="https://github-widgetbox.vercel.app/api/profile?username=Jurredr&#38;data=followers,repositories,stars,commits&#38;theme=darkmode" alt="Profile" width="" height="" />
+</div>
 
 ```markdown
 ![Skills](https://github-widgetbox.vercel.app/api/skills?frameworks=vue,react,electron,bootstrap,tailwind,express&includeNames=true&theme=darkmode)
 ```
 
-<img src="https://github-widgetbox.vercel.app/api/skills?frameworks=vue,react,electron,bootstrap,tailwind,express&#38;includeNames=true&#38;theme=darkmode" alt="Skills" width="" height="" />
+<div>
+  <img src="https://github-widgetbox.vercel.app/api/skills?frameworks=vue,react,electron,bootstrap,tailwind,express&#38;includeNames=true&#38;theme=darkmode" alt="Skills" width="" height="" />
+</div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
 

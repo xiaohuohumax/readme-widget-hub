@@ -54,7 +54,9 @@ https://hits.seeyoufarm.com/api/count/incr/badge.svg{?url,edge_flat,title,title_
 ![点击统计](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection)
 ```
 
-<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection" alt="点击统计" width="" height="" />
+<div>
+  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection" alt="点击统计" width="" height="" />
+</div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 

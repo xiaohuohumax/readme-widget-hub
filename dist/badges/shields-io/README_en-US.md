@@ -63,23 +63,27 @@ https://img.shields.io/badge/{badgeContent}{?style,logo,logoColor,logoSize,label
 ![Static Badge](https://img.shields.io/badge/badges/shields-555555?logo=github)
 ```
 
-<img src="https://img.shields.io/badge/badges/shields-555555?logo=github" alt="Static Badge" width="" height="" />
+<div>
+  <img src="https://img.shields.io/badge/badges/shields-555555?logo=github" alt="Static Badge" width="" height="" />
+</div>
 
 ```markdown
 ![Color Badge](https://img.shields.io/badge/F94144-F94144)
 ```
 
-<img src="https://img.shields.io/badge/F94144-F94144" alt="Color Badge F94144" width="" height="" />
-<img src="https://img.shields.io/badge/F3722C-F3722C" alt="Color Badge F3722C" width="" height="" />
-<img src="https://img.shields.io/badge/F8961E-F8961E" alt="Color Badge F8961E" width="" height="" />
-<img src="https://img.shields.io/badge/F9844A-F9844A" alt="Color Badge F9844A" width="" height="" />
-<img src="https://img.shields.io/badge/F9C74F-F9C74F" alt="Color Badge F9C74F" width="" height="" />
-<img src="https://img.shields.io/badge/90BE6D-90BE6D" alt="Color Badge 90BE6D" width="" height="" />
-<img src="https://img.shields.io/badge/43AA8B-43AA8B" alt="Color Badge 43AA8B" width="" height="" />
-<img src="https://img.shields.io/badge/4D908E-4D908E" alt="Color Badge 4D908E" width="" height="" />
-<img src="https://img.shields.io/badge/577590-577590" alt="Color Badge 577590" width="" height="" />
-<img src="https://img.shields.io/badge/555555-555555" alt="Color Badge 555555" width="" height="" />
-<img src="https://img.shields.io/badge/277DA1-277DA1" alt="Color Badge 277DA1" width="" height="" />
+<div>
+  <img src="https://img.shields.io/badge/F94144-F94144" alt="Color Badge F94144" width="" height="" />
+  <img src="https://img.shields.io/badge/F3722C-F3722C" alt="Color Badge F3722C" width="" height="" />
+  <img src="https://img.shields.io/badge/F8961E-F8961E" alt="Color Badge F8961E" width="" height="" />
+  <img src="https://img.shields.io/badge/F9844A-F9844A" alt="Color Badge F9844A" width="" height="" />
+  <img src="https://img.shields.io/badge/F9C74F-F9C74F" alt="Color Badge F9C74F" width="" height="" />
+  <img src="https://img.shields.io/badge/90BE6D-90BE6D" alt="Color Badge 90BE6D" width="" height="" />
+  <img src="https://img.shields.io/badge/43AA8B-43AA8B" alt="Color Badge 43AA8B" width="" height="" />
+  <img src="https://img.shields.io/badge/4D908E-4D908E" alt="Color Badge 4D908E" width="" height="" />
+  <img src="https://img.shields.io/badge/577590-577590" alt="Color Badge 577590" width="" height="" />
+  <img src="https://img.shields.io/badge/555555-555555" alt="Color Badge 555555" width="" height="" />
+  <img src="https://img.shields.io/badge/277DA1-277DA1" alt="Color Badge 277DA1" width="" height="" />
+</div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
 

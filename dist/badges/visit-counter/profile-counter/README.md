@@ -49,7 +49,9 @@ https://profile-counter.glitch.me/{countId}/count.svg
 ![访问统计](https://profile-counter.glitch.me/badge-collection/count.svg)
 ```
 
-<img src="https://profile-counter.glitch.me/badge-collection/count.svg" alt="访问统计" width="" height="" />
+<div>
+  <img src="https://profile-counter.glitch.me/badge-collection/count.svg" alt="访问统计" width="" height="" />
+</div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 

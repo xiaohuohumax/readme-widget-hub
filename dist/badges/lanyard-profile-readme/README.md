@@ -66,7 +66,9 @@ https://lanyard.cnrad.dev/api/{discordId}{?theme,bg,borderRadius,animated,idleMe
 ![Discord](https://lanyard.cnrad.dev/api/705665813994012695)
 ```
 
-<img src="https://lanyard.cnrad.dev/api/705665813994012695" alt="Discord" width="" height="" />
+<div>
+  <img src="https://lanyard.cnrad.dev/api/705665813994012695" alt="Discord" width="" height="" />
+</div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 

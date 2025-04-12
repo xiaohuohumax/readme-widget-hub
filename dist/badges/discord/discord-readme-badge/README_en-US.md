@@ -48,7 +48,9 @@ https://discord-readme-badge.vercel.app/api{?id}
 ![Discord Status](https://discord-readme-badge.vercel.app/api?id=204620732259368960)
 ```
 
-<img src="https://discord-readme-badge.vercel.app/api?id=204620732259368960" alt="Discord Status" width="" height="" />
+<div>
+  <img src="https://discord-readme-badge.vercel.app/api?id=204620732259368960" alt="Discord Status" width="" height="" />
+</div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
 

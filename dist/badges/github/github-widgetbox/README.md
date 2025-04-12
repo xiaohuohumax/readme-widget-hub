@@ -74,13 +74,17 @@ https://github-widgetbox.vercel.app/api/skills{?languages,frameworks,libraries,s
 ![个人资料](https://github-widgetbox.vercel.app/api/profile?username=Jurredr&data=followers,repositories,stars,commits&theme=darkmode)
 ```
 
-<img src="https://github-widgetbox.vercel.app/api/profile?username=Jurredr&#38;data=followers,repositories,stars,commits&#38;theme=darkmode" alt="个人资料" width="" height="" />
+<div>
+  <img src="https://github-widgetbox.vercel.app/api/profile?username=Jurredr&#38;data=followers,repositories,stars,commits&#38;theme=darkmode" alt="个人资料" width="" height="" />
+</div>
 
 ```markdown
 ![技能](https://github-widgetbox.vercel.app/api/skills?frameworks=vue,react,electron,bootstrap,tailwind,express&includeNames=true&theme=darkmode)
 ```
 
-<img src="https://github-widgetbox.vercel.app/api/skills?frameworks=vue,react,electron,bootstrap,tailwind,express&#38;includeNames=true&#38;theme=darkmode" alt="技能" width="" height="" />
+<div>
+  <img src="https://github-widgetbox.vercel.app/api/skills?frameworks=vue,react,electron,bootstrap,tailwind,express&#38;includeNames=true&#38;theme=darkmode" alt="技能" width="" height="" />
+</div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 

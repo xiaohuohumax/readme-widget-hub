@@ -52,7 +52,9 @@ https://poser.pugx.org/{package}/{type}{?style}
 ![Latest Stable Version](http://poser.pugx.org/phpunit/phpunit/v)
 ```
 
-<img src="http://poser.pugx.org/phpunit/phpunit/v" alt="Latest Stable Version" width="" height="" />
+<div>
+  <img src="http://poser.pugx.org/phpunit/phpunit/v" alt="Latest Stable Version" width="" height="" />
+</div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
 

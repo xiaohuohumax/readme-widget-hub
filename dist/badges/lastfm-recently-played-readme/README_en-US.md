@@ -59,14 +59,18 @@ https://lastfm-recently-played.vercel.app/api
 ![Last.fm](https://lastfm-recently-played.vercel.app/api?user=JeffreyCA01)
 ```
 
-<img src="https://lastfm-recently-played.vercel.app/api?user=JeffreyCA01" alt="Last.fm" width="" height="" />
+<div>
+  <img src="https://lastfm-recently-played.vercel.app/api?user=JeffreyCA01" alt="Last.fm" width="" height="" />
+</div>
 
 ```markdown
 <!-- JeffreyCA01 -->
 ![Last.fm](https://lastfm-recently-played.vercel.app/api?user=JeffreyCA01&width=300&count=2&header_style=none)
 ```
 
-<img src="https://lastfm-recently-played.vercel.app/api?user=JeffreyCA01&#38;width=300&#38;count=2&#38;header_style=none" alt="Last.fm" width="" height="" />
+<div>
+  <img src="https://lastfm-recently-played.vercel.app/api?user=JeffreyCA01&#38;width=300&#38;count=2&#38;header_style=none" alt="Last.fm" width="" height="" />
+</div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
 

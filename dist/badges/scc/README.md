@@ -60,7 +60,9 @@ https://sloc.xyz/{provider}/{user}/{repo}{?category,avg-wage,lower,font-color,fo
 ![总行数](https://sloc.xyz/github/xiaohuohumax/badge-collection)
 ```
 
-<img src="https://sloc.xyz/github/xiaohuohumax/badge-collection" alt="总行数" width="" height="" />
+<div>
+  <img src="https://sloc.xyz/github/xiaohuohumax/badge-collection" alt="总行数" width="" height="" />
+</div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 

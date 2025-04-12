@@ -73,7 +73,9 @@ https://render.gitanimals.org/guilds/{guildId}/draw
 ![Git Animals](https://render.gitanimals.org/lines/xiaohuohumax)
 ```
 
-<img src="https://render.gitanimals.org/lines/xiaohuohumax" alt="Git Animals" width="" height="" />
+<div>
+  <img src="https://render.gitanimals.org/lines/xiaohuohumax" alt="Git Animals" width="" height="" />
+</div>
 
 #### Farm Mode
 
@@ -82,7 +84,9 @@ https://render.gitanimals.org/guilds/{guildId}/draw
 ![Git Animals](https://render.gitanimals.org/farms/xiaohuohumax)
 ```
 
-<img src="https://render.gitanimals.org/farms/xiaohuohumax" alt="Git Animals" width="" height="" />
+<div>
+  <img src="https://render.gitanimals.org/farms/xiaohuohumax" alt="Git Animals" width="" height="" />
+</div>
 
 #### Guild Mode
 
@@ -91,7 +95,9 @@ https://render.gitanimals.org/guilds/{guildId}/draw
 ![Git Animals](https://render.gitanimals.org/guilds/668749238833660322/draw)
 ```
 
-<img src="https://render.gitanimals.org/guilds/668749238833660322/draw" alt="Git Animals" width="" height="" />
+<div>
+  <img src="https://render.gitanimals.org/guilds/668749238833660322/draw" alt="Git Animals" width="" height="" />
+</div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
 

@@ -56,7 +56,9 @@ https://api.visitorbadge.io/api/{type}{?path,label,labelColor,countColor,style,l
 ![访问数](https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection&label=VISITORS&countColor=%23f3722c)
 ```
 
-<img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection&#38;label=VISITORS&#38;countColor=%23f3722c" alt="访问数" width="" height="" />
+<div>
+  <img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection&#38;label=VISITORS&#38;countColor=%23f3722c" alt="访问数" width="" height="" />
+</div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 

@@ -63,23 +63,27 @@ https://badgen.net/{badge}/{subject}/{status}/{color}{?color,icon,label,labelCol
 ![Swift Version](https://badgen.net/static/Swift/4.2/orange)
 ```
 
-<img src="https://badgen.net/static/Swift/4.2/orange" alt="Swift Version" width="" height="" />
+<div>
+  <img src="https://badgen.net/static/Swift/4.2/orange" alt="Swift Version" width="" height="" />
+</div>
 
 ```markdown
 ![Color Badge](https://badgen.net/badge/color/F94144/F94144?label=)
 ```
 
-<img src="https://badgen.net/badge/color/F94144/F94144?label=" alt="Color Badge F94144" width="" height="" />
-<img src="https://badgen.net/badge/color/F3722C/F3722C?label=" alt="Color Badge F3722C" width="" height="" />
-<img src="https://badgen.net/badge/color/F8961E/F8961E?label=" alt="Color Badge F8961E" width="" height="" />
-<img src="https://badgen.net/badge/color/F9844A/F9844A?label=" alt="Color Badge F9844A" width="" height="" />
-<img src="https://badgen.net/badge/color/F9C74F/F9C74F?label=" alt="Color Badge F9C74F" width="" height="" />
-<img src="https://badgen.net/badge/color/90BE6D/90BE6D?label=" alt="Color Badge 90BE6D" width="" height="" />
-<img src="https://badgen.net/badge/color/43AA8B/43AA8B?label=" alt="Color Badge 43AA8B" width="" height="" />
-<img src="https://badgen.net/badge/color/4D908E/4D908E?label=" alt="Color Badge 4D908E" width="" height="" />
-<img src="https://badgen.net/badge/color/577590/577590?label=" alt="Color Badge 577590" width="" height="" />
-<img src="https://badgen.net/badge/color/555555/555555?label=" alt="Color Badge 555555" width="" height="" />
-<img src="https://badgen.net/badge/color/277DA1/277DA1?label=" alt="Color Badge 277DA1" width="" height="" />
+<div>
+  <img src="https://badgen.net/badge/color/F94144/F94144?label=" alt="Color Badge F94144" width="" height="" />
+  <img src="https://badgen.net/badge/color/F3722C/F3722C?label=" alt="Color Badge F3722C" width="" height="" />
+  <img src="https://badgen.net/badge/color/F8961E/F8961E?label=" alt="Color Badge F8961E" width="" height="" />
+  <img src="https://badgen.net/badge/color/F9844A/F9844A?label=" alt="Color Badge F9844A" width="" height="" />
+  <img src="https://badgen.net/badge/color/F9C74F/F9C74F?label=" alt="Color Badge F9C74F" width="" height="" />
+  <img src="https://badgen.net/badge/color/90BE6D/90BE6D?label=" alt="Color Badge 90BE6D" width="" height="" />
+  <img src="https://badgen.net/badge/color/43AA8B/43AA8B?label=" alt="Color Badge 43AA8B" width="" height="" />
+  <img src="https://badgen.net/badge/color/4D908E/4D908E?label=" alt="Color Badge 4D908E" width="" height="" />
+  <img src="https://badgen.net/badge/color/577590/577590?label=" alt="Color Badge 577590" width="" height="" />
+  <img src="https://badgen.net/badge/color/555555/555555?label=" alt="Color Badge 555555" width="" height="" />
+  <img src="https://badgen.net/badge/color/277DA1/277DA1?label=" alt="Color Badge 277DA1" width="" height="" />
+</div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
 

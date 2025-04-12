@@ -58,7 +58,9 @@ https://api.iconify.design/{prefix}/{name}.svg{?color,width,height,flip,rotate,d
 ![Iconify 1st Place Medal Badge](https://api.iconify.design/fluent-emoji-flat/1st-place-medal.svg?width=64)
 ```
 
-<img src="https://api.iconify.design/fluent-emoji-flat/1st-place-medal.svg?width=64" alt="Iconify 1st Place Medal Badge" width="" height="" />
+<div>
+  <img src="https://api.iconify.design/fluent-emoji-flat/1st-place-medal.svg?width=64" alt="Iconify 1st Place Medal Badge" width="" height="" />
+</div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
 

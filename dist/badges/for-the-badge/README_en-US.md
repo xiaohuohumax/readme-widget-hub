@@ -33,13 +33,17 @@
 ![Built with love](https://forthebadge.com/images/featured/featured-built-with-love.svg)
 ```
 
-<img src="https://forthebadge.com/images/featured/featured-built-with-love.svg" alt="Built with love" width="" height="" />
+<div>
+  <img src="https://forthebadge.com/images/featured/featured-built-with-love.svg" alt="Built with love" width="" height="" />
+</div>
 
 ```markdown
 ![Uses HTML](https://forthebadge.com/images/featured/featured-uses-html.svg)
 ```
 
-<img src="https://forthebadge.com/images/featured/featured-uses-html.svg" alt="Uses HTML" width="" height="" />
+<div>
+  <img src="https://forthebadge.com/images/featured/featured-uses-html.svg" alt="Uses HTML" width="" height="" />
+</div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
 

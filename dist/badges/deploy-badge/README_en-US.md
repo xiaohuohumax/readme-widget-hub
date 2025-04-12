@@ -53,7 +53,9 @@ https://deploy-badge.vercel.app/{?url,style,logo,name}
 ![Deploy Badge](https://deploy-badge.vercel.app/?url=https://xiaohuohumax.github.io/badge-collection/&logo=github&name=Github+Page)
 ```
 
-<img src="https://deploy-badge.vercel.app/?url=https://xiaohuohumax.github.io/badge-collection/&#38;logo=github&#38;name=Github+Page" alt="Deploy Badge" width="" height="" />
+<div>
+  <img src="https://deploy-badge.vercel.app/?url=https://xiaohuohumax.github.io/badge-collection/&#38;logo=github&#38;name=Github+Page" alt="Deploy Badge" width="" height="" />
+</div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
 

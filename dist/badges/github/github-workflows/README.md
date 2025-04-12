@@ -53,7 +53,9 @@ https://github.com/github/{owner}/{repo}/workflows/{workflowFile}/badge.svg{?bra
 ![Workflow Status](https://github.com/xiaohuohumax/badge-collection/actions/workflows/build-readme.yaml/badge.svg)
 ```
 
-<img src="https://github.com/xiaohuohumax/badge-collection/actions/workflows/build-readme.yaml/badge.svg" alt="Workflow Status" width="" height="" />
+<div>
+  <img src="https://github.com/xiaohuohumax/badge-collection/actions/workflows/build-readme.yaml/badge.svg" alt="Workflow Status" width="" height="" />
+</div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 

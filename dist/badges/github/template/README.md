@@ -61,7 +61,9 @@ https://awesome-github-stats.azurewebsites.net/user-stats/{username}{?cardType,t
 ![Github 统计卡片](https://awesome-github-stats.azurewebsites.net/user-stats/brunobritodev?cardType=level)
 ```
 
-<img src="https://awesome-github-stats.azurewebsites.net/user-stats/brunobritodev?cardType=level" alt="Github 统计卡片" width="" height="" />
+<div>
+  <img src="https://awesome-github-stats.azurewebsites.net/user-stats/brunobritodev?cardType=level" alt="Github 统计卡片" width="" height="" />
+</div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 

@@ -56,7 +56,9 @@ https://spotify-recently-played-readme.vercel.app/api{?user,count,width,unique}
 ![Spotify](https://spotify-recently-played-readme.vercel.app/api?user=jeffreyca16)
 ```
 
-<img src="https://spotify-recently-played-readme.vercel.app/api?user=jeffreyca16" alt="Spotify" width="" height="" />
+<div>
+  <img src="https://spotify-recently-played-readme.vercel.app/api?user=jeffreyca16" alt="Spotify" width="" height="" />
+</div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
 

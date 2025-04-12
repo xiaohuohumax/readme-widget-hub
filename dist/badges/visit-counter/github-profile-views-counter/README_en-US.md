@@ -54,7 +54,9 @@ https://komarev.com/ghpvc/{?username,color,style,label,base,abbreviated}
 ![visit counter](https://komarev.com/ghpvc/?username=xiaohuohumaxS&color=blue&style=flat-square&label=PROFILE+VIEWS)
 ```
 
-<img src="https://komarev.com/ghpvc/?username=xiaohuohumaxS&#38;color=blue&#38;style=flat-square&#38;label=PROFILE+VIEWS" alt="visit counter" width="" height="" />
+<div>
+  <img src="https://komarev.com/ghpvc/?username=xiaohuohumaxS&#38;color=blue&#38;style=flat-square&#38;label=PROFILE+VIEWS" alt="visit counter" width="" height="" />
+</div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
 

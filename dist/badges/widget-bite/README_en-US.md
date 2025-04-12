@@ -72,13 +72,17 @@ https://widgetbite.com/banner{?title,subtitle,titletransform,subtitletransform,f
 ![Visitor Stats](https://widgetbite.com/stats/xiaohuohumax)
 ```
 
-<img src="https://widgetbite.com/stats/xiaohuohumax" alt="Visitor Stats" width="" height="" />
+<div>
+  <img src="https://widgetbite.com/stats/xiaohuohumax" alt="Visitor Stats" width="" height="" />
+</div>
 
 ```markdown
 ![Banner](https://widgetbite.com/banner?title=Badge%20Collection&subtitle=&backgroundpalette=pastels&fontpalette=pastels&titletransform=rotate)
 ```
 
-<img src="https://widgetbite.com/banner?title=Badge%20Collection&#38;subtitle=&#38;backgroundpalette=pastels&#38;fontpalette=pastels&#38;titletransform=rotate" alt="Banner" width="" height="" />
+<div>
+  <img src="https://widgetbite.com/banner?title=Badge%20Collection&#38;subtitle=&#38;backgroundpalette=pastels&#38;fontpalette=pastels&#38;titletransform=rotate" alt="Banner" width="" height="" />
+</div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
 

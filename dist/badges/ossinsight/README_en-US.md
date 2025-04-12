@@ -53,14 +53,18 @@ https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-
 ![Pushes and Commits of pingcap/ossinsight](https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month/thumbnail.png?repo_id=449649595&color_scheme=dark)
 ```
 
-<img src="https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month/thumbnail.png?repo_id=449649595&#38;color_scheme=dark" alt="Pushes and Commits of pingcap/ossinsight" width="" height="" />
+<div>
+  <img src="https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month/thumbnail.png?repo_id=449649595&#38;color_scheme=dark" alt="Pushes and Commits of pingcap/ossinsight" width="" height="" />
+</div>
 
 ```markdown
 <!-- antfu -->
 ![Dashboard stats of @antfu](https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=11247099&image_size=auto&color_scheme=dark)
 ```
 
-<img src="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=11247099&#38;image_size=auto&#38;color_scheme=dark" alt="Dashboard stats of @antfu" width="" height="" />
+<div>
+  <img src="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=11247099&#38;image_size=auto&#38;color_scheme=dark" alt="Dashboard stats of @antfu" width="" height="" />
+</div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
 

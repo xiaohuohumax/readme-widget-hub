@@ -67,7 +67,9 @@ https://ghchart.rshah.org/{username}
 ![贡献图表](https://ghchart.rshah.org/xiaohuohumax)
 ```
 
-<img src="https://ghchart.rshah.org/xiaohuohumax" alt="贡献图表" width="" height="" />
+<div>
+  <img src="https://ghchart.rshah.org/xiaohuohumax" alt="贡献图表" width="" height="" />
+</div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 

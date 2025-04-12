@@ -70,14 +70,18 @@ https://capsule-render.vercel.app/api{?type,color,customColorList,theme,section,
 ![Capsule-Render Header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=capsule%20render&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Decorate%20GitHub%20Profile%20or%20any%20Repo%20like%20me!&descAlignY=51&descAlign=62)
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=waving&#38;color=auto&#38;height=300&#38;section=header&#38;text=capsule%20render&#38;fontSize=90&#38;animation=fadeIn&#38;fontAlignY=38&#38;desc=Decorate%20GitHub%20Profile%20or%20any%20Repo%20like%20me!&#38;descAlignY=51&#38;descAlign=62" alt="Capsule-Render Header" width="" height="" />
+<div>
+  <img src="https://capsule-render.vercel.app/api?type=waving&#38;color=auto&#38;height=300&#38;section=header&#38;text=capsule%20render&#38;fontSize=90&#38;animation=fadeIn&#38;fontAlignY=38&#38;desc=Decorate%20GitHub%20Profile%20or%20any%20Repo%20like%20me!&#38;descAlignY=51&#38;descAlign=62" alt="Capsule-Render Header" width="" height="" />
+</div>
 
 ```markdown
 <!-- kyechan99/capsule-render -->
 ![Capsule-Render Footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer)
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=waving&#38;color=auto&#38;height=100&#38;section=footer" alt="Capsule-Render Footer" width="" height="" />
+<div>
+  <img src="https://capsule-render.vercel.app/api?type=waving&#38;color=auto&#38;height=100&#38;section=footer" alt="Capsule-Render Footer" width="" height="" />
+</div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
 

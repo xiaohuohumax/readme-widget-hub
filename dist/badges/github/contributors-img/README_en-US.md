@@ -52,7 +52,9 @@ https://contrib.rocks/image{?repo,max,columns,anon}
 ![Contributors Image](https://contrib.rocks/image?repo=lacolaco/contributors-img)
 ```
 
-<img src="https://contrib.rocks/image?repo=lacolaco/contributors-img" alt="Contributors Image" width="" height="" />
+<div>
+  <img src="https://contrib.rocks/image?repo=lacolaco/contributors-img" alt="Contributors Image" width="" height="" />
+</div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
 

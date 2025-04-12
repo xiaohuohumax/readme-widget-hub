@@ -55,7 +55,9 @@ https://gtce.itsvg.in/api{?username,theme,icon,time,response,border}
 ![Twitter Card](https://gtce.itsvg.in/api?username=VishwaGauravIn&theme=jolly&response=false&border=false)
 ```
 
-<img src="https://gtce.itsvg.in/api?username=VishwaGauravIn&#38;theme=jolly&#38;response=false&#38;border=false" alt="Twitter Card" width="" height="" />
+<div>
+  <img src="https://gtce.itsvg.in/api?username=VishwaGauravIn&#38;theme=jolly&#38;response=false&#38;border=false" alt="Twitter Card" width="" height="" />
+</div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
 
