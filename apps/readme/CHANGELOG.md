@@ -1,5 +1,12 @@
 # badge-collection
 
+## 3.0.9
+
+### Patch Changes
+
+- Updated dependencies
+  - @badge-collection/render@1.4.4
+
 ## 3.0.8
 
 ### Patch Changes

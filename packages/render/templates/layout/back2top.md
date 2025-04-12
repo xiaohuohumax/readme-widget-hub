@@ -1,1 +1,1 @@
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/{{readme.back2Top.replace(" ", "%20")}}-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/{{readme.back2Top.replaceAll(" ", "%20")}}-555555?style=for-the-badge"></a></p>

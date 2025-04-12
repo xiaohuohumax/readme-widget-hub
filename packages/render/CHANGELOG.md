@@ -1,5 +1,11 @@
 # @badge-collection/render
 
+## 1.4.4
+
+### Patch Changes
+
+- 修复返回顶部徽章链接路径错误
+
 ## 1.4.3
 
 ### Patch Changes
