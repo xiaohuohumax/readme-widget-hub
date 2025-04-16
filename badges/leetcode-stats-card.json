@@ -1,0 +1,131 @@
+{
+  "title": "LeetCode Stats Card",
+  "description": "在你的 GitHub 个人资料或网站上展示动态生成的 LeetCode 数据统计！",
+  "description:en-US": "Show your dynamically generated LeetCode stats on your GitHub profile or your website!",
+  "tag": {
+    "repo": "https://github.com/JacobLinCool/LeetCode-Stats-Card",
+    "onlineTool": "https://leetcard.jacoblin.cool/",
+    "officialDoc": "https://github.com/JacobLinCool/LeetCode-Stats-Card?tab=readme-ov-file#usage"
+  },
+  "linkRules": {
+    "params": [
+      {
+        "name": "username",
+        "type": "string",
+        "description": "LeetCode 用户名",
+        "description:en-US": "LeetCode username"
+      }
+    ],
+    "querys": [
+      {
+        "name": "site",
+        "type": "string",
+        "default": "us",
+        "description": "LeetCode 站点",
+        "description:en-US": "LeetCode site",
+        "moreDescription": "可选值：`us` `cn`。",
+        "moreDescription:en-US": "Supported: `us` `cn`."
+      },
+      {
+        "name": "theme",
+        "type": "string",
+        "default": "dark",
+        "description": "主题",
+        "description:en-US": "Theme",
+        "moreDescription": "可选值：`dark` `light` `nord` `forest` `wtf` `unicorn` `transparent`。",
+        "moreDescription:en-US": "Supported: `dark` `light` `nord` `forest` `wtf` `unicorn` `transparent`."
+      },
+      {
+        "name": "font",
+        "type": "string",
+        "default": "baloo_2",
+        "description": "字体",
+        "description:en-US": "Font",
+        "moreDescription": "支持几乎所有的 [Google Fonts](https://fonts.google.com/) 字体。",
+        "moreDescription:en-US": "Supports almost all [Google Fonts](https://fonts.google.com/) fonts."
+      },
+      {
+        "name": "width",
+        "type": "number",
+        "default": "500",
+        "description": "宽度",
+        "description:en-US": "Width"
+      },
+      {
+        "name": "height",
+        "type": "number",
+        "default": "200",
+        "description": "高度",
+        "description:en-US": "Height"
+      },
+      {
+        "name": "border",
+        "type": "number",
+        "default": "1",
+        "description": "边框宽度",
+        "description:en-US": "Border width"
+      },
+      {
+        "name": "radius",
+        "type": "number",
+        "default": "4",
+        "description": "圆角",
+        "description:en-US": "Radius"
+      },
+      {
+        "name": "animation",
+        "type": "boolean",
+        "default": "true",
+        "description": "启用或禁用动画。",
+        "description:en-US": "Enable or disable the animation."
+      },
+      {
+        "name": "hide",
+        "type": "string",
+        "description": "隐藏卡片上的元素",
+        "description:en-US": "Hide elements on the card",
+        "moreDescription": "可选值：`ranking` `total-solved-text` `easy-solved-count` `medium-solved-count` `hard-solved-count` 多个值用 `,` 分隔。",
+        "moreDescription:en-US": "Supported: `ranking` `total-solved-text` `easy-solved-count` `medium-solved-count` `hard-solved-count` separated by `,`."
+      },
+      {
+        "name": "ext",
+        "type": "string",
+        "description": "扩展数据",
+        "description:en-US": "Extra data",
+        "moreDescription": "可选值：`activity` `contest` `heatmap` 多个值用 `,` 分隔。",
+        "moreDescription:en-US": "Supported: `activity` `contest` `heatmap` separated by `,`."
+      },
+      {
+        "name": "cache",
+        "type": "number",
+        "default": "60",
+        "description": "缓存时间",
+        "description:en": "Cache time",
+        "moreDescription": "单位：秒。",
+        "moreDescription:en-US": "Unit: seconds."
+      },
+      {
+        "name": "sheets",
+        "type": "string",
+        "description": "外部样式表",
+        "description:en-US": "External stylesheets",
+        "moreDescription": "多个值用 `,` 例如：`sheets=url1,url2`，分隔 可以将自定义 CSS 上传到 gist 并使用该链接。",
+        "moreDescription:en-US": "Separated by `,` e.g. `sheets=url1,url2`, You can upload your custom CSS to gist and use the url."
+      }
+    ],
+    "uriTemplate": "https://leetcard.jacoblin.cool/{username}{?site,theme,font,width,height,border,radius,animation,hide,ext,cache,sheets}"
+  },
+  "examples": {
+    "annotate": "JacobLinCool",
+    "alt": "Leetcode 统计",
+    "alt:en-US": "Leetcode Stats",
+    "href": "https://leetcard.jacoblin.cool/JacobLinCool?theme=wtf&ext=heatmap&font=Play",
+    "images": [
+      {
+        "alt": "Leetcode 统计",
+        "alt:en-US": "Leetcode Stats",
+        "href": "https://leetcard.jacoblin.cool/JacobLinCool?theme=wtf&ext=heatmap&font=Play"
+      }
+    ]
+  }
+}
