@@ -61,7 +61,7 @@
 https://capsule-render.vercel.app/api{?type,color,customColorList,theme,section,reversal,height,text,desc,animation,fontColor,fontSize,fontAlign,fontAlignY,descSize,descAlignY,rotate,stroke,strokeWidth}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ### Examples
 
@@ -83,7 +83,7 @@ https://capsule-render.vercel.app/api{?type,color,customColorList,theme,section,
   <img src="https://capsule-render.vercel.app/api?type=waving&#38;color=auto&#38;height=100&#38;section=footer" alt="Capsule-Render Footer" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

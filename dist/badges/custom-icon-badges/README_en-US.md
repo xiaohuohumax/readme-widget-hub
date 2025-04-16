@@ -48,7 +48,7 @@
 https://custom-icon-badges.demolab.com/{shieldsIoParams}{?host,shieldsIoQuerys}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ### Examples
 
@@ -60,7 +60,7 @@ https://custom-icon-badges.demolab.com/{shieldsIoParams}{?host,shieldsIoQuerys}
   <img src="https://custom-icon-badges.demolab.com/badge/custom-badge-blue.svg?logo=paintbrush&#38;logoColor=white" alt="Custom Icon Badge" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

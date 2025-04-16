@@ -45,7 +45,7 @@
 https://hits.seeyoufarm.com/api/count/incr/badge.svg{?url,edge_flat,title,title_bg,count_bg,icon_color}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ### Examples
 
@@ -58,7 +58,7 @@ https://hits.seeyoufarm.com/api/count/incr/badge.svg{?url,edge_flat,title,title_
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection" alt="Hit Counter" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

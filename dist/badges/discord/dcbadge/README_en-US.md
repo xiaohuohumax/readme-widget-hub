@@ -47,7 +47,7 @@
 https://dcbadge.limes.pink/api/{type}/{id}{?style,theme,compact,logoColor,bot}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ### Examples
 
@@ -75,7 +75,7 @@ https://dcbadge.limes.pink/api/{type}/{id}{?style,theme,compact,logoColor,bot}
   <img src="https://dcbadge.limes.pink/api/shield/852977967776399400?bot=true" alt="Discord Bot" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

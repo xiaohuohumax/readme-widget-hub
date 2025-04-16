@@ -52,7 +52,7 @@
 https://awesome-github-stats.azurewebsites.net/user-stats/{username}{?cardType,theme,show_icons,preferLogin,background,border,text,title,icon,ring}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ### Examples
 
@@ -65,7 +65,7 @@ https://awesome-github-stats.azurewebsites.net/user-stats/{username}{?cardType,t
   <img src="https://awesome-github-stats.azurewebsites.net/user-stats/brunobritodev?cardType=level" alt="Github Stats Card" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

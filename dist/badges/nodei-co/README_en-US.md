@@ -68,7 +68,7 @@ https://nodei.co/npm/{package}.png{?compact,mini,downloads,downloadRank,stars}
 https://nodei.co/npm-dl/{package}.png{?months,height}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ### Examples
 
@@ -90,7 +90,7 @@ https://nodei.co/npm-dl/{package}.png{?months,height}
   <img src="https://nodei.co/npm-dl/vue.png" alt="Vue" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

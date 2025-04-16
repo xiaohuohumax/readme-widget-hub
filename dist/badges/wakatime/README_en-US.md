@@ -66,7 +66,7 @@ https://wakatime.com/badge/user/{userId}/project/{projectId}.{type}
 https://wakatime.com/share/@{userId}/{chartConfigId}.{type}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ### Examples
 
@@ -88,7 +88,7 @@ https://wakatime.com/share/@{userId}/{chartConfigId}.{type}
   <img src="https://wakatime.com/share/@55467317-4c40-41a7-b401-2b15b7a7e3f1/2bf34c99-3246-4d4c-85da-c9bf54d084cc.svg" alt="WakaTime Coding Activity" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

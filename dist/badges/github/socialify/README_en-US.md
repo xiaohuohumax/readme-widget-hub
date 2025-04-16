@@ -53,7 +53,7 @@
 https://socialify.git.ci/{owner}/{repo}/image{?description,forks,issues,name,owner,pulls,stargazers,pattern,logo,language,font}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ### Examples
 
@@ -66,7 +66,7 @@ https://socialify.git.ci/{owner}/{repo}/image{?description,forks,issues,name,own
   <img src="https://socialify.git.ci/xiaohuohumax/badge-collection/image?font=Rokkitt&#38;forks=1&#38;issues=1&#38;language=1&#38;logo=https%3A%2F%2Fraw.githubusercontent.com%2Fxiaohuohumax%2Flogo%2Frefs%2Fheads%2Fmain%2Flogos%2Flogo.svg&#38;name=1&#38;owner=1&#38;pattern=Plus&#38;pulls=1&#38;stargazers=1&#38;theme=Auto" alt="GitHub Socialify" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

@@ -47,7 +47,7 @@
 https://gradgen.bokub.workers.dev/{badgenNetParams}{?gradient,badgenNetQuerys
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ### Examples
 
@@ -60,7 +60,7 @@ https://gradgen.bokub.workers.dev/{badgenNetParams}{?gradient,badgenNetQuerys
   <img src="https://gradgen.bokub.workers.dev/github/checks/nodejs/node?gradient=F3722C,F94144&#38;style=flat" alt="Gradgen Flat" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

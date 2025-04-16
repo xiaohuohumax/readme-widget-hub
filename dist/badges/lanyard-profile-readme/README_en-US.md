@@ -57,7 +57,7 @@
 https://lanyard.cnrad.dev/api/{discordId}{?theme,bg,borderRadius,animated,idleMessage,showDisplayName,hideDecoration,animatedDecoration,hideStatus,hideTimestamp,hideBadges,hideProfile,hideActivity,hideSpotify,ignoreAppId}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ### Examples
 
@@ -70,7 +70,7 @@ https://lanyard.cnrad.dev/api/{discordId}{?theme,bg,borderRadius,animated,idleMe
   <img src="https://lanyard.cnrad.dev/api/705665813994012695" alt="Discord" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

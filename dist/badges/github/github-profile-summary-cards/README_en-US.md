@@ -45,7 +45,7 @@
 http://github-profile-summary-cards.vercel.app/api/cards/profile-details{?username,theme}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ### Examples
 
@@ -67,7 +67,7 @@ http://github-profile-summary-cards.vercel.app/api/cards/profile-details{?userna
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=vn7n24fzkq" alt="GitHub stats card" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

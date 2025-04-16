@@ -42,7 +42,7 @@
 https://repobeats.axiom.co/api/embed/{configId}.svg
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ### Examples
 
@@ -55,7 +55,7 @@ https://repobeats.axiom.co/api/embed/{configId}.svg
   <img src="https://repobeats.axiom.co/api/embed/65971378c4d394852dd1d92144244cbe14f0639c.svg" alt="Repobeats analytics image" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

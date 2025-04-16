@@ -58,7 +58,7 @@
 https://github-readme-activity-graph.vercel.app/graph{?username,theme,bg_color,color,title_color,line,point,area_color,area,hide_border,hide_title,custom_title,radius,height,days,from,to,grid}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ### Examples
 
@@ -70,7 +70,7 @@ https://github-readme-activity-graph.vercel.app/graph{?username,theme,bg_color,c
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=xiaohuohumax&#38;theme=github&#38;hide_border=true" alt="Github Activity Graph" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

@@ -62,7 +62,7 @@ https://render.gitanimals.org/{mode}/{username}
 https://render.gitanimals.org/guilds/{guildId}/draw
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ### Examples
 
@@ -99,7 +99,7 @@ https://render.gitanimals.org/guilds/{guildId}/draw
   <img src="https://render.gitanimals.org/guilds/668749238833660322/draw" alt="Git Animals" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

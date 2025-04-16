@@ -46,7 +46,7 @@
 https://gtce.itsvg.in/api{?username,theme,icon,time,response,border}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ### Examples
 
@@ -59,7 +59,7 @@ https://gtce.itsvg.in/api{?username,theme,icon,time,response,border}
   <img src="https://gtce.itsvg.in/api?username=VishwaGauravIn&#38;theme=jolly&#38;response=false&#38;border=false" alt="Twitter Card" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

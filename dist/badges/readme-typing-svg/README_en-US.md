@@ -55,7 +55,7 @@
 https://readme-typing-svg.demolab.com{?lines,height,width,size,font,color,background,center,vCenter,multiline,duration,pause,repeat,separator,letterSpacing}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ### Examples
 
@@ -67,7 +67,7 @@ https://readme-typing-svg.demolab.com{?lines,height,width,size,font,color,backgr
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&#38;pause=1000&#38;width=435&#38;lines=Hello+World;Badge+Collection" alt="Readme Typing SVG" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

@@ -17,12 +17,13 @@
   <br/>
 </div>
 
-## Github Immortality
+## LeetCode Stats Card
 
-**Github stats card based on the system of "A Record of a Mortal's Journey to Immortality".**
+**Show your dynamically generated LeetCode stats on your GitHub profile or your website!**
 
-[![ref-repo]](https://github.com/IceEnd/github-immortality)
-[![ref-official-doc]](https://github.com/IceEnd/github-immortality?tab=readme-ov-file#get-start)
+[![ref-repo]](https://github.com/JacobLinCool/LeetCode-Stats-Card)
+[![ref-online-tool]](https://leetcard.jacoblin.cool/)
+[![ref-official-doc]](https://github.com/JacobLinCool/LeetCode-Stats-Card?tab=readme-ov-file#usage)
 
 ### Parameters
 
@@ -31,13 +32,26 @@
 
 | Name | Type | Required | Default | Description | More Description |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
+| ![ref-params] | | | | | |
+| `username` | `string` | `true` |  | LeetCode username |  |
 | ![ref-querys] | | | | | |
-| `username` | `string` | `true` |  | Github username |  |
+| `site` | `string` |  | `us` | LeetCode site | Supported: `us` `cn`. |
+| `theme` | `string` |  | `dark` | Theme | Supported: `dark` `light` `nord` `forest` `wtf` `unicorn` `transparent`. |
+| `font` | `string` |  | `baloo_2` | Font | Supports almost all [Google Fonts](https://fonts.google.com/) fonts. |
+| `width` | `number` |  | `500` | Width |  |
+| `height` | `number` |  | `200` | Height |  |
+| `border` | `number` |  | `1` | Border width |  |
+| `radius` | `number` |  | `4` | Radius |  |
+| `animation` | `boolean` |  | `true` | Enable or disable the animation. |  |
+| `hide` | `string` |  |  | Hide elements on the card | Supported: `ranking` `total-solved-text` `easy-solved-count` `medium-solved-count` `hard-solved-count` separated by `,`. |
+| `ext` | `string` |  |  | Extra data | Supported: `activity` `contest` `heatmap` separated by `,`. |
+| `cache` | `number` |  | `60` | 缓存时间 | Unit: seconds. |
+| `sheets` | `string` |  |  | External stylesheets | Separated by `,` e.g. `sheets=url1,url2`, You can upload your custom CSS to gist and use the url. |
 
 </details>
 
 ```txt
-https://github-immortality.vercel.app/api{?username}
+https://leetcard.jacoblin.cool/{username}{?site,theme,font,width,height,border,radius,animation,hide,ext,cache,sheets}
 ```
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
@@ -45,12 +59,12 @@ https://github-immortality.vercel.app/api{?username}
 ### Examples
 
 ```markdown
-<!-- iceend -->
-![IceEnd&#39;s GitHub stats](https://github-immortality.vercel.app/api?username=iceend)
+<!-- JacobLinCool -->
+![Leetcode Stats](https://leetcard.jacoblin.cool/JacobLinCool?theme=wtf&ext=heatmap&font=Play)
 ```
 
 <div>
-  <img src="https://github-immortality.vercel.app/api?username=iceend" alt="IceEnd&#39;s GitHub stats" />
+  <img src="https://leetcard.jacoblin.cool/JacobLinCool?theme=wtf&#38;ext=heatmap&#38;font=Play" alt="Leetcode Stats" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>

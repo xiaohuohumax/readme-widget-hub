@@ -48,7 +48,7 @@
 https://opencollective.com/{collectiveName}/{statisticalType}.svg{?width,height,limit,avatarHeight,button,format}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ### Examples
 
@@ -70,7 +70,7 @@ https://opencollective.com/{collectiveName}/{statisticalType}.svg{?width,height,
   <img src="https://opencollective.com/vite/sponsors/badge.svg" alt="Sponsors Badge on Open Collective" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

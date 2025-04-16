@@ -44,7 +44,7 @@
 https://PlayBadges.pavi2410.me/badge/{type}{?id}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ### Examples
 
@@ -75,7 +75,7 @@ https://PlayBadges.pavi2410.me/badge/{type}{?id}
   <img src="https://PlayBadges.pavi2410.me/badge/ratings?id=appinventor.ai_pavitragolchha.VR" alt="Play Store App Ratings" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

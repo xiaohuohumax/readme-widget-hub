@@ -47,7 +47,7 @@
 https://github-readme-quotes-bay.vercel.app/quote{?theme,layout,font,animation,quotesUrl,quoteCategory,borderColor}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ### Examples
 
@@ -59,7 +59,7 @@ https://github-readme-quotes-bay.vercel.app/quote{?theme,layout,font,animation,q
   <img src="https://github-readme-quotes-bay.vercel.app/quote" alt="Random Quote" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

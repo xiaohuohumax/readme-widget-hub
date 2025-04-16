@@ -68,7 +68,7 @@
 https://streak-stats.demolab.com/{?user,theme,hide_border,border_radius,background,border,stroke,ring,fire,currStreakNum,sideNums,currStreakLabel,sideLabels,dates,excludeDaysLabel,date_format,locale,short_numbers,type,mode,exclude_days,disable_animations,card_width,card_height,hide_total_contributions,hide_current_streak,hide_longest_streak,starting_year}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ### Examples
 
@@ -81,7 +81,7 @@ https://streak-stats.demolab.com/{?user,theme,hide_border,border_radius,backgrou
   <img src="https://streak-stats.demolab.com/?user=DenverCoder1&#38;theme=dark&#38;hide_border=true" alt="GitHub Streak" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

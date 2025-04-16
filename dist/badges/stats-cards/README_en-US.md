@@ -67,7 +67,7 @@ https://stats.justsong.cn/api/website/{?url,logo,style}
 https://stats.justsong.cn/api/{platform}{?username,id,lang,cn,cn_username,theme}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ### Examples
 
@@ -106,7 +106,7 @@ https://stats.justsong.cn/api/{platform}{?username,id,lang,cn,cn_username,theme}
   <img src="https://stats.justsong.cn/api/bilibili/?id=483246073&#38;lang=zh-CN&#38;theme=dark" alt="蓝天的 B 站数据" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

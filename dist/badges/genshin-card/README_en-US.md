@@ -43,7 +43,7 @@
 https://hoyocard.qhy04.com/{gameName}/{bgImageId}/{miyousheUID}.png
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ### Examples
 
@@ -65,7 +65,7 @@ https://hoyocard.qhy04.com/{gameName}/{bgImageId}/{miyousheUID}.png
   <img src="https://hoyocard.qhy04.com/sr/detail/rand/318490747.png" alt="Honkai: Star Rail" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

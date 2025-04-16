@@ -64,7 +64,7 @@ https://gists-readme.yizack.com/api{?user,n,theme,theme}
 https://gists-readme.yizack.com/api/pin{?id,owner,theme}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ### Examples
 
@@ -86,7 +86,7 @@ https://gists-readme.yizack.com/api/pin{?id,owner,theme}
   <img src="https://gists-readme.yizack.com/api/pin?id=07694a749c8fc5f4d996a2bd50237939&#38;owner=true&#38;theme=dark" alt="Gists Pin" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

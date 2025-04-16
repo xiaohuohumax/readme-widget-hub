@@ -67,7 +67,7 @@ https://stackoverflow-readme-profile.johannchopin.fr/{template}/{userId}{?theme,
 https://stackoverflow-readme-profile.johannchopin.fr/tags-league-ranking/{tagName}/{userId}{?theme}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ### Examples
 
@@ -80,7 +80,7 @@ https://stackoverflow-readme-profile.johannchopin.fr/tags-league-ranking/{tagNam
   <img src="https://stackoverflow-readme-profile.johannchopin.fr/profile/8583669?theme=dark" alt="Stackoverflow Profile" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

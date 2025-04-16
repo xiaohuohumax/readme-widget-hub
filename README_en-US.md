@@ -13,7 +13,7 @@
     <a href="https://github.com/xiaohuohumax/badge-collection/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection&countColor=%2337D67A&style=flat&labelStyle=lower" /></a>
-    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badges-60-37D67A?labelColor=555555" /></a>
+    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badges-61-37D67A?labelColor=555555" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
   <div>
@@ -74,6 +74,7 @@
 * [Iconify](dist/badges/iconify/README_en-US.md)
 * [Lanyard Profile Readme](dist/badges/lanyard-profile-readme/README_en-US.md)
 * [Last.fm Recently Played README](dist/badges/lastfm-recently-played-readme/README_en-US.md)
+* [LeetCode Stats Card](dist/badges/leetcode-stats-card/README_en-US.md)
 * [m3 Markdown Badges](dist/badges/m3-Markdown-Badges/README_en-US.md)
 * [NodeICO](dist/badges/nodei-co/README_en-US.md)
 * [Open Collective](dist/badges/open-collective/README_en-US.md)
@@ -95,7 +96,7 @@
 * [WakaTime](dist/badges/wakatime/README_en-US.md)
 * [Widget Bite](dist/badges/widget-bite/README_en-US.md)
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ## 🏃Usage
 
@@ -108,7 +109,7 @@ pnpm dev
 pnpm build
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ## ✍ Add Badge
 
@@ -117,7 +118,7 @@ pnpm build
 * `pnpm dev` or `pnpm dev:docs` to start the project, check the badge effect.
 * Use the `pnpm commit` command and select `docs` to submit a PR, wait for merging.
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ## 🌏 Add Language
 
@@ -126,7 +127,7 @@ pnpm build
 * Add a translated version of the badge information file to the [locales](/locales) directory.
 * Use the `pnpm commit` command and select `docs` to submit a PR, wait for merging.
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ## 💖 Thanks
 
@@ -134,7 +135,7 @@ pnpm build
 
 Lastly, if you find this project helpful, please star it to show your support. Thank you for your attention.
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

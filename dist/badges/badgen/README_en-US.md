@@ -54,7 +54,7 @@
 https://badgen.net/{badge}/{subject}/{status}/{color}{?color,icon,label,labelColor,scale,cache}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ### Examples
 
@@ -85,7 +85,7 @@ https://badgen.net/{badge}/{subject}/{status}/{color}{?color,icon,label,labelCol
   <img src="https://badgen.net/badge/color/277DA1/277DA1?label=" alt="Color Badge 277DA1" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to top-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">
