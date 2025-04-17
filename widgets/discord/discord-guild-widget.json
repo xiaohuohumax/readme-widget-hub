@@ -1,0 +1,65 @@
+{
+  "title": "Discord Guild Widget",
+  "description": "返回一个公会 PNG 图像小部件, 无需权限或身份验证。",
+  "description:en-US": "Returns a PNG image widget for the guild, Requires no permissions or authentication.",
+  "tag": {
+    "officialDoc": "https://discord.com/developers/docs/resources/guild#get-guild-widget-image"
+  },
+  "linkRules": {
+    "params": [
+      {
+        "name": "guildId",
+        "type": "string",
+        "description": "工会 ID",
+        "description:en-US": "Guild ID"
+      }
+    ],
+    "querys": [
+      {
+        "name": "style",
+        "type": "string",
+        "default": "shield",
+        "description": "返回的小部件图像的样式",
+        "description:en-US": "Style of the widget image returned",
+        "moreDescription": "可选值：`shield` `banner1` `banner2` `banner3` `banner4`。",
+        "moreDescription:en-US": "Supported: `shield` `banner1` `banner2` `banner3` `banner4`."
+      }
+    ],
+    "uriTemplate": "https://discordapp.com/api/guilds/{guildId}/widget.png{?style}"
+  },
+  "examples": [
+    {
+      "annotate": "Discord API",
+      "alt": "Discord API shield",
+      "href": "https://discord.com/api/guilds/81384788765712384/widget.png?style=shield",
+      "images": [
+        {
+          "alt": "Discord API shield",
+          "href": "https://discord.com/api/guilds/81384788765712384/widget.png?style=shield"
+        }
+      ]
+    },
+    {
+      "annotate": "Discord API",
+      "alt": "Discord API banner1",
+      "href": "https://discord.com/api/guilds/81384788765712384/widget.png?style=banner1",
+      "images": [
+        {
+          "alt": "Discord API banner1",
+          "href": "https://discord.com/api/guilds/81384788765712384/widget.png?style=banner1"
+        }
+      ]
+    },
+    {
+      "annotate": "Discord API",
+      "alt": "Discord API banner2",
+      "href": "https://discord.com/api/guilds/81384788765712384/widget.png?style=banner2",
+      "images": [
+        {
+          "alt": "Discord API banner2",
+          "href": "https://discord.com/api/guilds/81384788765712384/widget.png?style=banner2"
+        }
+      ]
+    }
+  ]
+}
