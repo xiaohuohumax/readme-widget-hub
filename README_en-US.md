@@ -13,7 +13,7 @@
     <a href="https://github.com/xiaohuohumax/badge-collection/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/badge-collection" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Fbadge-collection&countColor=%2337D67A&style=flat&labelStyle=lower" /></a>
-    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badges-61-37D67A?labelColor=555555" /></a>
+    <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/badge/badges-62-37D67A?labelColor=555555" /></a>
     <a href="https://github.com/xiaohuohumax/badge-collection"><img src="https://img.shields.io/github/stars/xiaohuohumax/badge-collection" /></a>
   </div>
   <div>
@@ -48,6 +48,7 @@
   * [Discord Markdown Badge](dist/badges/discord/dcbadge/README_en-US.md)
   * [Discord README Badge](dist/badges/discord/discord-readme-badge/README_en-US.md)
 * [FOR THE BADGE](dist/badges/for-the-badge/README_en-US.md)
+* [GeeksForGeeks Stats Card](dist/badges/geeksforgeeks-stats-card/README_en-US.md)
 * [Genshin Card](dist/badges/genshin-card/README_en-US.md)
 * [Git Animals](dist/badges/gitanimals/README_en-US.md)
 * Github Badge
