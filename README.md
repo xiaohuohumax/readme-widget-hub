@@ -13,7 +13,7 @@
     <a href="https://github.com/xiaohuohumax/readme-widget-hub/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/readme-widget-hub" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/readme-widget-hub" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Freadme-widget-hub&countColor=%2337D67A&style=flat&labelStyle=lower" /></a>
-    <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/badge/badges-62-37D67A?labelColor=555555" /></a>
+    <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/badge/badges-63-37D67A?labelColor=555555" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/github/stars/xiaohuohumax/readme-widget-hub" /></a>
   </div>
   <div>
@@ -46,6 +46,7 @@
 * [Deploy Badge](dist/widgets/deploy-badge/README.md)
 * Discord 小部件
   * [Discord Markdown Badge](dist/widgets/discord/dcbadge/README.md)
+  * [Discord Guild Widget](dist/widgets/discord/discord-guild-widget/README.md)
   * [Discord README Badge](dist/widgets/discord/discord-readme-badge/README.md)
 * [FOR THE BADGE](dist/widgets/for-the-badge/README.md)
 * [GeeksForGeeks Stats Card](dist/widgets/geeksforgeeks-stats-card/README.md)
