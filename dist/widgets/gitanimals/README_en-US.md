@@ -29,7 +29,7 @@
 
 #### Line/Farm Mode
 
-<details open>
+<details >
 <summary><small>Click to show/close parameters</small></summary><p></p>
 
 | Name | Type | Required | Default | Description | More Description |
@@ -48,7 +48,7 @@ https://render.gitanimals.org/{mode}/{username}
 
 #### Guild Mode
 
-<details open>
+<details >
 <summary><small>Click to show/close parameters</small></summary><p></p>
 
 | Name | Type | Required | Default | Description | More Description |

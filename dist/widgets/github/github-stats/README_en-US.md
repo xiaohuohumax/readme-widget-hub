@@ -29,7 +29,7 @@
 
 #### Github stats
 
-<details open>
+<details >
 <summary><small>Click to show/close parameters</small></summary><p></p>
 
 | Name | Type | Required | Default | Description | More Description |
@@ -47,7 +47,7 @@ https://stats.hyo.dev/api/{type}{?login}
 
 #### GitHub Trophies
 
-<details open>
+<details >
 <summary><small>Click to show/close parameters</small></summary><p></p>
 
 | Name | Type | Required | Default | Description | More Description |

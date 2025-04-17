@@ -29,7 +29,7 @@
 
 #### 显示 GitHub 用户的 Gists
 
-<details open>
+<details >
 <summary><small>点击显示/关闭参数</small></summary><p></p>
 
 | 名称 | 类型 | 必填 | 默认值 | 参数描述 | 更多描述 |
@@ -48,7 +48,7 @@ https://gists-readme.yizack.com/api{?user,n,theme,theme}
 
 #### 显示单个 Gist
 
-<details open>
+<details >
 <summary><small>点击显示/关闭参数</small></summary><p></p>
 
 | 名称 | 类型 | 必填 | 默认值 | 参数描述 | 更多描述 |

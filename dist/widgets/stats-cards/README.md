@@ -28,7 +28,7 @@
 
 #### 网站监控
 
-<details open>
+<details >
 <summary><small>点击显示/关闭参数</small></summary><p></p>
 
 | 名称 | 类型 | 必填 | 默认值 | 参数描述 | 更多描述 |
@@ -46,7 +46,7 @@ https://stats.justsong.cn/api/website/{?url,logo,style}
 
 #### 网站数据
 
-<details open>
+<details >
 <summary><small>点击显示/关闭参数</small></summary><p></p>
 
 | 名称 | 类型 | 必填 | 默认值 | 参数描述 | 更多描述 |

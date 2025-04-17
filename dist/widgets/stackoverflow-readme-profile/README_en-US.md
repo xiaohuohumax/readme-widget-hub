@@ -29,7 +29,7 @@
 
 #### Stackoverflow's profile
 
-<details open>
+<details >
 <summary><small>Click to show/close parameters</small></summary><p></p>
 
 | Name | Type | Required | Default | Description | More Description |
@@ -50,7 +50,7 @@ https://stackoverflow-readme-profile.johannchopin.fr/{template}/{userId}{?theme,
 
 #### Tag league ranking
 
-<details open>
+<details >
 <summary><small>Click to show/close parameters</small></summary><p></p>
 
 | Name | Type | Required | Default | Description | More Description |
