@@ -1,5 +1,11 @@
 # readme-widget-hub
 
+## 4.0.3
+
+### Patch Changes
+
+- 回滚文件监听改为 Vite 内置
+
 ## 4.0.2
 
 ### Patch Changes

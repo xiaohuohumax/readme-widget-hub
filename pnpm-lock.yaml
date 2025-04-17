@@ -74,6 +74,9 @@ importers:
       '@readme-widget-hub/widget':
         specifier: workspace:*
         version: link:../../packages/widget
+      chokidar:
+        specifier: ^4.0.3
+        version: 4.0.3
       markdown-it-github-alerts:
         specifier: ^0.3.1
         version: 0.3.1(markdown-it@14.1.0)
@@ -3153,6 +3156,7 @@ packages:
 
   rspack-resolver@1.2.2:
     resolution: {integrity: sha512-Fwc19jMBA3g+fxDJH2B4WxwZjE0VaaOL7OX/A4Wn5Zv7bOD/vyPZhzXfaO73Xc2GAlfi96g5fGUa378WbIGfFw==}
+    deprecated: Please migrate to the brand new `@rspack/resolver` or `unrs-resolver` instead
 
   run-async@2.4.1:
     resolution: {integrity: sha512-tvVnVv01b8c1RrA6Ep7JkStj85Guv/YrMcwqYQnwjsAS2cTmmPGBBjAjpCW7RrSodNSoE2/qg9O4bceNvUuDgQ==}
