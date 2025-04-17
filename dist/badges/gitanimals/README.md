@@ -29,7 +29,7 @@
 
 #### 行/农场模式
 
-<details open>
+<details >
 <summary><small>点击显示/关闭参数</small></summary><p></p>
 
 | 名称 | 类型 | 必填 | 默认值 | 参数描述 | 更多描述 |
@@ -48,7 +48,7 @@ https://render.gitanimals.org/{mode}/{username}
 
 #### 公会模式
 
-<details open>
+<details >
 <summary><small>点击显示/关闭参数</small></summary><p></p>
 
 | 名称 | 类型 | 必填 | 默认值 | 参数描述 | 更多描述 |

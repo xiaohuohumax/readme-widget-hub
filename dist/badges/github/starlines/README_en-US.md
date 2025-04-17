@@ -31,7 +31,7 @@
 
 #### Count the number of stargazers of a repository
 
-<details open>
+<details >
 <summary><small>Click to show/close parameters</small></summary><p></p>
 
 | Name | Type | Required | Default | Description | More Description |
@@ -48,7 +48,7 @@ https://starlines.qoo.monster/assets/{owner}/{repo}
 
 #### Count the number of stargazers of a gist
 
-<details open>
+<details >
 <summary><small>Click to show/close parameters</small></summary><p></p>
 
 | Name | Type | Required | Default | Description | More Description |
@@ -65,7 +65,7 @@ https://starlines.qoo.monster/assets/{owner}/{gist}@gist
 
 #### Count the number of stargazers of a user
 
-<details open>
+<details >
 <summary><small>Click to show/close parameters</small></summary><p></p>
 
 | Name | Type | Required | Default | Description | More Description |

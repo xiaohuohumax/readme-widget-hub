@@ -28,7 +28,7 @@
 
 #### Customize chart with color
 
-<details open>
+<details >
 <summary><small>Click to show/close parameters</small></summary><p></p>
 
 | Name | Type | Required | Default | Description | More Description |
@@ -45,7 +45,7 @@ https://ghchart.rshah.org/{color}/{username}
 
 #### Default chart with color
 
-<details open>
+<details >
 <summary><small>Click to show/close parameters</small></summary><p></p>
 
 | Name | Type | Required | Default | Description | More Description |

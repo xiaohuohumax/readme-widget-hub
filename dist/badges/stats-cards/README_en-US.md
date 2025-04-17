@@ -28,7 +28,7 @@
 
 #### Website monitoring
 
-<details open>
+<details >
 <summary><small>Click to show/close parameters</small></summary><p></p>
 
 | Name | Type | Required | Default | Description | More Description |
@@ -46,7 +46,7 @@ https://stats.justsong.cn/api/website/{?url,logo,style}
 
 #### Website data
 
-<details open>
+<details >
 <summary><small>Click to show/close parameters</small></summary><p></p>
 
 | Name | Type | Required | Default | Description | More Description |

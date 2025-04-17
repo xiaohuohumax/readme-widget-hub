@@ -28,7 +28,7 @@
 
 #### Visitor Stats
 
-<details open>
+<details >
 <summary><small>Click to show/close parameters</small></summary><p></p>
 
 | Name | Type | Required | Default | Description | More Description |
@@ -44,7 +44,7 @@ https://widgetbite.com/stats/{username}
 
 #### Banner
 
-<details open>
+<details >
 <summary><small>Click to show/close parameters</small></summary><p></p>
 
 | Name | Type | Required | Default | Description | More Description |

@@ -28,7 +28,7 @@
 
 #### 个人资料
 
-<details open>
+<details >
 <summary><small>点击显示/关闭参数</small></summary><p></p>
 
 | 名称 | 类型 | 必填 | 默认值 | 参数描述 | 更多描述 |
@@ -45,7 +45,7 @@ https://github-widgetbox.vercel.app/api/profile{?username,data}
 
 #### 技能
 
-<details open>
+<details >
 <summary><small>点击显示/关闭参数</small></summary><p></p>
 
 | 名称 | 类型 | 必填 | 默认值 | 参数描述 | 更多描述 |
