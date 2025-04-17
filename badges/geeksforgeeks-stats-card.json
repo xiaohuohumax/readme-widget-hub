@@ -1,0 +1,45 @@
+{
+  "title": "GeeksForGeeks Stats Card",
+  "description": "动态生成的 GeeksForGeeks 统计数据！",
+  "description:en-US": "Dynamically generated GeeksForGeeks stats!",
+  "tag": {
+    "repo": "https://github.com/nikhilpal2705/GeeksforGeeks-Stats-Card",
+    "onlineTool": "https://gfgstatscard.vercel.app/",
+    "officialDoc": "https://github.com/nikhilpal2705/GeeksforGeeks-Stats-Card?tab=readme-ov-file#-how-to-use"
+  },
+  "linkRules": {
+    "params": [
+      {
+        "name": "username",
+        "type": "string",
+        "description": "GeeksForGeeks 用户名",
+        "description:en-US": "GeeksForGeeks username"
+      }
+    ],
+    "querys": [
+      {
+        "name": "theme",
+        "type": "string",
+        "default": "dark",
+        "description": "主题",
+        "description:en-US": "Theme",
+        "moreDescription": "可选值：`dark` `light`。",
+        "moreDescription:en-US": "Supported: `dark` `light`."
+      }
+    ],
+    "uriTemplate": "https://gfgstatscard.vercel.app/{username}{?theme}"
+  },
+  "examples": {
+    "annotate": "nikhilpal2705",
+    "alt": "GeeksforGeeks 统计",
+    "alt:en-US": "GeeksforGeeks Stats",
+    "href": "https://gfgstatscard.vercel.app/nikhilpal2705",
+    "images": [
+      {
+        "alt": "GeeksforGeeks 统计",
+        "alt:en-US": "GeeksforGeeks Stats",
+        "href": "https://gfgstatscard.vercel.app/nikhilpal2705"
+      }
+    ]
+  }
+}
