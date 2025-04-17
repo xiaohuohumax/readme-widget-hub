@@ -1,4 +1,4 @@
-{{set tag = badge.tag}}
+{{set tag = widget.tag}}
 
 {{if tag.repo}}[![ref-repo]]({{@tag.repo}})
 {{/if}}{{if tag.onlineTool}}[![ref-online-tool]]({{@tag.onlineTool}})

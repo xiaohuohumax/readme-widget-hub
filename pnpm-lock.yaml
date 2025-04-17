@@ -59,9 +59,6 @@ importers:
 
   apps/docs:
     dependencies:
-      '@readme-widget-hub/badge':
-        specifier: workspace:*
-        version: link:../../packages/badge
       '@readme-widget-hub/manager':
         specifier: workspace:*
         version: link:../../packages/manager
@@ -74,6 +71,9 @@ importers:
       '@readme-widget-hub/utils':
         specifier: workspace:*
         version: link:../../packages/utils
+      '@readme-widget-hub/widget':
+        specifier: workspace:*
+        version: link:../../packages/widget
       markdown-it-github-alerts:
         specifier: ^0.3.1
         version: 0.3.1(markdown-it@14.1.0)
@@ -90,9 +90,6 @@ importers:
 
   apps/readme:
     dependencies:
-      '@readme-widget-hub/badge':
-        specifier: workspace:*
-        version: link:../../packages/badge
       '@readme-widget-hub/manager':
         specifier: workspace:*
         version: link:../../packages/manager
@@ -105,35 +102,25 @@ importers:
       '@readme-widget-hub/utils':
         specifier: workspace:*
         version: link:../../packages/utils
+      '@readme-widget-hub/widget':
+        specifier: workspace:*
+        version: link:../../packages/widget
     devDependencies:
       chokidar:
         specifier: ^4.0.3
         version: 4.0.3
 
-  packages/badge:
-    dependencies:
-      '@readme-widget-hub/utils':
-        specifier: workspace:*
-        version: link:../utils
-      json-schema-to-ts:
-        specifier: ^3.1.1
-        version: 3.1.1
-    devDependencies:
-      '@readme-widget-hub/rollup':
-        specifier: workspace:*
-        version: link:../rollup
-
   packages/manager:
     dependencies:
-      '@readme-widget-hub/badge':
-        specifier: workspace:*
-        version: link:../badge
       '@readme-widget-hub/meta':
         specifier: workspace:*
         version: link:../meta
       '@readme-widget-hub/utils':
         specifier: workspace:*
         version: link:../utils
+      '@readme-widget-hub/widget':
+        specifier: workspace:*
+        version: link:../widget
       art-template:
         specifier: ^4.13.4
         version: 4.13.4
@@ -157,15 +144,15 @@ importers:
 
   packages/render:
     dependencies:
-      '@readme-widget-hub/badge':
-        specifier: workspace:*
-        version: link:../badge
       '@readme-widget-hub/meta':
         specifier: workspace:*
         version: link:../meta
       '@readme-widget-hub/utils':
         specifier: workspace:*
         version: link:../utils
+      '@readme-widget-hub/widget':
+        specifier: workspace:*
+        version: link:../widget
       art-template:
         specifier: ^4.13.4
         version: 4.13.4
@@ -228,6 +215,19 @@ importers:
       '@types/markdown-it':
         specifier: ^14.1.2
         version: 14.1.2
+
+  packages/widget:
+    dependencies:
+      '@readme-widget-hub/utils':
+        specifier: workspace:*
+        version: link:../utils
+      json-schema-to-ts:
+        specifier: ^3.1.1
+        version: 3.1.1
+    devDependencies:
+      '@readme-widget-hub/rollup':
+        specifier: workspace:*
+        version: link:../rollup
 
 packages:
 
@@ -1033,67 +1033,56 @@ packages:
     resolution: {integrity: sha512-hhAALKJPidCwZcj+g+iN+38SIOkhK2a9bqtJR+EtyxrKKSt1ynCBeqrQy31z0oWU6thRZzdx53hVgEbRkuI19w==}
     cpu: [arm]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-arm-musleabihf@4.37.0':
     resolution: {integrity: sha512-jUb/kmn/Gd8epbHKEqkRAxq5c2EwRt0DqhSGWjPFxLeFvldFdHQs/n8lQ9x85oAeVb6bHcS8irhTJX2FCOd8Ag==}
     cpu: [arm]
     os: [linux]
-    libc: [musl]
 
   '@rollup/rollup-linux-arm64-gnu@4.37.0':
     resolution: {integrity: sha512-oNrJxcQT9IcbcmKlkF+Yz2tmOxZgG9D9GRq+1OE6XCQwCVwxixYAa38Z8qqPzQvzt1FCfmrHX03E0pWoXm1DqA==}
     cpu: [arm64]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-arm64-musl@4.37.0':
     resolution: {integrity: sha512-pfxLBMls+28Ey2enpX3JvjEjaJMBX5XlPCZNGxj4kdJyHduPBXtxYeb8alo0a7bqOoWZW2uKynhHxF/MWoHaGQ==}
     cpu: [arm64]
     os: [linux]
-    libc: [musl]
 
   '@rollup/rollup-linux-loongarch64-gnu@4.37.0':
     resolution: {integrity: sha512-yCE0NnutTC/7IGUq/PUHmoeZbIwq3KRh02e9SfFh7Vmc1Z7atuJRYWhRME5fKgT8aS20mwi1RyChA23qSyRGpA==}
     cpu: [loong64]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-powerpc64le-gnu@4.37.0':
     resolution: {integrity: sha512-NxcICptHk06E2Lh3a4Pu+2PEdZ6ahNHuK7o6Np9zcWkrBMuv21j10SQDJW3C9Yf/A/P7cutWoC/DptNLVsZ0VQ==}
     cpu: [ppc64]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-riscv64-gnu@4.37.0':
     resolution: {integrity: sha512-PpWwHMPCVpFZLTfLq7EWJWvrmEuLdGn1GMYcm5MV7PaRgwCEYJAwiN94uBuZev0/J/hFIIJCsYw4nLmXA9J7Pw==}
     cpu: [riscv64]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-riscv64-musl@4.37.0':
     resolution: {integrity: sha512-DTNwl6a3CfhGTAOYZ4KtYbdS8b+275LSLqJVJIrPa5/JuIufWWZ/QFvkxp52gpmguN95eujrM68ZG+zVxa8zHA==}
     cpu: [riscv64]
     os: [linux]
-    libc: [musl]
 
   '@rollup/rollup-linux-s390x-gnu@4.37.0':
     resolution: {integrity: sha512-hZDDU5fgWvDdHFuExN1gBOhCuzo/8TMpidfOR+1cPZJflcEzXdCy1LjnklQdW8/Et9sryOPJAKAQRw8Jq7Tg+A==}
     cpu: [s390x]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-x64-gnu@4.37.0':
     resolution: {integrity: sha512-pKivGpgJM5g8dwj0ywBwe/HeVAUSuVVJhUTa/URXjxvoyTT/AxsLTAbkHkDHG7qQxLoW2s3apEIl26uUe08LVQ==}
     cpu: [x64]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-x64-musl@4.37.0':
     resolution: {integrity: sha512-E2lPrLKE8sQbY/2bEkVTGDEk4/49UYRVWgj90MY8yPjpnGBQ+Xi1Qnr7b7UIWw1NOggdFQFOLZ8+5CzCiz143w==}
     cpu: [x64]
     os: [linux]
-    libc: [musl]
 
   '@rollup/rollup-win32-arm64-msvc@4.37.0':
     resolution: {integrity: sha512-Jm7biMazjNzTU4PrQtr7VS8ibeys9Pn29/1bm4ph7CP2kf21950LgN+BaE2mJ1QujnvOc6p54eWWiVvn05SOBg==}
@@ -1277,25 +1266,21 @@ packages:
     resolution: {integrity: sha512-fp4Azi8kHz6TX8SFmKfyScZrMLfp++uRm2srpqRjsRZIIBzH74NtSkdEUHImR4G7f7XJ+sVZjCc6KDDK04YEpQ==}
     cpu: [arm64]
     os: [linux]
-    libc: [glibc]
 
   '@unrs/rspack-resolver-binding-linux-arm64-musl@1.2.2':
     resolution: {integrity: sha512-gMiG3DCFioJxdGBzhlL86KcFgt9HGz0iDhw0YVYPsShItpN5pqIkNrI+L/Q/0gfDiGrfcE0X3VANSYIPmqEAlQ==}
     cpu: [arm64]
     os: [linux]
-    libc: [musl]
 
   '@unrs/rspack-resolver-binding-linux-x64-gnu@1.2.2':
     resolution: {integrity: sha512-n/4n2CxaUF9tcaJxEaZm+lqvaw2gflfWQ1R9I7WQgYkKEKbRKbpG/R3hopYdUmLSRI4xaW1Cy0Bz40eS2Yi4Sw==}
     cpu: [x64]
     os: [linux]
-    libc: [glibc]
 
   '@unrs/rspack-resolver-binding-linux-x64-musl@1.2.2':
     resolution: {integrity: sha512-cHyhAr6rlYYbon1L2Ag449YCj3p6XMfcYTP0AQX+KkQo025d1y/VFtPWvjMhuEsE2lLvtHm7GdJozj6BOMtzVg==}
     cpu: [x64]
     os: [linux]
-    libc: [musl]
 
   '@unrs/rspack-resolver-binding-wasm32-wasi@1.2.2':
     resolution: {integrity: sha512-eogDKuICghDLGc32FtP+WniG38IB1RcGOGz0G3z8406dUdjJvxfHGuGs/dSlM9YEp/v0lEqhJ4mBu6X2nL9pog==}

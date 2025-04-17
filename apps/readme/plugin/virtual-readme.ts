@@ -1,9 +1,9 @@
 import type { Plugin } from 'vite'
 import path from 'node:path'
 import { Manager } from '@readme-widget-hub/manager'
-import { RENDER_TEMPLATE_DIR, renderBadge, renderGithubHtml, renderReadme } from '@readme-widget-hub/render'
+import { RENDER_TEMPLATE_DIR, renderGithubHtml, renderReadme, renderWidget } from '@readme-widget-hub/render'
 import chokidar from 'chokidar'
-import { badgeTree2Tocs, object2Navs, url2BadgeFilePath } from '../src/transform'
+import { object2Navs, url2WidgetFilePath, widgetTree2Tocs } from '../src/transform'
 
 const rootDir = path.join(__dirname, '../../../')
 
@@ -12,11 +12,11 @@ export interface VirtualReadmeOptions {
 }
 
 export default function virtualReadme({ env }: VirtualReadmeOptions): Plugin {
-  const absBadgesDir = path.join(rootDir, env.VITE_BADGES_DIR)
+  const absWidgetsDir = path.join(rootDir, env.VITE_WIDGETS_DIR)
   const absMetaFilePath = path.join(rootDir, env.VITE_META_FILE_PATH)
   const manager = new Manager({
     defaultLocaleCode: env.VITE_DEFAULT_LOCALE_CODE,
-    absBadgesDir,
+    absWidgetsDir,
     absMetaFilePath,
   })
 
@@ -26,7 +26,7 @@ export default function virtualReadme({ env }: VirtualReadmeOptions): Plugin {
     const isRoot = dir === ''
 
     const meta = manager.getMeta(locale)
-    const flatBadges = manager.getFlatBadges(locale)
+    const flatWidgets = manager.getFlatWidgets(locale)
     const localeFileName = manager.locale2FileName(locale)
     const readme = meta.readme
 
@@ -38,27 +38,27 @@ export default function virtualReadme({ env }: VirtualReadmeOptions): Plugin {
         title: meta.title,
         description: meta.description,
         showTags: true,
-        badgeCount: manager.badgeCount,
+        widgetCount: manager.widgetCount,
         navs: object2Navs(false, readme, readme, env.VITE_ONLINE_PAGE_URL, locale, manager),
-        tocs: badgeTree2Tocs(rootDir, flatBadges, env, localeFileName),
+        tocs: widgetTree2Tocs(rootDir, flatWidgets, env, localeFileName),
         readme,
       })
     }
 
-    const badgeFilePath = url2BadgeFilePath(rootDir, url, env)
-    const badge = manager.getBadge(badgeFilePath, locale)
+    const widgetFilePath = url2WidgetFilePath(rootDir, url, env)
+    const widget = manager.getWidget(widgetFilePath, locale)
 
-    return renderBadge({
+    return renderWidget({
       mode: 'html',
-      hasLocale: manager.hasLocale(badge, locale),
-      htmlTitle: `${badge.title} [${locale.name}]`,
+      hasLocale: manager.hasLocale(widget, locale),
+      htmlTitle: `${widget.title} [${locale.name}]`,
       title: meta.title,
       description: meta.description,
       showTags: false,
-      badgeCount: manager.badgeCount,
-      navs: object2Navs(true, badge, readme, env.VITE_ONLINE_PAGE_URL, locale, manager),
+      widgetCount: manager.widgetCount,
+      navs: object2Navs(true, widget, readme, env.VITE_ONLINE_PAGE_URL, locale, manager),
       readme: meta.readme,
-      badge,
+      widget,
       showParams: env.VITE_SHOW_PARAMS === 'true',
     })
   }
@@ -68,7 +68,7 @@ export default function virtualReadme({ env }: VirtualReadmeOptions): Plugin {
   return {
     name: 'vite-plugin-virtual-readme',
     configureServer(server) {
-      server.middlewares.use(async ({ url }, res) => {
+      server.middlewares.use(async ({ url }, res, next) => {
         res.setHeader('Content-Type', 'text/html; charset=UTF-8')
 
         function error404() {
@@ -77,7 +77,7 @@ export default function virtualReadme({ env }: VirtualReadmeOptions): Plugin {
         }
 
         if (url === undefined || (url !== '/' && !README_RE.test(url))) {
-          return error404()
+          return next()
         }
 
         try {
@@ -96,7 +96,7 @@ export default function virtualReadme({ env }: VirtualReadmeOptions): Plugin {
         }
       })
 
-      const watcher = chokidar.watch([absBadgesDir, absMetaFilePath, RENDER_TEMPLATE_DIR], {
+      const watcher = chokidar.watch([absWidgetsDir, absMetaFilePath, RENDER_TEMPLATE_DIR], {
         ignoreInitial: true,
         persistent: true,
       })

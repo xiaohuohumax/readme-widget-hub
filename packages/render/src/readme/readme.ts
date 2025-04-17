@@ -8,8 +8,8 @@ export interface Nav {
   href: string
 }
 
-interface BadgeToc {
-  type: 'badge'
+interface WidgetToc {
+  type: 'widget'
   name: string
   href: string
   level: number
@@ -21,7 +21,7 @@ interface CollectionToc {
   level: number
 }
 
-export type Toc = BadgeToc | CollectionToc
+export type Toc = WidgetToc | CollectionToc
 
 export type RenderMode = 'html' | 'markdown'
 
@@ -29,7 +29,7 @@ interface RenderReadmeOptionsBase {
   title: string
   description: string
   showTags: boolean
-  badgeCount: number
+  widgetCount: number
   navs: Nav[]
   tocs: Toc[]
   readme: Readme
@@ -56,7 +56,7 @@ export function renderReadme(options: RenderReadmeOptions): string {
         href: encodeURI(nav.href),
       })),
       tocs: options.tocs.map((toc) => {
-        if (toc.type === 'badge') {
+        if (toc.type === 'widget') {
           return { ...toc, href: encodeURI(toc.href) }
         }
         return toc

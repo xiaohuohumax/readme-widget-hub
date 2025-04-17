@@ -1,5 +1,5 @@
-import type { BadgeTree } from '@readme-widget-hub/badge'
 import type { Locale } from '@readme-widget-hub/meta'
+import type { WidgetTree } from '@readme-widget-hub/widget'
 import type { DefaultTheme, LocaleConfig, UserConfig } from 'vitepress'
 import path from 'node:path'
 import { Manager } from '@readme-widget-hub/manager'
@@ -17,18 +17,18 @@ export default defineConfig(() => {
   const env = loadEnv(rootDir)
   const manager = new Manager({
     defaultLocaleCode: env.VITE_DEFAULT_LOCALE_CODE,
-    absBadgesDir: path.join(rootDir, env.VITE_BADGES_DIR),
+    absWidgetsDir: path.join(rootDir, env.VITE_WIDGETS_DIR),
     absMetaFilePath: path.join(rootDir, env.VITE_META_FILE_PATH),
   })
 
-  function badgeTree2Sidebar(badgeTrees: BadgeTree[], locale: Locale): DefaultTheme.SidebarItem[] {
+  function widgetTree2Sidebar(widgetTrees: WidgetTree[], locale: Locale): DefaultTheme.SidebarItem[] {
     const sidebar: DefaultTheme.SidebarItem[] = []
-    for (const badge of badgeTrees) {
-      if (badge.type === 'badge') {
-        const link = path2Url(path.relative(rootDir, badge.path)).slice(0, -5)
+    for (const widget of widgetTrees) {
+      if (widget.type === 'widget') {
+        const link = path2Url(path.relative(rootDir, widget.path)).slice(0, -5)
 
         sidebar.push({
-          text: badge.title,
+          text: widget.title,
           link: manager.isDefaultLocale(locale)
             ? link
             : `${locale.code}/${link}`,
@@ -36,8 +36,8 @@ export default defineConfig(() => {
       }
       else {
         sidebar.push({
-          text: badge.title,
-          items: badgeTree2Sidebar(badge.items, locale),
+          text: widget.title,
+          items: widgetTree2Sidebar(widget.items, locale),
         })
       }
     }
@@ -51,10 +51,10 @@ export default defineConfig(() => {
       lang: locale.code,
       label: locale.name,
       themeConfig: {
-        sidebar: badgeTree2Sidebar(manager.getBadgeTrees(locale), locale),
+        sidebar: widgetTree2Sidebar(manager.getWidgetTrees(locale), locale),
         sidebarMenuLabel: doc.sidebarMenuLabel,
         editLink: {
-          text: doc.docBadge.editLinkText,
+          text: doc.docWidget.editLinkText,
           pattern: ({ params }) => {
             return `https://github.com/xiaohuohumax/readme-widget-hub/blob/main/${params?.doc}.json`
           },
@@ -66,7 +66,7 @@ export default defineConfig(() => {
         },
         darkModeSwitchLabel: doc.darkModeSwitchLabel,
         outline: {
-          label: doc.docBadge.outlineLabel,
+          label: doc.docWidget.outlineLabel,
         },
         footer: {
           message: `${name} (v${pkg.version}) ${pkg.license} Licensed`,
@@ -112,7 +112,7 @@ export default defineConfig(() => {
       },
       plugins: [
         watchFiles([
-          path.join(rootDir, 'badges'),
+          path.join(rootDir, 'widgets'),
           path.join(rootDir, 'meta.json'),
           path.join(rootDir, 'packages/render/templates'),
         ]),

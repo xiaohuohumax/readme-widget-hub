@@ -1,4 +1,4 @@
-{{each badge.examples}}
+{{each widget.examples}}
 
 {{if $value.description}}
 #### {{$value.description}}

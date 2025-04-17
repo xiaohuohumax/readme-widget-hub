@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: {{doc.docIndex.startButton}}
-      link: {{localeCode}}/badges/shields-io
+      link: {{localeCode}}/widgets/shields-io
 
 features:
 {{each features}}  - title: "{{$value.title}}"

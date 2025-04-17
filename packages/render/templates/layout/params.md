@@ -1,6 +1,6 @@
-{{set paramsTable = readme.badgeLayout.paramsTable}}
+{{set paramsTable = readme.widgetLayout.paramsTable}}
 
-{{each badge.linkRules}}
+{{each widget.linkRules}}
 
 {{set params = $value.params}}
 {{set querys = $value.querys}}
@@ -10,7 +10,7 @@
 {{/if}}
 
 <details {{if showParams}}open{{/if}}>
-<summary><small>{{readme.badgeLayout.showOrCloseParams}}</small></summary><p></p>
+<summary><small>{{readme.widgetLayout.showOrCloseParams}}</small></summary><p></p>
 
 | {{paramsTable.name}} | {{paramsTable.type}} | {{paramsTable.required}} | {{paramsTable.default}} | {{paramsTable.description}} | {{paramsTable.moreDescription}} |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |{{if params && params.length}}

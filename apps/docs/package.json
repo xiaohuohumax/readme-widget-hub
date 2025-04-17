@@ -1,7 +1,7 @@
 {
   "name": "@readme-widget-hub/docs",
   "type": "module",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -10,11 +10,11 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
-    "@readme-widget-hub/badge": "workspace:*",
     "@readme-widget-hub/manager": "workspace:*",
     "@readme-widget-hub/meta": "workspace:*",
     "@readme-widget-hub/render": "workspace:*",
     "@readme-widget-hub/utils": "workspace:*",
+    "@readme-widget-hub/widget": "workspace:*",
     "markdown-it-github-alerts": "^0.3.1"
   },
   "devDependencies": {

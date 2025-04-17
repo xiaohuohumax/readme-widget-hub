@@ -28,74 +28,74 @@
 > [!Tip]
 > Badges are small images that can be embedded in a project's README file to convey information about the project's status, version, test coverage, and more.
 
-## 📑 Badge Contents
+## 📑 Widget Contents
 
-* [Shields.io](dist/badges/shields-io/README_en-US.md)
-* [Badgen](dist/badges/badgen/README_en-US.md)
-* [GitHub Readme Stats](dist/badges/github-readme-stats/README_en-US.md)
-* Visit Counter Badge
-  * [GitHub Profile Views Counter](dist/badges/visit-counter/github-profile-views-counter/README_en-US.md)
-  * [Profile views counter](dist/badges/visit-counter/go-u8views/README_en-US.md)
-  * [HITS](dist/badges/visit-counter/hit-counter/README_en-US.md)
-  * [Moe Counter](dist/badges/visit-counter/moe-counter/README_en-US.md)
-  * [Profile Counter](dist/badges/visit-counter/profile-counter/README_en-US.md)
-  * [Visitor Badge](dist/badges/visit-counter/web-visitorbadge-nextjs/README_en-US.md)
-* [Custom Icon Badges](dist/badges/custom-icon-badges/README_en-US.md)
-* [Badge Poser](dist/badges/badge-poser/README_en-US.md)
-* [Capsule Render](dist/badges/capsule-render/README_en-US.md)
-* [Deploy Badge](dist/badges/deploy-badge/README_en-US.md)
-* Discord Badge
-  * [Discord Markdown Badge](dist/badges/discord/dcbadge/README_en-US.md)
-  * [Discord README Badge](dist/badges/discord/discord-readme-badge/README_en-US.md)
-* [FOR THE BADGE](dist/badges/for-the-badge/README_en-US.md)
-* [GeeksForGeeks Stats Card](dist/badges/geeksforgeeks-stats-card/README_en-US.md)
-* [Genshin Card](dist/badges/genshin-card/README_en-US.md)
-* [Git Animals](dist/badges/gitanimals/README_en-US.md)
-* Github Badge
-  * [Contributors Img](dist/badges/github/contributors-img/README_en-US.md)
-  * [GitHub Gists Readme](dist/badges/github/gists-readme/README_en-US.md)
-  * [GitHub Achievements](dist/badges/github/gitHub-achievements/README_en-US.md)
-  * [Github Contribution Stats](dist/badges/github/github-contribution-stats/README_en-US.md)
-  * [Github Immortality](dist/badges/github/github-immortality/README_en-US.md)
-  * [GitHub Profile Summary Cards](dist/badges/github/github-profile-summary-cards/README_en-US.md)
-  * [GitHub Profile Trophy](dist/badges/github/github-profile-trophy/README_en-US.md)
-  * [Github Readme Activity Graph](dist/badges/github/github-readme-activity-graph/README_en-US.md)
-  * [Github Readme Streak Stats](dist/badges/github/github-readme-streak-stats/README_en-US.md)
-  * [Github Stats](dist/badges/github/github-stats/README_en-US.md)
-  * [GitHub Widgetbox](dist/badges/github/github-widgetbox/README_en-US.md)
-  * [GitHub Workflows Badge](dist/badges/github/github-workflows/README_en-US.md)
-  * [Github Chart API](dist/badges/github/githubchart-api/README_en-US.md)
-  * [Repobeats](dist/badges/github/repobeats/README_en-US.md)
-  * [Socialify](dist/badges/github/socialify/README_en-US.md)
-  * [Spark](dist/badges/github/spark/README_en-US.md)
-  * [GitHub Starlines](dist/badges/github/starlines/README_en-US.md)
-  * [AWESOME Github Stats](dist/badges/github/template/README_en-US.md)
-* [GitHub Twitter Card Embed](dist/badges/github-twitter-card-embed/README_en-US.md)
-* [Gradgen](dist/badges/gradgen/README_en-US.md)
-* [Iconify](dist/badges/iconify/README_en-US.md)
-* [Lanyard Profile Readme](dist/badges/lanyard-profile-readme/README_en-US.md)
-* [Last.fm Recently Played README](dist/badges/lastfm-recently-played-readme/README_en-US.md)
-* [LeetCode Stats Card](dist/badges/leetcode-stats-card/README_en-US.md)
-* [m3 Markdown Badges](dist/badges/m3-Markdown-Badges/README_en-US.md)
-* [NodeICO](dist/badges/nodei-co/README_en-US.md)
-* [Open Collective](dist/badges/open-collective/README_en-US.md)
-* [OpenSSF Best Practices Badge](dist/badges/openssf-best-practices/README_en-US.md)
-* [Open Source Software Insight](dist/badges/ossinsight/README_en-US.md)
-* [PlayBadges](dist/badges/play-badges/README_en-US.md)
+* [Shields.io](dist/widgets/shields-io/README_en-US.md)
+* [Badgen](dist/widgets/badgen/README_en-US.md)
+* [GitHub Readme Stats](dist/widgets/github-readme-stats/README_en-US.md)
+* Visit Counter Widget
+  * [GitHub Profile Views Counter](dist/widgets/visit-counter/github-profile-views-counter/README_en-US.md)
+  * [Profile views counter](dist/widgets/visit-counter/go-u8views/README_en-US.md)
+  * [HITS](dist/widgets/visit-counter/hit-counter/README_en-US.md)
+  * [Moe Counter](dist/widgets/visit-counter/moe-counter/README_en-US.md)
+  * [Profile Counter](dist/widgets/visit-counter/profile-counter/README_en-US.md)
+  * [Visitor Badge](dist/widgets/visit-counter/web-visitorbadge-nextjs/README_en-US.md)
+* [Custom Icon Badges](dist/widgets/custom-icon-badges/README_en-US.md)
+* [Badge Poser](dist/widgets/badge-poser/README_en-US.md)
+* [Capsule Render](dist/widgets/capsule-render/README_en-US.md)
+* [Deploy Badge](dist/widgets/deploy-badge/README_en-US.md)
+* Discord Widget
+  * [Discord Markdown Badge](dist/widgets/discord/dcbadge/README_en-US.md)
+  * [Discord README Badge](dist/widgets/discord/discord-readme-badge/README_en-US.md)
+* [FOR THE BADGE](dist/widgets/for-the-badge/README_en-US.md)
+* [GeeksForGeeks Stats Card](dist/widgets/geeksforgeeks-stats-card/README_en-US.md)
+* [Genshin Card](dist/widgets/genshin-card/README_en-US.md)
+* [Git Animals](dist/widgets/gitanimals/README_en-US.md)
+* Github Widget
+  * [Contributors Img](dist/widgets/github/contributors-img/README_en-US.md)
+  * [GitHub Gists Readme](dist/widgets/github/gists-readme/README_en-US.md)
+  * [GitHub Achievements](dist/widgets/github/gitHub-achievements/README_en-US.md)
+  * [Github Contribution Stats](dist/widgets/github/github-contribution-stats/README_en-US.md)
+  * [Github Immortality](dist/widgets/github/github-immortality/README_en-US.md)
+  * [GitHub Profile Summary Cards](dist/widgets/github/github-profile-summary-cards/README_en-US.md)
+  * [GitHub Profile Trophy](dist/widgets/github/github-profile-trophy/README_en-US.md)
+  * [Github Readme Activity Graph](dist/widgets/github/github-readme-activity-graph/README_en-US.md)
+  * [Github Readme Streak Stats](dist/widgets/github/github-readme-streak-stats/README_en-US.md)
+  * [Github Stats](dist/widgets/github/github-stats/README_en-US.md)
+  * [GitHub Widgetbox](dist/widgets/github/github-widgetbox/README_en-US.md)
+  * [GitHub Workflows Badge](dist/widgets/github/github-workflows/README_en-US.md)
+  * [Github Chart API](dist/widgets/github/githubchart-api/README_en-US.md)
+  * [Repobeats](dist/widgets/github/repobeats/README_en-US.md)
+  * [Socialify](dist/widgets/github/socialify/README_en-US.md)
+  * [Spark](dist/widgets/github/spark/README_en-US.md)
+  * [GitHub Starlines](dist/widgets/github/starlines/README_en-US.md)
+  * [AWESOME Github Stats](dist/widgets/github/template/README_en-US.md)
+* [GitHub Twitter Card Embed](dist/widgets/github-twitter-card-embed/README_en-US.md)
+* [Gradgen](dist/widgets/gradgen/README_en-US.md)
+* [Iconify](dist/widgets/iconify/README_en-US.md)
+* [Lanyard Profile Readme](dist/widgets/lanyard-profile-readme/README_en-US.md)
+* [Last.fm Recently Played README](dist/widgets/lastfm-recently-played-readme/README_en-US.md)
+* [LeetCode Stats Card](dist/widgets/leetcode-stats-card/README_en-US.md)
+* [m3 Markdown Badges](dist/widgets/m3-Markdown-Badges/README_en-US.md)
+* [NodeICO](dist/widgets/nodei-co/README_en-US.md)
+* [Open Collective](dist/widgets/open-collective/README_en-US.md)
+* [OpenSSF Best Practices Badge](dist/widgets/openssf-best-practices/README_en-US.md)
+* [Open Source Software Insight](dist/widgets/ossinsight/README_en-US.md)
+* [PlayBadges](dist/widgets/play-badges/README_en-US.md)
 * Quotes
-  * [Github Readme Quotes (PiyushSuthar)](dist/badges/quotes/github-readme-quotes_1/README_en-US.md)
-  * [Github Readme Quotes (shravan20)](dist/badges/quotes/github-readme-quotes_2/README_en-US.md)
-* [README Jokes](dist/badges/readme-jokes/README_en-US.md)
-* [Readme Typing SVG](dist/badges/readme-typing-svg/README_en-US.md)
-* [Sloc Cloc and Code](dist/badges/scc/README_en-US.md)
-* [Skill Icons](dist/badges/skill-icons/README_en-US.md)
-* [Spotify Recently Played README](dist/badges/spotify-recently-played-readme/README_en-US.md)
-* [Stackoverflow Readme Profile](dist/badges/stackoverflow-readme-profile/README_en-US.md)
-* [Star History](dist/badges/star-history/README_en-US.md)
-* [Stats Cards](dist/badges/stats-cards/README_en-US.md)
-* [Version Badge](dist/badges/version-badge/README_en-US.md)
-* [WakaTime](dist/badges/wakatime/README_en-US.md)
-* [Widget Bite](dist/badges/widget-bite/README_en-US.md)
+  * [Github Readme Quotes (PiyushSuthar)](dist/widgets/quotes/github-readme-quotes_1/README_en-US.md)
+  * [Github Readme Quotes (shravan20)](dist/widgets/quotes/github-readme-quotes_2/README_en-US.md)
+* [README Jokes](dist/widgets/readme-jokes/README_en-US.md)
+* [Readme Typing SVG](dist/widgets/readme-typing-svg/README_en-US.md)
+* [Sloc Cloc and Code](dist/widgets/scc/README_en-US.md)
+* [Skill Icons](dist/widgets/skill-icons/README_en-US.md)
+* [Spotify Recently Played README](dist/widgets/spotify-recently-played-readme/README_en-US.md)
+* [Stackoverflow Readme Profile](dist/widgets/stackoverflow-readme-profile/README_en-US.md)
+* [Star History](dist/widgets/star-history/README_en-US.md)
+* [Stats Cards](dist/widgets/stats-cards/README_en-US.md)
+* [Version Badge](dist/widgets/version-badge/README_en-US.md)
+* [WakaTime](dist/widgets/wakatime/README_en-US.md)
+* [Widget Bite](dist/widgets/widget-bite/README_en-US.md)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
@@ -112,11 +112,11 @@ pnpm build
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
-## ✍ Add Badge
+## ✍ Add Widget
 
 * Fork the project
-* Refer to the [template.json](/badges/template.json) file, create a JSON file in the [badges](/badges) directory, and fill in the badge information according to the template format.
-* `pnpm dev` or `pnpm dev:docs` to start the project, check the badge effect.
+* Refer to the [template.json](/widgets/template.json) file, create a JSON file in the [widgets](/widgets) directory, and fill in the widget information according to the template format.
+* `pnpm dev` or `pnpm dev:docs` to start the project, check the widget effect.
 * Use the `pnpm commit` command and select `docs` to submit a PR, wait for merging.
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
@@ -125,7 +125,7 @@ pnpm build
 
 * Fork the project
 * Add a new language configuration to the `locales` field in the [meta.json](/meta.json) configuration file.
-* Add a translated version of the badge information file to the [locales](/locales) directory.
+* Add a translated version of the widget information file to the [widgets](/widgets) directory.
 * Use the `pnpm commit` command and select `docs` to submit a PR, wait for merging.
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>

@@ -23,9 +23,9 @@
     "back2Top:en-US": "Back to top",
     "notLocaleWarning": "当前页面没有对应的语言版本，你可以切换到其他语言，或者查看下面使用默认语言的版本。",
     "notLocaleWarning:en-US": "This page doesn't have a translated version, you can switch to other languages or view the default language version below.",
-    "badgeLayout": {
-      "tocTitle": "📑 徽章目录",
-      "tocTitle:en-US": "📑 Badge Contents",
+    "widgetLayout": {
+      "tocTitle": "📑 小部件目录",
+      "tocTitle:en-US": "📑 Widget Contents",
       "tag": {
         "repo": "项目地址",
         "repo:en-US": "Repository",
@@ -85,19 +85,19 @@
         "pnpm build"
       ]
     },
-    "how2AddBadge": {
-      "title": "✍ 添加徽章",
-      "title:en-US": "✍ Add Badge",
+    "how2AddWidget": {
+      "title": "✍ 添加小部件",
+      "title:en-US": "✍ Add Widget",
       "steps": [
         "Fork 项目",
-        "参考模板文件 [template.json](/badges/template.json)，在 [badges](/badges) 目录下新建一个 JSON 文件，并按照模板格式填写徽章信息内容。",
-        "`pnpm dev` 或者 `pnpm dev:docs` 启动项目, 查看徽章效果。",
+        "参考模板文件 [template.json](/widgets/template.json)，在 [widgets](/widgets) 目录下新建一个 JSON 文件，并按照模板格式填写小部件信息内容。",
+        "`pnpm dev` 或者 `pnpm dev:docs` 启动项目, 查看小部件效果。",
         "使用 `pnpm commit` 命令并选择 `docs` 提交 PR, 等待合并。"
       ],
       "steps:en-US": [
         "Fork the project",
-        "Refer to the [template.json](/badges/template.json) file, create a JSON file in the [badges](/badges) directory, and fill in the badge information according to the template format.",
-        "`pnpm dev` or `pnpm dev:docs` to start the project, check the badge effect.",
+        "Refer to the [template.json](/widgets/template.json) file, create a JSON file in the [widgets](/widgets) directory, and fill in the widget information according to the template format.",
+        "`pnpm dev` or `pnpm dev:docs` to start the project, check the widget effect.",
         "Use the `pnpm commit` command and select `docs` to submit a PR, wait for merging."
       ]
     },
@@ -107,13 +107,13 @@
       "steps": [
         "Fork 项目",
         "在 [meta.json](/meta.json) 配置文件的 `locales` 字段中添加新的语言配置。",
-        "为 [locales](/locales) 目录下徽章信息文件添加对应的语言版本。",
+        "为 [widgets](/widgets) 目录下小部件信息文件添加对应的语言版本。",
         "使用 `pnpm commit` 命令并选择 `docs` 提交 PR, 等待合并。"
       ],
       "steps:en-US": [
         "Fork the project",
         "Add a new language configuration to the `locales` field in the [meta.json](/meta.json) configuration file.",
-        "Add a translated version of the badge information file to the [locales](/locales) directory.",
+        "Add a translated version of the widget information file to the [widgets](/widgets) directory.",
         "Use the `pnpm commit` command and select `docs` to submit a PR, wait for merging."
       ]
     },
@@ -137,7 +137,7 @@
       "startButton": "开始阅读",
       "startButton:en-US": "Start Reading"
     },
-    "docBadge": {
+    "docWidget": {
       "outlineLabel": "概述",
       "outlineLabel:en-US": "On this page",
       "editLinkText": "在 GitHub 上编辑此页",

@@ -179,8 +179,8 @@ export const paramsTableSchema = {
 
 export type ParamsTHeader = FromSchema<typeof paramsTableSchema, { references: [] }>
 
-export const badgeLayoutSchema = {
-  $id: 'badgeLayout',
+export const widgetLayoutSchema = {
+  $id: 'widgetLayout',
   type: 'object',
   patternProperties: {
     '^paramsTitle.+$': {
@@ -241,7 +241,7 @@ export const badgeLayoutSchema = {
   ],
 } as const satisfies JSONSchema
 
-export type BadgeLayout = FromSchema<typeof badgeLayoutSchema, {
+export type WidgetLayout = FromSchema<typeof widgetLayoutSchema, {
   references: [typeof tagSchema, typeof paramsTableSchema]
 }>
 
@@ -283,13 +283,13 @@ export const how2RunSchema = {
 
 export type How2Run = FromSchema<typeof how2RunSchema, { references: [] }>
 
-export const how2AddBadgeSchema = {
-  $id: 'how2AddBadge',
+export const how2AddWidgetSchema = {
+  $id: 'how2AddWidget',
   type: 'object',
   patternProperties: {
     '^title:.+$': {
       type: 'string',
-      description: 'How to add badge title.',
+      description: 'How to add widget title.',
     },
     '^steps:.+$': {
       type: 'array',
@@ -302,7 +302,7 @@ export const how2AddBadgeSchema = {
   properties: {
     title: {
       type: 'string',
-      description: 'How to add badge title.',
+      description: 'How to add widget title.',
     },
     steps: {
       type: 'array',
@@ -319,7 +319,7 @@ export const how2AddBadgeSchema = {
   ],
 } as const satisfies JSONSchema
 
-export type How2AddBadge = FromSchema<typeof how2AddBadgeSchema, { references: [] }>
+export type How2AddBadge = FromSchema<typeof how2AddWidgetSchema, { references: [] }>
 
 export const how2AddLocaleSchema = {
   $id: 'how2AddLocale',
@@ -429,17 +429,17 @@ export const readmeSchema = {
       type: 'string',
       description: 'Back to top.',
     },
-    badgeLayout: {
-      $ref: '#/definitions/badgeLayout',
+    widgetLayout: {
+      $ref: '#/definitions/widgetLayout',
       description: 'Badge layout metadata.',
     },
     how2Run: {
       $ref: '#/definitions/how2Run',
       description: 'How to run metadata.',
     },
-    how2AddBadge: {
-      $ref: '#/definitions/how2AddBadge',
-      description: 'How to add badge metadata.',
+    how2AddWidget: {
+      $ref: '#/definitions/how2AddWidget',
+      description: 'How to add widget metadata.',
     },
     how2AddLocale: {
       $ref: '#/definitions/how2AddLocale',
@@ -452,10 +452,10 @@ export const readmeSchema = {
   },
   definitions: {
     tag: tagSchema,
-    badgeLayout: badgeLayoutSchema,
+    widgetLayout: widgetLayoutSchema,
     paramsTable: paramsTableSchema,
     how2Run: how2RunSchema,
-    how2AddBadge: how2AddBadgeSchema,
+    how2AddWidget: how2AddWidgetSchema,
     how2AddLocale: how2AddLocaleSchema,
     finalThanks: finalThanksSchema,
   },
@@ -464,10 +464,10 @@ export const readmeSchema = {
     'back2Home',
     'onlinePage',
     'back2Top',
-    'badgeLayout',
+    'widgetLayout',
     'notLocaleWarning',
     'how2Run',
-    'how2AddBadge',
+    'how2AddWidget',
     'how2AddLocale',
     'finalThanks',
   ],
@@ -476,10 +476,10 @@ export const readmeSchema = {
 export type Readme = FromSchema<typeof readmeSchema, {
   references: [
     typeof tagSchema,
-    typeof badgeLayoutSchema,
+    typeof widgetLayoutSchema,
     typeof paramsTableSchema,
     typeof how2RunSchema,
-    typeof how2AddBadgeSchema,
+    typeof how2AddWidgetSchema,
     typeof how2AddLocaleSchema,
     typeof finalThanksSchema,
   ]
@@ -508,8 +508,8 @@ export const docIndexSchema = {
 
 export type DocIndex = FromSchema<typeof docIndexSchema, { references: [] }>
 
-export const docBadgeSchema = {
-  $id: 'docBadge',
+export const docWidgetSchema = {
+  $id: 'docWidget',
   type: 'object',
   patternProperties: {
     '^outlineLabel.+$': {
@@ -538,7 +538,7 @@ export const docBadgeSchema = {
   ],
 } as const satisfies JSONSchema
 
-export type DocBadge = FromSchema<typeof docBadgeSchema, { references: [] }>
+export type DocWidget = FromSchema<typeof docWidgetSchema, { references: [] }>
 
 export const docSchema = {
   $id: 'doc',
@@ -590,14 +590,14 @@ export const docSchema = {
       $ref: '#/definitions/docIndex',
       description: 'Doc index metadata.',
     },
-    docBadge: {
-      $ref: '#/definitions/docBadge',
-      description: 'Doc badge metadata.',
+    docWidget: {
+      $ref: '#/definitions/docWidget',
+      description: 'Doc widget metadata.',
     },
   },
   definitions: {
     docIndex: docIndexSchema,
-    docBadge: docBadgeSchema,
+    docWidget: docWidgetSchema,
   },
   additionalProperties: false,
   required: [
@@ -607,12 +607,12 @@ export const docSchema = {
     'notFoundQuote',
     'notFoundLinkText',
     'docIndex',
-    'docBadge',
+    'docWidget',
   ],
 } as const satisfies JSONSchema
 
 export type Doc = FromSchema<typeof docSchema, {
-  references: [typeof docIndexSchema, typeof docBadgeSchema]
+  references: [typeof docIndexSchema, typeof docWidgetSchema]
 }>
 
 export const metaSchema = {
@@ -666,13 +666,13 @@ export const metaSchema = {
     locale: localeSchema,
     readme: readmeSchema,
     docIndex: docIndexSchema,
-    docBadge: docBadgeSchema,
+    docWidget: docWidgetSchema,
     doc: docSchema,
     tag: tagSchema,
-    badgeLayout: badgeLayoutSchema,
+    widgetLayout: widgetLayoutSchema,
     paramsTable: paramsTableSchema,
     how2Run: how2RunSchema,
-    how2AddBadge: how2AddBadgeSchema,
+    how2AddWidget: how2AddWidgetSchema,
     how2AddLocale: how2AddLocaleSchema,
     finalThanks: finalThanksSchema,
   },
@@ -692,13 +692,13 @@ export type Meta = FromSchema<typeof metaSchema, {
     typeof localeSchema,
     typeof readmeSchema,
     typeof docIndexSchema,
-    typeof docBadgeSchema,
+    typeof docWidgetSchema,
     typeof docSchema,
     typeof tagSchema,
-    typeof badgeLayoutSchema,
+    typeof widgetLayoutSchema,
     typeof paramsTableSchema,
     typeof how2RunSchema,
-    typeof how2AddBadgeSchema,
+    typeof how2AddWidgetSchema,
     typeof how2AddLocaleSchema,
     typeof finalThanksSchema,
   ]
@@ -708,13 +708,13 @@ export const metaRootSchema = generateJSONSchema(metaSchema, [
   localeSchema,
   readmeSchema,
   docIndexSchema,
-  docBadgeSchema,
+  docWidgetSchema,
   docSchema,
   tagSchema,
-  badgeLayoutSchema,
+  widgetLayoutSchema,
   paramsTableSchema,
   how2RunSchema,
-  how2AddBadgeSchema,
+  how2AddWidgetSchema,
   how2AddLocaleSchema,
   finalThanksSchema,
 ])

@@ -1,5 +1,11 @@
 # @readme-widget-hub/meta
 
+## 2.0.1
+
+### Patch Changes
+
+- 变量名称修正
+
 ## 2.0.0
 
 ### Major Changes

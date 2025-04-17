@@ -1,7 +1,7 @@
 {
   "name": "@readme-widget-hub/manager",
   "type": "module",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "private": true,
   "exports": {
     ".": {
@@ -21,9 +21,9 @@
     "build:watch": "pnpm run build --watch"
   },
   "dependencies": {
-    "@readme-widget-hub/badge": "workspace:*",
     "@readme-widget-hub/meta": "workspace:*",
     "@readme-widget-hub/utils": "workspace:*",
+    "@readme-widget-hub/widget": "workspace:*",
     "art-template": "^4.13.4"
   },
   "devDependencies": {

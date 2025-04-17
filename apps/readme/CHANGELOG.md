@@ -1,5 +1,15 @@
 # readme-widget-hub
 
+## 4.0.1
+
+### Patch Changes
+
+- 变量名称修正
+- Updated dependencies
+  - @readme-widget-hub/manager@2.0.1
+  - @readme-widget-hub/render@2.0.1
+  - @readme-widget-hub/meta@2.0.1
+
 ## 4.0.0
 
 ### Major Changes
@@ -11,7 +21,7 @@
 - Updated dependencies
   - @readme-widget-hub/manager@2.0.0
   - @readme-widget-hub/render@2.0.0
-  - @readme-widget-hub/badge@2.0.0
+  - @readme-widget-hub/widget@2.0.0
   - @readme-widget-hub/utils@2.0.0
   - @readme-widget-hub/meta@2.0.0
 
@@ -49,7 +59,7 @@
 
 - Updated dependencies
   - @readme-widget-hub/render@1.4.0
-  - @readme-widget-hub/badge@1.4.0
+  - @readme-widget-hub/widget@1.4.0
   - @readme-widget-hub/meta@1.3.0
   - @readme-widget-hub/manager@1.0.4
 
@@ -59,7 +69,7 @@
 
 - Updated dependencies
   - @readme-widget-hub/render@1.3.0
-  - @readme-widget-hub/badge@1.3.0
+  - @readme-widget-hub/widget@1.3.0
   - @readme-widget-hub/manager@1.0.3
 
 ## 3.0.3
@@ -68,7 +78,7 @@
 
 - Updated dependencies
   - @readme-widget-hub/render@1.2.0
-  - @readme-widget-hub/badge@1.2.0
+  - @readme-widget-hub/widget@1.2.0
   - @readme-widget-hub/meta@1.2.0
   - @readme-widget-hub/manager@1.0.2
 
@@ -78,7 +88,7 @@
 
 - Updated dependencies
   - @readme-widget-hub/render@1.1.0
-  - @readme-widget-hub/badge@1.1.0
+  - @readme-widget-hub/widget@1.1.0
   - @readme-widget-hub/meta@1.1.0
   - @readme-widget-hub/manager@1.0.1
 

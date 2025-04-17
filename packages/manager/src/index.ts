@@ -1,33 +1,33 @@
-import type { Badge, BadgeTree } from '@readme-widget-hub/badge'
 import type { Locale, Meta } from '@readme-widget-hub/meta'
+import type { Widget, WidgetTree } from '@readme-widget-hub/widget'
 import path from 'node:path'
-import { flatBadgeTrees, readBadge, readBadgeTrees } from '@readme-widget-hub/badge'
 import { objectHasLocale, readLocale, readMeta } from '@readme-widget-hub/meta'
 import { deepCopy, objectSwitchLocale } from '@readme-widget-hub/utils'
+import { flatWidgetTrees, readWidget, readWidgetTrees } from '@readme-widget-hub/widget'
 
 export interface ManagerOptions {
   defaultLocaleCode: string
-  absBadgesDir: string
+  absWidgetsDir: string
   absMetaFilePath: string
 }
 
 export class Manager {
   private defaultMeta: Meta = null!
-  private defaultBadgeTrees: BadgeTree[] = null!
-  private defaultFlatBadges: BadgeTree[] = null!
+  private defaultWidgetTrees: WidgetTree[] = null!
+  private defaultFlatWidgets: WidgetTree[] = null!
   public defaultLocale: Locale = null!
-  public badgeCount: number = null!
+  public widgetCount: number = null!
 
   constructor(private options: ManagerOptions) {
     this.init()
   }
 
   init(): void {
-    this.defaultBadgeTrees = readBadgeTrees(this.options.absBadgesDir)
-    this.defaultFlatBadges = flatBadgeTrees(this.defaultBadgeTrees)
+    this.defaultWidgetTrees = readWidgetTrees(this.options.absWidgetsDir)
+    this.defaultFlatWidgets = flatWidgetTrees(this.defaultWidgetTrees)
     this.defaultLocale = readLocale(this.options.absMetaFilePath, this.options.defaultLocaleCode)
     this.defaultMeta = readMeta(this.options.absMetaFilePath)
-    this.badgeCount = this.defaultFlatBadges.filter(badge => badge.type === 'badge').length
+    this.widgetCount = this.defaultFlatWidgets.filter(widget => widget.type === 'widget').length
   }
 
   locale2FileName(locale: Locale): string {
@@ -62,28 +62,28 @@ export class Manager {
     return objectSwitchLocale(deepCopy(this.defaultMeta), locale.code)
   }
 
-  getBadge(filePath: string, locale: Locale): Badge {
-    return objectSwitchLocale(readBadge(filePath), locale.code)
+  getWidget(filePath: string, locale: Locale): Widget {
+    return objectSwitchLocale(readWidget(filePath), locale.code)
   }
 
   getLocales(): Locale[] {
     return this.defaultMeta.locales
   }
 
-  getBadgeTrees(locale?: Locale): BadgeTree[] {
+  getWidgetTrees(locale?: Locale): WidgetTree[] {
     if (locale === undefined) {
       locale = this.defaultLocale
     }
-    const defaultBadgeTrees = deepCopy(this.defaultBadgeTrees)
-    return objectSwitchLocale(defaultBadgeTrees, locale.code)
+    const defaultWidgetTrees = deepCopy(this.defaultWidgetTrees)
+    return objectSwitchLocale(defaultWidgetTrees, locale.code)
   }
 
-  getFlatBadges(locale?: Locale): BadgeTree[] {
+  getFlatWidgets(locale?: Locale): WidgetTree[] {
     if (locale === undefined) {
       locale = this.defaultLocale
     }
-    const flatBadges = deepCopy(this.defaultFlatBadges)
-    return objectSwitchLocale(flatBadges, locale.code)
+    const flatWidgets = deepCopy(this.defaultFlatWidgets)
+    return objectSwitchLocale(flatWidgets, locale.code)
   }
 
   isDefaultLocale(locale: Locale): boolean {

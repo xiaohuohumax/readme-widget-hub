@@ -3,10 +3,10 @@
 > [!Tip]
 > {{description}}
 
-## {{readme.badgeLayout.tocTitle}}
+## {{readme.widgetLayout.tocTitle}}
 
 {{each tocs}}
-{{'  '.repeat($value.level)}}- {{if $value.type==='badge'}}[{{$value.name}}]({{$value.href}}){{else}}{{$value.name}}{{/if}}{{/each}}
+{{'  '.repeat($value.level)}}- {{if $value.type==='widget'}}[{{$value.name}}]({{$value.href}}){{else}}{{$value.name}}{{/if}}{{/each}}
 
 {{ include "./layout/back2top.md"}}
 
@@ -18,9 +18,9 @@
 
 {{ include "./layout/back2top.md"}}
 
-## {{readme.how2AddBadge.title}}
+## {{readme.how2AddWidget.title}}
 
-{{each readme.how2AddBadge.steps}}
+{{each readme.how2AddWidget.steps}}
 + {{$value}}{{/each}}
 
 {{ include "./layout/back2top.md"}}

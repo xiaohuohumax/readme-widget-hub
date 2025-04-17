@@ -28,74 +28,74 @@
 > [!Tip]
 > Badge（徽章）是嵌入在项目 README 文件中的 SVG 矢量图标，用于直观展示项目状态、版本、测试覆盖率等关键信息‌。
 
-## 📑 徽章目录
+## 📑 小部件目录
 
-* [Shields.io](dist/badges/shields-io/README.md)
-* [Badgen](dist/badges/badgen/README.md)
-* [GitHub Readme Stats](dist/badges/github-readme-stats/README.md)
-* 访客统计徽章
-  * [GitHub Profile Views Counter](dist/badges/visit-counter/github-profile-views-counter/README.md)
-  * [Profile views counter](dist/badges/visit-counter/go-u8views/README.md)
-  * [HITS](dist/badges/visit-counter/hit-counter/README.md)
-  * [Moe Counter](dist/badges/visit-counter/moe-counter/README.md)
-  * [Profile Counter](dist/badges/visit-counter/profile-counter/README.md)
-  * [Visitor Badge](dist/badges/visit-counter/web-visitorbadge-nextjs/README.md)
-* [Custom Icon Badges](dist/badges/custom-icon-badges/README.md)
-* [Badge Poser](dist/badges/badge-poser/README.md)
-* [Capsule Render](dist/badges/capsule-render/README.md)
-* [Deploy Badge](dist/badges/deploy-badge/README.md)
-* Discord 徽章
-  * [Discord Markdown Badge](dist/badges/discord/dcbadge/README.md)
-  * [Discord README Badge](dist/badges/discord/discord-readme-badge/README.md)
-* [FOR THE BADGE](dist/badges/for-the-badge/README.md)
-* [GeeksForGeeks Stats Card](dist/badges/geeksforgeeks-stats-card/README.md)
-* [Genshin Card](dist/badges/genshin-card/README.md)
-* [Git Animals](dist/badges/gitanimals/README.md)
-* Github 徽章
-  * [Contributors Img](dist/badges/github/contributors-img/README.md)
-  * [GitHub Gists Readme](dist/badges/github/gists-readme/README.md)
-  * [GitHub Achievements](dist/badges/github/gitHub-achievements/README.md)
-  * [Github Contribution Stats](dist/badges/github/github-contribution-stats/README.md)
-  * [Github Immortality](dist/badges/github/github-immortality/README.md)
-  * [GitHub Profile Summary Cards](dist/badges/github/github-profile-summary-cards/README.md)
-  * [GitHub Profile Trophy](dist/badges/github/github-profile-trophy/README.md)
-  * [Github Readme Activity Graph](dist/badges/github/github-readme-activity-graph/README.md)
-  * [Github Readme Streak Stats](dist/badges/github/github-readme-streak-stats/README.md)
-  * [Github Stats](dist/badges/github/github-stats/README.md)
-  * [GitHub Widgetbox](dist/badges/github/github-widgetbox/README.md)
-  * [GitHub Workflows Badge](dist/badges/github/github-workflows/README.md)
-  * [Github Chart API](dist/badges/github/githubchart-api/README.md)
-  * [Repobeats](dist/badges/github/repobeats/README.md)
-  * [Socialify](dist/badges/github/socialify/README.md)
-  * [Spark](dist/badges/github/spark/README.md)
-  * [GitHub Starlines](dist/badges/github/starlines/README.md)
-  * [AWESOME Github Stats](dist/badges/github/template/README.md)
-* [GitHub Twitter Card Embed](dist/badges/github-twitter-card-embed/README.md)
-* [Gradgen](dist/badges/gradgen/README.md)
-* [Iconify](dist/badges/iconify/README.md)
-* [Lanyard Profile Readme](dist/badges/lanyard-profile-readme/README.md)
-* [Last.fm Recently Played README](dist/badges/lastfm-recently-played-readme/README.md)
-* [LeetCode Stats Card](dist/badges/leetcode-stats-card/README.md)
-* [m3 Markdown Badges](dist/badges/m3-Markdown-Badges/README.md)
-* [NodeICO](dist/badges/nodei-co/README.md)
-* [Open Collective](dist/badges/open-collective/README.md)
-* [OpenSSF Best Practices Badge](dist/badges/openssf-best-practices/README.md)
-* [Open Source Software Insight](dist/badges/ossinsight/README.md)
-* [PlayBadges](dist/badges/play-badges/README.md)
+* [Shields.io](dist/widgets/shields-io/README.md)
+* [Badgen](dist/widgets/badgen/README.md)
+* [GitHub Readme Stats](dist/widgets/github-readme-stats/README.md)
+* 访客统计小部件
+  * [GitHub Profile Views Counter](dist/widgets/visit-counter/github-profile-views-counter/README.md)
+  * [Profile views counter](dist/widgets/visit-counter/go-u8views/README.md)
+  * [HITS](dist/widgets/visit-counter/hit-counter/README.md)
+  * [Moe Counter](dist/widgets/visit-counter/moe-counter/README.md)
+  * [Profile Counter](dist/widgets/visit-counter/profile-counter/README.md)
+  * [Visitor Badge](dist/widgets/visit-counter/web-visitorbadge-nextjs/README.md)
+* [Custom Icon Badges](dist/widgets/custom-icon-badges/README.md)
+* [Badge Poser](dist/widgets/badge-poser/README.md)
+* [Capsule Render](dist/widgets/capsule-render/README.md)
+* [Deploy Badge](dist/widgets/deploy-badge/README.md)
+* Discord 小部件
+  * [Discord Markdown Badge](dist/widgets/discord/dcbadge/README.md)
+  * [Discord README Badge](dist/widgets/discord/discord-readme-badge/README.md)
+* [FOR THE BADGE](dist/widgets/for-the-badge/README.md)
+* [GeeksForGeeks Stats Card](dist/widgets/geeksforgeeks-stats-card/README.md)
+* [Genshin Card](dist/widgets/genshin-card/README.md)
+* [Git Animals](dist/widgets/gitanimals/README.md)
+* Github 小部件
+  * [Contributors Img](dist/widgets/github/contributors-img/README.md)
+  * [GitHub Gists Readme](dist/widgets/github/gists-readme/README.md)
+  * [GitHub Achievements](dist/widgets/github/gitHub-achievements/README.md)
+  * [Github Contribution Stats](dist/widgets/github/github-contribution-stats/README.md)
+  * [Github Immortality](dist/widgets/github/github-immortality/README.md)
+  * [GitHub Profile Summary Cards](dist/widgets/github/github-profile-summary-cards/README.md)
+  * [GitHub Profile Trophy](dist/widgets/github/github-profile-trophy/README.md)
+  * [Github Readme Activity Graph](dist/widgets/github/github-readme-activity-graph/README.md)
+  * [Github Readme Streak Stats](dist/widgets/github/github-readme-streak-stats/README.md)
+  * [Github Stats](dist/widgets/github/github-stats/README.md)
+  * [GitHub Widgetbox](dist/widgets/github/github-widgetbox/README.md)
+  * [GitHub Workflows Badge](dist/widgets/github/github-workflows/README.md)
+  * [Github Chart API](dist/widgets/github/githubchart-api/README.md)
+  * [Repobeats](dist/widgets/github/repobeats/README.md)
+  * [Socialify](dist/widgets/github/socialify/README.md)
+  * [Spark](dist/widgets/github/spark/README.md)
+  * [GitHub Starlines](dist/widgets/github/starlines/README.md)
+  * [AWESOME Github Stats](dist/widgets/github/template/README.md)
+* [GitHub Twitter Card Embed](dist/widgets/github-twitter-card-embed/README.md)
+* [Gradgen](dist/widgets/gradgen/README.md)
+* [Iconify](dist/widgets/iconify/README.md)
+* [Lanyard Profile Readme](dist/widgets/lanyard-profile-readme/README.md)
+* [Last.fm Recently Played README](dist/widgets/lastfm-recently-played-readme/README.md)
+* [LeetCode Stats Card](dist/widgets/leetcode-stats-card/README.md)
+* [m3 Markdown Badges](dist/widgets/m3-Markdown-Badges/README.md)
+* [NodeICO](dist/widgets/nodei-co/README.md)
+* [Open Collective](dist/widgets/open-collective/README.md)
+* [OpenSSF Best Practices Badge](dist/widgets/openssf-best-practices/README.md)
+* [Open Source Software Insight](dist/widgets/ossinsight/README.md)
+* [PlayBadges](dist/widgets/play-badges/README.md)
 * 名言引用
-  * [Github Readme Quotes (PiyushSuthar)](dist/badges/quotes/github-readme-quotes_1/README.md)
-  * [Github Readme Quotes (shravan20)](dist/badges/quotes/github-readme-quotes_2/README.md)
-* [README Jokes](dist/badges/readme-jokes/README.md)
-* [Readme Typing SVG](dist/badges/readme-typing-svg/README.md)
-* [Sloc Cloc and Code](dist/badges/scc/README.md)
-* [Skill Icons](dist/badges/skill-icons/README.md)
-* [Spotify Recently Played README](dist/badges/spotify-recently-played-readme/README.md)
-* [Stackoverflow Readme Profile](dist/badges/stackoverflow-readme-profile/README.md)
-* [Star History](dist/badges/star-history/README.md)
-* [Stats Cards](dist/badges/stats-cards/README.md)
-* [Version Badge](dist/badges/version-badge/README.md)
-* [WakaTime](dist/badges/wakatime/README.md)
-* [Widget Bite](dist/badges/widget-bite/README.md)
+  * [Github Readme Quotes (PiyushSuthar)](dist/widgets/quotes/github-readme-quotes_1/README.md)
+  * [Github Readme Quotes (shravan20)](dist/widgets/quotes/github-readme-quotes_2/README.md)
+* [README Jokes](dist/widgets/readme-jokes/README.md)
+* [Readme Typing SVG](dist/widgets/readme-typing-svg/README.md)
+* [Sloc Cloc and Code](dist/widgets/scc/README.md)
+* [Skill Icons](dist/widgets/skill-icons/README.md)
+* [Spotify Recently Played README](dist/widgets/spotify-recently-played-readme/README.md)
+* [Stackoverflow Readme Profile](dist/widgets/stackoverflow-readme-profile/README.md)
+* [Star History](dist/widgets/star-history/README.md)
+* [Stats Cards](dist/widgets/stats-cards/README.md)
+* [Version Badge](dist/widgets/version-badge/README.md)
+* [WakaTime](dist/widgets/wakatime/README.md)
+* [Widget Bite](dist/widgets/widget-bite/README.md)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 
@@ -112,11 +112,11 @@ pnpm build
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 
-## ✍ 添加徽章
+## ✍ 添加小部件
 
 * Fork 项目
-* 参考模板文件 [template.json](/badges/template.json)，在 [badges](/badges) 目录下新建一个 JSON 文件，并按照模板格式填写徽章信息内容。
-* `pnpm dev` 或者 `pnpm dev:docs` 启动项目, 查看徽章效果。
+* 参考模板文件 [template.json](/widgets/template.json)，在 [widgets](/widgets) 目录下新建一个 JSON 文件，并按照模板格式填写小部件信息内容。
+* `pnpm dev` 或者 `pnpm dev:docs` 启动项目, 查看小部件效果。
 * 使用 `pnpm commit` 命令并选择 `docs` 提交 PR, 等待合并。
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
@@ -125,7 +125,7 @@ pnpm build
 
 * Fork 项目
 * 在 [meta.json](/meta.json) 配置文件的 `locales` 字段中添加新的语言配置。
-* 为 [locales](/locales) 目录下徽章信息文件添加对应的语言版本。
+* 为 [widgets](/widgets) 目录下小部件信息文件添加对应的语言版本。
 * 使用 `pnpm commit` 命令并选择 `docs` 提交 PR, 等待合并。
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>

@@ -9,28 +9,28 @@
   ],
   "cSpell.ignorePaths": [
     "package.json",
-    "package-lock.json",
+    "pnpm-lock.yaml",
     "node_modules",
     ".git/{info,lfs,logs,refs,objects}/**",
     ".git/{index,*refs,*HEAD}",
     ".vscode",
     ".github",
-    "badges",
+    "widgets",
     "README*.md"
   ],
   "json.schemas": [
     {
       "fileMatch": [
-        "/badges/**/*.json",
-        "!/badges/**/collection.json"
+        "/widgets/**/*.json",
+        "!/widgets/**/collection.json"
       ],
-      "url": "/packages/badge/schema/badge.schema.json"
+      "url": "/packages/widget/schema/widget.schema.json"
     },
     {
       "fileMatch": [
-        "/badges/**/collection.json"
+        "/widgets/**/collection.json"
       ],
-      "url": "/packages/badge/schema/collection.schema.json"
+      "url": "/packages/widget/schema/collection.schema.json"
     },
     {
       "fileMatch": [

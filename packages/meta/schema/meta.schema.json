@@ -57,17 +57,17 @@
           "type": "string",
           "description": "Back to top."
         },
-        "badgeLayout": {
-          "$ref": "#/definitions/badgeLayout",
+        "widgetLayout": {
+          "$ref": "#/definitions/widgetLayout",
           "description": "Badge layout metadata."
         },
         "how2Run": {
           "$ref": "#/definitions/how2Run",
           "description": "How to run metadata."
         },
-        "how2AddBadge": {
-          "$ref": "#/definitions/how2AddBadge",
-          "description": "How to add badge metadata."
+        "how2AddWidget": {
+          "$ref": "#/definitions/how2AddWidget",
+          "description": "How to add widget metadata."
         },
         "how2AddLocale": {
           "$ref": "#/definitions/how2AddLocale",
@@ -83,10 +83,10 @@
         "back2Home",
         "onlinePage",
         "back2Top",
-        "badgeLayout",
+        "widgetLayout",
         "notLocaleWarning",
         "how2Run",
-        "how2AddBadge",
+        "how2AddWidget",
         "how2AddLocale",
         "finalThanks"
       ]
@@ -110,7 +110,7 @@
         "startButton"
       ]
     },
-    "docBadge": {
+    "docWidget": {
       "type": "object",
       "patternProperties": {
         "^outlineLabel.+$": {
@@ -187,9 +187,9 @@
           "$ref": "#/definitions/docIndex",
           "description": "Doc index metadata."
         },
-        "docBadge": {
-          "$ref": "#/definitions/docBadge",
-          "description": "Doc badge metadata."
+        "docWidget": {
+          "$ref": "#/definitions/docWidget",
+          "description": "Doc widget metadata."
         }
       },
       "additionalProperties": false,
@@ -200,7 +200,7 @@
         "notFoundQuote",
         "notFoundLinkText",
         "docIndex",
-        "docBadge"
+        "docWidget"
       ]
     },
     "tag": {
@@ -267,7 +267,7 @@
         "needAuth"
       ]
     },
-    "badgeLayout": {
+    "widgetLayout": {
       "type": "object",
       "patternProperties": {
         "^paramsTitle.+$": {
@@ -439,12 +439,12 @@
         "steps"
       ]
     },
-    "how2AddBadge": {
+    "how2AddWidget": {
       "type": "object",
       "patternProperties": {
         "^title:.+$": {
           "type": "string",
-          "description": "How to add badge title."
+          "description": "How to add widget title."
         },
         "^steps:.+$": {
           "type": "array",
@@ -457,7 +457,7 @@
       "properties": {
         "title": {
           "type": "string",
-          "description": "How to add badge title."
+          "description": "How to add widget title."
         },
         "steps": {
           "type": "array",

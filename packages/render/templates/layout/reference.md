@@ -1,5 +1,5 @@
-{{set paramsTable = readme.badgeLayout.paramsTable}}
-{{set tag = readme.badgeLayout.tag}}
+{{set paramsTable = readme.widgetLayout.paramsTable}}
+{{set tag = readme.widgetLayout.tag}}
 
 [ref-params]: https://img.shields.io/badge/{{paramsTable.paramsTitle.replaceAll(" ", "%20")}}-526E86 ""
 [ref-querys]: https://img.shields.io/badge/{{paramsTable.querysTitle.replaceAll(" ", "%20")}}-526E86 ""
