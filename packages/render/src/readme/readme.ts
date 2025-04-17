@@ -1,5 +1,5 @@
-import type { Readme } from '@badge-collection/meta'
-import { formatMarkdown } from '@badge-collection/utils'
+import type { Readme } from '@readme-widget-hub/meta'
+import { formatMarkdown } from '@readme-widget-hub/utils'
 import { renderGithubHtml } from '../github-html'
 import { renderTpl } from '../tpl'
 

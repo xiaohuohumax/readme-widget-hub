@@ -1,4 +1,17 @@
-# @badge-collection/render
+# @readme-widget-hub/render
+
+## 2.0.0
+
+### Major Changes
+
+- 项目改名为 Readme Widget Hub
+
+### Patch Changes
+
+- Updated dependencies
+  - @readme-widget-hub/badge@2.0.0
+  - @readme-widget-hub/utils@2.0.0
+  - @readme-widget-hub/meta@2.0.0
 
 ## 1.4.4
 
@@ -33,8 +46,8 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @badge-collection/badge@1.4.0
-  - @badge-collection/meta@1.3.0
+  - @readme-widget-hub/badge@1.4.0
+  - @readme-widget-hub/meta@1.3.0
 
 ## 1.3.0
 
@@ -45,7 +58,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @badge-collection/badge@1.3.0
+  - @readme-widget-hub/badge@1.3.0
 
 ## 1.2.0
 
@@ -56,8 +69,8 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @badge-collection/badge@1.2.0
-  - @badge-collection/meta@1.2.0
+  - @readme-widget-hub/badge@1.2.0
+  - @readme-widget-hub/meta@1.2.0
 
 ## 1.1.0
 
@@ -68,8 +81,8 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @badge-collection/badge@1.1.0
-  - @badge-collection/meta@1.1.0
+  - @readme-widget-hub/badge@1.1.0
+  - @readme-widget-hub/meta@1.1.0
 
 ## 1.0.0
 
@@ -80,6 +93,6 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @badge-collection/badge@1.0.0
-  - @badge-collection/meta@1.0.0
-  - @badge-collection/utils@1.0.0
+  - @readme-widget-hub/badge@1.0.0
+  - @readme-widget-hub/meta@1.0.0
+  - @readme-widget-hub/utils@1.0.0

@@ -1,9 +1,9 @@
-import type { BadgeTree } from '@badge-collection/badge'
-import type { Manager } from '@badge-collection/manager'
-import type { Locale, Readme } from '@badge-collection/meta'
-import type { Nav, Toc } from '@badge-collection/render'
+import type { BadgeTree } from '@readme-widget-hub/badge'
+import type { Manager } from '@readme-widget-hub/manager'
+import type { Locale, Readme } from '@readme-widget-hub/meta'
+import type { Nav, Toc } from '@readme-widget-hub/render'
 import path from 'node:path'
-import { path2Url, replaceParentPath } from '@badge-collection/utils'
+import { path2Url, replaceParentPath } from '@readme-widget-hub/utils'
 
 // badges/...json => /dist/badges/...md
 export function badgeFilePath2Url(rootDir: string, filePath: string, env: ImportMetaEnv, localeFileName: string): string {

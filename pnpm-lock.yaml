@@ -59,19 +59,19 @@ importers:
 
   apps/docs:
     dependencies:
-      '@badge-collection/badge':
+      '@readme-widget-hub/badge':
         specifier: workspace:*
         version: link:../../packages/badge
-      '@badge-collection/manager':
+      '@readme-widget-hub/manager':
         specifier: workspace:*
         version: link:../../packages/manager
-      '@badge-collection/meta':
+      '@readme-widget-hub/meta':
         specifier: workspace:*
         version: link:../../packages/meta
-      '@badge-collection/render':
+      '@readme-widget-hub/render':
         specifier: workspace:*
         version: link:../../packages/render
-      '@badge-collection/utils':
+      '@readme-widget-hub/utils':
         specifier: workspace:*
         version: link:../../packages/utils
       markdown-it-github-alerts:
@@ -90,19 +90,19 @@ importers:
 
   apps/readme:
     dependencies:
-      '@badge-collection/badge':
+      '@readme-widget-hub/badge':
         specifier: workspace:*
         version: link:../../packages/badge
-      '@badge-collection/manager':
+      '@readme-widget-hub/manager':
         specifier: workspace:*
         version: link:../../packages/manager
-      '@badge-collection/meta':
+      '@readme-widget-hub/meta':
         specifier: workspace:*
         version: link:../../packages/meta
-      '@badge-collection/render':
+      '@readme-widget-hub/render':
         specifier: workspace:*
         version: link:../../packages/render
-      '@badge-collection/utils':
+      '@readme-widget-hub/utils':
         specifier: workspace:*
         version: link:../../packages/utils
     devDependencies:
@@ -112,65 +112,65 @@ importers:
 
   packages/badge:
     dependencies:
-      '@badge-collection/utils':
+      '@readme-widget-hub/utils':
         specifier: workspace:*
         version: link:../utils
       json-schema-to-ts:
         specifier: ^3.1.1
         version: 3.1.1
     devDependencies:
-      '@badge-collection/rollup':
+      '@readme-widget-hub/rollup':
         specifier: workspace:*
         version: link:../rollup
 
   packages/manager:
     dependencies:
-      '@badge-collection/badge':
+      '@readme-widget-hub/badge':
         specifier: workspace:*
         version: link:../badge
-      '@badge-collection/meta':
+      '@readme-widget-hub/meta':
         specifier: workspace:*
         version: link:../meta
-      '@badge-collection/utils':
+      '@readme-widget-hub/utils':
         specifier: workspace:*
         version: link:../utils
       art-template:
         specifier: ^4.13.4
         version: 4.13.4
     devDependencies:
-      '@badge-collection/rollup':
+      '@readme-widget-hub/rollup':
         specifier: workspace:*
         version: link:../rollup
 
   packages/meta:
     dependencies:
-      '@badge-collection/utils':
+      '@readme-widget-hub/utils':
         specifier: workspace:*
         version: link:../utils
       json-schema-to-ts:
         specifier: ^3.1.1
         version: 3.1.1
     devDependencies:
-      '@badge-collection/rollup':
+      '@readme-widget-hub/rollup':
         specifier: workspace:*
         version: link:../rollup
 
   packages/render:
     dependencies:
-      '@badge-collection/badge':
+      '@readme-widget-hub/badge':
         specifier: workspace:*
         version: link:../badge
-      '@badge-collection/meta':
+      '@readme-widget-hub/meta':
         specifier: workspace:*
         version: link:../meta
-      '@badge-collection/utils':
+      '@readme-widget-hub/utils':
         specifier: workspace:*
         version: link:../utils
       art-template:
         specifier: ^4.13.4
         version: 4.13.4
     devDependencies:
-      '@badge-collection/rollup':
+      '@readme-widget-hub/rollup':
         specifier: workspace:*
         version: link:../rollup
 
@@ -222,7 +222,7 @@ importers:
         specifier: ^5.0.0
         version: 5.0.0
     devDependencies:
-      '@badge-collection/rollup':
+      '@readme-widget-hub/rollup':
         specifier: workspace:*
         version: link:../rollup
       '@types/markdown-it':

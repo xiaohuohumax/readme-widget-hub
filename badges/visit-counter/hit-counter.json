@@ -60,15 +60,15 @@
     "uriTemplate": "https://hits.seeyoufarm.com/api/count/incr/badge.svg{?url,edge_flat,title,title_bg,count_bg,icon_color}"
   },
   "examples": {
-    "annotate": "xiaohuohumax/badge-collection",
+    "annotate": "xiaohuohumax/readme-widget-hub",
     "alt": "点击统计",
     "alt:en-US": "Hit Counter",
-    "href": "https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection",
+    "href": "https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/readme-widget-hub",
     "images": [
       {
         "alt": "点击统计",
         "alt:en-US": "Hit Counter",
-        "href": "https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection"
+        "href": "https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/readme-widget-hub"
       }
     ]
   }

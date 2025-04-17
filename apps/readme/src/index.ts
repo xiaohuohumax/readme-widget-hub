@@ -1,6 +1,6 @@
 import path from 'node:path'
-import { Manager } from '@badge-collection/manager'
-import { renderBadge, renderReadme } from '@badge-collection/render'
+import { Manager } from '@readme-widget-hub/manager'
+import { renderBadge, renderReadme } from '@readme-widget-hub/render'
 import fs from 'fs-extra'
 import { badgeFilePath2Url, badgeTree2Tocs, object2Navs } from './transform'
 

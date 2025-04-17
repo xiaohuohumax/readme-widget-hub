@@ -1,7 +1,7 @@
-import type { Alert, Badge, Example, LinkRule, Rule } from '@badge-collection/badge'
-import type { Overwrite } from '@badge-collection/utils'
+import type { Alert, Badge, Example, LinkRule, Rule } from '@readme-widget-hub/badge'
+import type { Overwrite } from '@readme-widget-hub/utils'
 import type { RenderReadmeOptions } from './readme'
-import { ensureArray, formatMarkdown } from '@badge-collection/utils'
+import { ensureArray, formatMarkdown } from '@readme-widget-hub/utils'
 import { renderGithubHtml } from '../github-html'
 import { renderTpl } from '../tpl'
 

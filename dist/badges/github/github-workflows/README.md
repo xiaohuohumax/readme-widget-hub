@@ -4,10 +4,10 @@
   <div>
     <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=160&section=header">
   </div>
-  <a href="https://github.com/xiaohuohumax/badge-collection">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&height=68&lines=%F0%9F%8E%96%EF%B8%8FBadge+Collection%F0%9F%8E%96%EF%B8%8F"/>
+  <a href="https://github.com/xiaohuohumax/readme-widget-hub">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>这里收集了一些 Github 上热门项目使用过的徽章，以及一些在线制作工具。</b></p>
+  <p><b>用美观、可配置的徽章与状态卡片，让你的 README 更专业、更高效！</b></p>
   <div>
     <b>
        <a href="/README.md">首页</a>
@@ -25,7 +25,7 @@
 
 ### 参数
 
-<details >
+<details open>
 <summary><small>点击显示/关闭参数</small></summary><p></p>
 
 | 名称 | 类型 | 必填 | 默认值 | 参数描述 | 更多描述 |
@@ -49,12 +49,12 @@ https://github.com/github/{owner}/{repo}/workflows/{workflowFile}/badge.svg{?bra
 ### 示例
 
 ```markdown
-<!-- xiaohuohumax/badge-collection -->
-![Workflow Status](https://github.com/xiaohuohumax/badge-collection/actions/workflows/build-readme.yaml/badge.svg)
+<!-- xiaohuohumax/readme-widget-hub -->
+![Workflow Status](https://github.com/xiaohuohumax/readme-widget-hub/actions/workflows/build-readme.yaml/badge.svg)
 ```
 
 <div>
-  <img src="https://github.com/xiaohuohumax/badge-collection/actions/workflows/build-readme.yaml/badge.svg" alt="Workflow Status" />
+  <img src="https://github.com/xiaohuohumax/readme-widget-hub/actions/workflows/build-readme.yaml/badge.svg" alt="Workflow Status" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>

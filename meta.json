@@ -1,7 +1,7 @@
 {
-  "name": "Badge Collection",
-  "title": "这里收集了一些 Github 上热门项目使用过的徽章，以及一些在线制作工具。",
-  "title:en-US": "Here's a curated list of badges used in trending GitHub projects, along with online tools to create them.",
+  "name": "Readme Widget Hub",
+  "title": "用美观、可配置的徽章与状态卡片，让你的 README 更专业、更高效！",
+  "title:en-US": "Use beautiful, configurable badges and status cards to make your README more professional and efficient!",
   "description": "Badge（徽章）是嵌入在项目 README 文件中的 SVG 矢量图标，用于直观展示项目状态、版本、测试覆盖率等关键信息‌。",
   "description:en-US": "Badges are small images that can be embedded in a project's README file to convey information about the project's status, version, test coverage, and more.",
   "locales": [

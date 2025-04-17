@@ -4,10 +4,10 @@
   <div>
     <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=160&section=header">
   </div>
-  <a href="https://github.com/xiaohuohumax/badge-collection">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&height=68&lines=%F0%9F%8E%96%EF%B8%8FBadge+Collection%F0%9F%8E%96%EF%B8%8F"/>
+  <a href="https://github.com/xiaohuohumax/readme-widget-hub">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Here&#39;s a curated list of badges used in trending GitHub projects, along with online tools to create them.</b></p>
+  <p><b>Use beautiful, configurable badges and status cards to make your README more professional and efficient!</b></p>
   <div>
     <b>
        <a href="/README_en-US.md">Home</a>
@@ -32,7 +32,7 @@
 
 #### WakaTime Project Badge
 
-<details >
+<details open>
 <summary><small>Click to show/close parameters</small></summary><p></p>
 
 | Name | Type | Required | Default | Description | More Description |
@@ -50,7 +50,7 @@ https://wakatime.com/badge/user/{userId}/project/{projectId}.{type}
 
 #### WakaTime Custom Chart
 
-<details >
+<details open>
 <summary><small>Click to show/close parameters</small></summary><p></p>
 
 | Name | Type | Required | Default | Description | More Description |
@@ -71,7 +71,7 @@ https://wakatime.com/share/@{userId}/{chartConfigId}.{type}
 ### Examples
 
 ```markdown
-<!-- xiaohuohumax/badge-collection -->
+<!-- xiaohuohumax/readme-widget-hub -->
 ![WakaTime](https://wakatime.com/badge/user/55467317-4c40-41a7-b401-2b15b7a7e3f1/project/2da11925-8baf-4de2-9e54-5e87af844cb6.svg)
 ```
 
@@ -80,7 +80,7 @@ https://wakatime.com/share/@{userId}/{chartConfigId}.{type}
 </div>
 
 ```markdown
-<!-- xiaohuohumax/badge-collection -->
+<!-- xiaohuohumax/readme-widget-hub -->
 ![WakaTime Coding Activity](https://wakatime.com/share/@55467317-4c40-41a7-b401-2b15b7a7e3f1/2bf34c99-3246-4d4c-85da-c9bf54d084cc.svg)
 ```
 

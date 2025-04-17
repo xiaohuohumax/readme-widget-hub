@@ -43,13 +43,13 @@
     "uriTemplate": "https://deploy-badge.vercel.app/{?url,style,logo,name}"
   },
   "examples": {
-    "annotate": "https://xiaohuohumax.github.io/badge-collection/",
+    "annotate": "https://xiaohuohumax.github.io/readme-widget-hub/",
     "alt": "Deploy Badge",
-    "href": "https://deploy-badge.vercel.app/?url=https://xiaohuohumax.github.io/badge-collection/&logo=github&name=Github+Page",
+    "href": "https://deploy-badge.vercel.app/?url=https://xiaohuohumax.github.io/readme-widget-hub/&logo=github&name=Github+Page",
     "images": [
       {
         "alt": "Deploy Badge",
-        "href": "https://deploy-badge.vercel.app/?url=https://xiaohuohumax.github.io/badge-collection/&logo=github&name=Github+Page"
+        "href": "https://deploy-badge.vercel.app/?url=https://xiaohuohumax.github.io/readme-widget-hub/&logo=github&name=Github+Page"
       }
     ]
   }

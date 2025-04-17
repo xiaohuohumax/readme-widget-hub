@@ -1,71 +1,86 @@
-# badge-collection
+# readme-widget-hub
+
+## 4.0.0
+
+### Major Changes
+
+- 项目改名为 Readme Widget Hub
+
+### Patch Changes
+
+- Updated dependencies
+  - @readme-widget-hub/manager@2.0.0
+  - @readme-widget-hub/render@2.0.0
+  - @readme-widget-hub/badge@2.0.0
+  - @readme-widget-hub/utils@2.0.0
+  - @readme-widget-hub/meta@2.0.0
 
 ## 3.0.9
 
 ### Patch Changes
 
 - Updated dependencies
-  - @badge-collection/render@1.4.4
+  - @readme-widget-hub/render@1.4.4
 
 ## 3.0.8
 
 ### Patch Changes
 
 - Updated dependencies
-  - @badge-collection/render@1.4.3
+  - @readme-widget-hub/render@1.4.3
 
 ## 3.0.7
 
 ### Patch Changes
 
 - Updated dependencies
-  - @badge-collection/render@1.4.2
+  - @readme-widget-hub/render@1.4.2
 
 ## 3.0.6
 
 ### Patch Changes
 
 - Updated dependencies
-  - @badge-collection/render@1.4.1
+  - @readme-widget-hub/render@1.4.1
 
 ## 3.0.5
 
 ### Patch Changes
 
 - Updated dependencies
-  - @badge-collection/render@1.4.0
-  - @badge-collection/badge@1.4.0
-  - @badge-collection/meta@1.3.0
-  - @badge-collection/manager@1.0.4
+  - @readme-widget-hub/render@1.4.0
+  - @readme-widget-hub/badge@1.4.0
+  - @readme-widget-hub/meta@1.3.0
+  - @readme-widget-hub/manager@1.0.4
 
 ## 3.0.4
 
 ### Patch Changes
 
 - Updated dependencies
-  - @badge-collection/render@1.3.0
-  - @badge-collection/badge@1.3.0
-  - @badge-collection/manager@1.0.3
+  - @readme-widget-hub/render@1.3.0
+  - @readme-widget-hub/badge@1.3.0
+  - @readme-widget-hub/manager@1.0.3
 
 ## 3.0.3
 
 ### Patch Changes
 
 - Updated dependencies
-  - @badge-collection/render@1.2.0
-  - @badge-collection/badge@1.2.0
-  - @badge-collection/meta@1.2.0
-  - @badge-collection/manager@1.0.2
+  - @readme-widget-hub/render@1.2.0
+  - @readme-widget-hub/badge@1.2.0
+  - @readme-widget-hub/meta@1.2.0
+  - @readme-widget-hub/manager@1.0.2
 
 ## 3.0.2
 
 ### Patch Changes
 
 - Updated dependencies
-  - @badge-collection/render@1.1.0
-  - @badge-collection/badge@1.1.0
-  - @badge-collection/meta@1.1.0
-  - @badge-collection/manager@1.0.1
+  - @readme-widget-hub/render@1.1.0
+  - @readme-widget-hub/badge@1.1.0
+  - @readme-widget-hub/meta@1.1.0
+  - @readme-widget-hub/manager@1.0.1
 
 ## 3.0.1
 

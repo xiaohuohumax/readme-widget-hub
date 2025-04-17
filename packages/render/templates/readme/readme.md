@@ -34,7 +34,7 @@
 
 ## {{readme.finalThanks.title}}
 
-[![Contributors](https://contrib.rocks/image?repo=xiaohuohumax/badge-collection)](https://github.com/xiaohuohumax/badge-collection/contributors)
+[![Contributors](https://contrib.rocks/image?repo=xiaohuohumax/readme-widget-hub)](https://github.com/xiaohuohumax/readme-widget-hub/contributors)
 
 {{readme.finalThanks.concludingRemarks}}
 

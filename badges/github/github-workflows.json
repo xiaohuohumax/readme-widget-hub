@@ -43,13 +43,13 @@
     "uriTemplate": "https://github.com/github/{owner}/{repo}/workflows/{workflowFile}/badge.svg{?branch,event}"
   },
   "examples": {
-    "annotate": "xiaohuohumax/badge-collection",
+    "annotate": "xiaohuohumax/readme-widget-hub",
     "alt": "Workflow Status",
-    "href": "https://github.com/xiaohuohumax/badge-collection/actions/workflows/build-readme.yaml/badge.svg",
+    "href": "https://github.com/xiaohuohumax/readme-widget-hub/actions/workflows/build-readme.yaml/badge.svg",
     "images": [
       {
         "alt": "Workflow Status",
-        "href": "https://github.com/xiaohuohumax/badge-collection/actions/workflows/build-readme.yaml/badge.svg"
+        "href": "https://github.com/xiaohuohumax/readme-widget-hub/actions/workflows/build-readme.yaml/badge.svg"
       }
     ]
   }

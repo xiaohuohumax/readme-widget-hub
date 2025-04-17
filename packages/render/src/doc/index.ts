@@ -1,5 +1,5 @@
-import type { Doc } from '@badge-collection/meta'
-import { formatMarkdown } from '@badge-collection/utils'
+import type { Doc } from '@readme-widget-hub/meta'
+import { formatMarkdown } from '@readme-widget-hub/utils'
 import { renderTpl } from '../tpl'
 
 export interface Feature {

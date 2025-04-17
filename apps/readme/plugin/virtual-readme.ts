@@ -1,7 +1,7 @@
 import type { Plugin } from 'vite'
 import path from 'node:path'
-import { Manager } from '@badge-collection/manager'
-import { RENDER_TEMPLATE_DIR, renderBadge, renderGithubHtml, renderReadme } from '@badge-collection/render'
+import { Manager } from '@readme-widget-hub/manager'
+import { RENDER_TEMPLATE_DIR, renderBadge, renderGithubHtml, renderReadme } from '@readme-widget-hub/render'
 import chokidar from 'chokidar'
 import { badgeTree2Tocs, object2Navs, url2BadgeFilePath } from '../src/transform'
 

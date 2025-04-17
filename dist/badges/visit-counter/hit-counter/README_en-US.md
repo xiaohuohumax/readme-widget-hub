@@ -4,10 +4,10 @@
   <div>
     <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=160&section=header">
   </div>
-  <a href="https://github.com/xiaohuohumax/badge-collection">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&height=68&lines=%F0%9F%8E%96%EF%B8%8FBadge+Collection%F0%9F%8E%96%EF%B8%8F"/>
+  <a href="https://github.com/xiaohuohumax/readme-widget-hub">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Here&#39;s a curated list of badges used in trending GitHub projects, along with online tools to create them.</b></p>
+  <p><b>Use beautiful, configurable badges and status cards to make your README more professional and efficient!</b></p>
   <div>
     <b>
        <a href="/README_en-US.md">Home</a>
@@ -26,7 +26,7 @@
 
 ### Parameters
 
-<details >
+<details open>
 <summary><small>Click to show/close parameters</small></summary><p></p>
 
 | Name | Type | Required | Default | Description | More Description |
@@ -50,12 +50,12 @@ https://hits.seeyoufarm.com/api/count/incr/badge.svg{?url,edge_flat,title,title_
 ### Examples
 
 ```markdown
-<!-- xiaohuohumax/badge-collection -->
-![Hit Counter](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection)
+<!-- xiaohuohumax/readme-widget-hub -->
+![Hit Counter](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/readme-widget-hub)
 ```
 
 <div>
-  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/badge-collection" alt="Hit Counter" />
+  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/readme-widget-hub" alt="Hit Counter" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>

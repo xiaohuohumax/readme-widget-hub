@@ -98,15 +98,15 @@
     "uriTemplate": "https://sloc.xyz/{provider}/{user}/{repo}{?category,avg-wage,lower,font-color,font-shadow-color,top-shadow-accent-color,title-bg-color,badge-bg-color}"
   },
   "examples": {
-    "annotate": "xiaohuohumax/badge-collection",
+    "annotate": "xiaohuohumax/readme-widget-hub",
     "alt": "总行数",
     "alt:en-US": "Total lines",
-    "href": "https://sloc.xyz/github/xiaohuohumax/badge-collection",
+    "href": "https://sloc.xyz/github/xiaohuohumax/readme-widget-hub",
     "images": [
       {
         "alt": "总行数",
         "alt:en-US": "Total lines",
-        "href": "https://sloc.xyz/github/xiaohuohumax/badge-collection"
+        "href": "https://sloc.xyz/github/xiaohuohumax/readme-widget-hub"
       }
     ]
   }

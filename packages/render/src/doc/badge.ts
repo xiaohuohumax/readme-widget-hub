@@ -1,6 +1,6 @@
-import type { Badge } from '@badge-collection/badge'
-import type { Readme } from '@badge-collection/meta'
-import { formatMarkdown } from '@badge-collection/utils'
+import type { Badge } from '@readme-widget-hub/badge'
+import type { Readme } from '@readme-widget-hub/meta'
+import { formatMarkdown } from '@readme-widget-hub/utils'
 import { badge2RenderBadge } from '../readme/badge'
 import { renderTpl } from '../tpl'
 

@@ -1,9 +1,9 @@
-import type { BadgeTree } from '@badge-collection/badge'
-import type { Locale } from '@badge-collection/meta'
+import type { BadgeTree } from '@readme-widget-hub/badge'
+import type { Locale } from '@readme-widget-hub/meta'
 import type { DefaultTheme, LocaleConfig, UserConfig } from 'vitepress'
 import path from 'node:path'
-import { Manager } from '@badge-collection/manager'
-import { path2Url } from '@badge-collection/utils'
+import { Manager } from '@readme-widget-hub/manager'
+import { path2Url } from '@readme-widget-hub/utils'
 // @ts-expect-error ignore export default warning
 import MarkdownItGitHubAlerts from 'markdown-it-github-alerts'
 import { defineConfig } from 'vite'
@@ -56,7 +56,7 @@ export default defineConfig(() => {
         editLink: {
           text: doc.docBadge.editLinkText,
           pattern: ({ params }) => {
-            return `https://github.com/xiaohuohumax/badge-collection/blob/main/${params?.doc}.json`
+            return `https://github.com/xiaohuohumax/readme-widget-hub/blob/main/${params?.doc}.json`
           },
         },
         notFound: {
@@ -128,7 +128,7 @@ export default defineConfig(() => {
       socialLinks: [
         {
           icon: 'github',
-          link: 'https://github.com/xiaohuohumax/badge-collection',
+          link: 'https://github.com/xiaohuohumax/readme-widget-hub',
         },
       ],
     },

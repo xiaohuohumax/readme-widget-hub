@@ -1,4 +1,10 @@
-# @badge-collection/rollup
+# @readme-widget-hub/rollup
+
+## 2.0.0
+
+### Major Changes
+
+- 项目改名为 Readme Widget Hub
 
 ## 1.0.0
 

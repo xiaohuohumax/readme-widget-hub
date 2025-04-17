@@ -1,5 +1,5 @@
 import type { Locale, Meta } from './meta-schema'
-import { readAndValidateJSONFile } from '@badge-collection/utils'
+import { readAndValidateJSONFile } from '@readme-widget-hub/utils'
 import { metaRootSchema } from './meta-schema'
 
 export * from './meta-schema'

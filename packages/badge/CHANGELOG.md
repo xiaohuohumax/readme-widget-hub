@@ -1,4 +1,15 @@
-# @badge-collection/badge
+# @readme-widget-hub/badge
+
+## 2.0.0
+
+### Major Changes
+
+- 项目改名为 Readme Widget Hub
+
+### Patch Changes
+
+- Updated dependencies
+  - @readme-widget-hub/utils@2.0.0
 
 ## 1.4.0
 
@@ -33,4 +44,4 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @badge-collection/utils@1.0.0
+  - @readme-widget-hub/utils@1.0.0

@@ -1,7 +1,7 @@
 import type { Badge } from './badge-schema'
 import type { Collection } from './collection-schema'
 import path from 'node:path'
-import { readAndValidateJSONFile } from '@badge-collection/utils'
+import { readAndValidateJSONFile } from '@readme-widget-hub/utils'
 import fs from 'fs-extra'
 import { badgeRootSchema } from './badge-schema'
 import { collectionRootSchema } from './collection-schema'

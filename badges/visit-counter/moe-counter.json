@@ -102,19 +102,17 @@
     ],
     "uriTemplate": "https://count.getloli.com/@{countId}{?theme,padding,offset,scale,align,pixelated,darkmode,num,prefix}"
   },
-  "examples":
-    {
-      "annotate": "xiaohuohumax/badge-collection",
-      "alt": "萌萌计数器",
-      "alt:en-US": "Moe Counter",
-      "href": "https://count.getloli.com/@xiaohuohumax-badge-collection",
-      "images": [
-        {
-          "alt": "萌萌计数器",
-          "alt:en-US": "Moe Counter",
-          "href": "https://count.getloli.com/@xiaohuohumax-badge-collection"
-        }
-      ]
-    }
-
+  "examples": {
+    "annotate": "xiaohuohumax/readme-widget-hub",
+    "alt": "萌萌计数器",
+    "alt:en-US": "Moe Counter",
+    "href": "https://count.getloli.com/@xiaohuohumax-readme-widget-hub",
+    "images": [
+      {
+        "alt": "萌萌计数器",
+        "alt:en-US": "Moe Counter",
+        "href": "https://count.getloli.com/@xiaohuohumax-readme-widget-hub"
+      }
+    ]
+  }
 }

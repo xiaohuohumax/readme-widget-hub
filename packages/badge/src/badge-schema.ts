@@ -1,6 +1,6 @@
 import type { FromSchema, JSONSchema } from 'json-schema-to-ts'
 import path from 'node:path'
-import { generateJSONSchema } from '@badge-collection/utils'
+import { generateJSONSchema } from '@readme-widget-hub/utils'
 import fs from 'fs-extra'
 
 const alertSchema = {

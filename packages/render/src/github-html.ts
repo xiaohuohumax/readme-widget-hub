@@ -1,4 +1,4 @@
-import { markdown2Html } from '@badge-collection/utils'
+import { markdown2Html } from '@readme-widget-hub/utils'
 import { renderTpl } from './tpl'
 
 export interface RenderGithubHtmlOptions {

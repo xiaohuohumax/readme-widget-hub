@@ -1,18 +1,18 @@
 {
-  "name": "@badge-collection/readme",
+  "name": "@readme-widget-hub/readme",
   "type": "module",
-  "version": "3.0.9",
+  "version": "4.0.0",
   "private": true,
   "scripts": {
     "dev": "vite",
     "build": "rimraf ../../dist/badges && rimraf -g ../../README*.md && vite-node -m production src/index.ts"
   },
   "dependencies": {
-    "@badge-collection/badge": "workspace:*",
-    "@badge-collection/manager": "workspace:*",
-    "@badge-collection/meta": "workspace:*",
-    "@badge-collection/render": "workspace:*",
-    "@badge-collection/utils": "workspace:*"
+    "@readme-widget-hub/badge": "workspace:*",
+    "@readme-widget-hub/manager": "workspace:*",
+    "@readme-widget-hub/meta": "workspace:*",
+    "@readme-widget-hub/render": "workspace:*",
+    "@readme-widget-hub/utils": "workspace:*"
   },
   "devDependencies": {
     "chokidar": "^4.0.3"

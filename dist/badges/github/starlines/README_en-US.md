@@ -4,10 +4,10 @@
   <div>
     <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=160&section=header">
   </div>
-  <a href="https://github.com/xiaohuohumax/badge-collection">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&height=68&lines=%F0%9F%8E%96%EF%B8%8FBadge+Collection%F0%9F%8E%96%EF%B8%8F"/>
+  <a href="https://github.com/xiaohuohumax/readme-widget-hub">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Here&#39;s a curated list of badges used in trending GitHub projects, along with online tools to create them.</b></p>
+  <p><b>Use beautiful, configurable badges and status cards to make your README more professional and efficient!</b></p>
   <div>
     <b>
        <a href="/README_en-US.md">Home</a>
@@ -31,7 +31,7 @@
 
 #### Count the number of stargazers of a repository
 
-<details >
+<details open>
 <summary><small>Click to show/close parameters</small></summary><p></p>
 
 | Name | Type | Required | Default | Description | More Description |
@@ -48,7 +48,7 @@ https://starlines.qoo.monster/assets/{owner}/{repo}
 
 #### Count the number of stargazers of a gist
 
-<details >
+<details open>
 <summary><small>Click to show/close parameters</small></summary><p></p>
 
 | Name | Type | Required | Default | Description | More Description |
@@ -65,7 +65,7 @@ https://starlines.qoo.monster/assets/{owner}/{gist}@gist
 
 #### Count the number of stargazers of a user
 
-<details >
+<details open>
 <summary><small>Click to show/close parameters</small></summary><p></p>
 
 | Name | Type | Required | Default | Description | More Description |

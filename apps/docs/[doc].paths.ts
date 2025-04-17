@@ -1,9 +1,9 @@
-import type { BadgeTree } from '@badge-collection/badge'
-import type { Feature } from '@badge-collection/render'
+import type { BadgeTree } from '@readme-widget-hub/badge'
+import type { Feature } from '@readme-widget-hub/render'
 import path from 'node:path'
-import { Manager } from '@badge-collection/manager'
-import { renderBadgeDoc, renderIndexDoc } from '@badge-collection/render'
-import { path2Url } from '@badge-collection/utils'
+import { Manager } from '@readme-widget-hub/manager'
+import { renderBadgeDoc, renderIndexDoc } from '@readme-widget-hub/render'
+import { path2Url } from '@readme-widget-hub/utils'
 import { loadEnv } from './.vitepress/env'
 
 interface Path {

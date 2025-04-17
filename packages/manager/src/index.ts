@@ -1,9 +1,9 @@
-import type { Badge, BadgeTree } from '@badge-collection/badge'
-import type { Locale, Meta } from '@badge-collection/meta'
+import type { Badge, BadgeTree } from '@readme-widget-hub/badge'
+import type { Locale, Meta } from '@readme-widget-hub/meta'
 import path from 'node:path'
-import { flatBadgeTrees, readBadge, readBadgeTrees } from '@badge-collection/badge'
-import { objectHasLocale, readLocale, readMeta } from '@badge-collection/meta'
-import { deepCopy, objectSwitchLocale } from '@badge-collection/utils'
+import { flatBadgeTrees, readBadge, readBadgeTrees } from '@readme-widget-hub/badge'
+import { objectHasLocale, readLocale, readMeta } from '@readme-widget-hub/meta'
+import { deepCopy, objectSwitchLocale } from '@readme-widget-hub/utils'
 
 export interface ManagerOptions {
   defaultLocaleCode: string

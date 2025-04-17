@@ -1,7 +1,7 @@
 {
-  "name": "@badge-collection/manager",
+  "name": "@readme-widget-hub/manager",
   "type": "module",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "private": true,
   "exports": {
     ".": {
@@ -21,12 +21,12 @@
     "build:watch": "pnpm run build --watch"
   },
   "dependencies": {
-    "@badge-collection/badge": "workspace:*",
-    "@badge-collection/meta": "workspace:*",
-    "@badge-collection/utils": "workspace:*",
+    "@readme-widget-hub/badge": "workspace:*",
+    "@readme-widget-hub/meta": "workspace:*",
+    "@readme-widget-hub/utils": "workspace:*",
     "art-template": "^4.13.4"
   },
   "devDependencies": {
-    "@badge-collection/rollup": "workspace:*"
+    "@readme-widget-hub/rollup": "workspace:*"
   }
 }

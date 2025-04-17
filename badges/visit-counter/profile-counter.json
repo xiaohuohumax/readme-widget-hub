@@ -20,15 +20,15 @@
     "uriTemplate": "https://profile-counter.glitch.me/{countId}/count.svg"
   },
   "examples": {
-    "annotate": "badge-collection",
+    "annotate": "readme-widget-hub",
     "alt": "访问统计",
     "alt:en-US": "Visitor Count",
-    "href": "https://profile-counter.glitch.me/badge-collection/count.svg",
+    "href": "https://profile-counter.glitch.me/readme-widget-hub/count.svg",
     "images": [
       {
         "alt": "访问统计",
         "alt:en-US": "Visitor Count",
-        "href": "https://profile-counter.glitch.me/badge-collection/count.svg"
+        "href": "https://profile-counter.glitch.me/readme-widget-hub/count.svg"
       }
     ]
   }
