@@ -1,5 +1,20 @@
 # readme-widget-hub
 
+## 4.1.0
+
+### Minor Changes
+
+- 修改小部件模板和工作空间添加统一管理依赖版本号
+
+### Patch Changes
+
+- Updated dependencies
+  - @readme-widget-hub/manager@2.1.0
+  - @readme-widget-hub/render@2.4.0
+  - @readme-widget-hub/widget@2.5.0
+  - @readme-widget-hub/utils@2.3.0
+  - @readme-widget-hub/meta@2.3.0
+
 ## 4.0.9
 
 ### Patch Changes

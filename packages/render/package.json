@@ -1,7 +1,7 @@
 {
   "name": "@readme-widget-hub/render",
   "type": "module",
-  "version": "2.3.1",
+  "version": "2.4.0",
   "private": true,
   "exports": {
     ".": {
@@ -24,7 +24,7 @@
     "@readme-widget-hub/meta": "workspace:*",
     "@readme-widget-hub/utils": "workspace:*",
     "@readme-widget-hub/widget": "workspace:*",
-    "art-template": "^4.13.4"
+    "art-template": "catalog:"
   },
   "devDependencies": {
     "@readme-widget-hub/rollup": "workspace:*"

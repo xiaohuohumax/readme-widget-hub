@@ -4,57 +4,171 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+catalogs:
+  default:
+    '@antfu/eslint-config':
+      specifier: ^4.10.1
+      version: 4.11.0
+    '@changesets/changelog-github':
+      specifier: ^0.5.1
+      version: 0.5.1
+    '@changesets/cli':
+      specifier: ^2.28.1
+      version: 2.28.1
+    '@commitlint/cli':
+      specifier: ^19.8.0
+      version: 19.8.0
+    '@commitlint/config-conventional':
+      specifier: ^19.8.0
+      version: 19.8.0
+    '@rollup/plugin-commonjs':
+      specifier: ^28.0.3
+      version: 28.0.3
+    '@rollup/plugin-json':
+      specifier: ^6.1.0
+      version: 6.1.0
+    '@rollup/plugin-node-resolve':
+      specifier: ^16.0.1
+      version: 16.0.1
+    '@types/fs-extra':
+      specifier: ^11.0.4
+      version: 11.0.4
+    '@types/js-yaml':
+      specifier: ^4.0.9
+      version: 4.0.9
+    '@types/markdown-it':
+      specifier: ^14.1.2
+      version: 14.1.2
+    '@types/node':
+      specifier: ^22.13.10
+      version: 22.13.11
+    ajv:
+      specifier: ^8.17.1
+      version: 8.17.1
+    art-template:
+      specifier: ^4.13.4
+      version: 4.13.4
+    chokidar:
+      specifier: ^4.0.3
+      version: 4.0.3
+    commitizen:
+      specifier: ^4.3.1
+      version: 4.3.1
+    cz-git:
+      specifier: ^1.11.1
+      version: 1.11.1
+    esbuild:
+      specifier: ^0.25.1
+      version: 0.25.1
+    eslint:
+      specifier: ^9.23.0
+      version: 9.23.0
+    fs-extra:
+      specifier: ^11.3.0
+      version: 11.3.0
+    js-yaml:
+      specifier: ^4.1.0
+      version: 4.1.0
+    json-schema-to-ts:
+      specifier: ^3.1.1
+      version: 3.1.1
+    markdown-it:
+      specifier: ^14.1.0
+      version: 14.1.0
+    markdown-it-github-alerts:
+      specifier: ^0.3.1
+      version: 0.3.1
+    read-pkg:
+      specifier: ^9.0.1
+      version: 9.0.1
+    remark:
+      specifier: ^15.0.1
+      version: 15.0.1
+    remark-frontmatter:
+      specifier: ^5.0.0
+      version: 5.0.0
+    remark-remove-comments:
+      specifier: ^1.1.1
+      version: 1.1.1
+    rimraf:
+      specifier: ^6.0.1
+      version: 6.0.1
+    rollup:
+      specifier: ^4.37.0
+      version: 4.37.0
+    rollup-plugin-dts:
+      specifier: ^6.2.1
+      version: 6.2.1
+    rollup-plugin-esbuild:
+      specifier: ^6.2.1
+      version: 6.2.1
+    simple-git-hooks:
+      specifier: ^2.11.1
+      version: 2.12.1
+    unist-util-visit:
+      specifier: ^5.0.0
+      version: 5.0.0
+    vite:
+      specifier: ^6.2.2
+      version: 6.2.2
+    vite-node:
+      specifier: ^3.0.9
+      version: 3.0.9
+    vitepress:
+      specifier: ^1.6.3
+      version: 1.6.3
+
 importers:
 
   .:
     devDependencies:
       '@antfu/eslint-config':
-        specifier: ^4.10.1
+        specifier: 'catalog:'
         version: 4.11.0(@typescript-eslint/utils@8.27.0(eslint@9.23.0(jiti@2.4.2))(typescript@5.8.2))(@vue/compiler-sfc@3.5.13)(eslint@9.23.0(jiti@2.4.2))(typescript@5.8.2)
       '@changesets/changelog-github':
-        specifier: ^0.5.1
+        specifier: 'catalog:'
         version: 0.5.1
       '@changesets/cli':
-        specifier: ^2.28.1
+        specifier: 'catalog:'
         version: 2.28.1
       '@commitlint/cli':
-        specifier: ^19.8.0
+        specifier: 'catalog:'
         version: 19.8.0(@types/node@22.13.11)(typescript@5.8.2)
       '@commitlint/config-conventional':
-        specifier: ^19.8.0
+        specifier: 'catalog:'
         version: 19.8.0
       '@types/fs-extra':
-        specifier: ^11.0.4
+        specifier: 'catalog:'
         version: 11.0.4
       '@types/node':
-        specifier: ^22.13.10
+        specifier: 'catalog:'
         version: 22.13.11
       commitizen:
-        specifier: ^4.3.1
+        specifier: 'catalog:'
         version: 4.3.1(@types/node@22.13.11)(typescript@5.8.2)
       cz-git:
-        specifier: ^1.11.1
+        specifier: 'catalog:'
         version: 1.11.1
       eslint:
-        specifier: ^9.23.0
+        specifier: 'catalog:'
         version: 9.23.0(jiti@2.4.2)
       fs-extra:
-        specifier: ^11.3.0
+        specifier: 'catalog:'
         version: 11.3.0
       rimraf:
-        specifier: ^6.0.1
+        specifier: 'catalog:'
         version: 6.0.1
       rollup:
-        specifier: ^4.37.0
+        specifier: 'catalog:'
         version: 4.37.0
       simple-git-hooks:
-        specifier: ^2.11.1
+        specifier: 'catalog:'
         version: 2.12.1
       vite:
-        specifier: ^6.2.2
+        specifier: 'catalog:'
         version: 6.2.2(@types/node@22.13.11)(jiti@2.4.2)(yaml@2.7.0)
       vite-node:
-        specifier: ^3.0.9
+        specifier: 'catalog:'
         version: 3.0.9(@types/node@22.13.11)(jiti@2.4.2)(yaml@2.7.0)
 
   apps/docs:
@@ -75,17 +189,17 @@ importers:
         specifier: workspace:*
         version: link:../../packages/widget
       chokidar:
-        specifier: ^4.0.3
+        specifier: 'catalog:'
         version: 4.0.3
       markdown-it-github-alerts:
-        specifier: ^0.3.1
+        specifier: 'catalog:'
         version: 0.3.1(markdown-it@14.1.0)
     devDependencies:
       vite:
-        specifier: ^6.2.2
+        specifier: 'catalog:'
         version: 6.2.2(@types/node@22.13.11)(jiti@2.4.2)(yaml@2.7.0)
       vitepress:
-        specifier: ^1.6.3
+        specifier: 'catalog:'
         version: 1.6.3(@algolia/client-search@5.22.0)(@types/node@22.13.11)(postcss@8.5.3)(search-insights@2.17.3)(typescript@5.8.2)
 
   apps/readme:
@@ -107,7 +221,7 @@ importers:
         version: link:../../packages/widget
     devDependencies:
       chokidar:
-        specifier: ^4.0.3
+        specifier: 'catalog:'
         version: 4.0.3
 
   packages/manager:
@@ -122,7 +236,7 @@ importers:
         specifier: workspace:*
         version: link:../widget
       art-template:
-        specifier: ^4.13.4
+        specifier: 'catalog:'
         version: 4.13.4
     devDependencies:
       '@readme-widget-hub/rollup':
@@ -135,7 +249,7 @@ importers:
         specifier: workspace:*
         version: link:../utils
       json-schema-to-ts:
-        specifier: ^3.1.1
+        specifier: 'catalog:'
         version: 3.1.1
     devDependencies:
       '@readme-widget-hub/rollup':
@@ -154,7 +268,7 @@ importers:
         specifier: workspace:*
         version: link:../widget
       art-template:
-        specifier: ^4.13.4
+        specifier: 'catalog:'
         version: 4.13.4
     devDependencies:
       '@readme-widget-hub/rollup':
@@ -164,68 +278,68 @@ importers:
   packages/rollup:
     dependencies:
       '@rollup/plugin-commonjs':
-        specifier: ^28.0.3
+        specifier: 'catalog:'
         version: 28.0.3(rollup@4.37.0)
       '@rollup/plugin-json':
-        specifier: ^6.1.0
+        specifier: 'catalog:'
         version: 6.1.0(rollup@4.37.0)
       '@rollup/plugin-node-resolve':
-        specifier: ^16.0.1
+        specifier: 'catalog:'
         version: 16.0.1(rollup@4.37.0)
       esbuild:
-        specifier: ^0.25.1
+        specifier: 'catalog:'
         version: 0.25.1
       read-pkg:
-        specifier: ^9.0.1
+        specifier: 'catalog:'
         version: 9.0.1
       rollup:
-        specifier: ^4.37.0
+        specifier: 'catalog:'
         version: 4.37.0
       rollup-plugin-dts:
-        specifier: ^6.2.1
+        specifier: 'catalog:'
         version: 6.2.1(rollup@4.37.0)(typescript@5.8.2)
       rollup-plugin-esbuild:
-        specifier: ^6.2.1
+        specifier: 'catalog:'
         version: 6.2.1(esbuild@0.25.1)(rollup@4.37.0)
 
   packages/utils:
     dependencies:
       ajv:
-        specifier: ^8.17.1
+        specifier: 'catalog:'
         version: 8.17.1
       js-yaml:
-        specifier: ^4.1.0
+        specifier: 'catalog:'
         version: 4.1.0
       json-schema-to-ts:
-        specifier: ^3.1.1
+        specifier: 'catalog:'
         version: 3.1.1
       markdown-it:
-        specifier: ^14.1.0
+        specifier: 'catalog:'
         version: 14.1.0
       markdown-it-github-alerts:
-        specifier: ^0.3.1
+        specifier: 'catalog:'
         version: 0.3.1(markdown-it@14.1.0)
       remark:
-        specifier: ^15.0.1
+        specifier: 'catalog:'
         version: 15.0.1
       remark-frontmatter:
-        specifier: ^5.0.0
+        specifier: 'catalog:'
         version: 5.0.0
       remark-remove-comments:
-        specifier: ^1.1.1
+        specifier: 'catalog:'
         version: 1.1.1
       unist-util-visit:
-        specifier: ^5.0.0
+        specifier: 'catalog:'
         version: 5.0.0
     devDependencies:
       '@readme-widget-hub/rollup':
         specifier: workspace:*
         version: link:../rollup
       '@types/js-yaml':
-        specifier: ^4.0.9
+        specifier: 'catalog:'
         version: 4.0.9
       '@types/markdown-it':
-        specifier: ^14.1.2
+        specifier: 'catalog:'
         version: 14.1.2
 
   packages/widget:
@@ -234,7 +348,7 @@ importers:
         specifier: workspace:*
         version: link:../utils
       json-schema-to-ts:
-        specifier: ^3.1.1
+        specifier: 'catalog:'
         version: 3.1.1
     devDependencies:
       '@readme-widget-hub/rollup':

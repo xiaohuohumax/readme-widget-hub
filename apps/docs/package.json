@@ -1,7 +1,7 @@
 {
   "name": "@readme-widget-hub/docs",
   "type": "module",
-  "version": "4.0.9",
+  "version": "4.1.0",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -15,11 +15,11 @@
     "@readme-widget-hub/render": "workspace:*",
     "@readme-widget-hub/utils": "workspace:*",
     "@readme-widget-hub/widget": "workspace:*",
-    "chokidar": "^4.0.3",
-    "markdown-it-github-alerts": "^0.3.1"
+    "chokidar": "catalog:",
+    "markdown-it-github-alerts": "catalog:"
   },
   "devDependencies": {
-    "vite": "^6.2.2",
-    "vitepress": "^1.6.3"
+    "vite": "catalog:",
+    "vitepress": "catalog:"
   }
 }

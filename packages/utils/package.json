@@ -1,7 +1,7 @@
 {
   "name": "@readme-widget-hub/utils",
   "type": "module",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "private": true,
   "exports": {
     ".": {
@@ -18,19 +18,19 @@
     "build:watch": "pnpm run build --watch"
   },
   "dependencies": {
-    "ajv": "^8.17.1",
-    "js-yaml": "^4.1.0",
-    "json-schema-to-ts": "^3.1.1",
-    "markdown-it": "^14.1.0",
-    "markdown-it-github-alerts": "^0.3.1",
-    "remark": "^15.0.1",
-    "remark-frontmatter": "^5.0.0",
-    "remark-remove-comments": "^1.1.1",
-    "unist-util-visit": "^5.0.0"
+    "ajv": "catalog:",
+    "js-yaml": "catalog:",
+    "json-schema-to-ts": "catalog:",
+    "markdown-it": "catalog:",
+    "markdown-it-github-alerts": "catalog:",
+    "remark": "catalog:",
+    "remark-frontmatter": "catalog:",
+    "remark-remove-comments": "catalog:",
+    "unist-util-visit": "catalog:"
   },
   "devDependencies": {
     "@readme-widget-hub/rollup": "workspace:*",
-    "@types/js-yaml": "^4.0.9",
-    "@types/markdown-it": "^14.1.2"
+    "@types/js-yaml": "catalog:",
+    "@types/markdown-it": "catalog:"
   }
 }

@@ -6,6 +6,8 @@ export default antfu({
     quotes: 'single',
   },
   typescript: true,
+  yaml: true,
+  pnpm: true,
   languageOptions: {
     parserOptions: {
       warnOnUnsupportedTypeScriptVersion: false,

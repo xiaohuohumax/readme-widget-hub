@@ -39,6 +39,17 @@
         "moreDescription:en-US": ""
       }
     ],
+    "actions": [
+      {
+        "name": "",
+        "type": "string",
+        "default": "",
+        "description": "",
+        "description:en-US": "",
+        "moreDescription": "",
+        "moreDescription:en-US": ""
+      }
+    ],
     "uriTemplate": ""
   },
   "examples": {

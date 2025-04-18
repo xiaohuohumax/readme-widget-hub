@@ -1,5 +1,16 @@
 # @readme-widget-hub/meta
 
+## 2.3.0
+
+### Minor Changes
+
+- 修改小部件模板和工作空间添加统一管理依赖版本号
+
+### Patch Changes
+
+- Updated dependencies
+  - @readme-widget-hub/utils@2.3.0
+
 ## 2.2.1
 
 ### Patch Changes

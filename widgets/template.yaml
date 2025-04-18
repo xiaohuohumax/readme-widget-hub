@@ -1,0 +1,51 @@
+enabled: false
+title: ''
+title:en-US: ''
+description: ''
+description:en-US: ''
+alert:
+  type: Tip
+  messages: ''
+  messages:en-US: ''
+tag:
+  repo: ''
+  onlineTool: ''
+  officialDoc: ''
+  needRegister: true
+  staticBadge: true
+linkRules:
+  params:
+    - name: ''
+      type: string
+      default: ''
+      description: ''
+      description:en-US: ''
+      moreDescription: ''
+      moreDescription:en-US: ''
+  querys:
+    - name: ''
+      type: string
+      default: ''
+      description: ''
+      description:en-US: ''
+      moreDescription: ''
+      moreDescription:en-US: ''
+  actions:
+    - name: ''
+      type: string
+      default: ''
+      description: ''
+      description:en-US: ''
+      moreDescription: ''
+      moreDescription:en-US: ''
+  uriTemplate: ''
+examples:
+  annotate: ''
+  annotate:en-US: ''
+  alt: ''
+  alt:en-US: ''
+  href: ''
+  images:
+    - alt: ''
+      alt:en-US: ''
+      href: ''

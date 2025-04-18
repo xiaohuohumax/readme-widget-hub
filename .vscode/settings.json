@@ -10,6 +10,7 @@
   "cSpell.ignorePaths": [
     "package.json",
     "pnpm-lock.yaml",
+    "pnpm-workspace.yaml",
     "node_modules",
     ".git/{info,lfs,logs,refs,objects}/**",
     ".git/{index,*refs,*HEAD}",
@@ -47,5 +48,6 @@
     "packages/widget/schema/collection.schema.json": [
       "widgets/**/collection.{yaml,yml}"
     ]
-  }
+  },
+  "yaml.format.singleQuote": true
 }
