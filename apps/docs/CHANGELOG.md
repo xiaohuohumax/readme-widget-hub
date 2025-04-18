@@ -1,5 +1,11 @@
 # readme-widget-hub
 
+## 4.0.4
+
+### Patch Changes
+
+- 监听 env 环境变量文件
+
 ## 4.0.3
 
 ### Patch Changes

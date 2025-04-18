@@ -114,6 +114,8 @@ export default defineConfig(() => {
         watchFiles([
           path.join(rootDir, 'widgets'),
           path.join(rootDir, 'meta.json'),
+          path.join(rootDir, '.env'),
+          path.join(rootDir, '.env.local'),
           path.join(rootDir, 'packages/render/templates'),
         ]),
       ],
