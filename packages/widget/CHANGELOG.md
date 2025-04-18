@@ -1,5 +1,11 @@
 # @readme-widget-hub/widget
 
+## 2.1.0
+
+### Minor Changes
+
+- 小部件排序规则改为先集合再下标
+
 ## 2.0.0
 
 ### Major Changes

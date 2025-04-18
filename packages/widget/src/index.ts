@@ -48,7 +48,10 @@ export function readWidgetTrees(dir: string, level: number = 1): WidgetTree[] {
     }
   }
 
-  nodes = nodes.sort((a, b) => (a.index || defaultIndex) - (b.index || defaultIndex))
+  // 先按类型排序(文件夹在前)，再按 index 排序
+  nodes = nodes
+    .sort((a, b) => a.type === b.type ? 0 : a.type === 'collection' ? -1 : 1)
+    .sort((a, b) => (a.index || defaultIndex) - (b.index || defaultIndex))
 
   const collectionFilePath = path.join(dir, collectionFileName)
   if (fs.pathExistsSync(collectionFilePath)) {
