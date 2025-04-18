@@ -4,6 +4,7 @@ import { Manager } from '@readme-widget-hub/manager'
 import { RENDER_TEMPLATE_DIR, renderGithubHtml, renderReadme, renderWidget } from '@readme-widget-hub/render'
 import chokidar from 'chokidar'
 import fs from 'fs-extra'
+import { createLogger } from 'vite'
 import { object2Navs, url2WidgetFilePaths, widgetTree2Tocs } from '../src/transform'
 
 const rootDir = path.join(__dirname, '../../../')
@@ -15,6 +16,8 @@ export interface VirtualReadmeOptions {
 export default function virtualReadme({ env }: VirtualReadmeOptions): Plugin {
   const absWidgetsDir = path.join(rootDir, env.VITE_WIDGETS_DIR)
   const absMetaFilePath = path.join(rootDir, env.VITE_META_FILE_PATH)
+  const logger = createLogger()
+  const README_RE = /^\/(?:.+\/)?README(?:_.+)?\.md$/i
   const manager = new Manager({
     defaultLocaleCode: env.VITE_DEFAULT_LOCALE_CODE,
     absWidgetsDir,
@@ -65,8 +68,6 @@ export default function virtualReadme({ env }: VirtualReadmeOptions): Plugin {
     })
   }
 
-  const README_RE = /^\/(?:.+\/)?README(?:_.+)?\.md$/i
-
   return {
     name: 'vite-plugin-virtual-readme',
     configureServer(server) {
@@ -76,6 +77,7 @@ export default function virtualReadme({ env }: VirtualReadmeOptions): Plugin {
         function error404() {
           res.statusCode = 404
           res.end('404 Not Found')
+          logger.warn(`File not found: ${url}`, { timestamp: true })
         }
 
         if (url === undefined || (url !== '/' && !README_RE.test(url))) {
@@ -94,6 +96,7 @@ export default function virtualReadme({ env }: VirtualReadmeOptions): Plugin {
             title: 'Error',
             markdown: `\`\`\`\n${error.message}\n\`\`\`\n`,
           }))
+          logger.error(error, { timestamp: true })
           throw error
         }
       })
@@ -105,7 +108,12 @@ export default function virtualReadme({ env }: VirtualReadmeOptions): Plugin {
       server.httpServer?.on('close', () => watcher.close())
 
       watcher.on('all', () => {
-        manager.init()
+        try {
+          manager.init()
+        }
+        catch (error) {
+          logger.error(error.message, { timestamp: true })
+        }
         server.ws.send({ type: 'full-reload' })
       })
     },

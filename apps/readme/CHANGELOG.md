@@ -1,5 +1,11 @@
 # readme-widget-hub
 
+## 4.1.1
+
+### Patch Changes
+
+- 修复修改小部件时校验错误导致服务崩溃问题
+
 ## 4.1.0
 
 ### Minor Changes
