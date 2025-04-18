@@ -38,5 +38,14 @@
       ],
       "url": "/packages/meta/schema/meta.schema.json"
     }
-  ]
+  ],
+  "yaml.schemas": {
+    "packages/widget/schema/widget.schema.json": [
+      "widgets/**/*.{yaml,yml}",
+      "!/widgets/**/collection.{yaml,yml}"
+    ],
+    "packages/widget/schema/collection.schema.json": [
+      "widgets/**/collection.{yaml,yml}"
+    ]
+  }
 }

@@ -1,5 +1,11 @@
 # @readme-widget-hub/utils
 
+## 2.1.0
+
+### Minor Changes
+
+- 小部件支持 YAML 配置
+
 ## 2.0.0
 
 ### Major Changes
