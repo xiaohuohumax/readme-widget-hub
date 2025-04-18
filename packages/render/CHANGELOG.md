@@ -1,5 +1,11 @@
 # @readme-widget-hub/render
 
+## 2.5.1
+
+### Patch Changes
+
+- 修复 uriTemplate 可能为空问题
+
 ## 2.5.0
 
 ### Minor Changes

@@ -13,6 +13,8 @@ tag:
   officialDoc: ''
   needRegister: true
   staticBadge: true
+  needAuth: true
+  dependentAction: true
 linkRules:
   params:
     - name: ''

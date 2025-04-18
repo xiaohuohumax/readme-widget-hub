@@ -14,7 +14,9 @@
     "onlineTool": "",
     "officialDoc": "",
     "needRegister": true,
-    "staticBadge": true
+    "staticBadge": true,
+    "needAuth": true,
+    "dependentAction": true
   },
   "linkRules": {
     "params": [

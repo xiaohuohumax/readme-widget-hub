@@ -24,8 +24,9 @@
 
 </details>
 
-```txt
+{{if $value.uriTemplate}}```txt
 {{@$value.uriTemplate}}
 ```
+{{/if}}
 
 {{/each}}
