@@ -1,0 +1,50 @@
+{
+  "title": "Duolingo Stats Card",
+  "description": "一个实时可定制的多邻国小部件，您可以将它嵌入到您的网站或 Markdown 文件中。",
+  "description:en-US": "A real-time, customizable Duolingo widget that you can embed on your website or markdown files.",
+  "tag": {
+    "repo": "https://github.com/KevzPeter/Duolingo-Stats-Card",
+    "onlineTool": "https://duolingo-stats-card.vercel.app/",
+    "officialDoc": "https://github.com/KevzPeter/Duolingo-Stats-Card?tab=readme-ov-file#-how-to-add-to-your-page"
+  },
+  "linkRules": {
+    "querys": [
+      {
+        "name": "username",
+        "type": "string",
+        "required": true,
+        "description": "多邻国用户名",
+        "description:en-US": "Duolingo username"
+      },
+      {
+        "name": "sort",
+        "type": "string",
+        "default": "crowns",
+        "description": "排序",
+        "description:en-US": "Sort",
+        "moreDescription": "可选值：`crowns` `xp`。",
+        "moreDescription:en-US": "Supported: `crowns` `xp`."
+      },
+      {
+        "name": "theme",
+        "type": "string",
+        "description": "主题",
+        "description:en-US": "Theme",
+        "moreDescription": "可选值：`light` `dark` `github-dark` `monokai` `tokyonight` `nightowl` 更多主题请参考[Themes](https://github.com/KevzPeter/Duolingo-Stats-Card?tab=readme-ov-file#-themes)。",
+        "moreDescription:en-US": "Supported: `light` `dark` `github-dark` `monokai` `tokyonight` `nightowl`. More themes please refer to [Themes](https://github.com/KevzPeter/Duolingo-Stats-Card?tab=readme-ov-file#-themes)."
+      }
+    ],
+    "uriTemplate": "https://duolingo-stats-card.vercel.app/api{?username,sort,theme}"
+  },
+  "examples": {
+    "annotate": "Kevin Peter",
+    "alt": "Kevin Peter",
+    "href": "https://duolingo-stats-card.vercel.app/api?username=Kevin_Peter",
+    "images": [
+      {
+        "alt": "Kevin Peter",
+        "href": "https://duolingo-stats-card.vercel.app/api?username=Kevin_Peter"
+      }
+    ]
+  }
+}
