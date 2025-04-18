@@ -21,7 +21,7 @@ type RenderExample = Overwrite<Example, {
 type RenderWidget = Overwrite<Widget, {
   alert?: RenderAlert
   linkRules: RenderLinkRule[]
-  examples: RenderExample[]
+  examples: (RenderExample | string)[]
 }>
 
 type RenderWidgetOptionsBase = Omit<RenderReadmeOptions, 'tocs'> & {
@@ -52,7 +52,10 @@ function linkRule2RenderLinkRule(linkRules: LinkRule): RenderLinkRule {
   }
 }
 
-function example2RenderExample(example: Example): RenderExample {
+function example2RenderExample(example: Example | string): RenderExample | string {
+  if (typeof example === 'string') {
+    return example
+  }
   return { ...example, alt: example.alt || '' }
 }
 

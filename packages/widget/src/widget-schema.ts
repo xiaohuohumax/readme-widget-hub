@@ -379,6 +379,18 @@ const widgetSchema = {
     examples: {
       anyOf: [
         {
+          type: 'string',
+          description: 'Widget example context.',
+        },
+        {
+          type: 'array',
+          items: {
+            type: 'string',
+          },
+          minItems: 1,
+          description: 'Widget example contexts.',
+        },
+        {
           $ref: '#/definitions/example',
         },
         {

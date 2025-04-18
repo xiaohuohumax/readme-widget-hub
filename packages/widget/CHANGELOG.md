@@ -1,5 +1,11 @@
 # @readme-widget-hub/widget
 
+## 2.6.0
+
+### Minor Changes
+
+- 小部件示例支持 Markdown 格式
+
 ## 2.5.0
 
 ### Minor Changes

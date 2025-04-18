@@ -1,5 +1,16 @@
 # @readme-widget-hub/render
 
+## 2.5.0
+
+### Minor Changes
+
+- 小部件示例支持 Markdown 格式
+
+### Patch Changes
+
+- Updated dependencies
+  - @readme-widget-hub/widget@2.6.0
+
 ## 2.4.0
 
 ### Minor Changes
