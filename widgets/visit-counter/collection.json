@@ -1,8 +1,5 @@
 {
   "index": 4,
-  "enabled": true,
-  "title": "访客统计小部件",
-  "title:en-US": "Visit Counter Widget",
-  "description": "想要知道网站的访客统计数据吗？这几个小部件可以帮助你统计网站的访问次数。",
-  "description:en-US": "Do you want to know the visit statistics of the website? These widgets can help you count the number of visits to the website."
+  "title": "访客统计",
+  "title:en-US": "Visit Counter"
 }
