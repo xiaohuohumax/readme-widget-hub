@@ -229,6 +229,10 @@
         "^needAuth:.+$": {
           "type": "string",
           "description": "Need authentication."
+        },
+        "^dependentAction:.+$": {
+          "type": "string",
+          "description": "Need action."
         }
       },
       "properties": {
@@ -255,6 +259,10 @@
         "needAuth": {
           "type": "string",
           "description": "Need authentication."
+        },
+        "dependentAction": {
+          "type": "string",
+          "description": "Need action."
         }
       },
       "additionalProperties": false,
@@ -264,7 +272,8 @@
         "officialDoc",
         "needRegister",
         "staticBadge",
-        "needAuth"
+        "needAuth",
+        "dependentAction"
       ]
     },
     "widgetLayout": {
@@ -366,6 +375,10 @@
         "^querysTitle:.+$": {
           "type": "string",
           "description": "Query parameters title."
+        },
+        "^actionsTitle:.+$": {
+          "type": "string",
+          "description": "Actions title."
         }
       },
       "properties": {
@@ -400,6 +413,10 @@
         "querysTitle": {
           "type": "string",
           "description": "Query parameters title."
+        },
+        "actionsTitle": {
+          "type": "string",
+          "description": "Actions title."
         }
       },
       "additionalProperties": false,
@@ -411,7 +428,8 @@
         "description",
         "moreDescription",
         "paramsTitle",
-        "querysTitle"
+        "querysTitle",
+        "actionsTitle"
       ]
     },
     "how2Run": {

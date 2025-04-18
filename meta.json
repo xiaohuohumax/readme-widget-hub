@@ -38,7 +38,9 @@
         "staticBadge": "静态徽章",
         "staticBadge:en-US": "Static Badge",
         "needAuth": "需要授权",
-        "needAuth:en-US": "Need Auth"
+        "needAuth:en-US": "Need Auth",
+        "dependentAction": "依赖 Github Action",
+        "dependentAction:en-US": "Dependent Github Action"
       },
       "paramsTitle": "参数",
       "paramsTitle:en-US": "Parameters",
@@ -62,7 +64,9 @@
         "paramsTitle": "路径参数",
         "paramsTitle:en-US": "Path Params",
         "querysTitle": "查询参数",
-        "querysTitle:en-US": "Query Params"
+        "querysTitle:en-US": "Query Params",
+        "actionsTitle": "动作参数",
+        "actionsTitle:en-US": "Action Params"
       },
       "exampleTitle": "示例",
       "exampleTitle:en-US": "Examples"

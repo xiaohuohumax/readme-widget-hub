@@ -85,6 +85,10 @@ const tagSchema = {
       type: 'boolean',
       description: 'Need authentication.',
     },
+    dependentAction: {
+      type: 'boolean',
+      description: 'Need action.',
+    },
   },
   additionalProperties: false,
 } as const satisfies JSONSchema
@@ -177,6 +181,14 @@ const linkRuleSchema = {
       minItems: 1,
       description: 'Link rule querys.',
     },
+    actions: {
+      type: 'array',
+      items: {
+        $ref: '#/definitions/rule',
+      },
+      minItems: 1,
+      description: 'Github actions parameters.',
+    },
     description: {
       type: 'string',
       description: 'Link rule description.',
@@ -190,9 +202,7 @@ const linkRuleSchema = {
     rule: ruleSchema,
   },
   additionalProperties: false,
-  required: [
-    'uriTemplate',
-  ],
+  required: [],
 } as const satisfies JSONSchema
 
 export type LinkRule = FromSchema<typeof linkRuleSchema, {

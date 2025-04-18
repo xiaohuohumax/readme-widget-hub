@@ -53,6 +53,10 @@ export const tagSchema = {
       type: 'string',
       description: 'Need authentication.',
     },
+    '^dependentAction:.+$': {
+      type: 'string',
+      description: 'Need action.',
+    },
   },
   properties: {
     repo: {
@@ -79,6 +83,10 @@ export const tagSchema = {
       type: 'string',
       description: 'Need authentication.',
     },
+    dependentAction: {
+      type: 'string',
+      description: 'Need action.',
+    },
   },
   additionalProperties: false,
   required: [
@@ -88,6 +96,7 @@ export const tagSchema = {
     'needRegister',
     'staticBadge',
     'needAuth',
+    'dependentAction',
   ],
 } as const satisfies JSONSchema
 
@@ -129,6 +138,10 @@ export const paramsTableSchema = {
       type: 'string',
       description: 'Query parameters title.',
     },
+    '^actionsTitle:.+$': {
+      type: 'string',
+      description: 'Actions title.',
+    },
   },
   properties: {
     name: {
@@ -163,6 +176,10 @@ export const paramsTableSchema = {
       type: 'string',
       description: 'Query parameters title.',
     },
+    actionsTitle: {
+      type: 'string',
+      description: 'Actions title.',
+    },
   },
   additionalProperties: false,
   required: [
@@ -174,6 +191,7 @@ export const paramsTableSchema = {
     'moreDescription',
     'paramsTitle',
     'querysTitle',
+    'actionsTitle',
   ],
 } as const satisfies JSONSchema
 

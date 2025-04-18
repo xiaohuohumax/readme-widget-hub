@@ -1,5 +1,17 @@
 # @readme-widget-hub/render
 
+## 2.3.0
+
+### Minor Changes
+
+- 小部件支持 Github Actions
+
+### Patch Changes
+
+- Updated dependencies
+  - @readme-widget-hub/widget@2.4.0
+  - @readme-widget-hub/meta@2.2.0
+
 ## 2.2.0
 
 ### Minor Changes

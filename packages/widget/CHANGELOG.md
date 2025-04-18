@@ -1,5 +1,11 @@
 # @readme-widget-hub/widget
 
+## 2.4.0
+
+### Minor Changes
+
+- 小部件支持 Github Actions
+
 ## 2.3.0
 
 ### Minor Changes

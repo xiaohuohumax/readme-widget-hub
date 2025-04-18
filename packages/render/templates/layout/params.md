@@ -4,6 +4,7 @@
 
 {{set params = $value.params}}
 {{set querys = $value.querys}}
+{{set actions = $value.actions}}
 
 {{if $value.description}}
 #### {{$value.description}}
@@ -17,6 +18,8 @@
 | ![ref-params] | | | | | |{{each params}}
 | `{{$value.name}}` | `{{$value.type}}` | {{if $value.required!==false}}`true`{{/if}} | {{if $value.default}}`{{$value.default}}`{{else}}{{/if}} | {{@$value.description}} | {{if $value.moreDescription}}{{@$value.moreDescription}}{{/if}} |{{/each}}{{/if}}{{if querys && querys.length}}
 | ![ref-querys] | | | | | |{{each querys}}
+| `{{$value.name}}` | `{{$value.type}}` | {{if $value.required===true}}`true`{{/if}} | {{if $value.default}}`{{$value.default}}`{{else}}{{/if}} | {{@$value.description}} | {{if $value.moreDescription}}{{@$value.moreDescription}}{{/if}} |{{/each}}{{/if}}{{if actions && actions.length}}
+| ![ref-actions] | | | | | |{{each actions}}
 | `{{$value.name}}` | `{{$value.type}}` | {{if $value.required===true}}`true`{{/if}} | {{if $value.default}}`{{$value.default}}`{{else}}{{/if}} | {{@$value.description}} | {{if $value.moreDescription}}{{@$value.moreDescription}}{{/if}} |{{/each}}{{/if}}
 
 </details>

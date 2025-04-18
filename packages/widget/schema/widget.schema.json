@@ -80,6 +80,10 @@
         "needAuth": {
           "type": "boolean",
           "description": "Need authentication."
+        },
+        "dependentAction": {
+          "type": "boolean",
+          "description": "Need action."
         }
       },
       "additionalProperties": false
@@ -165,6 +169,14 @@
           "minItems": 1,
           "description": "Link rule querys."
         },
+        "actions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/rule"
+          },
+          "minItems": 1,
+          "description": "Github actions parameters."
+        },
         "description": {
           "type": "string",
           "description": "Link rule description."
@@ -175,9 +187,7 @@
         }
       },
       "additionalProperties": false,
-      "required": [
-        "uriTemplate"
-      ]
+      "required": []
     },
     "image": {
       "type": "object",
