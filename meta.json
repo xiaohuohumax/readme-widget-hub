@@ -90,13 +90,13 @@
       "title:en-US": "✍ Add Widget",
       "steps": [
         "Fork 项目",
-        "参考模板文件 [template.json](/widgets/template.json)，在 [widgets](/widgets) 目录下新建一个 JSON 文件，并按照模板格式填写小部件信息内容。",
+        "参考模板文件 [template.json](/widgets/template.json)，在 [widgets](/widgets) 目录下新建一个 JSON 或 YAML 文件，并按照模板格式填写小部件信息内容。",
         "`pnpm dev` 或者 `pnpm dev:docs` 启动项目, 查看小部件效果。",
         "使用 `pnpm commit` 命令并选择 `docs` 提交 PR, 等待合并。"
       ],
       "steps:en-US": [
         "Fork the project",
-        "Refer to the [template.json](/widgets/template.json) file, create a JSON file in the [widgets](/widgets) directory, and fill in the widget information according to the template format.",
+        "Refer to the [template.json](/widgets/template.json) file, create a JSON or YAML file in the [widgets](/widgets) directory, and fill in the widget information according to the template format.",
         "`pnpm dev` or `pnpm dev:docs` to start the project, check the widget effect.",
         "Use the `pnpm commit` command and select `docs` to submit a PR, wait for merging."
       ]

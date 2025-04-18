@@ -15,7 +15,9 @@
 
 {{ include "./layout/params.md"}}
 
+{{if widget.examples.length>0}}
 ## {{readme.widgetLayout.exampleTitle}}
+{{/if}}
 
 {{ include "./layout/examples.md"}}
 

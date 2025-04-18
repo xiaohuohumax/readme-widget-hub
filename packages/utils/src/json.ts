@@ -27,13 +27,21 @@ export function generateJSONSchema(rootSchema: Schema, definitions: Schema[]): J
   } as const satisfies JSONSchema
 }
 
+export function validateJSONData<T>(data: unknown, schema: JSONSchema): T {
+  const validate = ajv.compile(schema)
+  if (!validate(data)) {
+    const error = validate.errors![0]
+    throw new Error(`${error.instancePath} ${error.message}`)
+  }
+  return data as T
+}
+
 export function readAndValidateJSONFile<T>(filePath: string, schema: JSONSchema): T {
   const json = fs.readJSONSync(filePath)
-  const validate = ajv.compile(schema)
-  const valid = validate(json)
-  if (!valid) {
-    const error = validate.errors![0]
-    throw new Error(`Invalid JSON file: ${filePath} - ${error.message}`)
+  try {
+    return validateJSONData<T>(json, schema)
   }
-  return json as T
+  catch (error) {
+    throw new Error(`Invalid JSON file: ${filePath} ${error.message}`)
+  }
 }
