@@ -1,5 +1,11 @@
 # @readme-widget-hub/utils
 
+## 2.2.0
+
+### Minor Changes
+
+- 删除 Readme 中无效引用链接和注释
+
 ## 2.1.0
 
 ### Minor Changes

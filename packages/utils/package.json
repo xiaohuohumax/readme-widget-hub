@@ -1,7 +1,7 @@
 {
   "name": "@readme-widget-hub/utils",
   "type": "module",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "private": true,
   "exports": {
     ".": {
@@ -24,7 +24,9 @@
     "markdown-it": "^14.1.0",
     "markdown-it-github-alerts": "^0.3.1",
     "remark": "^15.0.1",
-    "remark-frontmatter": "^5.0.0"
+    "remark-frontmatter": "^5.0.0",
+    "remark-remove-comments": "^1.1.1",
+    "unist-util-visit": "^5.0.0"
   },
   "devDependencies": {
     "@readme-widget-hub/rollup": "workspace:*",

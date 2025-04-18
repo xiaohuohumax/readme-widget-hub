@@ -1,7 +1,7 @@
 {
   "name": "@readme-widget-hub/readme",
   "type": "module",
-  "version": "4.1.2",
+  "version": "4.1.3",
   "private": true,
   "scripts": {
     "dev": "vite",

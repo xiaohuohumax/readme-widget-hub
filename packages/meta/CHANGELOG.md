@@ -1,5 +1,12 @@
 # @readme-widget-hub/meta
 
+## 2.2.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @readme-widget-hub/utils@2.2.0
+
 ## 2.2.0
 
 ### Minor Changes

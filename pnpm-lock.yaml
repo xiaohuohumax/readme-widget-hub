@@ -211,6 +211,12 @@ importers:
       remark-frontmatter:
         specifier: ^5.0.0
         version: 5.0.0
+      remark-remove-comments:
+        specifier: ^1.1.1
+        version: 1.1.1
+      unist-util-visit:
+        specifier: ^5.0.0
+        version: 5.0.0
     devDependencies:
       '@readme-widget-hub/rollup':
         specifier: workspace:*
@@ -2298,6 +2304,9 @@ packages:
     resolution: {integrity: sha512-puUZAUKT5m8Zzvs72XWy3HtvVbTWljRE66cP60bxJzAqf2DgICo7lYTY2IHUmLnNpjYvw5bvmoHvPc0QO2a62w==}
     engines: {node: ^16.14.0 || >=18.0.0}
 
+  html-comment-regex@1.1.2:
+    resolution: {integrity: sha512-P+M65QY2JQ5Y0G9KKdlDpo0zK+/OHptU5AaBwUfAIDJZk1MYf32Frm84EcOytfJE0t5JvkAnKlmjsXDnWzCJmQ==}
+
   html-minifier@3.5.21:
     resolution: {integrity: sha512-LKUKwuJDhxNa3uf/LPR/KVjm/l3rBqtYeCOAekvG8F1vItxMUpueGd94i/asDDr8/1u7InxzFA5EeGjhhG5mMA==}
     engines: {node: '>=4'}
@@ -3093,6 +3102,9 @@ packages:
 
   remark-parse@11.0.0:
     resolution: {integrity: sha512-FCxlKLNGknS5ba/1lmpYijMUzX2esxW5xQqjWxw2eHFfS2MSdaHVINFmhjo+qN1WhZhNimq0dZATN9pH0IDrpA==}
+
+  remark-remove-comments@1.1.1:
+    resolution: {integrity: sha512-Z0OONcdhf3I7lKJcR3TRCKqpgGnhugtn/xBWdPZuEpLm67y5hf7Z0CI4p8j6zq1uX2koyUxo2O6y2MNZyPA0JA==}
 
   remark-stringify@11.0.0:
     resolution: {integrity: sha512-1OSmLd3awB/t8qdoEOMazZkNsfVTeY4fTsgzcQFdXNq8ToTN4ZGwrMnlda4K6smTFKD+GRV6O48i6Z4iKgPPpw==}
@@ -5912,6 +5924,8 @@ snapshots:
     dependencies:
       lru-cache: 10.4.3
 
+  html-comment-regex@1.1.2: {}
+
   html-minifier@3.5.21:
     dependencies:
       camel-case: 3.0.0
@@ -6855,6 +6869,12 @@ snapshots:
       unified: 11.0.5
     transitivePeerDependencies:
       - supports-color
+
+  remark-remove-comments@1.1.1:
+    dependencies:
+      html-comment-regex: 1.1.2
+      unist-util-visit: 5.0.0
+      vfile: 6.0.3
 
   remark-stringify@11.0.0:
     dependencies:
