@@ -282,6 +282,10 @@
           "type": "string",
           "description": "Show or close parameters."
         },
+        "^usageTitle.+$": {
+          "type": "string",
+          "description": "Usage title."
+        },
         "^exampleTitle.+$": {
           "type": "string",
           "description": "Example title."
@@ -304,6 +308,10 @@
           "type": "string",
           "description": "Show or close parameters."
         },
+        "usageTitle": {
+          "type": "string",
+          "description": "Usage title."
+        },
         "paramsTable": {
           "$ref": "#/definitions/paramsTable",
           "description": "Parameters table header metadata."
@@ -319,6 +327,7 @@
         "tocTitle",
         "tag",
         "showOrCloseParams",
+        "usageTitle",
         "paramsTable",
         "exampleTitle"
       ]

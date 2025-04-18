@@ -4,6 +4,7 @@ import type { Nav, Toc } from '@readme-widget-hub/render'
 import type { WidgetTree } from '@readme-widget-hub/widget'
 import path from 'node:path'
 import { path2Url, replaceParentPath } from '@readme-widget-hub/utils'
+import { widgetOrCollectionExts } from '@readme-widget-hub/widget'
 
 // widgets/...json => /dist/widgets/...md
 export function widgetFilePath2Url(rootDir: string, filePath: string, env: ImportMetaEnv, localeFileName: string): string {
@@ -15,15 +16,15 @@ export function widgetFilePath2Url(rootDir: string, filePath: string, env: Impor
   return path2Url(`/${path.join(dir, name, localeFileName)}`).slice(1)
 }
 
-// dist/widgets/...md => widgets/...json
-export function url2WidgetFilePath(rootDir: string, url: string, env: ImportMetaEnv): string {
+// dist/widgets/...md => widgets/...{json,yaml,yml}
+export function url2WidgetFilePaths(rootDir: string, url: string, env: ImportMetaEnv): string[] {
   const { dir } = path.parse(url)
   const { dir: widgetDir, name } = path.parse(replaceParentPath(
     dir,
     env.VITE_WIDGET_README_OUTPUT_DIR,
     env.VITE_WIDGETS_DIR,
   ))
-  return path.join(rootDir, widgetDir, `${name}.json`)
+  return widgetOrCollectionExts.map(ext => path.join(rootDir, widgetDir, `${name}${ext}`))
 }
 
 export function widgetTree2Tocs(rootDir: string, flatWidgetTree: WidgetTree[], env: ImportMetaEnv, localeFileName: string): Toc[] {

@@ -1,5 +1,11 @@
 # @readme-widget-hub/meta
 
+## 2.1.0
+
+### Minor Changes
+
+- 小部件支持用法描述
+
 ## 2.0.2
 
 ### Patch Changes

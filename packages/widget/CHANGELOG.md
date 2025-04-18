@@ -1,5 +1,11 @@
 # @readme-widget-hub/widget
 
+## 2.3.0
+
+### Minor Changes
+
+- 小部件支持用法描述
+
 ## 2.2.0
 
 ### Minor Changes

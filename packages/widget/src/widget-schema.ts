@@ -317,6 +317,10 @@ const widgetSchema = {
       type: 'string',
       description: 'Widget description.',
     },
+    '^usage:.+$': {
+      type: 'string',
+      description: 'Widget usage (markdown).',
+    },
   },
   properties: {
     enabled: {
@@ -342,6 +346,10 @@ const widgetSchema = {
     tag: {
       $ref: '#/definitions/tag',
       description: 'Widget tag.',
+    },
+    usage: {
+      type: 'string',
+      description: 'Widget usage (markdown).',
     },
     linkRules: {
       anyOf: [

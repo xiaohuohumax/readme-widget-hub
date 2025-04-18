@@ -11,21 +11,29 @@
 > {{$value}}{{/each}}
 {{/if}}
 
+{{if widget.usage}}
+### {{readme.widgetLayout.usageTitle}}
+
+{{ include "./layout/usage.md"}}
+
+{{ include "./layout/back2top.md"}}
+{{/if}}
+
 {{if widget.linkRules.length>0}}
 ### {{readme.widgetLayout.paramsTitle}}
-{{/if}}
 
 {{ include "./layout/params.md"}}
 
 {{ include "./layout/back2top.md"}}
+{{/if}}
 
 {{if widget.examples.length>0}}
 ### {{readme.widgetLayout.exampleTitle}}
-{{/if}}
 
 {{ include "./layout/examples.md"}}
 
 {{ include "./layout/back2top.md"}}
+{{/if}}
 
 {{ include "./layout/footer.md"}}
 

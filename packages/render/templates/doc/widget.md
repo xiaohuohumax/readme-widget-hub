@@ -9,16 +9,22 @@
 > {{$value}}{{/each}}
 {{/if}}
 
-{{if widget.linkRules.length>0}}
-## {{readme.widgetLayout.paramsTitle}}
+{{if widget.usage}}
+## {{readme.widgetLayout.usageTitle}}
+
+{{ include "./layout/usage.md"}}
 {{/if}}
 
+{{if widget.linkRules.length>0}}
+## {{readme.widgetLayout.paramsTitle}}
+
 {{ include "./layout/params.md"}}
+{{/if}}
 
 {{if widget.examples.length>0}}
 ## {{readme.widgetLayout.exampleTitle}}
-{{/if}}
 
 {{ include "./layout/examples.md"}}
+{{/if}}
 
 {{ include "./layout/reference.md"}}

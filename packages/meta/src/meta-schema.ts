@@ -195,6 +195,10 @@ export const widgetLayoutSchema = {
       type: 'string',
       description: 'Show or close parameters.',
     },
+    '^usageTitle.+$': {
+      type: 'string',
+      description: 'Usage title.',
+    },
     '^exampleTitle.+$': {
       type: 'string',
       description: 'Example title.',
@@ -217,6 +221,10 @@ export const widgetLayoutSchema = {
       type: 'string',
       description: 'Show or close parameters.',
     },
+    usageTitle: {
+      type: 'string',
+      description: 'Usage title.',
+    },
     paramsTable: {
       $ref: '#/definitions/paramsTable',
       description: 'Parameters table header metadata.',
@@ -236,6 +244,7 @@ export const widgetLayoutSchema = {
     'tocTitle',
     'tag',
     'showOrCloseParams',
+    'usageTitle',
     'paramsTable',
     'exampleTitle',
   ],

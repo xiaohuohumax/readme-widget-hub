@@ -3,7 +3,8 @@ import path from 'node:path'
 import { Manager } from '@readme-widget-hub/manager'
 import { RENDER_TEMPLATE_DIR, renderGithubHtml, renderReadme, renderWidget } from '@readme-widget-hub/render'
 import chokidar from 'chokidar'
-import { object2Navs, url2WidgetFilePath, widgetTree2Tocs } from '../src/transform'
+import fs from 'fs-extra'
+import { object2Navs, url2WidgetFilePaths, widgetTree2Tocs } from '../src/transform'
 
 const rootDir = path.join(__dirname, '../../../')
 
@@ -45,7 +46,8 @@ export default function virtualReadme({ env }: VirtualReadmeOptions): Plugin {
       })
     }
 
-    const widgetFilePath = url2WidgetFilePath(rootDir, url, env)
+    const widgetFilePaths = url2WidgetFilePaths(rootDir, url, env)
+    const widgetFilePath = widgetFilePaths.find(fs.pathExistsSync) || widgetFilePaths[0]
     const widget = manager.getWidget(widgetFilePath, locale)
 
     return renderWidget({

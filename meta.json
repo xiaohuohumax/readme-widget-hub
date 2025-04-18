@@ -44,6 +44,8 @@
       "paramsTitle:en-US": "Parameters",
       "showOrCloseParams": "点击显示/关闭参数",
       "showOrCloseParams:en-US": "Click to show/close parameters",
+      "usageTitle": "用法",
+      "usageTitle:en-US": "Usage",
       "paramsTable": {
         "name": "名称",
         "name:en-US": "Name",
