@@ -13,7 +13,7 @@
     <a href="https://github.com/xiaohuohumax/readme-widget-hub/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/readme-widget-hub" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/readme-widget-hub" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Freadme-widget-hub&countColor=%2337D67A&style=flat&labelStyle=lower" /></a>
-    <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/badge/badges-65-37D67A?labelColor=555555" /></a>
+    <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/badge/badges-68-37D67A?labelColor=555555" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/github/stars/xiaohuohumax/readme-widget-hub" /></a>
   </div>
   <div>
@@ -38,6 +38,7 @@
 * [Readme Typing SVG](dist/widgets/readme-typing-svg/README.md)
 * Discord
   * [Discord Markdown Badge](dist/widgets/discord/dcbadge/README.md)
+  * [Discord Cards](dist/widgets/discord/discord-cards/README.md)
   * [Discord Guild Widget](dist/widgets/discord/discord-guild-widget/README.md)
   * [Discord README Badge](dist/widgets/discord/discord-readme-badge/README.md)
   * [Lanyard Profile Readme](dist/widgets/discord/lanyard-profile-readme/README.md)
@@ -54,6 +55,7 @@
   * [GitHub Profile Trophy](dist/widgets/github/github-profile-trophy/README.md)
   * [Github Readme Activity Graph](dist/widgets/github/github-readme-activity-graph/README.md)
   * [Github Readme Streak Stats](dist/widgets/github/github-readme-streak-stats/README.md)
+  * [Github Stats Card](dist/widgets/github/github-stats-card/README.md)
   * [Github Stats](dist/widgets/github/github-stats/README.md)
   * [GitHub Widgetbox](dist/widgets/github/github-widgetbox/README.md)
   * [GitHub Workflows Badge](dist/widgets/github/github-workflows/README.md)
@@ -78,6 +80,7 @@
 * 学习
   * [Duolingo Stats Card](dist/widgets/study/duolingo-stats-card/README.md)
   * [GeeksForGeeks Stats Card](dist/widgets/study/geeksforgeeks-stats-card/README.md)
+  * [LeetCode Badge Showcase](dist/widgets/study/leetcode-badge-showcase/README.md)
   * [LeetCode Stats Card](dist/widgets/study/leetcode-stats-card/README.md)
 * 访客统计
   * [GitHub Profile Views Counter](dist/widgets/visit-counter/github-profile-views-counter/README.md)

@@ -13,7 +13,7 @@
     <a href="https://github.com/xiaohuohumax/readme-widget-hub/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/readme-widget-hub" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/readme-widget-hub" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Freadme-widget-hub&countColor=%2337D67A&style=flat&labelStyle=lower" /></a>
-    <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/badge/badges-65-37D67A?labelColor=555555" /></a>
+    <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/badge/badges-68-37D67A?labelColor=555555" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/github/stars/xiaohuohumax/readme-widget-hub" /></a>
   </div>
   <div>
@@ -38,6 +38,7 @@
 * [Readme Typing SVG](dist/widgets/readme-typing-svg/README_en-US.md)
 * Discord
   * [Discord Markdown Badge](dist/widgets/discord/dcbadge/README_en-US.md)
+  * [Discord Cards](dist/widgets/discord/discord-cards/README_en-US.md)
   * [Discord Guild Widget](dist/widgets/discord/discord-guild-widget/README_en-US.md)
   * [Discord README Badge](dist/widgets/discord/discord-readme-badge/README_en-US.md)
   * [Lanyard Profile Readme](dist/widgets/discord/lanyard-profile-readme/README_en-US.md)
@@ -54,6 +55,7 @@
   * [GitHub Profile Trophy](dist/widgets/github/github-profile-trophy/README_en-US.md)
   * [Github Readme Activity Graph](dist/widgets/github/github-readme-activity-graph/README_en-US.md)
   * [Github Readme Streak Stats](dist/widgets/github/github-readme-streak-stats/README_en-US.md)
+  * [Github Stats Card](dist/widgets/github/github-stats-card/README_en-US.md)
   * [Github Stats](dist/widgets/github/github-stats/README_en-US.md)
   * [GitHub Widgetbox](dist/widgets/github/github-widgetbox/README_en-US.md)
   * [GitHub Workflows Badge](dist/widgets/github/github-workflows/README_en-US.md)
@@ -78,6 +80,7 @@
 * Study
   * [Duolingo Stats Card](dist/widgets/study/duolingo-stats-card/README_en-US.md)
   * [GeeksForGeeks Stats Card](dist/widgets/study/geeksforgeeks-stats-card/README_en-US.md)
+  * [LeetCode Badge Showcase](dist/widgets/study/leetcode-badge-showcase/README_en-US.md)
   * [LeetCode Stats Card](dist/widgets/study/leetcode-stats-card/README_en-US.md)
 * Visit Counter
   * [GitHub Profile Views Counter](dist/widgets/visit-counter/github-profile-views-counter/README_en-US.md)
