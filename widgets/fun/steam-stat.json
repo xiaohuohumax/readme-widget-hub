@@ -1,0 +1,36 @@
+{
+  "title": "Steam Stats",
+  "description": "Steam 统计 SVG 生成器。动态创建您的 Steam 统计信息卡，随时随地分享。",
+  "description:en-US": "Steam stats svg generator. Create your own Steam stat dynamically and share anywhere.",
+  "tag": {
+    "repo": "https://github.com/Ananto30/steam-stat",
+    "officialDoc": "https://github.com/Ananto30/steam-stat?tab=readme-ov-file#steam-stats"
+  },
+  "linkRules": {
+    "querys": [
+      {
+        "name": "profileName",
+        "type": "string",
+        "required": true,
+        "description": "Steam 用户名",
+        "description:en-US": "Steam username",
+        "moreDescription": "请确保您的 Steam 个人资料是公开的！",
+        "moreDescription:en-US": "Please ensure that your Steam profile is public!"
+      }
+    ],
+    "uriTemplate": "https://steam-stat.vercel.app/api{?profileName}"
+  },
+  "examples": {
+    "annotate": "topson",
+    "alt": "Steam 统计卡",
+    "alt:en-US": "Steam Stats Card",
+    "href": "https://steam-stat.vercel.app/api?profileName=topson",
+    "images": [
+      {
+        "alt": "Steam 统计卡",
+        "alt:en-US": "Steam Stats Card",
+        "href": "https://steam-stat.vercel.app/api?profileName=topson"
+      }
+    ]
+  }
+}
