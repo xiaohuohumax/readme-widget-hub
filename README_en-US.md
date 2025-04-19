@@ -13,7 +13,7 @@
     <a href="https://github.com/xiaohuohumax/readme-widget-hub/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/readme-widget-hub" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/readme-widget-hub" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Freadme-widget-hub&countColor=%2337D67A&style=flat&labelStyle=lower" /></a>
-    <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/badge/badges-68-37D67A?labelColor=555555" /></a>
+    <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/badge/badges-71-37D67A?labelColor=555555" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/github/stars/xiaohuohumax/readme-widget-hub" /></a>
   </div>
   <div>
@@ -45,6 +45,8 @@
 * Fun
   * [Genshin Card](dist/widgets/fun/genshin-card/README_en-US.md)
   * [Git Animals](dist/widgets/fun/gitanimals/README_en-US.md)
+  * [Github Readme Steam Card](dist/widgets/fun/github-readme-steam-card/README_en-US.md)
+  * [Steam Stats](dist/widgets/fun/steam-stat/README_en-US.md)
 * Github
   * [Contributors Img](dist/widgets/github/contributors-img/README_en-US.md)
   * [GitHub Gists Readme](dist/widgets/github/gists-readme/README_en-US.md)
@@ -68,6 +70,7 @@
   * [AWESOME Github Stats](dist/widgets/github/template/README_en-US.md)
 * Music
   * [Last.fm Recently Played README](dist/widgets/music/lastfm-recently-played-readme/README_en-US.md)
+  * [Data Card for Spotify](dist/widgets/music/spotify-data-card/README_en-US.md)
   * [Spotify Recently Played README](dist/widgets/music/spotify-recently-played-readme/README_en-US.md)
 * Other Platforms
   * [GitHub Readme YouTube Cards](dist/widgets/other-platform/github-readme-youtube-cards/README_en-US.md)

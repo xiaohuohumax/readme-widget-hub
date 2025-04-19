@@ -17,13 +17,13 @@
   <br/>
 </div>
 
-## Discord Cards
+## Data Card for Spotify
 
-**Discord activity cards for github readme / your personal websites.**
+**Dynamically generated Spotify data to embed in your README or website.**
 
-[![ref-repo]](https://github.com/crizmo/DiscordCards)
-[![ref-online-tool]](https://discord-cards.vercel.app/)
-[![ref-official-doc]](https://github.com/crizmo/DiscordCards?tab=readme-ov-file#usage)
+[![ref-repo]](https://github.com/magic-ike/spotify-data-card)
+[![ref-online-tool]](https://data-card-for-spotify.herokuapp.com/)
+[![ref-official-doc]](https://github.com/magic-ike/spotify-data-card?tab=readme-ov-file#generating-a-data-card)
 
 ### Parameters
 
@@ -32,46 +32,37 @@
 
 | Name | Type | Required | Default | Description | More Description |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
-| ![ref-params] | | | | | |
-| `type` | `string` | `true` |  | Card type | Supported: `card` `compact`. |
-| `discordId` | `string` | `true` |  | Discord user ID |  |
 | ![ref-querys] | | | | | |
-| `about` | `string` |  |  | About me |  |
-| `banner` | `string` |  |  | Banner URL |  |
-| `large_image` | `string` |  |  | Large image URL |  |
-| `small_image` | `string` |  |  | Small image URL |  |
-| `hex` | `string` |  |  | Alternative banner color | Format: `HEX`, e.g. `FF0000`. |
+| `userId` | `string` | `true` |  | Spotify user ID |  |
+| `show_border` | `boolean` |  | `false` | Whether or not to show a white border around the data card | Supported: `true` `false`. |
+| `show_date` | `boolean` |  | `false` | Whether or not to show the date and time that the data card was generated | Supported: `true` `false`. |
+| `time_zone` | `string` |  | `America/Los_Angeles` | Time zone | Refer to [List of tz database time zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
+| `custom_title` | `string` |  |  | Custom title |  |
+| `hide_title` | `boolean` |  | `false` | Whether or not to hide the title |  |
+| `hide_explicit` | `boolean` |  | `false` | Whether or not to hide explicit tracks from all sections |  |
+| `hide_playing` | `boolean` |  | `false` | Whether or not to hide the "Currently Listening To" section |  |
+| `hide_recents` | `boolean` |  | `false` | Whether or not to hide the "Recently Played Tracks" section |  |
+| `hide_top_tracks` | `boolean` |  | `false` | Whether or not to hide the "Top Tracks" section |  |
+| `hide_top_artists` | `boolean` |  | `false` | Whether or not to hide the "Top Artists" section |  |
+| `limit` | `number` |  | `5` | Number of tracks to show per section | Supported: `1` to `10`. |
 
 </details>
 
 ```txt
-https://discord-cards.onrender.com/api/{type}/{discordId}{?about,banner,large_image,small_image,hex}
+https://data-card-for-spotify.herokuapp.com/api/card{?userId,show_border,show_date,time_zone,custom_title,hide_title,hide_explicit,hide_playing,hide_recents,hide_top_tracks,hide_top_artists,limit}
 ```
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ### Examples
 
-#### Large card
-
 ```markdown
-<!-- crizmo -->
-![Discord Cards](https://discord-cards.onrender.com/api/card/784141856426033233?about=Exploring)
+<!-- magic-ike -->
+![Spotify Data Card](https://data-card-for-spotify.herokuapp.com/api/card?user_id=12146253656&hide_explicit=true&limit=1)
 ```
 
 <div>
-  <img src="https://discord-cards.onrender.com/api/card/784141856426033233?about=Exploring" alt="Discord Cards" />
-</div>
-
-#### Compact card
-
-```markdown
-<!-- crizmo -->
-![Discord Cards](https://discord-cards.onrender.com/api/compact/784141856426033233?about=Exploring)
-```
-
-<div>
-  <img src="https://discord-cards.onrender.com/api/compact/784141856426033233?about=Exploring" alt="Discord Cards" />
+  <img src="https://data-card-for-spotify.herokuapp.com/api/card?user_id=12146253656&#38;hide_explicit=true&#38;limit=1" alt="Spotify Data Card" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
@@ -79,8 +70,6 @@ https://discord-cards.onrender.com/api/{type}/{discordId}{?about,banner,large_im
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">
 </div>
-
-[ref-params]: https://img.shields.io/badge/Path%20Params-526E86
 
 [ref-querys]: https://img.shields.io/badge/Query%20Params-526E86
 

@@ -17,13 +17,12 @@
   <br/>
 </div>
 
-## Discord Cards
+## Steam Stats
 
-**GitHub README / 个人网站上的 Discord 活动卡片。**
+**Steam 统计 SVG 生成器。动态创建您的 Steam 统计信息卡，随时随地分享。**
 
-[![ref-repo]](https://github.com/crizmo/DiscordCards)
-[![ref-online-tool]](https://discord-cards.vercel.app/)
-[![ref-official-doc]](https://github.com/crizmo/DiscordCards?tab=readme-ov-file#usage)
+[![ref-repo]](https://github.com/Ananto30/steam-stat)
+[![ref-official-doc]](https://github.com/Ananto30/steam-stat?tab=readme-ov-file#steam-stats)
 
 ### 参数
 
@@ -32,46 +31,26 @@
 
 | 名称 | 类型 | 必填 | 默认值 | 参数描述 | 更多描述 |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
-| ![ref-params] | | | | | |
-| `type` | `string` | `true` |  | 卡片类型 | 可选值：`card` `compact`。 |
-| `discordId` | `string` | `true` |  | Discord 用户 ID |  |
 | ![ref-querys] | | | | | |
-| `about` | `string` |  |  | 关于我 |  |
-| `banner` | `string` |  |  | Banner 图片链接 |  |
-| `large_image` | `string` |  |  | 大图链接 |  |
-| `small_image` | `string` |  |  | 小图链接 |  |
-| `hex` | `string` |  |  | 替代横幅颜色 | 格式：`HEX`，例如：`FF0000`。 |
+| `profileName` | `string` | `true` |  | Steam 用户名 | 请确保您的 Steam 个人资料是公开的！ |
 
 </details>
 
 ```txt
-https://discord-cards.onrender.com/api/{type}/{discordId}{?about,banner,large_image,small_image,hex}
+https://steam-stat.vercel.app/api{?profileName}
 ```
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 
 ### 示例
 
-#### 完整卡片
-
 ```markdown
-<!-- crizmo -->
-![Discord 卡片](https://discord-cards.onrender.com/api/card/784141856426033233?about=Exploring)
+<!-- topson -->
+![Steam 统计卡](https://steam-stat.vercel.app/api?profileName=topson)
 ```
 
 <div>
-  <img src="https://discord-cards.onrender.com/api/card/784141856426033233?about=Exploring" alt="Discord 卡片" />
-</div>
-
-#### 紧凑卡片
-
-```markdown
-<!-- crizmo -->
-![Discord 卡片](https://discord-cards.onrender.com/api/compact/784141856426033233?about=Exploring)
-```
-
-<div>
-  <img src="https://discord-cards.onrender.com/api/compact/784141856426033233?about=Exploring" alt="Discord 卡片" />
+  <img src="https://steam-stat.vercel.app/api?profileName=topson" alt="Steam 统计卡" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
@@ -80,14 +59,10 @@ https://discord-cards.onrender.com/api/{type}/{discordId}{?about,banner,large_im
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">
 </div>
 
-[ref-params]: https://img.shields.io/badge/路径参数-526E86
-
 [ref-querys]: https://img.shields.io/badge/查询参数-526E86
 
 [ref-action-outputs]: https://img.shields.io/badge/动作输出-526E86
 
 [ref-repo]: https://img.shields.io/badge/项目地址-555555?style=for-the-badge&logo=github
-
-[ref-online-tool]: https://img.shields.io/badge/在线工具-F94144?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpb25pY29uIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHBhdGggZD0iTTIwOCAzNTJoLTY0YTk2IDk2IDAgMDEwLTE5Mmg2NE0zMDQgMTYwaDY0YTk2IDk2IDAgMDEwIDE5MmgtNjRNMTYzLjI5IDI1NmgxODcuNDIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjM2Ii8+PC9zdmc+
 
 [ref-official-doc]: https://img.shields.io/badge/官方文档-277DA1?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpb25pY29uIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHBhdGggZD0iTTI1NiAxNjBjMTYtNjMuMTYgNzYuNDMtOTUuNDEgMjA4LTk2YTE1Ljk0IDE1Ljk0IDAgMDExNiAxNnYyODhhMTYgMTYgMCAwMS0xNiAxNmMtMTI4IDAtMTc3LjQ1IDI1LjgxLTIwOCA2NC0zMC4zNy0zOC04MC02NC0yMDgtNjQtOS44OCAwLTE2LTguMDUtMTYtMTcuOTNWODBhMTUuOTQgMTUuOTQgMCAwMTE2LTE2YzEzMS41Ny41OSAxOTIgMzIuODQgMjA4IDk2ek0yNTYgMTYwdjI4OCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMzIiLz48L3N2Zz4=
