@@ -13,7 +13,7 @@
     <a href="https://github.com/xiaohuohumax/readme-widget-hub/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/readme-widget-hub" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/readme-widget-hub" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Freadme-widget-hub&countColor=%2337D67A&style=flat&labelStyle=lower" /></a>
-    <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/badge/badges-64-37D67A?labelColor=555555" /></a>
+    <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/badge/badges-65-37D67A?labelColor=555555" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/github/stars/xiaohuohumax/readme-widget-hub" /></a>
   </div>
   <div>
@@ -68,6 +68,7 @@
   * [Last.fm Recently Played README](dist/widgets/music/lastfm-recently-played-readme/README_en-US.md)
   * [Spotify Recently Played README](dist/widgets/music/spotify-recently-played-readme/README_en-US.md)
 * Other Platforms
+  * [GitHub Readme YouTube Cards](dist/widgets/other-platform/github-readme-youtube-cards/README_en-US.md)
   * [GitHub Twitter Card Embed](dist/widgets/other-platform/github-twitter-card-embed/README_en-US.md)
   * [Stackoverflow Readme Profile](dist/widgets/other-platform/stackoverflow-readme-profile/README_en-US.md)
   * [Stats Cards](dist/widgets/other-platform/stats-cards/README_en-US.md)
@@ -121,7 +122,7 @@ pnpm build
 ## ✍ Add Widget
 
 * Fork the project
-* Refer to the [template.json](/widgets/template.json) file, create a JSON file in the [widgets](/widgets) directory, and fill in the widget information according to the template format.
+* Refer to the [template.json](/widgets/template.json) or [template.yaml](/widgets/template.yaml) file, create a JSON or YAML file in the [widgets](/widgets) directory, and fill in the widget information according to the template format.
 * `pnpm dev` or `pnpm dev:docs` to start the project, check the widget effect.
 * Use the `pnpm commit` command and select `docs` to submit a PR, wait for merging.
 

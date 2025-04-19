@@ -13,7 +13,7 @@
     <a href="https://github.com/xiaohuohumax/readme-widget-hub/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/readme-widget-hub" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/readme-widget-hub" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Freadme-widget-hub&countColor=%2337D67A&style=flat&labelStyle=lower" /></a>
-    <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/badge/badges-64-37D67A?labelColor=555555" /></a>
+    <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/badge/badges-65-37D67A?labelColor=555555" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/github/stars/xiaohuohumax/readme-widget-hub" /></a>
   </div>
   <div>
@@ -68,6 +68,7 @@
   * [Last.fm Recently Played README](dist/widgets/music/lastfm-recently-played-readme/README.md)
   * [Spotify Recently Played README](dist/widgets/music/spotify-recently-played-readme/README.md)
 * 其他平台
+  * [GitHub Readme YouTube Cards](dist/widgets/other-platform/github-readme-youtube-cards/README.md)
   * [GitHub Twitter Card Embed](dist/widgets/other-platform/github-twitter-card-embed/README.md)
   * [Stackoverflow Readme Profile](dist/widgets/other-platform/stackoverflow-readme-profile/README.md)
   * [Stats Cards](dist/widgets/other-platform/stats-cards/README.md)
@@ -121,7 +122,7 @@ pnpm build
 ## ✍ 添加小部件
 
 * Fork 项目
-* 参考模板文件 [template.json](/widgets/template.json)，在 [widgets](/widgets) 目录下新建一个 JSON 文件，并按照模板格式填写小部件信息内容。
+* 参考模板文件 [template.json](/widgets/template.json) 或 [template.yaml](/widgets/template.yaml)，在 [widgets](/widgets) 目录下新建一个 JSON 或 YAML 文件，并按照模板格式填写小部件信息内容。
 * `pnpm dev` 或者 `pnpm dev:docs` 启动项目, 查看小部件效果。
 * 使用 `pnpm commit` 命令并选择 `docs` 提交 PR, 等待合并。
 
