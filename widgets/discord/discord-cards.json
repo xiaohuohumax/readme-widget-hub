@@ -58,7 +58,7 @@
         "moreDescription:en-US": "Format: `HEX`, e.g. `FF0000`."
       }
     ],
-    "uriTemplate": "https://discord-cards.onrender.com/api/{type}/{discordId}"
+    "uriTemplate": "https://discord-cards.onrender.com/api/{type}/{discordId}{?about,banner,large_image,small_image,hex}"
   },
   "examples": [
     {
