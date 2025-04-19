@@ -1,0 +1,279 @@
+title: GitHub Readme YouTube Cards
+description: 在你的 readme 中显示最近的 YouTube 视频作为 SVG 卡片。
+description:en-US: Workflow for displaying recent YouTube videos as SVG cards in your readme.
+tag:
+  repo: https://github.com/DenverCoder1/github-readme-youtube-cards
+  officialDoc: https://github.com/DenverCoder1/github-readme-youtube-cards?tab=readme-ov-file#basic-usage
+  dependentAction: true
+usage: |
+  1. 将以下代码片段添加到您想显示卡片的地方的 markdown 文件中。
+
+  ```yaml
+  <!-- BEGIN YOUTUBE-CARDS -->
+  <!-- END YOUTUBE-CARDS -->
+  ```
+
+  2. 在你的仓库中，创建一个名为 `.github` 的文件夹，然后在其中创建一个名为 `workflows` 的文件夹（如果不存在的话）。接着在 `.github/workflows/` 文件夹中创建一个文件，并给它命名为 `youtube-cards.yml` ，内容如下。
+
+  ```yaml
+  name: GitHub Readme YouTube Cards
+  on:
+    schedule:
+      # 每小时整点运行
+      - cron: "0 * * * *"
+    workflow_dispatch:
+
+  jobs:
+    build:
+      runs-on: ubuntu-latest
+      # 允许 GitHub Actions 写入仓库
+      permissions:
+        contents: write
+      # 运行 GitHub Readme YouTube Cards 动作
+      steps:
+        - uses: DenverCoder1/github-readme-youtube-cards@main
+          with:
+            # 你的 YouTube 频道 ID
+            channel_id: UCipSxT7a3rn81vGLw9lqRkg
+  ```
+usage:en-US: |
+  1. Add the following snippet to your markdown file where you want the cards to appear.
+
+  ```yaml
+  <!-- BEGIN YOUTUBE-CARDS -->
+  <!-- END YOUTUBE-CARDS -->
+  ```
+
+  2. In your repo, create a `.github` folder and inside create a folder named `workflows` if it does not exist. Then create a file in your `.github/workflows/` folder and give it a name such as `youtube-cards.yml` with the following contents.
+
+  ```yaml
+  name: GitHub Readme YouTube Cards
+  on:
+    schedule:
+      # Runs every hour, on the hour
+      - cron: "0 * * * *"
+    workflow_dispatch:
+
+  jobs:
+    build:
+      runs-on: ubuntu-latest
+      # Allow the job to commit to the repository
+      permissions:
+        contents: write
+      # Run the GitHub Readme YouTube Cards action
+      steps:
+        - uses: DenverCoder1/github-readme-youtube-cards@main
+          with:
+            # Your YouTube channel ID
+            channel_id: UCipSxT7a3rn81vGLw9lqRkg
+  ```
+linkRules:
+  actions:
+    - name: channel_id
+      type: string
+      required: true
+      description: 你的 YouTube channel ID
+      description:en-US: Your YouTube channel ID
+    - name: playlist_id
+      type: string
+      description: 播放列表 ID
+      description:en-US: Playlist ID
+    - name: lang
+      type: string
+      default: en
+      description: 语言
+      description:en-US: Language
+    - name: comment_tag_name
+      type: string
+      default: YOUTUBE-CARDS
+      description: 注释标签中替换内容的文本
+      description:en-US: The text in the comment tag for replacing content
+    - name: youtube_api_key
+      type: string
+      description: YouTube API 密钥
+      description:en-US: YouTube API key
+    - name: max_videos
+      type: number
+      default: '6'
+      description: 显示的视频最大数量
+      description:en-US: The maximum number of videos to display
+    - name: base_url
+      type: string
+      default: https://ytcards.demolab.com/
+      description: 卡片的基础 URL
+      description:en-US: The base URL to use for the cards
+    - name: card_width
+      type: number
+      default: '250'
+      description: 卡片的宽度
+      description:en-US: The width of the SVG cards
+      moreDescription: 单位：像素。
+      moreDescription:en-US: 'Unit: pixels.'
+    - name: border_radius
+      type: number
+      default: '5'
+      description: 卡片的圆角半径
+      description:en-US: The border radius of the SVG cards
+    - name: background_color
+      type: string
+      default: '#0d1117'
+      description: 卡片的背景颜色
+      description:en-US: The background color of the SVG cards
+    - name: title_color
+      type: string
+      default: '#ffffff'
+      description: 卡片的标题颜色
+      description:en-US: The color of the title text
+    - name: stats_color
+      type: string
+      default: '#dedede'
+      description: 统计文本的颜色
+      description:en-US: The color of the stats text
+    - name: theme_context_light
+      type: any
+      default: '{}'
+      description: 浅色模式颜色JSON对象
+      description:en-US: JSON object with light mode colors
+    - name: theme_context_dark
+      type: any
+      default: '{}'
+      description: 深色模式颜色JSON对象
+      description:en-US: JSON object with dark mode colors
+    - name: max_title_lines
+      type: number
+      default: '1'
+      description: 标题的最大行数
+      description:en-US: The maximum number of lines to use for the title
+    - name: show_duration
+      type: boolean
+      default: 'false'
+      description: 是否显示视频时长
+      description:en-US: Whether to show the duration of the videos
+      moreDescription: 依赖于 YouTube API 密钥 `youtube_api_key`。
+      moreDescription:en-US: Requires the YouTube API key `youtube_api_key`.
+    - name: author_name
+      type: string
+      default: GitHub Actions
+      description: 提交者的名字
+      description:en-US: The name of the commit author
+    - name: author_email
+      type: string
+      default: 41898282+github-actions[bot]@users.noreply.github.com
+      description: 提交作者的电子邮件地址
+      description:en-US: The email address of the commit author
+    - name: commit_message
+      type: string
+      default: 'docs(readme): Update YouTube cards'
+      description: 提交信息
+      description:en-US: The commit message to use for the commit
+    - name: readme_path
+      type: string
+      default: README.md
+      description: Markdown 或 HTML 文件的路径
+      description:en-US: The path to the Markdown or HTML file to update
+    - name: output_only
+      type: boolean
+      default: 'false'
+      description: 是否跳过写入到 README 文件
+      description:en-US: Whether to skip writing to the readme file
+    - name: output_type
+      type: string
+      default: markdown
+      description: 输出类型
+      description:en-US: The output syntax to use
+      moreDescription: 可选值：`markdown` `html`。
+      moreDescription:en-US: 'Available options: `markdown` `html`.'
+  actionOutputs:
+    - name: markdown
+      type: string
+      description: 生成的 Markdown 或 HTML 用于更新 README 文件
+      description:en-US: The generated Markdown or HTML used for updating the README file
+    - name: committed
+      type: string
+      description: 是否动作已创建提交
+      description:en-US: Whether the action has created a commit
+      moreDescription: 可能值：`true` `false`。
+      moreDescription:en-US: 'Possible: `true` `false`.'
+    - name: commit_long_sha
+      type: string
+      description: 刚刚创建的提交的完整 SHA 值
+      description:en-US: The full SHA of the commit that has just been created
+    - name: commit_sha
+      type: string
+      description: 刚刚创建的提交的 7 位短 SHA 值
+      description:en-US: The short 7-character SHA of the commit that has just been created
+    - name: pushed
+      type: string
+      description: 是否动作已推送到远程
+      description:en-US: Whether the action has pushed to the remote
+      moreDescription: 可能值：`true` `false`。
+      moreDescription:en-US: 'Possible: `true` `false`.'
+  description: DenverCoder1/github-readme-youtube-cards@main
+examples: |
+  ```yaml
+  # Example usage: https://github.com/DenverCoder1/github-readme-youtube-cards/blob/main/.github/workflows/youtube-cards.yml
+  name: GitHub Readme YouTube Cards
+  on:
+    schedule:
+      # Runs every day at 12:00
+      - cron: "0 12 * * *"
+    push:
+      branches:
+        - main
+    workflow_dispatch:
+
+  jobs:
+    deploy:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: DenverCoder1/github-readme-youtube-cards@main
+          id: youtube-cards
+          with:
+            channel_id: UCipSxT7a3rn81vGLw9lqRkg
+            comment_tag_name: EXAMPLE-YOUTUBE-CARDS
+            youtube_api_key: ${{ secrets.YOUTUBE_API_KEY }}
+            show_duration: true
+            theme_context_light: '{ "background_color": "#ffffff", "title_color": "#24292f", "stats_color": "#57606a" }'
+            theme_context_dark: '{ "background_color": "#0d1117", "title_color": "#ffffff", "stats_color": "#dedede" }'
+            max_title_lines: 2
+            output_type: html
+        - run: echo OUTPUT '${{ steps.youtube-cards.outputs.markdown }}'
+          shell: bash
+  ```
+
+  <a href="https://www.youtube.com/watch?v=1lXaKEy97qE">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=1lXaKEy97qE&title=GitHub+Star+Swag+Unboxing+and+Giveaways&lang=en&timestamp=1696868769&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=2&width=250&border_radius=5&duration=172">
+      <img src="https://ytcards.demolab.com/?id=1lXaKEy97qE&title=GitHub+Star+Swag+Unboxing+and+Giveaways&lang=en&timestamp=1696868769&background_color=%23ffffff&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=172" alt="GitHub Star Swag Unboxing and Giveaways" title="GitHub Star Swag Unboxing and Giveaways">
+    </picture>
+  </a>
+  <a href="https://www.youtube.com/watch?v=maoXtlb8t44">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=maoXtlb8t44&title=How+To+Self-Host+GitHub+Readme+Streak+Stats+on+Vercel&lang=en&timestamp=1693523015&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=2&width=250&border_radius=5&duration=257">
+      <img src="https://ytcards.demolab.com/?id=maoXtlb8t44&title=How+To+Self-Host+GitHub+Readme+Streak+Stats+on+Vercel&lang=en&timestamp=1693523015&background_color=%23ffffff&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=257" alt="How To Self-Host GitHub Readme Streak Stats on Vercel" title="How To Self-Host GitHub Readme Streak Stats on Vercel">
+    </picture>
+  </a>
+  <a href="https://www.youtube.com/watch?v=6u9BrDaSHJc">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=6u9BrDaSHJc&title=Automatically+Deploy+to+Fly.io+with+GitHub+Actions&lang=en&timestamp=1661864404&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=2&width=250&border_radius=5&duration=312">
+      <img src="https://ytcards.demolab.com/?id=6u9BrDaSHJc&title=Automatically+Deploy+to+Fly.io+with+GitHub+Actions&lang=en&timestamp=1661864404&background_color=%23ffffff&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=312" alt="Automatically Deploy to Fly.io with GitHub Actions" title="Automatically Deploy to Fly.io with GitHub Actions">
+    </picture>
+  </a>
+  <a href="https://www.youtube.com/watch?v=J7Fm7MdZn_E">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=J7Fm7MdZn_E&title=Hosting+a+Python+Discord+Bot+for+Free+with+Fly.io&lang=en&timestamp=1661708747&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=2&width=250&border_radius=5&duration=403">
+      <img src="https://ytcards.demolab.com/?id=J7Fm7MdZn_E&title=Hosting+a+Python+Discord+Bot+for+Free+with+Fly.io&lang=en&timestamp=1661708747&background_color=%23ffffff&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=403" alt="Hosting a Python Discord Bot for Free with Fly.io" title="Hosting a Python Discord Bot for Free with Fly.io">
+    </picture>
+  </a>
+  <a href="https://www.youtube.com/watch?v=0p_eQGKFY3I">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=0p_eQGKFY3I&title=Making+a+Wordle+Clone+Discord+Bot+with+Python+%28Nextcord%29&lang=en&timestamp=1643900217&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=2&width=250&border_radius=5&duration=2115">
+      <img src="https://ytcards.demolab.com/?id=0p_eQGKFY3I&title=Making+a+Wordle+Clone+Discord+Bot+with+Python+%28Nextcord%29&lang=en&timestamp=1643900217&background_color=%23ffffff&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=2115" alt="Making a Wordle Clone Discord Bot with Python (Nextcord)" title="Making a Wordle Clone Discord Bot with Python (Nextcord)">
+    </picture>
+  </a>
+  <a href="https://www.youtube.com/watch?v=Mt_Bsj6K9Lw">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=Mt_Bsj6K9Lw&title=Run+Open+Source+Code+in+Seconds+with+GitPod&lang=en&timestamp=1642108413&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=2&width=250&border_radius=5&duration=578">
+      <img src="https://ytcards.demolab.com/?id=Mt_Bsj6K9Lw&title=Run+Open+Source+Code+in+Seconds+with+GitPod&lang=en&timestamp=1642108413&background_color=%23ffffff&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=578" alt="Run Open Source Code in Seconds with GitPod" title="Run Open Source Code in Seconds with GitPod">
+    </picture>
+  </a>
