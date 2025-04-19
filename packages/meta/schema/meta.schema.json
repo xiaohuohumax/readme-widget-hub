@@ -379,6 +379,10 @@
         "^actionsTitle:.+$": {
           "type": "string",
           "description": "Actions title."
+        },
+        "^actionOutputsTitle:.+$": {
+          "type": "string",
+          "description": "Action output title."
         }
       },
       "properties": {
@@ -417,6 +421,10 @@
         "actionsTitle": {
           "type": "string",
           "description": "Actions title."
+        },
+        "actionOutputsTitle": {
+          "type": "string",
+          "description": "Action output title."
         }
       },
       "additionalProperties": false,
@@ -429,7 +437,8 @@
         "moreDescription",
         "paramsTitle",
         "querysTitle",
-        "actionsTitle"
+        "actionsTitle",
+        "actionOutputsTitle"
       ]
     },
     "how2Run": {

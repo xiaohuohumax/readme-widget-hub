@@ -4,6 +4,7 @@
 [ref-params]: https://img.shields.io/badge/{{paramsTable.paramsTitle.replaceAll(" ", "%20")}}-526E86 ""
 [ref-querys]: https://img.shields.io/badge/{{paramsTable.querysTitle.replaceAll(" ", "%20")}}-526E86 ""
 [ref-actions]: https://img.shields.io/badge/{{paramsTable.actionsTitle.replaceAll(" ", "%20")}}-526E86 ""
+[ref-action-outputs]: https://img.shields.io/badge/{{paramsTable.actionOutputsTitle.replaceAll(" ", "%20")}}-526E86 ""
 [ref-repo]: https://img.shields.io/badge/{{tag.repo.replaceAll(" ", "%20")}}-555555?style=for-the-badge&logo=github ""
 
 <!-- https://ionic.io/ionicons people-circle-outline -->

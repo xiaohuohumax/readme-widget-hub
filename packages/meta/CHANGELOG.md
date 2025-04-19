@@ -1,5 +1,11 @@
 # @readme-widget-hub/meta
 
+## 2.4.0
+
+### Minor Changes
+
+- 小部件参数表格支持动作输出
+
 ## 2.3.0
 
 ### Minor Changes

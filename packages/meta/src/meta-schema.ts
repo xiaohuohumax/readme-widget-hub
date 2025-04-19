@@ -142,6 +142,10 @@ export const paramsTableSchema = {
       type: 'string',
       description: 'Actions title.',
     },
+    '^actionOutputsTitle:.+$': {
+      type: 'string',
+      description: 'Action output title.',
+    },
   },
   properties: {
     name: {
@@ -180,6 +184,10 @@ export const paramsTableSchema = {
       type: 'string',
       description: 'Actions title.',
     },
+    actionOutputsTitle: {
+      type: 'string',
+      description: 'Action output title.',
+    },
   },
   additionalProperties: false,
   required: [
@@ -192,6 +200,7 @@ export const paramsTableSchema = {
     'paramsTitle',
     'querysTitle',
     'actionsTitle',
+    'actionOutputsTitle',
   ],
 } as const satisfies JSONSchema
 

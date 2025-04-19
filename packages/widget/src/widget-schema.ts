@@ -189,6 +189,14 @@ const linkRuleSchema = {
       minItems: 1,
       description: 'Github actions parameters.',
     },
+    actionOutputs: {
+      type: 'array',
+      items: {
+        $ref: '#/definitions/rule',
+      },
+      minItems: 1,
+      description: 'Github action outputs parameters.',
+    },
     description: {
       type: 'string',
       description: 'Link rule description.',

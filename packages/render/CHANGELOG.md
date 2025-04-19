@@ -1,5 +1,17 @@
 # @readme-widget-hub/render
 
+## 2.6.0
+
+### Minor Changes
+
+- 小部件参数表格支持动作输出
+
+### Patch Changes
+
+- Updated dependencies
+  - @readme-widget-hub/widget@2.7.0
+  - @readme-widget-hub/meta@2.4.0
+
 ## 2.5.1
 
 ### Patch Changes
