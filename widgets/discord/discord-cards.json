@@ -1,0 +1,95 @@
+{
+  "title": "Discord Cards",
+  "description": "GitHub README / 个人网站上的 Discord 活动卡片。",
+  "description:en-US": "Discord activity cards for github readme / your personal websites.",
+  "tag": {
+    "repo": "https://github.com/crizmo/DiscordCards",
+    "onlineTool": "https://discord-cards.vercel.app/",
+    "officialDoc": "https://github.com/crizmo/DiscordCards?tab=readme-ov-file#usage"
+  },
+  "linkRules": {
+    "params": [
+      {
+        "name": "type",
+        "type": "string",
+        "description": "卡片类型",
+        "description:en-US": "Card type",
+        "moreDescription": "可选值：`card` `compact`。",
+        "moreDescription:en-US": "Supported: `card` `compact`."
+      },
+      {
+        "name": "discordId",
+        "type": "string",
+        "description": "Discord 用户 ID",
+        "description:en-US": "Discord user ID"
+      }
+    ],
+    "querys": [
+      {
+        "name": "about",
+        "type": "string",
+        "description": "关于我",
+        "description:en-US": "About me"
+      },
+      {
+        "name": "banner",
+        "type": "string",
+        "description": "Banner 图片链接",
+        "description:en-US": "Banner URL"
+      },
+      {
+        "name": "large_image",
+        "type": "string",
+        "description": "大图链接",
+        "description:en-US": "Large image URL"
+      },
+      {
+        "name": "small_image",
+        "type": "string",
+        "description": "小图链接",
+        "description:en-US": "Small image URL"
+      },
+      {
+        "name": "hex",
+        "type": "string",
+        "description": "替代横幅颜色",
+        "description:en-US": "Alternative banner color",
+        "moreDescription": "格式：`HEX`，例如：`FF0000`。",
+        "moreDescription:en-US": "Format: `HEX`, e.g. `FF0000`."
+      }
+    ],
+    "uriTemplate": "https://discord-cards.onrender.com/api/{type}/{discordId}"
+  },
+  "examples": [
+    {
+      "description": "完整卡片",
+      "description:en-US": "Large card",
+      "annotate": "crizmo",
+      "alt": "Discord 卡片",
+      "alt:en-US": "Discord Cards",
+      "href": "https://discord-cards.onrender.com/api/card/784141856426033233?about=Exploring",
+      "images": [
+        {
+          "alt": "Discord 卡片",
+          "alt:en-US": "Discord Cards",
+          "href": "https://discord-cards.onrender.com/api/card/784141856426033233?about=Exploring"
+        }
+      ]
+    },
+    {
+      "description": "紧凑卡片",
+      "description:en-US": "Compact card",
+      "annotate": "crizmo",
+      "alt": "Discord 卡片",
+      "alt:en-US": "Discord Cards",
+      "href": "https://discord-cards.onrender.com/api/compact/784141856426033233?about=Exploring",
+      "images": [
+        {
+          "alt": "Discord 卡片",
+          "alt:en-US": "Discord Cards",
+          "href": "https://discord-cards.onrender.com/api/compact/784141856426033233?about=Exploring"
+        }
+      ]
+    }
+  ]
+}
