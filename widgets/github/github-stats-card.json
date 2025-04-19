@@ -1,0 +1,33 @@
+{
+  "title": "Github Stats Card",
+  "description": "创建令人惊叹的 Github Readme 统计卡片。",
+  "description:en-US": "Create awesome Github Readme Stats Card.",
+  "tag": {
+    "repo": "https://github.com/jxmked/github-stats-card",
+    "officialDoc": "https://github.com/jxmked/github-stats-card?tab=readme-ov-file#generate-yours-now"
+  },
+  "linkRules": {
+    "params": [
+      {
+        "name": "username",
+        "type": "string",
+        "description": "Github 用户名",
+        "description:en-US": "Github username"
+      }
+    ],
+    "uriTemplate": "https://gh-stats-card.vercel.app/api/{username}"
+  },
+  "examples": {
+    "annotate": "jxmked",
+    "alt": "jxmked GitHub 统计",
+    "alt:en-US": "jxmked GitHub stats",
+    "href": "https://gh-stats-card.vercel.app/api/jxmked",
+    "images": [
+      {
+        "alt": "jxmked GitHub 统计",
+        "alt:en-US": "jxmked GitHub stats",
+        "href": "https://gh-stats-card.vercel.app/api/jxmked"
+      }
+    ]
+  }
+}
