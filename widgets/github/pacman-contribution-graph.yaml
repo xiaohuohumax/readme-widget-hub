@@ -1,0 +1,157 @@
+title: Pac-Man Contribution Graph Game
+description: 将你的 GitHub 或 GitLab 贡献图转换成互动的 Pac-Man 游戏！
+description:en-US: Transform your GitHub or GitLab contribution graph into an interactive Pac-Man game!
+tag:
+  repo: https://github.com/abozanona/pacman-contribution-graph
+  onlineTool: https://abozanona.github.io/pacman-contribution-graph/
+  officialDoc: https://github.com/abozanona/pacman-contribution-graph?tab=readme-ov-file#usage
+  dependentAction: true
+usage: |
+  1. 在仓库中创建一个 `.github/workflows/` 目录。
+  2. 添加一个 `pacman-contribution.yml` 文件，内容如下：
+
+  ```yaml
+  name: generate pacman game
+
+  on:
+    # 每 24 小时运行一次
+    schedule:
+      - cron: "0 */24 * * *"
+
+    # 允许手动触发
+    workflow_dispatch:
+
+    # 每次推送到 main 分支都会运行
+    push:
+      branches:
+        - main
+
+  jobs:
+    generate:
+      permissions:
+        contents: write
+      runs-on: ubuntu-latest
+      timeout-minutes: 5
+
+      steps:
+        - name: generate pacman-contribution-graph.svg
+          uses: abozanona/pacman-contribution-graph@main
+          with:
+            github_user_name: ${{ github.repository_owner }}
+
+        # 推送生成的 SVG 到输出分支
+        - name: push pacman-contribution-graph.svg to the output branch
+          uses: crazy-max/ghaction-github-pages@v3.1.0
+          with:
+            target_branch: output
+            build_dir: dist
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  ```
+
+  3. 在你的仓库中，创建或编辑 `README.md` 文件，以包含：
+
+  ```markdown
+  ## 我的贡献图
+
+  <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph.svg">
+      <img alt="吃豆人贡献图" src="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph.svg">
+  </picture>
+  ```
+usage:en-US: |
+  1. In the repository, create a `.github/workflows/` directory.
+  2. Add `pacman-contribution.yml` file with the following content:
+
+  ```yaml
+  name: generate pacman game
+
+  on:
+    # Run automatically every 24 hours
+    schedule:
+      - cron: "0 */24 * * *"
+
+    # Allows manual triggering
+    workflow_dispatch:
+
+    # Runs on every push to the main branch
+    push:
+      branches:
+        - main
+
+  jobs:
+    generate:
+      permissions:
+        contents: write
+      runs-on: ubuntu-latest
+      timeout-minutes: 5
+
+      steps:
+        - name: generate pacman-contribution-graph.svg
+          uses: abozanona/pacman-contribution-graph@main
+          with:
+            github_user_name: ${{ github.repository_owner }}
+
+        # Push the generated SVG to the output branch
+        - name: push pacman-contribution-graph.svg to the output branch
+          uses: crazy-max/ghaction-github-pages@v3.1.0
+          with:
+            target_branch: output
+            build_dir: dist
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  ```
+
+  3. In your repository, create or edit the `README.md` file to include:
+
+  ```markdown
+  ## My Contribution Graph
+
+  <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph.svg">
+      <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph.svg">
+  </picture>
+  ```
+linkRules:
+  actions:
+    - name: github_user_name
+      type: string
+      required: true
+      description: GitHub 用户名
+      description:en-US: GitHub username
+    - name: github_token
+      type: string
+      description: GitHub Token
+      description:en-US: GitHub token
+examples: |
+  ```markdown
+  <!-- abozanona -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg">
+    <img alt="吃豆人贡献图" src="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg">
+  </picture>
+  ```
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg">
+    <img alt="吃豆人贡献图" src="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg">
+  </picture>
+examples:en-US: |
+  ```markdown
+  <!-- abozanona -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg">
+    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg">
+  </picture>
+  ```
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg">
+    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg">
+  </picture>
