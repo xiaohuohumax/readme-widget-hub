@@ -55,9 +55,9 @@ usage: |
   ## 我的贡献图
 
   <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph.svg">
-      <img alt="吃豆人贡献图" src="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph.svg">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/[Owner]/[Repo]/output/pacman-contribution-graph-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/[Owner]/[Repo]/output/pacman-contribution-graph.svg">
+      <img alt="吃豆人贡献图" src="https://raw.githubusercontent.com/[Owner]/[Repo]/output/pacman-contribution-graph.svg">
   </picture>
   ```
 usage:en-US: |
@@ -109,9 +109,9 @@ usage:en-US: |
   ## My Contribution Graph
 
   <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph.svg">
-      <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph.svg">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/[Owner]/[Repo]/output/pacman-contribution-graph-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/[Owner]/[Repo]/output/pacman-contribution-graph.svg">
+      <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/[Owner]/[Repo]/output/pacman-contribution-graph.svg">
   </picture>
   ```
 linkRules:
