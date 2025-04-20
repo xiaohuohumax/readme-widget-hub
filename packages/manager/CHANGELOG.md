@@ -1,5 +1,12 @@
 # @readme-widget-hub/manager
 
+## 2.1.3
+
+### Patch Changes
+
+- Updated dependencies
+  - @readme-widget-hub/widget@2.8.0
+
 ## 2.1.2
 
 ### Patch Changes

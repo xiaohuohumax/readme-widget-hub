@@ -339,6 +339,22 @@ const widgetSchema = {
       type: 'string',
       description: 'Widget usage (markdown).',
     },
+    '^examples:.+$': {
+      anyOf: [
+        {
+          type: 'string',
+          description: 'Widget example context.',
+        },
+        {
+          type: 'array',
+          items: {
+            type: 'string',
+          },
+          minItems: 1,
+          description: 'Widget example contexts.',
+        },
+      ],
+    },
   },
   properties: {
     enabled: {

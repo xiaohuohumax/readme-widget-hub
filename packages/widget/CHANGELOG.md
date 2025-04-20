@@ -1,5 +1,11 @@
 # @readme-widget-hub/widget
 
+## 2.8.0
+
+### Minor Changes
+
+- 小部件示例支持多语言
+
 ## 2.7.0
 
 ### Minor Changes
