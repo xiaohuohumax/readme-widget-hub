@@ -17,32 +17,32 @@
   <br/>
 </div>
 
-## Pac-Man Contribution Graph Game
+## snk
 
-**将你的 GitHub 或 GitLab 贡献图转换成互动的 Pac-Man 游戏！**
+**根据 GitHub 用户的贡献图生成贪吃蛇游戏。**
 
-[![ref-repo]](https://github.com/abozanona/pacman-contribution-graph)
-[![ref-online-tool]](https://abozanona.github.io/pacman-contribution-graph/)
-[![ref-official-doc]](https://github.com/abozanona/pacman-contribution-graph?tab=readme-ov-file#usage)
+[![ref-repo]](https://github.com/Platane/snk)
+[![ref-online-tool]](https://platane.github.io/snk/)
+[![ref-official-doc]](https://github.com/Platane/snk?tab=readme-ov-file#usage)
 ![ref-dependent-action]
 
 ### 用法
 
 1. 在仓库中创建一个 `.github/workflows/` 目录。
-2. 添加一个 `pacman-contribution.yml` 文件，内容如下：
+2. 添加一个 `snk.yml` 文件，内容如下：
 
 ```yaml
-name: generate pacman game
+name: generate animation
 
 on:
-  # 每 24 小时运行一次
+  # 每 24 小时自动运行
   schedule:
     - cron: "0 */24 * * *"
 
-  # 允许手动触发
+  # 允许手动运行
   workflow_dispatch:
 
-  # 每次推送到 main 分支都会运行
+  # 主分支代码更新时运行
   push:
     branches:
       - main
@@ -55,13 +55,18 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: generate pacman-contribution-graph.svg
-        uses: abozanona/pacman-contribution-graph@main
+      # 生成一个贪吃蛇动画来自 GitHub 用户的贡献图，输出一个 svg 动画到 <svg_out_path>
+      - name: generate github-contribution-grid-snake.svg
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # 推送生成的 SVG 到输出分支
-      - name: push pacman-contribution-graph.svg to the output branch
+      # 推送 <build_dir> 内容到分支
+      # 内容将会被推送到 https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> 或者作为 github page
+      - name: push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
@@ -73,12 +78,10 @@ jobs:
 3. 在你的仓库中，创建或编辑 `README.md` 文件，以包含：
 
 ```markdown
-## 我的贡献图
-
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/[Owner]/[Repo]/output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/[Owner]/[Repo]/output/pacman-contribution-graph.svg">
-    <img alt="吃豆人贡献图" src="https://raw.githubusercontent.com/[Owner]/[Repo]/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/[Owner]/[Repo]/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/[Owner]/[Repo]/output/github-contribution-grid-snake.svg">
+  <img alt="github 贡献图贪吃蛇动画" src="https://raw.githubusercontent.com/[Owner]/[Repo]/output/github-contribution-grid-snake.svg">
 </picture>
 ```
 
@@ -94,6 +97,7 @@ jobs:
 | ![ref-actions] | | | | | |
 | `github_user_name` | `string` | `true` |  | GitHub 用户名 |  |
 | `github_token` | `string` |  |  | GitHub Token |  |
+| `outputs` | `array` |  |  | 生成的文件列表 | 文件生成规则参考 [outputs](https://github.com/Platane/snk/blob/main/action.yml#L17)。 |
 
 </details>
 
@@ -102,18 +106,18 @@ jobs:
 ### 示例
 
 ```markdown
-<!-- abozanona -->
+<!-- platane -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg">
-  <img alt="吃豆人贡献图" src="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+  <img alt="github 贡献图贪吃蛇动画" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
 </picture>
 ```
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg">
-  <img alt="吃豆人贡献图" src="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+  <img alt="github 贡献图贪吃蛇动画" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
 </picture>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>

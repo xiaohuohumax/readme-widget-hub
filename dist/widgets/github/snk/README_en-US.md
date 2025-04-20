@@ -17,35 +17,35 @@
   <br/>
 </div>
 
-## Pac-Man Contribution Graph Game
+## snk
 
-**Transform your GitHub or GitLab contribution graph into an interactive Pac-Man game!**
+**Generates a snake game from a github user contributions graph.**
 
-[![ref-repo]](https://github.com/abozanona/pacman-contribution-graph)
-[![ref-online-tool]](https://abozanona.github.io/pacman-contribution-graph/)
-[![ref-official-doc]](https://github.com/abozanona/pacman-contribution-graph?tab=readme-ov-file#usage)
+[![ref-repo]](https://github.com/Platane/snk)
+[![ref-online-tool]](https://platane.github.io/snk/)
+[![ref-official-doc]](https://github.com/Platane/snk?tab=readme-ov-file#usage)
 ![ref-dependent-action]
 
 ### Usage
 
 1. In the repository, create a `.github/workflows/` directory.
-2. Add `pacman-contribution.yml` file with the following content:
+2. Add `snk.yml` file with the following content:
 
 ```yaml
-name: generate pacman game
+name: generate animation
 
 on:
-  # Run automatically every 24 hours
+  # run automatically every 24 hours
   schedule:
     - cron: "0 */24 * * *"
 
-  # Allows manual triggering
+  # allows to manually run the job at any time
   workflow_dispatch:
 
-  # Runs on every push to the main branch
+  # run on every push on the master branch
   push:
     branches:
-      - main
+    - master
 
 jobs:
   generate:
@@ -55,13 +55,18 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: generate pacman-contribution-graph.svg
-        uses: abozanona/pacman-contribution-graph@main
+      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
+      - name: generate github-contribution-grid-snake.svg
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # Push the generated SVG to the output branch
-      - name: push pacman-contribution-graph.svg to the output branch
+      # push the content of <build_dir> to a branch
+      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
+      - name: push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
@@ -73,12 +78,10 @@ jobs:
 3. In your repository, create or edit the `README.md` file to include:
 
 ```markdown
-## My Contribution Graph
-
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/[Owner]/[Repo]/output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/[Owner]/[Repo]/output/pacman-contribution-graph.svg">
-    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/[Owner]/[Repo]/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/[Owner]/[Repo]/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/[Owner]/[Repo]/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/[Owner]/[Repo]/output/github-contribution-grid-snake.svg">
 </picture>
 ```
 
@@ -94,6 +97,7 @@ jobs:
 | ![ref-actions] | | | | | |
 | `github_user_name` | `string` | `true` |  | GitHub username |  |
 | `github_token` | `string` |  |  | GitHub token |  |
+| `outputs` | `array` |  |  | List of files to generate | The output rule is described in [outputs](https://github.com/Platane/snk/blob/main/action.yml#L17). |
 
 </details>
 
@@ -102,18 +106,18 @@ jobs:
 ### Examples
 
 ```markdown
-<!-- abozanona -->
+<!-- platane -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
 </picture>
 ```
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
 </picture>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
