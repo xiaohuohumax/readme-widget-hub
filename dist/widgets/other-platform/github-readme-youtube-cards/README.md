@@ -125,7 +125,6 @@ jobs:
         id: youtube-cards
         with:
           channel_id: UCipSxT7a3rn81vGLw9lqRkg
-          comment_tag_name: EXAMPLE-YOUTUBE-CARDS
           youtube_api_key: ${{ secrets.YOUTUBE_API_KEY }}
           show_duration: true
           theme_context_light: '{ "background_color": "#ffffff", "title_color": "#24292f", "stats_color": "#57606a" }'
