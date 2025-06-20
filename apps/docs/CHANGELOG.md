@@ -1,5 +1,11 @@
 # readme-widget-hub
 
+## 4.2.2
+
+### Patch Changes
+
+- 修复感谢页面热更新失效异常
+
 ## 4.2.1
 
 ### Patch Changes

@@ -7,6 +7,10 @@ function utimesFile(file: string) {
   fs.utimesSync(file, new Date(), new Date())
 }
 
+function absPath(p: string): string {
+  return path.join(path.dirname(__filename), p)
+}
+
 export function watchFiles(files: string[]): Plugin {
   return {
     name: 'vite-plugin-watch-files',
@@ -16,8 +20,12 @@ export function watchFiles(files: string[]): Plugin {
         persistent: true,
       })
       watcher.on('all', () => {
-        utimesFile(path.join(path.dirname(__filename), '../config.ts'))
-        utimesFile(path.join(path.dirname(__filename), '../../[doc].paths.ts'))
+        utimesFile(absPath('../config.ts'))
+        for (const f of fs.readdirSync(absPath('../../'), { withFileTypes: true })) {
+          if (f.isFile() && f.name.endsWith('.paths.ts')) {
+            utimesFile(path.join(f.parentPath, f.name))
+          }
+        }
       })
       server.httpServer?.on('close', () => watcher.close())
     },
