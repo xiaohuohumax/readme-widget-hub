@@ -58,7 +58,7 @@ export default defineConfig(() => {
         editLink: {
           text: doc.docWidget.editLinkText,
           pattern: ({ params }) => {
-            return `https://github.com/xiaohuohumax/readme-widget-hub/blob/main/${params?.doc}.json`
+            return `https://github.com/xiaohuohumax/readme-widget-hub/blob/main/${params?.edit}`
           },
         },
         notFound: {
@@ -120,8 +120,8 @@ export default defineConfig(() => {
       },
       plugins: [
         watchFiles([
-          path.join(rootDir, 'widgets'),
-          path.join(rootDir, 'meta.json'),
+          path.join(rootDir, env.VITE_WIDGETS_DIR),
+          path.join(rootDir, env.VITE_META_FILE_PATH),
           path.join(rootDir, '.env'),
           path.join(rootDir, '.env.local'),
           path.join(rootDir, 'packages/render/templates'),

@@ -1,5 +1,11 @@
 # readme-widget-hub
 
+## 4.2.1
+
+### Patch Changes
+
+- 修复文档修改链接错误
+
 ## 4.2.0
 
 ### Minor Changes

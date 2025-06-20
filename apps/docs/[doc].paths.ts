@@ -8,6 +8,7 @@ import { env, locales, manager, rootDir } from './manager'
 interface Path {
   params: {
     doc: string
+    edit: string
   }
   content: string
 }
@@ -47,7 +48,10 @@ export default {
 
       // index
       paths.push({
-        params: { doc: path2Url(path.join(localeUrlPrefix, 'index')) },
+        params: {
+          doc: path2Url(path.join(localeUrlPrefix, 'index')),
+          edit: path2Url(env.VITE_META_FILE_PATH),
+        },
         content: renderIndexDoc({
           name: meta.name,
           title: meta.title,
@@ -64,7 +68,10 @@ export default {
         }
 
         paths.push({
-          params: { doc: widgetFilePath2Url(localeUrlPrefix, flatWidget.path) },
+          params: {
+            doc: widgetFilePath2Url(localeUrlPrefix, flatWidget.path),
+            edit: path2Url(path.relative(rootDir, flatWidget.path)),
+          },
           content: renderWidgetDoc({
             widget: flatWidget,
             readme: meta.readme,
