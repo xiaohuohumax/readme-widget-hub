@@ -138,6 +138,25 @@
         "editLinkText"
       ]
     },
+    "navTitle": {
+      "type": "object",
+      "patternProperties": {
+        "^thanks.+$": {
+          "type": "string",
+          "description": "Thanks title."
+        }
+      },
+      "properties": {
+        "thanks": {
+          "type": "string",
+          "description": "Thanks title."
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "thanks"
+      ]
+    },
     "doc": {
       "type": "object",
       "patternProperties": {
@@ -190,6 +209,10 @@
         "docWidget": {
           "$ref": "#/definitions/docWidget",
           "description": "Doc widget metadata."
+        },
+        "navTitle": {
+          "$ref": "#/definitions/navTitle",
+          "description": "Nav title."
         }
       },
       "additionalProperties": false,
@@ -200,7 +223,8 @@
         "notFoundQuote",
         "notFoundLinkText",
         "docIndex",
-        "docWidget"
+        "docWidget",
+        "navTitle"
       ]
     },
     "tag": {
@@ -543,6 +567,51 @@
         "steps"
       ]
     },
+    "translator": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Translator name."
+        },
+        "link": {
+          "type": "string",
+          "description": "Translator link."
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "link"
+      ]
+    },
+    "translate": {
+      "type": "object",
+      "patternProperties": {
+        "^name:.+$": {
+          "type": "string",
+          "description": "Language name."
+        }
+      },
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Language name."
+        },
+        "translators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/translator"
+          },
+          "description": "List of translators."
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "translators"
+      ]
+    },
     "finalThanks": {
       "type": "object",
       "patternProperties": {
@@ -550,9 +619,17 @@
           "type": "string",
           "description": "Final thanks title."
         },
+        "^contributorTitle:.+$": {
+          "type": "string",
+          "description": "Contributor title."
+        },
         "^concludingRemarks:.+$": {
           "type": "string",
           "description": "Concluding remarks."
+        },
+        "^translatorTitle:.+$": {
+          "type": "string",
+          "description": "Translator title."
         }
       },
       "properties": {
@@ -560,15 +637,33 @@
           "type": "string",
           "description": "Final thanks title."
         },
+        "contributorTitle": {
+          "type": "string",
+          "description": "Contributor title."
+        },
         "concludingRemarks": {
           "type": "string",
           "description": "Concluding remarks."
+        },
+        "translates": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/translate"
+          },
+          "description": "List of translations."
+        },
+        "translatorTitle": {
+          "type": "string",
+          "description": "Translator title."
         }
       },
       "additionalProperties": false,
       "required": [
         "title",
-        "concludingRemarks"
+        "contributorTitle",
+        "concludingRemarks",
+        "translates",
+        "translatorTitle"
       ]
     },
     "meta": {

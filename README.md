@@ -147,7 +147,13 @@ pnpm build
 
 ## 💖 感谢
 
+### 贡献者
+
 [![Contributors](https://contrib.rocks/image?repo=xiaohuohumax/readme-widget-hub)](https://github.com/xiaohuohumax/readme-widget-hub/contributors)
+
+### 翻译者
+
+英语: [xiaohuohumax](https://github.com/xiaohuohumax)
 
 最后，如果能够帮助到你，还请多多 Star 项目，感谢你的关注。
 

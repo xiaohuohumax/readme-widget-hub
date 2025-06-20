@@ -1,5 +1,11 @@
 # @readme-widget-hub/meta
 
+## 2.5.0
+
+### Minor Changes
+
+- 文档感谢区域添加翻译者信息
+
 ## 2.4.0
 
 ### Minor Changes

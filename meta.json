@@ -127,8 +127,24 @@
     "finalThanks": {
       "title": "💖 感谢",
       "title:en-US": "💖 Thanks",
+      "contributorTitle": "贡献者",
+      "contributorTitle:en-US": "Contributors",
       "concludingRemarks": "最后，如果能够帮助到你，还请多多 Star 项目，感谢你的关注。",
-      "concludingRemarks:en-US": "Lastly, if you find this project helpful, please star it to show your support. Thank you for your attention."
+      "concludingRemarks:en-US": "Lastly, if you find this project helpful, please star it to show your support. Thank you for your attention.",
+      "translatorTitle": "翻译者",
+      "translatorTitle:en-US": "Translators",
+      "translates": [
+        {
+          "name": "英语",
+          "name:en-US": "English",
+          "translators": [
+            {
+              "name": "xiaohuohumax",
+              "link": "https://github.com/xiaohuohumax"
+            }
+          ]
+        }
+      ]
     }
   },
   "doc": {
@@ -149,6 +165,10 @@
       "outlineLabel:en-US": "On this page",
       "editLinkText": "在 GitHub 上编辑此页",
       "editLinkText:en-US": "Edit this page on GitHub"
+    },
+    "navTitle": {
+      "thanks": "感谢",
+      "thanks:en-US": "Thanks"
     }
   }
 }

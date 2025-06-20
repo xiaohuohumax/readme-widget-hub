@@ -47,6 +47,8 @@ export default defineConfig(() => {
 
   function locale2DocLocale(locale: Locale): LocaleConfig<DefaultTheme.Config>[string] {
     const { doc, name } = manager.getMeta(locale)
+    const localeUrlPrefix = manager.isDefaultLocale(locale) ? '' : `/${locale.code}`
+
     return {
       lang: locale.code,
       label: locale.name,
@@ -72,6 +74,12 @@ export default defineConfig(() => {
           message: `${name} (v${pkg.version}) ${pkg.license} Licensed`,
           copyright: 'Copyright © 2025 xiaohuohumax',
         },
+        nav: [
+          {
+            text: doc.navTitle.thanks,
+            link: `${localeUrlPrefix}/thanks`,
+          },
+        ],
       },
     }
   }

@@ -395,6 +395,63 @@ export const how2AddLocaleSchema = {
 
 export type How2AddLocale = FromSchema<typeof how2AddLocaleSchema, { references: [] }>
 
+export const translatorSchema = {
+  $id: 'translator',
+  type: 'object',
+  properties: {
+    name: {
+      type: 'string',
+      description: 'Translator name.',
+    },
+    link: {
+      type: 'string',
+      description: 'Translator link.',
+    },
+  },
+  additionalProperties: false,
+  required: [
+    'name',
+    'link',
+  ],
+} as const satisfies JSONSchema
+
+export type Translator = FromSchema<typeof translatorSchema, { references: [] }>
+
+export const translateSchema = {
+  $id: 'translate',
+  type: 'object',
+  patternProperties: {
+    '^name:.+$': {
+      type: 'string',
+      description: 'Language name.',
+    },
+  },
+  properties: {
+    name: {
+      type: 'string',
+      description: 'Language name.',
+    },
+    translators: {
+      type: 'array',
+      items: {
+        $ref: '#/definitions/translator',
+      },
+      description: 'List of translators.',
+    },
+  },
+  additionalProperties: false,
+  required: [
+    'name',
+    'translators',
+  ],
+} as const satisfies JSONSchema
+
+export type Translate = FromSchema<typeof translateSchema, {
+  references: [
+    typeof translatorSchema,
+  ]
+}>
+
 export const finalThanksSchema = {
   $id: 'finalThanks',
   type: 'object',
@@ -403,9 +460,17 @@ export const finalThanksSchema = {
       type: 'string',
       description: 'Final thanks title.',
     },
+    '^contributorTitle:.+$': {
+      type: 'string',
+      description: 'Contributor title.',
+    },
     '^concludingRemarks:.+$': {
       type: 'string',
       description: 'Concluding remarks.',
+    },
+    '^translatorTitle:.+$': {
+      type: 'string',
+      description: 'Translator title.',
     },
   },
   properties: {
@@ -413,19 +478,46 @@ export const finalThanksSchema = {
       type: 'string',
       description: 'Final thanks title.',
     },
+    contributorTitle: {
+      type: 'string',
+      description: 'Contributor title.',
+    },
     concludingRemarks: {
       type: 'string',
       description: 'Concluding remarks.',
     },
+    translates: {
+      type: 'array',
+      items: {
+        $ref: '#/definitions/translate',
+      },
+      description: 'List of translations.',
+    },
+    translatorTitle: {
+      type: 'string',
+      description: 'Translator title.',
+    },
   },
   additionalProperties: false,
+  definitions: {
+    translator: translatorSchema,
+    translate: translateSchema,
+  },
   required: [
     'title',
+    'contributorTitle',
     'concludingRemarks',
+    'translates',
+    'translatorTitle',
   ],
 } as const satisfies JSONSchema
 
-export type FinalThanks = FromSchema<typeof finalThanksSchema, { references: [] }>
+export type FinalThanks = FromSchema<typeof finalThanksSchema, {
+  references: [
+    typeof translatorSchema,
+    typeof translateSchema,
+  ]
+}>
 
 export const readmeSchema = {
   $id: 'readme',
@@ -493,6 +585,8 @@ export const readmeSchema = {
     how2Run: how2RunSchema,
     how2AddWidget: how2AddWidgetSchema,
     how2AddLocale: how2AddLocaleSchema,
+    translator: translatorSchema,
+    translate: translateSchema,
     finalThanks: finalThanksSchema,
   },
   additionalProperties: false,
@@ -517,6 +611,8 @@ export type Readme = FromSchema<typeof readmeSchema, {
     typeof how2RunSchema,
     typeof how2AddWidgetSchema,
     typeof how2AddLocaleSchema,
+    typeof translatorSchema,
+    typeof translateSchema,
     typeof finalThanksSchema,
   ]
 }>
@@ -576,6 +672,29 @@ export const docWidgetSchema = {
 
 export type DocWidget = FromSchema<typeof docWidgetSchema, { references: [] }>
 
+export const navTitleSchema = {
+  $id: 'navTitle',
+  type: 'object',
+  patternProperties: {
+    '^thanks.+$': {
+      type: 'string',
+      description: 'Thanks title.',
+    },
+  },
+  properties: {
+    thanks: {
+      type: 'string',
+      description: 'Thanks title.',
+    },
+  },
+  additionalProperties: false,
+  required: [
+    'thanks',
+  ],
+} as const satisfies JSONSchema
+
+export type NavTitle = FromSchema<typeof navTitleSchema, { references: [] }>
+
 export const docSchema = {
   $id: 'doc',
   type: 'object',
@@ -630,10 +749,15 @@ export const docSchema = {
       $ref: '#/definitions/docWidget',
       description: 'Doc widget metadata.',
     },
+    navTitle: {
+      $ref: '#/definitions/navTitle',
+      description: 'Nav title.',
+    },
   },
   definitions: {
     docIndex: docIndexSchema,
     docWidget: docWidgetSchema,
+    navTitle: navTitleSchema,
   },
   additionalProperties: false,
   required: [
@@ -644,11 +768,12 @@ export const docSchema = {
     'notFoundLinkText',
     'docIndex',
     'docWidget',
+    'navTitle',
   ],
 } as const satisfies JSONSchema
 
 export type Doc = FromSchema<typeof docSchema, {
-  references: [typeof docIndexSchema, typeof docWidgetSchema]
+  references: [typeof docIndexSchema, typeof docWidgetSchema, typeof navTitleSchema]
 }>
 
 export const metaSchema = {
@@ -703,6 +828,7 @@ export const metaSchema = {
     readme: readmeSchema,
     docIndex: docIndexSchema,
     docWidget: docWidgetSchema,
+    navTitle: navTitleSchema,
     doc: docSchema,
     tag: tagSchema,
     widgetLayout: widgetLayoutSchema,
@@ -710,6 +836,8 @@ export const metaSchema = {
     how2Run: how2RunSchema,
     how2AddWidget: how2AddWidgetSchema,
     how2AddLocale: how2AddLocaleSchema,
+    translator: translatorSchema,
+    translate: translateSchema,
     finalThanks: finalThanksSchema,
   },
   additionalProperties: false,
@@ -729,6 +857,7 @@ export type Meta = FromSchema<typeof metaSchema, {
     typeof readmeSchema,
     typeof docIndexSchema,
     typeof docWidgetSchema,
+    typeof navTitleSchema,
     typeof docSchema,
     typeof tagSchema,
     typeof widgetLayoutSchema,
@@ -736,6 +865,8 @@ export type Meta = FromSchema<typeof metaSchema, {
     typeof how2RunSchema,
     typeof how2AddWidgetSchema,
     typeof how2AddLocaleSchema,
+    typeof translatorSchema,
+    typeof translateSchema,
     typeof finalThanksSchema,
   ]
 }>
@@ -745,6 +876,7 @@ export const metaRootSchema = generateJSONSchema(metaSchema, [
   readmeSchema,
   docIndexSchema,
   docWidgetSchema,
+  navTitleSchema,
   docSchema,
   tagSchema,
   widgetLayoutSchema,
@@ -752,6 +884,8 @@ export const metaRootSchema = generateJSONSchema(metaSchema, [
   how2RunSchema,
   how2AddWidgetSchema,
   how2AddLocaleSchema,
+  translatorSchema,
+  translateSchema,
   finalThanksSchema,
 ])
 

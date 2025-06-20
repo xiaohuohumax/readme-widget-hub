@@ -1,5 +1,18 @@
 # readme-widget-hub
 
+## 4.2.0
+
+### Minor Changes
+
+- 文档感谢区域添加翻译者信息
+
+### Patch Changes
+
+- Updated dependencies
+  - @readme-widget-hub/render@2.7.0
+  - @readme-widget-hub/meta@2.5.0
+  - @readme-widget-hub/manager@2.1.4
+
 ## 4.1.4
 
 ### Patch Changes

@@ -1,4 +1,5 @@
 export * from './doc'
+export * from './doc/thanks'
 export * from './doc/widget'
 export * from './github-html'
 export * from './readme/readme'

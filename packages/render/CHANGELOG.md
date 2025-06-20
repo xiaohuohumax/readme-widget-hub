@@ -1,5 +1,16 @@
 # @readme-widget-hub/render
 
+## 2.7.0
+
+### Minor Changes
+
+- 文档感谢区域添加翻译者信息
+
+### Patch Changes
+
+- Updated dependencies
+  - @readme-widget-hub/meta@2.5.0
+
 ## 2.6.1
 
 ### Patch Changes
