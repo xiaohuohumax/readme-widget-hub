@@ -156,7 +156,7 @@ pnpm build
 
 英语: [xiaohuohumax](https://github.com/xiaohuohumax)
 
-英语: [mayannaoliveira](https://github.com/mayannaoliveira)
+葡萄牙语: [mayannaoliveira](https://github.com/mayannaoliveira)
 
 最后，如果能够帮助到你，还请多多 Star 项目，感谢你的关注。
 
