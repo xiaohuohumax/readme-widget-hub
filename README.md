@@ -20,6 +20,7 @@
     <b>
        <a href="https://xiaohuohumax.github.io/readme-widget-hub/">在线文档</a>
       · <a href="README_en-US.md">English</a>
+      · <a href="README_pt-BR.md">Português</a>
     </b>
   </div>
   <br/>
@@ -154,6 +155,8 @@ pnpm build
 ### 翻译者
 
 英语: [xiaohuohumax](https://github.com/xiaohuohumax)
+
+英语: [mayannaoliveira](https://github.com/mayannaoliveira)
 
 最后，如果能够帮助到你，还请多多 Star 项目，感谢你的关注。
 

@@ -19,6 +19,7 @@
   <div>
     <b>
        <a href="https://xiaohuohumax.github.io/readme-widget-hub/en-US/">Online Doc</a>
+      · <a href="README_pt-BR.md">Português</a>
       · <a href="README.md">中文</a>
     </b>
   </div>
@@ -154,6 +155,8 @@ pnpm build
 ### Translators
 
 English: [xiaohuohumax](https://github.com/xiaohuohumax)
+
+Portuguese: [mayannaoliveira](https://github.com/mayannaoliveira)
 
 Lastly, if you find this project helpful, please star it to show your support. Thank you for your attention.
 

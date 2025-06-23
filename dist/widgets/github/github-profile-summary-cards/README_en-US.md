@@ -11,6 +11,7 @@
   <div>
     <b>
        <a href="/README_en-US.md">Home</a>
+      · <a href="README_pt-BR.md">Português</a>
       · <a href="README.md">中文</a>
     </b>
   </div>
@@ -37,7 +38,7 @@
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
 | `username` | `string` | `true` |  | Github username |  |
-| `theme` | `string` |  | `default` | Theme | Supported: `2077` `dracula` `github` `github_dark` `gruvbox` `monokai` etc. More themes please refer to [thems](https://github.com/vn7n24fzkq/github-profile-summary-cards-example/tree/master/profile-summary-card-output). |
+| `theme` | `string` |  | `default` | Theme | Supported: `2077` `dracula` `github` `github_dark` `gruvbox` `monokai` etc. More themes please refer to [themes](https://github.com/vn7n24fzkq/github-profile-summary-cards-example/tree/master/profile-summary-card-output). |
 
 </details>
 
