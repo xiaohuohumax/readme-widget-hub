@@ -2,6 +2,7 @@
   "title": "Genshin Card",
   "description": "米哈游游戏数据统计卡片生成器。",
   "description:en-US": "‌MiHoYo Game Statistics Card Generator.",
+  "description:pt-BR": "‌Jogo MiHoYo Cartão de Geração de Estatísticas.",
   "tag": {
     "repo": "https://replit.com/@qhy040404/Genshin-Card",
     "onlineTool": "https://hoyocard.qhy04.com/",
@@ -14,24 +15,30 @@
         "type": "string",
         "description": "游戏名称",
         "description:en-US": "Game Name",
+        "description:pt-BR": "Nome do Jogo",
         "moreDescription": "可选值：`hi3`（崩坏3）`ys`（原神）`sr`（崩坏：星穹铁道）`zzz`（绝区零）。",
-        "moreDescription:en-US": "Supported: `hi3` (Honkai Impact 3), `ys` (Genshin Impact), `sr` (Honkai: Star Rail), `zzz` (Zenless Zone Zero)."
+        "moreDescription:en-US": "Supported: `hi3` (Honkai Impact 3), `ys` (Genshin Impact), `sr` (Honkai: Star Rail), `zzz` (Zenless Zone Zero).",
+        "moreDescription:pt-BR": "Suportado: `hi3` (Honkai Impact 3), `ys` (Genshin Impact), `sr` (Honkai: Star Rail), `zzz` (Zenless Zone Zero)."
       },
       {
         "name": "bgImageId",
         "type": "string",
         "description": "背景图ID",
         "description:en-US": "Background Image ID",
+        "description:pt-BR": "ID da Imagem de Fundo",
         "moreDescription": "格式：`rand`（随机）`1,2-4`（`,`分割，`-`指定范围，结果为 `1,2,3,4`），更多图片参考：[hoyo-card-assets](https://github.com/qhy040404/hoyo-card-assets)。",
-        "moreDescription:en-US": "Format: `rand` (Random), `1,2-4` (`,` split, `-` range, result is `1,2,3,4`). More images reference: [hoyo-card-assets](https://github.com/qhy040404/hoyo-card-assets)."
+        "moreDescription:en-US": "Format: `rand` (Random), `1,2-4` (`,` split, `-` range, result is `1,2,3,4`). More images reference: [hoyo-card-assets](https://github.com/qhy040404/hoyo-card-assets).",
+        "moreDescription:pt-BR": "Formato: `rand` (Aleatório), `1,2-4` (`,` divisão, `-` faixa, resultado é `1,2,3,4`). Mais imagens de referência: [hoyo-card-assets](https://github.com/qhy040404/hoyo-card-assets)."
       },
       {
         "name": "miyousheUID",
         "type": "string",
         "description": "米游社 UID",
         "description:en-US": "Miyoushe UID",
+        "description:pt-BR": "UID do Miyoushe",
         "moreDescription": "请确保开启了米游社个人信息公开。",
-        "moreDescription:en-US": "Please make sure that you have enabled the public display of personal information on Miyoushe."
+        "moreDescription:en-US": "Please make sure that you have enabled the public display of personal information on Miyoushe.",
+        "moreDescription:pt-BR": "Certifique-se de ter habilitado a exibição pública de informações pessoais no Miyoushe."
       }
     ],
     "uriTemplate": "https://hoyocard.qhy04.com/{gameName}/{bgImageId}/{miyousheUID}.png"
@@ -41,11 +48,13 @@
       "annotate": "qhy040404",
       "alt": "原神",
       "alt:en-US": "Genshin Impact",
+      "alt:pt-BR": "Genshin Impact",
       "href": "https://hoyocard.qhy04.com/gs/detail/rand/318490747.png",
       "images": [
         {
           "alt": "原神",
           "alt:en-US": "Genshin Impact",
+          "alt:pt-BR": "Genshin Impact",
           "href": "https://hoyocard.qhy04.com/gs/detail/rand/318490747.png"
         }
       ]
@@ -54,11 +63,13 @@
       "annotate": "qhy040404",
       "alt": "崩坏：星穹铁道",
       "alt:en-US": "Honkai: Star Rail",
+      "alt:pt-BR": "Honkai: Star Rail",
       "href": "https://hoyocard.qhy04.com/sr/detail/rand/318490747.png",
       "images": [
         {
           "alt": "崩坏：星穹铁道",
           "alt:en-US": "Honkai: Star Rail",
+          "alt:pt-BR": "Honkai: Star Rail",
           "href": "https://hoyocard.qhy04.com/sr/detail/rand/318490747.png"
         }
       ]

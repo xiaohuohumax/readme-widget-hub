@@ -1,7 +1,9 @@
 {
   "title": "Contributors Img",
+  "title:pt-BR": "Imagem dos Colaboradores",
   "description": "生成一个贡献者图片，让你的 README.md 文件保持同步。",
   "description:en-US": "Generate an image of contributors to keep your README.md in sync.",
+  "description:pt-BR": "Gera uma imagem dos colaboradores para manter seu README.md sincronizado.",
   "tag": {
     "repo": "https://github.com/lacolaco/contributors-img",
     "onlineTool": "https://contrib.rocks/preview"
@@ -14,22 +16,26 @@
         "required": true,
         "description": "仓库名",
         "description:en-US": "Repository name",
+        "description:pt-BR": "Nome do Repositório",
         "moreDescription": "格式：`owner/repo`。",
-        "moreDescription:en-US": "Format: `owner/repo`."
+        "moreDescription:en-US": "Format: `owner/repo`.",
+        "moreDescription:pt-BR": "Formato: `owner/repo`."
       },
       {
         "name": "max",
         "type": "number",
         "default": "100",
         "description": "最大显示贡献者数",
-        "description:en-US": "Maximum number of contributors to display"
+        "description:en-US": "Maximum number of contributors to display",
+        "description:pt-BR": "Número máximo de colaboradores a serem exibidos"
       },
       {
         "name": "columns",
         "type": "number",
         "default": "12",
         "description": "显示列数",
-        "description:en-US": "Number of columns to display"
+        "description:en-US": "Number of columns to display",
+        "description:pt-BR": "Número de colunas a serem exibidas"
       },
       {
         "name": "anon",
@@ -37,8 +43,10 @@
         "default": "0",
         "description": "是否显示匿名贡献者",
         "description:en-US": "Whether to display anonymous contributors",
+        "description:pt-BR": "Caso queira exibir os contribuidores anônimos",
         "moreDescription": "可选值：`0` `1`。",
-        "moreDescription:en-US": "Supported: `0` `1`."
+        "moreDescription:en-US": "Supported: `0` `1`.",
+        "moreDescription:pt-BR": "Suporta: `0` `1`."
       }
     ],
     "uriTemplate": "https://contrib.rocks/image{?repo,max,columns,anon}"
@@ -47,11 +55,13 @@
     "annotate": "lacolaco/contributors-img",
     "alt": "贡献",
     "alt:en-US": "Contributors Image",
+    "alt:pt-BR": "Imagem dos Colaboradores",
     "href": "https://contrib.rocks/image?repo=lacolaco/contributors-img",
     "images": [
       {
         "alt": "贡献",
         "alt:en-US": "Contributors Image",
+        "alt:pt-BR": "Imagem dos Colaboradores",
         "href": "https://contrib.rocks/image?repo=lacolaco/contributors-img"
       }
     ]

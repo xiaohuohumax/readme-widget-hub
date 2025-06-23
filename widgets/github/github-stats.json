@@ -2,6 +2,7 @@
   "title": "Github Stats",
   "description": "GitHub Readme 多维度统计展示。",
   "description:en-US": "Github readme stats in multi angles.",
+  "description:pt-BR": "Vários ângulos das estatísticas do Github no readme.",
   "tag": {
     "repo": "https://github.com/hyochan/github-stats",
     "onlineTool": "https://stats.hyo.dev/",
@@ -15,8 +16,10 @@
           "type": "string",
           "description": "统计类型",
           "description:en-US": "Statistics type",
+          "description:pt-BR": "Tipo das estatísticas",
           "moreDescription": "可选值：`github-stats-advanced`（详细）`github-stats`（简略）。",
-          "moreDescription:en-US": "Supported: `github-stats-advanced` (detailed) `github-stats` (brief)."
+          "moreDescription:en-US": "Supported: `github-stats-advanced` (detailed) `github-stats` (brief).",
+          "moreDescription:pt-BR": "Suporta: `github-stats-advanced` (detalhadamente) `github-stats` (resumidamente)."
         }
       ],
       "querys": [
@@ -25,11 +28,13 @@
           "type": "string",
           "required": true,
           "description": "Github 用户名",
-          "description:en-US": "Github username"
+          "description:en-US": "Github username",
+          "description:pt-BR": "Nome do usuário no Github"
         }
       ],
       "description": "Github 统计",
       "description:en-US": "Github stats",
+      "description:pt-BR": "Estatísticas do Github",
       "uriTemplate": "https://stats.hyo.dev/api/{type}{?login}"
     },
     {
@@ -39,11 +44,13 @@
           "type": "string",
           "required": true,
           "description": "Github 用户名",
-          "description:en-US": "Github username"
+          "description:en-US": "Github username",
+          "description:pt-BR": "Nome do usuário no Github"
         }
       ],
       "description": "Github 奖杯",
       "description:en-US": "GitHub Trophies",
+      "description:pt-BR": "Troféus do GitHub",
       "uriTemplate": "https://stats.hyo.dev/api/github-trophies{?login}"
     }
   ],

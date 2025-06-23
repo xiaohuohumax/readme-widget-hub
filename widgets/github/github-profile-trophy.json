@@ -1,7 +1,9 @@
 {
   "title": "GitHub Profile Trophy",
+  "title:pt-BR": "Troféus no Perfil do GitHub",
   "description": "在你的 README 中添加动态生成的 GitHub 统计奖杯。",
   "description:en-US": "Add dynamically generated GitHub Stat Trophies on your readme.",
+  "description:pt-BR": "Adicione dinamicamente troféus com as Estatísticas do GitHub no seu readme.",
   "tag": {
     "repo": "https://github.com/ryo-ma/github-profile-trophy",
     "onlineTool": "https://github-profile-trophy.vercel.app/",
@@ -14,23 +16,28 @@
         "type": "string",
         "required": true,
         "description": "GitHub 用户名",
-        "description:en-US": "GitHub username"
+        "description:en-US": "GitHub username",
+        "description:pt-BR": "Nome do Usuário no GitHub"
       },
       {
         "name": "title",
         "type": "string",
         "description": "按标题筛选奖杯",
         "description:en-US": "Filter by titles",
+        "description:pt-BR": "Filtrar por títulos",
         "moreDescription": "可选值：`Commits` `Stars` `Issues` `Repositories` `Experience` `Followers` `PullRequest` `Reviews` 多个标题间以 `,` 分隔，如果想要排除则在标题前加 `-`，例如 `-Commits`。",
-        "moreDescription:en-US": "Supported: `Commits` `Stars` `Issues` `Repositories` `Experience` `Followers` `PullRequest` `Reviews` Multiple titles are separated by `,` and `-` can be added before the title to exclude it, for example `-Commits`."
+        "moreDescription:en-US": "Supported: `Commits` `Stars` `Issues` `Repositories` `Experience` `Followers` `PullRequest` `Reviews` Multiple titles are separated by `,` and `-` can be added before the title to exclude it, for example `-Commits`.",
+        "moreDescription:pt-BR": "Suporta: `Commits` `Stars` `Issues` `Repositories` `Experience` `Followers` `PullRequest` `Reviews` Diversos itens como `,` and `-` podem ser adicionados antes do título para excluí-lo, por exemplo `-Commits`."
       },
       {
         "name": "rank",
         "type": "string",
         "description": "按排名筛选奖杯",
         "description:en-US": "Filter trophies by rank",
+        "description:pt-BR": "Filtrar troféus por sua classificação",
         "moreDescription": "可选值：`SECRET` `?`（UNKNOWN） `SSS` `SS` `S` `AAA` `AA` `A` `B` `C`，多个排名间以 `,` 分隔，如果想要排除则在排名前加 `-`，例如 `-?`。",
-        "moreDescription:en-US": "Supported: `SECRET` `?` (UNKNOWN) `SSS` `SS` `S` `AAA` `AA` `A` `B` `C`, multiple ranks are separated by `,` and `-` can be added before the rank to exclude it, for example `-?`."
+        "moreDescription:en-US": "Supported: `SECRET` `?` (UNKNOWN) `SSS` `SS` `S` `AAA` `AA` `A` `B` `C`, multiple ranks are separated by `,` and `-` can be added before the rank to exclude it, for example `-?`.",
+        "moreDescription:pt-BR": "Suporta: `SECRET` `?` (UNKNOWN) `SSS` `SS` `S` `AAA` `AA` `A` `B` `C`, diversos ranks são separados por `,` and `-` pode ser adicionado antes do rank para excluí-lo, por exemplo `-?`."
       },
       {
         "name": "column",
@@ -38,15 +45,18 @@
         "default": "6",
         "description": "显示的列数",
         "description:en-US": "Number of columns to display",
+        "description:pt-BR": "Número de colunas a serem exibidas",
         "moreDescription": "自适应列：设置 `column` 到 `-1` 以适应奖杯数量，参数 `row` 将被忽略。",
-        "moreDescription:en-US": "You can set `column` to `-1` to adapt the width to the number of trophies, the parameter `row` will be ignored."
+        "moreDescription:en-US": "You can set `column` to `-1` to adapt the width to the number of trophies, the parameter `row` will be ignored.",
+        "moreDescription:pt-BR": "Você pode definir `column` como `-1` para adaptar a largura ao número de troféus, o parâmetro `row` será ignorado."
       },
       {
         "name": "row",
         "type": "number",
         "default": "3",
         "description": "显示的行数",
-        "description:en-US": "Number of rows to display"
+        "description:en-US": "Number of rows to display",
+        "description:pt-BR": "Número de linhas a serem exibidas"
       },
       {
         "name": "theme",
@@ -54,36 +64,42 @@
         "default": "flat",
         "description": "应用主题",
         "description:en-US": "Apply theme",
+        "description:pt-BR": "Aplicar tema",
         "moreDescription": "可选值：`flat` `onedark` `gruvbox` `dracula` `monokai` `chalk` `nord` `alduin` `darkhub` `juicyfresh` `buddhism` `oldie` `radical` `onestar` `discord` `algolia` `gitdimmed` `tokyonight` `matrix` `apprentice` `dark_dimmed` `dark_lover` `kimbie_dark`。",
-        "moreDescription:en-US": "Supported: `flat` `onedark` `gruvbox` `dracula` `monokai` `chalk` `nord` `alduin` `darkhub` `juicyfresh` `buddhism` `oldie` `radical` `onestar` `discord` `algolia` `gitdimmed` `tokyonight` `matrix` `apprentice` `dark_dimmed` `dark_lover` `kimbie_dark`."
+        "moreDescription:en-US": "Supported: `flat` `onedark` `gruvbox` `dracula` `monokai` `chalk` `nord` `alduin` `darkhub` `juicyfresh` `buddhism` `oldie` `radical` `onestar` `discord` `algolia` `gitdimmed` `tokyonight` `matrix` `apprentice` `dark_dimmed` `dark_lover` `kimbie_dark`.",
+        "moreDescription:pt-BR": "Suporta: `flat` `onedark` `gruvbox` `dracula` `monokai` `chalk` `nord` `alduin` `darkhub` `juicyfresh` `buddhism` `oldie` `radical` `onestar` `discord` `algolia` `gitdimmed` `tokyonight` `matrix` `apprentice` `dark_dimmed` `dark_lover` `kimbie_dark`."
       },
       {
         "name": "margin-w",
         "type": "number",
         "default": "0",
         "description": "边距宽度",
-        "description:en-US": "Margin Width"
+        "description:en-US": "Margin Width",
+        "description:pt-BR": "Largura da margem"
       },
       {
         "name": "margin-h",
         "type": "number",
         "default": "0",
         "description": "边距高度",
-        "description:en-US": "Margin Height"
+        "description:en-US": "Margin Height",
+        "description:pt-BR": "Altura da margem"
       },
       {
         "name": "no-bg",
         "type": "boolean",
         "default": "false",
         "description": "是否透明背景",
-        "description:en-US": "Transparent background"
+        "description:en-US": "Transparent background",
+        "description:pt-BR": "Transparência do fundo"
       },
       {
         "name": "no-frame",
         "type": "boolean",
         "default": "false",
         "description": "是否隐藏框架",
-        "description:en-US": "Hide frames"
+        "description:en-US": "Hide frames",
+        "description:pt-BR": "Ocultar quadros"
       }
     ],
     "uriTemplate": "https://github-profile-trophy.vercel.app/{?username,title,rank,column,row,theme,margin-w,margin-h,no-bg,no-frame}"
@@ -92,11 +108,13 @@
     "annotate": "ryo-ma",
     "alt": "奖杯",
     "alt:en-US": "Trophy",
+    "alt:pt-BR": "Troféu",
     "href": "https://github-profile-trophy.vercel.app/?username=ryo-ma",
     "images": [
       {
         "alt": "奖杯",
         "alt:en-US": "Trophy",
+        "alt:pt-BR": "Troféu",
         "href": "https://github-profile-trophy.vercel.app/?username=ryo-ma"
       }
     ]

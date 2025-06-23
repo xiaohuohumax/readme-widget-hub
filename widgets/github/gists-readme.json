@@ -1,7 +1,9 @@
 {
   "title": "GitHub Gists Readme",
+  "title:pt-BR": "Gists no Readme do GitHub",
   "description": "显示一些你的 GitHub Gists 内容。",
   "description:en-US": "Display a card with your Gists on your GitHub README.md",
+  "description:pt-BR": "Exibe um cartão com seus Gists no seu perfil README.md do GitHub",
   "tag": {
     "repo": "https://github.com/Yizack/gists-readme",
     "onlineTool": "https://gists-readme.yizack.com/",
@@ -15,20 +17,23 @@
           "type": "string",
           "required": true,
           "description": "Github 用户名",
-          "description:en-US": "GitHub profile username"
+          "description:en-US": "GitHub profile username",
+          "description:pt-BR": "Perfil do usuário do GitHub"
         },
         {
           "name": "n",
           "type": "number",
           "default": "30",
           "description": "显示的 Gist 数量",
-          "description:en-US": "Number of Gists to display"
+          "description:en-US": "Number of Gists to display",
+          "description:pt-BR": "Número de Gists exibidas no perfil"
         },
         {
           "name": "title",
           "type": "string",
           "description": "标题",
-          "description:en-US": "Set the title of the card"
+          "description:en-US": "Set the title of the card",
+          "description:pt-BR": "Alterar o título do cartão"
         },
         {
           "name": "theme",
@@ -36,12 +41,15 @@
           "default": "default",
           "description": "主题",
           "description:en-US": "Set the theme of the card",
+          "description:pt-BR": "Alterar o tema do cartão",
           "moreDescription": "可选值：`default` `dark`。",
-          "moreDescription:en-US": "Supported: `default` `dark`."
+          "moreDescription:en-US": "Supported: `default` `dark`.",
+          "moreDescription:pt-BR": "Suporta: `default` `dark`."
         }
       ],
       "description": "显示 GitHub 用户的 Gists",
       "description:en-US": "Displays a card with your Gists",
+      "description:pt-BR": "Exibe os cartões com seus Gists",
       "uriTemplate": "https://gists-readme.yizack.com/api{?user,n,theme,theme}"
     },
     {
@@ -50,14 +58,16 @@
           "name": "id",
           "type": "string",
           "required": true,
-          "description": "Gist ID"
+          "description": "Gist ID",
+          "description:pt-BR": "ID do Gist"
         },
         {
           "name": "owner",
           "type": "boolean",
           "default": "false",
           "description": "是否显示所有者",
-          "description:en-US": "Shows the owner of the gist"
+          "description:en-US": "Shows the owner of the gist",
+          "description:pt-BR": "Exibe o proprietário do gist"
         },
         {
           "name": "theme",
@@ -65,12 +75,15 @@
           "default": "default",
           "description": "主题",
           "description:en-US": "Sets the theme of the pin",
+          "description:pt-BR": "Altera o tema fixado",
           "moreDescription": "可选值：`default` `dark`。",
-          "moreDescription:en-US": "Supported: `default` `dark`."
+          "moreDescription:en-US": "Supported: `default` `dark`.",
+          "moreDescription:pt-BR": "Suporta: `default` `dark`."
         }
       ],
       "description": "显示单个 Gist",
       "description:en-US": "Displays a single Gist",
+      "description:pt-BR": "Exibe somente um Gist",
       "uriTemplate": "https://gists-readme.yizack.com/api/pin{?id,owner,theme}"
     }
   ],

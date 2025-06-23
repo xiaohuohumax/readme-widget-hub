@@ -2,6 +2,7 @@
   "title": "Repobeats",
   "description": "为你的 GitHub 仓库提供惊艳的见解，让你的 README.md 增添一些吸引眼球的精彩内容。",
   "description:en-US": "Stunning insights for your GitHub Repo, Give your README.md some insightful eye-candy.",
+  "description:pt-BR": "Idéias impressionantes para seu repositório no GitHub. Dê ao seu README.md um visual com toque atrativo.",
   "tag": {
     "repo": "https://github.com/axiomhq",
     "onlineTool": "https://repobeats.axiom.co/configs",
@@ -15,8 +16,10 @@
         "type": "string",
         "description": "配置 ID",
         "description:en-US": "Config ID",
+        "description:pt-BR": "Configuração do ID",
         "moreDescription": "登录 [Repobeats](https://repobeats.axiom.co/) 后选择仓库后获取。",
-        "moreDescription:en-US": "Login [Repobeats](https://repobeats.axiom.co/) and select the repository to get the config ID."
+        "moreDescription:en-US": "Login [Repobeats](https://repobeats.axiom.co/) and select the repository to get the config ID.",
+        "moreDescription:pt-BR": "Efetue o login no [Repobeats](https://repobeats.axiom.co/) e selecione o repositório que deseja ser configurado via ID."
       }
     ],
     "uriTemplate": "https://repobeats.axiom.co/api/embed/{configId}.svg"

@@ -2,6 +2,7 @@
   "title": "Discord Markdown Badge",
   "description": "可自定义的徽章，用于展示您的 Discord 账号、服务器邀请或机器人账号。",
   "description:en-US": "A customizable badge that shows your Discord account, a server invite, or a bot account.",
+  "description:pt-BR": "A customização dessa badge exibe sua conta no Discord, o servidor de convite, ou o bot da conta.",
   "tag": {
     "repo": "https://github.com/gitlimes/dcbadge",
     "officialDoc": "https://github.com/gitlimes/dcbadge?tab=readme-ov-file#set-up"
@@ -13,16 +14,20 @@
         "type": "string",
         "description": "徽章类型",
         "description:en-US": "Badge type",
+        "description:pt-BR": "Tipo da Badge",
         "moreDescription": "可选值：`server` `shield`。",
-        "moreDescription:en-US": "Supported: `server` `shield`."
+        "moreDescription:en-US": "Supported: `server` `shield`.",
+        "moreDescription:pt-BR": "Suporta: `server` `shield`."
       },
       {
         "name": "id",
         "type": "string",
         "description": "ID",
         "description:en-US": "ID",
+        "description:pt-BR": "ID",
         "moreDescription": "用户 ID、机器人 ID、服务器邀请链接等。",
-        "moreDescription:en-US": "User ID, Bot ID, Server Invite Link, etc."
+        "moreDescription:en-US": "User ID, Bot ID, Server Invite Link, etc.",
+        "moreDescription:pt-BR": "ID do Usuário, ID do Bot, Servidor com Link de Convite, etc."
       }
     ],
     "querys": [
@@ -32,38 +37,46 @@
         "default": "for-the-badge",
         "description": "徽章整体风格",
         "description:en-US": "Badge style",
+        "description:pt-BR": "Estilo da Badge",
         "moreDescription": "可选值：`flat` `flat-square` `plastic` `for-the-badge` `social`。",
-        "moreDescription:en-US": "Supported: `flat` `flat-square` `plastic` `for-the-badge` `social`."
+        "moreDescription:en-US": "Supported: `flat` `flat-square` `plastic` `for-the-badge` `social`.",
+        "moreDescription:pt-BR": "Suporta: `flat` `flat-square` `plastic` `for-the-badge` `social`."
       },
       {
         "name": "theme",
         "type": "string",
         "description": "徽章主题",
         "description:en-US": "Badge theme",
+        "description:pt-BR": "Tema da Badge",
         "moreDescription": "可选值：`default-inverted` `clean` `clean-inverted` `discord` `discord-inverted` `full-presence` `gray` `blurple`。",
-        "moreDescription:en-US": "Supported: `default-inverted` `clean` `clean-inverted` `discord` `discord-inverted` `full-presence` `gray` `blurple`."
+        "moreDescription:en-US": "Supported: `default-inverted` `clean` `clean-inverted` `discord` `discord-inverted` `full-presence` `gray` `blurple`.",
+        "moreDescription:pt-BR": "Suporta: `default-inverted` `clean` `clean-inverted` `discord` `discord-inverted` `full-presence` `gray` `blurple`."
       },
       {
         "name": "compact",
         "type": "boolean",
         "default": "false",
         "description": "是否使用紧凑徽章",
-        "description:en-US": "Makes the badge more compact"
+        "description:en-US": "Makes the badge more compact",
+        "description:pt-BR": "Fazer a badge ficar mais compacta"
       },
       {
         "name": "logoColor",
         "type": "string",
         "description": "图标颜色",
         "description:en-US": "Logo color",
+        "description:pt-BR": "Cor do logo",
         "moreDescription": "可选值：`presence`（根据徽标的显示情况更改颜色）`CSS 颜色值` `HEX`。",
-        "moreDescription:en-US": "Supported: `presence` (changes color based on badge display) `CSS color value` `HEX`."
+        "moreDescription:en-US": "Supported: `presence` (changes color based on badge display) `CSS color value` `HEX`.",
+        "moreDescription:pt-BR": "Suporta: `presence` (muda a cor baseado na badge em exibição) `CSS color value` `HEX`."
       },
       {
         "name": "bot",
         "type": "boolean",
         "default": "false",
         "description": "是否为机器人",
-        "description:en-US": "Whether the account is a bot"
+        "description:en-US": "Whether the account is a bot",
+        "description:pt-BR": "Se a conta é um bot"
       }
     ],
     "uriTemplate": "https://dcbadge.limes.pink/api/{type}/{id}{?style,theme,compact,logoColor,bot}"
@@ -72,11 +85,13 @@
     {
       "alt": "用户",
       "alt:en-US": "Discord User",
+      "alt:pt-BR": "Usuário do Discord",
       "href": "https://dcbadge.limes.pink/api/shield/406125028065804289",
       "images": [
         {
           "alt": "用户",
           "alt:en-US": "Discord User",
+          "alt:pt-BR": "Usuário do Discord",
           "href": "https://dcbadge.limes.pink/api/shield/406125028065804289"
         }
       ]
@@ -84,11 +99,13 @@
     {
       "alt": "服务器",
       "alt:en-US": "Discord Server",
+      "alt:pt-BR": "Servidor do Discord",
       "href": "https://dcbadge.limes.pink/api/server/zkspfFwqDg",
       "images": [
         {
           "alt": "服务器",
           "alt:en-US": "Discord Server",
+          "alt:pt-BR": "Servidor do Discord",
           "href": "https://dcbadge.limes.pink/api/server/zkspfFwqDg"
         }
       ]
@@ -96,11 +113,13 @@
     {
       "alt": "机器人",
       "alt:en-US": "Discord Bot",
+      "alt:pt-BR": "Bot do Discord",
       "href": "https://dcbadge.limes.pink/api/shield/852977967776399400?bot=true",
       "images": [
         {
           "alt": "机器人",
           "alt:en-US": "Discord Bot",
+          "alt:pt-BR": "Bot do Discord",
           "href": "https://dcbadge.limes.pink/api/shield/852977967776399400?bot=true"
         }
       ]

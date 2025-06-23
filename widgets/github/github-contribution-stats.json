@@ -1,7 +1,9 @@
 {
   "title": "Github Contribution Stats",
+  "title:pt-BR": "Estatísticas de Contribuição do Github",
   "description": "动态生成 GitHub 贡献统计卡片！",
   "description:en-US": "Get your dynamically generated Github Contribution Stats!",
+  "description:pt-BR": "Obtenha suas estatísticas de contribuição do Github geradas dinamicamente!",
   "tag": {
     "repo": "https://github.com/LordDashMe/github-contribution-stats",
     "officialDoc": "https://github.com/LordDashMe/github-contribution-stats?tab=readme-ov-file#usage"
@@ -13,7 +15,8 @@
         "type": "string",
         "required": true,
         "description": "Github 用户名",
-        "description:en-US": "Github username"
+        "description:en-US": "Github username",
+        "description:pt-BR": "Nome do Usuário do Github"
       }
     ],
     "uriTemplate": "https://github-contribution-stats.vercel.app/api/{?username}"
@@ -22,11 +25,13 @@
     "annotate": "LordDashMe",
     "alt": "贡献统计",
     "alt:en-US": "Contribution Stats",
+    "alt:pt-BR": "Estatísticas de Contribuições",
     "href": "https://github-contribution-stats.vercel.app/api?username=LordDashMe",
     "images": [
       {
         "alt": "贡献统计",
         "alt:en-US": "Contribution Stats",
+        "alt:pt-BR": "Estatísticas de Contribuições",
         "href": "https://github-contribution-stats.vercel.app/api?username=LordDashMe"
       }
     ]

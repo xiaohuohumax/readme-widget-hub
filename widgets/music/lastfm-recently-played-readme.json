@@ -2,6 +2,7 @@
   "title": "Last.fm Recently Played README",
   "description": "在你的 README 中展示最近在 Last.fm 上播放的曲目。",
   "description:en-US": "Display your recent Last.fm scrobbles on your GitHub profile README.",
+  "description:pt-BR": "Exibe os scrobbles recentes do Last.fm no perfil README do GitHub.",
   "tag": {
     "repo": "https://github.com/JeffreyCA/lastfm-recently-played-readme",
     "officialDoc": "https://github.com/JeffreyCA/lastfm-recently-played-readme?tab=readme-ov-file#customization"
@@ -12,7 +13,8 @@
         "name": "user",
         "type": "string",
         "description": "Last.fm 用户名",
-        "description:en-US": "Last.fm username"
+        "description:en-US": "Last.fm username",
+        "description:pt-BR": "Usuário do Last.fm"
       },
       {
         "name": "count",
@@ -20,8 +22,10 @@
         "default": "5",
         "description": "自定义曲目数量",
         "description:en-US": "Custom track count",
+        "description:pt-BR": "Contagem de faixas personalizada",
         "moreDescription": "范围：`1` 到 `10`。",
-        "moreDescription:en-US": "Range: `1` to `10`."
+        "moreDescription:en-US": "Range: `1` to `10`.",
+        "moreDescription:pt-BR": "Faixa: `1` a `10`."
       },
       {
         "name": "width",
@@ -29,8 +33,10 @@
         "default": "400",
         "description": "自定义卡片宽度",
         "description:en-US": "Custom track count",
+        "description:pt-BR": "Contagem de faixas personalizada",
         "moreDescription": "范围：`300` 到 `1000`。",
-        "moreDescription:en-US": "Range: `300` to `1000`."
+        "moreDescription:en-US": "Range: `300` to `1000`.",
+        "moreDescription:pt-BR": "Faixa: `300` a `1000`."
       },
       {
         "name": "loved",
@@ -38,8 +44,10 @@
         "default": "false",
         "description": "是否显示喜欢的曲目心形指示器",
         "description:en-US": "Show a heart indicator for loved tracks",
+        "description:pt-BR": "Mostrar um indicador de coração para faixas favoritas",
         "moreDescription": "可选值：`true` `false`。",
-        "moreDescription:en-US": "Supported: `true` `false`."
+        "moreDescription:en-US": "Supported: `true` `false`.",
+        "moreDescription:pt-BR": "Suporta: `true` `false`."
       },
       {
         "name": "show_user",
@@ -47,8 +55,10 @@
         "default": "never",
         "description": "在指定位置显示您的用户名和头像",
         "description:en-US": "Show your username and profile picture in the specified location",
+        "description:pt-BR": "Mostre o nome do usuário e foto de perfil no local especificado",
         "moreDescription": "可选值：`never` `always` `header` `footer`。",
-        "moreDescription:en-US": "Supported: `never` `always` `header` `footer`."
+        "moreDescription:en-US": "Supported: `never` `always` `header` `footer`.",
+        "moreDescription:pt-BR": "Suporta: `never` `always` `header` `footer`."
       },
       {
         "name": "header_style",
@@ -56,8 +66,10 @@
         "default": "normal",
         "description": "调整页眉大小或隐藏它",
         "description:en-US": "Adjust the size of the header or hide it",
+        "description:pt-BR": "Ajuste o tamanho do cabeçalho ou oculte-o",
         "moreDescription": "可选值：`none` `compact` `normal` `compact_stats` `normal_stats` `compact_stats_only` `normal_stats_only`。",
-        "moreDescription:en-US": "Supported: `none` `compact` `normal` `compact_stats` `normal_stats` `compact_stats_only` `normal_stats_only`."
+        "moreDescription:en-US": "Supported: `none` `compact` `normal` `compact_stats` `normal_stats` `compact_stats_only` `normal_stats_only`.",
+        "moreDescription:pt-BR": "Suporta: `none` `compact` `normal` `compact_stats` `normal_stats` `compact_stats_only` `normal_stats_only`."
       },
       {
         "name": "footer_style",
@@ -65,8 +77,10 @@
         "default": "normal",
         "description": "调整页脚大小或隐藏它",
         "description:en-US": "Adjust the size of the footer or hide it",
+        "description:pt-BR": "Ajuste o tamanho do rodapé ou oculte-o",
         "moreDescription": "可选值：`none` `wave` `compact` `normal` `compact_stats` `normal_stats`。",
-        "moreDescription:en-US": "Supported: `none` `wave` `compact` `normal` `compact_stats` `normal_stats`."
+        "moreDescription:en-US": "Supported: `none` `wave` `compact` `normal` `compact_stats` `normal_stats`.",
+        "moreDescription:pt-BR": "Suporta: `none` `wave` `compact` `normal` `compact_stats` `normal_stats`."
       },
       {
         "name": "border_radius",
@@ -74,8 +88,10 @@
         "default": "10",
         "description": "卡片圆角半径",
         "description:en-US": "Adjust the radius of the card",
+        "description:pt-BR": "Ajuste do raio do cartão",
         "moreDescription": "范围：`0` 到 `100`。",
-        "moreDescription:en-US": "Range: `0` to `100`."
+        "moreDescription:en-US": "Range: `0` to `100`.",
+        "moreDescription:pt-BR": "Faixa: `0` a `100`."
       },
       {
         "name": "loved_style",
@@ -83,8 +99,10 @@
         "default": "1",
         "description": "自定义喜爱歌曲的指示器位置",
         "description:en-US": "Customize the indicator placement for loved tracks",
+        "description:pt-BR": "Personalize o posicionamento do indicador para as faixas favoritas",
         "moreDescription": "可选值：`1` `2` `3` `4`。",
-        "moreDescription:en-US": "Supported: `1` `2` `3` `4`."
+        "moreDescription:en-US": "Supported: `1` `2` `3` `4`.",
+        "moreDescription:pt-BR": "Suporta: `1` `2` `3` `4`."
       },
       {
         "name": "bg_color",
@@ -92,8 +110,10 @@
         "default": "212121",
         "description": "自定义卡片背景颜色",
         "description:en-US": "Customize the background color of the card",
+        "description:pt-BR": "Customizar a cor do funco do cartão",
         "moreDescription": "格式：`RGB/A` `HEX`，例如：`FF0000`。",
-        "moreDescription:en-US": "Format: `RGB/A` `HEX`, e.g. `FF0000`."
+        "moreDescription:en-US": "Format: `RGB/A` `HEX`, e.g. `FF0000`.",
+        "moreDescription:pt-BR": "Fotmato: `RGB/A` `HEX`, ex. `FF0000`."
       },
       {
         "name": "maxage",
@@ -101,8 +121,10 @@
         "default": "120",
         "description": "缓存时长",
         "description:en-US": "Cache duration",
+        "description:pt-BR": "Duração do cache",
         "moreDescription": "单位：秒，范围：`60` 到 `3600`。",
-        "moreDescription:en-US": "Unit: seconds, Range: `60` to `3600`."
+        "moreDescription:en-US": "Unit: seconds, Range: `60` to `3600`.",
+        "moreDescription:pt-BR": "Unidade: segundos, Faixa: `60` a `3600`."
       }
     ],
     "uriTemplate": "https://lastfm-recently-played.vercel.app/api"

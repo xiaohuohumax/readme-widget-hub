@@ -2,6 +2,7 @@
   "title": "Git Animals",
   "description": "通过 GitHub 活动培养你的宠物！",
   "description:en-US": "Grow your pets through GitHub activities!",
+  "description:pt-BR": "Crie animais de estimação utilizando as atividades do GitHub!",
   "tag": {
     "repo": "https://github.com/git-goods/gitanimals",
     "onlineTool": "https://www.gitanimals.org/en_US",
@@ -14,15 +15,18 @@
           "name": "username",
           "type": "string",
           "description": "Github 用户名",
-          "description:en-US": "Github username"
+          "description:en-US": "Github username",
+          "description:pt-BR": "Nome do usuário do Github"
         },
         {
           "name": "mode",
           "type": "string",
           "description": "模式",
           "description:en-US": "Mode",
+          "description:pt-BR": "Modo",
           "moreDescription": "可选值：`lines`（行模式）`farms`（农场模式）。",
-          "moreDescription:en-US": "Supported: `lines`(Line Mode) `farms`(Farm Mode)."
+          "moreDescription:en-US": "Supported: `lines`(Line Mode) `farms`(Farm Mode).",
+          "moreDescription:pt-BR": "Suporta: `lines`(Modo das Linhas) `farms`(Modo Fazenda)."
         }
       ],
       "querys": [
@@ -32,12 +36,15 @@
           "default": "true",
           "description": "是否在动物头上显示贡献数量。",
           "description:en-US": "Whether to show the contribution count on the animal's head.",
+          "description:pt-BR": "Deve exibir a contagem de contribuições sob a cabeça do animal",
           "moreDescription": "可选值：`true` `false`。",
-          "moreDescription:en-US": "Supported: `true` `false`."
+          "moreDescription:en-US": "Supported: `true` `false`.",
+          "moreDescription:pt-BR": "Suporta: `true` `false`."
         }
       ],
       "description": "行/农场模式",
       "description:en-US": "Line/Farm Mode",
+      "description:pt-BR": "Linha/Modo Fazenda",
       "uriTemplate": "https://render.gitanimals.org/{mode}/{username}"
     },
     {
@@ -47,12 +54,15 @@
           "type": "string",
           "description": "公会 ID",
           "description:en-US": "Guild ID",
+          "description:pt-BR": "ID da Guilda",
           "moreDescription": "需要去官网[创建公会](https://www.gitanimals.org/en_US/guild/create)获得。",
-          "moreDescription:en-US": "Please create a guild on the official website [here](https://www.gitanimals.org/en_US/guild/create)."
+          "moreDescription:en-US": "Please create a guild on the official website [here](https://www.gitanimals.org/en_US/guild/create).",
+          "moreDescription:pt-BR": "Por favor, crie uma guilda no site oficial [aqui](https://www.gitanimals.org/en_US/guild/create)."
         }
       ],
       "description": "公会模式",
       "description:en-US": "Guild Mode",
+      "description:pt-BR": "Mode Guilda",
       "uriTemplate": "https://render.gitanimals.org/guilds/{guildId}/draw"
     }
   ],
@@ -60,6 +70,7 @@
     {
       "description": "行模式",
       "description:en-US": "Line Mode",
+      "description:pt-BR": "Modelo de Exibição",
       "annotate": "xiaohuohumax",
       "alt": "Git Animals",
       "href": "https://render.gitanimals.org/lines/xiaohuohumax",
@@ -73,6 +84,7 @@
     {
       "description": "农场模式",
       "description:en-US": "Farm Mode",
+      "description:pt-BR": "Modelo Fazenda",
       "annotate": "xiaohuohumax",
       "alt": "Git Animals",
       "href": "https://render.gitanimals.org/farms/xiaohuohumax",
@@ -86,6 +98,7 @@
     {
       "description": "公会模式",
       "description:en-US": "Guild Mode",
+      "description:pt-BR": "Modelo Guilda",
       "annotate": "gitanimals",
       "alt": "Git Animals",
       "href": "https://render.gitanimals.org/guilds/668749238833660322/draw",

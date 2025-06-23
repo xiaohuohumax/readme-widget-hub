@@ -2,8 +2,10 @@
   "name": "Readme Widget Hub",
   "title": "用美观、可配置的徽章与状态卡片，让你的 README 更专业、更高效！",
   "title:en-US": "Use beautiful, configurable badges and status cards to make your README more professional and efficient!",
+  "title:pt-BR": "Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!",
   "description": "Badge（徽章）是嵌入在项目 README 文件中的 SVG 矢量图标，用于直观展示项目状态、版本、测试覆盖率等关键信息‌。",
   "description:en-US": "Badges are small images that can be embedded in a project's README file to convey information about the project's status, version, test coverage, and more.",
+  "description:pt-BR": "Badges (emblemas) são pequenas imagens que podem ser incorporadas ao README do projeto para exibir informações sobre o status do projeto, versão, cobertura de testes e muito mais.",
   "locales": [
     {
       "name": "中文",
@@ -12,69 +14,99 @@
     {
       "name": "English",
       "code": "en-US"
+    },
+    {
+      "name": "Português",
+      "code": "pt-BR"
     }
   ],
   "readme": {
     "back2Home": "首页",
     "back2Home:en-US": "Home",
+    "back2Home:pt-BR": "Início",
     "onlinePage": "在线文档",
     "onlinePage:en-US": "Online Doc",
+    "onlinePage:pt-BR": "Documentação Online",
     "back2Top": "回到顶部",
     "back2Top:en-US": "Back to top",
+    "back2Top:pt-BR": "Voltar para topo",
     "notLocaleWarning": "当前页面没有对应的语言版本，你可以切换到其他语言，或者查看下面使用默认语言的版本。",
     "notLocaleWarning:en-US": "This page doesn't have a translated version, you can switch to other languages or view the default language version below.",
+    "notLocaleWarning:pt-BR": "Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.",
     "widgetLayout": {
       "tocTitle": "📑 小部件目录",
       "tocTitle:en-US": "📑 Widget Contents",
+      "tocTitle:pt-BR": "📑 Conteúdo dos Widgets",
       "tag": {
         "repo": "项目地址",
         "repo:en-US": "Repository",
+        "repo:pt-BR": "Repositório",
         "onlineTool": "在线工具",
         "onlineTool:en-US": "Online Tools",
+        "onlineTool:pt-BR": "Ferramentas Online",
         "officialDoc": "官方文档",
         "officialDoc:en-US": "Official Doc",
+        "officialDoc:pt-BR": "Documentação Oficial",
         "needRegister": "需要注册",
         "needRegister:en-US": "Need Register",
+        "needRegister:pt-BR": "Precisa Registrar",
         "staticBadge": "静态徽章",
         "staticBadge:en-US": "Static Badge",
+        "staticBadge:pt-BR": "Badge Estática",
         "needAuth": "需要授权",
         "needAuth:en-US": "Need Auth",
+        "needAuth:pt-BR": "Precisa de Autorização",
         "dependentAction": "Github Action"
       },
       "paramsTitle": "参数",
       "paramsTitle:en-US": "Parameters",
+      "paramsTitle:pt-BR": "Parâmetros",
       "showOrCloseParams": "点击显示/关闭参数",
       "showOrCloseParams:en-US": "Click to show/close parameters",
+      "showOrCloseParams:pt-BR": "Clique para exibir/fechar os parâmetros",
       "usageTitle": "用法",
       "usageTitle:en-US": "Usage",
+      "usageTitle:pt-BR": "Uso",
       "paramsTable": {
         "name": "名称",
         "name:en-US": "Name",
+        "name:pt-BR": "Nome",
         "type": "类型",
         "type:en-US": "Type",
+        "type:pt-BR": "Tipo",
         "required": "必填",
         "required:en-US": "Required",
+        "required:pt-BR": "Obrigatório",
         "default": "默认值",
         "default:en-US": "Default",
+        "default:pt-BR": "Padrão",
         "description": "参数描述",
         "description:en-US": "Description",
+        "description:pt-BR": "Descrição",
         "moreDescription": "更多描述",
         "moreDescription:en-US": "More Description",
+        "moreDescription:pt-BR": "Mais Observações",
         "paramsTitle": "路径参数",
         "paramsTitle:en-US": "Path Params",
+        "paramsTitle:pt-BR": "Caminho dos Parâmetros",
         "querysTitle": "查询参数",
         "querysTitle:en-US": "Query Params",
+        "querysTitle:pt-BR": "Parâmetros de Consulta",
         "actionsTitle": "动作参数",
         "actionsTitle:en-US": "Action Params",
+        "actionsTitle:pt-BR": "Parâmetros de Ação",
         "actionOutputsTitle": "动作输出",
-        "actionOutputsTitle:en-US": "Action Outputs"
+        "actionOutputsTitle:en-US": "Action Outputs",
+        "actionOutputsTitle:pt-BR": "Ações de Saídas"
       },
       "exampleTitle": "示例",
-      "exampleTitle:en-US": "Examples"
+      "exampleTitle:en-US": "Examples",
+      "exampleTitle:pt-BR": "Exemplos"
     },
     "how2Run": {
       "title": "🏃 如何使用",
       "title:en-US": "🏃Usage",
+      "title:pt-BR": "🏃Utilização",
       "steps": [
         "# 安装依赖",
         "pnpm install",
@@ -90,11 +122,20 @@
         "pnpm dev",
         "# Build the project",
         "pnpm build"
+      ],
+      "steps:pt-BR": [
+        "# Instalação das dependências",
+        "pnpm install",
+        "# Execução do projeto",
+        "pnpm dev",
+        "# Construção do projeto",
+        "pnpm build"
       ]
     },
     "how2AddWidget": {
       "title": "✍ 添加小部件",
       "title:en-US": "✍ Add Widget",
+      "title:pt-BR": "✍ Adicionar Widget",
       "steps": [
         "Fork 项目",
         "参考模板文件 [template.json](/widgets/template.json) 或 [template.yaml](/widgets/template.yaml)，在 [widgets](/widgets) 目录下新建一个 JSON 或 YAML 文件，并按照模板格式填写小部件信息内容。",
@@ -106,11 +147,18 @@
         "Refer to the [template.json](/widgets/template.json) or [template.yaml](/widgets/template.yaml) file, create a JSON or YAML file in the [widgets](/widgets) directory, and fill in the widget information according to the template format.",
         "`pnpm dev` or `pnpm dev:docs` to start the project, check the widget effect.",
         "Use the `pnpm commit` command and select `docs` to submit a PR, wait for merging."
+      ],
+      "steps:pt-BR": [
+        "Fork no projeto",
+        "Consulte o arquivo [template.json](/widgets/template.json) ou o [template.yaml](/widgets/template.yaml) para criar um arquivo JSON ou YAML no diretório [widgets](/widgets) e preencha em widget as informações de acordo com o formato do template.",
+        "`pnpm dev` ou `pnpm dev:docs` para iniciar o projeto, verifique o estado no widget.",
+        "Use o comando `pnpm commit` e selecione `docs` para envio do PR, aguarde o merging."
       ]
     },
     "how2AddLocale": {
       "title": "🌏 添加语言",
       "title:en-US": "🌏 Add Language",
+      "title:pt-BR": "🌏 Adicionar Linguagem",
       "steps": [
         "Fork 项目",
         "在 [meta.json](/meta.json) 配置文件的 `locales` 字段中添加新的语言配置。",
@@ -122,25 +170,47 @@
         "Add a new language configuration to the `locales` field in the [meta.json](/meta.json) configuration file.",
         "Add a translated version of the widget information file to the [widgets](/widgets) directory.",
         "Use the `pnpm commit` command and select `docs` to submit a PR, wait for merging."
+      ],
+      "steps:pt-BR": [
+        "Fork do projeto",
+        "Adicione uma nova configuração de idioma ao campo `locales` no arquivo de configuração [meta.json](/meta.json).",
+        "Adicione uma versão traduzida do arquivo de informações do widget ao diretório [widgets](/widgets).",
+        "Use o comando `pnpm commit` e selecione `docs` para enviar uma PR. Aguarde o merge."
       ]
     },
     "finalThanks": {
       "title": "💖 感谢",
       "title:en-US": "💖 Thanks",
+      "title:pt-BR": "💖 Obrigado",
       "contributorTitle": "贡献者",
       "contributorTitle:en-US": "Contributors",
+      "contributorTitle:pt-BR": "Colaboradores",
       "concludingRemarks": "最后，如果能够帮助到你，还请多多 Star 项目，感谢你的关注。",
       "concludingRemarks:en-US": "Lastly, if you find this project helpful, please star it to show your support. Thank you for your attention.",
+      "concludingRemarks:pt-BR": "Por fim, se você achar este projeto útil, deixe uma estrela para demonstrar seu apoio. Agradecemos a sua atenção.",
       "translatorTitle": "翻译者",
       "translatorTitle:en-US": "Translators",
+      "translatorTitle:pt-BR": "Tradutores",
       "translates": [
         {
           "name": "英语",
           "name:en-US": "English",
+          "name:pt-BR": "Inglês",
           "translators": [
             {
               "name": "xiaohuohumax",
               "link": "https://github.com/xiaohuohumax"
+            }
+          ]
+        },
+        {
+          "name": "英语",
+          "name:en-US": "Portuguese",
+          "name:pt-BR": "Português",
+          "translators": [
+            {
+              "name": "mayannaoliveira",
+              "link": "https://github.com/mayannaoliveira"
             }
           ]
         }
@@ -150,25 +220,32 @@
   "doc": {
     "sidebarMenuLabel": "目录",
     "sidebarMenuLabel:en-US": "Contents",
+    "sidebarMenuLabel:pt-BR": "Conteúdo",
     "darkModeSwitchLabel": "外观",
     "darkModeSwitchLabel:en-US": "Appearance",
+    "darkModeSwitchLabel:pt-BR": "Aparência",
     "notFoundTitle": "PAGE NOT FOUND",
     "notFoundQuote": "But if you don't change your direction, and if you keep looking, you may end up where you are heading.",
     "notFoundLinkText": "返回首页",
     "notFoundLinkText:en-US": "Back to Homepage",
+    "notFoundLinkText:pt-BR": "Voltar para Página Inicial",
     "docIndex": {
       "startButton": "开始阅读",
-      "startButton:en-US": "Start Reading"
+      "startButton:en-US": "Start Reading",
+      "startButton:pt-BR": "Iniciando a Leitura"
     },
     "docWidget": {
       "outlineLabel": "概述",
       "outlineLabel:en-US": "On this page",
+      "outlineLabel:pt-BR": "Nessa página",
       "editLinkText": "在 GitHub 上编辑此页",
-      "editLinkText:en-US": "Edit this page on GitHub"
+      "editLinkText:en-US": "Edit this page on GitHub",
+      "editLinkText:pt-BR": "Editar essa página no GitHub"
     },
     "navTitle": {
       "thanks": "感谢",
-      "thanks:en-US": "Thanks"
+      "thanks:en-US": "Thanks",
+      "thanks:pt-BR": "Obrigado"
     }
   }
 }

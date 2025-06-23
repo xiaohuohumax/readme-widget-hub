@@ -1,7 +1,9 @@
 {
   "title": "Github Chart API",
+  "title:pt-BR": "Gráfico da API do Github",
   "description": "回顾 Github 个人贡献图表，展示你的 Github 贡献历史。",
   "description:en-US": "Embed github contributions chart as image.",
+  "description:pt-BR": "Contribuições do GitHub incorporadas como images de gráficos.",
   "tag": {
     "repo": "https://github.com/2016rshah/githubchart-api",
     "officialDoc": "https://github.com/2016rshah/githubchart-api"
@@ -15,18 +17,22 @@
           "default": "default",
           "description": "主题颜色",
           "description:en-US": "Use theme",
+          "description:pt-BR": "Tema em uso",
           "moreDescription": "可选值：`teal` `halloween` `default` `old` `HEX`（例如：`FF0000`）。",
-          "moreDescription:en-US": "Supported:`teal` `halloween` `default` `old` `HEX` (e.g. `FF0000`)."
+          "moreDescription:en-US": "Supported:`teal` `halloween` `default` `old` `HEX` (e.g. `FF0000`).",
+          "moreDescription:pt-BR": "Suporta:`teal` `halloween` `default` `old` `HEX` (ex. `FF0000`)."
         },
         {
           "name": "username",
           "type": "string",
           "description": "Github 用户名",
-          "description:en-US": "Github username"
+          "description:en-US": "Github username",
+          "description:pt-BR": "Nome do Usuário no Github"
         }
       ],
       "description": "自定义颜色的图表",
       "description:en-US": "Customize chart with color",
+      "description:pt-BR": "Customização do gráfico com a cor",
       "uriTemplate": "https://ghchart.rshah.org/{color}/{username}"
     },
     {
@@ -35,22 +41,26 @@
           "name": "username",
           "type": "string",
           "description": "Github 用户名",
-          "description:en-US": "Github username"
+          "description:en-US": "Github username",
+          "description:pt-BR": "Nome do Usuário no Github"
         }
       ],
       "description": "默认颜色的图表",
       "description:en-US": "Default chart with color",
+      "description:pt-BR": "Gráfico com cor padrão",
       "uriTemplate": "https://ghchart.rshah.org/{username}"
     }
   ],
   "examples": {
     "alt": "贡献图表",
     "alt:en-US": "Github chart",
+    "alt:pt-BR": "Gráfico do Github",
     "href": "https://ghchart.rshah.org/xiaohuohumax",
     "images": [
       {
         "alt": "贡献图表",
         "alt:en-US": "Github chart",
+        "alt:pt-BR": "Gráfico do Github",
         "href": "https://ghchart.rshah.org/xiaohuohumax"
       }
     ]
