@@ -1,7 +1,9 @@
 {
   "title": "Github Stats Card",
+  "title:pt-BR": "Cartão de Estatísticas do Github",
   "description": "创建令人惊叹的 Github Readme 统计卡片。",
   "description:en-US": "Create awesome Github Readme Stats Card.",
+  "description:pt-BR": "Criação de um maravilhoso cartão com as estatísticas do GitHub no seu Readme.",
   "tag": {
     "repo": "https://github.com/jxmked/github-stats-card",
     "officialDoc": "https://github.com/jxmked/github-stats-card?tab=readme-ov-file#generate-yours-now"
@@ -12,7 +14,8 @@
         "name": "username",
         "type": "string",
         "description": "Github 用户名",
-        "description:en-US": "Github username"
+        "description:en-US": "Github username",
+        "description:pt-BR": "Nome do Usuário no Github"
       }
     ],
     "uriTemplate": "https://gh-stats-card.vercel.app/api/{username}"
@@ -21,11 +24,13 @@
     "annotate": "jxmked",
     "alt": "jxmked GitHub 统计",
     "alt:en-US": "jxmked GitHub stats",
+    "alt:pt-BR": "Estatísticas do jxmked no GitHub",
     "href": "https://gh-stats-card.vercel.app/api/jxmked",
     "images": [
       {
         "alt": "jxmked GitHub 统计",
         "alt:en-US": "jxmked GitHub stats",
+        "alt:pt-BR": "Estatísticas do jxmked no GitHub",
         "href": "https://gh-stats-card.vercel.app/api/jxmked"
       }
     ]

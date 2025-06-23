@@ -2,10 +2,12 @@
   "title": "Open Source Software Insight",
   "description": "在 30 秒内即可将实时小部件嵌入到仓库的 README.md 文件中！",
   "description:en-US": "In less than 30 seconds, you can embed real-time widgets into the README.md file of your repository!",
+  "description:pt-BR": "Caso o tempo seja inferior a 30 segundos, você poderar incorporar widgets em tempo real no seu arquivos REAME.md no seu repositório!",
   "alert": {
     "type": "Tip",
     "messages": "由于此项目支持的卡片种类非常多，且功能强大，这里只简单介绍－推送和提交记录卡片，其他卡片使用方式还请移步官方文档。",
-    "messages:en-US": "Since the card type supported by this project is very many and powerful, here we only introduce - push and commit records card, other cards usage please refer to the official documentation."
+    "messages:en-US": "Since the card type supported by this project is very many and powerful, here we only introduce - push and commit records card, other cards usage please refer to the official documentation.",
+    "messages:pt-BR": "Como os tipos de cartões suportados por este projeto são muitos e poderosos, aqui apresentamos apenas os cartões de registros push e commit. Para outros tipos de cartões, consulte a documentação oficial."
   },
   "tag": {
     "repo": "https://github.com/pingcap/ossinsight",
@@ -18,7 +20,8 @@
         "type": "string",
         "required": true,
         "description": "Github 仓库 ID",
-        "description:en-US": "Github repository ID"
+        "description:en-US": "Github repository ID",
+        "description:pt-BR": "ID do repositório no Github"
       },
       {
         "name": "color_scheme",
@@ -26,8 +29,10 @@
         "default": "dark",
         "description": "卡片颜色主题",
         "description:en-US": "Card color scheme",
+        "description:pt-BR": "Esquema de cor do cartão",
         "moreDescription": "可选值：`light` `dark`。",
-        "moreDescription:en-US": "Supported: `light` `dark`."
+        "moreDescription:en-US": "Supported: `light` `dark`.",
+        "moreDescription:pt-BR": "Suporta: `light` `dark`."
       }
     ],
     "uriTemplate": "https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month{?repo_id,color_scheme}"

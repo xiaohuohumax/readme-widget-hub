@@ -2,6 +2,7 @@
   "title": "Lanyard Profile Readme",
   "description": "在你的 GitHub 个人资料中显示 Discord 在线状态。",
   "description:en-US": "Discord Presence in your GitHub Profile.",
+  "description:pt-BR": "Exibição do Discord no seu perfil do GitHub.",
   "tag": {
     "repo": "https://github.com/cnrad/lanyard-profile-readme",
     "onlineTool": "https://lanyard.cnrad.dev/",
@@ -13,7 +14,8 @@
         "name": "discordId",
         "type": "string",
         "description": "Discord 用户 ID",
-        "description:en-US": "Discord User ID"
+        "description:en-US": "Discord User ID",
+        "description:pt-BR": "ID do Usuário do Discord"
       }
     ],
     "querys": [
@@ -23,16 +25,20 @@
         "default": "dark",
         "description": "主题",
         "description:en-US": "Theme",
+        "description:pt-BR": "Tema",
         "moreDescription": "可选值：`light` `dark`。",
-        "moreDescription:en-US": "Supported: `light` `dark`."
+        "moreDescription:en-US": "Supported: `light` `dark`.",
+        "moreDescription:pt-BR": "Suporta: `light` `dark`."
       },
       {
         "name": "bg",
         "type": "string",
         "description": "背景颜色",
         "description:en-US": "Background Color",
+        "description:pt-BR": "Cor do Fundo",
         "moreDescription": "格式：`HEX`，例如：`FF0000`。",
-        "moreDescription:en-US": "Format: `HEX`, e.g. `FF0000`."
+        "moreDescription:en-US": "Format: `HEX`, e.g. `FF0000`.",
+        "moreDescription:pt-BR": "Formato: `HEX`, ex. `FF0000`."
       },
       {
         "name": "borderRadius",
@@ -40,8 +46,10 @@
         "default": "10px",
         "description": "边框半径",
         "description:en-US": "Border Radius",
+        "description:pt-BR": "Raio da Borda",
         "moreDescription": "格式：`CSS 宽度值`，例如：`10px` `1em`。",
-        "moreDescription:en-US": "Format: `CSS width value`, e.g. `10px` `1em`."
+        "moreDescription:en-US": "Format: `CSS width value`, e.g. `10px` `1em`.",
+        "moreDescription:pt-BR": "Formato: `CSS width value`, ex. `10px` `1em`."
       },
       {
         "name": "animated",
@@ -49,14 +57,17 @@
         "default": "true",
         "description": "是否切换动画头像",
         "description:en-US": "Toggle Animated Avatar",
+        "description:pt-BR": "Alternar Avatar Animado",
         "moreDescription": "可选值：`true` `false`。",
-        "moreDescription:en-US": "Supported: `true` `false`."
+        "moreDescription:en-US": "Supported: `true` `false`.",
+        "moreDescription:pt-BR": "Suporta: `true` `false`."
       },
       {
         "name": "idleMessage",
         "type": "string",
         "description": "自定义空闲消息",
-        "description:en-US": "Custom Idle Message"
+        "description:en-US": "Custom Idle Message",
+        "description:pt-BR": "Mensagem de inatividade personalizada"
       },
       {
         "name": "showDisplayName",
@@ -64,8 +75,10 @@
         "default": "false",
         "description": "是否同时显示全局显示名称和用户名",
         "description:en-US": "Show Global Display Name and Username",
+        "description:pt-BR": "Mostrar nome de exibição global e o nome do usuário",
         "moreDescription": "可选值：`true` `false`。",
-        "moreDescription:en-US": "Supported: `true` `false`."
+        "moreDescription:en-US": "Supported: `true` `false`.",
+        "moreDescription:pt-BR": "Suporta: `true` `false`."
       },
       {
         "name": "hideDecoration",
@@ -73,8 +86,10 @@
         "default": "false",
         "description": "是否隐藏头像装饰",
         "description:en-US": "Hide Avatar Decoration",
+        "description:pt-BR": "Ocultar decoração de avatar",
         "moreDescription": "可选值：`true` `false`。",
-        "moreDescription:en-US": "Supported: `true` `false`."
+        "moreDescription:en-US": "Supported: `true` `false`.",
+        "moreDescription:pt-BR": "Suporta: `true` `false`."
       },
       {
         "name": "animatedDecoration",
@@ -82,8 +97,10 @@
         "default": "false",
         "description": "是否启用动态头像装饰",
         "description:en-US": "Enable Animated Avatar Decoration",
+        "description:pt-BR": "Habilitar decoração de avatar animado",
         "moreDescription": "可选值：`true` `false`。",
-        "moreDescription:en-US": "Supported: `true` `false`."
+        "moreDescription:en-US": "Supported: `true` `false`.",
+        "moreDescription:pt-BR": "Suporta: `true` `false`."
       },
       {
         "name": "hideStatus",
@@ -91,8 +108,10 @@
         "default": "false",
         "description": "是否隐藏状态",
         "description:en-US": "Hide Status",
+        "description:pt-BR": "Ocultar Status",
         "moreDescription": "可选值：`true` `false`。",
-        "moreDescription:en-US": "Supported: `true` `false`."
+        "moreDescription:en-US": "Supported: `true` `false`.",
+        "moreDescription:pt-BR": "Suporta: `true` `false`."
       },
       {
         "name": "hideTimestamp",
@@ -100,8 +119,10 @@
         "default": "false",
         "description": "是否隐藏已过时间",
         "description:en-US": "Hide Elapsed Time",
+        "description:pt-BR": "Ocultar tempo decorrido",
         "moreDescription": "可选值：`true` `false`。",
-        "moreDescription:en-US": "Supported: `true` `false`."
+        "moreDescription:en-US": "Supported: `true` `false`.",
+        "moreDescription:pt-BR": "Suporta: `true` `false`."
       },
       {
         "name": "hideBadges",
@@ -109,8 +130,10 @@
         "default": "false",
         "description": "是否隐藏徽章",
         "description:en-US": "Hide Badges",
+        "description:pt-BR": "Badges Ocultas",
         "moreDescription": "可选值：`true` `false`。",
-        "moreDescription:en-US": "Supported: `true` `false`."
+        "moreDescription:en-US": "Supported: `true` `false`.",
+        "moreDescription:pt-BR": "Suporta: `true` `false`."
       },
       {
         "name": "hideProfile",
@@ -118,8 +141,10 @@
         "default": "false",
         "description": "是否隐藏资料",
         "description:en-US": "Hide Profile",
+        "description:pt-BR": "Perfil Oculto",
         "moreDescription": "可选值：`true` `false`。",
-        "moreDescription:en-US": "Supported: `true` `false`."
+        "moreDescription:en-US": "Supported: `true` `false`.",
+        "moreDescription:pt-BR": "Suporta: `true` `false`."
       },
       {
         "name": "hideActivity",
@@ -127,8 +152,10 @@
         "default": "false",
         "description": "是否隐藏活动",
         "description:en-US": "Hide Activity",
+        "description:pt-BR": "Oculta Atividade",
         "moreDescription": "可选值：`true` `false`。",
-        "moreDescription:en-US": "Supported: `true` `false`."
+        "moreDescription:en-US": "Supported: `true` `false`.",
+        "moreDescription:pt-BR": "Suporta: `true` `false`."
       },
       {
         "name": "hideSpotify",
@@ -136,16 +163,20 @@
         "default": "false",
         "description": "是否隐藏 Spotify",
         "description:en-US": "Hide Spotify",
+        "description:pt-BR": "Hide Spotify",
         "moreDescription": "可选值：`true` `false`。",
-        "moreDescription:en-US": "Supported: `true` `false`."
+        "moreDescription:en-US": "Supported: `true` `false`.",
+        "moreDescription:pt-BR": "Suporta: `true` `false`."
       },
       {
         "name": "ignoreAppId",
         "type": "string",
         "description": "通过 App ID 隐藏部分应用",
         "description:en-US": "Hide App by ID ",
+        "description:pt-BR": "Ocultar aplicativo pelo ID ",
         "moreDescription": "格式：`appId1,appId2,appId3`。",
-        "moreDescription:en-US": "Format: `appId1,appId2,appId3`."
+        "moreDescription:en-US": "Format: `appId1,appId2,appId3`.",
+        "moreDescription:pt-BR": "Formato: `appId1,appId2,appId3`."
       }
     ],
     "uriTemplate": "https://lanyard.cnrad.dev/api/{discordId}{?theme,bg,borderRadius,animated,idleMessage,showDisplayName,hideDecoration,animatedDecoration,hideStatus,hideTimestamp,hideBadges,hideProfile,hideActivity,hideSpotify,ignoreAppId}"

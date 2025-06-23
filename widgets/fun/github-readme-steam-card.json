@@ -2,6 +2,7 @@
   "title": "Github Readme Steam Card",
   "description": "为你的 Github Readme 添加动态生成的 Steam 卡。",
   "description:en-US": "A dynamically generated steam card for your github readme.",
+  "description:pt-BR": "Um cartão steam gerado dinamicamente para o readme do Github.",
   "tag": {
     "repo": "https://github.com/FN-FAL113/github-readme-steam-card",
     "officialDoc": "https://github.com/FN-FAL113/github-readme-steam-card?tab=readme-ov-file#information_source-usage"
@@ -14,7 +15,8 @@
         "required": true,
         "description": "steamid64",
         "moreDescription": "`steamid64` 获取方式：[Steam ID 查找器](https://www.steamidfinder.com/)。",
-        "moreDescription:en-US": "To get `steamid64`, you can use [Steam ID Finder](https://www.steamidfinder.com/)."
+        "moreDescription:en-US": "To get `steamid64`, you can use [Steam ID Finder](https://www.steamidfinder.com/).",
+        "moreDescription:pt-BR": "Para obter `steamid64`, você deve usar [Steam ID Finder](https://www.steamidfinder.com/)."
       },
       {
         "name": "show_in_game_bg",
@@ -22,8 +24,10 @@
         "default": "true",
         "description": "是否在游戏横幅中显示为部分背景",
         "description:en-US": "Whether to show as a background in the game banner",
+        "description:pt-BR": "Se deve ser exibido como plano de fundo no banner do jogo",
         "moreDescription": "可选值：`true` `false`。",
-        "moreDescription:en-US": "Supported: `true` `false`."
+        "moreDescription:en-US": "Supported: `true` `false`.",
+        "moreDescription:pt-BR": "Suporta: `true` `false`."
       },
       {
         "name": "show_recent_game_bg",
@@ -31,8 +35,10 @@
         "default": "true",
         "description": "是否在最近游戏中显示为部分背景",
         "description:en-US": "Whether to show as a background in the recent games",
+        "description:pt-BR": "Se deve ser mostrado como plano de fundo nos jogos recentes",
         "moreDescription": "可选值：`true` `false`。",
-        "moreDescription:en-US": "Supported: `true` `false`."
+        "moreDescription:en-US": "Supported: `true` `false`.",
+        "moreDescription:pt-BR": "Suporta: `true` `false`."
       },
       {
         "name": "animated_avatar",
@@ -40,8 +46,10 @@
         "default": "false",
         "description": "是否显示动画头像",
         "description:en-US": "Whether to show animated avatar",
+        "description:pt-BR": "Caso queira mostrar o avatar animado",
         "moreDescription": "可选值：`true` `false`。",
-        "moreDescription:en-US": "Supported: `true` `false`."
+        "moreDescription:en-US": "Supported: `true` `false`.",
+        "moreDescription:pt-BR": "Suporta: `true` `false`."
       }
     ],
     "uriTemplate": "https://github-readme-steam-card.vercel.app/status/{?steamid,show_in_game_bg,show_recent_game_bg,animated_avatar}"
@@ -50,11 +58,13 @@
     "annotate": "FN-FAL113",
     "alt": "Steam 卡片",
     "alt:en-US": "Steam Card",
+    "alt:pt-BR": "Cartão de Steam",
     "href": "https://github-readme-steam-card.vercel.app/status/?steamid=76561198085145110&animated_avatar=true",
     "images": [
       {
         "alt": "Steam 卡片",
         "alt:en-US": "Steam Card",
+        "alt:pt-BR": "Cartão de Steam",
         "href": "https://github-readme-steam-card.vercel.app/status/?steamid=76561198085145110&animated_avatar=true"
       }
     ]

@@ -2,6 +2,7 @@
   "title": "GitHub Widgetbox",
   "description": "美丽的动态小部件，适用于 GitHub Readme 页面（统计信息、技能等）。",
   "description:en-US": "Beautiful, dynamic widgets for GitHub Readme pages (Statistics, Skills, etc).",
+  "description:pt-BR": "Widgets, dinâmicos e lindos, para as páginas Readme do GitHub (Estatísticas, Habilidades, etc).",
   "tag": {
     "repo": "https://github.com/Jurredr/github-widgetbox",
     "officialDoc": "https://github.com/Jurredr/github-widgetbox?tab=readme-ov-file#widgets"
@@ -14,19 +15,23 @@
           "type": "string",
           "required": true,
           "description": "Github 用户名",
-          "description:en-US": "Github Username"
+          "description:en-US": "Github Username",
+          "description:pt-BR": "Nome do Usuário no Github"
         },
         {
           "name": "data",
           "type": "string",
           "description": "需要展示的数据",
           "description:en-US": "Data to show",
+          "description:pt-BR": "Exibição de Dados",
           "moreDescription": "可选值：`followers` `repositories` `stars` `commits`，多个数据用 `,` 分隔，例如：`followers,repositories,stars,commits`。",
-          "moreDescription:en-US": "Supported: `followers` `repositories` `stars` `commits`. Multiple data can be separated by `,`. For example: `followers,repositories,stars,commits`."
+          "moreDescription:en-US": "Supported: `followers` `repositories` `stars` `commits`. Multiple data can be separated by `,`. For example: `followers,repositories,stars,commits`.",
+          "moreDescription:pt-BR": "Suporta: `followers` `repositories` `stars` `commits`. Dados variados devem ser separados por `,`. Por exemplo: `followers,repositories,stars,commits`."
         }
       ],
       "description": "个人资料",
       "description:en-US": "Profile",
+      "description:pt-BR": "Perfil",
       "uriTemplate": "https://github-widgetbox.vercel.app/api/profile{?username,data}"
     },
     {
@@ -36,40 +41,50 @@
           "type": "string",
           "description": "语言",
           "description:en-US": "Languages",
+          "description:pt-BR": "Linguagens de Programação",
           "moreDescription": "格式：语言名称用 `,` 分隔，例如：`javascript,python,html,css`。",
-          "moreDescription:en-US": "Format: Languages are separated by `,`. For example: `javascript,python,html,css`."
+          "moreDescription:en-US": "Format: Languages are separated by `,`. For example: `javascript,python,html,css`.",
+          "moreDescription:pt-BR": "Formato: Linguagens de Programação devem ser separados por `,`. Por exemplo: `javascript,python,html,css`."
         },
         {
           "name": "frameworks",
           "type": "string",
           "description": "框架",
           "description:en-US": "Frameworks",
+          "description:pt-BR": "Frameworks",
           "moreDescription": "格式：多个框架用 `,` 分隔，例如：`react,vue,angular`。",
-          "moreDescription:en-US": "Format: Multiple frameworks are separated by `,`. For example: `react,vue,angular`."
+          "moreDescription:en-US": "Format: Multiple frameworks are separated by `,`. For example: `react,vue,angular`.",
+          "moreDescription:pt-BR": "Formato: Vários frameworks devem ser separados por `,`. Por exemplo: `react,vue,angular`."
         },
         {
           "name": "libraries",
           "type": "string",
           "description": "库",
           "description:en-US": "Libraries",
+          "description:pt-BR": "Bibliotecas",
           "moreDescription": "格式：多个库用 `,` 分隔，例如：`react,vue,angular`。",
-          "moreDescription:en-US": "Format: Multiple libraries are separated by `,`. For example: `react,vue,angular`."
+          "moreDescription:en-US": "Format: Multiple libraries are separated by `,`. For example: `react,vue,angular`.",
+          "moreDescription:pt-BR": "Formato: Várias bibliotecas devem ser separadas por `,`. Por exemplo: `react,vue,angular`."
         },
         {
           "name": "tools",
           "type": "string",
           "description": "工具",
           "description:en-US": "Tools",
+          "description:pt-BR": "Ferramentas",
           "moreDescription": "格式：多个工具用 `,` 分隔，例如：`git,docker,npm,yarn,webpack`。",
-          "moreDescription:en-US": "Format: Multiple tools are separated by `,`. For example: `git,docker,npm,yarn,webpack`."
+          "moreDescription:en-US": "Format: Multiple tools are separated by `,`. For example: `git,docker,npm,yarn,webpack`.",
+          "moreDescription:pt-BR": "Formato: Várias ferramentas são separadas por `,`. Por exemplo: `git,docker,npm,yarn,webpack`."
         },
         {
           "name": "software",
           "type": "string",
           "description": "软件",
           "description:en-US": "Software",
+          "description:pt-BR": "Programas",
           "moreDescription": "格式：多个软件用 `,` 分隔，例如：`windows,linux,vscode`。",
-          "moreDescription:en-US": "Format: Multiple software are separated by `,`. For example: `windows,linux,vscode`."
+          "moreDescription:en-US": "Format: Multiple software are separated by `,`. For example: `windows,linux,vscode`.",
+          "moreDescription:pt-BR": "Formato: Vários programas são separados por `,`. Por exemplo: `windows,linux,vscode`."
         },
         {
           "name": "includeNames",
@@ -77,20 +92,25 @@
           "default": "false",
           "description": "是否显示名称",
           "description:en-US": "Show Names",
+          "description:pt-BR": "Exibir Nomes",
           "moreDescription": "可选值：`true` `false`。",
-          "moreDescription:en-US": "Supported: `true` `false`."
+          "moreDescription:en-US": "Supported: `true` `false`.",
+          "moreDescription:pt-BR": "Suporta: `true` `false`."
         },
         {
           "name": "theme",
           "type": "string",
           "description": "主题",
           "description:en-US": "Theme",
+          "description:pt-BR": "Tema",
           "moreDescription": "可选值：`default` `darkmode` `viridescent` `carbon` `nautilus` `serika`。",
-          "moreDescription:en-US": "Supported: `default` `darkmode` `viridescent` `carbon` `nautilus` `serika`."
+          "moreDescription:en-US": "Supported: `default` `darkmode` `viridescent` `carbon` `nautilus` `serika`.",
+          "moreDescription:pt-BR": "Suporta: `default` `darkmode` `viridescent` `carbon` `nautilus` `serika`."
         }
       ],
       "description": "技能",
       "description:en-US": "Skills",
+      "description:pt-BR": "Habilidades",
       "uriTemplate": "https://github-widgetbox.vercel.app/api/skills{?languages,frameworks,libraries,software,includeNames,theme}"
     }
   ],
@@ -99,11 +119,13 @@
       "annotate": "Jurredr",
       "alt": "个人资料",
       "alt:en-US": "Profile",
+      "alt:pt-BR": "Perfil",
       "href": "https://github-widgetbox.vercel.app/api/profile?username=Jurredr&data=followers,repositories,stars,commits&theme=darkmode",
       "images": [
         {
           "alt": "个人资料",
           "alt:en-US": "Profile",
+          "alt:pt-BR": "Perfil",
           "href": "https://github-widgetbox.vercel.app/api/profile?username=Jurredr&data=followers,repositories,stars,commits&theme=darkmode"
         }
       ]
@@ -111,11 +133,13 @@
     {
       "alt": "技能",
       "alt:en-US": "Skills",
+      "alt:pt-BR": "Habilidades",
       "href": "https://github-widgetbox.vercel.app/api/skills?frameworks=vue,react,electron,bootstrap,tailwind,express&includeNames=true&theme=darkmode",
       "images": [
         {
           "alt": "技能",
           "alt:en-US": "Skills",
+          "alt:pt-BR": "Habilidades",
           "href": "https://github-widgetbox.vercel.app/api/skills?frameworks=vue,react,electron,bootstrap,tailwind,express&includeNames=true&theme=darkmode"
         }
       ]

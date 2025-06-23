@@ -2,10 +2,12 @@
   "title": "GitHub Profile Summary Cards",
   "description": "一个用于生成 GitHub 个人资料 README 的总结卡片工具。",
   "description:en-US": "A tool to generate your github summary card for profile README.",
+  "description:pt-BR": "Uma ferramenta para gerar o resumo do Github em cartão para o perfil README do Github.",
   "alert": {
     "type": "Tip",
     "messages": "此仓库包含多种统计卡片，包含个人资料详情卡片、GitHub 统计卡片、语言统计卡片等，以下只介绍个人资料详情卡片，更多卡片请参考 [README](https://github.com/vn7n24fzkq/github-profile-summary-cards)。",
-    "messages:en-US": "This repository contains various summary cards, including profile details card, GitHub stats card, language stats card, etc. We will only introduce the profile details card here, for more cards, please refer to [README](https://github.com/vn7n24fzkq/github-profile-summary-cards)."
+    "messages:en-US": "This repository contains various summary cards, including profile details card, GitHub stats card, language stats card, etc. We will only introduce the profile details card here, for more cards, please refer to [README](https://github.com/vn7n24fzkq/github-profile-summary-cards).",
+    "messages:pt-BR": "Este repositório contém vários cartões de resumo, incluindo o cartão com detalhes do perfil, estatísticas do GitHub, estatística do idioma, etc. Apresentaremos apenas o cartão com detalhes do perfil aqui. Para mais cartões, consulte [README](https://github.com/vn7n24fzkq/github-profile-summary-cards)."
   },
   "tag": {
     "repo": "https://github.com/vn7n24fzkq/github-profile-summary-cards",
@@ -19,7 +21,8 @@
         "type": "string",
         "required": true,
         "description": "Github 用户名",
-        "description:en-US": "Github username"
+        "description:en-US": "Github username",
+        "description:pt-BR": "Nome do Usuário no Github"
       },
       {
         "name": "theme",
@@ -27,8 +30,10 @@
         "default": "default",
         "description": "主题",
         "description:en-US": "Theme",
+        "description:pt-BR": "Tema",
         "moreDescription": "可选值：`2077` `dracula` `github` `github_dark` `gruvbox` `monokai` 等，更多主题请参考 [thems](https://github.com/vn7n24fzkq/github-profile-summary-cards-example/tree/master/profile-summary-card-output)。",
-        "moreDescription:en-US": "Supported: `2077` `dracula` `github` `github_dark` `gruvbox` `monokai` etc. More themes please refer to [thems](https://github.com/vn7n24fzkq/github-profile-summary-cards-example/tree/master/profile-summary-card-output)."
+        "moreDescription:en-US": "Supported: `2077` `dracula` `github` `github_dark` `gruvbox` `monokai` etc. More themes please refer to [themes](https://github.com/vn7n24fzkq/github-profile-summary-cards-example/tree/master/profile-summary-card-output).",
+        "moreDescription:pt-BR": "Suporta: `2077` `dracula` `github` `github_dark` `gruvbox` `monokai` etc. Mais temas por favor verificar [temas](https://github.com/vn7n24fzkq/github-profile-summary-cards-example/tree/master/profile-summary-card-output)."
       }
     ],
     "uriTemplate": "http://github-profile-summary-cards.vercel.app/api/cards/profile-details{?username,theme}"
@@ -38,11 +43,13 @@
       "annotate": "vn7n24fzkq",
       "alt": "个人资料详情",
       "alt:en-US": "Profile details",
+      "alt:pt-BR": "Detalhes do Perfil",
       "href": "http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vn7n24fzkq",
       "images": [
         {
           "alt": "个人资料详情",
           "alt:en-US": "Profile details",
+          "alt:pt-BR": "Detalhes do Perfil",
           "href": "http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vn7n24fzkq"
         }
       ]
@@ -51,11 +58,13 @@
       "annotate": "vn7n24fzkq",
       "alt": "GitHub 统计卡片",
       "alt:en-US": "GitHub stats card",
+      "alt:pt-BR": "Cartão de Estatísticas do GitHub",
       "href": "http://github-profile-summary-cards.vercel.app/api/cards/stats?username=vn7n24fzkq",
       "images": [
         {
           "alt": "GitHub 统计卡片",
           "alt:en-US": "GitHub stats card",
+          "alt:pt-BR": "Cartão de Estatísticas do GitHub",
           "href": "http://github-profile-summary-cards.vercel.app/api/cards/stats?username=vn7n24fzkq"
         }
       ]

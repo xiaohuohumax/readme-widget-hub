@@ -2,6 +2,7 @@
   "title": "Discord Guild Widget",
   "description": "返回一个公会 PNG 图像小部件, 无需权限或身份验证。",
   "description:en-US": "Returns a PNG image widget for the guild, Requires no permissions or authentication.",
+  "description:pt-BR": "Retorna um widget da imagem PNG para a guilda. Não requer permissões ou autenticações.",
   "tag": {
     "officialDoc": "https://discord.com/developers/docs/resources/guild#get-guild-widget-image"
   },
@@ -11,7 +12,8 @@
         "name": "guildId",
         "type": "string",
         "description": "工会 ID",
-        "description:en-US": "Guild ID"
+        "description:en-US": "Guild ID",
+        "description:pt-BR": "ID da Guilda"
       }
     ],
     "querys": [
@@ -21,8 +23,10 @@
         "default": "shield",
         "description": "返回的小部件图像的样式",
         "description:en-US": "Style of the widget image returned",
+        "description:pt-BR": "Estilo da imagem do widget retornado",
         "moreDescription": "可选值：`shield` `banner1` `banner2` `banner3` `banner4`。",
-        "moreDescription:en-US": "Supported: `shield` `banner1` `banner2` `banner3` `banner4`."
+        "moreDescription:en-US": "Supported: `shield` `banner1` `banner2` `banner3` `banner4`.",
+        "moreDescription:pt-BR": "Suporta: `shield` `banner1` `banner2` `banner3` `banner4`."
       }
     ],
     "uriTemplate": "https://discordapp.com/api/guilds/{guildId}/widget.png{?style}"
