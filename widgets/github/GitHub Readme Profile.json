@@ -1,0 +1,64 @@
+{
+  "title": "GitHub Readme Profile",
+  "title:pt-BR": "GitHub Readme Profile",
+  "description": "Generate your Stats GitHub Profile in SVG.",
+  "description:en-US": "Generate your Stats GitHub Profile in SVG.",
+  "description:pt-BR": "Exiba suas estatísticas do perfil do GitHub em SVG.",
+  "tag": {
+    "repo": "https://github.com/FajarKim/github-readme-profile",
+    "onlineTool": "https://gh-readme-profile-generator.vercel.app/",
+    "officialDoc": "https://github.com/FajarKim/github-readme-profile"
+  },
+  "linkRules": {
+    "params": [
+      {
+        "name": "username",
+        "type": "string",
+        "description": "Username registered in GitHub",
+        "description:en-US": "Username registered in GitHub ",
+        "description:pt-BR": "Nome do usuário registrado no GitHub",
+        "moreDescription": "Example: `mayannaoliveira`",
+        "moreDescription:en-US": "Example: `mayannaoliveira`",
+        "moreDescription:pt-BR": "Exemplo: `mayannaoliveira`"
+      },
+      {
+        "name": "theme",
+        "type": "string",
+        "default": "default",
+        "description": "主题",
+        "description:en-US": "Theme color",
+        "description:pt-BR": "Cor do tema",
+        "moreDescription": "Supported: `default`, `default`, `transparent`, `dark`, `highcontrast`, `catppuccin-latte`, `catppuccin-frappe`, `catppuccin-macchiato`, `catppuccin-mocha`, `vue`, `vue-dark`, `github_dark`, `github_dark_highcontrast`, `github_dark_dimmed`, `github_dark_tritanopia`, `github_light`, `github_light_highcontrast`, `github_light_tritanopia`, `whatsapp-light`, `whatsapp-dark`, `buefy`, `buefy-dark`, `solarized-light`, `solarized-dark`, `vision-friendly-dark`, `deuteranopia-friendly-dark`, `garden`, `shadow_red`, `shadow_green`, `shadow_blue`, `shadow_orange`, `shadow_purple`, `shadow_brown`, `gruvbox`, `gruvbox_light`, `apprentice`, `radical`, `tokyonight`, `shades-of-purple`, `ayu`, `ayu-light`, `ayu-mirage`, `merko`, `carbonfox`, `dawnfox`, `dayfox`, `duskfox`, `nightfox`, `nordfox`, `terafox`, `humoris`, `iceberg`, `laederon`, `zenburn`, `bluloco`, `bluloco-dark`, `aura`, `lava-light`, `lava-dark`, `neon`, `neon-dark`, `neon-palenight`, `neon-blurange`, `kacho_ga`, `kanagawa`, `kanagawa_light`, `space`, `space_light`, `lavender_breeze`, `lavender_dream`, `sunset-gradient`, `ocean-gradient`, `ambient-gradient`, `siny-gradient`, `purple-gradient`, `monochrome-light-gradient`, `monochrome-dark-gradient`, `endless-gradient` or `twitch-gradient`。",
+        "moreDescription:en-US": "Supported: `default`, `transparent`, `dark`, `highcontrast`, `catppuccin-latte`, `catppuccin-frappe`, `catppuccin-macchiato`, `catppuccin-mocha`, `vue`, `vue-dark`, `github_dark`, `github_dark_highcontrast`, `github_dark_dimmed`, `github_dark_tritanopia`, `github_light`, `github_light_highcontrast`, `github_light_tritanopia`, `whatsapp-light`, `whatsapp-dark`, `buefy`, `buefy-dark`, `solarized-light`, `solarized-dark`, `vision-friendly-dark`, `deuteranopia-friendly-dark`, `garden`, `shadow_red`, `shadow_green`, `shadow_blue`, `shadow_orange`, `shadow_purple`, `shadow_brown`, `gruvbox`, `gruvbox_light`, `apprentice`, `radical`, `tokyonight`, `shades-of-purple`, `ayu`, `ayu-light`, `ayu-mirage`, `merko`, `carbonfox`, `dawnfox`, `dayfox`, `duskfox`, `nightfox`, `nordfox`, `terafox`, `humoris`, `iceberg`, `laederon`, `zenburn`, `bluloco`, `bluloco-dark`, `aura`, `lava-light`, `lava-dark`, `neon`, `neon-dark`, `neon-palenight`, `neon-blurange`, `kacho_ga`, `kanagawa`, `kanagawa_light`, `space`, `space_light`, `lavender_breeze`, `lavender_dream`, `sunset-gradient`, `ocean-gradient`, `ambient-gradient`, `siny-gradient`, `purple-gradient`, `monochrome-light-gradient`, `monochrome-dark-gradient`, `endless-gradient` or `twitch-gradient`.",
+        "moreDescription:pt-BR": "Suporta: `default`, `transparent`, `dark`, `highcontrast`, `catppuccin-latte`, `catppuccin-frappe`, `catppuccin-macchiato`, `catppuccin-mocha`, `vue`, `vue-dark`, `github_dark`, `github_dark_highcontrast`, `github_dark_dimmed`, `github_dark_tritanopia`, `github_light`, `github_light_highcontrast`, `github_light_tritanopia`, `whatsapp-light`, `whatsapp-dark`, `buefy`, `buefy-dark`, `solarized-light`, `solarized-dark`, `vision-friendly-dark`, `deuteranopia-friendly-dark`, `garden`, `shadow_red`, `shadow_green`, `shadow_blue`, `shadow_orange`, `shadow_purple`, `shadow_brown`, `gruvbox`, `gruvbox_light`, `apprentice`, `radical`, `tokyonight`, `shades-of-purple`, `ayu`, `ayu-light`, `ayu-mirage`, `merko`, `carbonfox`, `dawnfox`, `dayfox`, `duskfox`, `nightfox`, `nordfox`, `terafox`, `humoris`, `iceberg`, `laederon`, `zenburn`, `bluloco`, `bluloco-dark`, `aura`, `lava-light`, `lava-dark`, `neon`, `neon-dark`, `neon-palenight`, `neon-blurange`, `kacho_ga`, `kanagawa`, `kanagawa_light`, `space`, `space_light`, `lavender_breeze`, `lavender_dream`, `sunset-gradient`, `ocean-gradient`, `ambient-gradient`, `siny-gradient`, `purple-gradient`, `monochrome-light-gradient`, `monochrome-dark-gradient`, `endless-gradient` or `twitch-gradient`."
+      },
+      {
+        "name": "locate",
+        "type": "string",
+        "default": "English",
+        "description": "Locate (language)",
+        "description:en-US": "Locate (language)",
+        "description:pt-BR": "Idioma",
+        "moreDescription": "Supported:`en`, `ar`, `fr`, `id`, `ja` or `ko`。",
+        "moreDescription:en-US": "Supported: `en`, `ar`, `fr`, `id`, `ja` or `ko`.",
+        "moreDescription:pt-BR": "Suporta: `en`, `ar`, `fr`, `id`, `ja` or `ko`."
+      }
+    ],
+    "uriTemplate": "https://gh-readme-profile.vercel.app/api?username={username}&theme={theme}"
+  },
+  "examples": {
+    "annotate": "GitHub Readme Profile",
+    "alt": "GitHub Readme Profile",
+    "alt:en-US": "GitHub Readme Profile",
+    "alt:pt-BR": "GitHub Readme Profile",
+    "href": "https://gh-readme-profile.vercel.app/api?username=mayannaoliveira&theme=buefy-dark&locale=pt&show=reviews",
+    "images": [
+      {
+        "alt": "GitHub Certifications Widget",
+        "alt:en-US": "GitHub Certifications Widget",
+        "alt:pt-BR": "Widget com os certificados do GitHub",
+        "href": "https://gh-readme-profile.vercel.app/api?username=mayannaoliveira&theme=buefy-dark&locale=pt&show=reviews"
+      }
+    ]
+  }
+}
