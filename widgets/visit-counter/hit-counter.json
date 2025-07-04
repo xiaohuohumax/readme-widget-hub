@@ -2,6 +2,7 @@
   "title": "HITS",
   "description": "一个简单的方法来查看有多少人访问了您的网站或 GitHub 仓库。",
   "description:en-US": "A simple way to see how many people have visited your website or GitHub repo.",
+  "description:pt-BR": "Uma maneira simples de ver quantas pessoas visitaram seu site ou repositório do GitHub.",
   "tag": {
     "repo": "https://github.com/gjbae1212/hit-counter",
     "onlineTool": "https://hits.seeyoufarm.com/#badge"
@@ -13,22 +14,26 @@
         "type": "string",
         "required": true,
         "description": "需要统计的网站或 GitHub 仓库的 URL",
-        "description:en-US": "The URL of the website or GitHub repository to be counted"
+        "description:en-US": "The URL of the website or GitHub repository to be counted",
+        "description:pt-BR": "A URL do site ou repositório do GitHub a ser contado"
       },
       {
         "name": "edge_flat",
         "type": "boolean",
         "description": "徽章整体风格",
         "description:en-US": "Badge style",
+        "description:pt-BR": "Estilo do Badge",
         "moreDescription": "可选值：`true`（Flat） `false`（Round）。",
-        "moreDescription:en-US": "Supported: `true` (Flat) `false` (Round)."
+        "moreDescription:en-US": "Supported: `true` (Flat) `false` (Round).",
+        "moreDescription:pt-BR": "Suporta: `true` (Quadrado) `false` (Redondo)."
       },
       {
         "name": "title",
         "default": "hits",
         "type": "string",
         "description": "左侧标签内容",
-        "description:en-US": "Left label content"
+        "description:en-US": "Left label content",
+        "description:pt-BR": "Conteúdo do rótulo esquerdo"
       },
       {
         "name": "title_bg",
@@ -36,8 +41,10 @@
         "default": "#555555",
         "description": "左侧标签背景颜色",
         "description:en-US": "Left label background color",
+        "description:pt-BR": "Cor de fundo do rótulo esquerdo",
         "moreDescription": "格式：`HEX`，例如：`#FF0000`。",
-        "moreDescription:en-US": "Supported: `Hex`, e.g. `#FF0000`."
+        "moreDescription:en-US": "Supported: `Hex`, e.g. `#FF0000`.",
+        "moreDescription:pt-BR": "Suporta: `Hex`, ex. `#FF0000`."
       },
       {
         "name": "count_bg",
@@ -45,16 +52,20 @@
         "default": "#79C83D",
         "description": "右侧信息背景颜色",
         "description:en-US": "Right information background color",
+        "description:pt-BR": "Cor de fundo das informações corretas",
         "moreDescription": "格式：`HEX`，例如：`#FF0000`。",
-        "moreDescription:en-US": "Supported: `Hex`, e.g. `#FF0000`."
+        "moreDescription:en-US": "Supported: `Hex`, e.g. `#FF0000`.",
+        "moreDescription:pt-BR": "Suporta: `Hex`, ex. `#FF0000`."
       },
       {
         "name": "icon_color",
         "type": "string",
         "description": "图标颜色",
         "description:en-US": "Icon color",
+        "description:pt-BR": "Cor do ícone",
         "moreDescription": "格式：`HEX`，例如：`#FF0000`。",
-        "moreDescription:en-US": "Supported: `Hex`, e.g. `#FF0000`."
+        "moreDescription:en-US": "Supported: `Hex`, e.g. `#FF0000`.",
+        "moreDescription:pt-BR": "Suporta: `Hex`, ex. `#FF0000`."
       }
     ],
     "uriTemplate": "https://hits.seeyoufarm.com/api/count/incr/badge.svg{?url,edge_flat,title,title_bg,count_bg,icon_color}"
@@ -63,11 +74,13 @@
     "annotate": "xiaohuohumax/readme-widget-hub",
     "alt": "点击统计",
     "alt:en-US": "Hit Counter",
+    "alt:pt-BR": "Contador de visitas",
     "href": "https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/readme-widget-hub",
     "images": [
       {
         "alt": "点击统计",
         "alt:en-US": "Hit Counter",
+        "alt:pt-BR": "Contador de visitas",
         "href": "https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/readme-widget-hub"
       }
     ]

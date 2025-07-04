@@ -2,10 +2,12 @@
   "title": "Gradgen",
   "description": "Gradgen 是一个简单而强大的徽章生成器，它为 [badgen.net](https://badgen.net/) 上的徽章增添了令人惊叹的渐变效果。",
   "description:en-US": "Gradgen is a simple yet powerful Cloudflare worker that enhances your badges from [badgen.net](https://badgen.net/) with stunning gradients.",
+  "description:pt-BR": "Gradgen é um construtor simples e poderoso da Cloudflare que aprimora os badges do [badgen.net](https://badgen.net/) com gradientes impressionantes.",
   "alert": {
     "type": "Tip",
     "messages": "由于此项目徽章是基于 [badgen.net](https://badgen.net/) 生成，因此配置参数可直接参考 [badgen.net help](https://badgen.net/help)，下面配置仅展示此项目扩展参数。",
-    "messages:en-US": "Since this project's badges are based on [badgen.net](https://badgen.net/), the configuration parameters can be directly referred to [badgen.net help](https://badgen.net/help). The following configuration only shows the extended parameters of this project."
+    "messages:en-US": "Since this project's badges are based on [badgen.net](https://badgen.net/), the configuration parameters can be directly referred to [badgen.net help](https://badgen.net/help). The following configuration only shows the extended parameters of this project.",
+    "messages:pt-BR": "Como os badges deste projeto são baseados no [badgen.net](https://badgen.net/), os parâmetros de configuração podem ser referenciados diretamente [badgen.net para ajuda](https://badgen.net/help). A configuração a seguir mostra apenas os parâmetros estendidos deste projeto."
   },
   "tag": {
     "repo": "https://github.com/bokub/gradgen",
@@ -18,8 +20,10 @@
         "type": "any",
         "description": "[badgen.net 徽章路径参数](https://badgen.net/help)",
         "description:en-US": "[badgen.net Badge path parameters](https://badgen.net/help)",
+        "description:pt-BR": "[badgen.net Badge caminho dos parâmetros](https://badgen.net/help)",
         "moreDescription": "例如：`static/...`（静态徽章） `github/...`（Github 相关）。",
-        "moreDescription:en-US": "For example: `static/...` (Static badges) `github/...` (Github-related)."
+        "moreDescription:en-US": "For example: `static/...` (Static badges) `github/...` (Github-related).",
+        "moreDescription:pt-BR": "Por exemplo: `static/...` (Badges estáticas) `github/...` (Github-related)."
       }
     ],
     "querys": [
@@ -28,24 +32,30 @@
         "type": "string",
         "description": "渐变色",
         "description:en-US": "Gradient",
+        "description:pt-BR": "Gradiente",
         "moreDescription": "格式：`color1,color2` 颜色格式：`HEX` `CSS 颜色`。",
-        "moreDescription:en-US": "Format: `color1,color2` Color format: `HEX` `CSS color name`."
+        "moreDescription:en-US": "Format: `color1,color2` Color format: `HEX` `CSS color name`.",
+        "moreDescription:pt-BR": "Formato: `color1,color2` Color formato: `HEX` `nome da cor em CSS`."
       },
       {
         "name": "style",
         "type": "string",
         "description": "徽章样式",
         "description:en-US": "Badge style",
+        "description:pt-BR": "Estilo da badge",
         "moreDescription": "可选值：`flat`。",
-        "moreDescription:en-US": "Supported: `flat`."
+        "moreDescription:en-US": "Supported: `flat`.",
+        "moreDescription:pt-BR": "Suporta: `flat`."
       },
       {
         "name": "badgenNetQuerys",
         "type": "any",
         "description": "[badgen.net 徽章查询参数](https://badgen.net/help)",
         "description:en-US": "[badgen.net Badge query parameters](https://badgen.net/help)",
+        "description:pt-BR": "[parâmetros de consulta badgen.net](https://badgen.net/help)",
         "moreDescription": "例如：`color`（图标颜色） `icon`（图标）等。",
-        "moreDescription:en-US": "For example: `color` (Icon color) `icon` (Icon) etc."
+        "moreDescription:en-US": "For example: `color` (Icon color) `icon` (Icon) etc.",
+        "moreDescription:pt-BR": "Por exemplo: `color` (Cor do ícone) `icon` (Ícone) etc."
       }
     ],
     "uriTemplate": "https://gradgen.bokub.workers.dev/{badgenNetParams}{?gradient,badgenNetQuerys"

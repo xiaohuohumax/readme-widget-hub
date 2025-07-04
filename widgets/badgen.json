@@ -3,10 +3,12 @@
   "title": "Badgen",
   "description": "快速徽章生成服务。",
   "description:en-US": "Fast badge generating service.",
+  "description:pt-BR": "Serviço para criar um badge (emblema) rapidamente.",
   "alert": {
     "type": "Tip",
     "messages": "由于此项目支持的徽章种类非常多，且功能强大，这里只简单介绍－静态徽章，其他徽章使用方式还请移步官方文档。",
-    "messages:en-US": "Due to the large number of badge types supported by this project and its powerful features, here is a brief introduction to static badges only. For other badge types, please refer to the official documentation."
+    "messages:en-US": "Due to the large number of badge types supported by this project and its powerful features, here is a brief introduction to static badges only. For other badge types, please refer to the official documentation.",
+    "messages:pt-BR": "Devido ao grande número de tipos de emblemas (badges) suportados por este projeto e seus recursos poderosos, aqui está uma breve introdução apenas dos emblemas estáticos. Para outros tipos de emblemas, consulte a documentação oficial."
   },
   "tag": {
     "repo": "https://github.com/badgen/badgen.net",
@@ -20,32 +22,40 @@
         "type": "string",
         "description": "徽章类型",
         "description:en-US": "Badge type",
+        "description:pt-BR": "Tipo do badge",
         "moreDescription": "可选值：`/static` `/github` `/gitlab` `/https` 等等，更多类型请参考官方文档。",
-        "moreDescription:en-US": "Supported: `/static` `/github` `/gitlab` `/https`, etc. More types please refer to the official documentation."
+        "moreDescription:en-US": "Supported: `/static` `/github` `/gitlab` `/https`, etc. More types please refer to the official documentation.",
+        "moreDescription:pt-BR": "Suporta: `/static` `/github` `/gitlab` `/https`, etc. Para mais tipos por favor, verificar a documentação oficial."
       },
       {
         "name": "subject",
         "type": "string",
         "description": "徽章子信息",
         "description:en-US": "Badge subject",
+        "description:pt-BR": "Assunto do badge",
         "moreDescription": "比如：`/static` 静态徽章时，`subject` 表示为徽章左侧标签。",
-        "moreDescription:en-US": "For example, when using `/static` badge, `subject` represents the label on the left side of the badge."
+        "moreDescription:en-US": "For example, when using `/static` badge, `subject` represents the label on the left side of the badge.",
+        "moreDescription:pt-BR": "Por exemplo, quando utilizar `/static` badge estática, `subject` representa o rótulo do lato esquerdo do badge."
       },
       {
         "name": "status",
         "type": "string",
         "description": "徽章右侧消息",
         "description:en-US": "Badge status",
+        "description:pt-BR": "Status do badge",
         "moreDescription": "比如：`/static/Swift/4.2/orange` `status=4.2`。",
-        "moreDescription:en-US": "For example, `/static/Swift/4.2/orange` `status=4.2`."
+        "moreDescription:en-US": "For example, `/static/Swift/4.2/orange` `status=4.2`.",
+        "moreDescription:pt-BR": "Por exemplo, `/static/Swift/4.2/orange` `status=4.2`."
       },
       {
         "name": "color",
         "type": "string",
         "description": "徽章颜色",
         "description:en-US": "Badge color",
+        "description:pt-BR": "Cor do badge",
         "moreDescription": "支持格式：`RGB` `CSS颜色`。",
-        "moreDescription:en-US": "Supported formats: `RGB` `CSS color`."
+        "moreDescription:en-US": "Supported formats: `RGB` `CSS color`.",
+        "moreDescription:pt-BR": "Formatos suportados: `RGB` `CSS color`."
       }
     ],
     "querys": [
@@ -53,34 +63,40 @@
         "name": "color",
         "type": "string",
         "description": "覆盖默认徽章颜色",
-        "description:en-US": "Override default badge color"
+        "description:en-US": "Override default badge color",
+        "description:pt-BR": "Sobrepor a cor padrão do badge"
       },
       {
         "name": "icon",
         "type": "string",
         "description": "徽章左侧图标",
         "description:en-US": "Badge icon",
+        "description:pt-BR": "Ícone do badge",
         "moreDescription": "支持外部图标 URL。",
-        "moreDescription:en-US": "Support external icon URL."
+        "moreDescription:en-US": "Support external icon URL.",
+        "moreDescription:pt-BR": "Suporta ícone de outra URL."
       },
       {
         "name": "label",
         "type": "string",
         "description": "徽章左侧标签",
-        "description:en-US": "Badge label"
+        "description:en-US": "Badge label",
+        "description:pt-BR": "Rótulo do badge"
       },
       {
         "name": "labelColor",
         "type": "string",
         "description": "徽章左侧标签颜色",
-        "description:en-US": "Badge label color"
+        "description:en-US": "Badge label color",
+        "description:pt-BR": "Cor do rótulo do badge"
       },
       {
         "name": "scale",
         "type": "number",
         "default": "1",
         "description": "徽章缩放比例",
-        "description:en-US": "Badge scale"
+        "description:en-US": "Badge scale",
+        "description:pt-BR": "Escala do badge"
       },
       {
         "name": "cache",
@@ -88,8 +104,10 @@
         "default": "86400",
         "description": "缓存时间",
         "description:en-US": "Cache time",
+        "description:pt-BR": "Tempo de cache",
         "moreDescription": "单位：秒。",
-        "moreDescription:en-US": "Unit: seconds."
+        "moreDescription:en-US": "Unit: seconds.",
+        "moreDescription:pt-BR": "Unidades: segundos."
       }
     ],
     "uriTemplate": "https://badgen.net/{badge}/{subject}/{status}/{color}{?color,icon,label,labelColor,scale,cache}"
@@ -109,6 +127,7 @@
     {
       "alt": "彩色徽章",
       "alt:en-US": "Color Badge",
+      "alt:pt-BR": "Cor da Badge",
       "href": "https://badgen.net/badge/color/F94144/F94144?label=",
       "images": [
         {

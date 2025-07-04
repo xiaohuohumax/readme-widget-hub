@@ -1,7 +1,9 @@
 {
   "title": "LeetCode Stats Card",
+  "title:pt-BR": "Cartão de Estatísticas do LeetCode (LeetCode Stats Card)",
   "description": "在你的 GitHub 个人资料或网站上展示动态生成的 LeetCode 数据统计！",
   "description:en-US": "Show your dynamically generated LeetCode stats on your GitHub profile or your website!",
+  "description:pt-BR": "Exibir as suas estatísticas LeetCode geradas dinamicamente em seu perfil do GitHub ou em seu site!",
   "tag": {
     "repo": "https://github.com/JacobLinCool/LeetCode-Stats-Card",
     "onlineTool": "https://leetcard.jacoblin.cool/",
@@ -13,7 +15,8 @@
         "name": "username",
         "type": "string",
         "description": "LeetCode 用户名",
-        "description:en-US": "LeetCode username"
+        "description:en-US": "LeetCode username",
+        "description:pt-BR": "Nome do usuário no LeetCode"
       }
     ],
     "querys": [
@@ -23,8 +26,10 @@
         "default": "us",
         "description": "LeetCode 站点",
         "description:en-US": "LeetCode site",
+        "description:pt-BR": "Site do LeetCode",
         "moreDescription": "可选值：`us` `cn`。",
-        "moreDescription:en-US": "Supported: `us` `cn`."
+        "moreDescription:en-US": "Supported: `us` `cn`.",
+        "moreDescription:pt-BR": "Suporta: `us` `cn`."
       },
       {
         "name": "theme",
@@ -32,8 +37,10 @@
         "default": "dark",
         "description": "主题",
         "description:en-US": "Theme",
+        "description:pt-BR": "Tema",
         "moreDescription": "可选值：`dark` `light` `nord` `forest` `wtf` `unicorn` `transparent`。",
-        "moreDescription:en-US": "Supported: `dark` `light` `nord` `forest` `wtf` `unicorn` `transparent`."
+        "moreDescription:en-US": "Supported: `dark` `light` `nord` `forest` `wtf` `unicorn` `transparent`.",
+        "moreDescription:pt-BR": "Suporta: `dark` `light` `nord` `forest` `wtf` `unicorn` `transparent`."
       },
       {
         "name": "font",
@@ -41,59 +48,70 @@
         "default": "baloo_2",
         "description": "字体",
         "description:en-US": "Font",
+        "description:pt-BR": "Fonte",
         "moreDescription": "支持几乎所有的 [Google Fonts](https://fonts.google.com/) 字体。",
-        "moreDescription:en-US": "Supports almost all [Google Fonts](https://fonts.google.com/) fonts."
+        "moreDescription:en-US": "Supports almost all [Google Fonts](https://fonts.google.com/) fonts.",
+        "moreDescription:pt-BR": "Suporta quase todas as fontes do Google, verificar [Fontes do Google](https://fonts.google.com/)."
       },
       {
         "name": "width",
         "type": "number",
         "default": "500",
         "description": "宽度",
-        "description:en-US": "Width"
+        "description:en-US": "Width",
+        "description:pt-BR": "Largura"
       },
       {
         "name": "height",
         "type": "number",
         "default": "200",
         "description": "高度",
-        "description:en-US": "Height"
+        "description:en-US": "Height",
+        "description:pt-BR": "Altura"
       },
       {
         "name": "border",
         "type": "number",
         "default": "1",
         "description": "边框宽度",
-        "description:en-US": "Border width"
+        "description:en-US": "Border width",
+        "description:pt-BR": "Largura da borda"
       },
       {
         "name": "radius",
         "type": "number",
         "default": "4",
         "description": "圆角",
-        "description:en-US": "Radius"
+        "description:en-US": "Radius",
+        "description:pt-BR": "Raio"
       },
       {
         "name": "animation",
         "type": "boolean",
         "default": "true",
         "description": "启用或禁用动画。",
-        "description:en-US": "Enable or disable the animation."
+        "description:en-US": "Enable or disable the animation.",
+        "description:pt-BR": "Habilitar ou desabilitar a animação."
       },
       {
         "name": "hide",
         "type": "string",
         "description": "隐藏卡片上的元素",
         "description:en-US": "Hide elements on the card",
+        "description:pt-BR": "Ocultar elementos no cartão",
         "moreDescription": "可选值：`ranking` `total-solved-text` `easy-solved-count` `medium-solved-count` `hard-solved-count` 多个值用 `,` 分隔。",
-        "moreDescription:en-US": "Supported: `ranking` `total-solved-text` `easy-solved-count` `medium-solved-count` `hard-solved-count` separated by `,`."
+        "moreDescription:en-US": "Supported: `ranking` `total-solved-text` `easy-solved-count` `medium-solved-count` `hard-solved-count` separated by `,`.",
+        "moreDescription:pt-BR": "Suporta: `ranking` `total-solved-text` `easy-solved-count` `medium-solved-count` `hard-solved-count` separados por `,`."
       },
       {
         "name": "ext",
         "type": "string",
         "description": "扩展数据",
         "description:en-US": "Extra data",
+        "description:pt-BR": "Dados Extra",
         "moreDescription": "可选值：`activity` `contest` `heatmap` 多个值用 `,` 分隔。",
-        "moreDescription:en-US": "Supported: `activity` `contest` `heatmap` separated by `,`."
+        "moreDescription:en-US": "Supported: `activity` `contest` `heatmap` separated by `,`.",
+        "moreDescription:pt-BR": "Suporta: `activity` `contest` `heatmap` separados por `,`."
       },
       {
         "name": "cache",
@@ -102,15 +120,18 @@
         "description": "缓存时间",
         "description:en": "Cache time",
         "moreDescription": "单位：秒。",
-        "moreDescription:en-US": "Unit: seconds."
+        "moreDescription:en-US": "Unit: seconds.",
+        "moreDescription:pt-BR": "Unidades: segundos."
       },
       {
         "name": "sheets",
         "type": "string",
         "description": "外部样式表",
         "description:en-US": "External stylesheets",
+        "description:pt-BR": "Folha de estilo CSS externa",
         "moreDescription": "多个值用 `,` 例如：`sheets=url1,url2`，分隔 可以将自定义 CSS 上传到 gist 并使用该链接。",
-        "moreDescription:en-US": "Separated by `,` e.g. `sheets=url1,url2`, You can upload your custom CSS to gist and use the url."
+        "moreDescription:en-US": "Separated by `,` e.g. `sheets=url1,url2`, You can upload your custom CSS to gist and use the url.",
+        "moreDescription:pt-BR": "Separado por `,` ex. `sheets=url1,url2`, Você pode carregar seu CSS personalizado em um Gist e utulizar a url."
       }
     ],
     "uriTemplate": "https://leetcard.jacoblin.cool/{username}{?site,theme,font,width,height,border,radius,animation,hide,ext,cache,sheets}"
@@ -119,11 +140,13 @@
     "annotate": "JacobLinCool",
     "alt": "Leetcode 统计",
     "alt:en-US": "Leetcode Stats",
+    "alt:pt-BR": "Estatísticas do LeetCode",
     "href": "https://leetcard.jacoblin.cool/JacobLinCool?theme=wtf&ext=heatmap&font=Play",
     "images": [
       {
         "alt": "Leetcode 统计",
         "alt:en-US": "Leetcode Stats",
+        "alt:pt-BR": "Estatísticas do Leetcode",
         "href": "https://leetcard.jacoblin.cool/JacobLinCool?theme=wtf&ext=heatmap&font=Play"
       }
     ]

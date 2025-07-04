@@ -1,5 +1,6 @@
 {
   "title": "Github Readme Streak Stats",
+  "title:pt-BR": "Github Readme Streak Stats",
   "description": "显示你的总贡献数、当前连续贡献天数、最长连续贡献天数等信息。",
   "description:en-US": "Display your total contributions, current streak, and longest streak on your GitHub profile README.",
   "description:pt-BR": "Exiba o total de suas contribuições, sequência atual e mais longa no arquivo de README do seu perfil no GitHub.",

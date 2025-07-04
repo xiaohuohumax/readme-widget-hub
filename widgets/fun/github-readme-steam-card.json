@@ -1,5 +1,6 @@
 {
   "title": "Github Readme Steam Card",
+  "title:pt-BR": "Cartão do Steam no Readme do GitHub (Github Readme Steam Card)",
   "description": "为你的 Github Readme 添加动态生成的 Steam 卡。",
   "description:en-US": "A dynamically generated steam card for your github readme.",
   "description:pt-BR": "Um cartão steam gerado dinamicamente para o readme do Github.",

@@ -1,6 +1,6 @@
 {
   "title": "Contributors Img",
-  "title:pt-BR": "Imagem dos Colaboradores",
+  "title:pt-BR": "Imagem dos Colaboradores (Contributors Img)",
   "description": "生成一个贡献者图片，让你的 README.md 文件保持同步。",
   "description:en-US": "Generate an image of contributors to keep your README.md in sync.",
   "description:pt-BR": "Gera uma imagem dos colaboradores para manter seu README.md sincronizado.",

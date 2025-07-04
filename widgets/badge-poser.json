@@ -2,6 +2,7 @@
   "title": "Badge Poser",
   "description": "为你的 README 文件添加包含 Packagist 信息的 PHP 徽章‌。",
   "description:en-US": "he PHP badges, renders some badges for your readme with the packagist information.",
+  "description:pt-BR": "Os emblemas (badges) PHP renderizam alguns outros para o seu README com as informações do pacote.",
   "tag": {
     "repo": "https://github.com/PUGX/badge-poser",
     "onlineTool": "https://poser.pugx.org/#badges"
@@ -13,16 +14,20 @@
         "type": "string",
         "description": "包名",
         "description:en-US": "Package name",
+        "description:pt-BR": "Nome do pacote",
         "moreDescription": "例如：`phpunit/phpunit`。",
-        "moreDescription:en-US": "For example: `phpunit/phpunit`."
+        "moreDescription:en-US": "For example: `phpunit/phpunit`.",
+        "moreDescription:pt-BR": "Por exemplo: `phpunit/phpunit`."
       },
       {
         "name": "type",
         "type": "string",
         "description": "徽章类型",
         "description:en-US": "Badge type",
+        "description:pt-BR": "Tipo do badge",
         "moreDescription": "可选值：`v`（最新稳定版本）`v/unstable`（最新不稳定版本）`downloads`（总下载量）`license`（许可证），更多值请参考 [Packagist 徽章](https://poser.pugx.org/#badges)。",
-        "moreDescription:en-US": "Supported: `v` (latest stable version), `v/unstable` (latest unstable version), `downloads` (total downloads), `license` (license), and more values can be found in [Packagist badges](https://poser.pugx.org/#badges)."
+        "moreDescription:en-US": "Supported: `v` (latest stable version), `v/unstable` (latest unstable version), `downloads` (total downloads), `license` (license), and more values can be found in [Packagist badges](https://poser.pugx.org/#badges).",
+        "moreDescription:pt-BR": "Suporta: `v` (última versão estável), `v/unstable` (última versão instável), `downloads` (total de downloads), `license` (licença), e mais valores podem ser achados em [Packagist badges](https://poser.pugx.org/#badges)."
       }
     ],
     "querys": [
@@ -32,8 +37,10 @@
         "default": "flat",
         "description": "徽章整体风格",
         "description:en-US": "Badge style",
+        "description:pt-BR": "Estilo do badge",
         "moreDescription": "可选值：`flat` `flat-square` `plastic` `for-the-badge`。",
-        "moreDescription:en-US": "Supported: `flat` `flat-square` `plastic` `for-the-badge`."
+        "moreDescription:en-US": "Supported: `flat` `flat-square` `plastic` `for-the-badge`.",
+        "moreDescription:pt-BR": "Suporta: `flat` `flat-square` `plastic` `for-the-badge`."
       }
     ],
     "uriTemplate": "https://poser.pugx.org/{package}/{type}{?style}"
@@ -42,11 +49,13 @@
     "annotate": "phpunit/phpunit",
     "alt": "最新稳定版本",
     "alt:en-US": "Latest Stable Version",
+    "alt:pt-BR": "Última versão estável",
     "href": "http://poser.pugx.org/phpunit/phpunit/v",
     "images": [
       {
         "alt": "最新稳定版本",
         "alt:en-US": "Latest Stable Version",
+        "alt:pt-BR": "Última versão estável",
         "href": "http://poser.pugx.org/phpunit/phpunit/v"
       }
     ]

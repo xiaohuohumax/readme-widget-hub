@@ -1,7 +1,9 @@
 {
   "title": "Data Card for Spotify",
+  "title:pt-BR": "Cartão com os Dados do Spotify (Data Card for Spotify)",
   "description": "动态生成 Spotify 数据，嵌入你的 README 或网站。",
   "description:en-US": "Dynamically generated Spotify data to embed in your README or website.",
+  "description:pt-BR": "Gerar dinamicamente o README com os dados da reprodução recente do Spotify.",
   "tag": {
     "repo": "https://github.com/magic-ike/spotify-data-card",
     "onlineTool": "https://data-card-for-spotify.herokuapp.com/",
@@ -14,7 +16,8 @@
         "type": "string",
         "required": true,
         "description": "Spotify 用户 ID",
-        "description:en-US": "Spotify user ID"
+        "description:en-US": "Spotify user ID",
+        "description:pt-BR": "ID do Usuário no Spotify"
       },
       {
         "name": "show_border",
@@ -22,8 +25,10 @@
         "default": "false",
         "description": "是否在数据卡片周围显示白色边框",
         "description:en-US": "Whether or not to show a white border around the data card",
+        "description:pt-BR": "Exibir ou ocultar uma borda branca ao redor do cartão de dados",
         "moreDescription": "可选值：`true` `false`。",
-        "moreDescription:en-US": "Supported: `true` `false`."
+        "moreDescription:en-US": "Supported: `true` `false`.",
+        "moreDescription:pt-BR": "Suporta: `true` `false`."
       },
       {
         "name": "show_date",
@@ -31,8 +36,10 @@
         "default": "false",
         "description": "是否显示数据卡片生成时的日期和时间",
         "description:en-US": "Whether or not to show the date and time that the data card was generated",
+        "description:pt-BR": "Exibir ou ocultar a data e a hora em que o cartão de dados foi gerado",
         "moreDescription": "可选值：`true` `false`。",
-        "moreDescription:en-US": "Supported: `true` `false`."
+        "moreDescription:en-US": "Supported: `true` `false`.",
+        "moreDescription:pt-BR": "Suporta: `true` `false`."
       },
       {
         "name": "time_zone",
@@ -40,56 +47,65 @@
         "default": "America/Los_Angeles",
         "description": "时区",
         "description:en-US": "Time zone",
+        "description:pt-BR": "Time zone",
         "moreDescription": "参考：[时区列表](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)。",
-        "moreDescription:en-US": "Refer to [List of tz database time zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
+        "moreDescription:en-US": "Refer to [List of tz database time zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List).",
+        "moreDescription:pt-BR": "Consulte a [Lista do banco de dados tz com os fuso horários](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
       },
       {
         "name": "custom_title",
         "type": "string",
         "description": "自定义标题",
-        "description:en-US": "Custom title"
+        "description:en-US": "Custom title",
+        "description:pt-BR": "Título customizado"
       },
       {
         "name": "hide_title",
         "type": "boolean",
         "default": "false",
         "description": "是否隐藏标题",
-        "description:en-US": "Whether or not to hide the title"
+        "description:en-US": "Whether or not to hide the title",
+        "description:pt-BR": "Exibir ou ocultar o título"
       },
       {
         "name": "hide_explicit",
         "type": "boolean",
         "default": "false",
         "description": "是否全局隐藏限制级曲目",
-        "description:en-US": "Whether or not to hide explicit tracks from all sections"
+        "description:en-US": "Whether or not to hide explicit tracks from all sections",
+        "description:pt-BR": "Exibir ou ocultar as faixas explícitas em todas as seções"
       },
       {
         "name": "hide_playing",
         "type": "boolean",
         "default": "false",
         "description": "是否隐藏正在收听部分",
-        "description:en-US": "Whether or not to hide the \"Currently Listening To\" section"
+        "description:en-US": "Whether or not to hide the \"Currently Listening To\" section",
+        "description:pt-BR": "Exibir ou ocultar \"Currently Listening To\" (Ouvindo atualmente) da seção"
       },
       {
         "name": "hide_recents",
         "type": "boolean",
         "default": "false",
         "description": "是否隐藏最近播放的曲目部分",
-        "description:en-US": "Whether or not to hide the \"Recently Played Tracks\" section"
+        "description:en-US": "Whether or not to hide the \"Recently Played Tracks\" section",
+        "description:pt-BR": "Exibir ou ocultar o título de \"Recently Played Tracks\" (faixas tocadas recentemente) da seção"
       },
       {
         "name": "hide_top_tracks",
         "type": "boolean",
         "default": "false",
         "description": "是否隐藏热门歌曲部分",
-        "description:en-US": "Whether or not to hide the \"Top Tracks\" section"
+        "description:en-US": "Whether or not to hide the \"Top Tracks\" section",
+        "description:pt-BR": "Exibir ou ocultar o título de \"Top Tracks\" (melhores faixas) da seção"
       },
       {
         "name": "hide_top_artists",
         "type": "boolean",
         "default": "false",
         "description": "是否隐藏热门艺术家部分",
-        "description:en-US": "Whether or not to hide the \"Top Artists\" section"
+        "description:en-US": "Whether or not to hide the \"Top Artists\" section",
+        "description:pt-BR": "Exibir ou ocultar \"Top Artists\" (melhores artistas) da seção"
       },
       {
         "name": "limit",
@@ -97,8 +113,10 @@
         "default": "5",
         "description": "每部分显示的曲目数量",
         "description:en-US": "Number of tracks to show per section",
+        "description:pt-BR": "Número de faixas a serem exibida na seção",
         "moreDescription": "可选值：`1` 到 `10`。",
-        "moreDescription:en-US": "Supported: `1` to `10`."
+        "moreDescription:en-US": "Supported: `1` to `10`.",
+        "moreDescription:pt-BR": "Suporta: `1` a `10`."
       }
     ],
     "uriTemplate": "https://data-card-for-spotify.herokuapp.com/api/card{?userId,show_border,show_date,time_zone,custom_title,hide_title,hide_explicit,hide_playing,hide_recents,hide_top_tracks,hide_top_artists,limit}"
@@ -107,11 +125,13 @@
     "annotate": "magic-ike",
     "alt": "Spotify 数据卡片",
     "alt:en-US": "Spotify Data Card",
+    "alt:pt-BR": "Cartão com os Dados do Spotify",
     "href": "https://data-card-for-spotify.herokuapp.com/api/card?user_id=12146253656&hide_explicit=true&limit=1",
     "images": [
       {
         "alt": "Spotify 数据卡片",
         "alt:en-US": "Spotify Data Card",
+        "alt:pt-BR": "Cartão com os Dados do Spotify",
         "href": "https://data-card-for-spotify.herokuapp.com/api/card?user_id=12146253656&hide_explicit=true&limit=1"
       }
     ]

@@ -2,6 +2,7 @@
   "title": "Open Collective",
   "description": "创建一个 SVG，展示您的财务贡献者的卡片。",
   "description:en-US": "Create an SVG showing the icons of your financial contributors.",
+  "description:pt-BR": "Crie um SVG mostrando os ícones dos seus colaboradores financeiros.",
   "tag": {
     "repo": "https://github.com/opencollective",
     "officialDoc": "https://docs.opencollective.com/help/collectives/collective-settings/data-export#contributor-image"
@@ -12,15 +13,18 @@
         "name": "collectiveName",
         "type": "string",
         "description": "Open Collective 组织名",
-        "description:en-US": "Open Collective organization name"
+        "description:en-US": "Open Collective organization name",
+        "description:pt-BR": "Nome organizacional do Open Collective"
       },
       {
         "name": "statisticalType",
         "type": "string",
         "description": "统计类型",
         "description:en-US": "Statistics type",
+        "description:pt-BR": "Tipo de estatísticas",
         "moreDescription": "可选值：`sponsors`（赞助商）`backers`（支持者）`contributors`（贡献者）。",
-        "moreDescription:en-US": "supported: `sponsors` `backers` `contributors`."
+        "moreDescription:en-US": "supported: `sponsors` `backers` `contributors`.",
+        "moreDescription:pt-BR": "Suporta: `sponsors` `backers` `contributors`."
       }
     ],
     "querys": [
@@ -29,45 +33,55 @@
         "type": "number",
         "description": "图片宽度",
         "description:en-US": "Width of the image",
+        "description:pt-BR": "Largura da imagem",
         "moreDescription": "单位：像素。",
-        "moreDescription:en-US": "Unit: pixels."
+        "moreDescription:en-US": "Unit: pixels.",
+        "moreDescription:pt-BR": "Unidade: pixels."
       },
       {
         "name": "height",
         "type": "number",
         "description": "图片高度",
         "description:en-US": "Height of the image",
+        "description:pt-BR": "Altura da imagem",
         "moreDescription": "单位：像素。",
-        "moreDescription:en-US": "Unit: pixels."
+        "moreDescription:en-US": "Unit: pixels.",
+        "moreDescription:pt-BR": "Unidade: pixels."
       },
       {
         "name": "limit",
         "type": "number",
         "description": "最多显示成员数",
         "description:en-US": "Max number of members to show",
+        "description:pt-BR": "Exibir o número total de membros",
         "moreDescription": "空则表示：无上限。",
-        "moreDescription:en-US": "Empty means: unlimited."
+        "moreDescription:en-US": "Empty means: unlimited.",
+        "moreDescription:pt-BR": "Valor vazio: unlimited."
       },
       {
         "name": "avatarHeight",
         "type": "number",
         "description": "每个头像/标志的最大高度",
-        "description:en-US": "Max height of each avatar / logo"
+        "description:en-US": "Max height of each avatar / logo",
+        "description:pt-BR": "Altura máxima de cada avatar / logo"
       },
       {
         "name": "button",
         "type": "boolean",
         "default": "true",
         "description": "显示 “成为支持者/赞助商” 按钮",
-        "description:en-US": "Show 'become a backer/sponsor' button"
+        "description:en-US": "Show 'become a backer/sponsor' button",
+        "description:pt-BR": "Exibir o botão de 'become a backer/sponsor' (torne-se um apoiador/patrocinador)"
       },
       {
         "name": "format",
         "type": "string",
         "description": "图片格式",
         "description:en-US": "Format of the image",
+        "description:pt-BR": "Formatar a imagem",
         "moreDescription": "将 `.svg` 替换为 `.png` 或 `.jpg`。",
-        "moreDescription:en-US": "Replace `.svg` with `.png` or `.jpg`."
+        "moreDescription:en-US": "Replace `.svg` with `.png` or `.jpg`.",
+        "moreDescription:pt-BR": "Trocar por `.svg` with `.png` ou `.jpg`."
       }
     ],
     "uriTemplate": "https://opencollective.com/{collectiveName}/{statisticalType}.svg{?width,height,limit,avatarHeight,button,format}"

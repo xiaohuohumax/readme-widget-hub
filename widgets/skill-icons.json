@@ -1,7 +1,9 @@
 {
   "title": "Skill Icons",
+  "title:pt-BR": "Ícones de Habilidades (Skill Icons)",
   "description": "轻松的在 GitHub 或简历上展示你的技能！",
   "description:en-US": "Showcase your skills on your GitHub or resumé with ease!",
+  "description:pt-BR": "Exibir todas as habilidades do seu GitHub ou currículo com facilidade!",
   "tag": {
     "repo": "https://github.com/tandpfun/skill-icons",
     "officialDoc": "https://github.com/tandpfun/skill-icons?tab=readme-ov-file#docs"
@@ -14,8 +16,10 @@
         "required": true,
         "description": "显示图标",
         "description:en-US": "Specifying Icons",
+        "description:pt-BR": "Especificar os ícones",
         "moreDescription": "多个图标使用 `,` 分隔，例如 `i=js,html,css`，图标名称请参考 [Icons List](https://github.com/tandpfun/skill-icons?tab=readme-ov-file#icons-list)。",
-        "moreDescription:en-US": "Multiple icons can be specified using `,` separator, e.g. `i=js,html,css`, Please refer to [Icons List](https://github.com/tandpfun/skill-icons?tab=readme-ov-file#icons-list) for icon names."
+        "moreDescription:en-US": "Multiple icons can be specified using `,` separator, e.g. `i=js,html,css`, Please refer to [Icons List](https://github.com/tandpfun/skill-icons?tab=readme-ov-file#icons-list) for icon names.",
+        "moreDescription:pt-BR": "É possível especificar e assim exibir vários ícones separados por `,` vírgula, ex. `i=js,html,css`, Por favor, checar a [Lista de Ícones](https://github.com/tandpfun/skill-icons?tab=readme-ov-file#icons-list) para saber os nomes de cada um deles."
       },
       {
         "name": "theme",
@@ -23,8 +27,10 @@
         "default": "dark",
         "description": "主题",
         "description:en-US": "Themed Icons",
+        "description:pt-BR": "Tema dos ícones",
         "moreDescription": "可选值：`light` `dark`。",
-        "moreDescription:en-US": "Supported: `light` `dark`."
+        "moreDescription:en-US": "Supported: `light` `dark`.",
+        "moreDescription:pt-BR": "Suporta: `light` `dark`."
       },
       {
         "name": "perline",
@@ -32,8 +38,10 @@
         "default": "15",
         "description": "每行显示图标数",
         "description:en-US": "Number of icons per line",
+        "description:pt-BR": "Número de ícones por linha",
         "moreDescription": "范围：`1` 到 `50`。",
-        "moreDescription:en-US": "Range: `1` to `50`."
+        "moreDescription:en-US": "Range: `1` to `50`.",
+        "moreDescription:pt-BR": "Quantidade: `1` a `50`."
       }
     ],
     "uriTemplate": "https://skillicons.dev/icons{?i,theme,perline}"
@@ -41,11 +49,13 @@
   "examples": {
     "alt": "技能",
     "alt:en-US": "Skills",
+    "alt:pt-BR": "Habilidades",
     "href": "https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter&perline=3",
     "images": [
       {
         "alt": "技能",
         "alt:en-US": "Skills",
+        "alt:pt-BR": "Habilidades",
         "href": "https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter&perline=3"
       }
     ]

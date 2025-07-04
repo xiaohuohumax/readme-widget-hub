@@ -1,7 +1,9 @@
 {
   "title": "GitHub Twitter Card Embed",
+  "title:pt-BR": "Cartão do Twitter Incorporado no GitHub (GitHub Twitter Card Embed)",
   "description": "展示你 Twitter 的推文、创建时间、点赞、认证徽章等信息。",
   "description:en-US": "Get a Verified badge, Showcase your Tweet on Website, GitHub ReadMe or anywhere else.",
+  "description:pt-BR": "Obtenha um selo Verificado, exiba seu Tweet no seu site, no GitHub ReadMe ou em qualquer outro lugar.",
   "tag": {
     "repo": "https://github.com/VishwaGauravIn/github-twitter-card-embed",
     "onlineTool": "https://gtce.itsvg.in/",
@@ -14,7 +16,8 @@
         "type": "string",
         "required": true,
         "description": "Twitter 用户名",
-        "description:en-US": "Twitter usernmae"
+        "description:en-US": "Twitter username",
+        "description:pt-BR": "Nome do usuário no Twitter"
       },
       {
         "name": "theme",
@@ -22,8 +25,10 @@
         "default": "dracula",
         "description": "主题",
         "description:en-US": "Theme",
+        "description:pt-BR": "Tema",
         "moreDescription": "可选值：`default` `default_repocard` `transparent` `dark` `tokyonight` 更多主题参考：[Themes](https://github.com/VishwaGauravIn/github-twitter-card-embed?tab=readme-ov-file#-themes)。",
-        "moreDescription:en-US": "Supported: `default` `default_repocard` `transparent` `dark` `tokyonight` main theme references: [Themes](https://github.com/VishwaGauravIn/github-twitter-card-embed?tab=readme-ov-file#-themes)."
+        "moreDescription:en-US": "Supported: `default` `default_repocard` `transparent` `dark` `tokyonight` main theme references: [Themes](https://github.com/VishwaGauravIn/github-twitter-card-embed?tab=readme-ov-file#-themes).",
+        "moreDescription:pt-BR": "Suporta: `default` `default_repocard` `transparent` `dark` `tokyonight` referência do tema principal em [Temas](https://github.com/VishwaGauravIn/github-twitter-card-embed?tab=readme-ov-file#-themes)."
       },
       {
         "name": "icon",
@@ -31,8 +36,10 @@
         "default": "default",
         "description": "图标",
         "description:en-US": "Icon",
+        "description:pt-BR": "Ícone",
         "moreDescription": "可选值：`default` `thunder` `sun` `beaker` `bookmark` `bug` `cake` `badge` `code` `smile` `fire` `hashtag` `heart` `lock` `moon` `radio` `sparkles` `star` `trophy` `user`。",
-        "moreDescription:en-US": "Supported: `default` `thunder` `sun` `beaker` `bookmark` `bug` `cake` `badge` `code` `smile` `fire` `hashtag` `heart` `lock` `moon` `radio` `sparkles` `star` `trophy` `user`."
+        "moreDescription:en-US": "Supported: `default` `thunder` `sun` `beaker` `bookmark` `bug` `cake` `badge` `code` `smile` `fire` `hashtag` `heart` `lock` `moon` `radio` `sparkles` `star` `trophy` `user`.",
+        "moreDescription:pt-BR": "Suporta: `default` `thunder` `sun` `beaker` `bookmark` `bug` `cake` `badge` `code` `smile` `fire` `hashtag` `heart` `lock` `moon` `radio` `sparkles` `star` `trophy` `user`."
       },
       {
         "name": "time",
@@ -40,8 +47,10 @@
         "default": "true",
         "description": "是否显示时间",
         "description:en-US": "Show time",
+        "description:pt-BR": "Exibe o tempo",
         "moreDescription": "可选值：`true` `false`。",
-        "moreDescription:en-US": "Supported: `true` `false`."
+        "moreDescription:en-US": "Supported: `true` `false`.",
+        "moreDescription:pt-BR": "Suporta: `true` `false`."
       },
       {
         "name": "response",
@@ -49,8 +58,10 @@
         "default": "true",
         "description": "是否显示点赞、转发和评论",
         "description:en-US": "Show response",
+        "description:pt-BR": "Exibe resposta",
         "moreDescription": "可选值：`true` `false`。",
-        "moreDescription:en-US": "Supported: `true` `false`."
+        "moreDescription:en-US": "Supported: `true` `false`.",
+        "moreDescription:pt-BR": "Suporta: `true` `false`."
       },
       {
         "name": "border",
@@ -58,8 +69,10 @@
         "default": "true",
         "description": "是否显示边框",
         "description:en-US": "Show border",
+        "description:pt-BR": "Exibe a borda",
         "moreDescription": "可选值：`true` `false`。",
-        "moreDescription:en-US": "Supported: `true` `false`."
+        "moreDescription:en-US": "Supported: `true` `false`.",
+        "moreDescription:pt-BR": "Suporta: `true` `false`."
       }
     ],
     "uriTemplate": "https://gtce.itsvg.in/api{?username,theme,icon,time,response,border}"

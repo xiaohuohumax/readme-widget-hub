@@ -1,7 +1,9 @@
 {
   "title": "GitHub Profile Views Counter",
+  "title:pt-BR": "Contador de Visitas do Perfil no GitHub",
   "description": "它统计了你的 GitHub 个人资料被查看的次数。",
   "description:en-US": "It counts how many times your GitHub profile has been viewed.",
+  "description:pt-BR": "Ele conta quantas vezes seu perfil do GitHub foi visualizado.",
   "tag": {
     "repo": "https://github.com/antonkomarev/github-profile-views-counter",
     "officialDoc": "https://github.com/antonkomarev/github-profile-views-counter?tab=readme-ov-file#usage"
@@ -13,7 +15,8 @@
         "type": "string",
         "required": true,
         "description": "Github 用户名",
-        "description:en-US": "Github username"
+        "description:en-US": "Github username",
+        "description:pt-BR": "Nome do usuário no Github"
       },
       {
         "name": "color",
@@ -21,8 +24,10 @@
         "default": "blue",
         "description": "颜色",
         "description:en-US": "Color",
+        "description:pt-BR": "Cor",
         "moreDescription": "格式：`HEX` `CSS 颜色` 例如：`FF0000`。",
-        "moreDescription:en-US": "Format: `HEX` `CSS color` e.g. `FF0000`."
+        "moreDescription:en-US": "Format: `HEX` `CSS color` e.g. `FF0000`.",
+        "moreDescription:pt-BR": "Formato: `HEX` `CSS color` ex. `FF0000`."
       },
       {
         "name": "style",
@@ -30,8 +35,10 @@
         "default": "flat",
         "description": "样式",
         "description:en-US": "Styles",
+        "description:pt-BR": "Estilos",
         "moreDescription": "可选值：`flat` `flat-square` `for-the-badge` `plastic` `pixel`（隐身）。",
-        "moreDescription:en-US": "Supported: `flat` `flat-square` `for-the-badge` `plastic` `pixel` (invisible)."
+        "moreDescription:en-US": "Supported: `flat` `flat-square` `for-the-badge` `plastic` `pixel` (invisible).",
+        "moreDescription:pt-BR": "Suporta: `flat` `flat-square` `for-the-badge` `plastic` `pixel` (invisível)."
       },
       {
         "name": "label",
@@ -39,14 +46,17 @@
         "default": "Profile views",
         "description": "标签",
         "description:en-US": "Label",
+        "description:pt-BR": "Rótulo",
         "moreDescription": "在多词标签中，将空格替换为 `+` 字符。",
-        "moreDescription:en-US": "Replace whitespace with `+` character in multi-word labels."
+        "moreDescription:en-US": "Replace whitespace with `+` character in multi-word labels.",
+        "moreDescription:pt-BR": "Subistituir os espaços em brancos pelo `+` nos rótulos com várias palavras."
       },
       {
         "name": "base",
         "type": "number",
         "description": "统计基数",
-        "description:en-US": "Base count"
+        "description:en-US": "Base count",
+        "description:pt-BR": "Base do contador"
       },
       {
         "name": "abbreviated",
@@ -54,8 +64,10 @@
         "default": "false",
         "description": "是否缩写",
         "description:en-US": "Abbreviated",
+        "description:pt-BR": "Abreviação",
         "moreDescription": "例如，一个有 12345 次查看的计数器，将显示为 12.3K。",
-        "moreDescription:en-US": "For example, a counter with 12345 views, will be displayed as 12.3K."
+        "moreDescription:en-US": "For example, a counter with 12345 views, will be displayed as 12.3K.",
+        "moreDescription:pt-BR": "Por exemplo, um contador com 12.345 visualizações será exibido como 12,3K."
       }
     ],
     "uriTemplate": "https://komarev.com/ghpvc/{?username,color,style,label,base,abbreviated}"
@@ -64,11 +76,13 @@
     "annotate": "xiaohuohumax",
     "alt": "访客统计",
     "alt:en-US": "visit counter",
+    "alt:pt-BR": "contador de visitas",
     "href": "https://komarev.com/ghpvc/?username=xiaohuohumaxS&color=blue&style=flat-square&label=PROFILE+VIEWS",
     "images": [
       {
         "alt": "访客统计",
         "alt:en-US": "visit counter",
+        "alt:pt-BR": "contador de visitas",
         "href": "https://komarev.com/ghpvc/?username=xiaohuohumaxS&color=blue&style=flat-square&label=PROFILE+VIEWS"
       }
     ]

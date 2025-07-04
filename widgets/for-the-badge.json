@@ -1,8 +1,10 @@
 {
   "index": 5,
   "title": "FOR THE BADGE",
+  "title:pt-BR": "Emblemas do FOR THE BADGE",
   "description": "专注于提供各种风格独特、幽默风趣的徽章（badges）设计。",
   "description:en-US": "Focuses on providing diverse and unique styles of humorous and witty badge designs.‌",
+  "description:pt-BR": "Concentra-se em fornecer estilos variados e únicos dos designs dos emblemas (badges) engraçados e espirituosos.‌",
   "tag": {
     "repo": "https://github.com/forthebadge/for-the-badge",
     "onlineTool": "https://forthebadge.com/#/generator",

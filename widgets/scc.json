@@ -1,7 +1,9 @@
 {
   "title": "Sloc Cloc and Code",
+  "title:pt-BR": "Sloc Cloc and Code",
   "description": "一个可以显示代码行数、注释行数等的徽章服务。",
-  "description:en-US": "scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go.",
+  "description:en-US": "SCC is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go.",
+  "description:pt-BR": "SCC é um contador de código muito rápido e preciso com cálculos de complexidade e estimativas COCOMO escritos em Go puro.",
   "tag": {
     "repo": "https://github.com/boyter/scc/",
     "officialDoc": "https://github.com/boyter/scc/?tab=readme-ov-file#badges-beta"
@@ -13,20 +15,24 @@
         "type": "string",
         "description": "提供商",
         "description:en-US": "Provider",
+        "description:pt-BR": "Provedor",
         "moreDescription": "可选值：`github`。",
-        "moreDescription:en-US": "Supported: `github`."
+        "moreDescription:en-US": "Supported: `github`.",
+        "moreDescription:pt-BR": "Suporta: `github`."
       },
       {
         "name": "user",
         "type": "string",
         "description": "用户名",
-        "description:en-US": "Username"
+        "description:en-US": "Username",
+        "description:pt-BR": "Nome do usuário"
       },
       {
         "name": "repo",
         "type": "string",
         "description": "仓库名",
-        "description:en-US": "Repository name"
+        "description:en-US": "Repository name",
+        "description:pt-BR": "Nome do repositório"
       }
     ],
     "querys": [
@@ -36,8 +42,10 @@
         "default": "code",
         "description": "统计类别",
         "description:en-US": "Category",
+        "description:pt-BR": "Categoria",
         "moreDescription": "可选值：`code` `blanks` `lines` `comments` `cocomo`。",
-        "moreDescription:en-US": "Supported: `code` `blanks` `lines` `comments` `cocomo`."
+        "moreDescription:en-US": "Supported: `code` `blanks` `lines` `comments` `cocomo`.",
+        "moreDescription:pt-BR": "Suporta: `code` `blanks` `lines` `comments` `cocomo`."
       },
       {
         "name": "avg-wage",
@@ -45,54 +53,67 @@
         "default": "56286",
         "description": "平均工资",
         "description:en-US": "Average wage",
+        "description:pt-BR": "Salário médio",
         "moreDescription": "值必须为正整数，否则将恢复到默认值 `56286`。",
-        "moreDescription:en-US": "Value must be a positive integer, otherwise it will be restored to the default value `56286`."
+        "moreDescription:en-US": "Value must be a positive integer, otherwise it will be restored to the default value `56286`.",
+        "moreDescription:pt-BR": "O valor deve ser um número inteiro positivo, caso contrário, será restaurado para o valor padrão `56286`."
       },
       {
         "name": "lower",
         "type": "boolean",
         "description": "将标题文本转换为小写",
-        "description:en-US": "Lowercase title text"
+        "description:en-US": "Lowercase title text",
+        "description:pt-BR": "Título em letra minúscula"
       },
       {
         "name": "font-color",
         "type": "string",
         "description": "字体颜色",
         "description:en-US": "Font color",
+        "description:pt-BR": "Cor da font",
         "moreDescription": "支持类型：`HEX`，例如：`FF0000`。",
-        "moreDescription:en-US": "Supported: `HEX`, e.g. `FF0000`."
+        "moreDescription:en-US": "Supported: `HEX`, e.g. `FF0000`.",
+        "moreDescription:pt-BR": "Suporte: `HEX`, ex. `FF0000`."
       },
       {
         "name": "font-shadow-color",
         "type": "string",
         "description": "字体阴影颜色",
         "description:en-US": "Font shadow color",
+        "description:pt-BR": "Cor da sombra da fonte",
         "moreDescription": "支持类型：`HEX`，例如：`FF0000`。",
-        "moreDescription:en-US": "Supported: `HEX`, e.g. `FF0000`."
+        "moreDescription:en-US": "Supported: `HEX`, e.g. `FF0000`.",
+        "moreDescription:pt-BR": "Suporte: `HEX`, ex. `FF0000`."
       },
       {
         "name": "top-shadow-accent-color",
         "type": "string",
         "description": "顶部阴影突出颜色",
         "description:en-US": "Top shadow accent color",
+        "description:pt-BR": "Cor de destaque da sombra superior",
         "moreDescription": "支持类型：`HEX`，例如：`FF0000`。",
-        "moreDescription:en-US": "Supported: `HEX`, e.g. `FF0000`."
+        "moreDescription:en-US": "Supported: `HEX`, e.g. `FF0000`.",
+        "moreDescription:pt-BR": "Suporte: `HEX`, ex. `FF0000`."
       },
       {
         "name": "title-bg-color",
         "type": "string",
         "description": "标题背景颜色",
         "description:en-US": "Title background color",
+        "description:pt-BR": "Cor de fundo do título",
         "moreDescription": "支持类型：`HEX`，例如：`FF0000`。",
-        "moreDescription:en-US": "Supported: `HEX`, e.g. `FF0000`."
+        "moreDescription:en-US": "Supported: `HEX`, e.g. `FF0000`.",
+        "moreDescription:pt-BR": "Suporta: `HEX`, ex. `FF0000`."
       },
       {
         "name": "badge-bg-color",
         "type": "string",
         "description": "徽章背景颜色",
         "description:en-US": "Badge background color",
+        "description:pt-BR": "Cor de fundo do emblema (badge)",
         "moreDescription": "支持类型：`HEX`，例如：`FF0000`。",
-        "moreDescription:en-US": "Supported: `HEX`, e.g. `FF0000`."
+        "moreDescription:en-US": "Supported: `HEX`, e.g. `FF0000`.",
+        "moreDescription:pt-BR": "Suporta: `HEX`, ex. `FF0000`."
       }
     ],
     "uriTemplate": "https://sloc.xyz/{provider}/{user}/{repo}{?category,avg-wage,lower,font-color,font-shadow-color,top-shadow-accent-color,title-bg-color,badge-bg-color}"
@@ -101,11 +122,13 @@
     "annotate": "xiaohuohumax/readme-widget-hub",
     "alt": "总行数",
     "alt:en-US": "Total lines",
+    "alt:pt-BR": "Total de linhas",
     "href": "https://sloc.xyz/github/xiaohuohumax/readme-widget-hub",
     "images": [
       {
         "alt": "总行数",
         "alt:en-US": "Total lines",
+        "alt:pt-BR": "Total de linhas",
         "href": "https://sloc.xyz/github/xiaohuohumax/readme-widget-hub"
       }
     ]

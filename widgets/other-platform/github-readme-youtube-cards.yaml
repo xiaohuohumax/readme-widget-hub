@@ -1,6 +1,8 @@
 title: GitHub Readme YouTube Cards
+title:pt-BR: Cartões do YouTube no Readme do GitHub (GitHub Readme YouTube Cards)
 description: 在你的 readme 中显示最近的 YouTube 视频作为 SVG 卡片。
 description:en-US: Workflow for displaying recent YouTube videos as SVG cards in your readme.
+description:pt-BR: Workflow para exibir vídeos recentes do YouTube em cartões SVG no seu arquivo README.
 tag:
   repo: https://github.com/DenverCoder1/github-readme-youtube-cards
   officialDoc: https://github.com/DenverCoder1/github-readme-youtube-cards?tab=readme-ov-file#basic-usage
@@ -67,6 +69,37 @@ usage:en-US: |
             # Your YouTube channel ID
             channel_id: UCipSxT7a3rn81vGLw9lqRkg
   ```
+usage:pt-BR: |
+  1. É nescessário inserir o código abaixo no README para que o cartão seja visulizado.
+
+  ```yaml
+  <!-- BEGIN YOUTUBE-CARDS -->
+  <!-- END YOUTUBE-CARDS -->
+  ```
+
+  2. No seu repositório, crie uma pasta `.github` e dentro dela uma outra pasta de nome `workflows` caso você já não tenha uma então, crie um arquivo dentro da pasta `.github/workflows/` e der a ele o nome de `youtube-cards.yml` e adicione o código abaixo.
+
+  ```yaml
+  name: GitHub Readme YouTube Cards
+  on:
+    schedule:
+      # Executa toda hora, na hora certa
+      - cron: "0 * * * *"
+    workflow_dispatch:
+
+  jobs:
+    build:
+      runs-on: ubuntu-latest
+      # Permite que o trabalho seja confirmado no repositório
+      permissions:
+        contents: write
+      # Executa os Cartões do YouTube no seu Readme do GitHub
+      steps:
+        - uses: DenverCoder1/github-readme-youtube-cards@main
+          with:
+            # ID do seu canal no YouTube
+            channel_id: UCipSxT7a3rn81vGLw9lqRkg
+  ```
 linkRules:
   actions:
     - name: channel_id
@@ -74,140 +107,172 @@ linkRules:
       required: true
       description: 你的 YouTube channel ID
       description:en-US: Your YouTube channel ID
+      description:pt-BR: ID do seu canal no YouTube
     - name: playlist_id
       type: string
       description: 播放列表 ID
       description:en-US: Playlist ID
+      description:pt-BR: ID da Playlist
     - name: lang
       type: string
       default: en
       description: 语言
       description:en-US: Language
+      description:pt-BR: Idioma
     - name: comment_tag_name
       type: string
       default: YOUTUBE-CARDS
       description: 注释标签中替换内容的文本
       description:en-US: The text in the comment tag for replacing content
+      description:pt-BR: O texto na tag de comentário para substituir o conteúdo
     - name: youtube_api_key
       type: string
       description: YouTube API 密钥
       description:en-US: YouTube API key
+      description:pt-BR: Chave da API do YouTube
     - name: max_videos
       type: number
       default: '6'
       description: 显示的视频最大数量
       description:en-US: The maximum number of videos to display
+      description:pt-BR: Máximo de vídos que devem ser exibidos
     - name: base_url
       type: string
       default: https://ytcards.demolab.com/
       description: 卡片的基础 URL
       description:en-US: The base URL to use for the cards
+      description:pt-BR: A URL base a ser usada para nos cartões
     - name: card_width
       type: number
       default: '250'
       description: 卡片的宽度
       description:en-US: The width of the SVG cards
+      description:pt-BR: A largura dos cartões SVG
       moreDescription: 单位：像素。
       moreDescription:en-US: 'Unit: pixels.'
+      moreDescription:pt-BR: 'Unidade: pixels.'
     - name: border_radius
       type: number
       default: '5'
       description: 卡片的圆角半径
       description:en-US: The border radius of the SVG cards
+      description:pt-BR: O raio da borda dos cartões SVG
     - name: background_color
       type: string
       default: '#0d1117'
       description: 卡片的背景颜色
       description:en-US: The background color of the SVG cards
+      description:pt-BR: Cor de fundo dos nos cartões SVG
     - name: title_color
       type: string
       default: '#ffffff'
       description: 卡片的标题颜色
       description:en-US: The color of the title text
+      description:pt-BR: A cor do texto do título
     - name: stats_color
       type: string
       default: '#dedede'
       description: 统计文本的颜色
       description:en-US: The color of the stats text
+      description:pt-BR: A cor do texto das estatísticas
     - name: theme_context_light
       type: any
       default: '{}'
       description: 浅色模式颜色JSON对象
       description:en-US: JSON object with light mode colors
+      description:pt-BR: Objeto JSON em cores do modo claro
     - name: theme_context_dark
       type: any
       default: '{}'
       description: 深色模式颜色JSON对象
       description:en-US: JSON object with dark mode colors
+      description:pt-BR: Objeto JSON em cores do modo escuro
     - name: max_title_lines
       type: number
       default: '1'
       description: 标题的最大行数
       description:en-US: The maximum number of lines to use for the title
+      description:pt-BR: O máximo de linhas a serem usadas no título
     - name: show_duration
       type: boolean
       default: 'false'
       description: 是否显示视频时长
       description:en-US: Whether to show the duration of the videos
+      description:pt-BR: Exibir ou ocultar o tempo de duração dos vídeos
       moreDescription: 依赖于 YouTube API 密钥 `youtube_api_key`。
       moreDescription:en-US: Requires the YouTube API key `youtube_api_key`.
+      moreDescription:pt-BR: Nescessita da seu chave da API do YouTube, `youtube_api_key`.
     - name: author_name
       type: string
       default: GitHub Actions
       description: 提交者的名字
       description:en-US: The name of the commit author
+      description:pt-BR: O nome do autor do commit
     - name: author_email
       type: string
       default: 41898282+github-actions[bot]@users.noreply.github.com
       description: 提交作者的电子邮件地址
       description:en-US: The email address of the commit author
+      description:pt-BR: O email do autor do commit
     - name: commit_message
       type: string
       default: 'docs(readme): Update YouTube cards'
       description: 提交信息
       description:en-US: The commit message to use for the commit
+      description:pt-BR: A mensagem de commit para o commit
     - name: readme_path
       type: string
       default: README.md
       description: Markdown 或 HTML 文件的路径
       description:en-US: The path to the Markdown or HTML file to update
+      description:pt-BR: O caminho do arquivo Markdown ou HTML que será atualizado
     - name: output_only
       type: boolean
       default: 'false'
       description: 是否跳过写入到 README 文件
       description:en-US: Whether to skip writing to the readme file
+      description:pt-BR: Pular ou não a gravação do arquivo readme
     - name: output_type
       type: string
       default: markdown
       description: 输出类型
       description:en-US: The output syntax to use
+      description:pt-BR: Saída da sintaxe a ser usada
       moreDescription: 可选值：`markdown` `html`。
       moreDescription:en-US: 'Available options: `markdown` `html`.'
+      moreDescription:pt-BR: 'Opções disponíveis: `markdown` e `html`.'
   actionOutputs:
     - name: markdown
       type: string
       description: 生成的 Markdown 或 HTML 用于更新 README 文件
       description:en-US: The generated Markdown or HTML used for updating the README file
+      description:pt-BR: O Markdown ou HTML gerado que é usado para atualizar o arquivo README
     - name: committed
       type: string
       description: 是否动作已创建提交
       description:en-US: Whether the action has created a commit
+      description:pt-BR: Caso a ação tenha criado um commit
       moreDescription: 可能值：`true` `false`。
       moreDescription:en-US: 'Possible: `true` `false`.'
+      moreDescription:pt-BR: 'Possibilidades: `true` e `false`.'
     - name: commit_long_sha
       type: string
       description: 刚刚创建的提交的完整 SHA 值
       description:en-US: The full SHA of the commit that has just been created
+      description:pt-BR: O SHA completo do commit que acabou de ser criado
     - name: commit_sha
       type: string
       description: 刚刚创建的提交的 7 位短 SHA 值
       description:en-US: The short 7-character SHA of the commit that has just been created
+      description:pt-BR: O uso de uma SHA curta com 7 caracteres do commit que acabou de ser criado
     - name: pushed
       type: string
       description: 是否动作已推送到远程
       description:en-US: Whether the action has pushed to the remote
+      description:pt-BR: Caso a atualização foi efetuado no no repositório remoto
       moreDescription: 可能值：`true` `false`。
       moreDescription:en-US: 'Possible: `true` `false`.'
+      moreDescription:pt-BR: 'Possibilidades: `true` e `false`.'
   description: DenverCoder1/github-readme-youtube-cards@main
 examples: |
   ```yaml

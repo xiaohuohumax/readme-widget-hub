@@ -2,6 +2,7 @@
   "title": "Iconify",
   "description": "Iconify API 可以动态生成 SVG，其中包含大量的图标集可供选择，可用于 HTML 或 CSS。",
   "description:en-US": "Iconify API can dynamically generate SVG, which includes a large number of icon sets for selection, and can be used for HTML or CSS.",
+  "description:pt-BR": "A API do Iconify pode gerar um SVG dinamicamente, o que inclui um grande número de conjuntos de ícones para seleção e pode ser usado em HTML ou CSS.",
   "tag": {
     "repo": "https://github.com/iconify/iconify",
     "officialDoc": "https://iconify.design/docs/api/svg.html",
@@ -13,13 +14,15 @@
         "name": "prefix",
         "type": "string",
         "description": "图标集前缀",
-        "description:en-US": "Icon set prefix"
+        "description:en-US": "Icon set prefix",
+        "description:pt-BR": "Prefixo do ícone"
       },
       {
         "name": "name",
         "type": "string",
         "description": "图标名称",
-        "description:en-US": "Icon name"
+        "description:en-US": "Icon name",
+        "description:pt-BR": "Nome do ícone"
       }
     ],
     "querys": [
@@ -28,52 +31,64 @@
         "type": "string",
         "description": "图标颜色",
         "description:en-US": "Icon color",
+        "description:pt-BR": "Cor do ícone",
         "moreDescription": "支持格式：`HEX` `CSS 颜色值` 例如：`#FF0000` `red` `rgb(255, 0, 0)`。",
-        "moreDescription:en-US": "Supported: `HEX` `CSS name` e.g. `#FF0000` `red` `rgb(255, 0, 0)`."
+        "moreDescription:en-US": "Supported: `HEX` `CSS name` e.g. `#FF0000` `red` `rgb(255, 0, 0)`.",
+        "moreDescription:pt-BR": "Suporta: `HEX` `CSS name` ex. `#FF0000` `red` `rgb(255, 0, 0)`."
       },
       {
         "name": "width",
         "type": "number",
         "description": "图标宽度",
         "description:en-US": "Image width",
+        "description:pt-BR": "Largura da imagem",
         "moreDescription": "单位：像素。",
-        "moreDescription:en-US": "Unit: pixels."
+        "moreDescription:en-US": "Unit: pixels.",
+        "moreDescription:pt-BR": "Unidade: pixels."
       },
       {
         "name": "height",
         "type": "number",
         "description": "图标高度",
         "description:en-US": "Image height",
+        "description:pt-BR": "Altura da image",
         "moreDescription": "单位：像素。",
-        "moreDescription:en-US": "Unit: pixels."
+        "moreDescription:en-US": "Unit: pixels.",
+        "moreDescription:pt-BR": "Unidade: pixels."
       },
       {
         "name": "flip",
         "type": "string",
         "description": "翻转图标",
         "description:en-US": "Flip icon",
+        "description:pt-BR": "Inversão do ícone",
         "moreDescription": "可选值：`horizontal` `vertical`。",
-        "moreDescription:en-US": "Supported: `horizontal` `vertical`."
+        "moreDescription:en-US": "Supported: `horizontal` `vertical`.",
+        "moreDescription:pt-BR": "Suporta: `horizontal` `vertical`."
       },
       {
         "name": "rotate",
         "type": "string",
         "description": "旋转图标",
         "description:en-US": "Rotate icon",
+        "description:pt-BR": "Rotação do ícone",
         "moreDescription": "格式：`deg` `number` 其中 `1=90deg`。",
-        "moreDescription:en-US": "Format: `deg` `number` where `1=90deg`."
+        "moreDescription:en-US": "Format: `deg` `number` where `1=90deg`.",
+        "moreDescription:pt-BR": "Formato: `deg` `number` onde `1=90deg`."
       },
       {
         "name": "download",
         "type": "boolean",
         "description": "强制浏览器下载文件",
-        "description:en-US": "Forces browser to download file"
+        "description:en-US": "Forces browser to download file",
+        "description:pt-BR": "Força o navegador a baixar o arquivo"
       },
       {
         "name": "box",
         "type": "boolean",
         "description": "是否向 SVG 添加与 viewBox 匹配的空矩形",
-        "description:en-US": "Adds an empty rectangle to SVG that matches viewBox"
+        "description:en-US": "Adds an empty rectangle to SVG that matches viewBox",
+        "description:pt-BR": "Adiciona um retângulo vazio ao SVG que corresponde ao viewBox"
       }
     ],
     "uriTemplate": "https://api.iconify.design/{prefix}/{name}.svg{?color,width,height,flip,rotate,download,box}"

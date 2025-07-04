@@ -1,7 +1,9 @@
 {
   "title": "Deploy Badge",
+  "title:pt-BR": "Badge de implantação (Deploy Badge)",
   "description": "为你的 README 添加项目部署状态徽章。",
   "description:en-US": "Generate a deployment badge for your project's README.",
+  "description:pt-BR": "Criar emblema (badge) de implantação para seus projetos no README.",
   "tag": {
     "repo": "https://github.com/therealsujitk/deploy-badge",
     "onlineTool": "https://deploy-badge.vercel.app/",
@@ -14,7 +16,8 @@
         "type": "string",
         "required": true,
         "description": "需要检测的项目地址",
-        "description:en-US": "The URL of the project to be checked"
+        "description:en-US": "The URL of the project to be checked",
+        "description:pt-BR": "A URL do projeto a ser verificado"
       },
       {
         "name": "style",
@@ -22,22 +25,27 @@
         "default": "flat",
         "description": "徽章样式",
         "description:en-US": "Badge style",
+        "description:pt-BR": "Estilo do badge",
         "moreDescription": "可选值：`flat` `flat-square` `for-the-badge` `plastic`。",
-        "moreDescription:en-US": "Supported: `flat` `flat-square` `for-the-badge` `plastic`."
+        "moreDescription:en-US": "Supported: `flat` `flat-square` `for-the-badge` `plastic`.",
+        "moreDescription:pt-BR": "Suporta: `flat` `flat-square` `for-the-badge` `plastic`."
       },
       {
         "name": "logo",
         "type": "string",
         "description": "Logo 样式",
         "description:en-US": "Logo style",
+        "description:pt-BR": "Estilo do logo",
         "moreDescription": "参考：[shields.io](https://shields.io/docs/logos)。",
-        "moreDescription:en-US": "Refer: [shields.io](https://shields.io/docs/logos)."
+        "moreDescription:en-US": "Refer: [shields.io](https://shields.io/docs/logos).",
+        "moreDescription:pt-BR": "Referência: [shields.io](https://shields.io/docs/logos)."
       },
       {
         "name": "name",
         "type": "string",
         "description": "徽章名称",
-        "description:en-US": "Badge name"
+        "description:en-US": "Badge name",
+        "description:pt-BR": "Nome da badge"
       }
     ],
     "uriTemplate": "https://deploy-badge.vercel.app/{?url,style,logo,name}"

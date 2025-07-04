@@ -2,7 +2,7 @@
   "name": "Readme Widget Hub",
   "title": "用美观、可配置的徽章与状态卡片，让你的 README 更专业、更高效！",
   "title:en-US": "Use beautiful, configurable badges and status cards to make your README more professional and efficient!",
-  "title:pt-BR": "Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!",
+  "title:pt-BR": "Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!",
   "description": "Badge（徽章）是嵌入在项目 README 文件中的 SVG 矢量图标，用于直观展示项目状态、版本、测试覆盖率等关键信息‌。",
   "description:en-US": "Badges are small images that can be embedded in a project's README file to convey information about the project's status, version, test coverage, and more.",
   "description:pt-BR": "Badges (emblemas) são pequenas imagens que podem ser incorporadas ao README do projeto para exibir informações sobre o status do projeto, versão, cobertura de testes e muito mais.",
@@ -29,7 +29,7 @@
     "onlinePage:pt-BR": "Documentação Online",
     "back2Top": "回到顶部",
     "back2Top:en-US": "Back to top",
-    "back2Top:pt-BR": "Voltar para topo",
+    "back2Top:pt-BR": "Voltar ao topo da página",
     "notLocaleWarning": "当前页面没有对应的语言版本，你可以切换到其他语言，或者查看下面使用默认语言的版本。",
     "notLocaleWarning:en-US": "This page doesn't have a translated version, you can switch to other languages or view the default language version below.",
     "notLocaleWarning:pt-BR": "Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.",
@@ -149,7 +149,7 @@
         "Use the `pnpm commit` command and select `docs` to submit a PR, wait for merging."
       ],
       "steps:pt-BR": [
-        "Fork no projeto",
+        "Fork no projeto.",
         "Consulte o arquivo [template.json](/widgets/template.json) ou o [template.yaml](/widgets/template.yaml) para criar um arquivo JSON ou YAML no diretório [widgets](/widgets) e preencha em widget as informações de acordo com o formato do template.",
         "`pnpm dev` ou `pnpm dev:docs` para iniciar o projeto, verifique o estado no widget.",
         "Use o comando `pnpm commit` e selecione `docs` para envio do PR, aguarde o merging."
@@ -204,7 +204,7 @@
           ]
         },
         {
-          "name": "葡萄牙语",
+          "name": "英语",
           "name:en-US": "Portuguese",
           "name:pt-BR": "Português",
           "translators": [

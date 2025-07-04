@@ -1,12 +1,15 @@
 {
   "index": 3,
   "title": "GitHub Readme Stats",
+  "title:pt-BR": "Estatísticas no Readme do GitHub (GitHub Readme Stats)",
   "description": "获取动态生成的 GitHub 统计信息！",
   "description:en-US": "Get dynamically generated GitHub stats on your READMEs!",
+  "description:pt-BR": "Gerar dinamicamente as estatísticas do GitHub no seu README!",
   "alert": {
     "type": "Tip",
     "messages": "由于此项目支持的卡片种类非常多，且功能强大，这里只简单介绍－GitHub 状态卡片，其他卡片使用方式还请移步官方文档。",
-    "messages:en-US": "Due to the many card types supported by this project and its powerful features, here is a simple introduction to the GitHub status card. For other card types, please refer to the official documentation."
+    "messages:en-US": "Due to the many card types supported by this project and its powerful features, here is a simple introduction to the GitHub status card. For other card types, please refer to the official documentation.",
+    "messages:pt-BR": "Devido aos diversos tipos de cartões suportados por este projeto e seus recursos poderosos, aqui está uma introdução simples ao GitHub Readme Stats. Para outros tipos de cartões, consulte a documentação oficial."
   },
   "tag": {
     "repo": "https://github.com/anuraghazra/github-readme-stats",
@@ -18,7 +21,8 @@
         "name": "username",
         "type": "string",
         "description": "GitHub 用户名",
-        "description:en-US": "GitHub username"
+        "description:en-US": "GitHub username",
+        "description:pt-BR": "Nome do usuário no GitHub"
       },
       {
         "name": "title_color",
@@ -26,8 +30,10 @@
         "default": "2F80ED",
         "description": "卡片标题颜色",
         "description:en-US": "Card's title color",
+        "description:pt-BR": "Cor do título no cartão",
         "moreDescription": "支持 HEX 颜色值，如 `FF0000`。",
-        "moreDescription:en-US": "Supported: `HEX`, e.g. `FF0000`."
+        "moreDescription:en-US": "Supported: `HEX`, e.g. `FF0000`.",
+        "moreDescription:pt-BR": "Suporta: `HEX`, ex. `FF0000`."
       },
       {
         "name": "text_color",
@@ -35,8 +41,10 @@
         "default": "434D58",
         "description": "正文文本颜色",
         "description:en-US": "Body text color",
+        "description:pt-BR": "Cor do corpo do cartão",
         "moreDescription": "支持 HEX 颜色值，如 `FF0000`。",
-        "moreDescription:en-US": "Supported: `HEX`, e.g. `FF0000`."
+        "moreDescription:en-US": "Supported: `HEX`, e.g. `FF0000`.",
+        "moreDescription:pt-BR": "Suporta: `HEX`, ex. `FF0000`."
       },
       {
         "name": "icon_color",
@@ -44,8 +52,10 @@
         "default": "4C71F2",
         "description": "图标颜色",
         "description:en-US": "Icons color if available",
+        "description:pt-BR": "Cor dos ícones disponíveis",
         "moreDescription": "支持 HEX 颜色值，如 `FF0000`。",
-        "moreDescription:en-US": "Supported: `HEX`, e.g. `FF0000`."
+        "moreDescription:en-US": "Supported: `HEX`, e.g. `FF0000`.",
+        "moreDescription:pt-BR": "Suporta: `HEX`, ex. `FF0000`."
       },
       {
         "name": "border_color",
@@ -53,23 +63,28 @@
         "default": "E4E2E2",
         "description": "卡片边框颜色",
         "description:en-US": "Card's border color",
+        "description:pt-BR": "Cor da borda do cartão",
         "moreDescription": "支持 HEX 颜色值，如 `FF0000`，当启用 `hide_border` 时，不适用。",
-        "moreDescription:en-US": "Supported: `HEX`, e.g. `FF0000`. does not apply when `hide_border` is enabled."
+        "moreDescription:en-US": "Supported: `HEX`, e.g. `FF0000`. does not apply when `hide_border` is enabled.",
+        "moreDescription:pt-BR": "Suporta: `HEX`, ex. `FF0000`. não se aplica a `hide_border` é sempre disponível."
       },
       {
         "name": "hide_border",
         "type": "boolean",
         "default": "false",
         "description": "是否隐藏卡片边框",
-        "description:en-US": "Hides the card's border"
+        "description:en-US": "Hides the card's border",
+        "description:pt-BR": "Ocultar a borda do cartão"
       },
       {
         "name": "theme",
         "type": "string",
         "description": "设置主题",
         "description:en-US": "Name of the theme",
+        "description:pt-BR": "Nome do tema",
         "moreDescription": "可选值：`dark` `radical` `merko` `gruvbox` `tokyonight` `onedark` `cobalt` `synthwave` `highcontrast` `dracula` `transparent`。",
-        "moreDescription:en-US": "Supported: `dark` `radical` `merko` `gruvbox` `tokyonight` `onedark` `cobalt` `synthwave` `highcontrast` `dracula` `transparent`."
+        "moreDescription:en-US": "Supported: `dark` `radical` `merko` `gruvbox` `tokyonight` `onedark` `cobalt` `synthwave` `highcontrast` `dracula` `transparent`.",
+        "moreDescription:pt-BR": "Suporta: `dark` `radical` `merko` `gruvbox` `tokyonight` `onedark` `cobalt` `synthwave` `highcontrast` `dracula` `transparent`."
       },
       {
         "name": "cache_seconds",
@@ -77,8 +92,10 @@
         "default": "21600",
         "description": "卡片缓存时间",
         "description:en-US": "Sets the cache header manually",
+        "description:pt-BR": "Alterar manualmente o cache do cabeçalho",
         "moreDescription": "单位：秒，范围：`21600` 到 `86400`。",
-        "moreDescription:en-US": "Unit: seconds, range: `21600` to `86400`."
+        "moreDescription:en-US": "Unit: seconds, range: `21600` to `86400`.",
+        "moreDescription:pt-BR": "Unidades: segundos, limite: `21600` a `86400`."
       },
       {
         "name": "locale",
@@ -86,46 +103,56 @@
         "default": "en",
         "description": "设置语言",
         "description:en-US": "Sets the language in the card",
+        "description:pt-BR": "Alterar o idioma do cartão",
         "moreDescription": "语言参考：[locales](https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#available-locales)。",
-        "moreDescription:en-US": "Language reference: [locales](https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#available-locales)."
+        "moreDescription:en-US": "Language reference: [locales](https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#available-locales).",
+        "moreDescription:pt-BR": "Idioma de referência: [locales](https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#available-locales)."
       },
       {
         "name": "border_radius",
         "type": "number",
         "default": "4.5",
         "description": "卡片上的圆角处理",
-        "description:en-US": "Corner rounding on the card"
+        "description:en-US": "Corner rounding on the card",
+        "description:pt-BR": "Arredondamente do canto do cartão"
       },
       {
         "name": "hide",
         "type": "string",
         "description": "隐藏特定的统计数据",
         "description:en-US": "Hides the [specified items](https://github.com/anuraghazra/github-readme-stats#hiding-individual-stats) from stats",
+        "description:pt-BR": "Oculta os [itens especificados](https://github.com/anuraghazra/github-readme-stats#hiding-individual-stats) from stats",
         "moreDescription": "数据类型之间用 `,` 分隔。",
-        "moreDescription:en-US": "Data types are separated by `,`."
+        "moreDescription:en-US": "Data types are separated by `,`.",
+        "moreDescription:pt-BR": "Dados separados por `,`."
       },
       {
         "name": "show",
         "type": "string",
         "description": "显示附加统计信息",
         "description:en-US": "Shows [additional items](https://github.com/anuraghazra/github-readme-stats#showing-additional-individual-stats) on stats card",
+        "description:pt-BR": "Exibe [itens adicionais](https://github.com/anuraghazra/github-readme-stats#showing-additional-individual-stats) no cartão de estatísticas",
         "moreDescription": "数据类型之间用 `,` 分隔。",
-        "moreDescription:en-US": "Data types are separated by `,`."
+        "moreDescription:en-US": "Data types are separated by `,`.",
+        "moreDescription:pt-BR": "Tipos de dados separados por `,`."
       },
       {
         "name": "show_icons",
         "type": "boolean",
         "default": "true",
         "description": "是否显示图标",
-        "description:en-US": "To enable icons"
+        "description:en-US": "To enable icons",
+        "description:pt-BR": "Ícones disponíveis"
       },
       {
         "name": "bg_color",
         "type": "string",
         "description": "卡片背景色",
         "description:en-US": "Card's background color",
+        "description:pt-BR": "Cor de fundo do cartão",
         "moreDescription": "背景色支持渐变，格式：`deg,color1,color2,color3,...`。",
-        "moreDescription:en-US": "Background color supports gradients, format: `deg,color1,color2,color3,...`."
+        "moreDescription:en-US": "Background color supports gradients, format: `deg,color1,color2,color3,...`.",
+        "moreDescription:pt-BR": "A cor de fundo do cartão suporta uma cor gradiente, formato: `deg,color1,color2,color3,...`."
       }
     ],
     "uriTemplate": "https://github-readme-stats.vercel.app/api{?username,title_color,text_color,icon_color,border_color,hide_border,theme,cache_seconds,locale,border_radius,hide,show,show_icons,bg_color}"

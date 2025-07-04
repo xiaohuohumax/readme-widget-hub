@@ -1,8 +1,10 @@
 {
   "index": 6,
   "title": "Readme Typing SVG",
+  "title:pt-BR": "Texto Animado em SVG (Readme Typing SVG)",
   "description": "动态生成、可定制的 SVG，可模拟文本输入和删除效果，适用于个人主页、仓库或网站。",
   "description:en-US": "Dynamically generated, customizable SVG that gives the appearance of typing and deleting text for use on your profile page, repositories, or website.",
+  "description:pt-BR": "SVG gerado dinamicamente e personalizável que exibe o texto de digitado e excluído para uso em sua página de perfil, repositórios ou site.",
   "tag": {
     "repo": "https://github.com/denvercoder1/readme-typing-svg",
     "onlineTool": "https://readme-typing-svg.demolab.com/demo/",
@@ -16,22 +18,26 @@
         "required": true,
         "description": "要显示的多行文本",
         "description:en-US": "The multi-line text to display",
+        "description:pt-BR": "O texto multilinha a ser exibido",
         "moreDescription": "多行之间用 `;` 分隔，文本中空格使用 `+` 代替。",
-        "moreDescription:en-US": "Text to display with lines separated by `;` and `+` for spaces."
+        "moreDescription:en-US": "Text to display with lines separated by `;` and `+` for spaces.",
+        "moreDescription:pt-BR": "Texto a ser exibido com linhas separadas por `;` e `+` para espaços."
       },
       {
         "name": "height",
         "type": "number",
         "default": "50",
         "description": "输出 SVG 的高度",
-        "description:en-US": "Height of the output SVG in pixels"
+        "description:en-US": "Height of the output SVG in pixels",
+        "description:pt-BR": "Altura do SVG de saída em pixels"
       },
       {
         "name": "width",
         "type": "number",
         "default": "400",
         "description": "输出 SVG 的宽度",
-        "description:en-US": "Width of the output SVG in pixels"
+        "description:en-US": "Width of the output SVG in pixels",
+        "description:pt-BR": "Largura do SVG de saída em pixels"
       },
       {
         "name": "size",
@@ -39,8 +45,10 @@
         "default": "20",
         "description": "字体大小",
         "description:en-US": "Font size in pixels",
+        "description:pt-BR": "Tamanho da font em pixels",
         "moreDescription": "单位：像素。",
-        "moreDescription:en-US": "Unit: pixels."
+        "moreDescription:en-US": "Unit: pixels.",
+        "moreDescription:pt-BR": "Unidades: pixels."
       },
       {
         "name": "font",
@@ -48,8 +56,10 @@
         "default": "monospace",
         "description": "字体族",
         "description:en-US": "Font family",
+        "description:pt-BR": "Font family",
         "moreDescription": "任何 Google Fonts 中的字体。",
-        "moreDescription:en-US": "Any font from Google Fonts."
+        "moreDescription:en-US": "Any font from Google Fonts.",
+        "moreDescription:pt-BR": "Qualquer fonte do Google Fonts."
       },
       {
         "name": "color",
@@ -57,8 +67,10 @@
         "default": "36BCF7",
         "description": "文本颜色",
         "description:en-US": "Color of the text",
+        "description:pt-BR": "Cor do texto",
         "moreDescription": "格式：`HEX` 例如：`FF0000`。",
-        "moreDescription:en-US": "Format: `HEX` e.g. `FF0000`."
+        "moreDescription:en-US": "Format: `HEX` e.g. `FF0000`.",
+        "moreDescription:pt-BR": "Formato: `HEX` ex. `FF0000`."
       },
       {
         "name": "background",
@@ -66,8 +78,10 @@
         "default": "00000000",
         "description": "文本背景颜色",
         "description:en-US": "Background color of the text",
+        "description:pt-BR": "Cor de fundo do texto",
         "moreDescription": "格式：`HEX` 例如：`FF0000`。",
-        "moreDescription:en-US": "Format: `HEX` e.g. `FF0000`."
+        "moreDescription:en-US": "Format: `HEX` e.g. `FF0000`.",
+        "moreDescription:pt-BR": "Formato: `HEX` ex. `FF0000`."
       },
       {
         "name": "center",
@@ -75,8 +89,10 @@
         "default": "false",
         "description": "文本水平对齐方式",
         "description:en-US": "Text horizontal alignment",
+        "description:pt-BR": "Alinhamennto horizontal do texto",
         "moreDescription": "可选值：true（水平居中）false（左对齐）。",
-        "moreDescription:en-US": "Supported: true (horizontal center) false (left align)."
+        "moreDescription:en-US": "Supported: true (horizontal center) false (left align).",
+        "moreDescription:pt-BR": "Suporta: true (centralizado horizontalmente) false (alinhado a esquerda)."
       },
       {
         "name": "vCenter",
@@ -84,8 +100,10 @@
         "default": "false",
         "description": "文本垂直对齐方式",
         "description:en-US": "Text vertical alignment",
+        "description:pt-BR": "Texto alinhado verticalmente",
         "moreDescription": "可选值：true（垂直居中）false（居中上方）。",
-        "moreDescription:en-US": "Supported: true (vertical center) false (center top)."
+        "moreDescription:en-US": "Supported: true (vertical center) false (center top).",
+        "moreDescription:pt-BR": "Suporta: true (centralizado verticalmente) false (centralizado no topo)."
       },
       {
         "name": "multiline",
@@ -93,15 +111,18 @@
         "default": "false",
         "description": "文本换行显示方式",
         "description:en-US": "Text line break display",
+        "description:pt-BR": "Exibe texto com quebra de linhas",
         "moreDescription": "可选值：true（换行显示）false（同一行重新显示）。",
-        "moreDescription:en-US": "Supported: true (wrap lines) false (retype on one line)."
+        "moreDescription:en-US": "Supported: true (wrap lines) false (retype on one line).",
+        "moreDescription:pt-BR": "Suporta: true (quebra de linhas) false (digite novamente em uma linha)."
       },
       {
         "name": "duration",
         "type": "number",
         "default": "5000",
         "description": "单行打印持续时间",
-        "description:en-US": "Duration of the printing of a single line in milliseconds"
+        "description:en-US": "Duration of the printing of a single line in milliseconds",
+        "description:pt-BR": "Duração da exibição de uma única linha em milissegundos"
       },
       {
         "name": "pause",
@@ -109,22 +130,26 @@
         "default": "0",
         "description": "行与行之间的暂停时间",
         "description:en-US": "Duration of the pause between lines in milliseconds",
+        "description:pt-BR": "Duração da pausa entre as linhas em milissegundos",
         "moreDescription": "单位：毫秒。",
-        "moreDescription:en-US": "Unit: milliseconds."
+        "moreDescription:en-US": "Unit: milliseconds.",
+        "moreDescription:pt-BR": "Unidades: milliseconds."
       },
       {
         "name": "repeat",
         "type": "boolean",
         "default": "true",
         "description": "在最后一行之后循环回到第一行",
-        "description:en-US": "Loop around to the first line after the last"
+        "description:en-US": "Loop around to the first line after the last",
+        "description:pt-BR": "Efetuar uma repetição da primeira linha até última"
       },
       {
         "name": "separator",
         "type": "string",
         "default": ";",
         "description": "行参数中使用的分隔符",
-        "description:en-US": "Separator used between lines in the lines parameter"
+        "description:en-US": "Separator used between lines in the lines parameter",
+        "description:pt-BR": "Separador utilizado entre linhas no parâmetro"
       },
       {
         "name": "letterSpacing",
@@ -132,8 +157,10 @@
         "default": "normal",
         "description": "字母间距",
         "description:en-US": "Letter spacing",
+        "description:pt-BR": "Espaçamento das letras",
         "moreDescription": "格式：`CSS 颜色`。",
-        "moreDescription:en-US": "Format: `CSS color`."
+        "moreDescription:en-US": "Format: `CSS color`.",
+        "moreDescription:pt-BR": "Formato: `CSS color`."
       }
     ],
     "uriTemplate": "https://readme-typing-svg.demolab.com{?lines,height,width,size,font,color,background,center,vCenter,multiline,duration,pause,repeat,separator,letterSpacing}"

@@ -2,6 +2,7 @@
   "title": "Capsule Render",
   "description": "生成动态的彩色图像。",
   "description:en-US": "Dynamic Coloful Image Render.",
+  "description:pt-BR": "Imagem renderizada gerada dinamicamente.",
   "tag": {
     "repo": "https://github.com/kyechan99/capsule-render",
     "onlineTool": "https://capsule-render.vercel.app/",
@@ -15,8 +16,10 @@
         "default": "wave",
         "description": "类型数据用于更改背景图像",
         "description:en-US": "Type data makes to change Background Image",
+        "description:pt-BR": "Tipo de dados criados para alterar a imagem de fundo",
         "moreDescription": "可选值：`wave` `egg` `shark` `slice` `rect` `soft` `rounded` `cylinder` `waving` `venom` `speech` `blur` `transparent`。",
-        "moreDescription:en-US": "Supported: `wave` `egg` `shark` `slice` `rect` `soft` `rounded` `cylinder` `waving` `venom` `speech` `blur` `transparent`."
+        "moreDescription:en-US": "Supported: `wave` `egg` `shark` `slice` `rect` `soft` `rounded` `cylinder` `waving` `venom` `speech` `blur` `transparent`.",
+        "moreDescription:pt-BR": "Suporta: `wave` `egg` `shark` `slice` `rect` `soft` `rounded` `cylinder` `waving` `venom` `speech` `blur` `transparent`."
       },
       {
         "name": "color",
@@ -24,16 +27,19 @@
         "default": "B897FF",
         "description": "更改背景图像颜色",
         "description:en-US": "Change Background Image",
+        "description:pt-BR": "Alterar a imagem de fundo",
         "moreDescription": "可选值：`auto` `timeAuto` `random` `gradient` `timeGradient` `HEX 值` `自定义渐变，格式：widthPer:color1,widthPer:color2...`。",
-        "moreDescription:en-US": "Supported: `auto` `timeAuto` `random` `gradient` `timeGradient` `HEX` value or `custom gradient, format: widthPer:color1,widthPer:color2...`."
+        "moreDescription:en-US": "Supported: `auto` `timeAuto` `random` `gradient` `timeGradient` `HEX` value or `custom gradient, format: widthPer:color1,widthPer:color2...`.",
+        "moreDescription:pt-BR": "Suporta: `auto` `timeAuto` `random` `gradient` `timeGradient` `HEX` valor ou `custom gradient, formato: widthPer:color1,widthPer:color2...`."
       },
       {
         "name": "customColorList",
         "type": "string",
         "description": "从预设颜色中选择随机出现的颜色下标",
         "description:en-US": "Select random color index from preset colors",
+        "description:pt-BR": "Seleciona aleatóriamente uma cor para ser indexadas as cores presentes",
         "moreDescription": "格式：`idx1,idx2,idx3...`，如想某些颜色出现概率高可以多写几次下标，仅在 `color` 为 [auto](https://github.com/kyechan99/capsule-render/blob/master/src/pallete.json) 或 [gradient](https://github.com/kyechan99/capsule-render/blob/master/src/gradient.json) 时生效。",
-        "moreDescription:en-US": "`Format: idx1,idx2,idx3...`, if you want certain colors to have a higher probability of appearing, you can write their indices multiple times. This only takes effect when `color` is [auto](https://github.com/kyechan99/capsule-render/blob/master/src/pallete.json) or [gradient](https://github.com/kyechan99/capsule-render/blob/master/src/gradient.json)."
+        "moreDescription:pt-BR": "`Formato: idx1,idx2,idx3...`, se você quiser que certas cores tenham maior probabilidade de aparecerem, você pode escrever seus índices várias vezes. Isso só vale quando a `color` (cor) é [auto](https://github.com/kyechan99/capsule-render/blob/master/src/pallete.json) (automática) ou [gradient](https://github.com/kyechan99/capsule-render/blob/master/src/gradient.json) (gradiente)."
       },
       {
         "name": "theme",
@@ -41,8 +47,10 @@
         "default": "default",
         "description": "主题",
         "description:en-US": "Theme",
+        "description:pt-BR": "Tema",
         "moreDescription": "可选值：`default` `dark` `radical` `merko` `gruvbox` `gruvbox_light` `tokyonight` `onedark` `cobalt` 主题颜色参考：[pallete_theme](https://github.com/kyechan99/capsule-render/blob/master/src/pallete_theme.json)。",
-        "moreDescription:en-US": "Supported: `default` `dark` `radical` `merko` `gruvbox_light` `tokyonight` `onedark` `cobalt`. Theme color reference: [pallete_theme](https://github.com/kyechan99/capsule-render/blob/master/src/pallete_theme.json)."
+        "moreDescription:en-US": "Supported: `default` `dark` `radical` `merko` `gruvbox_light` `tokyonight` `onedark` `cobalt`. Theme color reference: [pallete_theme](https://github.com/kyechan99/capsule-render/blob/master/src/pallete_theme.json).",
+        "moreDescription:pt-BR": "Suporta: `default` `dark` `radical` `merko` `gruvbox_light` `tokyonight` `onedark` `cobalt`. Referência de cor do tema: [Paletas de Temas](https://github.com/kyechan99/capsule-render/blob/master/src/pallete_theme.json)."
       },
       {
         "name": "section",
@@ -50,15 +58,18 @@
         "default": "header",
         "description": "图像显示位置",
         "description:en-US": "Section data makes reverse Background Image",
+        "description:pt-BR": "Dados da seção fazem a imagem de fundo inversa",
         "moreDescription": "可选值：`header` `footer`。",
-        "moreDescription:en-US": "Supported: `header` `footer`."
+        "moreDescription:en-US": "Supported: `header` `footer`.",
+        "moreDescription:pt-BR": "Suporta: `header` `footer`."
       },
       {
         "name": "reversal",
         "type": "boolean",
         "default": "false",
         "description": "是否左右反转图像（同时反转颜色）",
-        "description:en-US": "Reverse the image left and right (Color at the same time)"
+        "description:en-US": "Reverse the image left and right (Color at the same time)",
+        "description:pt-BR": "Inverter a imagem para a esquerda e para a direita (colorir ao mesmo tempo)"
       },
       {
         "name": "height",
@@ -66,46 +77,57 @@
         "default": "120",
         "description": "图像高度",
         "description:en-US": "Change Image Size",
+        "description:pt-BR": "Alterar o tamanho da image",
         "moreDescription": "单位：像素。",
-        "moreDescription:en-US": "Unit: pixels."
+        "moreDescription:en-US": "Unit: pixels.",
+        "moreDescription:pt-BR": "Unidades: pixels."
       },
       {
         "name": "text",
         "type": "string",
         "description": "标题",
         "description:en-US": "Input text over the Image",
+        "description:pt-BR": "Inserir o texto em cima da imagem",
         "moreDescription": "格式：`%20` 空格 `-nl-` 换行。",
-        "moreDescription:en-US": "Format: `%20` space `-nl-` newline."
+        "moreDescription:en-US": "Format: `%20` space `-nl-` newline.",
+        "moreDescription:pt-BR": "Formato: `%20` espaçamento `-nl-` nova linha."
       },
       {
         "name": "desc",
         "type": "string",
         "description": "描述",
         "description:en-US": "Input desc over the Image",
+        "description:pt-BR": "Descrição de entrada em cima da imagem",
         "moreDescription": "格式：`%20` 空格，注意：不支持 `-nl-` 换行。",
-        "moreDescription:en-US": "Format: `%20` space, Note: `-nl-` newline is not supported."
+        "moreDescription:en-US": "Format: `%20` space, Note: `-nl-` newline is not supported.",
+        "moreDescription:pt-BR": "Formato: `%20` espaçamento, Nota: `-nl-` não suporta nova linha."
       },
       {
         "name": "textBg",
         "type": "boolean",
         "description": "是否添加文字背景",
-        "description:en-US": "Background of Text"
+        "description:en-US": "Background of Text",
+        "description:pt-BR": "Texto do fundo"
       },
       {
         "name": "animation",
         "type": "string",
         "description": "文本动画效果",
         "description:en-US": "Make the text dynamic",
+        "description:pt-BR": "Criar texto dinamicamente",
         "moreDescription": "可选值：`fadeIn` `scaleIn` `blink` `blinking` `twinkling`。",
-        "moreDescription:en-US": "Supported: `fadeIn` `scaleIn` `blink` `blinking` `twinkling`."
+        "moreDescription:en-US": "Supported: `fadeIn` `scaleIn` `blink` `blinking` `twinkling`.",
+        "moreDescription:pt-BR": "Suporta: `fadeIn` `scaleIn` `blink` `blinking` `twinkling`."
       },
       {
         "name": "fontColor",
         "type": "string",
         "description": "字体颜色",
         "description:en-US": "Change text color",
+        "description:pt-BR": "Alterar a cor do texto",
         "moreDescription": "格式：`HEX` 例如：`FF0000`。",
-        "moreDescription:en-US": "Format: `HEX` e.g. `FF0000`."
+        "moreDescription:en-US": "Format: `HEX` e.g. `FF0000`.",
+        "moreDescription:pt-BR": "Formato: `HEX` ex. `FF0000`."
       },
       {
         "name": "fontSize",
@@ -113,8 +135,10 @@
         "default": "70",
         "description": "字体大小",
         "description:en-US": "Change text font size",
+        "description:pt-BR": "Alterar tamanho da fonte",
         "moreDescription": "单位：像素。",
-        "moreDescription:en-US": "Unit: pixels."
+        "moreDescription:en-US": "Unit: pixels.",
+        "moreDescription:pt-BR": "Unidades: pixels."
       },
       {
         "name": "fontAlign",
@@ -122,8 +146,10 @@
         "default": "50",
         "description": "标题文字水平对齐",
         "description:en-US": "Change text horizontal-align (x)",
+        "description:pt-BR": "Alterar o alinhamento horizontal do texto (x)",
         "moreDescription": "可选范围：`0` 到 `100`，`50` 为居中，多行文本会整体计算对齐值。",
-        "moreDescription:en-US": "Bettwen `0` and `100`, `50` is center, multi-line text will calculate the alignment value."
+        "moreDescription:en-US": "Bettwen `0` and `100`, `50` is center, multi-line text will calculate the alignment value.",
+        "moreDescription:pt-BR": "Entre `0` e `100`, `50` e centralizado, o texto em multi linha calculará o valor do alinhamento."
       },
       {
         "name": "fontAlignY",
@@ -131,8 +157,10 @@
         "default": "50",
         "description": "标题文字垂直对齐",
         "description:en-US": "Change text vertical-align (y)",
+        "description:pt-BR": "Alterar o texto do alinhamento vertical (y)",
         "moreDescription": "可选范围：`0` 到 `100`，`50` 为居中，多行文本会整体计算对齐值。",
-        "moreDescription:en-US": "Bettwen `0` and `100`, `50` is center, multi-line text will calculate the alignment value."
+        "moreDescription:en-US": "Bettwen `0` and `100`, `50` is center, multi-line text will calculate the alignment value.",
+        "moreDescription:pt-BR": "Entre `0` e `100`, `50` e centralizado, o texto em multi linha calculará o valor do alinhamento."
       },
       {
         "name": "descSize",
@@ -140,8 +168,10 @@
         "default": "20",
         "description": "描述文字大小",
         "description:en-US": "Change desc font size",
+        "description:pt-BR": "Alterar o tamanho da fonte (desc)",
         "moreDescription": "单位：像素。",
-        "moreDescription:en-US": "Unit: pixels."
+        "moreDescription:en-US": "Unit: pixels.",
+        "moreDescription:pt-BR": "Unidades: pixels."
       },
       {
         "name": "descAlign",
@@ -149,8 +179,10 @@
         "default": "50",
         "description": "描述文字水平对齐",
         "description:en-US": "Change desc horizontal-align (x)",
+        "description:pt-BR": "Alterar descrição do alinhamento horizontal (x)",
         "moreDescription": "可选范围：`0` 到 `100`，`50` 为居中，多行文本会独立计算对齐值。",
-        "moreDescription:en-US": "Bettwen `0` and `100`, `50` is center, multi-line text will calculate the alignment value."
+        "moreDescription:en-US": "Bettwen `0` and `100`, `50` is center, multi-line text will calculate the alignment value.",
+        "moreDescription:pt-BR": "Entre `0` e `100`, `50` e centralizado, o texto em multi linha calculará o valor do alinhamento."
       },
       {
         "name": "descAlignY",
@@ -158,32 +190,40 @@
         "default": "60",
         "description": "描述文字垂直对齐",
         "description:en-US": "Change desc vertical-align (y)",
+        "description:pt-BR": "Alterar o alinhamento vertical (y)",
         "moreDescription": "可选范围：`0` 到 `100`，`50` 为居中，多行文本会整体计算对齐值。",
-        "moreDescription:en-US": "Bettwen `0` and `100`, `50` is center, multi-line text will calculate the alignment value."
+        "moreDescription:en-US": "Bettwen `0` and `100`, `50` is center, multi-line text will calculate the alignment value.",
+        "moreDescription:pt-BR": "Entre `0` e `100`, `50` e centralizado, o texto em multi linha calculará o valor do alinhamento."
       },
       {
         "name": "rotate",
         "type": "number",
         "description": "旋转文本",
         "description:en-US": "Rotate text",
+        "description:pt-BR": "Rotação do texto",
         "moreDescription": "可选范围：`-360` 到 `360`，单位：度。",
-        "moreDescription:en-US": "Bettwen `-360` and `360`, unit: degrees."
+        "moreDescription:en-US": "Bettwen `-360` and `360`, unit: degrees.",
+        "moreDescription:pt-BR": "Entre `-360` e `360`, unidades: degrees (degraus)."
       },
       {
         "name": "stroke",
         "type": "string",
         "description": "文本描边颜色",
         "description:en-US": "Change text stroke",
+        "description:pt-BR": "Alterar a linha do texto",
         "moreDescription": "格式：`HEX` 例如：`FF0000`，未设置 `strokeWidth` 时，`strokeWidth` 默认为 `1`。",
-        "moreDescription:en-US": "Format: `HEX` e.g. `FF0000`, if `strokeWidth` is not set, `strokeWidth` will default to `1`."
+        "moreDescription:en-US": "Format: `HEX` e.g. `FF0000`, if `strokeWidth` is not set, `strokeWidth` will default to `1`.",
+        "moreDescription:pt-BR": "Formato: `HEX` ex. `FF0000`, se `strokeWidth` não é alterado, `strokeWidth` será o valor padrão de `1`."
       },
       {
         "name": "strokeWidth",
         "type": "number",
         "description": "文本描边宽度",
         "description:en-US": "Change text stroke width",
+        "description:pt-BR": "Alterar largura do traço do texto",
         "moreDescription": "格式：`HEX` 例如：`FF0000`，未设置 `stroke` 时，`stroke` 默认为 `B897FF`。",
-        "moreDescription:en-US": "Format: `HEX` e.g. `FF0000`, if `stroke` is not set, `stroke` will default to `B897FF`."
+        "moreDescription:en-US": "Format: `HEX` e.g. `FF0000`, if `stroke` is not set, `stroke` will default to `B897FF`.",
+        "moreDescription:pt-BR": "Formato: `HEX` ex. `FF0000`, se `stroke` não é alterado, `stroke` será o valor padrão de `B897FF`."
       }
     ],
     "uriTemplate": "https://capsule-render.vercel.app/api{?type,color,customColorList,theme,section,reversal,height,text,desc,animation,fontColor,fontSize,fontAlign,fontAlignY,descSize,descAlignY,rotate,stroke,strokeWidth}"
@@ -193,11 +233,13 @@
       "annotate": "kyechan99/capsule-render",
       "alt": "页眉",
       "alt:en-US": "Capsule-Render Header",
+      "alt:pt-BR": "Cabeçalho do Capsule-Render",
       "href": "https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=capsule%20render&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Decorate%20GitHub%20Profile%20or%20any%20Repo%20like%20me!&descAlignY=51&descAlign=62",
       "images": [
         {
           "alt": "页眉",
           "alt:en-US": "Capsule-Render Header",
+          "alt:pt-BR": "Cabeçalho do Capsule-Render",
           "href": "https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=capsule%20render&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Decorate%20GitHub%20Profile%20or%20any%20Repo%20like%20me!&descAlignY=51&descAlign=62"
         }
       ]
@@ -206,11 +248,13 @@
       "annotate": "kyechan99/capsule-render",
       "alt": "页脚",
       "alt:en-US": "Capsule-Render Footer",
+      "alt:pt-BR": "Rodapé do Capsule-Render",
       "href": "https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer",
       "images": [
         {
           "alt": "页脚",
           "alt:en-US": "Capsule-Render Footer",
+          "alt:pt-BR": "Rodapé do Capsule-Render",
           "href": "https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer"
         }
       ]

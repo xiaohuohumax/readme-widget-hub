@@ -3,10 +3,12 @@
   "title": "Shields.io",
   "description": "Shields.io 是一个提供简洁、一致和易读的 SVG 和位图格式徽章的服务，可以轻松地包含在 GitHub 的 README 文件或任何其他网页中。",
   "description:en-US": "Concise, consistent, and legible badges in SVG and raster format.",
+  "description:pt-BR": "Emblemas concisos, consistentes e legíveis em formato SVG e raster.",
   "alert": {
     "type": "Tip",
     "messages": "由于此项目支持的徽章种类非常多，且功能强大，这里只简单介绍－静态徽章，其他徽章使用方式还请移步官方文档。",
-    "messages:en-US": "Due to the large number of badge types supported by this project and its powerful functions, here is a simple introduction to static badges. For other badge types, please refer to the official documentation."
+    "messages:en-US": "Due to the large number of badge types supported by this project and its powerful functions, here is a simple introduction to static badges. For other badge types, please refer to the official documentation.",
+    "messages:pt-BR": "Devido ao grande número de tipos de emblemas suportados por este projeto e às suas funções poderosas, aqui está uma introdução simples aos emblemas estáticos. Para outros tipos de emblemas, consulte a documentação oficial."
   },
   "tag": {
     "repo": "https://github.com/badges/shields",
@@ -20,8 +22,10 @@
         "type": "string",
         "description": "徽章内容",
         "description:en-US": "Label, (optional) message, and color. Separated by dashes",
+        "description:pt-BR": "Rótulo, mensagem (opcional) e cor. Separados por hífens",
         "moreDescription": "格式：`标签-消息-消息背景颜色`。",
-        "moreDescription:en-US": "Example: `build-passing-brightgreen`."
+        "moreDescription:en-US": "Example: `build-passing-brightgreen`.",
+        "moreDescription:pt-BR": "Exemplo: `build-passing-brightgreen`."
       }
     ],
     "querys": [
@@ -31,56 +35,70 @@
         "default": "flat",
         "description": "徽章整体风格",
         "description:en-US": "Badge style",
+        "description:pt-BR": "Estilo do badge",
         "moreDescription": "可选值：`flat` `flat-square` `plastic` `for-the-badge` `social`。",
-        "moreDescription:en-US": "Possible values: `flat` `flat-square` `plastic` `for-the-badge` `social`."
+        "moreDescription:en-US": "Possible values: `flat` `flat-square` `plastic` `for-the-badge` `social`.",
+        "moreDescription:pt-BR": "Valores possíveis: `flat` `flat-square` `plastic` `for-the-badge` `social`."
       },
       {
         "name": "logo",
         "type": "string",
         "description": "Logo 图标名称",
         "description:en-US": "Icon slug from simple-icons",
+        "description:pt-BR": "Slug dos ícones simple-icons",
         "moreDescription": "支持 Base64，[slugs.md](https://github.com/simple-icons/simple-icons/blob/master/slugs.md)，[Simple Icons](https://simpleicons.org/)。",
-        "moreDescription:en-US": "You can click the icon title on [simple-icons](https://simpleicons.org/) to copy the slug or they can be found in the [slugs.md file](https://github.com/simple-icons/simple-icons/blob/master/slugs.md) in the simple-icons repository. [Further](https://shields.io/docs/logos) info."
+        "moreDescription:en-US": "You can click the icon title on [simple-icons](https://simpleicons.org/) to copy the slug or they can be found in the [slugs.md file](https://github.com/simple-icons/simple-icons/blob/master/slugs.md) in the simple-icons repository. [Further](https://shields.io/docs/logos) info.",
+        "moreDescription:pt-BR": "Você pode clicar no título do ícone em [simple-icons](https://simpleicons.org/) para copiar o slug ou encontrá-los arquivo de [slugs.md](https://github.com/simple-icons/simple-icons/blob/master/slugs.md) e no repositório dos simple-icons. [Clique aqui](https://shields.io/docs/logos) para mais informações."
       },
       {
         "name": "logoColor",
         "type": "string",
         "description": "Logo 颜色",
         "description:en-US": "The color of the logo",
+        "description:pt-BR": "A cor do logo",
         "moreDescription": "支持格式：`HEX` `RGB` `RGBA` `HSL` `HSLA` `CSS颜色`，适用于 simple-icons 库中的标志，但不适用于自定义标志。",
-        "moreDescription:en-US": "Supported: `hex`, `rgb`, `rgba`, `hsl`, `hsla` and `css named colors`. Supported for simple-icons logos but not for custom logos."
+        "moreDescription:en-US": "Supported: `hex`, `rgb`, `rgba`, `hsl`, `hsla` and `css named colors`. Supported for simple-icons logos but not for custom logos.",
+        "moreDescription:pt-BR": "Suporta: `hex`, `rgb`, `rgba`, `hsl`, `hsla` e `css named colors`. Suporte para logotipos dos simple-icons, mas não para logotipos personalizados."
       },
       {
         "name": "logoSize",
         "type": "string",
         "description": "Logo 自适应大小",
         "description:en-US": "Make icons adaptively resize by setting `auto`",
+        "description:pt-BR": "Faça com que os ícones sejam redimensionados de forma adaptável, definindo o modo `auto`",
         "moreDescription": "可选值：`auto`。",
-        "moreDescription:en-US": "Useful for some wider logos like `amd` and `amg`. Supported for simple-icons logos but not for custom logos."
+        "moreDescription:en-US": "Useful for some wider logos like `amd` and `amg`. Supported for simple-icons logos but not for custom logos.",
+        "moreDescription:pt-BR": "Útil para alguns logotipos mais amplos como `amd` e `amg`. Suporte para logotipos simple-icons mais não para logotipos customizados."
       },
       {
         "name": "label",
         "type": "string",
         "description": "左侧标签文字",
         "description:en-US": "Override the default left-hand-side text",
+        "description:pt-BR": "Substituir o texto padrão do lado esquerdo",
         "moreDescription": "覆盖 `badgeContent` 中 `标签` 部分。",
-        "moreDescription:en-US": "[URL-Encoding](https://developer.mozilla.org/en-US/docs/Glossary/Percent-encoding) needed for spaces or special characters!."
+        "moreDescription:en-US": "[URL-Encoding](https://developer.mozilla.org/en-US/docs/Glossary/Percent-encoding) needed for spaces or special characters!.",
+        "moreDescription:pt-BR": "[URL-Encoding](https://developer.mozilla.org/en-US/docs/Glossary/Percent-encoding) caso precise de espaços ou caracteres especiais!."
       },
       {
         "name": "labelColor",
         "type": "string",
         "description": "左侧标签背景颜色",
         "description:en-US": "The color of the logo",
+        "description:pt-BR": "Cor do logotipo",
         "moreDescription": "支持格式：`HEX` `RGB` `RGBA` `HSL` `HSLA` `CSS颜色`，适用于 simple-icons 库中的标志，但不适用于自定义标志。",
-        "moreDescription:en-US": "Supported: `hex`, `rgb`, `rgba`, `hsl`, `hsla` and `css named colors`. Supported for simple-icons logos but not for custom logos."
+        "moreDescription:en-US": "Supported: `hex`, `rgb`, `rgba`, `hsl`, `hsla` and `css named colors`. Supported for simple-icons logos but not for custom logos.",
+        "moreDescription:pt-BR": "Suporte: `hex`, `rgb`, `rgba`, `hsl`, `hsla` e `css named colors`. Suportado para logotipos de ícones simples, mas não para logotipos personalizados."
       },
       {
         "name": "color",
         "type": "string",
         "description": "右侧消息背景颜色",
         "description:en-US": "Background color of the right part",
+        "description:pt-BR": "Background color of the right part",
         "moreDescription": "覆盖 `badgeContent` 中 `消息背景颜色` 部分, 支持格式：同上 `logoColor`。",
-        "moreDescription:en-US": "Supported: `hex`, `rgb`, `rgba`, `hsl`, `hsla` and `css named colors`."
+        "moreDescription:en-US": "Supported: `hex`, `rgb`, `rgba`, `hsl`, `hsla` and `css named colors`.",
+        "moreDescription:pt-BR": "Supported: `hex`, `rgb`, `rgba`, `hsl`, `hsla` e `css named colors`."
       },
       {
         "name": "cacheSeconds",
@@ -88,8 +106,10 @@
         "default": "3600",
         "description": "HTTP 缓存有效期",
         "description:en-US": "HTTP cache lifetime",
+        "description:pt-BR": "Limite do cache HTTP",
         "moreDescription": "单位：秒，规则应用于推断每个徽标的默认值，任何低于默认值的指定都将被忽略。",
-        "moreDescription:en-US": "Unit: seconds. Rules are applied to infer a default value on a per-badge basis. Any values specified below the default will be ignored."
+        "moreDescription:en-US": "Unit: seconds. Rules are applied to infer a default value on a per-badge basis. Any values specified below the default will be ignored.",
+        "moreDescription:pt-BR": "Unidade: segundos. As regras são aplicadas para inferir um valor padrão por emblema. Quaisquer valores especificados abaixo do padrão serão ignorados."
       },
       {
         "name": "link",
@@ -97,8 +117,10 @@
         "default": "",
         "description": "指定点击徽标左侧/右侧应执行的操作",
         "description:en-US": "Specify the action to perform when clicking the left/right side of the badge",
+        "description:pt-BR": "Especifique a ação a ser executada ao clicar no lado esquerdo/direito do emblema",
         "moreDescription": "注意：这仅在将徽标集成到 `&lt;object>` HTML 标签时有效，但不适用于 `<img>` 标签或标记语言。",
-        "moreDescription:en-US": "Note: This only works when integrating your badge in an `<object>` HTML tag, but not an `<img>` tag or a markup language."
+        "moreDescription:en-US": "Note: This only works when integrating your badge in an `<object>` HTML tag, but not an `<img>` tag or a markup language.",
+        "moreDescription:pt-BR": "Nota: Isso só funciona quando o emblema é incorporado a um `<object>` tag em HTML, mais não a uma tag `<img>` ou a uma linguagem markup."
       }
     ],
     "uriTemplate": "https://img.shields.io/badge/{badgeContent}{?style,logo,logoColor,logoSize,label,labelColor,color,cacheSeconds,link}"
@@ -108,11 +130,13 @@
       "annotate": "badges/shields",
       "alt": "静态徽章",
       "alt:en-US": "Static Badge",
+      "alt:pt-BR": "Badge estática",
       "href": "https://img.shields.io/badge/badges/shields-555555?logo=github",
       "images": [
         {
           "alt": "静态徽章",
           "alt:en-US": "Static Badge",
+          "alt:pt-BR": "Badge estática",
           "href": "https://img.shields.io/badge/badges/shields-555555?logo=github"
         }
       ]
@@ -120,6 +144,7 @@
     {
       "alt": "颜色徽章",
       "alt:en-US": "Color Badge",
+      "alt:pt-BR": "Cor da Badge",
       "href": "https://img.shields.io/badge/F94144-F94144",
       "images": [
         {

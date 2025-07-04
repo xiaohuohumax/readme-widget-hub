@@ -1,7 +1,9 @@
 {
   "title": "Profile views counter",
+  "title:pt-BR": "Contador de Visitas no Perfil",
   "description": "GitHub 用户资料查看计数器：显示月度统计数据。",
   "description:en-US": "GitHub profile views tracker: displaying monthly view statistics.",
+  "description:pt-BR": "Contador de visualizações do perfil do GitHub: exibindo estatísticas de visualização mensais.",
   "tag": {
     "repo": "https://github.com/u8views/go-u8views",
     "onlineTool": "https://u8views.com/",
@@ -13,15 +15,18 @@
         "name": "userId",
         "type": "string",
         "description": "用户 ID",
-        "description:en-US": "User ID"
+        "description:en-US": "User ID",
+        "description:pt-BR": "ID do usuário"
       },
       {
         "name": "type",
         "type": "string",
         "description": "统计类型",
         "description:en-US": "Statistics type",
+        "description:pt-BR": "Tipo de estatística",
         "moreDescription": "可选值：`day-week-month-total-count`（全部） `day-count`（日） `week-count`（周）`month`（月度）`total-count`（总计）。",
-        "moreDescription:en-US": "Supported: `day-week-month-total-count` (all) `day-count` (day) `week-count` (week) `month` (monthly) `total-count` (total)."
+        "moreDescription:en-US": "Supported: `day-week-month-total-count` (all) `day-count` (day) `week-count` (week) `month` (monthly) `total-count` (total).",
+        "moreDescription:pt-BR": "Suporta: `day-week-month-total-count` (todos) `day-count` (diariamente) `week-count` (semanalmente) `month` (mensalmente) `total-count` (total)."
       }
     ],
     "uriTemplate": "https://u8views.com/api/v1/github/profiles/{userId}/views/{type}.svg"
@@ -30,11 +35,13 @@
     "annotate": "u8views",
     "alt": "访问统计",
     "alt:en-US": "View statistics",
+    "alt:pt-BR": "Visualizar estatísticas",
     "href": "https://u8views.com/api/v1/github/profiles/121827373/views/day-week-month-total-count.svg",
     "images": [
       {
         "alt": "访问统计",
         "alt:en-US": "View statistics",
+        "alt:pt-BR": "Visualizar estatísticas",
         "href": "https://u8views.com/api/v1/github/profiles/121827373/views/day-week-month-total-count.svg"
       }
     ]

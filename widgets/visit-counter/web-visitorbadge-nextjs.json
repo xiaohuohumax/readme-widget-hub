@@ -1,7 +1,9 @@
 {
   "title": "Visitor Badge",
+  "title:pt-BR": "Contador de Visitas (Visitor Badge)",
   "description": "创建一个可用于任何网站或 GitHub 个人资料的访客徽章。",
   "description:en-US": "Create a visitor badge that you can use on any website or GitHub profile.",
+  "description:pt-BR": "Criar um badge contador de visitas que pode utilizar em qualquer site ou perfil do GitHub.",
   "tag": {
     "repo": "https://github.com/estruyf/web-visitorbadge-nextjs",
     "onlineTool": "https://visitorbadge.io/"
@@ -13,8 +15,10 @@
         "type": "string",
         "description": "徽章类型",
         "description:en-US": "Badge type",
+        "description:pt-BR": "Tipo da badge",
         "moreDescription": "可选值：`visitors`（总数）、`daily`（单日）、`combined`（前两个组合）。",
-        "moreDescription:en-US": "Supported: `visitors` (total), `daily` (single day), `combined` (two combined)."
+        "moreDescription:en-US": "Supported: `visitors` (total), `daily` (single day), `combined` (two combined).",
+        "moreDescription:pt-BR": "Suporta: `visitors` (total), `daily` (diariamente), `combined` (os dois combinados)."
       }
     ],
     "querys": [
@@ -24,14 +28,17 @@
         "required": true,
         "description": "统计路径",
         "description:en-US": "Statistics path",
+        "description:pt-BR": "Caminho das estatísticas",
         "moreDescription": "URL 或 用户名/仓库，用于唯一统计的链接或字符串。",
-        "moreDescription:en-US": "URL or username/repository to uniquely identify the link or string for statistics."
+        "moreDescription:en-US": "URL or username/repository to uniquely identify the link or string for statistics.",
+        "moreDescription:pt-BR": "URL ou nome de usuário/repositório para identificar exclusivamente o link ou string para estatísticas."
       },
       {
         "name": "label",
         "type": "string",
         "description": "徽章标签",
-        "description:en-US": "Badge label"
+        "description:en-US": "Badge label",
+        "description:pt-BR": "Rótulo do badge"
       },
       {
         "name": "labelColor",
@@ -39,8 +46,10 @@
         "default": "#555555",
         "description": "徽章标签背景颜色",
         "description:en-US": "Badge label background color",
+        "description:pt-BR": "Cor de fundo do rótulo do badge",
         "moreDescription": "支持类型：`HEX`，例如：`#FF0000`。",
-        "moreDescription:en-US": "Supported: `HEX`, for example: `#FF0000`."
+        "moreDescription:en-US": "Supported: `HEX`, for example: `#FF0000`.",
+        "moreDescription:pt-BR": "Suporta: `HEX`, por exemplo: `#FF0000`."
       },
       {
         "name": "countColor",
@@ -48,8 +57,10 @@
         "default": "#263759",
         "description": "徽章数字背景颜色",
         "description:en-US": "Badge count background color",
+        "description:pt-BR": "Cor de fundo do rótulo do badge",
         "moreDescription": "支持类型：`HEX`，例如：`#FF0000`。",
-        "moreDescription:en-US": "Supported: `HEX`, for example: `#FF0000`."
+        "moreDescription:en-US": "Supported: `HEX`, for example: `#FF0000`.",
+        "moreDescription:pt-BR": "Suporta: `HEX`, por exemplo: `#FF0000`."
       },
       {
         "name": "style",
@@ -57,8 +68,10 @@
         "default": "default",
         "description": "徽章样式",
         "description:en-US": "Badge style",
+        "description:pt-BR": "Estilo da badge",
         "moreDescription": "可选值：`default`、`flat`、`flat-square`、`plastic`。",
-        "moreDescription:en-US": "Supported: `default`, `flat`, `flat-square`, `plastic`."
+        "moreDescription:en-US": "Supported: `default`, `flat`, `flat-square`, `plastic`.",
+        "moreDescription:pt-BR": "Suporta: `default`, `flat`, `flat-square`, `plastic`."
       },
       {
         "name": "labelStyle",
@@ -66,8 +79,10 @@
         "default": "upper",
         "description": "徽章标签大小写",
         "description:en-US": "Badge label case",
+        "description:pt-BR": "Formato das letras no badge",
         "moreDescription": "可选值：`upper`（大写） `lower`（小写）。",
-        "moreDescription:en-US": "Supported: `upper` (uppercase) `lower` (lowercase)."
+        "moreDescription:en-US": "Supported: `upper` (uppercase) `lower` (lowercase).",
+        "moreDescription:pt-BR": "Suporta: `upper` (letras maiúsculas) `lower` (letras minúsculas)."
       }
     ],
     "uriTemplate": "https://api.visitorbadge.io/api/{type}{?path,label,labelColor,countColor,style,labelStyle}"
@@ -76,11 +91,13 @@
     "annotate": "xiaohuohumax/readme-widget-hub",
     "alt": "访问数",
     "alt:en-US": "Visitors",
+    "alt:pt-BR": "Visitantes",
     "href": "https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Freadme-widget-hub&label=VISITORS&countColor=%23f3722c",
     "images": [
       {
         "alt": "访问数",
         "alt:en-US": "Visitors",
+        "alt:pt-BR": "Visitantes",
         "href": "https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Freadme-widget-hub&label=VISITORS&countColor=%23f3722c"
       }
     ]

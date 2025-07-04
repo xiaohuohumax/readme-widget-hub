@@ -1,7 +1,9 @@
 {
   "title": "LeetCode Badge Showcase",
+  "title:pt-BR": "Exibir o Badge do LeetCode (LeetCode Badge Showcase)",
   "description": "在你的 Github README 页面展示你的 LeetCode 徽章。",
   "description:en-US": "Showcase your LeetCode badges on your Github README page.",
+  "description:pt-BR": "Exiba seus emblemas (badges) do LeetCode na sua página README do Github.",
   "tag": {
     "repo": "https://github.com/KevzPeter/Leetcode-Badge-Showcase",
     "onlineTool": "https://leetcode-badge-showcase.vercel.app/",
@@ -13,15 +15,18 @@
         "name": "username",
         "type": "string",
         "description": "LeetCode 用户名",
-        "description:en-US": "LeetCode username"
+        "description:en-US": "LeetCode username",
+        "description:pt-BR": "Nome do usuário no LeetCode"
       },
       {
         "name": "animated",
         "type": "boolean",
         "description": "动画徽章",
         "description:en-US": "Animated Badges",
+        "description:pt-BR": "Badges Animadas",
         "moreDescription": "可选值：`true` `false`。",
-        "moreDescription:en-US": "Supported: `true` `false`."
+        "moreDescription:en-US": "Supported: `true` `false`.",
+        "moreDescription:pt-BR": "Suporta: `true` `false`."
       },
       {
         "name": "theme",
@@ -29,24 +34,30 @@
         "default": "dark",
         "description": "主题",
         "description:en-US": "Theme",
+        "description:pt-BR": "Tema",
         "moreDescription": "可选值：`dark` `light` `github-dark` `monokai` `tokyonight` `nightowl` 更多主题请参考 [Themes](https://github.com/KevzPeter/Leetcode-Badge-Showcase?tab=readme-ov-file#-themes)。",
-        "moreDescription:en-US": "Supported: `dark` `light` `github-dark` `monokai` `tokyonight` `nightowl` More themes please refer to [Themes](https://github.com/KevzPeter/Leetcode-Badge-Showcase?tab=readme-ov-file#-themes)."
+        "moreDescription:en-US": "Supported: `dark` `light` `github-dark` `monokai` `tokyonight` `nightowl` More themes please refer to [Themes](https://github.com/KevzPeter/Leetcode-Badge-Showcase?tab=readme-ov-file#-themes).",
+        "moreDescription:pt-BR": "Suporta: `dark` `light` `github-dark` `monokai` `tokyonight` `nightowl` Para mais temas, por favor, verificar [Temas](https://github.com/KevzPeter/Leetcode-Badge-Showcase?tab=readme-ov-file#-themes)."
       },
       {
         "name": "filter",
         "type": "string",
         "description": "显示特定的徽章集",
         "description:en-US": "show a specific set of badges",
+        "description:pt-BR": "Exibir um conjunto específico de badges",
         "moreDescription": "可选值：`comp` `study` `annual` `submission` `daily`。",
-        "moreDescription:en-US": "Supported: `comp` `study` `annual` `submission` `daily`."
+        "moreDescription:en-US": "Supported: `comp` `study` `annual` `submission` `daily`.",
+        "moreDescription:pt-BR": "Suporta: `comp` `study` `annual` `submission` `daily`."
       },
       {
         "name": "border",
         "type": "string",
         "description": "是否显示边框",
         "description:en-US": "Show border",
+        "description:pt-BR": "Exibir a borda",
         "moreDescription": "可选值：`border` `no-border`。",
-        "moreDescription:en-US": "Supported: `border` `no-border`."
+        "moreDescription:en-US": "Supported: `border` `no-border`.",
+        "moreDescription:pt-BR": "Suporta: `border` `no-border`."
       }
     ],
     "uriTemplate": "https://leetcode-badge-showcase.vercel.app/api{?username,animated,theme,filter,border}"
@@ -55,11 +66,13 @@
     "annotate": "kevzpeter",
     "alt": "Leetcode 徽章",
     "alt:en-US": "Leetcode Badges",
+    "alt:pt-BR": "Badges do Leetcode",
     "href": "https://leetcode-badge-showcase.vercel.app/api?username=kevzpeter&filter=annual&border=no-border&theme=github-dark",
     "images": [
       {
         "alt": "Leetcode 徽章",
         "alt:en-US": "Leetcode Badges",
+        "alt:pt-BR": "Badges do Leetcode",
         "href": "https://leetcode-badge-showcase.vercel.app/api?username=kevzpeter&filter=annual&border=no-border&theme=github-dark"
       }
     ]
