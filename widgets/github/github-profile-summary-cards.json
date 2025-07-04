@@ -1,5 +1,6 @@
 {
   "title": "GitHub Profile Summary Cards",
+  "title:pt-BR": "Cartões de Resumo de Perfil do GitHub (GitHub Profile Summary Cards)",
   "description": "一个用于生成 GitHub 个人资料 README 的总结卡片工具。",
   "description:en-US": "A tool to generate your github summary card for profile README.",
   "description:pt-BR": "Uma ferramenta para gerar o resumo do Github em cartão para o perfil README do Github.",

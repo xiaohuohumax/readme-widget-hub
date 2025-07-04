@@ -1,6 +1,6 @@
 {
   "title": "Github Readme Activity Graph",
-  "title:pt-BR": "Gráfico de Atividade para o Readme do Github",
+  "title:pt-BR": "Gráfico de Atividade no Readme do Github (Github Readme Activity Graph)",
   "description": "动态生成的活动图，展示您过去 31 天的 GitHub 活动。",
   "description:en-US": "A dynamically generated activity graph to show your GitHub activities of last 31 days.",
   "description:pt-BR": "Um gráfico de atividade do GitHub gerado dinamicamente com as atividades do últimos 31 dias.",

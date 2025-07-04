@@ -1,7 +1,9 @@
 {
   "title": "Github Readme Quotes (shravan20)",
+  "title:pt-BR": "Citações no Readme do Github (shravan20)",
   "description": "为你的 Github README 添加名言引用。",
   "description:en-US": "Dynamic quote generator for your GitHub readmes.",
+  "description:pt-BR": "Modo dinâmico de gerar citações nos readmes do seu GitHub.",
   "tag": {
     "repo": "https://github.com/shravan20/github-readme-quotes",
     "officialDoc": "https://github.com/shravan20/github-readme-quotes#current-status",
@@ -15,8 +17,10 @@
         "default": "default",
         "description": "主题",
         "description:en-US": "Theme",
+        "description:pt-BR": "Tema",
         "moreDescription": "可选值：`default` `dark` `radical` `merko` `gruvbox` `tokyonight` `onedark` 等，更多主题参考：[themes](https://github.com/shravan20/github-readme-quotes/blob/main/src/themes/README.md)。",
-        "moreDescription:en-US": "Supported: `default` `dark` `radical` `merko` `gruvbox` `tokyonight` `onedark` etc. More themes: [themes](https://github.com/shravan20/github-readme-quotes/blob/main/src/themes/README.md)."
+        "moreDescription:en-US": "Supported: `default` `dark` `radical` `merko` `gruvbox` `tokyonight` `onedark` etc. More themes: [themes](https://github.com/shravan20/github-readme-quotes/blob/main/src/themes/README.md).",
+        "moreDescription:pt-BR": "Suporta: `default` `dark` `radical` `merko` `gruvbox` `tokyonight` `onedark` etc. Para mais temas acesse: [temas](https://github.com/shravan20/github-readme-quotes/blob/main/src/themes/README.md)."
       },
       {
         "name": "layout",
@@ -24,16 +28,20 @@
         "default": "default",
         "description": "布局",
         "description:en-US": "Layouts",
+        "description:pt-BR": "Layouts",
         "moreDescription": "可选值：`default` `socrates` `churchill` `samuel` 等，更多布局参考：[layouts](https://github.com/shravan20/github-readme-quotes/blob/main/src/layouts/README.md)。",
-        "moreDescription:en-US": "Supported: `default` `socrates` `churchill` `samuel` etc. More layouts: [layouts](https://github.com/shravan20/github-readme-quotes/blob/main/src/layouts/README.md)."
+        "moreDescription:en-US": "Supported: `default` `socrates` `churchill` `samuel` etc. More layouts: [layouts](https://github.com/shravan20/github-readme-quotes/blob/main/src/layouts/README.md).",
+        "moreDescription:pt-BR": "Suporta: `default` `socrates` `churchill` `samuel` etc. Para mais layouts acesse: [layouts](https://github.com/shravan20/github-readme-quotes/blob/main/src/layouts/README.md)."
       },
       {
         "name": "font",
         "type": "string",
         "description": "字体",
         "description:en-US": "Fonts",
+        "description:pt-BR": "Fontes",
         "moreDescription": "可选值：`Gabrielle` `Redressed` `Architect`。",
-        "moreDescription:en-US": "Supported: `Gabrielle` `Redressed` `Architect`."
+        "moreDescription:en-US": "Supported: `Gabrielle` `Redressed` `Architect`.",
+        "moreDescription:pt-BR": "Suporta: `Gabrielle` `Redressed` `Architect`."
       },
       {
         "name": "animation",
@@ -41,32 +49,39 @@
         "default": "default",
         "description": "动画",
         "description:en-US": "Animations",
+        "description:pt-BR": "Animações",
         "moreDescription": "可选值：`default` `grow_out_in`。",
-        "moreDescription:en-US": "Supported: `default` `grow_out_in`."
+        "moreDescription:en-US": "Supported: `default` `grow_out_in`.",
+        "moreDescription:pt-BR": "Suporta: `default` `grow_out_in`."
       },
       {
         "name": "quotesUrl",
         "type": "string",
         "description": "名言库 URL",
         "description:en-US": "Quotes URL",
+        "description:pt-BR": "URL da Citações",
         "moreDescription": "自定义名言库，名言模板参考 [quotes.json](https://github.com/shravan20/github-readme-quotes/blob/main/customQuotes/quotes.json)。",
-        "moreDescription:en-US": "Custom quotes library, quote template: [quotes.json](https://github.com/shravan20/github-readme-quotes/blob/main/customQuotes/quotes.json)."
+        "moreDescription:pt-BR": "Biblioteca de citações personalizadas, modelo de citações em: [quotes.json](https://github.com/shravan20/github-readme-quotes/blob/main/customQuotes/quotes.json)."
       },
       {
         "name": "quoteCategory",
         "type": "string",
         "description": "名言类别",
         "description:en-US": "Quote Category",
+        "description:pt-BR": "Categoria das Citações",
         "moreDescription": "可选值：`general` `life` `success` `motivational` `fun` `programming` `dream` `failure` `gaming` `birthday` `Humorous` `Travel`。",
-        "moreDescription:en-US": "Supported: `general` `life` `success` `motivational` `fun` `programming` `dream` `failure` `gaming` `birthday` `Humorous` `Travel`."
+        "moreDescription:en-US": "Supported: `general` `life` `success` `motivational` `fun` `programming` `dream` `failure` `gaming` `birthday` `Humorous` `Travel`.",
+        "moreDescription:pt-BR": "Suporta: `general` `life` `success` `motivational` `fun` `programming` `dream` `failure` `gaming` `birthday` `Humorous` `Travel`."
       },
       {
         "name": "borderColor",
         "type": "string",
         "description": "边框颜色",
         "description:en-US": "Border Color",
+        "description:pt-BR": "Cor da Borda",
         "moreDescription": "格式：`HEX` `CSS 颜色`，例如：`#FF0000`，请注意，此功能仅适用于默认布局。",
-        "moreDescription:en-US": "Format: `HEX` `CSS Color` e.g. `#FF0000`, Please note that this feature is available only with the Default layout."
+        "moreDescription:en-US": "Format: `HEX` `CSS Color` e.g. `#FF0000`, Please note that this feature is available only with the Default layout.",
+        "moreDescription:pt-BR": "Formato: `HEX` `CSS Color` ex. `#FF0000`, Por favor, observe que esse recurso está disponível apenas com o layout padrão (Default)."
       }
     ],
     "uriTemplate": "https://github-readme-quotes-bay.vercel.app/quote{?theme,layout,font,animation,quotesUrl,quoteCategory,borderColor}"
@@ -75,11 +90,13 @@
     {
       "alt": "随机名言",
       "alt:en-US": "Random Quote",
+      "alt:pt-BR": "Citação Aleatória",
       "href": "https://github-readme-quotes-bay.vercel.app/quote",
       "images": [
         {
           "alt": "随机名言",
           "alt:en-US": "Random Quote",
+          "alt:pt-BR": "Citação Aleatória",
           "href": "https://github-readme-quotes-bay.vercel.app/quote"
         }
       ]

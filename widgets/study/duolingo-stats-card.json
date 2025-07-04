@@ -1,7 +1,9 @@
 {
   "title": "Duolingo Stats Card",
+  "title:pt-BR": "Cartão com as Estatísticas do Duolingo (Duolingo Stats Card)",
   "description": "一个实时可定制的多邻国小部件，您可以将它嵌入到您的网站或 Markdown 文件中。",
   "description:en-US": "A real-time, customizable Duolingo widget that you can embed on your website or markdown files.",
+  "description:pt-BR": "Um widget Duolingo personalizável e em tempo real que você pode incorporar em seu site ou arquivos markdown.",
   "tag": {
     "repo": "https://github.com/KevzPeter/Duolingo-Stats-Card",
     "onlineTool": "https://duolingo-stats-card.vercel.app/",
@@ -14,7 +16,8 @@
         "type": "string",
         "required": true,
         "description": "多邻国用户名",
-        "description:en-US": "Duolingo username"
+        "description:en-US": "Duolingo username",
+        "description:pt-BR": "Nome do usuário do Duolingo"
       },
       {
         "name": "sort",
@@ -22,16 +25,20 @@
         "default": "crowns",
         "description": "排序",
         "description:en-US": "Sort",
+        "description:pt-BR": "Classificação",
         "moreDescription": "可选值：`crowns` `xp`。",
-        "moreDescription:en-US": "Supported: `crowns` `xp`."
+        "moreDescription:en-US": "Supported: `crowns` `xp`.",
+        "moreDescription:pt-BR": "Suporta: `crowns` `xp`."
       },
       {
         "name": "theme",
         "type": "string",
         "description": "主题",
         "description:en-US": "Theme",
+        "description:pt-BR": "Tema",
         "moreDescription": "可选值：`light` `dark` `github-dark` `monokai` `tokyonight` `nightowl` 更多主题请参考[Themes](https://github.com/KevzPeter/Duolingo-Stats-Card?tab=readme-ov-file#-themes)。",
-        "moreDescription:en-US": "Supported: `light` `dark` `github-dark` `monokai` `tokyonight` `nightowl`. More themes please refer to [Themes](https://github.com/KevzPeter/Duolingo-Stats-Card?tab=readme-ov-file#-themes)."
+        "moreDescription:en-US": "Supported: `light` `dark` `github-dark` `monokai` `tokyonight` `nightowl`. More themes please refer to [Themes](https://github.com/KevzPeter/Duolingo-Stats-Card?tab=readme-ov-file#-themes).",
+        "moreDescription:pt-BR": "Suporta: `light` `dark` `github-dark` `monokai` `tokyonight` `nightowl`. Para mais temas, por favor, acesse [Temas](https://github.com/KevzPeter/Duolingo-Stats-Card?tab=readme-ov-file#-themes)."
       }
     ],
     "uriTemplate": "https://duolingo-stats-card.vercel.app/api{?username,sort,theme}"

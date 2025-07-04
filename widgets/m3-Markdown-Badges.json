@@ -2,10 +2,12 @@
   "title": "m3 Markdown Badges",
   "description": "一个受 Material You 启发的 Markdown 徽章集合。",
   "description:en-US": "A Material You inspired markdown badge collection.",
+  "description:pt-BR": "Uma coleção de emblemas (badge) markdown inspirados no estilo Material.",
   "alert": {
     "type": "Tip",
     "messages": "此项目包含超多静态徽章，详细静态徽章链接请前往仓库 [m3-Markdown-Badges](https://github.com/ziadOUA/m3-Markdown-Badges?tab=readme-ov-file#static-badges) 查找。",
-    "messages:en-US": "This project contains a lot of static badges, detailed static badge links can be found in the repository [m3-Markdown-Badges](https://github.com/ziadOUA/m3-Markdown-Badges?tab=readme-ov-file#static-badges)."
+    "messages:en-US": "This project contains a lot of static badges, detailed static badge links can be found in the repository [m3-Markdown-Badges](https://github.com/ziadOUA/m3-Markdown-Badges?tab=readme-ov-file#static-badges).",
+    "messages:pt-BR": "Este projeto contém muitos emblemas (badges) estáticos, links detalhados para esses emblemas estáticos podem ser encontrados no repositório [m3-Markdown-Badges](https://github.com/ziadOUA/m3-Markdown-Badges?tab=readme-ov-file#static-badges)."
   },
   "tag": {
     "repo": "https://github.com/ziadOUA/m3-Markdown-Badges",
@@ -19,36 +21,44 @@
         "type": "string",
         "description": "徽章类型",
         "description:en-US": "Badge type",
+        "description:pt-BR": "Tipo do emblema (badge)",
         "moreDescription": "可选值：`stars` `issues`。",
-        "moreDescription:en-US": "Supported: `stars` `issues`."
+        "moreDescription:en-US": "Supported: `stars` `issues`.",
+        "moreDescription:pt-BR": "Suporta: `stars` `issues`."
       },
       {
         "name": "hue",
         "type": "number",
         "description": "色调",
         "description:en-US": "Hue",
+        "description:pt-BR": "Ton",
         "moreDescription": "范围：`1` 到 `12`。",
-        "moreDescription:en-US": "Bettween `1` and `12`."
+        "moreDescription:en-US": "Bettween `1` and `12`.",
+        "moreDescription:pt-BR": "Entre `1` e `12`."
       },
       {
         "name": "tint",
         "type": "number",
         "description": "色深",
         "description:en-US": "Tint",
+        "description:pt-BR": "Tonalidade",
         "moreDescription": "范围：`1` 到 `3`。",
-        "moreDescription:en-US": "Bettween `1` and `3`."
+        "moreDescription:en-US": "Bettween `1` and `3`.",
+        "moreDescription:pt-BR": "Entre `1` e `3`."
       },
       {
         "name": "owner",
         "type": "string",
         "description": "Github 用户名",
-        "description:en-US": "Github username"
+        "description:en-US": "Github username",
+        "description:pt-BR": "Nome do usuário no Github"
       },
       {
         "name": "repo",
         "type": "string",
         "description": "Github 仓库名",
-        "description:en-US": "Github repository name"
+        "description:en-US": "Github repository name",
+        "description:pt-BR": "Nome do repositório no Github"
       }
     ],
     "uriTemplate": "https://m3-markdown-badges.vercel.app/{type}/{hue}/{tint}/{owner}/{repo}"
@@ -57,6 +67,7 @@
     {
       "description": "动态徽章",
       "description:en-US": "Dynamic badges",
+      "description:pt-BR": "Emblemas (badges) dinâmicos",
       "alt": "Github Stars",
       "annotate": "ziadOUA/m3-Markdown-Badges",
       "href": "https://m3-markdown-badges.vercel.app/stars/1/2/ziadOUA/m3-Markdown-Badges",
@@ -74,6 +85,7 @@
     {
       "description": "静态徽章",
       "description:en-US": "Static badges",
+      "description:pt-BR": "Emblemas (badges) estáticas",
       "alt": "Github",
       "href": "https://ziadoua.github.io/m3-Markdown-Badges/badges/Github/github2.svg",
       "images": [

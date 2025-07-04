@@ -1,5 +1,6 @@
 {
   "title": "Steam Stats",
+  "title:pt-BR": "Estatísticas do Steam (Steam Stats)",
   "description": "Steam 统计 SVG 生成器。动态创建您的 Steam 统计信息卡，随时随地分享。",
   "description:en-US": "Steam stats svg generator. Create your own Steam stat dynamically and share anywhere.",
   "description:pt-BR": "Geração de estatísticas do Steam no formato SVG. Crie suas próprias estatísticas do Steam dinamicamente e compartilhe em qualquer lugar.",

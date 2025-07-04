@@ -2,10 +2,12 @@
   "title": "WakaTime",
   "description": "WakaTime 可以帮助你实现时间跟踪，记录你每天的编程时间，并展示你编程的习惯、编程语言分布、编程时长等信息。",
   "description:en-US": "WakaTime is a plugin for IDEs/Editors that automatically tracks your programming activity and shows you your coding statistics, including your coding hours, programming languages, and more.",
+  "description:pt-BR": "WakaTime é um plugin para IDEs/editores que rastreia automaticamente sua atividade de programação e mostra suas estatísticas de programação, incluindo suas horas programando, linguagens de programação e muito mais.",
   "alert": {
     "type": "Tip",
     "messages": "WakaTime 存在多种统计图表，这里只简单介绍[项目徽章](https://wakatime.com/share/badges/projects)，更多功能请访问 [WakaTime](https://wakatime.com/) 官网。",
-    "messages:en-US": "WakaTime has many charts for statistics, here we only introduce the [project badges](https://wakatime.com/share/badges/projects), for more features, please visit [WakaTime](https://wakatime.com/) website."
+    "messages:en-US": "WakaTime has many charts for statistics, here we only introduce the [project badges](https://wakatime.com/share/badges/projects), for more features, please visit [WakaTime](https://wakatime.com/) website.",
+    "messages:pt-BR": "WakaTime tem muitos gráficos para estatísticas, aqui apenas apresentamos os [badges do projeto](https://wakatime.com/share/badges/projects), para mais recursos, visite o site do [WakaTime](https://wakatime.com/)."
   },
   "tag": {
     "repo": "https://github.com/wakatime",
@@ -19,25 +21,30 @@
           "name": "userId",
           "type": "string",
           "description": "WakaTime 用户 ID",
-          "description:en-US": "WakaTime User ID"
+          "description:en-US": "WakaTime User ID",
+          "description:pt-BR": "ID do usuário no WakaTime"
         },
         {
           "name": "projectId",
           "type": "string",
           "description": "WakaTime 项目 ID",
-          "description:en-US": "WakaTime Project ID"
+          "description:en-US": "WakaTime Project ID",
+          "description:pt-BR": "ID do Projeto no WakaTime"
         },
         {
           "name": "type",
           "type": "string",
           "description": "徽章类型",
           "description:en-US": "Badge type",
+          "description:pt-BR": "Tipo de badge",
           "moreDescription": "可选值：`svg`、`png`",
-          "moreDescription:en-US": "Supported: `svg` and `png`"
+          "moreDescription:en-US": "Supported: `svg` and `png`",
+          "moreDescription:pt-BR": "Suporta: `svg` e `png`"
         }
       ],
       "description": "WakaTime 项目徽章",
       "description:en-US": "WakaTime Project Badge",
+      "description:pt-BR": "Badge do Projeto WakaTime",
       "uriTemplate": "https://wakatime.com/badge/user/{userId}/project/{projectId}.{type}"
     },
     {
@@ -46,27 +53,33 @@
           "name": "userId",
           "type": "string",
           "description": "WakaTime 用户 ID",
-          "description:en-US": "WakaTime User ID"
+          "description:en-US": "WakaTime User ID",
+          "description:pt-BR": "ID do usuário WakaTime"
         },
         {
           "name": "chartConfigId",
           "type": "string",
           "description": "WakaTime 图表配置 ID",
           "description:en-US": "WakaTime Chart Config ID",
+          "description:pt-BR": "ID de configuração do gráfico no WakaTime",
           "moreDescription": "通过配置自动生成。",
-          "moreDescription:en-US": "Generated automatically by configuration."
+          "moreDescription:en-US": "Generated automatically by configuration.",
+          "moreDescription:pt-BR": "Gerado automaticamente pela configuração."
         },
         {
           "name": "type",
           "type": "string",
           "description": "徽章类型",
           "description:en-US": "Badge type",
+          "description:pt-BR": "Tipo de badge",
           "moreDescription": "可选值：`svg`、`png`",
-          "moreDescription:en-US": "Supported: `svg` and `png`"
+          "moreDescription:en-US": "Supported: `svg` and `png`",
+          "moreDescription:pt-BR": "Suporta: `svg` e `png`"
         }
       ],
       "description": "WakaTime 自定义图表",
       "description:en-US": "WakaTime Custom Chart",
+      "description:pt-BR": "Gráfico customizado do WakaTime",
       "uriTemplate": "https://wakatime.com/share/@{userId}/{chartConfigId}.{type}"
     }
   ],
@@ -86,11 +99,13 @@
       "annotate": "xiaohuohumax/readme-widget-hub",
       "alt": "WakaTime 编码活动",
       "alt:en-US": "WakaTime Coding Activity",
+      "alt:pt-BR": "Atividade de Programação WakaTime",
       "href": "https://wakatime.com/share/@55467317-4c40-41a7-b401-2b15b7a7e3f1/2bf34c99-3246-4d4c-85da-c9bf54d084cc.svg",
       "images": [
         {
           "alt": "WakaTime 编码活动",
           "alt:en-US": "WakaTime Coding Activity",
+          "alt:pt-BR": "Atividade de Programação WakaTime",
           "href": "https://wakatime.com/share/@55467317-4c40-41a7-b401-2b15b7a7e3f1/2bf34c99-3246-4d4c-85da-c9bf54d084cc.svg"
         }
       ]

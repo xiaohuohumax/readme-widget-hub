@@ -1,7 +1,9 @@
 {
   "title": "Widget Bite",
+  "title:pt-BR": "Widget Bite",
   "description": "为你的 README 添加一些小组件（包含：访客计数，投票以及一个好看的 Banner），让你的项目更加生动有趣。",
   "description:en-US": "Add some small components (such as visitor count, voting, and a beautiful banner) to your README to make your project more engaging and interesting.",
+  "description:pt-BR": "Adicione alguns pequenos componentes (como contagem de visitas, votação e um belo banner) ao seu README para tornar seu projeto mais atraente e interessante.",
   "tag": {
     "onlineTool": "https://widgetbite.com/",
     "officialDoc": "https://widgetbite.com/"
@@ -13,11 +15,13 @@
           "name": "username",
           "type": "string",
           "description": "Github 用户名",
-          "description:en-US": "Github username"
+          "description:en-US": "Github username",
+          "description:pt-BR": "Nome do usuário no Github"
         }
       ],
       "description": "访客统计",
       "description:en-US": "Visitor Stats",
+      "description:pt-BR": "Contador de visitas",
       "uriTemplate": "https://widgetbite.com/stats/{username}"
     },
     {
@@ -26,13 +30,15 @@
           "name": "title",
           "type": "string",
           "description": "标题",
-          "description:en-US": "Title"
+          "description:en-US": "Title",
+          "description:pt-BR": "Título"
         },
         {
           "name": "subtitle",
           "type": "string",
           "description": "副标题",
-          "description:en-US": "Subtitle"
+          "description:en-US": "Subtitle",
+          "description:pt-BR": "Legenda"
         },
         {
           "name": "titletransform",
@@ -40,8 +46,10 @@
           "default": "none",
           "description": "标题旋转方式",
           "description:en-US": "Title transform",
+          "description:pt-BR": "Alteração do título",
           "moreDescription": "可选值：`none` `rotate` `skew` `scale`。",
-          "moreDescription:en-US": "Supported: `none` `rotate` `skew` `scale`."
+          "moreDescription:en-US": "Supported: `none` `rotate` `skew` `scale`.",
+          "moreDescription:pt-BR": "Suporta: `none` `rotate` `skew` `scale`."
         },
         {
           "name": "subtitletransform",
@@ -49,8 +57,10 @@
           "default": "none",
           "description": "副标题旋转方式",
           "description:en-US": "Subtitle transform",
+          "description:pt-BR": "Alterar a legenda",
           "moreDescription": "可选值：`none` `rotate` `skew` `scale`。",
-          "moreDescription:en-US": "Supported: `none` `rotate` `skew` `scale`."
+          "moreDescription:en-US": "Supported: `none` `rotate` `skew` `scale`.",
+          "moreDescription:pt-BR": "Suporta: `none` `rotate` `skew` `scale`."
         },
         {
           "name": "fontpalette",
@@ -58,8 +68,10 @@
           "default": "none",
           "description": "文字样式",
           "description:en-US": "Text palette",
+          "description:pt-BR": "Texto da paleta",
           "moreDescription": "可选值：`none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`。",
-          "moreDescription:en-US": "Supported: `none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`."
+          "moreDescription:en-US": "Supported: `none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`.",
+          "moreDescription:pt-BR": "Suporta: `none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`."
         },
         {
           "name": "backgroundpalette",
@@ -67,8 +79,10 @@
           "default": "none",
           "description": "背景样式",
           "description:en-US": "Background palette",
+          "description:pt-BR": "Cor de fundo da paleta",
           "moreDescription": "可选值：`none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`。",
-          "moreDescription:en-US": "Supported: `none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`."
+          "moreDescription:en-US": "Supported: `none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`.",
+          "moreDescription:pt-BR": "Suporta: `none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`."
         }
       ],
       "description": "Banner",
@@ -80,21 +94,25 @@
       "annotate": "xiaohuohumax",
       "alt": "访客统计",
       "alt:en-US": "Visitor Stats",
+      "alt:pt-BR": "Contador de visitas",
       "href": "https://widgetbite.com/stats/xiaohuohumax",
       "images": [
         {
           "alt": "访客统计",
           "alt:en-US": "Visitor Stats",
+          "alt:pt-BR": "Contador de visitas",
           "href": "https://widgetbite.com/stats/xiaohuohumax"
         }
       ]
     },
     {
       "alt": "Banner",
+      "alt:pt-BR": "Banner",
       "href": "https://widgetbite.com/banner?title=Badge%20Collection&subtitle=&backgroundpalette=pastels&fontpalette=pastels&titletransform=rotate",
       "images": [
         {
           "alt": "Banner",
+          "alt:pt-BR": "Faixa",
           "href": "https://widgetbite.com/banner?title=Badge%20Collection&subtitle=&backgroundpalette=pastels&fontpalette=pastels&titletransform=rotate"
         }
       ]

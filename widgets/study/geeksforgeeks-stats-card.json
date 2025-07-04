@@ -1,7 +1,9 @@
 {
   "title": "GeeksForGeeks Stats Card",
+  "title:pt-BR": "Cartão de Estatísticas do GeeksForGeeks (GeeksForGeeks Stats Card)",
   "description": "动态生成的 GeeksForGeeks 统计数据！",
   "description:en-US": "Dynamically generated GeeksForGeeks stats!",
+  "description:pt-BR": "Estatísticas GeeksForGeeks geradas dinamicamente!",
   "tag": {
     "repo": "https://github.com/nikhilpal2705/GeeksforGeeks-Stats-Card",
     "onlineTool": "https://gfgstatscard.vercel.app/",
@@ -13,7 +15,8 @@
         "name": "username",
         "type": "string",
         "description": "GeeksForGeeks 用户名",
-        "description:en-US": "GeeksForGeeks username"
+        "description:en-US": "GeeksForGeeks username",
+        "description:pt-BR": "Nome do usuário no GeeksForGeeks"
       }
     ],
     "querys": [
@@ -23,8 +26,10 @@
         "default": "dark",
         "description": "主题",
         "description:en-US": "Theme",
+        "description:pt-BR": "Tema",
         "moreDescription": "可选值：`dark` `light`。",
-        "moreDescription:en-US": "Supported: `dark` `light`."
+        "moreDescription:en-US": "Supported: `dark` `light`.",
+        "moreDescription:pt-BR": "Suporta: `dark` `light`."
       }
     ],
     "uriTemplate": "https://gfgstatscard.vercel.app/{username}{?theme}"
@@ -33,11 +38,13 @@
     "annotate": "nikhilpal2705",
     "alt": "GeeksforGeeks 统计",
     "alt:en-US": "GeeksforGeeks Stats",
+    "alt::pt-BR": "Estatísticas do GeeksForGeeks",
     "href": "https://gfgstatscard.vercel.app/nikhilpal2705",
     "images": [
       {
         "alt": "GeeksforGeeks 统计",
         "alt:en-US": "GeeksforGeeks Stats",
+        "alt:pt-BR": "Estatísticas do GeeksForGeeks",
         "href": "https://gfgstatscard.vercel.app/nikhilpal2705"
       }
     ]

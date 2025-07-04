@@ -1,11 +1,14 @@
 {
   "title": "Profile Counter",
+  "title:pt-BR": "Contador de Visitas (Profile Counter)",
   "description": "统计访问次数。",
   "description:en-US": "Count the number of visits.",
+  "description:pt-BR": "Contador do número de visitas.",
   "alert": {
     "type": "Note",
     "messages": "此接口暂未找到官方项目地址或文档链接，如有知晓欢迎补充，非常感谢。",
-    "messages:en-US": "This API does not have a official project address or documentation link, if you know, please supplement, thank you very much."
+    "messages:en-US": "This API does not have a official project address or documentation link, if you know, please supplement, thank you very much.",
+    "messages:pt-BR": "Esta API não possui endereço oficial de projeto ou link de documentação, se você souber, por favor complemente, muito obrigado."
   },
   "tag": {},
   "linkRules": {
@@ -14,7 +17,8 @@
         "name": "countId",
         "type": "string",
         "description": "统计 ID",
-        "description:en-US": "The count ID"
+        "description:en-US": "The count ID",
+        "description:pt-BR": "ID do contador"
       }
     ],
     "uriTemplate": "https://profile-counter.glitch.me/{countId}/count.svg"
@@ -23,11 +27,13 @@
     "annotate": "readme-widget-hub",
     "alt": "访问统计",
     "alt:en-US": "Visitor Count",
+    "alt:pt-BR": "Profile Counter",
     "href": "https://profile-counter.glitch.me/readme-widget-hub/count.svg",
     "images": [
       {
         "alt": "访问统计",
         "alt:en-US": "Visitor Count",
+        "alt:pt-BR": "Profile Counter",
         "href": "https://profile-counter.glitch.me/readme-widget-hub/count.svg"
       }
     ]

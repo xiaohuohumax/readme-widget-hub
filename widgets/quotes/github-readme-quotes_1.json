@@ -1,7 +1,9 @@
 {
   "title": "Github Readme Quotes (PiyushSuthar)",
+  "title:pt-BR": "Citações no Readme do Github (PiyushSuthar)",
   "description": "将编程名言添加到你的 README 中。",
   "description:en-US": "Add Programming Quotes To Your GitHub Readme.",
+  "description:pt-BR": "Add Programming Quotes To Your GitHub Readme.",
   "tag": {
     "repo": "https://github.com/PiyushSuthar/github-readme-quotes",
     "officialDoc": "https://github.com/PiyushSuthar/github-readme-quotes?tab=readme-ov-file#usage-%EF%B8%8F"
@@ -14,8 +16,10 @@
         "default": "vertical",
         "description": "类型",
         "description:en-US": "Type",
+        "description:pt-BR": "Tipo",
         "moreDescription": "可选值：`vertical` `horizontal`。",
-        "moreDescription:en-US": "Supported: `vertical` `horizontal`."
+        "moreDescription:en-US": "Supported: `vertical` `horizontal`.",
+        "moreDescription:pt-BR": "Suporta: `vertical` `horizontal`."
       },
       {
         "name": "theme",
@@ -23,30 +27,36 @@
         "default": "light",
         "description": "主题",
         "description:en-US": "Theme",
+        "description:pt-BR": "Tema",
         "moreDescription": "可选值：`dark` `light` `chartreuse-dark` `radical` `merko` `gruvbox` `tokyonight` `catppuccin` `catppuccin_latte` `catppuccin_frappe` `catppuccin_macchiato` `catppuccin_mocha` `algolia` `monokai` `dracula` `nord` `github` `graywhite` `moonlight` `hackerman` `shadow_red` `shadow_green` `shadow_blue`。",
-        "moreDescription:en-US": "Supported: `dark` `light` `chartreuse-dark` `radical` `merko` `gruvbox` `tokyonight` `catppuccin` `catppuccin_latte` `catppuccin_frappe` `catppuccin_macchiato` `catppuccin_mocha` `algolia` `monokai` `dracula` `nord` `github` `graywhite` `moonlight` `hackerman` `shadow_red` `shadow_green` `shadow_blue`."
+        "moreDescription:en-US": "Supported: `dark` `light` `chartreuse-dark` `radical` `merko` `gruvbox` `tokyonight` `catppuccin` `catppuccin_latte` `catppuccin_frappe` `catppuccin_macchiato` `catppuccin_mocha` `algolia` `monokai` `dracula` `nord` `github` `graywhite` `moonlight` `hackerman` `shadow_red` `shadow_green` `shadow_blue`.",
+        "moreDescription:pt-BR": "Suporta: `dark` `light` `chartreuse-dark` `radical` `merko` `gruvbox` `tokyonight` `catppuccin` `catppuccin_latte` `catppuccin_frappe` `catppuccin_macchiato` `catppuccin_mocha` `algolia` `monokai` `dracula` `nord` `github` `graywhite` `moonlight` `hackerman` `shadow_red` `shadow_green` `shadow_blue`."
       },
       {
         "name": "quote",
         "type": "string",
         "description": "名言",
         "description:en-US": "Quote",
+        "description:pt-BR": "Citações",
         "moreDescription": "若为空，则随机获取名言，名言列表：[quotes.json](https://github.com/mudroljub/programming-quotes-api/raw/master/data/quotes.json)。",
-        "moreDescription:en-US": "If empty, a random quote will be retrieved, quote list: [quotes.json](https://github.com/mudroljub/programming-quotes-api/raw/master/data/quotes.json)."
+        "moreDescription:en-US": "If empty, a random quote will be retrieved, quote list: [quotes.json](https://github.com/mudroljub/programming-quotes-api/raw/master/data/quotes.json).",
+        "moreDescription:pt-BR": "Se estiver vazio, uma citação aleatória será recuperada, lista de citações: [quotes.json](https://github.com/mudroljub/programming-quotes-api/raw/master/data/quotes.json)."
       },
       {
         "name": "author",
         "type": "string",
         "default": "Me",
         "description": "名言作者",
-        "description:en-US": "Quote Author"
+        "description:en-US": "Quote Author",
+        "description:pt-BR": "Autor da Citação"
       },
       {
         "name": "border",
         "type": "boolean",
         "default": "false",
         "description": "是否使用边框",
-        "description:en-US": "Use Border"
+        "description:en-US": "Use Border",
+        "description:pt-BR": "Utilizar Borda"
       }
     ],
     "uriTemplate": "https://quotes-github-readme.vercel.app/api{?type,theme,quote,author,border}"
@@ -55,11 +65,13 @@
     {
       "alt": "随机名言",
       "alt:en-US": "Random Quote",
+      "alt:pt-BR": "Citações Aleatórias",
       "href": "https://quotes-github-readme.vercel.app/api?theme=dark&type=horizontal",
       "images": [
         {
           "alt": "随机名言",
           "alt:en-US": "Random Quote",
+          "alt:pt-BR": "Citações Aleatórias",
           "href": "https://quotes-github-readme.vercel.app/api?theme=dark&type=horizontal"
         }
       ]
@@ -67,11 +79,13 @@
     {
       "alt": "随机名言",
       "alt:en-US": "Random Quote",
+      "alt:pt-BR": "Citações Aleatórias",
       "href": "https://quotes-github-readme.vercel.app/api?theme=nord&type=horizontal&border=true",
       "images": [
         {
           "alt": "随机名言",
           "alt:en-US": "Random Quote",
+          "alt:pt-BR": "Citações Aleatórias",
           "href": "https://quotes-github-readme.vercel.app/api?theme=nord&type=horizontal&border=true"
         }
       ]
