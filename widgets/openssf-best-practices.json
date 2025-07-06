@@ -1,7 +1,9 @@
 {
   "title": "OpenSSF Best Practices Badge",
+  "title:pt-BR": "Emblema de Melhores Práticas do OpenSSF (OpenSSF Best Practices Badge)",
   "description": "开源安全基金会（OpenSSF）最佳实践徽章。",
   "description:en-US": "Open Source Security Foundation (OpenSSF) Best Practices Badge.",
+  "description:pt-BR": "Selo de Melhores Práticas de segurança Open Source (OpenSSF).",
   "tag": {
     "repo": "https://github.com/coreinfrastructure/best-practices-badge",
     "onlineTool": "https://www.bestpractices.dev",
@@ -13,7 +15,8 @@
         "name": "id",
         "type": "string",
         "description": "项目 ID",
-        "description:en-US": "Project ID"
+        "description:en-US": "Project ID",
+        "description:pt-BR": "ID do projeto"
       }
     ],
     "uriTemplate": "https://www.bestpractices.dev/projects/{id}/badge"

@@ -1,5 +1,6 @@
 {
   "title": "GitHub Widgetbox",
+  "title:pt-BR": "GitHub Widgetbox",
   "description": "美丽的动态小部件，适用于 GitHub Readme 页面（统计信息、技能等）。",
   "description:en-US": "Beautiful, dynamic widgets for GitHub Readme pages (Statistics, Skills, etc).",
   "description:pt-BR": "Widgets, dinâmicos e lindos, para as páginas Readme do GitHub (Estatísticas, Habilidades, etc).",

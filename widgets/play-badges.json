@@ -2,6 +2,7 @@
   "title": "PlayBadges",
   "description": "展示你的 Play Store 应用的下载量和评分。",
   "description:en-US": "Show off your Play Store™ app's downloads and ratings in your repo.",
+  "description:pt-BR": "Exiba os downloads e as classificações do seu aplicativo na Play Store™ no seu repositório.",
   "tag": {
     "repo": "https://github.com/pavi2410/PlayBadges",
     "officialDoc": "https://github.com/pavi2410/PlayBadges?tab=readme-ov-file#usage"
@@ -13,8 +14,10 @@
         "type": "string",
         "description": "卡片类型",
         "description:en-US": "Card type",
+        "description:pt-BR": "Tipo do cartão",
         "moreDescription": "可选值：`full` `downloads` `ratings`。",
-        "moreDescription:en-US": "Supported: `full` `downloads` `ratings`."
+        "moreDescription:en-US": "Supported: `full` `downloads` `ratings`.",
+        "moreDescription:pt-BR": "Suporta: `full` `downloads` `ratings`."
       }
     ],
     "querys": [
@@ -23,22 +26,26 @@
         "type": "string",
         "required": true,
         "description": "软件包名",
-        "description:en-US": "Package name"
+        "description:en-US": "Package name",
+        "description:pt-BR": "Nome do pacote"
       },
       {
         "name": "pretty",
         "type": "boolean",
         "description": "是否美化显示数字",
         "description:en-US": "Shows the numbers prettily",
+        "description:pt-BR": "Mostra os números de forma elegante",
         "moreDescription": "美化：给数字添加单位符号，例如：`100K`，注意：`&pretty` 表示启用，去除则表示禁用。",
-        "moreDescription:en-US": "Prettify: Adds unit symbols to the numbers, such as: `100K`, note: `&pretty` means enable, and remove it means disable."
+        "moreDescription:en-US": "Prettify: Adds unit symbols to the numbers, such as: `100K`, note: `&pretty` means enable, and remove it means disable.",
+        "moreDescription:pt-BR": "Forma elegante: Adicionar o símbolo de unidade dos números, como o: `100K`, nota: `&pretty` deve está habilitado (enable), e remover quando (disable)."
       },
       {
         "name": "country",
         "type": "string",
         "default": "us",
         "description": "国家代码",
-        "description:en-US": "Country code"
+        "description:en-US": "Country code",
+        "description:pt-BR": "Código da cidade"
       }
     ],
     "uriTemplate": "https://PlayBadges.pavi2410.me/badge/{type}{?id}"
@@ -59,11 +66,13 @@
       "annotate": "pavi2410",
       "alt": "Play Store App 下载量",
       "alt:en-US": "Play Store App Downloads",
+      "alt:pt-BR": "Número de donwloads no App Play Store",
       "href": "https://PlayBadges.pavi2410.me/badge/downloads?id=appinventor.ai_pavitragolchha.VR&pretty",
       "images": [
         {
           "alt": "Play Store App 下载量",
           "alt:en-US": "Play Store App Downloads",
+          "alt:pt-BR": "Número de donwloads no App Play Store",
           "href": "https://PlayBadges.pavi2410.me/badge/downloads?id=appinventor.ai_pavitragolchha.VR&pretty"
         }
       ]
@@ -72,11 +81,13 @@
       "annotate": "pavi2410",
       "alt": "Play Store App 评分",
       "alt:en-US": "Play Store App Ratings",
+      "alt:pt-BR": "Play Store App Ratings",
       "href": "https://PlayBadges.pavi2410.me/badge/ratings?id=appinventor.ai_pavitragolchha.VR",
       "images": [
         {
           "alt": "Play Store App 评分",
           "alt:en-US": "Play Store App Ratings",
+          "alt:pt-BR": "Play Store App Ratings",
           "href": "https://PlayBadges.pavi2410.me/badge/ratings?id=appinventor.ai_pavitragolchha.VR"
         }
       ]

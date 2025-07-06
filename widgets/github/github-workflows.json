@@ -1,5 +1,6 @@
 {
   "title": "GitHub Workflows Badge",
+  "title:pt-BR": "Emblema do Workflows do GitHub (GitHub Workflows Badge)",
   "description": "GitHub 官方徽章，显示你的 GitHub 仓库中正在运行的工作流状态。",
   "description:en-US": "You can display a status badge in your repository to indicate the status of your workflows.",
   "description:pt-BR": "Você pode exibir os status das badges no seu repositório para indicar o status de seus workflows",

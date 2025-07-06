@@ -1,11 +1,14 @@
 {
   "title": "Spotify Recently Played README",
+  "title:pt-BR": "Últimas músicas escutadas no Spotify (Spotify Recently Played README)",
   "description": "在你的 README 中展示最近在 Spotify 上播放的曲目。",
   "description:en-US": "Display your recently played Spotify tracks on your GitHub profile README.",
+  "description:pt-BR": "Exiba suas faixas tocadas recentemente do Spotify no arquivo README do seu perfil do GitHub.",
   "alert": {
     "type": "Tip",
     "messages": "需要授权 Spotify API 才能使用该功能，[授权地址](https://spotify-recently-played-readme.vercel.app/)。",
-    "messages:en-US": "You need to authorize the Spotify API to use this feature, [authorization address](https://spotify-recently-played-readme.vercel.app/)."
+    "messages:en-US": "You need to authorize the Spotify API to use this feature, [authorization address](https://spotify-recently-played-readme.vercel.app/).",
+    "messages:pt-BR": "Você precisa autorizar a API do Spotify para usar este recurso, [link para autorização](https://spotify-recently-played-readme.vercel.app/)."
   },
   "tag": {
     "repo": "https://github.com/JeffreyCA/spotify-recently-played-readme",
@@ -18,7 +21,8 @@
         "name": "user",
         "type": "string",
         "description": "Spotify 用户名",
-        "description:en-US": "Spotify username"
+        "description:en-US": "Spotify username",
+        "description:pt-BR": "Nome do Usuário no Spotify"
       },
       {
         "name": "count",
@@ -26,8 +30,10 @@
         "default": "5",
         "description": "自定义曲目数量",
         "description:en-US": "Custom track count",
+        "description:pt-BR": "Contagem personalizada de faixas",
         "moreDescription": "范围：`1` 到 `10`。",
-        "moreDescription:en-US": "Range: `1` to `10`."
+        "moreDescription:en-US": "Range: `1` to `10`.",
+        "moreDescription:pt-BR": "Faixa: `1` até `10`."
       },
       {
         "name": "width",
@@ -35,8 +41,10 @@
         "default": "400",
         "description": "自定义卡片宽度",
         "description:en-US": "Custom track count",
+        "description:pt-BR": "Contagem personalizada de faixas",
         "moreDescription": "范围：`300` 到 `1000`。",
-        "moreDescription:en-US": "Range: `300` to `1000`."
+        "moreDescription:en-US": "Range: `300` to `1000`.",
+        "moreDescription:pt-BR": "Faixa: `300` até `1000`."
       },
       {
         "name": "unique",
@@ -44,8 +52,10 @@
         "default": "false",
         "description": "是否显示最近播放列表中的唯一曲目",
         "description:en-US": "Whether to show only unique tracks in the recently played list",
+        "description:pt-BR": "Exibir somente as faixas exclusivas na lista reproduzida recentemente",
         "moreDescription": "可选值：`false` `true` `on` `yes` `1`。",
-        "moreDescription:en-US": "Supported: `false` `true` `on` `yes` `1`."
+        "moreDescription:en-US": "Supported: `false` `true` `on` `yes` `1`.",
+        "moreDescription:pt-BR": "Suporta: `false` `true` `on` `yes` `1`."
       }
     ],
     "uriTemplate": "https://spotify-recently-played-readme.vercel.app/api{?user,count,width,unique}"

@@ -1,7 +1,9 @@
 {
   "title": "Star History",
+  "title:pt-BR": "Star History",
   "description": "Star History 一个可以显示 GitHub 项目的 star 历史图的徽章。",
   "description:en-US": "The missing star history graph of GitHub repos.",
+  "description:pt-BR": "O gráfico com o histórico de estrelas ausentes no repositório do GitHub.",
   "tag": {
     "repo": "https://github.com/star-history/star-history",
     "onlineTool": "https://www.star-history.com",
@@ -15,16 +17,20 @@
         "required": true,
         "description": "仓库名",
         "description:en-US": "Repository name",
+        "description:pt-BR": "Nome do repositório",
         "moreDescription": "多个仓库名用 `,` 分隔，例如：`owner1/repo1,owner2/repo2`。",
-        "moreDescription:en-US": "Multiple repository names separated by `,`, such as: `owner1/repo1,owner2/repo2`."
+        "moreDescription:en-US": "Multiple repository names separated by `,`, such as: `owner1/repo1,owner2/repo2`.",
+        "moreDescription:pt-BR": "Diversos modos de separar os nomes dos repositórios com a `,`, por exemplo: `owner1/repo1,owner2/repo2`."
       },
       {
         "name": "type",
         "type": "string",
         "description": "显示类型",
         "description:en-US": "Display type",
+        "description:pt-BR": "Tipo exibido",
         "moreDescription": "可选值：`Date` `Timeline`。",
-        "moreDescription:en-US": "Supported: `Date` `Timeline`."
+        "moreDescription:en-US": "Supported: `Date` `Timeline`.",
+        "moreDescription:pt-BR": "Suporta: `Date` `Timeline`."
       }
     ],
     "uriTemplate": "https://api.star-history.com/svg{?repos,type}"

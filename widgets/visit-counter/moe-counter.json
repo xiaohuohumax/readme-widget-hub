@@ -1,7 +1,9 @@
 {
   "title": "Moe Counter",
+  "title:pt-BR": "Contador de Visitas (Moe Counter)",
   "description": "多种风格可选的萌萌计数器。",
   "description:en-US": "Moe counter badge with multiple themes。",
+  "description:pt-BR": "Moe é um badge contador de visitas com vários temas。",
   "tag": {
     "repo": "https://github.com/journey-ad/Moe-Counter",
     "onlineTool": "https://count.getloli.com/",
@@ -14,8 +16,10 @@
         "type": "string",
         "description": "计数器 ID",
         "description:en-US": "Unique counter name",
+        "description:pt-BR": "Nome exclusivo do contador",
         "moreDescription": "不能包含特殊字符。",
-        "moreDescription:en-US": "Not allowed to contain special characters."
+        "moreDescription:en-US": "Not allowed to contain special characters.",
+        "moreDescription:pt-BR": "Não é permitido contar caracteres especiais."
       }
     ],
     "querys": [
@@ -25,8 +29,10 @@
         "default": "moebooru",
         "description": "主题",
         "description:en-US": "Select a counter image theme",
+        "description:pt-BR": "Selecione um tema de imagem de contador",
         "moreDescription": "可选值：`random` `3d-num` `ai-1` `asoul` `booru-ffsr` `moebooru`，更多主题：[More theme](https://github.com/journey-ad/Moe-Counter?tab=readme-ov-file#more-theme)。",
-        "moreDescription:en-US": "Supported: `random` `3d-num` `ai-1` `asoul` `booru-ffsr` `moebooru`. More themes: [More theme](https://github.com/journey-ad/Moe-Counter?tab=readme-ov-file#more-theme)."
+        "moreDescription:en-US": "Supported: `random` `3d-num` `ai-1` `asoul` `booru-ffsr` `moebooru`. More themes: [More theme](https://github.com/journey-ad/Moe-Counter?tab=readme-ov-file#more-theme).",
+        "moreDescription:pt-BR": "Suporta: `random` `3d-num` `ai-1` `asoul` `booru-ffsr` `moebooru`. Mais temas: [Mais opções de temas](https://github.com/journey-ad/Moe-Counter?tab=readme-ov-file#more-theme)."
       },
       {
         "name": "padding",
@@ -34,8 +40,10 @@
         "default": "7",
         "description": "最小长度",
         "description:en-US": "Set the minimum length",
+        "description:pt-BR": "Defina o comprimento mínimo",
         "moreDescription": "范围：`1` 到 `17`。",
-        "moreDescription:en-US": "Bettwen `1` and `17`."
+        "moreDescription:en-US": "Bettwen `1` and `17`.",
+        "moreDescription:pt-BR": "Entre `1` e `17`."
       },
       {
         "name": "offset",
@@ -43,8 +51,10 @@
         "default": "0",
         "description": "像素偏移值",
         "description:en-US": "Set the offset pixel value",
+        "description:pt-BR": "Defina o valor do pixel de deslocamento",
         "moreDescription": "范围：`-500` 到 `500`。",
-        "moreDescription:en-US": "Bettwen `-500` and `500`."
+        "moreDescription:en-US": "Bettwen `-500` and `500`.",
+        "moreDescription:pt-BR": "Entre `-500` e `500`."
       },
       {
         "name": "scale",
@@ -52,8 +62,10 @@
         "default": "1",
         "description": "图像缩放比例",
         "description:en-US": "Set the image scale",
+        "description:pt-BR": "Definir a escala da imagem",
         "moreDescription": "范围：`0.1` 到 `2`。",
-        "moreDescription:en-US": "Bettwen `0.1` and `2`."
+        "moreDescription:en-US": "Bettwen `0.1` and `2`.",
+        "moreDescription:pt-BR": "Entre `0.1` e `2`."
       },
       {
         "name": "align",
@@ -61,8 +73,10 @@
         "default": "top",
         "description": "图像对齐方式",
         "description:en-US": "Set the image align",
+        "description:pt-BR": "Definir o alinhamento da",
         "moreDescription": "可选值：`top` `bottom` `center`。",
-        "moreDescription:en-US": "Supported: `top` `bottom` `center`."
+        "moreDescription:en-US": "Supported: `top` `bottom` `center`.",
+        "moreDescription:pt-BR": "Suporta: `top` `bottom` `center`."
       },
       {
         "name": "pixelated",
@@ -70,8 +84,10 @@
         "default": "1",
         "description": "是否启用像素化模式",
         "description:en-US": "Enable pixelated mode",
+        "description:pt-BR": "Habilitar modo pixelado",
         "moreDescription": "可选值：`0` `1`。",
-        "moreDescription:en-US": "Supported: `0` `1`."
+        "moreDescription:en-US": "Supported: `0` `1`.",
+        "moreDescription:pt-BR": "Suporta: `0` `1`."
       },
       {
         "name": "darkmode",
@@ -79,8 +95,10 @@
         "default": "auto",
         "description": "是否启用暗黑模式",
         "description:en-US": "Enable dark mode",
+        "description:pt-BR": "Habilitar o modo escuro",
         "moreDescription": "可选值：`0` `1` `auto`。",
-        "moreDescription:en-US": "Supported: `0` `1` `auto`."
+        "moreDescription:en-US": "Supported: `0` `1` `auto`.",
+        "moreDescription:pt-BR": "Suporta: `0` `1` `auto`."
       },
       {
         "name": "num",
@@ -88,16 +106,20 @@
         "default": "0",
         "description": "统计数字",
         "description:en-US": "Set counter display number",
+        "description:pt-BR": "Definir número de exibição do contador",
         "moreDescription": "`0` 代表禁用，如设置后将不再有统计计数效果，仅显示配置的数字。",
-        "moreDescription:en-US": "`0` for disable, if set, the counter will not count, only display the configured number."
+        "moreDescription:en-US": "`0` for disable, if set, the counter will not count, only display the configured number.",
+        "moreDescription:pt-BR": "`0` para desabilitar, se definido, o contador não contará, exibirá apenas o número configurado."
       },
       {
         "name": "prefix",
         "type": "number",
         "description": "统计数字前缀数字",
         "description:en-US": "Set the prefix number",
+        "description:pt-BR": "Defina o número do prefixo",
         "moreDescription": "在统计数字前添加的数字，最大：`999999`，留空则不启用。",
-        "moreDescription:en-US": "The maximum value is `999999`, empty for disable."
+        "moreDescription:en-US": "The maximum value is `999999`, empty for disable.",
+        "moreDescription:pt-BR": "O valor máximo e `999999`, vazio para desabilitar."
       }
     ],
     "uriTemplate": "https://count.getloli.com/@{countId}{?theme,padding,offset,scale,align,pixelated,darkmode,num,prefix}"
@@ -106,11 +128,13 @@
     "annotate": "xiaohuohumax/readme-widget-hub",
     "alt": "萌萌计数器",
     "alt:en-US": "Moe Counter",
+    "alt:pt-BR": "Contador de Visitas Moe",
     "href": "https://count.getloli.com/@xiaohuohumax-readme-widget-hub",
     "images": [
       {
         "alt": "萌萌计数器",
         "alt:en-US": "Moe Counter",
+        "alt:pt-BR": "Contador de Visitas Moe",
         "href": "https://count.getloli.com/@xiaohuohumax-readme-widget-hub"
       }
     ]

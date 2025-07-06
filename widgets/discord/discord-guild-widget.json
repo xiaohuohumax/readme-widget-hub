@@ -1,5 +1,6 @@
 {
   "title": "Discord Guild Widget",
+  "title:pt-BR": "Widget da Guilda do Discord (Discord Guild Widget)",
   "description": "返回一个公会 PNG 图像小部件, 无需权限或身份验证。",
   "description:en-US": "Returns a PNG image widget for the guild, Requires no permissions or authentication.",
   "description:pt-BR": "Retorna um widget da imagem PNG para a guilda. Não requer permissões ou autenticações.",
