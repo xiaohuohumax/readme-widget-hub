@@ -1,4 +1,5 @@
 {
+  "enabled": false,
   "title": "Credly GitHub Readme Widgets",
   "title:pt-BR": "Credly GitHub Readme Widgets",
   "description": "Get dynamically generated widgets with your Credly certifications for your GitHub profile README.",

@@ -1,12 +1,11 @@
 {
   "title": "Codewars Profile Badges",
   "title:pt-BR": "Faixas do Codewars (Codewars Profile Badges)",
-  "description": "The following are badges and SVG format. They come in 3 different sizes and can be embedded anywhere you want. The images will update automatically each time they are loaded from Codewars' servers.",
+  "description": "以下是徽章和 SVG 格式。它们有3种不同的尺寸，可以嵌入到您想要的任何地方。每次从 Codewars 的服务器加载图像时，这些图像都会自动更新。",
   "description:en-US": "The following are badges and SVG format. They come in 3 different sizes and can be embedded anywhere you want. The images will update automatically each time they are loaded from Codewars' servers.",
   "description:pt-BR": "A seguir, faixas no formato SVG. Elas têm em 3 tamanhos diferentes e podem ser adicionados onde você quiser. As imagens serão atualizadas automaticamente sempre que forem carregadas dos servidores do Codewars.",
   "tag": {
     "repo": "https://github.com/codewars",
-    "onlineTool": "https://www.codewars.com/",
     "officialDoc": "https://docs.codewars.com/"
   },
   "linkRules": {
@@ -14,19 +13,17 @@
       {
         "name": "username",
         "type": "string",
-        "description": "Codewars",
+        "description": "Codewars 用户名",
         "description:en-US": "Codewars username",
         "description:pt-BR": "Nome do usuário no Codewars"
-      }
-    ],
-    "querys": [
+      },
       {
         "name": "size",
         "type": "string",
-        "description": "Codewars badge size",
+        "description": "徽章大小",
         "description:en-US": "Codewars badge size",
         "description:pt-BR": "Tamanho da faixa do Codewars",
-        "moreDescription": "Support: `large`, `small`, `micro`.",
+        "moreDescription": "可选值：`large`, `small`, `micro`。",
         "moreDescription:en-US": "Support: `large`, `small`, `micro`.",
         "moreDescription:pt-BR": "Suporta: `large`, `small`, `micro`."
       }
@@ -36,27 +33,13 @@
   "examples": {
     "annotate": "mayannaoliveira",
     "alt": "Codewars Profile Badges",
-    "alt:en-US": "Codewars Profile Badges",
     "alt:pt-BR": "Faixa do Codewars",
     "href": "https://www.codewars.com/users/mayannaoliveira/badges/large",
     "images": [
       {
         "alt": "Codewars Profile Badges",
-        "alt:en-US": "Codewars Profile Badges",
         "alt:pt-BR": "Faixa do Codewars",
         "href": "https://www.codewars.com/users/mayannaoliveira/badges/large"
-      },
-      {
-        "alt": "Codewars Profile Badges",
-        "alt:en-US": "Codewars Profile Badges",
-        "alt:pt-BR": "Faixa do Codewars",
-        "href": "https://www.codewars.com/users/mayannaoliveira/badges/small"
-      },
-      {
-        "alt": "Codewars Profile Badges",
-        "alt:en-US": "Codewars Profile Badges",
-        "alt:pt-BR": "Faixa do Codewars",
-        "href": "https://www.codewars.com/users/mayannaoliveira/badges/micro"
       }
     ]
   }

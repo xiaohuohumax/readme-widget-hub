@@ -1,0 +1,90 @@
+{
+  "title": "Github Readme Codewars",
+  "title:pt-BR": "Codewars no Readme do Github (Github Readme Codewars)",
+  "description": "在您的个人 README 上显示您的 Codewars 统计信息。",
+  "description:en-US": "Display your Codewars stats on your profile README.",
+  "description:pt-BR": "Exibe as estatísticas do Codewars no seu perfil README.",
+  "tag": {
+    "repo": "https://github.com/ignacio-cuadra/github-readme-codewars",
+    "officialDoc": "https://github.com/ignacio-cuadra/github-readme-codewars"
+  },
+  "linkRules": {
+    "querys": [
+      {
+        "name": "username",
+        "type": "string",
+        "required": true,
+        "description": "Codewars 用户名",
+        "description:en-US": "Codewars username",
+        "description:pt-BR": "Nome do usuário no Codewars"
+      },
+      {
+        "name": "theme",
+        "type": "string",
+        "default": "default",
+        "description": "主题",
+        "description:en-US": "Theme",
+        "description:pt-BR": "Tema",
+        "moreDescription": "支持: `default`, `light`,`dark`, `halloween`, `hacker` or `dracula`。",
+        "moreDescription:en-US": "Support: `default`, `light`,`dark`, `halloween`, `hacker` or `dracula`.",
+        "moreDescription:pt-BR": "Suporta: `default`, `light`,`dark`, `halloween`, `hacker` or `dracula`."
+      },
+      {
+        "name": "backgroundColor",
+        "type": "number",
+        "default": "#fffefe",
+        "description": "背景颜色",
+        "description:en-US": "Background color",
+        "description:pt-BR": "Cor de fundo do Codewars",
+        "moreDescription": "背景颜色为十六进制、RGB 或 RGBA 值。",
+        "moreDescription:en-US": "Background color in hex, rgb or rgba color.",
+        "moreDescription:pt-BR": "Cor de fundo em hex, rgb ou rgba."
+      },
+      {
+        "name": "borderColor",
+        "type": "number",
+        "default": "#f2f0f0",
+        "description": "边框颜色",
+        "description:en-US": "Border color",
+        "description:pt-BR": "Cor da borda",
+        "moreDescription": "边框颜色为十六进制、RGB 或 RGBA 值。",
+        "moreDescription:en-US": "Border color in hex, rgb or rgba color.",
+        "moreDescription:pt-BR": "Cor da borda em hex, rgb or rgba color."
+      },
+      {
+        "name": "textColor",
+        "type": "number",
+        "default": "#171717",
+        "description": "文本颜色",
+        "description:en-US": "Text color",
+        "description:pt-BR": "Cor do texto",
+        "moreDescription": "文本颜色为十六进制、RGB 或 RGBA 值。",
+        "moreDescription:en-US": "Text color in hex, rgb or rgba color.",
+        "moreDescription:pt-BR": "Cor do texto em hex, rgb or rgba color."
+      },
+      {
+        "name": "primaryColor",
+        "type": "number",
+        "default": "#1f87e7",
+        "description": "主要颜色",
+        "description:en-US": "Primary color",
+        "description:pt-BR": "Cor primária",
+        "moreDescription": "主要颜色为十六进制、RGB 或 RGBA 值。",
+        "moreDescription:en-US": "Color of symbol in hex, rgb or rgba color.",
+        "moreDescription:pt-BR": "Cor do símbolo em hexadecimal, rgb ou rgba."
+      }
+    ],
+    "uriTemplate": "https://codewars-stats-ignacio-cuadra.vercel.app/{?username,theme,backgroundColor,borderColor,textColor,primaryColor}"
+  },
+  "examples": {
+    "annotate": "Github Readme Codewars",
+    "alt": "Github Readme Codewars",
+    "href": "https://codewars-stats-ignacio-cuadra.vercel.app/?username=ignacio-cuadra",
+    "images": [
+      {
+        "alt": "Github Readme Codewars",
+        "href": "https://codewars-stats-ignacio-cuadra.vercel.app/?username=ignacio-cuadra"
+      }
+    ]
+  }
+}

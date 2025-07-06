@@ -1,4 +1,5 @@
 {
+  "enabled": false,
   "title": "GitHub Readme Profile",
   "title:pt-BR": "GitHub Readme Profile",
   "description": "Generate your Stats GitHub Profile in SVG.",
