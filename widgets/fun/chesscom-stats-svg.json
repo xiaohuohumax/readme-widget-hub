@@ -1,28 +1,27 @@
 {
+  "enabled": false,
   "title": "Chess.com Stats SVG Generator",
   "title:pt-BR": "Chess.com Stats SVG Generator",
   "description": "This project is a web service that dynamically generates SVG images displaying chess statistics for a given Chess.com user.",
   "description:en-US": "This project is a web service that dynamically generates SVG images displaying chess statistics for a given Chess.com user.",
-  "description:pt-BR": "This project is a web service that dynamically generates SVG images displaying chess statistics for a given Chess.com user.",
+  "description:pt-BR": "Este projeto é um serviço web que gera dinamicamente imagens SVG exibindo estatísticas de xadrez de um determinado usuário do Chess.com.",
   "tag": {
     "repo": "https://github.com/Prathamesh-B/chesscom-stats-svg",
     "onlineTool": "https://www.chess.com",
     "officialDoc": "https://github.com/Prathamesh-B/chesscom-stats-svg"
   },
   "linkRules": {
-    "params": [
+    "querys": [
       {
         "name": "username",
         "type": "string",
         "description": "Username registered in Chess.com website",
         "description:en-US": "Username registered in Chess.com website",
         "description:pt-BR": "Nome do usuário registrado site do Chess.com",
-        "moreDescription": "Example: `mayannait`",
-        "moreDescription:en-US": "Example: `mayannait`",
-        "moreDescription:pt-BR": "Exemplo: `mayannait`"
-      }
-    ],
-    "querys": [
+        "moreDescription": "Example: `PrathamRex`",
+        "moreDescription:en-US": "Example: `PrathamRex`",
+        "moreDescription:pt-BR": "Exemplo: `PrathamRex`"
+      },
       {
         "name": "theme",
         "type": "string",
@@ -52,12 +51,12 @@
         "description": "Disable animations",
         "description:en-US": "Disable animations",
         "description:pt-BR": "Desabilitar animações",
-        "moreDescription": "Supported：`true` or `false`.",
-        "moreDescription:en-US": "Supported：`true` or `false`.",
-        "moreDescription:pt-BR": "Suporta：`true` or `false`."
+        "moreDescription": "Supported: `true` or `false`.",
+        "moreDescription:en-US": "Supported: `true` or `false`.",
+        "moreDescription:pt-BR": "Suporta: `true` or `false`."
       }
     ],
-    "uriTemplate": "http://your-vercel-url/stats?username={Chess.com Username}&theme={theme}"
+    "uriTemplate": "http://your-vercel-url/stats{?username,theme}"
   },
   "examples": [
     {
@@ -68,13 +67,13 @@
       "alt": "Chess.com Stats SVG Generator",
       "alt:en-US": "Chess.com Stats with default theme",
       "alt:pt-BR": "Chess.com Stats with default theme",
-      "href": "https://chesscom-stats-svg.vercel.app/stats?username=mayannait&theme=default",
+      "href": "https://chesscom-stats-svg.vercel.app/stats?username=PrathamRex&theme=default",
       "images": [
         {
           "alt": "Chess.com Stats SVG Generator",
           "alt:en-US": "Default theme",
           "alt:pt-BR": "Tema default",
-          "href": "https://chesscom-stats-svg.vercel.app/stats?username=mayannait&theme=default"
+          "href": "https://chesscom-stats-svg.vercel.app/stats?username=PrathamRex&theme=default"
         }
       ]
     },
@@ -86,13 +85,13 @@
       "alt": "Chess.com Stats SVG Generator",
       "alt:en-US": "Chess.com Stats with dark theme",
       "alt:pt-BR": "Chess.com Stats with dark theme",
-      "href": "https://chesscom-stats-svg.vercel.app/stats?username=mayannait&theme=dark",
+      "href": "https://chesscom-stats-svg.vercel.app/stats?username=PrathamRex&theme=dark",
       "images": [
         {
           "alt": "Chess.com Stats SVG Generator",
           "alt:en-US": "Default theme",
           "alt:pt-BR": "Tema default",
-          "href": "https://chesscom-stats-svg.vercel.app/stats?username=mayannait&theme=dark"
+          "href": "https://chesscom-stats-svg.vercel.app/stats?username=PrathamRex&theme=dark"
         }
       ]
     },
@@ -104,13 +103,13 @@
       "alt": "Chess.com Stats SVG Generator",
       "alt:en-US": "Chess.com Stats with graywhite theme",
       "alt:pt-BR": "Chess.com Stats with graywhite theme",
-      "href": "https://chesscom-stats-svg.vercel.app/stats?username=mayannait&theme=graywhite",
+      "href": "https://chesscom-stats-svg.vercel.app/stats?username=PrathamRex&theme=graywhite",
       "images": [
         {
           "alt": "Chess.com Stats SVG Generator",
           "alt:en-US": "Default theme",
           "alt:pt-BR": "Tema default",
-          "href": "https://chesscom-stats-svg.vercel.app/stats?username=mayannait&theme=graywhite"
+          "href": "https://chesscom-stats-svg.vercel.app/stats?username=PrathamRex&theme=graywhite"
         }
       ]
     },
@@ -122,13 +121,13 @@
       "alt": "Chess.com Stats SVG Generator",
       "alt:en-US": "Chess.com Stats with light theme",
       "alt:pt-BR": "Chess.com Stats with light theme",
-      "href": "https://chesscom-stats-svg.vercel.app/stats?username=mayannait&theme=light",
+      "href": "https://chesscom-stats-svg.vercel.app/stats?username=PrathamRex&theme=light",
       "images": [
         {
           "alt": "Chess.com Stats SVG Generator",
           "alt:en-US": "Default theme",
           "alt:pt-BR": "Tema default",
-          "href": "https://chesscom-stats-svg.vercel.app/stats?username=mayannait&theme=light"
+          "href": "https://chesscom-stats-svg.vercel.app/stats?username=PrathamRex&theme=light"
         }
       ]
     }

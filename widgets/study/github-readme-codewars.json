@@ -1,4 +1,5 @@
 {
+  "enabled": true,
   "title": "Github Readme Codewars",
   "title:pt-BR": "Codewars no Readme do Github (Github Readme Codewars)",
   "description": "Display your Codewars stats on your profile README.",
@@ -10,19 +11,17 @@
     "officialDoc": "https://github.com/ignacio-cuadra/github-readme-codewars"
   },
   "linkRules": {
-    "params": [
+    "querys": [
       {
         "name": "username",
         "type": "string",
         "description": "Codewars",
         "description:en-US": "Codewars username",
         "description:pt-BR": "Nome do usuário no Codewars",
-        "moreDescription": "Example: `mayannaoliveira`.",
-        "moreDescription:en-US": "Example: `mayannaoliveira`.",
-        "moreDescription:pt-BR": "Exemplo: `mayannaoliveira`."
-      }
-    ],
-    "querys": [
+        "moreDescription": "Example: `ignacio-cuadra`.",
+        "moreDescription:en-US": "Example: `ignacio-cuadra`.",
+        "moreDescription:pt-BR": "Exemplo: `ignacio-cuadra`."
+      },
       {
         "name": "theme",
         "type": "string",
@@ -79,45 +78,81 @@
         "moreDescription:pt-BR": "Cor do símbolo em hexadecimal, rgb ou rgba: `1f87e`."
       }
     ],
-    "uriTemplate": "https://codewars-stats-ignacio-cuadra.vercel.app/?username={username}&theme={theme}"
+    "uriTemplate": "https://codewars-stats-ignacio-cuadra.vercel.app/{?username,theme}"
   },
-  "examples": {
-    "annotate": "Github Readme Codewars",
-    "alt": "Github Readme Codewars",
-    "alt:en-US": "Github Readme Codewars",
-    "alt:pt-BR": "Github Readme Codewars",
-    "href": "https://codewars-stats-ignacio-cuadra.vercel.app/?username=mayannaoliveira&theme={theme}",
-    "images": [
-      {
-        "alt": "Github Readme Codewars",
-        "alt:en-US": "Github Readme Codewars",
-        "alt:pt-BR": "Faixa do Codewars",
-        "href": "https://codewars-stats-ignacio-cuadra.vercel.app/?username=mayannaoliveira"
-      },
-      {
-        "alt": "Github Readme Codewars",
-        "alt:en-US": "Github Readme Codewars",
-        "alt:pt-BR": "Faixa do Codewars",
-        "href": "https://codewars-stats-ignacio-cuadra.vercel.app/?username=mayannaoliveira&theme=dark"
-      },
-      {
-        "alt": "Github Readme Codewars",
-        "alt:en-US": "Github Readme Codewars",
-        "alt:pt-BR": "Faixa do Codewars",
-        "href": "https://codewars-stats-ignacio-cuadra.vercel.app/?username=mayannaoliveira&theme=dracula"
-      },
-      {
-        "alt": "Github Readme Codewars",
-        "alt:en-US": "Github Readme Codewars",
-        "alt:pt-BR": "Faixa do Codewars",
-        "href": "https://codewars-stats-ignacio-cuadra.vercel.app/?username=mayannaoliveira&theme=hacker"
-      },
-      {
-        "alt": "Github Readme Codewars",
-        "alt:en-US": "Github Readme Codewars",
-        "alt:pt-BR": "Faixa do Codewars",
-        "href": "https://codewars-stats-ignacio-cuadra.vercel.app/?username=mayannaoliveira&theme=halloween"
-      }
-    ]
-  }
+  "examples": [
+    {
+      "description": "Default theme",
+      "description:en-US": "Default theme",
+      "description:pt-BR": "Tema padrão",
+      "annotate": "Github Readme Codewars",
+      "alt": "Github Readme Codewars",
+      "alt:en-US": "Github Readme Codewars",
+      "alt:pt-BR": "Github Readme Codewars",
+      "href": "https://codewars-stats-ignacio-cuadra.vercel.app/?username=ignacio-cuadra",
+      "images": [
+        {
+
+          "alt": "Github Readme Codewars",
+          "alt:en-US": "Github Readme Codewars",
+          "alt:pt-BR": "Faixa do Codewars",
+          "href": "https://codewars-stats-ignacio-cuadra.vercel.app/?username=ignacio-cuadra"
+        }
+      ]
+    },
+    {
+      "description": "Dark theme",
+      "description:en-US": "Dark theme",
+      "description:pt-BR": "Tema escuro",
+      "annotate": "Github Readme Codewars",
+      "alt": "Github Readme Codewars",
+      "alt:en-US": "Github Readme Codewars",
+      "alt:pt-BR": "Github Readme Codewars",
+      "href": "https://codewars-stats-ignacio-cuadra.vercel.app/?username=ignacio-cuadra&theme=dark",
+      "images": [
+        {
+          "alt": "Github Readme Codewars",
+          "alt:en-US": "Github Readme Codewars",
+          "alt:pt-BR": "Faixa do Codewars",
+          "href": "https://codewars-stats-ignacio-cuadra.vercel.app/?username=ignacio-cuadra&theme=dark"
+        }
+      ]
+    },
+    {
+      "description": "Dracula theme",
+      "description:en-US": "Dracula theme",
+      "description:pt-BR": "Tema dracula",
+      "annotate": "Github Readme Codewars",
+      "alt": "Github Readme Codewars",
+      "alt:en-US": "Github Readme Codewars",
+      "alt:pt-BR": "Github Readme Codewars",
+      "href": "https://codewars-stats-ignacio-cuadra.vercel.app/?username=ignacio-cuadra&theme=dracula",
+      "images": [
+        {
+          "alt": "Github Readme Codewars",
+          "alt:en-US": "Github Readme Codewars",
+          "alt:pt-BR": "Faixa do Codewars",
+          "href": "https://codewars-stats-ignacio-cuadra.vercel.app/?username=ignacio-cuadra&theme=dracula"
+        }
+      ]
+    },
+    {
+      "description": "Halloween theme",
+      "description:en-US": "Halloween theme",
+      "description:pt-BR": "Tema halloween",
+      "annotate": "Github Readme Codewars",
+      "alt": "Github Readme Codewars",
+      "alt:en-US": "Github Readme Codewars",
+      "alt:pt-BR": "Github Readme Codewars",
+      "href": "https://codewars-stats-ignacio-cuadra.vercel.app/?username=ignacio-cuadra&theme=halloween",
+      "images": [
+        {
+          "alt": "Github Readme Codewars",
+          "alt:en-US": "Github Readme Codewars",
+          "alt:pt-BR": "Faixa do Codewars",
+          "href": "https://codewars-stats-ignacio-cuadra.vercel.app/?username=ignacio-cuadra&theme=halloween"
+        }
+      ]
+    }
+  ]
 }

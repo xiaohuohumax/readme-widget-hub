@@ -1,0 +1,127 @@
+{
+  "enabled": false,
+  "title": "Philosophical Quotes Generator",
+  "title:pt-BR": "Gerador de Citações Filosóficas (Philosophical Quotes Generator)",
+  "description": "The philosophical quotes generator is an API that allows you to add a philosophical quote image to your GitHub README.",
+  "description:en-US": "The philosophical quotes generator is an API that allows you to add a philosophical quote image to your GitHub README.",
+  "description:pt-BR": "O Philosophical Quotes Generator gera citações filosóficas é uma API que permite adicionar uma imagem de citação filosófica ao seu README do GitHub",
+  "tag": {
+    "repo": "https://github.com/markstanl/github-readme-philosophical-quotes/",
+    "onlineTool": "https://philosophical-quotes-demo-site.vercel.app/",
+    "officialDoc": "https://github.com/markstanl/github-readme-philosophical-quotes/"
+  },
+  "linkRules": {
+    "querys": [
+      {
+        "name": "author",
+        "type": "string",
+        "description": "This parameter allows you to filter the quotes by the name of the philosopher who said the quote. It is case-insensitive.",
+        "description:en-US": "This parameter allows you to filter the quotes by the name of the philosopher who said the quote. It is case-insensitive.",
+        "description:pt-BR": "Este parâmetro permite filtrar as citações pelo nome do filósofo que as proferiu. Não diferencia letras maiúsculas de minúsculas.",
+        "moreDescription": "Example: `&author=Jean-Jacques Rousseau`.",
+        "moreDescription:en-US": "Example: `&author=Jean-Jacques Rousseau`.",
+        "moreDescription:pt-BR": "Exemplo: `&author=Jean-Jacques Rousseau`."
+      },
+      {
+        "name": "theme",
+        "type": "string",
+        "default": "default",
+        "description": "This parameter allows you to filter the quotes by the theme, i.e., the color scheme, [available themes](https://github.com/markstanl/github-readme-philosophical-quotes/blob/express/theme/README.md).",
+        "description:en-US": "This parameter allows you to filter the quotes by the theme, i.e., the color scheme, [available themes](https://github.com/markstanl/github-readme-philosophical-quotes/blob/express/theme/README.md).",
+        "description:pt-BR": "Este parâmetro permite filtrar as citações por tema, ou seja, pelo esquema de cores, [temas disponíveis](https://github.com/markstanl/github-readme-philosophical-quotes/blob/express/theme/README.md).",
+        "moreDescription": "Supported: `dark`, `chartreuse-dark`, `radical`, `radical`, `bear`, `dracula`.",
+        "moreDescription:en-US": "Supported: `dark`, `chartreuse-dark`, `radical`, `radical`, `bear`, `dracula`.",
+        "moreDescription:pt-BR": "Suporta: `dark`, `chartreuse-dark`, `radical`, `bear`, `dracula`."
+      },
+      {
+        "name": "daily-quote",
+        "type": "boolean",
+        "description": "If you would rather only have the quote generated daily, you can use this parameter. It will only generate a new quote once per day. Any value makes this work.",
+        "description:en-US": "If you would rather only have the quote generated daily, you can use this parameter. It will only generate a new quote once per day. Any value makes this work.",
+        "description:pt-BR": "Se preferir que a citação seja gerada apenas diariamente, você pode usar este parâmetro. Ele gerará uma nova cotação apenas uma vez por dia. Qualquer valor irá funcionar.",
+        "moreDescription": "Supported: `true` or `false`.",
+        "moreDescription:en-US": "Supported: `true` or `false`.",
+        "moreDescription:pt-BR": "Suporta: `true` or `false`."
+      },
+      {
+        "name": "quote",
+        "type": "string",
+        "description": "This parameter allows you to generate a specific quote. Simply put in the quote you would like to generate.",
+        "description:en-US": "This parameter allows you to generate a specific quote. Simply put in the quote you would like to generate.",
+        "description:pt-BR": "Este parâmetro permite gerar uma citação específica. Basta inserir a citação que você deseja gerar.",
+        "moreDescription": "Example: `&quote=My%20Quote`.",
+        "moreDescription:en-US": "Example: `&quote=My%20Quote`.",
+        "moreDescription:pt-BR": "Exemplo: `&quote=My%20Quote`."
+      },
+      {
+        "name": "daily-seed",
+        "type": "string",
+        "description": "If you don't like your friends to have the same quote as you, use a random seed.",
+        "description:en-US": "If you don't like your friends to have the same quote as you, use a random seed.",
+        "description:pt-BR": "Se você não gosta que seus amigos tenham a mesma citação que você, use o daily seed.",
+        "moreDescription": "This also shuffles the array, you can check the algorithm that does this in the [shuffle.mjs](https://github.com/markstanl/github-readme-philosophical-quotes/blob/express/methods/shuffle.mjs) file.",
+        "moreDescription:en-US": "This also shuffles the array, you can check the algorithm that does this in the [shuffle.mjs](https://github.com/markstanl/github-readme-philosophical-quotes/blob/express/methods/shuffle.mjs) file.",
+        "moreDescription:pt-BR": "Isso também embaralha o array. Você pode verificar o algoritmo que faz isso no arquivo [shuffle.mjs](https://github.com/markstanl/github-readme-philosophical-quotes/blob/express/methods/shuffle.mjs)."
+      },
+      {
+        "name": "include-ids",
+        "type": "number",
+        "description": "This parameter allows you to restrict generation to only include certain ID values.",
+        "description:en-US": "This parameter allows you to restrict generation to only include certain ID values.",
+        "description:pt-BR": "This parameter allows you to restrict generation to only include certain ID values.",
+        "moreDescription": "Example: `/generate-image?exclude-ids=1, 18, 6`.",
+        "moreDescription:en-US": "Example: `/generate-image?exclude-ids=1, 18, 6`.",
+        "moreDescription:pt-BR": "Exemplo: `/generate-image?exclude-ids=1, 18, 6`."
+      },
+      {
+        "name": "exclude-ids",
+        "type": "number",
+        "description": "This parameter allows you to restrict certain ID values from the generation.",
+        "description:en-US": "This parameter allows you to restrict certain ID values from the generation.",
+        "description:pt-BR": "Este parâmetro permite restringir determinado ID na geração.",
+        "moreDescription": "Example: `/generate-image?exclude-ids=1,2,3`.",
+        "moreDescription:en-US": "Example: `/generate-image?exclude-ids=1,2,3`.",
+        "moreDescription:pt-BR": "Exemplo: `/generate-image?exclude-ids=1,2,3`."
+      }
+    ],
+    "uriTemplate": "https://github-readme-philosophical-quotes.vercel.app/api/generate-image{?theme,daily-quote,author,quote,include-ids,exclude-ids}"
+  },
+  "examples": [
+    {
+      "description": "Theme yeblu, autor, include id and exclude id",
+      "description:en-US": "Theme yeblu, autor, include id and exclude id",
+      "description:pt-BR": "Tema monokai, modo variado e tipo horizontal",
+      "annotate": "Philosophical Quotes Generator",
+      "alt": "Philosophical Quotes Generator",
+      "alt:en-US": "Philosophical Quotes Generator",
+      "alt:pt-BR": "Philosophical Quotes Generator",
+      "href": "https://github-readme-philosophical-quotes.vercel.app/api/generate-image?theme=yeblu&author=Jean-Jacques Rousseau&daily-quote=true&include-ids=11&exclude-ids=2",
+      "images": [
+        {
+          "alt": "Philosophical Quotes Generator",
+          "alt:en-US": "Theme yeblu, autor, include id and exclude id",
+          "alt:pt-BR": "Tema yeblu, autor, incluir id e excluir id",
+          "href": "https://github-readme-philosophical-quotes.vercel.app/api/generate-image?theme=yeblu&author=Jean-Jacques Rousseau&daily-quote=true&include-ids=11&exclude-ids=2"
+        }
+      ]
+    },
+    {
+      "description": "Theme calm and daily quote",
+      "description:en-US": "Theme calm and daily quote",
+      "description:pt-BR": "Tema calm e citação diária",
+      "annotate": "Philosophical Quotes Generator",
+      "alt": "Philosophical Quotes Generator",
+      "alt:en-US": "Philosophical Quotes Generator",
+      "alt:pt-BR": "Philosophical Quotes Generator",
+      "href": "https://github-readme-philosophical-quotes.vercel.app/api/generate-image?theme=calm&daily-quote=true",
+      "images": [
+        {
+          "alt": "Philosophical Quotes Generator",
+          "alt:en-US": "Theme calm and daily quote",
+          "alt:pt-BR": "Tema calm e citação diária",
+          "href": "https://github-readme-philosophical-quotes.vercel.app/api/generate-image?theme=calm&daily-quote=true"
+        }
+      ]
+    }
+  ]
+}

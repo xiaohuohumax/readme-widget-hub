@@ -1,6 +1,7 @@
 {
+  "enabled": false,
   "title": "GitHub Readme Profile",
-  "title:pt-BR": "GitHub Readme Profile",
+  "title:pt-BR": "Perfil Readme do GitHub (GitHub Readme Profile)",
   "description": "Generate your Stats GitHub Profile in SVG.",
   "description:en-US": "Generate your Stats GitHub Profile in SVG.",
   "description:pt-BR": "Exiba suas estatísticas do perfil do GitHub em SVG.",
@@ -10,78 +11,274 @@
     "officialDoc": "https://github.com/FajarKim/github-readme-profile"
   },
   "linkRules": {
-    "params": [
+    "querys": [
       {
         "name": "username",
         "type": "string",
-        "description": "Username registered in Credly website",
-        "description:en-US": "Username registered in Credly website",
-        "description:pt-BR": "Nome do usuário registrado site do Credly",
-        "moreDescription": "Example: `mayannaoliveira`",
-        "moreDescription:en-US": "Example: `mayannaoliveira`",
-        "moreDescription:pt-BR": "Exemplo: `mayannaoliveira`"
-      }
-    ],
-    "querys": [
+        "required": true,
+        "description": "Username registered in GitHub.",
+        "description:en-US": "Username registered in GitHub.",
+        "description:pt-BR": "Nome do usuário registrado no GitHub.",
+        "moreDescription": "Example: `FajarKim`.",
+        "moreDescription:en-US": "Example: `FajarKim`.",
+        "moreDescription:pt-BR": "Exemplo: `FajarKim`."
+      },
       {
         "name": "theme",
         "type": "string",
         "default": "default",
-        "description": "主题",
-        "description:en-US": "Theme color",
-        "description:pt-BR": "Cor do tema",
-        "moreDescription": "Supported: `default`, `default`, `transparent`, `dark`, `highcontrast`, `catppuccin-latte`, `catppuccin-frappe`, `catppuccin-macchiato`, `catppuccin-mocha`, `vue`, `vue-dark`, `github_dark`, `github_dark_highcontrast`, `github_dark_dimmed`, `github_dark_tritanopia`, `github_light`, `github_light_highcontrast`, `github_light_tritanopia`, `whatsapp-light`, `whatsapp-dark`, `buefy`, `buefy-dark`, `solarized-light`, `solarized-dark`, `vision-friendly-dark`, `deuteranopia-friendly-dark`, `garden`, `shadow_red`, `shadow_green`, `shadow_blue`, `shadow_orange`, `shadow_purple`, `shadow_brown`, `gruvbox`, `gruvbox_light`, `apprentice`, `radical`, `tokyonight`, `shades-of-purple`, `ayu`, `ayu-light`, `ayu-mirage`, `merko`, `carbonfox`, `dawnfox`, `dayfox`, `duskfox`, `nightfox`, `nordfox`, `terafox`, `humoris`, `iceberg`, `laederon`, `zenburn`, `bluloco`, `bluloco-dark`, `aura`, `lava-light`, `lava-dark`, `neon`, `neon-dark`, `neon-palenight`, `neon-blurange`, `kacho_ga`, `kanagawa`, `kanagawa_light`, `space`, `space_light`, `lavender_breeze`, `lavender_dream`, `sunset-gradient`, `ocean-gradient`, `ambient-gradient`, `siny-gradient`, `purple-gradient`, `monochrome-light-gradient`, `monochrome-dark-gradient`, `endless-gradient` or `twitch-gradient`。",
-        "moreDescription:en-US": "Supported: `default`, `transparent`, `dark`, `highcontrast`, `catppuccin-latte`, `catppuccin-frappe`, `catppuccin-macchiato`, `catppuccin-mocha`, `vue`, `vue-dark`, `github_dark`, `github_dark_highcontrast`, `github_dark_dimmed`, `github_dark_tritanopia`, `github_light`, `github_light_highcontrast`, `github_light_tritanopia`, `whatsapp-light`, `whatsapp-dark`, `buefy`, `buefy-dark`, `solarized-light`, `solarized-dark`, `vision-friendly-dark`, `deuteranopia-friendly-dark`, `garden`, `shadow_red`, `shadow_green`, `shadow_blue`, `shadow_orange`, `shadow_purple`, `shadow_brown`, `gruvbox`, `gruvbox_light`, `apprentice`, `radical`, `tokyonight`, `shades-of-purple`, `ayu`, `ayu-light`, `ayu-mirage`, `merko`, `carbonfox`, `dawnfox`, `dayfox`, `duskfox`, `nightfox`, `nordfox`, `terafox`, `humoris`, `iceberg`, `laederon`, `zenburn`, `bluloco`, `bluloco-dark`, `aura`, `lava-light`, `lava-dark`, `neon`, `neon-dark`, `neon-palenight`, `neon-blurange`, `kacho_ga`, `kanagawa`, `kanagawa_light`, `space`, `space_light`, `lavender_breeze`, `lavender_dream`, `sunset-gradient`, `ocean-gradient`, `ambient-gradient`, `siny-gradient`, `purple-gradient`, `monochrome-light-gradient`, `monochrome-dark-gradient`, `endless-gradient` or `twitch-gradient`.",
-        "moreDescription:pt-BR": "Suporta: `default`, `transparent`, `dark`, `highcontrast`, `catppuccin-latte`, `catppuccin-frappe`, `catppuccin-macchiato`, `catppuccin-mocha`, `vue`, `vue-dark`, `github_dark`, `github_dark_highcontrast`, `github_dark_dimmed`, `github_dark_tritanopia`, `github_light`, `github_light_highcontrast`, `github_light_tritanopia`, `whatsapp-light`, `whatsapp-dark`, `buefy`, `buefy-dark`, `solarized-light`, `solarized-dark`, `vision-friendly-dark`, `deuteranopia-friendly-dark`, `garden`, `shadow_red`, `shadow_green`, `shadow_blue`, `shadow_orange`, `shadow_purple`, `shadow_brown`, `gruvbox`, `gruvbox_light`, `apprentice`, `radical`, `tokyonight`, `shades-of-purple`, `ayu`, `ayu-light`, `ayu-mirage`, `merko`, `carbonfox`, `dawnfox`, `dayfox`, `duskfox`, `nightfox`, `nordfox`, `terafox`, `humoris`, `iceberg`, `laederon`, `zenburn`, `bluloco`, `bluloco-dark`, `aura`, `lava-light`, `lava-dark`, `neon`, `neon-dark`, `neon-palenight`, `neon-blurange`, `kacho_ga`, `kanagawa`, `kanagawa_light`, `space`, `space_light`, `lavender_breeze`, `lavender_dream`, `sunset-gradient`, `ocean-gradient`, `ambient-gradient`, `siny-gradient`, `purple-gradient`, `monochrome-light-gradient`, `monochrome-dark-gradient`, `endless-gradient` or `twitch-gradient`."
+        "description": "Name of the theme, choose from [all available themes](https://github.com/FajarKim/github-readme-profile/tree/master/themes).",
+        "description:en-US": "Name of the theme, choose from [all available themes](https://github.com/FajarKim/github-readme-profile/tree/master/themes).",
+        "description:pt-BR": "Nome do teme, escolher um da lista com [todos os temas disponíveis](https://github.com/FajarKim/github-readme-profile/tree/master/themes).",
+        "moreDescription": "Supported: `default`, `default`, `transparent`, `dark` or `highcontrast`.",
+        "moreDescription:en-US": "Supported: `default`, `default`, `transparent`, `dark` or `highcontrast`.",
+        "moreDescription:pt-BR": "Suporta: `default`, `default`, `transparent`, `dark` or `highcontrast`."
       },
       {
         "name": "locate",
         "type": "string",
-        "default": "English",
+        "default": "en",
         "description": "Locate (language)",
         "description:en-US": "Locate (language)",
         "description:pt-BR": "Idioma",
-        "moreDescription": "Supported:`en`, `ar`, `fr`, `id`, `ja` or `ko`。",
+        "moreDescription": "Supported: `en`, `ar`, `fr`, `id`, `ja` or `ko`.",
         "moreDescription:en-US": "Supported: `en`, `ar`, `fr`, `id`, `ja` or `ko`.",
         "moreDescription:pt-BR": "Suporta: `en`, `ar`, `fr`, `id`, `ja` or `ko`."
+      },
+      {
+        "name": "title_color",
+        "type": "string",
+        "default": "2f80ed",
+        "description": "Card's title color",
+        "description:en-US": "Card's title color",
+        "description:pt-BR": "Cor do título no",
+        "moreDescription": "Supported:`2f80ed`.",
+        "moreDescription:en-US": "Supported:`2f80ed`.",
+        "moreDescription:pt-BR": "Supported:`2f80ed`."
+      },
+      {
+        "name": "text_color",
+        "type": "string",
+        "default": "434d58",
+        "description": "Body text color",
+        "description:en-US": "Body text color",
+        "description:pt-BR": "Cor do texto no corpo do cartão",
+        "moreDescription": "Supported:`434d58`.",
+        "moreDescription:en-US": "Supported:`434d58`.",
+        "moreDescription:pt-BR": "Suporta:`434d58`."
+      },
+      {
+        "name": "icon_color",
+        "type": "string",
+        "default": "4c71f2",
+        "description": "Icons color",
+        "description:en-US": "Icons color",
+        "description:pt-BR": "Cor do ícones",
+        "moreDescription": "Supported:`4c71f2`.",
+        "moreDescription:en-US": "Supported:`4c71f2`.",
+        "moreDescription:pt-BR": "Supported:`4c71f2`."
+      },
+      {
+        "name": "border_color",
+        "type": "string",
+        "default": "e4e2e2",
+        "description": "Card's border color. Does not apply when hide_border is enabled.",
+        "description:en-US": "Card's border color. Does not apply when `hide_border` is enabled.",
+        "description:pt-BR": "Cor da borda do cartão. Não se aplica quando o `hide_border` está habilitado",
+        "moreDescription": "Supported:`e4e2e2`.",
+        "moreDescription:en-US": "Supported:`e4e2e2`.",
+        "moreDescription:pt-BR": "Suporta:`e4e2e2`."
+      },
+      {
+        "name": "bg_color",
+        "type": "string",
+        "default": "fffefe",
+        "description": "Card's background color.",
+        "description:en-US": "Card's background color.",
+        "description:pt-BR": "Cor de fundo do cartão.",
+        "moreDescription": "Supported:`fffefe`.",
+        "moreDescription:en-US": "Supported:`fffefe`.",
+        "moreDescription:pt-BR": "Suporta:`fffefe`."
+      },
+      {
+        "name": "stroke_color",
+        "type": "string",
+        "description": "Profile image border color. Does not apply when `hide_stroke` is enabled.",
+        "description:en-US": "Profile image border color. Does not apply when `hide_stroke` is enabled.",
+        "description:pt-BR": "Cor da borda na imagem do perfil. Não se aplica quando `hide_stroke` está habilitado.",
+        "moreDescription": "Supported: `e4e2e2` or `border_color` query.",
+        "moreDescription:en-US": "Supported: `e4e2e2` or `border_color` query.",
+        "moreDescription:pt-BR": "Suporta: `e4e2e2` or `border_color` query."
+      },
+      {
+        "name": "username_color",
+        "type": "string",
+        "default": "",
+        "description": "Username text color.",
+        "description:en-US": "Username text color.",
+        "description:pt-BR": "Cor do texto do nome do usuário.",
+        "moreDescription": "Supported: `434d58` or `text_color` query.",
+        "moreDescription:en-US": "Supported: `434d58` or `text_color` query.",
+        "moreDescription:pt-BR": "Suporta: `434d58` or `text_color` query."
+      },
+      {
+        "name": "title",
+        "type": "string",
+        "default": "null",
+        "description": "Custom title text for the card. Before use, encode the text to URL format using a tool like [URL Encoder](https://www.urlencoder.org/).",
+        "description:en-US": "Custom title text for the card. Before use, encode the text to URL format using a tool like [URL Encoder](https://www.urlencoder.org/).",
+        "description:pt-BR": "Custom title text for the card. Before use, encode the text to URL format using a tool like [URL Encoder](https://www.urlencoder.org/).",
+        "moreDescription": "Supported:`null`.",
+        "moreDescription:en-US": "Supported:`null`.",
+        "moreDescription:pt-BR": "Suporta:`null`."
+      },
+      {
+        "name": "border_width",
+        "type": "number",
+        "default": "1",
+        "description": "Sets the border's width manually.",
+        "description:en-US": "Sets the border's width manually.",
+        "description:pt-BR": "Alterar a largura da borda manualmente.",
+        "moreDescription": "Supported:`1`.",
+        "moreDescription:en-US": "Supported:`1`.",
+        "moreDescription:pt-BR": "Suporta:`1`."
+      },
+      {
+        "name": "border_radius",
+        "type": "number",
+        "default": "4.5",
+        "description": "Corner rounding on the card.",
+        "description:en-US": "Corner rounding on the card.",
+        "description:pt-BR": "Corner rounding on the card.",
+        "moreDescription": "Example:`4.5`.",
+        "moreDescription:en-US": "Example:`4.5`.",
+        "moreDescription:pt-BR": "Exemplo:`4.5`."
+      },
+      {
+        "name": "hide",
+        "type": "string",
+        "default": "null",
+        "description": "Hides the [specified items](https://github.com/FajarKim/github-readme-profile#hiding-individual-stats) from stats.",
+        "description:en-US": "Hides the [specified items](https://github.com/FajarKim/github-readme-profile#hiding-individual-stats) from stats.",
+        "description:pt-BR": "Ocultar os [itens específicos](https://github.com/FajarKim/github-readme-profile#hiding-individual-stats) from stats.",
+        "moreDescription": "Example: `&hide=repos,stars,forks,commits,prs,prs_merged,issues, contributed`.",
+        "moreDescription:en-US": "Example: `&hide=repos,stars,forks,commits,prs,prs_merged,issues, contributed`.",
+        "moreDescription:pt-BR": "Exemplo: `&hide=repos,stars,forks,commits,prs,prs_merged,issues, contributed`."
+      },
+      {
+        "name": "format",
+        "type": "string",
+        "default": "svg",
+        "description": "Output format card option (i.e. `svg`, `png`, `json`, or `xml`).",
+        "description:en-USformat": "Output format card option (i.e. `svg`, `png`, `json`, or `xml`).",
+        "description:pt-BR": "Formato de saída do cartão, opções (ex. `svg`, `png`, `json`, or `xml`).",
+        "moreDescription": "Supported: `svg`, `png`, `json`, or `xml`.",
+        "moreDescription:en-US": "Supported: `svg`, `png`, `json`, or `xml`.",
+        "moreDescription:pt-BR": "Suporta: `svg`, `png`, `json`, or `xml`."
+      },
+      {
+        "name": "disabled_animations",
+        "type": "boolean",
+        "default": "false",
+        "description": "Disables all animations in the card.",
+        "description:en-US": "Disables all animations in the card.",
+        "description:pt-BR": "Desativa todas as animações no cartão.",
+        "moreDescription": "Supported:`false` or `true`.",
+        "moreDescription:en-US": "Supported:`false` or `true`.",
+        "moreDescription:pt-BR": "Suporta:`false` or `true`."
+      },
+      {
+        "name": "hide_border",
+        "type": "string",
+        "default": "false",
+        "description": "Hides the card's border.",
+        "description:en-US": "Hides the card's border.",
+        "description:pt-BR": "Esconde a borda do cartão.",
+        "moreDescription": "Supported:`false` or `true`.",
+        "moreDescription:en-US": "Supported:`false` or `true`.",
+        "moreDescription:pt-BR": "Suporta:`false` or `true`."
+      },
+      {
+        "name": "hide_stroke",
+        "type": "boolean",
+        "default": "false",
+        "description": "Hides the image's profile stroke in the card.",
+        "description:en-US": "Hides the image's profile stroke in the card.",
+        "description:pt-BR": "Oculta a linha do perfil na imagem do cartão.",
+        "moreDescription": "Supported:`false` or `true`.",
+        "moreDescription:en-US": "Supported:`false` or `true`.",
+        "moreDescription:pt-BR": "Suporta:`false` or `true`."
+      },
+      {
+        "name": "revert",
+        "type": "boolean",
+        "default": "false",
+        "description": "Inverts the display order, positioning stats to the left and the image to the right.",
+        "description:en-US": "Inverts the display order, positioning stats to the left and the image to the right.",
+        "description:pt-BR": "Inverte a ordem de exibição, posicionando as estatísticas à esquerda e a imagem à direita.",
+        "moreDescription": "Supported:`false` or `true`.",
+        "moreDescription:en-US": "Supported:`false` or `true`.",
+        "moreDescription:pt-BR": "Suporta:`false` or `true`."
+      },
+      {
+        "name": "photo_quality",
+        "type": "number",
+        "default": "15",
+        "description": "Quality of the profile image, represented as a percentage (1-100).",
+        "description:en-US": "Quality of the profile image, represented as a percentage (1-100).",
+        "description:pt-BR": "Qualidade da imagem do perfil, repesentada pela porcentagem (1-100).",
+        "moreDescription": "Example:`15`.",
+        "moreDescription:en-US": "Example:`15`.",
+        "moreDescription:pt-BR": "Example (percentage):`15`."
+      },
+      {
+        "name": "photo_resize",
+        "type": "number",
+        "default": "150",
+        "description": "Resize the profile image to a specific width, in pixels. Minimum allowed value is 10px.",
+        "description:en-US": "Resize the profile image to a specific width, in pixels. Minimum allowed value is 10px.",
+        "description:pt-BR": "Alterar o tamanho da imagem do perfil com a largura, em pixels, Menor valor permitido é 10px.",
+        "moreDescription": "Example (pixels):`150`.",
+        "moreDescription:en-US": "Example (pixels):`150`.",
+        "moreDescription:pt-BR": "Exemplo (pixels):`150`."
       }
     ],
-    "uriTemplate": "https://gh-readme-profile.vercel.app/api?username={username}&theme={theme}"
+    "uriTemplate": "https://gh-readme-profile.vercel.app/api{?username,theme,locale,hide,show}"
   },
   "examples": [
     {
-      "description": "GitHub Certifications Widget",
-      "description:en-US": "Large card",
-      "description:pt-BR": "Cartão grande",
-      "annotate": "crizmo",
-      "alt": "Discord 卡片",
-      "alt:en-US": "Discord Cards",
-      "alt:pt-BR": "Cartões do Discord",
-      "href": "https://discord-cards.onrender.com/api/card/784141856426033233?about=Exploring",
+      "description": "Card in Portuguese",
+      "description:en-US": "Card in Portuguese",
+      "description:pt-BR": "Cartão em Português",
+      "annotate": "FajarKim GitHub Readme Profile",
+      "alt": "GitHub Readme Profile",
+      "alt:en-US": "GitHub Readme Profile",
+      "alt:pt-BR": "Cartão do GitHub Readme Profile",
+      "href": "https://gh-readme-profile.vercel.app/api?username=FajarKim&theme=iceberg&locale=pt-BR&hide=forks,prs&show=reviews,issues_closed,discussions_started,discussions_answered",
       "images": [
         {
-          "alt": "Discord 卡片",
-          "alt:en-US": "Discord Cards",
-          "alt:pt-BR": "Cartões do Discord",
-          "href": "https://discord-cards.onrender.com/api/card/784141856426033233?about=Exploring"
+          "alt": "GitHub Readme Profile",
+          "alt:en-US": "GitHub Readme Profile",
+          "alt:pt-BR": "Cartão do GitHub Readme Profile",
+          "href": "https://gh-readme-profile.vercel.app/api?username=FajarKim&theme=iceberg&locale=pt-BR&hide=forks,prs&show=reviews,issues_closed,discussions_started,discussions_answered"
         }
       ]
     },
     {
-      "description": "GitHub Certifications Widget",
-      "description:en-US": "Compact card",
-      "description:pt-BR": "Cartão compacto",
-      "annotate": "crizmo",
-      "alt": "Discord 卡片",
-      "alt:en-US": "Discord Cards",
-      "alt:pt-BR": "Cartões do Discord",
-      "href": "https://discord-cards.onrender.com/api/compact/784141856426033233?about=Exploring",
+      "description": "Card in English",
+      "description:en-US": "Card in English",
+      "description:pt-BR": "Cartão em Inglês",
+      "annotate": "FajarKim GitHub Readme Profile",
+      "alt": "GitHub Readme Profile",
+      "alt:en-US": "GitHub Readme Profile",
+      "alt:pt-BR": "Cartão do GitHub Readme Profile",
+      "href": "https://gh-readme-profile.vercel.app/api?username=FajarKim&theme=duskfox&hide=commits,prs,prs_merged,issues,contributed",
       "images": [
         {
-          "alt": "GitHub Certifications Widget",
-          "alt:en-US": "Discord Cards",
-          "alt:pt-BR": "Cartões do Discord",
-          "href": "https://discord-cards.onrender.com/api/compact/784141856426033233?about=Exploring"
+          "alt": "GitHub Readme Profile",
+          "alt:en-US": "GitHub Readme Profile",
+          "alt:pt-BR": "Cartão do GitHub Readme Profile",
+          "href": "https://gh-readme-profile.vercel.app/api?username=FajarKim&theme=duskfox&hide=commits,prs,prs_merged,issues,contributed"
         }
       ]
     }

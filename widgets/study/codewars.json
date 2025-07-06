@@ -1,4 +1,5 @@
 {
+  "enabled": true,
   "title": "Codewars Profile Badges",
   "title:pt-BR": "Faixas do Codewars (Codewars Profile Badges)",
   "description": "The following are badges and SVG format. They come in 3 different sizes and can be embedded anywhere you want. The images will update automatically each time they are loaded from Codewars' servers.",
