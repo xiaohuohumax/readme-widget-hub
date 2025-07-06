@@ -18,12 +18,12 @@
   <br/>
 </div>
 
-## Codewars Profile Badges
+## Github Readme Codewars
 
-**The following are badges and SVG format. They come in 3 different sizes and can be embedded anywhere you want. The images will update automatically each time they are loaded from Codewars' servers.**
+**Display your Codewars stats on your profile README.**
 
-[![ref-repo]](https://github.com/codewars)
-[![ref-official-doc]](https://docs.codewars.com/)
+[![ref-repo]](https://github.com/ignacio-cuadra/github-readme-codewars)
+[![ref-official-doc]](https://github.com/ignacio-cuadra/github-readme-codewars)
 
 ### Parameters
 
@@ -32,14 +32,18 @@
 
 | Name | Type | Required | Default | Description | More Description |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
-| ![ref-params] | | | | | |
+| ![ref-querys] | | | | | |
 | `username` | `string` | `true` |  | Codewars username |  |
-| `size` | `string` | `true` |  | Codewars badge size | Support: `large`, `small`, `micro`. |
+| `theme` | `string` |  | `default` | Theme | Support: `default`, `light`,`dark`, `halloween`, `hacker` or `dracula`. |
+| `backgroundColor` | `number` |  | `#fffefe` | Background color | Background color in hex, rgb or rgba color. |
+| `borderColor` | `number` |  | `#f2f0f0` | Border color | Border color in hex, rgb or rgba color. |
+| `textColor` | `number` |  | `#171717` | Text color | Text color in hex, rgb or rgba color. |
+| `primaryColor` | `number` |  | `#1f87e7` | Primary color | Color of symbol in hex, rgb or rgba color. |
 
 </details>
 
 ```txt
-https://www.codewars.com/users/{username}/badges/{size}
+https://codewars-stats-ignacio-cuadra.vercel.app/{?username,theme,backgroundColor,borderColor,textColor,primaryColor}
 ```
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
@@ -47,12 +51,12 @@ https://www.codewars.com/users/{username}/badges/{size}
 ### Examples
 
 ```markdown
-<!-- mayannaoliveira -->
-![Codewars Profile Badges](https://www.codewars.com/users/mayannaoliveira/badges/large)
+<!-- Github Readme Codewars -->
+![Github Readme Codewars](https://codewars-stats-ignacio-cuadra.vercel.app/?username=ignacio-cuadra)
 ```
 
 <div>
-  <img src="https://www.codewars.com/users/mayannaoliveira/badges/large" alt="Codewars Profile Badges" />
+  <img src="https://codewars-stats-ignacio-cuadra.vercel.app/?username=ignacio-cuadra" alt="Github Readme Codewars" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
@@ -61,9 +65,9 @@ https://www.codewars.com/users/{username}/badges/{size}
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">
 </div>
 
-[ref-params]: https://img.shields.io/badge/Path%20Params-526E86
+[ref-querys]: https://img.shields.io/badge/Query%20Params-526E86
 
-[ref-actions]: https://img.shields.io/badge/Action%20Params-526E86
+[ref-action-outputs]: https://img.shields.io/badge/Action%20Outputs-526E86
 
 [ref-repo]: https://img.shields.io/badge/Repository-555555?style=for-the-badge&logo=github
 

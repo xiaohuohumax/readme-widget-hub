@@ -18,12 +18,12 @@
   <br/>
 </div>
 
-## Codewars Profile Badges
+## Github Readme Codewars
 
-**以下是徽章和 SVG 格式。它们有3种不同的尺寸，可以嵌入到您想要的任何地方。每次从 Codewars 的服务器加载图像时，这些图像都会自动更新。**
+**在您的个人 README 上显示您的 Codewars 统计信息。**
 
-[![ref-repo]](https://github.com/codewars)
-[![ref-official-doc]](https://docs.codewars.com/)
+[![ref-repo]](https://github.com/ignacio-cuadra/github-readme-codewars)
+[![ref-official-doc]](https://github.com/ignacio-cuadra/github-readme-codewars)
 
 ### 参数
 
@@ -32,14 +32,18 @@
 
 | 名称 | 类型 | 必填 | 默认值 | 参数描述 | 更多描述 |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
-| ![ref-params] | | | | | |
+| ![ref-querys] | | | | | |
 | `username` | `string` | `true` |  | Codewars 用户名 |  |
-| `size` | `string` | `true` |  | 徽章大小 | 可选值：`large`, `small`, `micro`。 |
+| `theme` | `string` |  | `default` | 主题 | 支持: `default`, `light`,`dark`, `halloween`, `hacker` or `dracula`。 |
+| `backgroundColor` | `number` |  | `#fffefe` | 背景颜色 | 背景颜色为十六进制、RGB 或 RGBA 值。 |
+| `borderColor` | `number` |  | `#f2f0f0` | 边框颜色 | 边框颜色为十六进制、RGB 或 RGBA 值。 |
+| `textColor` | `number` |  | `#171717` | 文本颜色 | 文本颜色为十六进制、RGB 或 RGBA 值。 |
+| `primaryColor` | `number` |  | `#1f87e7` | 主要颜色 | 主要颜色为十六进制、RGB 或 RGBA 值。 |
 
 </details>
 
 ```txt
-https://www.codewars.com/users/{username}/badges/{size}
+https://codewars-stats-ignacio-cuadra.vercel.app/{?username,theme,backgroundColor,borderColor,textColor,primaryColor}
 ```
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
@@ -47,12 +51,12 @@ https://www.codewars.com/users/{username}/badges/{size}
 ### 示例
 
 ```markdown
-<!-- mayannaoliveira -->
-![Codewars Profile Badges](https://www.codewars.com/users/mayannaoliveira/badges/large)
+<!-- Github Readme Codewars -->
+![Github Readme Codewars](https://codewars-stats-ignacio-cuadra.vercel.app/?username=ignacio-cuadra)
 ```
 
 <div>
-  <img src="https://www.codewars.com/users/mayannaoliveira/badges/large" alt="Codewars Profile Badges" />
+  <img src="https://codewars-stats-ignacio-cuadra.vercel.app/?username=ignacio-cuadra" alt="Github Readme Codewars" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
@@ -61,9 +65,9 @@ https://www.codewars.com/users/{username}/badges/{size}
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">
 </div>
 
-[ref-params]: https://img.shields.io/badge/路径参数-526E86
+[ref-querys]: https://img.shields.io/badge/查询参数-526E86
 
-[ref-actions]: https://img.shields.io/badge/动作参数-526E86
+[ref-action-outputs]: https://img.shields.io/badge/动作输出-526E86
 
 [ref-repo]: https://img.shields.io/badge/项目地址-555555?style=for-the-badge&logo=github
 
