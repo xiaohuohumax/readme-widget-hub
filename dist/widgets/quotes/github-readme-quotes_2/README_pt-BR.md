@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,12 +18,9 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
+## Citações no Readme do Github (shravan20)
 
-## Github Readme Quotes (shravan20)
-
-**为你的 Github README 添加名言引用。**
+**Modo dinâmico de gerar citações nos readmes do seu GitHub.**
 
 [![ref-repo]](https://github.com/shravan20/github-readme-quotes)
 [![ref-online-tool]](https://github-readme-quotes-returns.vercel.app/)
@@ -37,13 +34,13 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `theme` | `string` |  | `default` | 主题 | 可选值：`default` `dark` `radical` `merko` `gruvbox` `tokyonight` `onedark` 等，更多主题参考：[themes](https://github.com/shravan20/github-readme-quotes/blob/main/src/themes/README.md)。 |
-| `layout` | `string` |  | `default` | 布局 | 可选值：`default` `socrates` `churchill` `samuel` 等，更多布局参考：[layouts](https://github.com/shravan20/github-readme-quotes/blob/main/src/layouts/README.md)。 |
-| `font` | `string` |  |  | 字体 | 可选值：`Gabrielle` `Redressed` `Architect`。 |
-| `animation` | `string` |  | `default` | 动画 | 可选值：`default` `grow_out_in`。 |
-| `quotesUrl` | `string` |  |  | 名言库 URL | 自定义名言库，名言模板参考 [quotes.json](https://github.com/shravan20/github-readme-quotes/blob/main/customQuotes/quotes.json)。 |
-| `quoteCategory` | `string` |  |  | 名言类别 | 可选值：`general` `life` `success` `motivational` `fun` `programming` `dream` `failure` `gaming` `birthday` `Humorous` `Travel`。 |
-| `borderColor` | `string` |  |  | 边框颜色 | 格式：`HEX` `CSS 颜色`，例如：`#FF0000`，请注意，此功能仅适用于默认布局。 |
+| `theme` | `string` |  | `default` | Tema | Suporta: `default` `dark` `radical` `merko` `gruvbox` `tokyonight` `onedark` etc. Para mais temas acesse: [temas](https://github.com/shravan20/github-readme-quotes/blob/main/src/themes/README.md). |
+| `layout` | `string` |  | `default` | Layouts | Suporta: `default` `socrates` `churchill` `samuel` etc. Para mais layouts acesse: [layouts](https://github.com/shravan20/github-readme-quotes/blob/main/src/layouts/README.md). |
+| `font` | `string` |  |  | Fontes | Suporta: `Gabrielle` `Redressed` `Architect`. |
+| `animation` | `string` |  | `default` | Animações | Suporta: `default` `grow_out_in`. |
+| `quotesUrl` | `string` |  |  | URL da Citações | Biblioteca de citações personalizadas, modelo de citações em: [quotes.json](https://github.com/shravan20/github-readme-quotes/blob/main/customQuotes/quotes.json). |
+| `quoteCategory` | `string` |  |  | Categoria das Citações | Suporta: `general` `life` `success` `motivational` `fun` `programming` `dream` `failure` `gaming` `birthday` `Humorous` `Travel`. |
+| `borderColor` | `string` |  |  | Cor da Borda | Formato: `HEX` `CSS Color` ex. `#FF0000`, Por favor, observe que esse recurso está disponível apenas com o layout padrão (Default). |
 
 </details>
 
@@ -51,19 +48,19 @@
 https://github-readme-quotes-bay.vercel.app/quote{?theme,layout,font,animation,quotesUrl,quoteCategory,borderColor}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
 ```markdown
-![随机名言](https://github-readme-quotes-bay.vercel.app/quote)
+![Citação Aleatória](https://github-readme-quotes-bay.vercel.app/quote)
 ```
 
 <div>
-  <img src="https://github-readme-quotes-bay.vercel.app/quote" alt="随机名言" />
+  <img src="https://github-readme-quotes-bay.vercel.app/quote" alt="Citação Aleatória" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

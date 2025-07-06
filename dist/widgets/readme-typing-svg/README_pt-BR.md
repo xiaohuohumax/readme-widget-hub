@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,12 +18,9 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
+## Texto Animado em SVG (Readme Typing SVG)
 
-## Readme Typing SVG
-
-**动态生成、可定制的 SVG，可模拟文本输入和删除效果，适用于个人主页、仓库或网站。**
+**SVG gerado dinamicamente e personalizável que exibe o texto de digitado e excluído para uso em sua página de perfil, repositórios ou site.**
 
 [![ref-repo]](https://github.com/denvercoder1/readme-typing-svg)
 [![ref-online-tool]](https://readme-typing-svg.demolab.com/demo/)
@@ -37,21 +34,21 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `lines` | `string` | `true` |  | 要显示的多行文本 | 多行之间用 `;` 分隔，文本中空格使用 `+` 代替。 |
-| `height` | `number` |  | `50` | 输出 SVG 的高度 |  |
-| `width` | `number` |  | `400` | 输出 SVG 的宽度 |  |
-| `size` | `number` |  | `20` | 字体大小 | 单位：像素。 |
-| `font` | `string` |  | `monospace` | 字体族 | 任何 Google Fonts 中的字体。 |
-| `color` | `string` |  | `36BCF7` | 文本颜色 | 格式：`HEX` 例如：`FF0000`。 |
-| `background` | `string` |  | `00000000` | 文本背景颜色 | 格式：`HEX` 例如：`FF0000`。 |
-| `center` | `boolean` |  | `false` | 文本水平对齐方式 | 可选值：true（水平居中）false（左对齐）。 |
-| `vCenter` | `boolean` |  | `false` | 文本垂直对齐方式 | 可选值：true（垂直居中）false（居中上方）。 |
-| `multiline` | `boolean` |  | `false` | 文本换行显示方式 | 可选值：true（换行显示）false（同一行重新显示）。 |
-| `duration` | `number` |  | `5000` | 单行打印持续时间 |  |
-| `pause` | `number` |  | `0` | 行与行之间的暂停时间 | 单位：毫秒。 |
-| `repeat` | `boolean` |  | `true` | 在最后一行之后循环回到第一行 |  |
-| `separator` | `string` |  | `;` | 行参数中使用的分隔符 |  |
-| `letterSpacing` | `string` |  | `normal` | 字母间距 | 格式：`CSS 颜色`。 |
+| `lines` | `string` | `true` |  | O texto multilinha a ser exibido | Texto a ser exibido com linhas separadas por `;` e `+` para espaços. |
+| `height` | `number` |  | `50` | Altura do SVG de saída em pixels |  |
+| `width` | `number` |  | `400` | Largura do SVG de saída em pixels |  |
+| `size` | `number` |  | `20` | Tamanho da font em pixels | Unidades: pixels. |
+| `font` | `string` |  | `monospace` | Font family | Qualquer fonte do Google Fonts. |
+| `color` | `string` |  | `36BCF7` | Cor do texto | Formato: `HEX` ex. `FF0000`. |
+| `background` | `string` |  | `00000000` | Cor de fundo do texto | Formato: `HEX` ex. `FF0000`. |
+| `center` | `boolean` |  | `false` | Alinhamennto horizontal do texto | Suporta: true (centralizado horizontalmente) false (alinhado a esquerda). |
+| `vCenter` | `boolean` |  | `false` | Texto alinhado verticalmente | Suporta: true (centralizado verticalmente) false (centralizado no topo). |
+| `multiline` | `boolean` |  | `false` | Exibe texto com quebra de linhas | Suporta: true (quebra de linhas) false (digite novamente em uma linha). |
+| `duration` | `number` |  | `5000` | Duração da exibição de uma única linha em milissegundos |  |
+| `pause` | `number` |  | `0` | Duração da pausa entre as linhas em milissegundos | Unidades: milliseconds. |
+| `repeat` | `boolean` |  | `true` | Efetuar uma repetição da primeira linha até última |  |
+| `separator` | `string` |  | `;` | Separador utilizado entre linhas no parâmetro |  |
+| `letterSpacing` | `string` |  | `normal` | Espaçamento das letras | Formato: `CSS color`. |
 
 </details>
 
@@ -59,7 +56,7 @@
 https://readme-typing-svg.demolab.com{?lines,height,width,size,font,color,background,center,vCenter,multiline,duration,pause,repeat,separator,letterSpacing}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
@@ -71,7 +68,7 @@ https://readme-typing-svg.demolab.com{?lines,height,width,size,font,color,backgr
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&#38;pause=1000&#38;width=435&#38;lines=Hello+World;Badge+Collection" alt="Readme Typing SVG" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

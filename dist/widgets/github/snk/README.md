@@ -12,6 +12,7 @@
     <b>
        <a href="/README.md">首页</a>
       · <a href="README_en-US.md">English</a>
+      · <a href="README_pt-BR.md">Português</a>
     </b>
   </div>
   <br/>

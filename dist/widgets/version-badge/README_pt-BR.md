@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,12 +18,9 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
+## Versão do Badge
 
-## Version Badge
-
-**生成各种类型项目的版本号徽章（Pyhton、Go、npm、PHP、Github等）。**
+**Criar versões de badges para vários tipos de projetos (Python, Go, npm, PHP, Github, etc.).**
 
 [![ref-online-tool]](https://badge.fury.io/)
 
@@ -35,12 +32,12 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-params] | | | | | |
-| `type` | `string` | `true` |  | 徽章类型 | 可选值：`js`（npm）`rb`（Ruby）`py`（Python）`go`（Go）`bo`（Bower）`gh`（Github）`nu`（NuGet）`ph`（PHP）`co`（CocoaPods）`pl`（Perl）`pg`（PGXN）。 |
-| `packageName` | `string` | `true` |  | 包名 | 特殊字符需要转义，例如：`/` 转义为 `%2F`。 |
-| `format` | `string` | `true` |  | 格式 | 可选值：`.svg` `.png` `@2x.png`。 |
+| `type` | `string` | `true` |  | Tipo do badge | Suporta: `js` (npm) `rb` (Ruby) `py` (Python) `go` (Go) `bo` (Bower) `gh` (Github) `nu` (NuGet) `ph` (PHP) `co` (CocoaPods) `pl` (Perl) `pg` (PGXN). |
+| `packageName` | `string` | `true` |  | Nome do pacote | Espaço para caracteres especiais, como `/` para `%2F`. |
+| `format` | `string` | `true` |  | Formato | Suporta: `.svg` `.png` `@2x.png`. |
 | ![ref-querys] | | | | | |
-| `icon` | `string` |  |  | 图标 | 固定前缀：`si%3A` 例如：`icon=si%3Agithub`。 |
-| `icon_color` | `string` |  |  | 图标颜色 | 格式：`HEX` 例如：`#FF0000`。 |
+| `icon` | `string` |  |  | Ícone | Prefixo fixado como: `si%3A` por exemplo: `icon=si%3Agithub`. |
+| `icon_color` | `string` |  |  | Cor do ícone | Formato: `HEX` por exemplo: `#FF0000`. |
 
 </details>
 
@@ -48,13 +45,13 @@
 https://badge.fury.io/{type}/{packageName}{format}{?icon,icon_color}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
 ```markdown
 <!-- xiaohuohumax/auto-unpack -->
-![Pyhton version](https://badge.fury.io/py/auto-unpack.svg)
+![Versão do Pyhton](https://badge.fury.io/py/auto-unpack.svg)
 ```
 
 <div>
@@ -63,14 +60,14 @@ https://badge.fury.io/{type}/{packageName}{format}{?icon,icon_color}
 
 ```markdown
 <!-- xiaohuohumax/vscode-export-profiles -->
-![Github repo version](https://badge.fury.io/gh/xiaohuohumax%2Fvscode-export-profiles.svg)
+![Versão do repositório no Github](https://badge.fury.io/gh/xiaohuohumax%2Fvscode-export-profiles.svg)
 ```
 
 <div>
-  <img src="https://badge.fury.io/gh/xiaohuohumax%2Fvscode-export-profiles.svg" alt="Github repo version" />
+  <img src="https://badge.fury.io/gh/xiaohuohumax%2Fvscode-export-profiles.svg" alt="Versão do repositório no Github" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,12 +18,9 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
-
 ## Badge Poser
 
-**为你的 README 文件添加包含 Packagist 信息的 PHP 徽章‌。**
+**Os emblemas (badges) PHP renderizam alguns outros para o seu README com as informações do pacote.**
 
 [![ref-repo]](https://github.com/PUGX/badge-poser)
 [![ref-online-tool]](https://poser.pugx.org/#badges)
@@ -36,10 +33,10 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-params] | | | | | |
-| `package` | `string` | `true` |  | 包名 | 例如：`phpunit/phpunit`。 |
-| `type` | `string` | `true` |  | 徽章类型 | 可选值：`v`（最新稳定版本）`v/unstable`（最新不稳定版本）`downloads`（总下载量）`license`（许可证），更多值请参考 [Packagist 徽章](https://poser.pugx.org/#badges)。 |
+| `package` | `string` | `true` |  | Nome do pacote | Por exemplo: `phpunit/phpunit`. |
+| `type` | `string` | `true` |  | Tipo do badge | Suporta: `v` (última versão estável), `v/unstable` (última versão instável), `downloads` (total de downloads), `license` (licença), e mais valores podem ser achados em [Packagist badges](https://poser.pugx.org/#badges). |
 | ![ref-querys] | | | | | |
-| `style` | `string` |  | `flat` | 徽章整体风格 | 可选值：`flat` `flat-square` `plastic` `for-the-badge`。 |
+| `style` | `string` |  | `flat` | Estilo do badge | Suporta: `flat` `flat-square` `plastic` `for-the-badge`. |
 
 </details>
 
@@ -47,20 +44,20 @@
 https://poser.pugx.org/{package}/{type}{?style}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
 ```markdown
 <!-- phpunit/phpunit -->
-![最新稳定版本](http://poser.pugx.org/phpunit/phpunit/v)
+![Última versão estável](http://poser.pugx.org/phpunit/phpunit/v)
 ```
 
 <div>
-  <img src="http://poser.pugx.org/phpunit/phpunit/v" alt="最新稳定版本" />
+  <img src="http://poser.pugx.org/phpunit/phpunit/v" alt="Última versão estável" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

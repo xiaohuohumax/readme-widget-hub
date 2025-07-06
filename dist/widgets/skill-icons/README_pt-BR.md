@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,12 +18,9 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
+## Ícones de Habilidades (Skill Icons)
 
-## Skill Icons
-
-**轻松的在 GitHub 或简历上展示你的技能！**
+**Exibir todas as habilidades do seu GitHub ou currículo com facilidade!**
 
 [![ref-repo]](https://github.com/tandpfun/skill-icons)
 [![ref-official-doc]](https://github.com/tandpfun/skill-icons?tab=readme-ov-file#docs)
@@ -36,9 +33,9 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `i` | `string` | `true` |  | 显示图标 | 多个图标使用 `,` 分隔，例如 `i=js,html,css`，图标名称请参考 [Icons List](https://github.com/tandpfun/skill-icons?tab=readme-ov-file#icons-list)。 |
-| `theme` | `string` |  | `dark` | 主题 | 可选值：`light` `dark`。 |
-| `perline` | `number` |  | `15` | 每行显示图标数 | 范围：`1` 到 `50`。 |
+| `i` | `string` | `true` |  | Especificar os ícones | É possível especificar e assim exibir vários ícones separados por `,` vírgula, ex. `i=js,html,css`, Por favor, checar a [Lista de Ícones](https://github.com/tandpfun/skill-icons?tab=readme-ov-file#icons-list) para saber os nomes de cada um deles. |
+| `theme` | `string` |  | `dark` | Tema dos ícones | Suporta: `light` `dark`. |
+| `perline` | `number` |  | `15` | Número de ícones por linha | Quantidade: `1` a `50`. |
 
 </details>
 
@@ -46,19 +43,19 @@
 https://skillicons.dev/icons{?i,theme,perline}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
 ```markdown
-![技能](https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter&perline=3)
+![Habilidades](https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter&perline=3)
 ```
 
 <div>
-  <img src="https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter&#38;perline=3" alt="技能" />
+  <img src="https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter&#38;perline=3" alt="Habilidades" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,19 +18,16 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
+## Cartões de Estatísticas (Stats Cards)
 
-## Stats Cards
-
-**在 README 中展示网站数据（B站、知乎、GitHub、CSDN、LeetCode等），也可用于网站状态监控。**
+**Exibir estatísticas do sites (Bilibili, Zhihu, GitHub, CSDN, LeetCode, etc.) no README, ou utilizá-las no status de monitoramente do seu site.**
 
 [![ref-repo]](https://github.com/songquanpeng/stats-cards)
 [![ref-official-doc]](https://github.com/songquanpeng/stats-cards#readme)
 
 ### Parâmetros
 
-#### 网站监控
+#### Monitoramento da página web
 
 <details >
 <summary><small>Clique para exibir/fechar os parâmetros</small></summary><p></p>
@@ -38,9 +35,9 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `url` | `string` | `true` |  | 监控目标网站地址 |  |
-| `logo` | `string` |  |  | 徽章 Logo | 参考 [shield.io](https://shields.io/docs/logos)。 |
-| `style` | `string` |  | `flat` | 徽章样式 | 可选值：`flat` `flat-square` `for-the-badge` `plastic` `social`。 |
+| `url` | `string` | `true` |  | A URL do site a ser monitorado |  |
+| `logo` | `string` |  |  | Logotipo do badge | Verificar o [shields.io](https://shields.io/) para mais informações. |
+| `style` | `string` |  | `flat` | Estilo do badge | Suporta: `flat` `flat-square` `for-the-badge` `plastic` `social`. |
 
 </details>
 
@@ -48,7 +45,7 @@
 https://stats.justsong.cn/api/website/{?url,logo,style}
 ```
 
-#### 网站数据
+#### Dados da página web
 
 <details >
 <summary><small>Clique para exibir/fechar os parâmetros</small></summary><p></p>
@@ -56,14 +53,14 @@ https://stats.justsong.cn/api/website/{?url,logo,style}
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-params] | | | | | |
-| `platform` | `string` | `true` |  | 数据来源平台 | 可选值：`github` `zhihu` `bilibili` `leetcode` `juejin` `csdn` `nowcoder` `steam`。 |
+| `platform` | `string` | `true` |  | Plataforma de fonte de dados | Suporta: `github` `zhihu` `bilibili` `leetcode` `juejin` `csdn` `nowcoder` `steam`. |
 | ![ref-querys] | | | | | |
-| `theme` | `string` |  | `light` | 主题 | 可选值：`light` `dark` `dark2` `radical` 更多主题参考 [theme.js](https://github.com/songquanpeng/stats-cards/blob/master/common/theme.js)。 |
-| `username` | `string` | `true` |  | 用户名 | 适用平台: `github` `zhihu` `leetcode`。 |
-| `id` | `string` | `true` |  | ID | 适用平台: `bilibili` `juejin` `csdn` `nowcoder`。 |
-| `lang` | `string` |  | `en-US` | 语言 | 可选值：`en-US` `zh-CN`。 |
-| `cn` | `boolean` |  | `false` | LeetCode 中文站 | 适用平台: `leetcode`。 |
-| `cn_username` | `string` |  |  | LeetCode 中文站用户名 | 适用平台: `leetcode`，同时显示中英双站数据：同时配置`username` 和 `cn_username`即可。 |
+| `theme` | `string` |  | `light` | Tema | Suporta: `light` `dark` `dark2` `radical`. Para mais temas verificar [theme.js](https://github.com/songquanpeng/stats-cards/blob/master/common/theme.js). |
+| `username` | `string` | `true` |  | Nome do usuário | Plataformas aplicáveis: `github` `zhihu` `leetcode`. |
+| `id` | `string` | `true` |  | ID | Plataformas aplicáveis: `bilibili` `juejin` `csdn` `nowcoder`. |
+| `lang` | `string` |  | `en-US` | Idioma | Suporta: `en-US` `zh-CN`. |
+| `cn` | `boolean` |  | `false` | Site chines do LeetCode | Plataformas aplicáveis: `leetcode`. |
+| `cn_username` | `string` |  |  | Nome do usuário no site chines LeetCode | Plataforma aplicáveis: `leetcode`, dados são exibidos em inglês e chines: modificar  `username` e `cn_username` ao mesmo tempo. |
 
 </details>
 
@@ -71,16 +68,16 @@ https://stats.justsong.cn/api/website/{?url,logo,style}
 https://stats.justsong.cn/api/{platform}{?username,id,lang,cn,cn_username,theme}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
 ```markdown
-![GitHub 状态](https://stats.justsong.cn/api/website/?url=https://github.com/&style=flat&logo=github)
+![Status do GitHub](https://stats.justsong.cn/api/website/?url=https://github.com/&style=flat&logo=github)
 ```
 
 <div>
-  <img src="https://stats.justsong.cn/api/website/?url=https://github.com/&#38;style=flat&#38;logo=github" alt="GitHub 状态" />
+  <img src="https://stats.justsong.cn/api/website/?url=https://github.com/&#38;style=flat&#38;logo=github" alt="Status do GitHub" />
 </div>
 
 ```markdown
@@ -110,7 +107,7 @@ https://stats.justsong.cn/api/{platform}{?username,id,lang,cn,cn_username,theme}
   <img src="https://stats.justsong.cn/api/bilibili/?id=483246073&#38;lang=zh-CN&#38;theme=dark" alt="蓝天的 B 站数据" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

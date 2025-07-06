@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,12 +18,9 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
+## Contador de Visitas (Moe Counter)
 
-## Moe Counter
-
-**多种风格可选的萌萌计数器。**
+**Moe é um badge contador de visitas com vários temas。**
 
 [![ref-repo]](https://github.com/journey-ad/Moe-Counter)
 [![ref-online-tool]](https://count.getloli.com/)
@@ -37,17 +34,17 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-params] | | | | | |
-| `countId` | `string` | `true` |  | 计数器 ID | 不能包含特殊字符。 |
+| `countId` | `string` | `true` |  | Nome exclusivo do contador | Não é permitido contar caracteres especiais. |
 | ![ref-querys] | | | | | |
-| `theme` | `string` |  | `moebooru` | 主题 | 可选值：`random` `3d-num` `ai-1` `asoul` `booru-ffsr` `moebooru`，更多主题：[More theme](https://github.com/journey-ad/Moe-Counter?tab=readme-ov-file#more-theme)。 |
-| `padding` | `number` |  | `7` | 最小长度 | 范围：`1` 到 `17`。 |
-| `offset` | `number` |  | `0` | 像素偏移值 | 范围：`-500` 到 `500`。 |
-| `scale` | `number` |  | `1` | 图像缩放比例 | 范围：`0.1` 到 `2`。 |
-| `align` | `string` |  | `top` | 图像对齐方式 | 可选值：`top` `bottom` `center`。 |
-| `pixelated` | `boolean` |  | `1` | 是否启用像素化模式 | 可选值：`0` `1`。 |
-| `darkmode` | `boolean` |  | `auto` | 是否启用暗黑模式 | 可选值：`0` `1` `auto`。 |
-| `num` | `number` |  | `0` | 统计数字 | `0` 代表禁用，如设置后将不再有统计计数效果，仅显示配置的数字。 |
-| `prefix` | `number` |  |  | 统计数字前缀数字 | 在统计数字前添加的数字，最大：`999999`，留空则不启用。 |
+| `theme` | `string` |  | `moebooru` | Selecione um tema de imagem de contador | Suporta: `random` `3d-num` `ai-1` `asoul` `booru-ffsr` `moebooru`. Mais temas: [Mais opções de temas](https://github.com/journey-ad/Moe-Counter?tab=readme-ov-file#more-theme). |
+| `padding` | `number` |  | `7` | Defina o comprimento mínimo | Entre `1` e `17`. |
+| `offset` | `number` |  | `0` | Defina o valor do pixel de deslocamento | Entre `-500` e `500`. |
+| `scale` | `number` |  | `1` | Definir a escala da imagem | Entre `0.1` e `2`. |
+| `align` | `string` |  | `top` | Definir o alinhamento da | Suporta: `top` `bottom` `center`. |
+| `pixelated` | `boolean` |  | `1` | Habilitar modo pixelado | Suporta: `0` `1`. |
+| `darkmode` | `boolean` |  | `auto` | Habilitar o modo escuro | Suporta: `0` `1` `auto`. |
+| `num` | `number` |  | `0` | Definir número de exibição do contador | `0` para desabilitar, se definido, o contador não contará, exibirá apenas o número configurado. |
+| `prefix` | `number` |  |  | Defina o número do prefixo | O valor máximo e `999999`, vazio para desabilitar. |
 
 </details>
 
@@ -55,20 +52,20 @@
 https://count.getloli.com/@{countId}{?theme,padding,offset,scale,align,pixelated,darkmode,num,prefix}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
 ```markdown
 <!-- xiaohuohumax/readme-widget-hub -->
-![萌萌计数器](https://count.getloli.com/@xiaohuohumax-readme-widget-hub)
+![Contador de Visitas Moe](https://count.getloli.com/@xiaohuohumax-readme-widget-hub)
 ```
 
 <div>
-  <img src="https://count.getloli.com/@xiaohuohumax-readme-widget-hub" alt="萌萌计数器" />
+  <img src="https://count.getloli.com/@xiaohuohumax-readme-widget-hub" alt="Contador de Visitas Moe" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

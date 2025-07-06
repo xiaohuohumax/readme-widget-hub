@@ -13,7 +13,7 @@
     <a href="https://github.com/xiaohuohumax/readme-widget-hub/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/readme-widget-hub" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/readme-widget-hub" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Freadme-widget-hub&countColor=%2337D67A&style=flat&labelStyle=lower" /></a>
-    <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/badge/badges-73-37D67A?labelColor=555555" /></a>
+    <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/badge/badges-78-37D67A?labelColor=555555" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/github/stars/xiaohuohumax/readme-widget-hub" /></a>
   </div>
   <div>
@@ -57,6 +57,7 @@
   * [GitHub Profile Summary Cards](dist/widgets/github/github-profile-summary-cards/README_en-US.md)
   * [GitHub Profile Trophy](dist/widgets/github/github-profile-trophy/README_en-US.md)
   * [Github Readme Activity Graph](dist/widgets/github/github-readme-activity-graph/README_en-US.md)
+  * [GitHub Readme Profile](dist/widgets/github/github-readme-profile/README_en-US.md)
   * [Github Readme Streak Stats](dist/widgets/github/github-readme-streak-stats/README_en-US.md)
   * [Github Stats Card](dist/widgets/github/github-stats-card/README_en-US.md)
   * [Github Stats](dist/widgets/github/github-stats/README_en-US.md)
@@ -76,14 +77,18 @@
   * [Data Card for Spotify](dist/widgets/music/spotify-data-card/README_en-US.md)
   * [Spotify Recently Played README](dist/widgets/music/spotify-recently-played-readme/README_en-US.md)
 * Other Platforms
+  * [Credly GitHub Readme Widgets](dist/widgets/other-platform/credly-widgets/README_en-US.md)
   * [GitHub Readme YouTube Cards](dist/widgets/other-platform/github-readme-youtube-cards/README_en-US.md)
   * [GitHub Twitter Card Embed](dist/widgets/other-platform/github-twitter-card-embed/README_en-US.md)
+  * [Holopin Badge Board](dist/widgets/other-platform/holopin/README_en-US.md)
   * [Stackoverflow Readme Profile](dist/widgets/other-platform/stackoverflow-readme-profile/README_en-US.md)
   * [Stats Cards](dist/widgets/other-platform/stats-cards/README_en-US.md)
 * Quotes
   * [Github Readme Quotes (PiyushSuthar)](dist/widgets/quotes/github-readme-quotes_1/README_en-US.md)
   * [Github Readme Quotes (shravan20)](dist/widgets/quotes/github-readme-quotes_2/README_en-US.md)
 * Study
+  * [Github Readme Codewars](dist/widgets/study/codewars-readme/README_en-US.md)
+  * [Codewars Profile Badges](dist/widgets/study/codewars/README_en-US.md)
   * [Duolingo Stats Card](dist/widgets/study/duolingo-stats-card/README_en-US.md)
   * [GeeksForGeeks Stats Card](dist/widgets/study/geeksforgeeks-stats-card/README_en-US.md)
   * [LeetCode Badge Showcase](dist/widgets/study/leetcode-badge-showcase/README_en-US.md)

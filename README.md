@@ -13,7 +13,7 @@
     <a href="https://github.com/xiaohuohumax/readme-widget-hub/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/readme-widget-hub" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/readme-widget-hub" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Freadme-widget-hub&countColor=%2337D67A&style=flat&labelStyle=lower" /></a>
-    <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/badge/badges-73-37D67A?labelColor=555555" /></a>
+    <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/badge/badges-78-37D67A?labelColor=555555" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/github/stars/xiaohuohumax/readme-widget-hub" /></a>
   </div>
   <div>
@@ -57,6 +57,7 @@
   * [GitHub Profile Summary Cards](dist/widgets/github/github-profile-summary-cards/README.md)
   * [GitHub Profile Trophy](dist/widgets/github/github-profile-trophy/README.md)
   * [Github Readme Activity Graph](dist/widgets/github/github-readme-activity-graph/README.md)
+  * [GitHub Readme Profile](dist/widgets/github/github-readme-profile/README.md)
   * [Github Readme Streak Stats](dist/widgets/github/github-readme-streak-stats/README.md)
   * [Github Stats Card](dist/widgets/github/github-stats-card/README.md)
   * [Github Stats](dist/widgets/github/github-stats/README.md)
@@ -76,14 +77,18 @@
   * [Data Card for Spotify](dist/widgets/music/spotify-data-card/README.md)
   * [Spotify Recently Played README](dist/widgets/music/spotify-recently-played-readme/README.md)
 * 其他平台
+  * [Credly GitHub Readme Widgets](dist/widgets/other-platform/credly-widgets/README.md)
   * [GitHub Readme YouTube Cards](dist/widgets/other-platform/github-readme-youtube-cards/README.md)
   * [GitHub Twitter Card Embed](dist/widgets/other-platform/github-twitter-card-embed/README.md)
+  * [Holopin Badge Board](dist/widgets/other-platform/holopin/README.md)
   * [Stackoverflow Readme Profile](dist/widgets/other-platform/stackoverflow-readme-profile/README.md)
   * [Stats Cards](dist/widgets/other-platform/stats-cards/README.md)
 * 名言引用
   * [Github Readme Quotes (PiyushSuthar)](dist/widgets/quotes/github-readme-quotes_1/README.md)
   * [Github Readme Quotes (shravan20)](dist/widgets/quotes/github-readme-quotes_2/README.md)
 * 学习
+  * [Github Readme Codewars](dist/widgets/study/codewars-readme/README.md)
+  * [Codewars Profile Badges](dist/widgets/study/codewars/README.md)
   * [Duolingo Stats Card](dist/widgets/study/duolingo-stats-card/README.md)
   * [GeeksForGeeks Stats Card](dist/widgets/study/geeksforgeeks-stats-card/README.md)
   * [LeetCode Badge Showcase](dist/widgets/study/leetcode-badge-showcase/README.md)
@@ -156,7 +161,7 @@ pnpm build
 
 英语: [xiaohuohumax](https://github.com/xiaohuohumax)
 
-葡萄牙语: [mayannaoliveira](https://github.com/mayannaoliveira)
+英语: [mayannaoliveira](https://github.com/mayannaoliveira)
 
 最后，如果能够帮助到你，还请多多 Star 项目，感谢你的关注。
 

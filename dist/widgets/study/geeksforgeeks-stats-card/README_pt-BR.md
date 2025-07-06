@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,12 +18,9 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
+## Cartão de Estatísticas do GeeksForGeeks (GeeksForGeeks Stats Card)
 
-## GeeksForGeeks Stats Card
-
-**动态生成的 GeeksForGeeks 统计数据！**
+**Estatísticas GeeksForGeeks geradas dinamicamente!**
 
 [![ref-repo]](https://github.com/nikhilpal2705/GeeksforGeeks-Stats-Card)
 [![ref-online-tool]](https://gfgstatscard.vercel.app/)
@@ -37,9 +34,9 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-params] | | | | | |
-| `username` | `string` | `true` |  | GeeksForGeeks 用户名 |  |
+| `username` | `string` | `true` |  | Nome do usuário no GeeksForGeeks |  |
 | ![ref-querys] | | | | | |
-| `theme` | `string` |  | `dark` | 主题 | 可选值：`dark` `light`。 |
+| `theme` | `string` |  | `dark` | Tema | Suporta: `dark` `light`. |
 
 </details>
 
@@ -47,7 +44,7 @@
 https://gfgstatscard.vercel.app/{username}{?theme}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
@@ -57,10 +54,10 @@ https://gfgstatscard.vercel.app/{username}{?theme}
 ```
 
 <div>
-  <img src="https://gfgstatscard.vercel.app/nikhilpal2705" alt="GeeksforGeeks 统计" />
+  <img src="https://gfgstatscard.vercel.app/nikhilpal2705" alt="Estatísticas do GeeksForGeeks" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

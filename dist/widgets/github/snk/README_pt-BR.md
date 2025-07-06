@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,12 +18,9 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
+## SNK
 
-## snk
-
-**根据 GitHub 用户的贡献图生成贪吃蛇游戏。**
+**SNK recria o jogo da cobrinha diretamente no gráfico de contribuições do GitHub.**
 
 [![ref-repo]](https://github.com/Platane/snk)
 [![ref-online-tool]](https://platane.github.io/snk/)
@@ -32,24 +29,24 @@
 
 ### Uso
 
-1. 在仓库中创建一个 `.github/workflows/` 目录。
-2. 添加一个 `snk.yml` 文件，内容如下：
+1. No seu repositório, crie o diretório `.github/workflows/`.
+2. Adicione o arquivo `snk.yml` com o seguinte conteúdo:
 
 ```yaml
 name: generate animation
 
 on:
-  # 每 24 小时自动运行
+  # Executa automaticamente a cada 24hrs
   schedule:
     - cron: "0 */24 * * *"
 
-  # 允许手动运行
+  # Permite execução manual
   workflow_dispatch:
 
-  # 主分支代码更新时运行
+  # Executa toda ver que tem um push na branch master
   push:
     branches:
-      - main
+    - master
 
 jobs:
   generate:
@@ -59,7 +56,7 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      # 生成一个贪吃蛇动画来自 GitHub 用户的贡献图，输出一个 svg 动画到 <svg_out_path>
+      # Cria o jogo da cobrinha no gráfico de contribuições (<github_user_name>) do usuário, a saída é uma animação SVG em <svg_out_path>
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
@@ -68,8 +65,8 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # 推送 <build_dir> 内容到分支
-      # 内容将会被推送到 https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> 或者作为 github page
+      # Envia o conteúdo <build_dir> para o branch
+      # O conteúdo ficará disponível em https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , ou na página do GitHub
       - name: push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
@@ -79,17 +76,17 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
 
-3. 在你的仓库中，创建或编辑 `README.md` 文件，以包含：
+3. No seu repositório, crie ou edite um arquivo `README.md` e inclua:
 
 ```markdown
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/[Owner]/[Repo]/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/[Owner]/[Repo]/output/github-contribution-grid-snake.svg">
-  <img alt="github 贡献图贪吃蛇动画" src="https://raw.githubusercontent.com/[Owner]/[Repo]/output/github-contribution-grid-snake.svg">
+  <source media="(esquema-de-cores: dark)" srcset="https://raw.githubusercontent.com/[Owner]/[Repo]/output/github-contribution-grid-snake-dark.svg">
+  <source media="(esquema-de-cores: light)" srcset="https://raw.githubusercontent.com/[Owner]/[Repo]/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/[Owner]/[Repo]/output/github-contribution-grid-snake.svg">
 </picture>
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Parâmetros
 
@@ -99,32 +96,32 @@ jobs:
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-actions] | | | | | |
-| `github_user_name` | `string` | `true` |  | GitHub 用户名 |  |
-| `github_token` | `string` |  |  | GitHub Token |  |
-| `outputs` | `array` |  |  | 生成的文件列表 | 文件生成规则参考 [outputs](https://github.com/Platane/snk/blob/main/action.yml#L17)。 |
+| `github_user_name` | `string` | `true` |  | Nome do usuário no GitHub |  |
+| `github_token` | `string` |  |  | Token do GitHub |  |
+| `outputs` | `array` |  |  | Lista de arquivos gerados | A regra de saída é como descrito em [outputs](https://github.com/Platane/snk/blob/main/action.yml#L17). |
 
 </details>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
 ```markdown
 <!-- platane -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
-  <img alt="github 贡献图贪吃蛇动画" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+  <source media="(esquema-de-cores: escuro)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
+  <source media="(esquema-de-cores: claro)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
 </picture>
 ```
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
-  <img alt="github 贡献图贪吃蛇动画" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+  <source media="(esquema-de-cores: escuro)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
+  <source media="(esquema-de-cores: claro)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
 </picture>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,23 +18,20 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
-
 ## WakaTime
 
-**WakaTime 可以帮助你实现时间跟踪，记录你每天的编程时间，并展示你编程的习惯、编程语言分布、编程时长等信息。**
+**WakaTime é um plugin para IDEs/editores que rastreia automaticamente sua atividade de programação e mostra suas estatísticas de programação, incluindo suas horas programando, linguagens de programação e muito mais.**
 
 [![ref-repo]](https://github.com/wakatime)
 [![ref-online-tool]](https://wakatime.com/share)
 ![ref-need-register]
 
 > [!Tip]
-> WakaTime 存在多种统计图表，这里只简单介绍[项目徽章](https://wakatime.com/share/badges/projects)，更多功能请访问 [WakaTime](https://wakatime.com/) 官网。
+> WakaTime tem muitos gráficos para estatísticas, aqui apenas apresentamos os [badges do projeto](https://wakatime.com/share/badges/projects), para mais recursos, visite o site do [WakaTime](https://wakatime.com/).
 
 ### Parâmetros
 
-#### WakaTime 项目徽章
+#### Badge do Projeto WakaTime
 
 <details >
 <summary><small>Clique para exibir/fechar os parâmetros</small></summary><p></p>
@@ -42,9 +39,9 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-params] | | | | | |
-| `userId` | `string` | `true` |  | WakaTime 用户 ID |  |
-| `projectId` | `string` | `true` |  | WakaTime 项目 ID |  |
-| `type` | `string` | `true` |  | 徽章类型 | 可选值：`svg`、`png` |
+| `userId` | `string` | `true` |  | ID do usuário no WakaTime |  |
+| `projectId` | `string` | `true` |  | ID do Projeto no WakaTime |  |
+| `type` | `string` | `true` |  | Tipo de badge | Suporta: `svg` e `png` |
 
 </details>
 
@@ -52,7 +49,7 @@
 https://wakatime.com/badge/user/{userId}/project/{projectId}.{type}
 ```
 
-#### WakaTime 自定义图表
+#### Gráfico customizado do WakaTime
 
 <details >
 <summary><small>Clique para exibir/fechar os parâmetros</small></summary><p></p>
@@ -60,9 +57,9 @@ https://wakatime.com/badge/user/{userId}/project/{projectId}.{type}
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-params] | | | | | |
-| `userId` | `string` | `true` |  | WakaTime 用户 ID |  |
-| `chartConfigId` | `string` | `true` |  | WakaTime 图表配置 ID | 通过配置自动生成。 |
-| `type` | `string` | `true` |  | 徽章类型 | 可选值：`svg`、`png` |
+| `userId` | `string` | `true` |  | ID do usuário WakaTime |  |
+| `chartConfigId` | `string` | `true` |  | ID de configuração do gráfico no WakaTime | Gerado automaticamente pela configuração. |
+| `type` | `string` | `true` |  | Tipo de badge | Suporta: `svg` e `png` |
 
 </details>
 
@@ -70,7 +67,7 @@ https://wakatime.com/badge/user/{userId}/project/{projectId}.{type}
 https://wakatime.com/share/@{userId}/{chartConfigId}.{type}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
@@ -85,14 +82,14 @@ https://wakatime.com/share/@{userId}/{chartConfigId}.{type}
 
 ```markdown
 <!-- xiaohuohumax/readme-widget-hub -->
-![WakaTime 编码活动](https://wakatime.com/share/@55467317-4c40-41a7-b401-2b15b7a7e3f1/2bf34c99-3246-4d4c-85da-c9bf54d084cc.svg)
+![Atividade de Programação WakaTime](https://wakatime.com/share/@55467317-4c40-41a7-b401-2b15b7a7e3f1/2bf34c99-3246-4d4c-85da-c9bf54d084cc.svg)
 ```
 
 <div>
-  <img src="https://wakatime.com/share/@55467317-4c40-41a7-b401-2b15b7a7e3f1/2bf34c99-3246-4d4c-85da-c9bf54d084cc.svg" alt="WakaTime 编码活动" />
+  <img src="https://wakatime.com/share/@55467317-4c40-41a7-b401-2b15b7a7e3f1/2bf34c99-3246-4d4c-85da-c9bf54d084cc.svg" alt="Atividade de Programação WakaTime" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

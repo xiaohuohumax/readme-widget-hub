@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,18 +18,15 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
-
 ## Gradgen
 
-**Gradgen 是一个简单而强大的徽章生成器，它为 [badgen.net](https://badgen.net/) 上的徽章增添了令人惊叹的渐变效果。**
+**Gradgen é um construtor simples e poderoso da Cloudflare que aprimora os badges do [badgen.net](https://badgen.net/) com gradientes impressionantes.**
 
 [![ref-repo]](https://github.com/bokub/gradgen)
 [![ref-official-doc]](https://github.com/bokub/gradgen?tab=readme-ov-file#usage)
 
 > [!Tip]
-> 由于此项目徽章是基于 [badgen.net](https://badgen.net/) 生成，因此配置参数可直接参考 [badgen.net help](https://badgen.net/help)，下面配置仅展示此项目扩展参数。
+> Como os badges deste projeto são baseados no [badgen.net](https://badgen.net/), os parâmetros de configuração podem ser referenciados diretamente [badgen.net para ajuda](https://badgen.net/help). A configuração a seguir mostra apenas os parâmetros estendidos deste projeto.
 
 ### Parâmetros
 
@@ -39,11 +36,11 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-params] | | | | | |
-| `badgenNetParams` | `any` | `true` |  | [badgen.net 徽章路径参数](https://badgen.net/help) | 例如：`static/...`（静态徽章） `github/...`（Github 相关）。 |
+| `badgenNetParams` | `any` | `true` |  | [badgen.net Badge caminho dos parâmetros](https://badgen.net/help) | Por exemplo: `static/...` (Badges estáticas) `github/...` (Github-related). |
 | ![ref-querys] | | | | | |
-| `gradient` | `string` |  |  | 渐变色 | 格式：`color1,color2` 颜色格式：`HEX` `CSS 颜色`。 |
-| `style` | `string` |  |  | 徽章样式 | 可选值：`flat`。 |
-| `badgenNetQuerys` | `any` |  |  | [badgen.net 徽章查询参数](https://badgen.net/help) | 例如：`color`（图标颜色） `icon`（图标）等。 |
+| `gradient` | `string` |  |  | Gradiente | Formato: `color1,color2` Color formato: `HEX` `nome da cor em CSS`. |
+| `style` | `string` |  |  | Estilo da badge | Suporta: `flat`. |
+| `badgenNetQuerys` | `any` |  |  | [parâmetros de consulta badgen.net](https://badgen.net/help) | Por exemplo: `color` (Cor do ícone) `icon` (Ícone) etc. |
 
 </details>
 
@@ -51,7 +48,7 @@
 https://gradgen.bokub.workers.dev/{badgenNetParams}{?gradient,badgenNetQuerys
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
@@ -64,7 +61,7 @@ https://gradgen.bokub.workers.dev/{badgenNetParams}{?gradient,badgenNetQuerys
   <img src="https://gradgen.bokub.workers.dev/github/checks/nodejs/node?gradient=F3722C,F94144&#38;style=flat" alt="Gradgen Flat" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

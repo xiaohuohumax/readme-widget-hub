@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,12 +18,9 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
-
 ## Sloc Cloc and Code
 
-**一个可以显示代码行数、注释行数等的徽章服务。**
+**SCC é um contador de código muito rápido e preciso com cálculos de complexidade e estimativas COCOMO escritos em Go puro.**
 
 [![ref-repo]](https://github.com/boyter/scc/)
 [![ref-official-doc]](https://github.com/boyter/scc/?tab=readme-ov-file#badges-beta)
@@ -36,18 +33,18 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-params] | | | | | |
-| `provider` | `string` | `true` |  | 提供商 | 可选值：`github`。 |
-| `user` | `string` | `true` |  | 用户名 |  |
-| `repo` | `string` | `true` |  | 仓库名 |  |
+| `provider` | `string` | `true` |  | Provedor | Suporta: `github`. |
+| `user` | `string` | `true` |  | Nome do usuário |  |
+| `repo` | `string` | `true` |  | Nome do repositório |  |
 | ![ref-querys] | | | | | |
-| `category` | `string` |  | `code` | 统计类别 | 可选值：`code` `blanks` `lines` `comments` `cocomo`。 |
-| `avg-wage` | `number` |  | `56286` | 平均工资 | 值必须为正整数，否则将恢复到默认值 `56286`。 |
-| `lower` | `boolean` |  |  | 将标题文本转换为小写 |  |
-| `font-color` | `string` |  |  | 字体颜色 | 支持类型：`HEX`，例如：`FF0000`。 |
-| `font-shadow-color` | `string` |  |  | 字体阴影颜色 | 支持类型：`HEX`，例如：`FF0000`。 |
-| `top-shadow-accent-color` | `string` |  |  | 顶部阴影突出颜色 | 支持类型：`HEX`，例如：`FF0000`。 |
-| `title-bg-color` | `string` |  |  | 标题背景颜色 | 支持类型：`HEX`，例如：`FF0000`。 |
-| `badge-bg-color` | `string` |  |  | 徽章背景颜色 | 支持类型：`HEX`，例如：`FF0000`。 |
+| `category` | `string` |  | `code` | Categoria | Suporta: `code` `blanks` `lines` `comments` `cocomo`. |
+| `avg-wage` | `number` |  | `56286` | Salário médio | O valor deve ser um número inteiro positivo, caso contrário, será restaurado para o valor padrão `56286`. |
+| `lower` | `boolean` |  |  | Título em letra minúscula |  |
+| `font-color` | `string` |  |  | Cor da font | Suporte: `HEX`, ex. `FF0000`. |
+| `font-shadow-color` | `string` |  |  | Cor da sombra da fonte | Suporte: `HEX`, ex. `FF0000`. |
+| `top-shadow-accent-color` | `string` |  |  | Cor de destaque da sombra superior | Suporte: `HEX`, ex. `FF0000`. |
+| `title-bg-color` | `string` |  |  | Cor de fundo do título | Suporta: `HEX`, ex. `FF0000`. |
+| `badge-bg-color` | `string` |  |  | Cor de fundo do emblema (badge) | Suporta: `HEX`, ex. `FF0000`. |
 
 </details>
 
@@ -55,20 +52,20 @@
 https://sloc.xyz/{provider}/{user}/{repo}{?category,avg-wage,lower,font-color,font-shadow-color,top-shadow-accent-color,title-bg-color,badge-bg-color}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
 ```markdown
 <!-- xiaohuohumax/readme-widget-hub -->
-![总行数](https://sloc.xyz/github/xiaohuohumax/readme-widget-hub)
+![Total de linhas](https://sloc.xyz/github/xiaohuohumax/readme-widget-hub)
 ```
 
 <div>
-  <img src="https://sloc.xyz/github/xiaohuohumax/readme-widget-hub" alt="总行数" />
+  <img src="https://sloc.xyz/github/xiaohuohumax/readme-widget-hub" alt="Total de linhas" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

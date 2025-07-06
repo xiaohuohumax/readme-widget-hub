@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,12 +18,9 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
+## Citações no Readme do Github (PiyushSuthar)
 
-## Github Readme Quotes (PiyushSuthar)
-
-**将编程名言添加到你的 README 中。**
+**Add Programming Quotes To Your GitHub Readme.**
 
 [![ref-repo]](https://github.com/PiyushSuthar/github-readme-quotes)
 [![ref-official-doc]](https://github.com/PiyushSuthar/github-readme-quotes?tab=readme-ov-file#usage-%EF%B8%8F)
@@ -36,11 +33,11 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `type` | `string` |  | `vertical` | 类型 | 可选值：`vertical` `horizontal`。 |
-| `theme` | `string` |  | `light` | 主题 | 可选值：`dark` `light` `chartreuse-dark` `radical` `merko` `gruvbox` `tokyonight` `catppuccin` `catppuccin_latte` `catppuccin_frappe` `catppuccin_macchiato` `catppuccin_mocha` `algolia` `monokai` `dracula` `nord` `github` `graywhite` `moonlight` `hackerman` `shadow_red` `shadow_green` `shadow_blue`。 |
-| `quote` | `string` |  |  | 名言 | 若为空，则随机获取名言，名言列表：[quotes.json](https://github.com/mudroljub/programming-quotes-api/raw/master/data/quotes.json)。 |
-| `author` | `string` |  | `Me` | 名言作者 |  |
-| `border` | `boolean` |  | `false` | 是否使用边框 |  |
+| `type` | `string` |  | `vertical` | Tipo | Suporta: `vertical` `horizontal`. |
+| `theme` | `string` |  | `light` | Tema | Suporta: `dark` `light` `chartreuse-dark` `radical` `merko` `gruvbox` `tokyonight` `catppuccin` `catppuccin_latte` `catppuccin_frappe` `catppuccin_macchiato` `catppuccin_mocha` `algolia` `monokai` `dracula` `nord` `github` `graywhite` `moonlight` `hackerman` `shadow_red` `shadow_green` `shadow_blue`. |
+| `quote` | `string` |  |  | Citações | Se estiver vazio, uma citação aleatória será recuperada, lista de citações: [quotes.json](https://github.com/mudroljub/programming-quotes-api/raw/master/data/quotes.json). |
+| `author` | `string` |  | `Me` | Autor da Citação |  |
+| `border` | `boolean` |  | `false` | Utilizar Borda |  |
 
 </details>
 
@@ -48,27 +45,27 @@
 https://quotes-github-readme.vercel.app/api{?type,theme,quote,author,border}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
 ```markdown
-![随机名言](https://quotes-github-readme.vercel.app/api?theme=dark&type=horizontal)
+![Citações Aleatórias](https://quotes-github-readme.vercel.app/api?theme=dark&type=horizontal)
 ```
 
 <div>
-  <img src="https://quotes-github-readme.vercel.app/api?theme=dark&#38;type=horizontal" alt="随机名言" />
+  <img src="https://quotes-github-readme.vercel.app/api?theme=dark&#38;type=horizontal" alt="Citações Aleatórias" />
 </div>
 
 ```markdown
-![随机名言](https://quotes-github-readme.vercel.app/api?theme=nord&type=horizontal&border=true)
+![Citações Aleatórias](https://quotes-github-readme.vercel.app/api?theme=nord&type=horizontal&border=true)
 ```
 
 <div>
-  <img src="https://quotes-github-readme.vercel.app/api?theme=nord&#38;type=horizontal&#38;border=true" alt="随机名言" />
+  <img src="https://quotes-github-readme.vercel.app/api?theme=nord&#38;type=horizontal&#38;border=true" alt="Citações Aleatórias" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

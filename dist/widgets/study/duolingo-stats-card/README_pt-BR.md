@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,12 +18,9 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
+## Cartão com as Estatísticas do Duolingo (Duolingo Stats Card)
 
-## Duolingo Stats Card
-
-**一个实时可定制的多邻国小部件，您可以将它嵌入到您的网站或 Markdown 文件中。**
+**Um widget Duolingo personalizável e em tempo real que você pode incorporar em seu site ou arquivos markdown.**
 
 [![ref-repo]](https://github.com/KevzPeter/Duolingo-Stats-Card)
 [![ref-online-tool]](https://duolingo-stats-card.vercel.app/)
@@ -37,9 +34,9 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `username` | `string` | `true` |  | 多邻国用户名 |  |
-| `sort` | `string` |  | `crowns` | 排序 | 可选值：`crowns` `xp`。 |
-| `theme` | `string` |  |  | 主题 | 可选值：`light` `dark` `github-dark` `monokai` `tokyonight` `nightowl` 更多主题请参考[Themes](https://github.com/KevzPeter/Duolingo-Stats-Card?tab=readme-ov-file#-themes)。 |
+| `username` | `string` | `true` |  | Nome do usuário do Duolingo |  |
+| `sort` | `string` |  | `crowns` | Classificação | Suporta: `crowns` `xp`. |
+| `theme` | `string` |  |  | Tema | Suporta: `light` `dark` `github-dark` `monokai` `tokyonight` `nightowl`. Para mais temas, por favor, acesse [Temas](https://github.com/KevzPeter/Duolingo-Stats-Card?tab=readme-ov-file#-themes). |
 
 </details>
 
@@ -47,7 +44,7 @@
 https://duolingo-stats-card.vercel.app/api{?username,sort,theme}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
@@ -60,7 +57,7 @@ https://duolingo-stats-card.vercel.app/api{?username,sort,theme}
   <img src="https://duolingo-stats-card.vercel.app/api?username=Kevin_Peter" alt="Kevin Peter" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

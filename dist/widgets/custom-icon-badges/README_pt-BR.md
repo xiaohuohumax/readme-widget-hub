@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,18 +18,15 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
+## Badges com Ícones Customizados (Custom Icon Badges)
 
-## Custom Icon Badges
-
-**自定义图标徽章，可以用任何你喜欢的图标。**
+**Permite que os usuários usem Octicons e seus próprios ícones e logotipos com mais facilidade. [badges no shields.io](https://github.com/badges/shields).**
 
 [![ref-repo]](https://github.com/DenverCoder1/custom-icon-badges)
 [![ref-online-tool]](https://custom-icon-badges.demolab.com/)
 
 > [!Tip]
-> 由于此项目徽章是基于 [shields.io](https://shields.io/) 生成，因此配置参数可直接参考 [shields.io badges](https://shields.io/badges)，下面配置仅展示此项目扩展参数。
+> Como os emblemas do projeto são gerados com base no [shields.io](https://shields.io/), os parâmetros de configuração podem se referir diretamente aos badges so [shields.io badges](https://shields.io/badges). As configurações a seguir demonstram apenas os parâmetros estendidos para este projeto.
 
 ### Parâmetros
 
@@ -39,12 +36,12 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-params] | | | | | |
-| `shieldsIoParams` | `any` | `true` |  | [shields.io 徽章路径参数](https://shields.io/badges) | 例如：`badge/...`（静态徽章） `github/...`（Github 相关）。 |
+| `shieldsIoParams` | `any` | `true` |  | [Caminho com os parâmetros do badge no shields.io](https://shields.io/badges) | Por exemplo: `badge/...` (badge estática) `github/...` (Relacionado ao Github). |
 | ![ref-querys] | | | | | |
-| `host` | `string` |  | `img.shields.io` | 使用不同的徽章托管服务 | 可选值：`staging.shields.io` `img.shields.io`。 |
-| `logo` | `string` |  |  | 自定义图标名称 | 即自己上传图标时设置的名称。 |
-| `logoSource` | `string` |  |  | 自定义图标来源 | 可选值：`feather`。 |
-| `shieldsIoQuerys` | `any` |  |  | [shields.io 徽章查询参数](https://shields.io/badges) | 例如：`logoColor`（图标颜色） `style`（徽章样式）等。 |
+| `host` | `string` |  | `img.shields.io` | Uso de badge diferente  | Suporta: `staging.shields.io` `img.shields.io`. |
+| `logo` | `string` |  |  | Nome do ícone customizado | O nome que você definiu ao carregar o ícone. |
+| `logoSource` | `string` |  |  | Fonte de ícone personalizado | Suporta: `feather`. |
+| `shieldsIoQuerys` | `any` |  |  | [Parâmetros de consulta do shields.io](https://shields.io/badges) | Por exemplo: `logoColor` (cor do ícone) `style` (estilo do badge) etc. |
 
 </details>
 
@@ -52,19 +49,19 @@
 https://custom-icon-badges.demolab.com/{shieldsIoParams}{?host,shieldsIoQuerys}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
 ```markdown
-![自定义图标徽章](https://custom-icon-badges.demolab.com/badge/custom-badge-blue.svg?logo=paintbrush&logoColor=white)
+![Badge com ícone customizado](https://custom-icon-badges.demolab.com/badge/custom-badge-blue.svg?logo=paintbrush&logoColor=white)
 ```
 
 <div>
-  <img src="https://custom-icon-badges.demolab.com/badge/custom-badge-blue.svg?logo=paintbrush&#38;logoColor=white" alt="自定义图标徽章" />
+  <img src="https://custom-icon-badges.demolab.com/badge/custom-badge-blue.svg?logo=paintbrush&#38;logoColor=white" alt="Badge com ícone customizado" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

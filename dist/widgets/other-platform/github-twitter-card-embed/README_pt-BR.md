@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,12 +18,9 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
+## Cartão do Twitter Incorporado no GitHub (GitHub Twitter Card Embed)
 
-## GitHub Twitter Card Embed
-
-**展示你 Twitter 的推文、创建时间、点赞、认证徽章等信息。**
+**Obtenha um selo Verificado, exiba seu Tweet no seu site, no GitHub ReadMe ou em qualquer outro lugar.**
 
 [![ref-repo]](https://github.com/VishwaGauravIn/github-twitter-card-embed)
 [![ref-online-tool]](https://gtce.itsvg.in/)
@@ -37,12 +34,12 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `username` | `string` | `true` |  | Twitter 用户名 |  |
-| `theme` | `string` |  | `dracula` | 主题 | 可选值：`default` `default_repocard` `transparent` `dark` `tokyonight` 更多主题参考：[Themes](https://github.com/VishwaGauravIn/github-twitter-card-embed?tab=readme-ov-file#-themes)。 |
-| `icon` | `string` |  | `default` | 图标 | 可选值：`default` `thunder` `sun` `beaker` `bookmark` `bug` `cake` `badge` `code` `smile` `fire` `hashtag` `heart` `lock` `moon` `radio` `sparkles` `star` `trophy` `user`。 |
-| `time` | `boolean` |  | `true` | 是否显示时间 | 可选值：`true` `false`。 |
-| `response` | `boolean` |  | `true` | 是否显示点赞、转发和评论 | 可选值：`true` `false`。 |
-| `border` | `boolean` |  | `true` | 是否显示边框 | 可选值：`true` `false`。 |
+| `username` | `string` | `true` |  | Nome do usuário no Twitter |  |
+| `theme` | `string` |  | `dracula` | Tema | Suporta: `default` `default_repocard` `transparent` `dark` `tokyonight` referência do tema principal em [Temas](https://github.com/VishwaGauravIn/github-twitter-card-embed?tab=readme-ov-file#-themes). |
+| `icon` | `string` |  | `default` | Ícone | Suporta: `default` `thunder` `sun` `beaker` `bookmark` `bug` `cake` `badge` `code` `smile` `fire` `hashtag` `heart` `lock` `moon` `radio` `sparkles` `star` `trophy` `user`. |
+| `time` | `boolean` |  | `true` | Exibe o tempo | Suporta: `true` `false`. |
+| `response` | `boolean` |  | `true` | Exibe resposta | Suporta: `true` `false`. |
+| `border` | `boolean` |  | `true` | Exibe a borda | Suporta: `true` `false`. |
 
 </details>
 
@@ -50,7 +47,7 @@
 https://gtce.itsvg.in/api{?username,theme,icon,time,response,border}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
@@ -63,7 +60,7 @@ https://gtce.itsvg.in/api{?username,theme,icon,time,response,border}
   <img src="https://gtce.itsvg.in/api?username=VishwaGauravIn&#38;theme=jolly&#38;response=false&#38;border=false" alt="Twitter Card" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

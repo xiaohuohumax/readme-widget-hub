@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,12 +18,9 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
-
 ## HITS
 
-**一个简单的方法来查看有多少人访问了您的网站或 GitHub 仓库。**
+**Uma maneira simples de ver quantas pessoas visitaram seu site ou repositório do GitHub.**
 
 [![ref-repo]](https://github.com/gjbae1212/hit-counter)
 [![ref-online-tool]](https://hits.seeyoufarm.com/#badge)
@@ -36,12 +33,12 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `url` | `string` | `true` |  | 需要统计的网站或 GitHub 仓库的 URL |  |
-| `edge_flat` | `boolean` |  |  | 徽章整体风格 | 可选值：`true`（Flat） `false`（Round）。 |
-| `title` | `string` |  | `hits` | 左侧标签内容 |  |
-| `title_bg` | `string` |  | `#555555` | 左侧标签背景颜色 | 格式：`HEX`，例如：`#FF0000`。 |
-| `count_bg` | `string` |  | `#79C83D` | 右侧信息背景颜色 | 格式：`HEX`，例如：`#FF0000`。 |
-| `icon_color` | `string` |  |  | 图标颜色 | 格式：`HEX`，例如：`#FF0000`。 |
+| `url` | `string` | `true` |  | A URL do site ou repositório do GitHub a ser contado |  |
+| `edge_flat` | `boolean` |  |  | Estilo do Badge | Suporta: `true` (Quadrado) `false` (Redondo). |
+| `title` | `string` |  | `hits` | Conteúdo do rótulo esquerdo |  |
+| `title_bg` | `string` |  | `#555555` | Cor de fundo do rótulo esquerdo | Suporta: `Hex`, ex. `#FF0000`. |
+| `count_bg` | `string` |  | `#79C83D` | Cor de fundo das informações corretas | Suporta: `Hex`, ex. `#FF0000`. |
+| `icon_color` | `string` |  |  | Cor do ícone | Suporta: `Hex`, ex. `#FF0000`. |
 
 </details>
 
@@ -49,20 +46,20 @@
 https://hits.seeyoufarm.com/api/count/incr/badge.svg{?url,edge_flat,title,title_bg,count_bg,icon_color}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
 ```markdown
 <!-- xiaohuohumax/readme-widget-hub -->
-![点击统计](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/readme-widget-hub)
+![Contador de visitas](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/readme-widget-hub)
 ```
 
 <div>
-  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/readme-widget-hub" alt="点击统计" />
+  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/xiaohuohumax/readme-widget-hub" alt="Contador de visitas" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

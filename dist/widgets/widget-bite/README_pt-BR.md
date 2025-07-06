@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,19 +18,16 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
-
 ## Widget Bite
 
-**为你的 README 添加一些小组件（包含：访客计数，投票以及一个好看的 Banner），让你的项目更加生动有趣。**
+**Adicione alguns pequenos componentes (como contagem de visitas, votação e um belo banner) ao seu README para tornar seu projeto mais atraente e interessante.**
 
 [![ref-online-tool]](https://widgetbite.com/)
 [![ref-official-doc]](https://widgetbite.com/)
 
 ### Parâmetros
 
-#### 访客统计
+#### Contador de visitas
 
 <details >
 <summary><small>Clique para exibir/fechar os parâmetros</small></summary><p></p>
@@ -38,7 +35,7 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-params] | | | | | |
-| `username` | `string` | `true` |  | Github 用户名 |  |
+| `username` | `string` | `true` |  | Nome do usuário no Github |  |
 
 </details>
 
@@ -54,12 +51,12 @@ https://widgetbite.com/stats/{username}
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `title` | `string` |  |  | 标题 |  |
-| `subtitle` | `string` |  |  | 副标题 |  |
-| `titletransform` | `string` |  | `none` | 标题旋转方式 | 可选值：`none` `rotate` `skew` `scale`。 |
-| `subtitletransform` | `string` |  | `none` | 副标题旋转方式 | 可选值：`none` `rotate` `skew` `scale`。 |
-| `fontpalette` | `string` |  | `none` | 文字样式 | 可选值：`none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`。 |
-| `backgroundpalette` | `string` |  | `none` | 背景样式 | 可选值：`none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`。 |
+| `title` | `string` |  |  | Título |  |
+| `subtitle` | `string` |  |  | Legenda |  |
+| `titletransform` | `string` |  | `none` | Alteração do título | Suporta: `none` `rotate` `skew` `scale`. |
+| `subtitletransform` | `string` |  | `none` | Alterar a legenda | Suporta: `none` `rotate` `skew` `scale`. |
+| `fontpalette` | `string` |  | `none` | Texto da paleta | Suporta: `none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`. |
+| `backgroundpalette` | `string` |  | `none` | Cor de fundo da paleta | Suporta: `none` `water` `harvest` `twilight` `pastels` `jungle` `fusion` `autumn`. |
 
 </details>
 
@@ -67,17 +64,17 @@ https://widgetbite.com/stats/{username}
 https://widgetbite.com/banner{?title,subtitle,titletransform,subtitletransform,fontpalette,backgroundpalette}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
 ```markdown
 <!-- xiaohuohumax -->
-![访客统计](https://widgetbite.com/stats/xiaohuohumax)
+![Contador de visitas](https://widgetbite.com/stats/xiaohuohumax)
 ```
 
 <div>
-  <img src="https://widgetbite.com/stats/xiaohuohumax" alt="访客统计" />
+  <img src="https://widgetbite.com/stats/xiaohuohumax" alt="Contador de visitas" />
 </div>
 
 ```markdown
@@ -85,10 +82,10 @@ https://widgetbite.com/banner{?title,subtitle,titletransform,subtitletransform,f
 ```
 
 <div>
-  <img src="https://widgetbite.com/banner?title=Badge%20Collection&#38;subtitle=&#38;backgroundpalette=pastels&#38;fontpalette=pastels&#38;titletransform=rotate" alt="Banner" />
+  <img src="https://widgetbite.com/banner?title=Badge%20Collection&#38;subtitle=&#38;backgroundpalette=pastels&#38;fontpalette=pastels&#38;titletransform=rotate" alt="Faixa" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">
