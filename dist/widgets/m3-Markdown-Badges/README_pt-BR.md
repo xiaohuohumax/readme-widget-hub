@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,19 +18,16 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
-
 ## m3 Markdown Badges
 
-**一个受 Material You 启发的 Markdown 徽章集合。**
+**Uma coleção de emblemas (badge) markdown inspirados no estilo Material.**
 
 [![ref-repo]](https://github.com/ziadOUA/m3-Markdown-Badges)
 [![ref-official-doc]](https://github.com/ziadOUA/m3-Markdown-Badges?tab=readme-ov-file#how-to-use)
 ![ref-static-badge]
 
 > [!Tip]
-> 此项目包含超多静态徽章，详细静态徽章链接请前往仓库 [m3-Markdown-Badges](https://github.com/ziadOUA/m3-Markdown-Badges?tab=readme-ov-file#static-badges) 查找。
+> Este projeto contém muitos emblemas (badges) estáticos, links detalhados para esses emblemas estáticos podem ser encontrados no repositório [m3-Markdown-Badges](https://github.com/ziadOUA/m3-Markdown-Badges?tab=readme-ov-file#static-badges).
 
 ### Parâmetros
 
@@ -40,11 +37,11 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-params] | | | | | |
-| `type` | `string` | `true` |  | 徽章类型 | 可选值：`stars` `issues`。 |
-| `hue` | `number` | `true` |  | 色调 | 范围：`1` 到 `12`。 |
-| `tint` | `number` | `true` |  | 色深 | 范围：`1` 到 `3`。 |
-| `owner` | `string` | `true` |  | Github 用户名 |  |
-| `repo` | `string` | `true` |  | Github 仓库名 |  |
+| `type` | `string` | `true` |  | Tipo do emblema (badge) | Suporta: `stars` `issues`. |
+| `hue` | `number` | `true` |  | Ton | Entre `1` e `12`. |
+| `tint` | `number` | `true` |  | Tonalidade | Entre `1` e `3`. |
+| `owner` | `string` | `true` |  | Nome do usuário no Github |  |
+| `repo` | `string` | `true` |  | Nome do repositório no Github |  |
 
 </details>
 
@@ -52,11 +49,11 @@
 https://m3-markdown-badges.vercel.app/{type}/{hue}/{tint}/{owner}/{repo}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
-#### 动态徽章
+#### Emblemas (badges) dinâmicos
 
 ```markdown
 <!-- ziadOUA/m3-Markdown-Badges -->
@@ -68,7 +65,7 @@ https://m3-markdown-badges.vercel.app/{type}/{hue}/{tint}/{owner}/{repo}
   <img src="https://m3-markdown-badges.vercel.app/issues/1/2/ziadOUA/m3-Markdown-Badges" alt="Github Issues" />
 </div>
 
-#### 静态徽章
+#### Emblemas (badges) estáticas
 
 ```markdown
 ![Github](https://ziadoua.github.io/m3-Markdown-Badges/badges/Github/github2.svg)
@@ -85,7 +82,7 @@ https://m3-markdown-badges.vercel.app/{type}/{hue}/{tint}/{owner}/{repo}
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/ViteJS/vitejs2.svg" alt="ViteJS" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,19 +18,16 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
+## Últimas músicas escutadas no Spotify (Spotify Recently Played README)
 
-## Spotify Recently Played README
-
-**在你的 README 中展示最近在 Spotify 上播放的曲目。**
+**Exiba suas faixas tocadas recentemente do Spotify no arquivo README do seu perfil do GitHub.**
 
 [![ref-repo]](https://github.com/JeffreyCA/spotify-recently-played-readme)
 [![ref-official-doc]](https://github.com/JeffreyCA/spotify-recently-played-readme?tab=readme-ov-file#getting-started)
 ![ref-need-auth]
 
 > [!Tip]
-> 需要授权 Spotify API 才能使用该功能，[授权地址](https://spotify-recently-played-readme.vercel.app/)。
+> Você precisa autorizar a API do Spotify para usar este recurso, [link para autorização](https://spotify-recently-played-readme.vercel.app/).
 
 ### Parâmetros
 
@@ -40,10 +37,10 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `user` | `string` |  |  | Spotify 用户名 |  |
-| `count` | `string` |  | `5` | 自定义曲目数量 | 范围：`1` 到 `10`。 |
-| `width` | `string` |  | `400` | 自定义卡片宽度 | 范围：`300` 到 `1000`。 |
-| `unique` | `boolean` |  | `false` | 是否显示最近播放列表中的唯一曲目 | 可选值：`false` `true` `on` `yes` `1`。 |
+| `user` | `string` |  |  | Nome do Usuário no Spotify |  |
+| `count` | `string` |  | `5` | Contagem personalizada de faixas | Faixa: `1` até `10`. |
+| `width` | `string` |  | `400` | Contagem personalizada de faixas | Faixa: `300` até `1000`. |
+| `unique` | `boolean` |  | `false` | Exibir somente as faixas exclusivas na lista reproduzida recentemente | Suporta: `false` `true` `on` `yes` `1`. |
 
 </details>
 
@@ -51,7 +48,7 @@
 https://spotify-recently-played-readme.vercel.app/api{?user,count,width,unique}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
@@ -64,7 +61,7 @@ https://spotify-recently-played-readme.vercel.app/api{?user,count,width,unique}
   <img src="https://spotify-recently-played-readme.vercel.app/api?user=jeffreyca16" alt="Spotify" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

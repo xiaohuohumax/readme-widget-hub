@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,12 +18,9 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
-
 ## NodeICO
 
-**精致的 node.js 徽章，仅此而已。**
+**Emblemas elegantes do node.js, só isso.**
 
 [![ref-repo]](https://github.com/rvagg/nodei.co)
 [![ref-online-tool]](https://nodei.co/)
@@ -31,7 +28,7 @@
 
 ### Parâmetros
 
-#### NPM 包徽章
+#### Emblema (badge) do pacote NPM.
 
 <details >
 <summary><small>Clique para exibir/fechar os parâmetros</small></summary><p></p>
@@ -39,13 +36,13 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-params] | | | | | |
-| `package` | `string` | `true` |  | npm 包名 |  |
+| `package` | `string` | `true` |  | Nome do pacote NPM |  |
 | ![ref-querys] | | | | | |
-| `compact` | `boolean` |  | `false` | 是否使用紧凑布局 |  |
-| `mini` | `boolean` |  | `false` | 是否使用迷你布局 |  |
-| `downloads` | `boolean` |  | `false` | 是否显示下载量 |  |
-| `downloadRank` | `boolean` |  | `false` | 是否显示下载排名 |  |
-| `stars` | `boolean` |  | `false` | 是否显示星标数 |  |
+| `compact` | `boolean` |  | `false` | Utilizar do modelo compacto |  |
+| `mini` | `boolean` |  | `false` | Utilizar o modelo menor |  |
+| `downloads` | `boolean` |  | `false` | Exibir os downloads |  |
+| `downloadRank` | `boolean` |  | `false` | Exibir o download do ranking |  |
+| `stars` | `boolean` |  | `false` | Exibir as estrelas |  |
 
 </details>
 
@@ -53,7 +50,7 @@
 https://nodei.co/npm/{package}.png{?compact,mini,downloads,downloadRank,stars}
 ```
 
-#### NPM 包下载徽章
+#### Emblema (badge) de download do pacote NPM
 
 <details >
 <summary><small>Clique para exibir/fechar os parâmetros</small></summary><p></p>
@@ -61,10 +58,10 @@ https://nodei.co/npm/{package}.png{?compact,mini,downloads,downloadRank,stars}
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-params] | | | | | |
-| `package` | `string` | `true` |  | npm 包名 |  |
+| `package` | `string` | `true` |  | Nome do pacote NPM |  |
 | ![ref-querys] | | | | | |
-| `months` | `number` |  | `12` | 显示最近多少个月的下载量 | 范围：`1` 到 `12` |
-| `height` | `number` |  | `1` | 高度 | 范围：`1` 到 `3` |
+| `months` | `number` |  | `12` | Exibir download do últimos 'n' mêses | Limite: `1` a `12` |
+| `height` | `number` |  | `1` | Altura | Limite: `1` a `3` |
 
 </details>
 
@@ -72,7 +69,7 @@ https://nodei.co/npm/{package}.png{?compact,mini,downloads,downloadRank,stars}
 https://nodei.co/npm-dl/{package}.png{?months,height}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
@@ -94,7 +91,7 @@ https://nodei.co/npm-dl/{package}.png{?months,height}
   <img src="https://nodei.co/npm-dl/vue.png" alt="Vue" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

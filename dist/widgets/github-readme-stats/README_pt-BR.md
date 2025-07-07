@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,18 +18,15 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
+## Estatísticas no Readme do GitHub (GitHub Readme Stats)
 
-## GitHub Readme Stats
-
-**获取动态生成的 GitHub 统计信息！**
+**Gerar dinamicamente as estatísticas do GitHub no seu README!**
 
 [![ref-repo]](https://github.com/anuraghazra/github-readme-stats)
 [![ref-official-doc]](https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#features-)
 
 > [!Tip]
-> 由于此项目支持的卡片种类非常多，且功能强大，这里只简单介绍－GitHub 状态卡片，其他卡片使用方式还请移步官方文档。
+> Devido aos diversos tipos de cartões suportados por este projeto e seus recursos poderosos, aqui está uma introdução simples ao GitHub Readme Stats. Para outros tipos de cartões, consulte a documentação oficial.
 
 ### Parâmetros
 
@@ -39,20 +36,20 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `username` | `string` |  |  | GitHub 用户名 |  |
-| `title_color` | `string` |  | `2F80ED` | 卡片标题颜色 | 支持 HEX 颜色值，如 `FF0000`。 |
-| `text_color` | `string` |  | `434D58` | 正文文本颜色 | 支持 HEX 颜色值，如 `FF0000`。 |
-| `icon_color` | `string` |  | `4C71F2` | 图标颜色 | 支持 HEX 颜色值，如 `FF0000`。 |
-| `border_color` | `string` |  | `E4E2E2` | 卡片边框颜色 | 支持 HEX 颜色值，如 `FF0000`，当启用 `hide_border` 时，不适用。 |
-| `hide_border` | `boolean` |  | `false` | 是否隐藏卡片边框 |  |
-| `theme` | `string` |  |  | 设置主题 | 可选值：`dark` `radical` `merko` `gruvbox` `tokyonight` `onedark` `cobalt` `synthwave` `highcontrast` `dracula` `transparent`。 |
-| `cache_seconds` | `number` |  | `21600` | 卡片缓存时间 | 单位：秒，范围：`21600` 到 `86400`。 |
-| `locale` | `string` |  | `en` | 设置语言 | 语言参考：[locales](https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#available-locales)。 |
-| `border_radius` | `number` |  | `4.5` | 卡片上的圆角处理 |  |
-| `hide` | `string` |  |  | 隐藏特定的统计数据 | 数据类型之间用 `,` 分隔。 |
-| `show` | `string` |  |  | 显示附加统计信息 | 数据类型之间用 `,` 分隔。 |
-| `show_icons` | `boolean` |  | `true` | 是否显示图标 |  |
-| `bg_color` | `string` |  |  | 卡片背景色 | 背景色支持渐变，格式：`deg,color1,color2,color3,...`。 |
+| `username` | `string` |  |  | Nome do usuário no GitHub |  |
+| `title_color` | `string` |  | `2F80ED` | Cor do título no cartão | Suporta: `HEX`, ex. `FF0000`. |
+| `text_color` | `string` |  | `434D58` | Cor do corpo do cartão | Suporta: `HEX`, ex. `FF0000`. |
+| `icon_color` | `string` |  | `4C71F2` | Cor dos ícones disponíveis | Suporta: `HEX`, ex. `FF0000`. |
+| `border_color` | `string` |  | `E4E2E2` | Cor da borda do cartão | Suporta: `HEX`, ex. `FF0000`. não se aplica a `hide_border` é sempre disponível. |
+| `hide_border` | `boolean` |  | `false` | Ocultar a borda do cartão |  |
+| `theme` | `string` |  |  | Nome do tema | Suporta: `dark` `radical` `merko` `gruvbox` `tokyonight` `onedark` `cobalt` `synthwave` `highcontrast` `dracula` `transparent`. |
+| `cache_seconds` | `number` |  | `21600` | Alterar manualmente o cache do cabeçalho | Unidades: segundos, limite: `21600` a `86400`. |
+| `locale` | `string` |  | `en` | Alterar o idioma do cartão | Idioma de referência: [locales](https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#available-locales). |
+| `border_radius` | `number` |  | `4.5` | Arredondamente do canto do cartão |  |
+| `hide` | `string` |  |  | Oculta os [itens especificados](https://github.com/anuraghazra/github-readme-stats#hiding-individual-stats) from stats | Dados separados por `,`. |
+| `show` | `string` |  |  | Exibe [itens adicionais](https://github.com/anuraghazra/github-readme-stats#showing-additional-individual-stats) no cartão de estatísticas | Tipos de dados separados por `,`. |
+| `show_icons` | `boolean` |  | `true` | Ícones disponíveis |  |
+| `bg_color` | `string` |  |  | Cor de fundo do cartão | A cor de fundo do cartão suporta uma cor gradiente, formato: `deg,color1,color2,color3,...`. |
 
 </details>
 
@@ -60,7 +57,7 @@
 https://github-readme-stats.vercel.app/api{?username,title_color,text_color,icon_color,border_color,hide_border,theme,cache_seconds,locale,border_radius,hide,show,show_icons,bg_color}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
@@ -82,7 +79,7 @@ https://github-readme-stats.vercel.app/api{?username,title_color,text_color,icon
   <img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&#38;locale=cn&#38;theme=dark&#38;hide_border=true" alt="GitHub stats" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

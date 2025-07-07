@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,19 +18,16 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
-
 ## Shields.io
 
-**Shields.io 是一个提供简洁、一致和易读的 SVG 和位图格式徽章的服务，可以轻松地包含在 GitHub 的 README 文件或任何其他网页中。**
+**Emblemas concisos, consistentes e legíveis em formato SVG e raster.**
 
 [![ref-repo]](https://github.com/badges/shields)
 [![ref-online-tool]](https://shields.io/badges)
 [![ref-official-doc]](https://shields.io/badges)
 
 > [!Tip]
-> 由于此项目支持的徽章种类非常多，且功能强大，这里只简单介绍－静态徽章，其他徽章使用方式还请移步官方文档。
+> Devido ao grande número de tipos de emblemas suportados por este projeto e às suas funções poderosas, aqui está uma introdução simples aos emblemas estáticos. Para outros tipos de emblemas, consulte a documentação oficial.
 
 ### Parâmetros
 
@@ -40,17 +37,17 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-params] | | | | | |
-| `badgeContent` | `string` | `true` |  | 徽章内容 | 格式：`标签-消息-消息背景颜色`。 |
+| `badgeContent` | `string` | `true` |  | Rótulo, mensagem (opcional) e cor. Separados por hífens | Exemplo: `build-passing-brightgreen`. |
 | ![ref-querys] | | | | | |
-| `style` | `string` |  | `flat` | 徽章整体风格 | 可选值：`flat` `flat-square` `plastic` `for-the-badge` `social`。 |
-| `logo` | `string` |  |  | Logo 图标名称 | 支持 Base64，[slugs.md](https://github.com/simple-icons/simple-icons/blob/master/slugs.md)，[Simple Icons](https://simpleicons.org/)。 |
-| `logoColor` | `string` |  |  | Logo 颜色 | 支持格式：`HEX` `RGB` `RGBA` `HSL` `HSLA` `CSS颜色`，适用于 simple-icons 库中的标志，但不适用于自定义标志。 |
-| `logoSize` | `string` |  |  | Logo 自适应大小 | 可选值：`auto`。 |
-| `label` | `string` |  |  | 左侧标签文字 | 覆盖 `badgeContent` 中 `标签` 部分。 |
-| `labelColor` | `string` |  |  | 左侧标签背景颜色 | 支持格式：`HEX` `RGB` `RGBA` `HSL` `HSLA` `CSS颜色`，适用于 simple-icons 库中的标志，但不适用于自定义标志。 |
-| `color` | `string` |  |  | 右侧消息背景颜色 | 覆盖 `badgeContent` 中 `消息背景颜色` 部分, 支持格式：同上 `logoColor`。 |
-| `cacheSeconds` | `string` |  | `3600` | HTTP 缓存有效期 | 单位：秒，规则应用于推断每个徽标的默认值，任何低于默认值的指定都将被忽略。 |
-| `link` | `string` |  |  | 指定点击徽标左侧/右侧应执行的操作 | 注意：这仅在将徽标集成到 `&lt;object>` HTML 标签时有效，但不适用于 `<img>` 标签或标记语言。 |
+| `style` | `string` |  | `flat` | Estilo do badge | Valores possíveis: `flat` `flat-square` `plastic` `for-the-badge` `social`. |
+| `logo` | `string` |  |  | Slug dos ícones simple-icons | Você pode clicar no título do ícone em [simple-icons](https://simpleicons.org/) para copiar o slug ou encontrá-los arquivo de [slugs.md](https://github.com/simple-icons/simple-icons/blob/master/slugs.md) e no repositório dos simple-icons. [Clique aqui](https://shields.io/docs/logos) para mais informações. |
+| `logoColor` | `string` |  |  | A cor do logo | Suporta: `hex`, `rgb`, `rgba`, `hsl`, `hsla` e `css named colors`. Suporte para logotipos dos simple-icons, mas não para logotipos personalizados. |
+| `logoSize` | `string` |  |  | Faça com que os ícones sejam redimensionados de forma adaptável, definindo o modo `auto` | Útil para alguns logotipos mais amplos como `amd` e `amg`. Suporte para logotipos simple-icons mais não para logotipos customizados. |
+| `label` | `string` |  |  | Substituir o texto padrão do lado esquerdo | [URL-Encoding](https://developer.mozilla.org/en-US/docs/Glossary/Percent-encoding) caso precise de espaços ou caracteres especiais!. |
+| `labelColor` | `string` |  |  | Cor do logotipo | Suporte: `hex`, `rgb`, `rgba`, `hsl`, `hsla` e `css named colors`. Suportado para logotipos de ícones simples, mas não para logotipos personalizados. |
+| `color` | `string` |  |  | Background color of the right part | Supported: `hex`, `rgb`, `rgba`, `hsl`, `hsla` e `css named colors`. |
+| `cacheSeconds` | `string` |  | `3600` | Limite do cache HTTP | Unidade: segundos. As regras são aplicadas para inferir um valor padrão por emblema. Quaisquer valores especificados abaixo do padrão serão ignorados. |
+| `link` | `string` |  |  | Especifique a ação a ser executada ao clicar no lado esquerdo/direito do emblema | Nota: Isso só funciona quando o emblema é incorporado a um `<object>` tag em HTML, mais não a uma tag `<img>` ou a uma linguagem markup. |
 
 </details>
 
@@ -58,21 +55,21 @@
 https://img.shields.io/badge/{badgeContent}{?style,logo,logoColor,logoSize,label,labelColor,color,cacheSeconds,link}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
 ```markdown
 <!-- badges/shields -->
-![静态徽章](https://img.shields.io/badge/badges/shields-555555?logo=github)
+![Badge estática](https://img.shields.io/badge/badges/shields-555555?logo=github)
 ```
 
 <div>
-  <img src="https://img.shields.io/badge/badges/shields-555555?logo=github" alt="静态徽章" />
+  <img src="https://img.shields.io/badge/badges/shields-555555?logo=github" alt="Badge estática" />
 </div>
 
 ```markdown
-![颜色徽章](https://img.shields.io/badge/F94144-F94144)
+![Cor da Badge](https://img.shields.io/badge/F94144-F94144)
 ```
 
 <div>
@@ -89,7 +86,7 @@ https://img.shields.io/badge/{badgeContent}{?style,logo,logoColor,logoSize,label
   <img src="https://img.shields.io/badge/277DA1-277DA1" alt="Color Badge 277DA1" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

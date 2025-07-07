@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,12 +18,9 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
+## Cartões do YouTube no Readme do GitHub (GitHub Readme YouTube Cards)
 
-## GitHub Readme YouTube Cards
-
-**在你的 readme 中显示最近的 YouTube 视频作为 SVG 卡片。**
+**Workflow para exibir vídeos recentes do YouTube em cartões SVG no seu arquivo README.**
 
 [![ref-repo]](https://github.com/DenverCoder1/github-readme-youtube-cards)
 [![ref-official-doc]](https://github.com/DenverCoder1/github-readme-youtube-cards?tab=readme-ov-file#basic-usage)
@@ -31,38 +28,38 @@
 
 ### Uso
 
-1. 将以下代码片段添加到您想显示卡片的地方的 markdown 文件中。
+1. É nescessário inserir o código abaixo no README para que o cartão seja visulizado.
 
 ```yaml
 <!-- BEGIN YOUTUBE-CARDS -->
 <!-- END YOUTUBE-CARDS -->
 ```
 
-2. 在你的仓库中，创建一个名为 `.github` 的文件夹，然后在其中创建一个名为 `workflows` 的文件夹（如果不存在的话）。接着在 `.github/workflows/` 文件夹中创建一个文件，并给它命名为 `youtube-cards.yml` ，内容如下。
+2. No seu repositório, crie uma pasta `.github` e dentro dela uma outra pasta de nome `workflows` caso você já não tenha uma então, crie um arquivo dentro da pasta `.github/workflows/` e der a ele o nome de `youtube-cards.yml` e adicione o código abaixo.
 
 ```yaml
 name: GitHub Readme YouTube Cards
 on:
   schedule:
-    # 每小时整点运行
+    # Executa toda hora, na hora certa
     - cron: "0 * * * *"
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    # 允许 GitHub Actions 写入仓库
+    # Permite que o trabalho seja confirmado no repositório
     permissions:
       contents: write
-    # 运行 GitHub Readme YouTube Cards 动作
+    # Executa os Cartões do YouTube no seu Readme do GitHub
     steps:
       - uses: DenverCoder1/github-readme-youtube-cards@main
         with:
-          # 你的 YouTube 频道 ID
+          # ID do seu canal no YouTube
           channel_id: UCipSxT7a3rn81vGLw9lqRkg
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Parâmetros
 
@@ -74,38 +71,38 @@ jobs:
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-actions] | | | | | |
-| `channel_id` | `string` | `true` |  | 你的 YouTube channel ID |  |
-| `playlist_id` | `string` |  |  | 播放列表 ID |  |
-| `lang` | `string` |  | `en` | 语言 |  |
-| `comment_tag_name` | `string` |  | `YOUTUBE-CARDS` | 注释标签中替换内容的文本 |  |
-| `youtube_api_key` | `string` |  |  | YouTube API 密钥 |  |
-| `max_videos` | `number` |  | `6` | 显示的视频最大数量 |  |
-| `base_url` | `string` |  | `https://ytcards.demolab.com/` | 卡片的基础 URL |  |
-| `card_width` | `number` |  | `250` | 卡片的宽度 | 单位：像素。 |
-| `border_radius` | `number` |  | `5` | 卡片的圆角半径 |  |
-| `background_color` | `string` |  | `#0d1117` | 卡片的背景颜色 |  |
-| `title_color` | `string` |  | `#ffffff` | 卡片的标题颜色 |  |
-| `stats_color` | `string` |  | `#dedede` | 统计文本的颜色 |  |
-| `theme_context_light` | `any` |  | `{}` | 浅色模式颜色JSON对象 |  |
-| `theme_context_dark` | `any` |  | `{}` | 深色模式颜色JSON对象 |  |
-| `max_title_lines` | `number` |  | `1` | 标题的最大行数 |  |
-| `show_duration` | `boolean` |  | `false` | 是否显示视频时长 | 依赖于 YouTube API 密钥 `youtube_api_key`。 |
-| `author_name` | `string` |  | `GitHub Actions` | 提交者的名字 |  |
-| `author_email` | `string` |  | `41898282+github-actions[bot]@users.noreply.github.com` | 提交作者的电子邮件地址 |  |
-| `commit_message` | `string` |  | `docs(readme): Update YouTube cards` | 提交信息 |  |
-| `readme_path` | `string` |  | `README.md` | Markdown 或 HTML 文件的路径 |  |
-| `output_only` | `boolean` |  | `false` | 是否跳过写入到 README 文件 |  |
-| `output_type` | `string` |  | `markdown` | 输出类型 | 可选值：`markdown` `html`。 |
+| `channel_id` | `string` | `true` |  | ID do seu canal no YouTube |  |
+| `playlist_id` | `string` |  |  | ID da Playlist |  |
+| `lang` | `string` |  | `en` | Idioma |  |
+| `comment_tag_name` | `string` |  | `YOUTUBE-CARDS` | O texto na tag de comentário para substituir o conteúdo |  |
+| `youtube_api_key` | `string` |  |  | Chave da API do YouTube |  |
+| `max_videos` | `number` |  | `6` | Máximo de vídos que devem ser exibidos |  |
+| `base_url` | `string` |  | `https://ytcards.demolab.com/` | A URL base a ser usada para nos cartões |  |
+| `card_width` | `number` |  | `250` | A largura dos cartões SVG | Unidade: pixels. |
+| `border_radius` | `number` |  | `5` | O raio da borda dos cartões SVG |  |
+| `background_color` | `string` |  | `#0d1117` | Cor de fundo dos nos cartões SVG |  |
+| `title_color` | `string` |  | `#ffffff` | A cor do texto do título |  |
+| `stats_color` | `string` |  | `#dedede` | A cor do texto das estatísticas |  |
+| `theme_context_light` | `any` |  | `{}` | Objeto JSON em cores do modo claro |  |
+| `theme_context_dark` | `any` |  | `{}` | Objeto JSON em cores do modo escuro |  |
+| `max_title_lines` | `number` |  | `1` | O máximo de linhas a serem usadas no título |  |
+| `show_duration` | `boolean` |  | `false` | Exibir ou ocultar o tempo de duração dos vídeos | Nescessita da seu chave da API do YouTube, `youtube_api_key`. |
+| `author_name` | `string` |  | `GitHub Actions` | O nome do autor do commit |  |
+| `author_email` | `string` |  | `41898282+github-actions[bot]@users.noreply.github.com` | O email do autor do commit |  |
+| `commit_message` | `string` |  | `docs(readme): Update YouTube cards` | A mensagem de commit para o commit |  |
+| `readme_path` | `string` |  | `README.md` | O caminho do arquivo Markdown ou HTML que será atualizado |  |
+| `output_only` | `boolean` |  | `false` | Pular ou não a gravação do arquivo readme |  |
+| `output_type` | `string` |  | `markdown` | Saída da sintaxe a ser usada | Opções disponíveis: `markdown` e `html`. |
 | ![ref-action-outputs] | | | | | |
-| `markdown` | `string` | `true` |  | 生成的 Markdown 或 HTML 用于更新 README 文件 |  |
-| `committed` | `string` | `true` |  | 是否动作已创建提交 | 可能值：`true` `false`。 |
-| `commit_long_sha` | `string` | `true` |  | 刚刚创建的提交的完整 SHA 值 |  |
-| `commit_sha` | `string` | `true` |  | 刚刚创建的提交的 7 位短 SHA 值 |  |
-| `pushed` | `string` | `true` |  | 是否动作已推送到远程 | 可能值：`true` `false`。 |
+| `markdown` | `string` | `true` |  | O Markdown ou HTML gerado que é usado para atualizar o arquivo README |  |
+| `committed` | `string` | `true` |  | Caso a ação tenha criado um commit | Possibilidades: `true` e `false`. |
+| `commit_long_sha` | `string` | `true` |  | O SHA completo do commit que acabou de ser criado |  |
+| `commit_sha` | `string` | `true` |  | O uso de uma SHA curta com 7 caracteres do commit que acabou de ser criado |  |
+| `pushed` | `string` | `true` |  | Caso a atualização foi efetuado no no repositório remoto | Possibilidades: `true` e `false`. |
 
 </details>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
@@ -176,7 +173,7 @@ jobs:
   </picture>
 </a>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

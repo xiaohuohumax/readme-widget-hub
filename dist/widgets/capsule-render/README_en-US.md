@@ -11,6 +11,7 @@
   <div>
     <b>
        <a href="/README_en-US.md">Home</a>
+      · <a href="README_pt-BR.md">Português</a>
       · <a href="README.md">中文</a>
     </b>
   </div>
@@ -35,7 +36,7 @@
 | ![ref-querys] | | | | | |
 | `type` | `string` |  | `wave` | Type data makes to change Background Image | Supported: `wave` `egg` `shark` `slice` `rect` `soft` `rounded` `cylinder` `waving` `venom` `speech` `blur` `transparent`. |
 | `color` | `string` |  | `B897FF` | Change Background Image | Supported: `auto` `timeAuto` `random` `gradient` `timeGradient` `HEX` value or `custom gradient, format: widthPer:color1,widthPer:color2...`. |
-| `customColorList` | `string` |  |  | Select random color index from preset colors | `Format: idx1,idx2,idx3...`, if you want certain colors to have a higher probability of appearing, you can write their indices multiple times. This only takes effect when `color` is [auto](https://github.com/kyechan99/capsule-render/blob/master/src/pallete.json) or [gradient](https://github.com/kyechan99/capsule-render/blob/master/src/gradient.json). |
+| `customColorList` | `string` |  |  | Select random color index from preset colors | 格式：`idx1,idx2,idx3...`，如想某些颜色出现概率高可以多写几次下标，仅在 `color` 为 [auto](https://github.com/kyechan99/capsule-render/blob/master/src/pallete.json) 或 [gradient](https://github.com/kyechan99/capsule-render/blob/master/src/gradient.json) 时生效。 |
 | `theme` | `string` |  | `default` | Theme | Supported: `default` `dark` `radical` `merko` `gruvbox_light` `tokyonight` `onedark` `cobalt`. Theme color reference: [pallete\_theme](https://github.com/kyechan99/capsule-render/blob/master/src/pallete_theme.json). |
 | `section` | `string` |  | `header` | Section data makes reverse Background Image | Supported: `header` `footer`. |
 | `reversal` | `boolean` |  | `false` | Reverse the image left and right (Color at the same time) |  |

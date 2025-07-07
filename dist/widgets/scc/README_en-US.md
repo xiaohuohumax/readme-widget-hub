@@ -11,6 +11,7 @@
   <div>
     <b>
        <a href="/README_en-US.md">Home</a>
+      · <a href="README_pt-BR.md">Português</a>
       · <a href="README.md">中文</a>
     </b>
   </div>
@@ -19,7 +20,7 @@
 
 ## Sloc Cloc and Code
 
-**scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go.**
+**SCC is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go.**
 
 [![ref-repo]](https://github.com/boyter/scc/)
 [![ref-official-doc]](https://github.com/boyter/scc/?tab=readme-ov-file#badges-beta)

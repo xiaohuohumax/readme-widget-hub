@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,12 +18,9 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
+## Piadas no README (README Jokes)
 
-## README Jokes
-
-**README 上的随机编程笑话。**
+**Piadas para o README do GitHub.**
 
 [![ref-repo]](https://github.com/ABSphreak/readme-jokes)
 [![ref-official-doc]](https://github.com/ABSphreak/readme-jokes?tab=readme-ov-file#usage)
@@ -36,14 +33,14 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `bgColor` | `string` |  |  | 背景颜色 | 格式：`HEX` 例如：`#FF0000`。 |
-| `borderColor` | `string` |  |  | 边框颜色 | 格式：`HEX` 例如：`#FF0000`。 |
-| `qColor` | `string` |  |  | 问题颜色 | 格式：`HEX` 例如：`#FF0000`。 |
-| `aColor` | `string` |  |  | 回答颜色 | 格式：`HEX` 例如：`#FF0000`。 |
-| `textColor` | `string` |  |  | 正常文字颜色 | 格式：`HEX` 例如：`#FF0000`。 |
-| `codeColor` | `string` |  |  | 代码颜色 | 格式：`HEX` 例如：`#FF0000`。 |
-| `hideBorder` | `boolean` |  | `false` | 隐藏边框 | 隐藏：`&hideBorder` 正常：不添加 `hideBorder` 即可。 |
-| `theme` | `string` |  | `default` | 主题 | 可选值：`random` `gradientBlue` `solidBlue` `tokyonight` `halloween` `watermelon` `pinkish` `daySky` `radical` `merko` `gruvbox` `vue` 更多主题：[theme](https://github.com/ABSphreak/readme-jokes?tab=readme-ov-file#parameters-available)。 |
+| `bgColor` | `string` |  |  | Cor de fundo | Formato: `HEX` ex. `#FF0000`. |
+| `borderColor` | `string` |  |  | Cor da borda | Formato: `HEX` ex. `#FF0000`. |
+| `qColor` | `string` |  |  | Cor da pergunta | Formato: `HEX` ex. `#FF0000`. |
+| `aColor` | `string` |  |  | Cor da resposta | Formato: `HEX` ex. `#FF0000`. |
+| `textColor` | `string` |  |  | Cor padrão do texto | Formato: `HEX` ex. `#FF0000`. |
+| `codeColor` | `string` |  |  | Cor do código | Formato: `HEX` ex. `#FF0000`. |
+| `hideBorder` | `boolean` |  | `false` | Mencione como um parâmetro sem valor para ocultar o limite | Ocultar: `&hideBorder` Exibir: Não precisa adicionar o `hideBorder`. |
+| `theme` | `string` |  | `default` | Tema | Suporta: `random` `gradientBlue` `solidBlue` `tokyonight` `halloween` `watermelon` `pinkish` `daySky` `radical` `merko` `gruvbox` `vue` Para mais temas: [acesse temas](https://github.com/ABSphreak/readme-jokes?tab=readme-ov-file#parameters-available). |
 
 </details>
 
@@ -51,7 +48,7 @@
 https://readme-jokes.vercel.app/api{?bgColor,borderColor,qColor,aColor,textColor,codeColor,hideBorder,theme}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
@@ -60,10 +57,10 @@ https://readme-jokes.vercel.app/api{?bgColor,borderColor,qColor,aColor,textColor
 ```
 
 <div>
-  <img src="https://readme-jokes.vercel.app/api?hideBorder" alt="编程笑话" />
+  <img src="https://readme-jokes.vercel.app/api?hideBorder" alt="Piadas no README" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

@@ -11,6 +11,7 @@
   <div>
     <b>
        <a href="/README_en-US.md">Home</a>
+      · <a href="README_pt-BR.md">Português</a>
       · <a href="README.md">中文</a>
     </b>
   </div>
@@ -37,7 +38,7 @@
 | `layout` | `string` |  | `default` | Layouts | Supported: `default` `socrates` `churchill` `samuel` etc. More layouts: [layouts](https://github.com/shravan20/github-readme-quotes/blob/main/src/layouts/README.md). |
 | `font` | `string` |  |  | Fonts | Supported: `Gabrielle` `Redressed` `Architect`. |
 | `animation` | `string` |  | `default` | Animations | Supported: `default` `grow_out_in`. |
-| `quotesUrl` | `string` |  |  | Quotes URL | Custom quotes library, quote template: [quotes.json](https://github.com/shravan20/github-readme-quotes/blob/main/customQuotes/quotes.json). |
+| `quotesUrl` | `string` |  |  | Quotes URL | 自定义名言库，名言模板参考 [quotes.json](https://github.com/shravan20/github-readme-quotes/blob/main/customQuotes/quotes.json)。 |
 | `quoteCategory` | `string` |  |  | Quote Category | Supported: `general` `life` `success` `motivational` `fun` `programming` `dream` `failure` `gaming` `birthday` `Humorous` `Travel`. |
 | `borderColor` | `string` |  |  | Border Color | Format: `HEX` `CSS Color` e.g. `#FF0000`, Please note that this feature is available only with the Default layout. |
 

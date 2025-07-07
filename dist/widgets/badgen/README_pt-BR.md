@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,19 +18,16 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
-
 ## Badgen
 
-**快速徽章生成服务。**
+**Serviço para criar um badge (emblema) rapidamente.**
 
 [![ref-repo]](https://github.com/badgen/badgen.net)
 [![ref-online-tool]](https://badgen.net/)
 [![ref-official-doc]](https://badgen.net/help)
 
 > [!Tip]
-> 由于此项目支持的徽章种类非常多，且功能强大，这里只简单介绍－静态徽章，其他徽章使用方式还请移步官方文档。
+> Devido ao grande número de tipos de emblemas (badges) suportados por este projeto e seus recursos poderosos, aqui está uma breve introdução apenas dos emblemas estáticos. Para outros tipos de emblemas, consulte a documentação oficial.
 
 ### Parâmetros
 
@@ -40,17 +37,17 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-params] | | | | | |
-| `badge` | `string` | `true` |  | 徽章类型 | 可选值：`/static` `/github` `/gitlab` `/https` 等等，更多类型请参考官方文档。 |
-| `subject` | `string` | `true` |  | 徽章子信息 | 比如：`/static` 静态徽章时，`subject` 表示为徽章左侧标签。 |
-| `status` | `string` | `true` |  | 徽章右侧消息 | 比如：`/static/Swift/4.2/orange` `status=4.2`。 |
-| `color` | `string` | `true` |  | 徽章颜色 | 支持格式：`RGB` `CSS颜色`。 |
+| `badge` | `string` | `true` |  | Tipo do badge | Suporta: `/static` `/github` `/gitlab` `/https`, etc. Para mais tipos por favor, verificar a documentação oficial. |
+| `subject` | `string` | `true` |  | Assunto do badge | Por exemplo, quando utilizar `/static` badge estática, `subject` representa o rótulo do lato esquerdo do badge. |
+| `status` | `string` | `true` |  | Status do badge | Por exemplo, `/static/Swift/4.2/orange` `status=4.2`. |
+| `color` | `string` | `true` |  | Cor do badge | Formatos suportados: `RGB` `CSS color`. |
 | ![ref-querys] | | | | | |
-| `color` | `string` |  |  | 覆盖默认徽章颜色 |  |
-| `icon` | `string` |  |  | 徽章左侧图标 | 支持外部图标 URL。 |
-| `label` | `string` |  |  | 徽章左侧标签 |  |
-| `labelColor` | `string` |  |  | 徽章左侧标签颜色 |  |
-| `scale` | `number` |  | `1` | 徽章缩放比例 |  |
-| `cache` | `number` |  | `86400` | 缓存时间 | 单位：秒。 |
+| `color` | `string` |  |  | Sobrepor a cor padrão do badge |  |
+| `icon` | `string` |  |  | Ícone do badge | Suporta ícone de outra URL. |
+| `label` | `string` |  |  | Rótulo do badge |  |
+| `labelColor` | `string` |  |  | Cor do rótulo do badge |  |
+| `scale` | `number` |  | `1` | Escala do badge |  |
+| `cache` | `number` |  | `86400` | Tempo de cache | Unidades: segundos. |
 
 </details>
 
@@ -58,7 +55,7 @@
 https://badgen.net/{badge}/{subject}/{status}/{color}{?color,icon,label,labelColor,scale,cache}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
@@ -72,7 +69,7 @@ https://badgen.net/{badge}/{subject}/{status}/{color}{?color,icon,label,labelCol
 </div>
 
 ```markdown
-![彩色徽章](https://badgen.net/badge/color/F94144/F94144?label=)
+![Cor da Badge](https://badgen.net/badge/color/F94144/F94144?label=)
 ```
 
 <div>
@@ -89,7 +86,7 @@ https://badgen.net/{badge}/{subject}/{status}/{color}{?color,icon,label,labelCol
   <img src="https://badgen.net/badge/color/277DA1/277DA1?label=" alt="Color Badge 277DA1" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,12 +18,9 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
+## Cartão de Estatísticas do LeetCode (LeetCode Stats Card)
 
-## LeetCode Stats Card
-
-**在你的 GitHub 个人资料或网站上展示动态生成的 LeetCode 数据统计！**
+**Exibir as suas estatísticas LeetCode geradas dinamicamente em seu perfil do GitHub ou em seu site!**
 
 [![ref-repo]](https://github.com/JacobLinCool/LeetCode-Stats-Card)
 [![ref-online-tool]](https://leetcard.jacoblin.cool/)
@@ -37,20 +34,20 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-params] | | | | | |
-| `username` | `string` | `true` |  | LeetCode 用户名 |  |
+| `username` | `string` | `true` |  | Nome do usuário no LeetCode |  |
 | ![ref-querys] | | | | | |
-| `site` | `string` |  | `us` | LeetCode 站点 | 可选值：`us` `cn`。 |
-| `theme` | `string` |  | `dark` | 主题 | 可选值：`dark` `light` `nord` `forest` `wtf` `unicorn` `transparent`。 |
-| `font` | `string` |  | `baloo_2` | 字体 | 支持几乎所有的 [Google Fonts](https://fonts.google.com/) 字体。 |
-| `width` | `number` |  | `500` | 宽度 |  |
-| `height` | `number` |  | `200` | 高度 |  |
-| `border` | `number` |  | `1` | 边框宽度 |  |
-| `radius` | `number` |  | `4` | 圆角 |  |
-| `animation` | `boolean` |  | `true` | 启用或禁用动画。 |  |
-| `hide` | `string` |  |  | 隐藏卡片上的元素 | 可选值：`ranking` `total-solved-text` `easy-solved-count` `medium-solved-count` `hard-solved-count` 多个值用 `,` 分隔。 |
-| `ext` | `string` |  |  | 扩展数据 | 可选值：`activity` `contest` `heatmap` 多个值用 `,` 分隔。 |
-| `cache` | `number` |  | `60` | 缓存时间 | 单位：秒。 |
-| `sheets` | `string` |  |  | 外部样式表 | 多个值用 `,` 例如：`sheets=url1,url2`，分隔 可以将自定义 CSS 上传到 gist 并使用该链接。 |
+| `site` | `string` |  | `us` | Site do LeetCode | Suporta: `us` `cn`. |
+| `theme` | `string` |  | `dark` | Tema | Suporta: `dark` `light` `nord` `forest` `wtf` `unicorn` `transparent`. |
+| `font` | `string` |  | `baloo_2` | Fonte | Suporta quase todas as fontes do Google, verificar [Fontes do Google](https://fonts.google.com/). |
+| `width` | `number` |  | `500` | Largura |  |
+| `height` | `number` |  | `200` | Altura |  |
+| `border` | `number` |  | `1` | Largura da borda |  |
+| `radius` | `number` |  | `4` | Raio |  |
+| `animation` | `boolean` |  | `true` | Habilitar ou desabilitar a animação. |  |
+| `hide` | `string` |  |  | Ocultar elementos no cartão | Suporta: `ranking` `total-solved-text` `easy-solved-count` `medium-solved-count` `hard-solved-count` separados por `,`. |
+| `ext` | `string` |  |  | Dados Extra | Suporta: `activity` `contest` `heatmap` separados por `,`. |
+| `cache` | `number` |  | `60` | 缓存时间 | Unidades: segundos. |
+| `sheets` | `string` |  |  | Folha de estilo CSS externa | Separado por `,` ex. `sheets=url1,url2`, Você pode carregar seu CSS personalizado em um Gist e utulizar a url. |
 
 </details>
 
@@ -58,20 +55,20 @@
 https://leetcard.jacoblin.cool/{username}{?site,theme,font,width,height,border,radius,animation,hide,ext,cache,sheets}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
 ```markdown
 <!-- JacobLinCool -->
-![Leetcode 统计](https://leetcard.jacoblin.cool/JacobLinCool?theme=wtf&ext=heatmap&font=Play)
+![Estatísticas do LeetCode](https://leetcard.jacoblin.cool/JacobLinCool?theme=wtf&ext=heatmap&font=Play)
 ```
 
 <div>
-  <img src="https://leetcard.jacoblin.cool/JacobLinCool?theme=wtf&#38;ext=heatmap&#38;font=Play" alt="Leetcode 统计" />
+  <img src="https://leetcard.jacoblin.cool/JacobLinCool?theme=wtf&#38;ext=heatmap&#38;font=Play" alt="Estatísticas do Leetcode" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

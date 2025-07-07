@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,12 +18,9 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
+## Exibir o Badge do LeetCode (LeetCode Badge Showcase)
 
-## LeetCode Badge Showcase
-
-**在你的 Github README 页面展示你的 LeetCode 徽章。**
+**Exiba seus emblemas (badges) do LeetCode na sua página README do Github.**
 
 [![ref-repo]](https://github.com/KevzPeter/Leetcode-Badge-Showcase)
 [![ref-online-tool]](https://leetcode-badge-showcase.vercel.app/)
@@ -37,11 +34,11 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `username` | `string` |  |  | LeetCode 用户名 |  |
-| `animated` | `boolean` |  |  | 动画徽章 | 可选值：`true` `false`。 |
-| `theme` | `string` |  | `dark` | 主题 | 可选值：`dark` `light` `github-dark` `monokai` `tokyonight` `nightowl` 更多主题请参考 [Themes](https://github.com/KevzPeter/Leetcode-Badge-Showcase?tab=readme-ov-file#-themes)。 |
-| `filter` | `string` |  |  | 显示特定的徽章集 | 可选值：`comp` `study` `annual` `submission` `daily`。 |
-| `border` | `string` |  |  | 是否显示边框 | 可选值：`border` `no-border`。 |
+| `username` | `string` |  |  | Nome do usuário no LeetCode |  |
+| `animated` | `boolean` |  |  | Badges Animadas | Suporta: `true` `false`. |
+| `theme` | `string` |  | `dark` | Tema | Suporta: `dark` `light` `github-dark` `monokai` `tokyonight` `nightowl` Para mais temas, por favor, verificar [Temas](https://github.com/KevzPeter/Leetcode-Badge-Showcase?tab=readme-ov-file#-themes). |
+| `filter` | `string` |  |  | Exibir um conjunto específico de badges | Suporta: `comp` `study` `annual` `submission` `daily`. |
+| `border` | `string` |  |  | Exibir a borda | Suporta: `border` `no-border`. |
 
 </details>
 
@@ -49,20 +46,20 @@
 https://leetcode-badge-showcase.vercel.app/api{?username,animated,theme,filter,border}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
 ```markdown
 <!-- kevzpeter -->
-![Leetcode 徽章](https://leetcode-badge-showcase.vercel.app/api?username=kevzpeter&filter=annual&border=no-border&theme=github-dark)
+![Badges do Leetcode](https://leetcode-badge-showcase.vercel.app/api?username=kevzpeter&filter=annual&border=no-border&theme=github-dark)
 ```
 
 <div>
-  <img src="https://leetcode-badge-showcase.vercel.app/api?username=kevzpeter&#38;filter=annual&#38;border=no-border&#38;theme=github-dark" alt="Leetcode 徽章" />
+  <img src="https://leetcode-badge-showcase.vercel.app/api?username=kevzpeter&#38;filter=annual&#38;border=no-border&#38;theme=github-dark" alt="Badges do Leetcode" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

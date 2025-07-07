@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,12 +18,9 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
-
 ## PlayBadges
 
-**展示你的 Play Store 应用的下载量和评分。**
+**Exiba os downloads e as classificações do seu aplicativo na Play Store™ no seu repositório.**
 
 [![ref-repo]](https://github.com/pavi2410/PlayBadges)
 [![ref-official-doc]](https://github.com/pavi2410/PlayBadges?tab=readme-ov-file#usage)
@@ -36,11 +33,11 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-params] | | | | | |
-| `type` | `string` | `true` |  | 卡片类型 | 可选值：`full` `downloads` `ratings`。 |
+| `type` | `string` | `true` |  | Tipo do cartão | Suporta: `full` `downloads` `ratings`. |
 | ![ref-querys] | | | | | |
-| `id` | `string` | `true` |  | 软件包名 |  |
-| `pretty` | `boolean` |  |  | 是否美化显示数字 | 美化：给数字添加单位符号，例如：`100K`，注意：`&pretty` 表示启用，去除则表示禁用。 |
-| `country` | `string` |  | `us` | 国家代码 |  |
+| `id` | `string` | `true` |  | Nome do pacote |  |
+| `pretty` | `boolean` |  |  | Mostra os números de forma elegante | Forma elegante: Adicionar o símbolo de unidade dos números, como o: `100K`, nota: `&pretty` deve está habilitado (enable), e remover quando (disable). |
+| `country` | `string` |  | `us` | Código da cidade |  |
 
 </details>
 
@@ -48,7 +45,7 @@
 https://PlayBadges.pavi2410.me/badge/{type}{?id}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
@@ -63,23 +60,23 @@ https://PlayBadges.pavi2410.me/badge/{type}{?id}
 
 ```markdown
 <!-- pavi2410 -->
-![Play Store App 下载量](https://PlayBadges.pavi2410.me/badge/downloads?id=appinventor.ai_pavitragolchha.VR&pretty)
+![Número de donwloads no App Play Store](https://PlayBadges.pavi2410.me/badge/downloads?id=appinventor.ai_pavitragolchha.VR&pretty)
 ```
 
 <div>
-  <img src="https://PlayBadges.pavi2410.me/badge/downloads?id=appinventor.ai_pavitragolchha.VR&#38;pretty" alt="Play Store App 下载量" />
+  <img src="https://PlayBadges.pavi2410.me/badge/downloads?id=appinventor.ai_pavitragolchha.VR&#38;pretty" alt="Número de donwloads no App Play Store" />
 </div>
 
 ```markdown
 <!-- pavi2410 -->
-![Play Store App 评分](https://PlayBadges.pavi2410.me/badge/ratings?id=appinventor.ai_pavitragolchha.VR)
+![Play Store App Ratings](https://PlayBadges.pavi2410.me/badge/ratings?id=appinventor.ai_pavitragolchha.VR)
 ```
 
 <div>
-  <img src="https://PlayBadges.pavi2410.me/badge/ratings?id=appinventor.ai_pavitragolchha.VR" alt="Play Store App 评分" />
+  <img src="https://PlayBadges.pavi2410.me/badge/ratings?id=appinventor.ai_pavitragolchha.VR" alt="Play Store App Ratings" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

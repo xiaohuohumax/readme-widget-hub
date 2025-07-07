@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,12 +18,9 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
+## Badge de implantação (Deploy Badge)
 
-## Deploy Badge
-
-**为你的 README 添加项目部署状态徽章。**
+**Criar emblema (badge) de implantação para seus projetos no README.**
 
 [![ref-repo]](https://github.com/therealsujitk/deploy-badge)
 [![ref-online-tool]](https://deploy-badge.vercel.app/)
@@ -37,10 +34,10 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `url` | `string` | `true` |  | 需要检测的项目地址 |  |
-| `style` | `string` |  | `flat` | 徽章样式 | 可选值：`flat` `flat-square` `for-the-badge` `plastic`。 |
-| `logo` | `string` |  |  | Logo 样式 | 参考：[shields.io](https://shields.io/docs/logos)。 |
-| `name` | `string` |  |  | 徽章名称 |  |
+| `url` | `string` | `true` |  | A URL do projeto a ser verificado |  |
+| `style` | `string` |  | `flat` | Estilo do badge | Suporta: `flat` `flat-square` `for-the-badge` `plastic`. |
+| `logo` | `string` |  |  | Estilo do logo | Referência: [shields.io](https://shields.io/docs/logos). |
+| `name` | `string` |  |  | Nome da badge |  |
 
 </details>
 
@@ -48,7 +45,7 @@
 https://deploy-badge.vercel.app/{?url,style,logo,name}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
@@ -61,7 +58,7 @@ https://deploy-badge.vercel.app/{?url,style,logo,name}
   <img src="https://deploy-badge.vercel.app/?url=https://xiaohuohumax.github.io/readme-widget-hub/&#38;logo=github&#38;name=Github+Page" alt="Deploy Badge" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

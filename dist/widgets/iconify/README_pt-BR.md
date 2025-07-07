@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,12 +18,9 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
-
 ## Iconify
 
-**Iconify API 可以动态生成 SVG，其中包含大量的图标集可供选择，可用于 HTML 或 CSS。**
+**A API do Iconify pode gerar um SVG dinamicamente, o que inclui um grande número de conjuntos de ícones para seleção e pode ser usado em HTML ou CSS.**
 
 [![ref-repo]](https://github.com/iconify/iconify)
 [![ref-online-tool]](https://icon-sets.iconify.design/?category=Emoji)
@@ -37,16 +34,16 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-params] | | | | | |
-| `prefix` | `string` | `true` |  | 图标集前缀 |  |
-| `name` | `string` | `true` |  | 图标名称 |  |
+| `prefix` | `string` | `true` |  | Prefixo do ícone |  |
+| `name` | `string` | `true` |  | Nome do ícone |  |
 | ![ref-querys] | | | | | |
-| `color` | `string` |  |  | 图标颜色 | 支持格式：`HEX` `CSS 颜色值` 例如：`#FF0000` `red` `rgb(255, 0, 0)`。 |
-| `width` | `number` |  |  | 图标宽度 | 单位：像素。 |
-| `height` | `number` |  |  | 图标高度 | 单位：像素。 |
-| `flip` | `string` |  |  | 翻转图标 | 可选值：`horizontal` `vertical`。 |
-| `rotate` | `string` |  |  | 旋转图标 | 格式：`deg` `number` 其中 `1=90deg`。 |
-| `download` | `boolean` |  |  | 强制浏览器下载文件 |  |
-| `box` | `boolean` |  |  | 是否向 SVG 添加与 viewBox 匹配的空矩形 |  |
+| `color` | `string` |  |  | Cor do ícone | Suporta: `HEX` `CSS name` ex. `#FF0000` `red` `rgb(255, 0, 0)`. |
+| `width` | `number` |  |  | Largura da imagem | Unidade: pixels. |
+| `height` | `number` |  |  | Altura da image | Unidade: pixels. |
+| `flip` | `string` |  |  | Inversão do ícone | Suporta: `horizontal` `vertical`. |
+| `rotate` | `string` |  |  | Rotação do ícone | Formato: `deg` `number` onde `1=90deg`. |
+| `download` | `boolean` |  |  | Força o navegador a baixar o arquivo |  |
+| `box` | `boolean` |  |  | Adiciona um retângulo vazio ao SVG que corresponde ao viewBox |  |
 
 </details>
 
@@ -54,7 +51,7 @@
 https://api.iconify.design/{prefix}/{name}.svg{?color,width,height,flip,rotate,download,box}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
@@ -66,7 +63,7 @@ https://api.iconify.design/{prefix}/{name}.svg{?color,width,height,flip,rotate,d
   <img src="https://api.iconify.design/fluent-emoji-flat/1st-place-medal.svg?width=64" alt="Iconify 1st Place Medal Badge" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

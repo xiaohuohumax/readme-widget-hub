@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,12 +18,9 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
+## Contador de Visitas (Visitor Badge)
 
-## Visitor Badge
-
-**创建一个可用于任何网站或 GitHub 个人资料的访客徽章。**
+**Criar um badge contador de visitas que pode utilizar em qualquer site ou perfil do GitHub.**
 
 [![ref-repo]](https://github.com/estruyf/web-visitorbadge-nextjs)
 [![ref-online-tool]](https://visitorbadge.io/)
@@ -36,14 +33,14 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-params] | | | | | |
-| `type` | `string` | `true` |  | 徽章类型 | 可选值：`visitors`（总数）、`daily`（单日）、`combined`（前两个组合）。 |
+| `type` | `string` | `true` |  | Tipo da badge | Suporta: `visitors` (total), `daily` (diariamente), `combined` (os dois combinados). |
 | ![ref-querys] | | | | | |
-| `path` | `string` | `true` |  | 统计路径 | URL 或 用户名/仓库，用于唯一统计的链接或字符串。 |
-| `label` | `string` |  |  | 徽章标签 |  |
-| `labelColor` | `string` |  | `#555555` | 徽章标签背景颜色 | 支持类型：`HEX`，例如：`#FF0000`。 |
-| `countColor` | `string` |  | `#263759` | 徽章数字背景颜色 | 支持类型：`HEX`，例如：`#FF0000`。 |
-| `style` | `string` |  | `default` | 徽章样式 | 可选值：`default`、`flat`、`flat-square`、`plastic`。 |
-| `labelStyle` | `string` |  | `upper` | 徽章标签大小写 | 可选值：`upper`（大写） `lower`（小写）。 |
+| `path` | `string` | `true` |  | Caminho das estatísticas | URL ou nome de usuário/repositório para identificar exclusivamente o link ou string para estatísticas. |
+| `label` | `string` |  |  | Rótulo do badge |  |
+| `labelColor` | `string` |  | `#555555` | Cor de fundo do rótulo do badge | Suporta: `HEX`, por exemplo: `#FF0000`. |
+| `countColor` | `string` |  | `#263759` | Cor de fundo do rótulo do badge | Suporta: `HEX`, por exemplo: `#FF0000`. |
+| `style` | `string` |  | `default` | Estilo da badge | Suporta: `default`, `flat`, `flat-square`, `plastic`. |
+| `labelStyle` | `string` |  | `upper` | Formato das letras no badge | Suporta: `upper` (letras maiúsculas) `lower` (letras minúsculas). |
 
 </details>
 
@@ -51,20 +48,20 @@
 https://api.visitorbadge.io/api/{type}{?path,label,labelColor,countColor,style,labelStyle}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
 ```markdown
 <!-- xiaohuohumax/readme-widget-hub -->
-![访问数](https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Freadme-widget-hub&label=VISITORS&countColor=%23f3722c)
+![Visitantes](https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Freadme-widget-hub&label=VISITORS&countColor=%23f3722c)
 ```
 
 <div>
-  <img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Freadme-widget-hub&#38;label=VISITORS&#38;countColor=%23f3722c" alt="访问数" />
+  <img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Freadme-widget-hub&#38;label=VISITORS&#38;countColor=%23f3722c" alt="Visitantes" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

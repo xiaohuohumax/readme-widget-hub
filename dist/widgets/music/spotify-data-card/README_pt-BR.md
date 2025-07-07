@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,12 +18,9 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
+## Cartão com os Dados do Spotify (Data Card for Spotify)
 
-## Data Card for Spotify
-
-**动态生成 Spotify 数据，嵌入你的 README 或网站。**
+**Gerar dinamicamente o README com os dados da reprodução recente do Spotify.**
 
 [![ref-repo]](https://github.com/magic-ike/spotify-data-card)
 [![ref-online-tool]](https://data-card-for-spotify.herokuapp.com/)
@@ -37,18 +34,18 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `userId` | `string` | `true` |  | Spotify 用户 ID |  |
-| `show_border` | `boolean` |  | `false` | 是否在数据卡片周围显示白色边框 | 可选值：`true` `false`。 |
-| `show_date` | `boolean` |  | `false` | 是否显示数据卡片生成时的日期和时间 | 可选值：`true` `false`。 |
-| `time_zone` | `string` |  | `America/Los_Angeles` | 时区 | 参考：[时区列表](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)。 |
-| `custom_title` | `string` |  |  | 自定义标题 |  |
-| `hide_title` | `boolean` |  | `false` | 是否隐藏标题 |  |
-| `hide_explicit` | `boolean` |  | `false` | 是否全局隐藏限制级曲目 |  |
-| `hide_playing` | `boolean` |  | `false` | 是否隐藏正在收听部分 |  |
-| `hide_recents` | `boolean` |  | `false` | 是否隐藏最近播放的曲目部分 |  |
-| `hide_top_tracks` | `boolean` |  | `false` | 是否隐藏热门歌曲部分 |  |
-| `hide_top_artists` | `boolean` |  | `false` | 是否隐藏热门艺术家部分 |  |
-| `limit` | `number` |  | `5` | 每部分显示的曲目数量 | 可选值：`1` 到 `10`。 |
+| `userId` | `string` | `true` |  | ID do Usuário no Spotify |  |
+| `show_border` | `boolean` |  | `false` | Exibir ou ocultar uma borda branca ao redor do cartão de dados | Suporta: `true` `false`. |
+| `show_date` | `boolean` |  | `false` | Exibir ou ocultar a data e a hora em que o cartão de dados foi gerado | Suporta: `true` `false`. |
+| `time_zone` | `string` |  | `America/Los_Angeles` | Time zone | Consulte a [Lista do banco de dados tz com os fuso horários](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
+| `custom_title` | `string` |  |  | Título customizado |  |
+| `hide_title` | `boolean` |  | `false` | Exibir ou ocultar o título |  |
+| `hide_explicit` | `boolean` |  | `false` | Exibir ou ocultar as faixas explícitas em todas as seções |  |
+| `hide_playing` | `boolean` |  | `false` | Exibir ou ocultar "Currently Listening To" (Ouvindo atualmente) da seção |  |
+| `hide_recents` | `boolean` |  | `false` | Exibir ou ocultar o título de "Recently Played Tracks" (faixas tocadas recentemente) da seção |  |
+| `hide_top_tracks` | `boolean` |  | `false` | Exibir ou ocultar o título de "Top Tracks" (melhores faixas) da seção |  |
+| `hide_top_artists` | `boolean` |  | `false` | Exibir ou ocultar "Top Artists" (melhores artistas) da seção |  |
+| `limit` | `number` |  | `5` | Número de faixas a serem exibida na seção | Suporta: `1` a `10`. |
 
 </details>
 
@@ -56,20 +53,20 @@
 https://data-card-for-spotify.herokuapp.com/api/card{?userId,show_border,show_date,time_zone,custom_title,hide_title,hide_explicit,hide_playing,hide_recents,hide_top_tracks,hide_top_artists,limit}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
 ```markdown
 <!-- magic-ike -->
-![Spotify 数据卡片](https://data-card-for-spotify.herokuapp.com/api/card?user_id=12146253656&hide_explicit=true&limit=1)
+![Cartão com os Dados do Spotify](https://data-card-for-spotify.herokuapp.com/api/card?user_id=12146253656&hide_explicit=true&limit=1)
 ```
 
 <div>
-  <img src="https://data-card-for-spotify.herokuapp.com/api/card?user_id=12146253656&#38;hide_explicit=true&#38;limit=1" alt="Spotify 数据卡片" />
+  <img src="https://data-card-for-spotify.herokuapp.com/api/card?user_id=12146253656&#38;hide_explicit=true&#38;limit=1" alt="Cartão com os Dados do Spotify" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">

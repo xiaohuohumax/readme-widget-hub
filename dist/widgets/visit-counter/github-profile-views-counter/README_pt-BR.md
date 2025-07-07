@@ -7,7 +7,7 @@
   <a href="https://github.com/xiaohuohumax/readme-widget-hub">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&width=416&height=68&lines=%F0%9F%8E%96%EF%B8%8FReadme+Widget+Hub%F0%9F%8E%96%EF%B8%8F"/>
   </a>
-  <p><b>Utilize essa linda configuração de badges e cartões de status para fazer seu README mais professional e eficiente!</b></p>
+  <p><b>Utilize essa linda configuração de badges e cartões de status para deixar seu README mais professional e eficiente!</b></p>
   <div>
     <b>
        <a href="/README_pt-BR.md">Início</a>
@@ -18,12 +18,9 @@
   <br/>
 </div>
 
-> [!Warning]
-> Esta página não tem uma versão traduzida, você pode alterar para outros idiomas ou visualizar a versão no idioma padrão abaixo.
+## Contador de Visitas do Perfil no GitHub
 
-## GitHub Profile Views Counter
-
-**它统计了你的 GitHub 个人资料被查看的次数。**
+**Ele conta quantas vezes seu perfil do GitHub foi visualizado.**
 
 [![ref-repo]](https://github.com/antonkomarev/github-profile-views-counter)
 [![ref-official-doc]](https://github.com/antonkomarev/github-profile-views-counter?tab=readme-ov-file#usage)
@@ -36,12 +33,12 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `username` | `string` | `true` |  | Github 用户名 |  |
-| `color` | `string` |  | `blue` | 颜色 | 格式：`HEX` `CSS 颜色` 例如：`FF0000`。 |
-| `style` | `string` |  | `flat` | 样式 | 可选值：`flat` `flat-square` `for-the-badge` `plastic` `pixel`（隐身）。 |
-| `label` | `string` |  | `Profile views` | 标签 | 在多词标签中，将空格替换为 `+` 字符。 |
-| `base` | `number` |  |  | 统计基数 |  |
-| `abbreviated` | `boolean` |  | `false` | 是否缩写 | 例如，一个有 12345 次查看的计数器，将显示为 12.3K。 |
+| `username` | `string` | `true` |  | Nome do usuário no Github |  |
+| `color` | `string` |  | `blue` | Cor | Formato: `HEX` `CSS color` ex. `FF0000`. |
+| `style` | `string` |  | `flat` | Estilos | Suporta: `flat` `flat-square` `for-the-badge` `plastic` `pixel` (invisível). |
+| `label` | `string` |  | `Profile views` | Rótulo | Subistituir os espaços em brancos pelo `+` nos rótulos com várias palavras. |
+| `base` | `number` |  |  | Base do contador |  |
+| `abbreviated` | `boolean` |  | `false` | Abreviação | Por exemplo, um contador com 12.345 visualizações será exibido como 12,3K. |
 
 </details>
 
@@ -49,20 +46,20 @@
 https://komarev.com/ghpvc/{?username,color,style,label,base,abbreviated}
 ```
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
 ```markdown
 <!-- xiaohuohumax -->
-![访客统计](https://komarev.com/ghpvc/?username=xiaohuohumaxS&color=blue&style=flat-square&label=PROFILE+VIEWS)
+![contador de visitas](https://komarev.com/ghpvc/?username=xiaohuohumaxS&color=blue&style=flat-square&label=PROFILE+VIEWS)
 ```
 
 <div>
-  <img src="https://komarev.com/ghpvc/?username=xiaohuohumaxS&#38;color=blue&#38;style=flat-square&#38;label=PROFILE+VIEWS" alt="访客统计" />
+  <img src="https://komarev.com/ghpvc/?username=xiaohuohumaxS&#38;color=blue&#38;style=flat-square&#38;label=PROFILE+VIEWS" alt="contador de visitas" />
 </div>
 
-<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20para%20topo-555555?style=for-the-badge"></a></p>
+<p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">
