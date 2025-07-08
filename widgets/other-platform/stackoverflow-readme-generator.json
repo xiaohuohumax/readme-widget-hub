@@ -1,9 +1,6 @@
 {
-  "enabled": false,
   "title": "StackOverflow GitHub README Generator",
-  "title:en-US": "StackOverflow GitHub README Generator",
-  "title:pt-BR": "StackOverflow GitHub README Generator",
-  "description": "Card to incorporate this dynamic Stack Overflow stats in your GitHub README, the card color theme will change using you GitHub theme.",
+  "description": "卡片用于在您的 GitHub README 中整合这些动态的 Stack Overflow 统计数据，卡片的颜色主题将根据您的 GitHub 主题进行更改。",
   "description:en-US": "Card to incorporate this dynamic Stack Overflow stats in your GitHub README,the card color theme will change using you GitHub theme.",
   "description:pt-BR": "Cartão para incorporar essas estatísticas dinâmicas do Stack Overflow em seu README do GitHub, a cor do tema do cartão irá mudar de acordo com o seu tema do GitHub.",
   "tag": {
@@ -17,29 +14,23 @@
         "name": "userId",
         "type": "number",
         "required": true,
-        "description": "Username in StackOverflow.",
+        "description": "StackOverflow 用户 ID。",
         "description:en-US": "Username in StackOverflow.",
-        "description:pt-BR": "Nome do usuário no StackOverflow.",
-        "moreDescription": "Example: `13431819`",
-        "moreDescription:en-US": "Example: `13431819`",
-        "moreDescription:pt-BR": "Exemplo: `13431819`"
+        "description:pt-BR": "Nome do usuário no StackOverflow."
       }
     ],
     "uriTemplate": "https://github-stackoverflow-readme.vercel.app/{?userId}"
   },
   "examples": [
     {
-      "description": "Default theme",
+      "description": "默认主题",
       "description:en-US": "Default theme",
       "description:pt-BR": "Tema padrão",
-      "annotate": "StackOverflow GitHub README Generator",
       "alt": "StackOverflow GitHub README Generator",
-      "alt:en-US": "StackOverflow GitHub README Generator",
-      "alt:pt-BR": "StackOverflow GitHub README Generator",
       "href": "https://github-stackoverflow-readme.vercel.app/?userId=13431819",
       "images": [
         {
-          "alt": "StackOverflow GitHub README Generator",
+          "alt": "默认主题",
           "alt:en-US": "Default theme",
           "alt:pt-BR": "Tema padrão",
           "href": "https://github-stackoverflow-readme.vercel.app/?userId=13431819"

@@ -1,9 +1,8 @@
 {
-  "enabled": false,
   "title": "Github Stackoverflow Readme",
   "title:en-US": "Github Stackoverflow Readme",
   "title:pt-BR": "Github Stackoverflow Readme",
-  "description": "Show your StackOverflow profile status on your READMEs!",
+  "description": "在您的 Readme 中展示您的 StackOverflow 个人资料状态！",
   "description:en-US": "Show your StackOverflow profile status on your READMEs!",
   "description:pt-BR": "Exiba o seu perfil do StackOverflow no seu README!",
   "tag": {
@@ -17,107 +16,92 @@
         "name": "userId",
         "type": "number",
         "required": true,
-        "description": "Username in StackOverflow.",
+        "description": "StackOverflow 用户 ID。",
         "description:en-US": "Username in StackOverflow.",
-        "description:pt-BR": "Nome do usuário no StackOverflow.",
-        "moreDescription": "Example: `6558042`",
-        "moreDescription:en-US": "Example: `6558042`",
-        "moreDescription:pt-BR": "Exemplo: `6558042`"
+        "description:pt-BR": "Nome do usuário no StackOverflow."
       },
       {
         "name": "theme",
         "type": "string",
         "default": "light",
-        "description": "Theme of the StackOverflow card.",
-        "description:en-US": "Theme of the StackOverflow card.",
-        "description:pt-BR": "Tema do cartão StackOverflow.",
-        "moreDescription": "Supported: `light` and `dark`.",
-        "moreDescription:en-US": "Supported: `light` and `dark`.",
-        "moreDescription:pt-BR": "Suporta: `light` and `dark`."
+        "description": "主题色",
+        "description:en-US": "Theme of the StackOverflow card",
+        "description:pt-BR": "Tema do cartão StackOverflow",
+        "moreDescription": "可选值：`light` 或 `dark`",
+        "moreDescription:en-US": "Supported: `light` or `dark`.",
+        "moreDescription:pt-BR": "Suporta: `light` or `dark`."
       },
       {
         "name": "layout",
         "type": "string",
         "default": "default",
-        "description": "Username in StackOverflow.",
-        "description:en-US": "Username in StackOverflow.",
-        "description:pt-BR": "Nome do usuário no StackOverflow.",
-        "moreDescription": "Supported: `compact ` and `default`",
-        "moreDescription:en-US": "Supported: `compact ` and `default`.",
-        "moreDescription:pt-BR": "Suporta: `compact ` e `default`."
+        "description": "StackOverflow 卡片的布局",
+        "description:en-US": "Username in StackOverflow",
+        "description:pt-BR": "Nome do usuário no StackOverflow",
+        "moreDescription": "可选值：`compact` 或 `default`",
+        "moreDescription:en-US": "Supported: `compact` or `default`.",
+        "moreDescription:pt-BR": "Suporta: `compact` or `default`."
       }
     ],
     "uriTemplate": "https://github-stackoverflow-readme.vercel.app/{?userId,theme,layout}"
   },
   "examples": [
     {
-      "description": "Default layout",
+      "description": "默认布局",
       "description:en-US": "Default layout",
       "description:pt-BR": "Formato padrão",
-      "annotate": "GitHub Readme StackOverflow",
       "alt": "GitHub Readme StackOverflow",
-      "alt:en-US": "GitHub Readme StackOverflow",
-      "alt:pt-BR": "GitHub Readme StackOverflow",
       "href": "https://github-readme-stackoverflow.vercel.app/?userID=6558042",
       "images": [
         {
-          "alt": "GitHub Readme StackOverflow",
-          "alt:en-US": "Default theme",
-          "alt:pt-BR": "Tema default",
+          "alt": "默认布局",
+          "alt:en-US": "Default layout",
+          "alt:pt-BR": "Formato padrão",
           "href": "https://github-readme-stackoverflow.vercel.app/?userID=6558042"
         }
       ]
     },
     {
-      "description": "Default layout and dark theme",
+      "description": "默认布局和暗色主题",
       "description:en-US": "Default layout and dark theme",
       "description:pt-BR": "Formato padrão e tema escuro",
-      "annotate": "GitHub Readme StackOverflow",
       "alt": "GitHub Readme StackOverflow",
-      "alt:en-US": "GitHub Readme StackOverflow",
-      "alt:pt-BR": "GitHub Readme StackOverflow",
       "href": "https://github-readme-stackoverflow.vercel.app/?userID=6558042&theme=dark",
       "images": [
         {
-          "alt": "GitHub Readme StackOverflow",
-          "alt:en-US": "Default theme",
-          "alt:pt-BR": "Tema default",
+          "alt": "默认布局和暗色主题",
+          "alt:en-US": "Default layout and dark theme",
+          "alt:pt-BR": "Formato padrão e tema escuro",
           "href": "https://github-readme-stackoverflow.vercel.app/?userID=6558042&theme=dark"
         }
       ]
     },
     {
-      "description": "Dark theme and compact layout",
+      "description": "紧凑布局和暗色主题",
       "description:en-US": "Dark theme and compact layout",
       "description:pt-BR": "Tema escuro e formato compacto",
-      "annotate": "GitHub Readme StackOverflow",
       "alt": "GitHub Readme StackOverflow",
-      "alt:en-US": "GitHub Readme StackOverflow",
-      "alt:pt-BR": "GitHub Readme StackOverflow",
       "href": "https://github-readme-stackoverflow.vercel.app/?userID=6558042?theme=dark&layout=compact",
       "images": [
         {
-          "alt": "GitHub Readme StackOverflow",
-          "alt:en-US": "Dark theme and default layout",
-          "alt:pt-BR": "Tema escuro e formato padrão",
+          "alt": "紧凑布局和暗色主题",
+          "alt:en-US": "Dark theme and compact layout",
+          "alt:pt-BR": "Tema escuro e formato compacto",
           "href": "https://github-readme-stackoverflow.vercel.app/?userID=6558042&theme=dark&layout=compact"
         }
       ]
     },
     {
-      "description": "Light theme and compact layout",
+      "description": "紧凑布局和亮色主题",
       "description:en-US": "Light theme and compact layout",
       "description:pt-BR": "Tema claro e formato compacto",
-      "annotate": "GitHub Readme StackOverflow",
       "alt": "GitHub Readme StackOverflow",
-      "alt:en-US": "GitHub Readme StackOverflow",
-      "alt:pt-BR": "GitHub Readme StackOverflow",
       "href": "https://github-readme-stackoverflow.vercel.app/?userID=6558042&theme=light&layout=compact",
       "images": [
         {
-          "alt": "GitHub Readme StackOverflow",
+          "alt": "紧凑布局和亮色主题",
           "alt:en-US": "Light theme and compact layout",
-          "alt:pt-BR": "Tema claro e formato padrão",
+          "alt:pt-BR": "Tema claro e formato compacto",
           "href": "https://github-readme-stackoverflow.vercel.app/?userID=6558042&theme=light&layout=compact"
         }
       ]

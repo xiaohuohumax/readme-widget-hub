@@ -1,8 +1,7 @@
 {
-  "enabled": false,
   "title": "GitHub Readme Profile",
   "title:pt-BR": "Perfil Readme do GitHub (GitHub Readme Profile)",
-  "description": "Generate your Stats GitHub Profile in SVG.",
+  "description": "生成你的 SVG 格式 GitHub 统计个人资料。",
   "description:en-US": "Generate your Stats GitHub Profile in SVG.",
   "description:pt-BR": "Exiba suas estatísticas do perfil do GitHub em SVG.",
   "tag": {
@@ -16,7 +15,7 @@
         "name": "username",
         "type": "string",
         "required": true,
-        "description": "Username registered in GitHub.",
+        "description": "用户名",
         "description:en-US": "Username registered in GitHub.",
         "description:pt-BR": "Nome do usuário registrado no GitHub.",
         "moreDescription": "Example: `FajarKim`.",
@@ -24,70 +23,48 @@
         "moreDescription:pt-BR": "Exemplo: `FajarKim`."
       },
       {
-        "name": "theme",
-        "type": "string",
-        "default": "default",
-        "description": "Name of the theme, choose from [all available themes](https://github.com/FajarKim/github-readme-profile/tree/master/themes).",
-        "description:en-US": "Name of the theme, choose from [all available themes](https://github.com/FajarKim/github-readme-profile/tree/master/themes).",
-        "description:pt-BR": "Nome do teme, escolher um da lista com [todos os temas disponíveis](https://github.com/FajarKim/github-readme-profile/tree/master/themes).",
-        "moreDescription": "Supported: `default`, `default`, `transparent`, `dark` or `highcontrast`.",
-        "moreDescription:en-US": "Supported: `default`, `default`, `transparent`, `dark` or `highcontrast`.",
-        "moreDescription:pt-BR": "Suporta: `default`, `default`, `transparent`, `dark` or `highcontrast`."
-      },
-      {
-        "name": "locate",
-        "type": "string",
-        "default": "en",
-        "description": "Locate (language)",
-        "description:en-US": "Locate (language)",
-        "description:pt-BR": "Idioma",
-        "moreDescription": "Supported: `en`, `ar`, `fr`, `id`, `ja` or `ko`.",
-        "moreDescription:en-US": "Supported: `en`, `ar`, `fr`, `id`, `ja` or `ko`.",
-        "moreDescription:pt-BR": "Suporta: `en`, `ar`, `fr`, `id`, `ja` or `ko`."
-      },
-      {
         "name": "title_color",
         "type": "string",
         "default": "2f80ed",
-        "description": "Card's title color",
+        "description": "卡片标题颜色",
         "description:en-US": "Card's title color",
         "description:pt-BR": "Cor do título no",
-        "moreDescription": "Supported:`2f80ed`.",
-        "moreDescription:en-US": "Supported:`2f80ed`.",
-        "moreDescription:pt-BR": "Supported:`2f80ed`."
+        "moreDescription": "格式：`HEX` 例如：`FF0000`。",
+        "moreDescription:en-US": "Format: `HEX` e.g. `FF0000`.",
+        "moreDescription:pt-BR": "Formato: `HEX` ex. `FF0000`."
       },
       {
         "name": "text_color",
         "type": "string",
         "default": "434d58",
-        "description": "Body text color",
+        "description": "正文颜色",
         "description:en-US": "Body text color",
         "description:pt-BR": "Cor do texto no corpo do cartão",
-        "moreDescription": "Supported:`434d58`.",
-        "moreDescription:en-US": "Supported:`434d58`.",
-        "moreDescription:pt-BR": "Suporta:`434d58`."
+        "moreDescription": "格式：`HEX` 例如：`FF0000`。",
+        "moreDescription:en-US": "Format: `HEX` e.g. `FF0000`.",
+        "moreDescription:pt-BR": "Formato: `HEX` ex. `FF0000`."
       },
       {
         "name": "icon_color",
         "type": "string",
         "default": "4c71f2",
-        "description": "Icons color",
+        "description": "图标颜色",
         "description:en-US": "Icons color",
         "description:pt-BR": "Cor do ícones",
-        "moreDescription": "Supported:`4c71f2`.",
-        "moreDescription:en-US": "Supported:`4c71f2`.",
-        "moreDescription:pt-BR": "Supported:`4c71f2`."
+        "moreDescription": "格式：`HEX` 例如：`FF0000`。",
+        "moreDescription:en-US": "Format: `HEX` e.g. `FF0000`.",
+        "moreDescription:pt-BR": "Formato: `HEX` ex. `FF0000`."
       },
       {
         "name": "border_color",
         "type": "string",
         "default": "e4e2e2",
-        "description": "Card's border color. Does not apply when hide_border is enabled.",
-        "description:en-US": "Card's border color. Does not apply when `hide_border` is enabled.",
-        "description:pt-BR": "Cor da borda do cartão. Não se aplica quando o `hide_border` está habilitado",
-        "moreDescription": "Supported:`e4e2e2`.",
-        "moreDescription:en-US": "Supported:`e4e2e2`.",
-        "moreDescription:pt-BR": "Suporta:`e4e2e2`."
+        "description": "卡片颜色",
+        "description:en-US": "Card's border color",
+        "description:pt-BR": "Cor da borda do cartão",
+        "moreDescription": "格式：`HEX` 例如：`FF0000`。当启用 `hide_border` 时不适用。",
+        "moreDescription:en-US": "Format: `HEX` e.g. `FF0000`.Does not apply when `hide_border` is enabled.",
+        "moreDescription:pt-BR": "Formato: `HEX` ex. `FF0000`. Não se aplica quando o `hide_border` está habilitado."
       },
       {
         "name": "bg_color",
@@ -96,83 +73,108 @@
         "description": "Card's background color.",
         "description:en-US": "Card's background color.",
         "description:pt-BR": "Cor de fundo do cartão.",
-        "moreDescription": "Supported:`fffefe`.",
-        "moreDescription:en-US": "Supported:`fffefe`.",
-        "moreDescription:pt-BR": "Suporta:`fffefe`."
+        "moreDescription": "格式：`HEX`, `gradient(angle,start,end)` 例如：`FF0000`, `30,E96443,904E95`。",
+        "moreDescription:en-US": "Format: `HEX`, `gradient(angle,start,end)` e.g. `FF0000`, `30,E96443,904E95`.",
+        "moreDescription:pt-BR": "Formato: `HEX`, `gradient(angle,start,end)` ex. `FF0000`, `30,E96443,904E95`."
       },
       {
         "name": "stroke_color",
         "type": "string",
-        "description": "Profile image border color. Does not apply when `hide_stroke` is enabled.",
-        "description:en-US": "Profile image border color. Does not apply when `hide_stroke` is enabled.",
-        "description:pt-BR": "Cor da borda na imagem do perfil. Não se aplica quando `hide_stroke` está habilitado.",
-        "moreDescription": "Supported: `e4e2e2` or `border_color` query.",
-        "moreDescription:en-US": "Supported: `e4e2e2` or `border_color` query.",
-        "moreDescription:pt-BR": "Suporta: `e4e2e2` or `border_color` query."
+        "default": "e4e2e2",
+        "description": "头像边框颜色",
+        "description:en-US": "Profile image border color",
+        "description:pt-BR": "Cor da borda na imagem do perfil",
+        "moreDescription": "格式：`HEX` 例如：`FF0000`。当 `hide_stroke` 开启时不适用。",
+        "moreDescription:en-US": "Format: `HEX` e.g. `FF0000`. Does not apply when `hide_stroke` is enabled.",
+        "moreDescription:pt-BR": "Formato: `HEX` ex. `FF0000`. Não se aplica quando `hide_stroke` está habilitado."
       },
       {
         "name": "username_color",
         "type": "string",
-        "default": "",
-        "description": "Username text color.",
-        "description:en-US": "Username text color.",
-        "description:pt-BR": "Cor do texto do nome do usuário.",
-        "moreDescription": "Supported: `434d58` or `text_color` query.",
-        "moreDescription:en-US": "Supported: `434d58` or `text_color` query.",
-        "moreDescription:pt-BR": "Suporta: `434d58` or `text_color` query."
+        "default": "434d58",
+        "description": "用户名颜色",
+        "description:en-US": "Username text color",
+        "description:pt-BR": "Cor do texto do nome do usuário",
+        "moreDescription": "格式：`HEX` 例如：`FF0000`。",
+        "moreDescription:en-US": "Format: `HEX` e.g. `FF0000`.",
+        "moreDescription:pt-BR": "Formato: `HEX` ex. `FF0000`."
+      },
+      {
+        "name": "theme",
+        "type": "string",
+        "default": "default",
+        "description": "主题 [全部可用主题](https://github.com/FajarKim/github-readme-profile/tree/master/themes)",
+        "description:en-US": "Name of the theme, choose from [all available themes](https://github.com/FajarKim/github-readme-profile/tree/master/themes)",
+        "description:pt-BR": "Nome do teme, escolher um da lista com [todos os temas disponíveis](https://github.com/FajarKim/github-readme-profile/tree/master/themes)",
+        "moreDescription": "可选值：`default`,, `transparent`, `dark` or `highcontrast`。",
+        "moreDescription:en-US": "Supported: `default`, `transparent`, `dark` or `highcontrast`.",
+        "moreDescription:pt-BR": "Suporta: `default`, `transparent`, `dark` or `highcontrast`."
       },
       {
         "name": "title",
         "type": "string",
-        "default": "null",
-        "description": "Custom title text for the card. Before use, encode the text to URL format using a tool like [URL Encoder](https://www.urlencoder.org/).",
-        "description:en-US": "Custom title text for the card. Before use, encode the text to URL format using a tool like [URL Encoder](https://www.urlencoder.org/).",
-        "description:pt-BR": "Custom title text for the card. Before use, encode the text to URL format using a tool like [URL Encoder](https://www.urlencoder.org/).",
-        "moreDescription": "Supported:`null`.",
-        "moreDescription:en-US": "Supported:`null`.",
-        "moreDescription:pt-BR": "Suporta:`null`."
+        "description": "卡片的自定义标题文本",
+        "description:en-US": "Custom title text for the card",
+        "description:pt-BR": "Custom title text for the card",
+        "moreDescription": "使用前，请使用 [URL Encoder](https://www.urlencoder.org/) 等工具将文本编码为 URL 格式。",
+        "moreDescription:en-US": "Before use, encode the text to URL format using a tool like [URL Encoder](https://www.urlencoder.org/).",
+        "moreDescription:pt-BR": "Before use, encode the text to URL format using a tool like [URL Encoder](https://www.urlencoder.org/)."
+      },
+      {
+        "name": "locate",
+        "type": "string",
+        "default": "en",
+        "description": "语言",
+        "description:en-US": "Locate (language)",
+        "description:pt-BR": "Idioma",
+        "moreDescription": "可选值：`en`, `ar`, `fr`, `id`, `ja` or `ko`。",
+        "moreDescription:en-US": "Supported: `en`, `ar`, `fr`, `id`, `ja` or `ko`.",
+        "moreDescription:pt-BR": "Suporta: `en`, `ar`, `fr`, `id`, `ja` or `ko`."
       },
       {
         "name": "border_width",
         "type": "number",
         "default": "1",
-        "description": "Sets the border's width manually.",
-        "description:en-US": "Sets the border's width manually.",
-        "description:pt-BR": "Alterar a largura da borda manualmente.",
-        "moreDescription": "Supported:`1`.",
-        "moreDescription:en-US": "Supported:`1`.",
-        "moreDescription:pt-BR": "Suporta:`1`."
+        "description": "手动设置边框的宽度",
+        "description:en-US": "Sets the border's width manually",
+        "description:pt-BR": "Alterar a largura da borda manualmente"
       },
       {
         "name": "border_radius",
         "type": "number",
         "default": "4.5",
-        "description": "Corner rounding on the card.",
-        "description:en-US": "Corner rounding on the card.",
-        "description:pt-BR": "Corner rounding on the card.",
-        "moreDescription": "Example:`4.5`.",
-        "moreDescription:en-US": "Example:`4.5`.",
-        "moreDescription:pt-BR": "Exemplo:`4.5`."
+        "description": "卡片的圆角处理",
+        "description:en-US": "Corner rounding on the card",
+        "description:pt-BR": "Corner rounding on the card"
       },
       {
         "name": "hide",
         "type": "string",
-        "default": "null",
-        "description": "Hides the [specified items](https://github.com/FajarKim/github-readme-profile#hiding-individual-stats) from stats.",
-        "description:en-US": "Hides the [specified items](https://github.com/FajarKim/github-readme-profile#hiding-individual-stats) from stats.",
-        "description:pt-BR": "Ocultar os [itens específicos](https://github.com/FajarKim/github-readme-profile#hiding-individual-stats) from stats.",
-        "moreDescription": "Example: `&hide=repos,stars,forks,commits,prs,prs_merged,issues, contributed`.",
-        "moreDescription:en-US": "Example: `&hide=repos,stars,forks,commits,prs,prs_merged,issues, contributed`.",
-        "moreDescription:pt-BR": "Exemplo: `&hide=repos,stars,forks,commits,prs,prs_merged,issues, contributed`."
+        "description": "隐藏指定的 [统计项](https://github.com/FajarKim/github-readme-profile#hiding-individual-stats)",
+        "description:en-US": "Hides the [specified items](https://github.com/FajarKim/github-readme-profile#hiding-individual-stats) from stats",
+        "description:pt-BR": "Ocultar os [itens específicos](https://github.com/FajarKim/github-readme-profile#hiding-individual-stats) from stats",
+        "moreDescription": "示例：`&hide=repos,stars,forks,commits,prs,prs_merged,issues,contributed`.",
+        "moreDescription:en-US": "Example: `&hide=repos,stars,forks,commits,prs,prs_merged,issues,contributed`.",
+        "moreDescription:pt-BR": "Exemplo: `&hide=repos,stars,forks,commits,prs,prs_merged,issues,contributed`."
+      },
+      {
+        "name": "show",
+        "type": "string",
+        "description": "显示额外的 [统计项](https://github.com/FajarKim/github-readme-profile?tab=readme-ov-file#showing-additional-individual-stats)",
+        "description:en-US": "Shows [additional items](https://github.com/FajarKim/github-readme-profile?tab=readme-ov-file#showing-additional-individual-stats) on stats card",
+        "description:pt-BR": "Mostra [adicionais itens](https://github.com/FajarKim/github-readme-profile?tab=readme-ov-file#showing-additional-individual-stats) no cartão de estatísticas",
+        "moreDescription": "示例：`&show=reviews,issues_closed,discussions_started,discussions_answered`.",
+        "moreDescription:en-US": "Example: `&show=reviews,issues_closed,discussions_started,discussions_answered`.",
+        "moreDescription:pt-BR": "Exemplo: `&show=reviews,issues_closed,discussions_started,discussions_answered`."
       },
       {
         "name": "format",
         "type": "string",
         "default": "svg",
-        "description": "Output format card option (i.e. `svg`, `png`, `json`, or `xml`).",
-        "description:en-USformat": "Output format card option (i.e. `svg`, `png`, `json`, or `xml`).",
-        "description:pt-BR": "Formato de saída do cartão, opções (ex. `svg`, `png`, `json`, or `xml`).",
-        "moreDescription": "Supported: `svg`, `png`, `json`, or `xml`.",
+        "description": "输出格式卡片选项",
+        "description:en-USformat": "Output format card option",
+        "description:pt-BR": "Formato de saída do cartão, opções",
+        "moreDescription": "可选值：`svg`, `png`, `json`, or `xml`。",
         "moreDescription:en-US": "Supported: `svg`, `png`, `json`, or `xml`.",
         "moreDescription:pt-BR": "Suporta: `svg`, `png`, `json`, or `xml`."
       },
@@ -180,10 +182,10 @@
         "name": "disabled_animations",
         "type": "boolean",
         "default": "false",
-        "description": "Disables all animations in the card.",
-        "description:en-US": "Disables all animations in the card.",
-        "description:pt-BR": "Desativa todas as animações no cartão.",
-        "moreDescription": "Supported:`false` or `true`.",
+        "description": "禁用卡片中的所有动画效果",
+        "description:en-US": "Disables all animations in the card",
+        "description:pt-BR": "Desativa todas as animações no cartão",
+        "moreDescription": "可选值：`false` or `true`。",
         "moreDescription:en-US": "Supported:`false` or `true`.",
         "moreDescription:pt-BR": "Suporta:`false` or `true`."
       },
@@ -191,92 +193,88 @@
         "name": "hide_border",
         "type": "string",
         "default": "false",
-        "description": "Hides the card's border.",
-        "description:en-US": "Hides the card's border.",
-        "description:pt-BR": "Esconde a borda do cartão.",
-        "moreDescription": "Supported:`false` or `true`.",
-        "moreDescription:en-US": "Supported:`false` or `true`.",
-        "moreDescription:pt-BR": "Suporta:`false` or `true`."
+        "description": "隐藏卡片边框",
+        "description:en-US": "Hides the card's border",
+        "description:pt-BR": "Esconde a borda do cartão",
+        "moreDescription": "可选值：`false` or `true`。",
+        "moreDescription:en-US": "Supported: `false` or `true`.",
+        "moreDescription:pt-BR": "Suporta: `false` or `true`."
       },
       {
         "name": "hide_stroke",
         "type": "boolean",
         "default": "false",
-        "description": "Hides the image's profile stroke in the card.",
-        "description:en-US": "Hides the image's profile stroke in the card.",
-        "description:pt-BR": "Oculta a linha do perfil na imagem do cartão.",
-        "moreDescription": "Supported:`false` or `true`.",
-        "moreDescription:en-US": "Supported:`false` or `true`.",
-        "moreDescription:pt-BR": "Suporta:`false` or `true`."
+        "description": "隐藏卡片中图像的轮廓",
+        "description:en-US": "Hides the image's profile stroke in the card",
+        "description:pt-BR": "Oculta a linha do perfil na imagem do cartão",
+        "moreDescription": "可选值：`false` or `true`。",
+        "moreDescription:en-US": "Supported: `false` or `true`.",
+        "moreDescription:pt-BR": "Suporta: `false` or `true`."
       },
       {
         "name": "revert",
         "type": "boolean",
         "default": "false",
-        "description": "Inverts the display order, positioning stats to the left and the image to the right.",
+        "description": "反转显示顺序，将统计信息置于左侧，图片置于右侧。",
         "description:en-US": "Inverts the display order, positioning stats to the left and the image to the right.",
         "description:pt-BR": "Inverte a ordem de exibição, posicionando as estatísticas à esquerda e a imagem à direita.",
-        "moreDescription": "Supported:`false` or `true`.",
-        "moreDescription:en-US": "Supported:`false` or `true`.",
-        "moreDescription:pt-BR": "Suporta:`false` or `true`."
+        "moreDescription": "可选值：`false` or `true`。",
+        "moreDescription:en-US": "Supported: `false` or `true`.",
+        "moreDescription:pt-BR": "Suporta: `false` or `true`."
       },
       {
         "name": "photo_quality",
         "type": "number",
         "default": "15",
-        "description": "Quality of the profile image, represented as a percentage (1-100).",
-        "description:en-US": "Quality of the profile image, represented as a percentage (1-100).",
-        "description:pt-BR": "Qualidade da imagem do perfil, repesentada pela porcentagem (1-100).",
-        "moreDescription": "Example:`15`.",
-        "moreDescription:en-US": "Example:`15`.",
-        "moreDescription:pt-BR": "Example (percentage):`15`."
+        "description": "个人资料图片的质量",
+        "description:en-US": "Quality of the profile image",
+        "description:pt-BR": "Qualidade da imagem do perfil",
+        "moreDescription": "以百分比表示（1-100）。",
+        "moreDescription:en-US": "Repesentada pela porcentagem (1-100).",
+        "moreDescription:pt-BR": "Repesentada pela porcentagem (1-100)."
       },
       {
         "name": "photo_resize",
         "type": "number",
         "default": "150",
-        "description": "Resize the profile image to a specific width, in pixels. Minimum allowed value is 10px.",
-        "description:en-US": "Resize the profile image to a specific width, in pixels. Minimum allowed value is 10px.",
-        "description:pt-BR": "Alterar o tamanho da imagem do perfil com a largura, em pixels, Menor valor permitido é 10px.",
-        "moreDescription": "Example (pixels):`150`.",
-        "moreDescription:en-US": "Example (pixels):`150`.",
-        "moreDescription:pt-BR": "Exemplo (pixels):`150`."
+        "description": "将个人资料图片调整为特定宽度",
+        "description:en-US": "Resize the profile image to a specific width",
+        "description:pt-BR": "Alterar o tamanho da imagem do perfil com a largura",
+        "moreDescription": "以像素为单位。允许的最小值为 10px",
+        "moreDescription:en-US": "In pixels. Minimum allowed value is 10px.",
+        "moreDescription:pt-BR": "Em pixels, Menor valor permitido é 10px."
       }
     ],
-    "uriTemplate": "https://gh-readme-profile.vercel.app/api{?username,theme,locale,hide,show}"
+    "uriTemplate": "https://gh-readme-profile.vercel.app/api{?username,title_color,text_color,icon_color,border_color,bg_color,stroke_color,username_color,theme,title,locate,border_width,border_radius,hide,show,format,disabled_animations,hide_border,hide_stroke,revert,photo_quality,photo_resize}"
   },
   "examples": [
     {
-      "description": "Card in Portuguese",
+      "description": "葡萄牙语卡片",
       "description:en-US": "Card in Portuguese",
       "description:pt-BR": "Cartão em Português",
       "annotate": "FajarKim GitHub Readme Profile",
       "alt": "GitHub Readme Profile",
-      "alt:en-US": "GitHub Readme Profile",
       "alt:pt-BR": "Cartão do GitHub Readme Profile",
       "href": "https://gh-readme-profile.vercel.app/api?username=FajarKim&theme=iceberg&locale=pt-BR&hide=forks,prs&show=reviews,issues_closed,discussions_started,discussions_answered",
       "images": [
         {
           "alt": "GitHub Readme Profile",
-          "alt:en-US": "GitHub Readme Profile",
           "alt:pt-BR": "Cartão do GitHub Readme Profile",
           "href": "https://gh-readme-profile.vercel.app/api?username=FajarKim&theme=iceberg&locale=pt-BR&hide=forks,prs&show=reviews,issues_closed,discussions_started,discussions_answered"
         }
       ]
     },
     {
-      "description": "Card in English",
+      "description": "英语卡片",
       "description:en-US": "Card in English",
       "description:pt-BR": "Cartão em Inglês",
       "annotate": "FajarKim GitHub Readme Profile",
       "alt": "GitHub Readme Profile",
-      "alt:en-US": "GitHub Readme Profile",
       "alt:pt-BR": "Cartão do GitHub Readme Profile",
       "href": "https://gh-readme-profile.vercel.app/api?username=FajarKim&theme=duskfox&hide=commits,prs,prs_merged,issues,contributed",
       "images": [
         {
           "alt": "GitHub Readme Profile",
-          "alt:en-US": "GitHub Readme Profile",
           "alt:pt-BR": "Cartão do GitHub Readme Profile",
           "href": "https://gh-readme-profile.vercel.app/api?username=FajarKim&theme=duskfox&hide=commits,prs,prs_merged,issues,contributed"
         }

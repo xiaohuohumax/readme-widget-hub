@@ -1,8 +1,7 @@
 {
-  "enabled": false,
   "title": "Git Streak Tracker",
   "title:pt-BR": "Rastreador de Frequências no Git (Git Streak Tracker)",
-  "description": "This app contains a selection of widgets to help users track their contribution streak on Github.",
+  "description": "这款应用包含一系列小部件，帮助用户追踪他们在 GitHub 上的贡献连续记录。",
   "description:en-US": "This app contains a selection of widgets to help users track their contribution streak on Github.",
   "description:pt-BR": "Este aplicativo contém uma seleção de widgets para ajudar os usuários a rastrearem sua freequência de contribuições no Github.",
   "tag": {
@@ -15,10 +14,10 @@
       {
         "name": "username",
         "type": "string",
-        "description": "Username registered in GitHub",
+        "description": "GitHub 用户名",
         "description:en-US": "Username registered in GitHub",
         "description:pt-BR": "Nome do usuário registrado no GitHub",
-        "moreDescription": "Example: `gibsonbailey`",
+        "moreDescription": "示例：`gibsonbailey`",
         "moreDescription:en-US": "Example: `gibsonbailey`",
         "moreDescription:pt-BR": "Exemplo: `gibsonbailey`"
       }
@@ -28,18 +27,12 @@
   "examples": [
     {
       "description": "Git Streak Tracker",
-      "description:en-US": "Git Streak Tracker",
-      "description:pt-BR": "Git Streak Tracker",
       "annotate": "gibsonbailey",
       "alt": "Git Streak Tracker",
-      "alt:en-US": "Git Streak Tracker",
-      "alt:pt-BR": "Git Streak Tracker",
       "href": "https://d3frb2mbny706b.cloudfront.net/gibsonbailey",
       "images": [
         {
           "alt": "Git Streak Tracker",
-          "alt:en-US": "Git Streak Tracker",
-          "alt:pt-BR": "Git Streak Tracker",
           "href": "https://d3frb2mbny706b.cloudfront.net/gibsonbailey"
         }
       ]

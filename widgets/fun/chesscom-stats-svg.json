@@ -1,8 +1,7 @@
 {
-  "enabled": false,
   "title": "Chess.com Stats SVG Generator",
   "title:pt-BR": "Chess.com Stats SVG Generator",
-  "description": "This project is a web service that dynamically generates SVG images displaying chess statistics for a given Chess.com user.",
+  "description": "该项目是一个网络服务，能够动态生成 SVG 图片，展示特定 Chess.com 用户的棋类统计数据。",
   "description:en-US": "This project is a web service that dynamically generates SVG images displaying chess statistics for a given Chess.com user.",
   "description:pt-BR": "Este projeto é um serviço web que gera dinamicamente imagens SVG exibindo estatísticas de xadrez de um determinado usuário do Chess.com.",
   "tag": {
@@ -15,10 +14,10 @@
       {
         "name": "username",
         "type": "string",
-        "description": "Username registered in Chess.com website",
+        "description": "Chess.com 网站的用户名",
         "description:en-US": "Username registered in Chess.com website",
         "description:pt-BR": "Nome do usuário registrado site do Chess.com",
-        "moreDescription": "Example: `PrathamRex`",
+        "moreDescription": "示例：`PrathamRex`",
         "moreDescription:en-US": "Example: `PrathamRex`",
         "moreDescription:pt-BR": "Exemplo: `PrathamRex`"
       },
@@ -26,32 +25,29 @@
         "name": "theme",
         "type": "string",
         "default": "default",
-        "description": "Theme color",
+        "description": "主题色",
         "description:en-US": "Theme color",
         "description:pt-BR": "Cor do tema",
-        "moreDescription": "Supported: `default`, `light`, `dark` or `graywhite`.",
-        "moreDescription:en-US": "Supported: `default`, `light`, `dark` or `graywhite`.",
-        "moreDescription:pt-BR": "Suporta: `default`, `light`, `dark` or `graywhite`."
+        "moreDescription": "可选值：`default`, `light`, `dark`, `graywhite`。",
+        "moreDescription:en-US": "Supported: `default`, `light`, `dark`, `graywhite`.",
+        "moreDescription:pt-BR": "Suporta: `default`, `light`, `dark`, `graywhite`."
       },
       {
         "name": "borderRadius",
         "type": "number",
         "default": "10",
-        "description": "Border radius",
+        "description": "边框圆角",
         "description:en-US": "Border radius",
-        "description:pt-BR": "Raio da borda",
-        "moreDescription": "Example: `8`.",
-        "moreDescription:en-US": "Example: `8`.",
-        "moreDescription:pt-BR": "Exemplo: `8`."
+        "description:pt-BR": "Raio da borda"
       },
       {
         "name": "disableAnimations",
         "type": "boolean",
         "default": "true",
-        "description": "Disable animations",
+        "description": "是否禁用动画",
         "description:en-US": "Disable animations",
         "description:pt-BR": "Desabilitar animações",
-        "moreDescription": "Supported: `true` or `false`.",
+        "moreDescription": "可选值：`true` or `false`。",
         "moreDescription:en-US": "Supported: `true` or `false`.",
         "moreDescription:pt-BR": "Suporta: `true` or `false`."
       }
@@ -60,17 +56,17 @@
   },
   "examples": [
     {
-      "description": "Default theme",
+      "description": "默认主题",
       "description:en-US": "Default theme",
       "description:pt-BR": "Tema default",
       "annotate": "Chess.com Stats SVG Generator",
-      "alt": "Chess.com Stats SVG Generator",
+      "alt": "默认主题 Chess.com SVG 状态图生成器",
       "alt:en-US": "Chess.com Stats with default theme",
       "alt:pt-BR": "Chess.com Stats with default theme",
       "href": "https://chesscom-stats-svg.vercel.app/stats?username=PrathamRex&theme=default",
       "images": [
         {
-          "alt": "Chess.com Stats SVG Generator",
+          "alt": "默认主题",
           "alt:en-US": "Default theme",
           "alt:pt-BR": "Tema default",
           "href": "https://chesscom-stats-svg.vercel.app/stats?username=PrathamRex&theme=default"
@@ -78,55 +74,55 @@
       ]
     },
     {
-      "description": "Dark theme",
+      "description": "黑暗主题",
       "description:en-US": "Dark theme",
       "description:pt-BR": "Tema dark",
-      "annotate": "Chess.com Stats SVG Generator",
-      "alt": "Chess.com Stats SVG Generator",
+      "annotate": "PrathamRex",
+      "alt": "暗黑主题 Chess.com SVG 状态图",
       "alt:en-US": "Chess.com Stats with dark theme",
       "alt:pt-BR": "Chess.com Stats with dark theme",
       "href": "https://chesscom-stats-svg.vercel.app/stats?username=PrathamRex&theme=dark",
       "images": [
         {
-          "alt": "Chess.com Stats SVG Generator",
-          "alt:en-US": "Default theme",
-          "alt:pt-BR": "Tema default",
+          "alt": "暗黑主题",
+          "alt:en-US": "Dark theme",
+          "alt:pt-BR": "Tema dark",
           "href": "https://chesscom-stats-svg.vercel.app/stats?username=PrathamRex&theme=dark"
         }
       ]
     },
     {
-      "description": "Graywhite theme",
+      "description": "灰白主题",
       "description:en-US": "Graywhite theme",
       "description:pt-BR": "Tema graywhite",
       "annotate": "Chess.com Stats SVG Generator",
-      "alt": "Chess.com Stats SVG Generator",
+      "alt": "灰白主题 Chess.com SVG 状态图",
       "alt:en-US": "Chess.com Stats with graywhite theme",
       "alt:pt-BR": "Chess.com Stats with graywhite theme",
       "href": "https://chesscom-stats-svg.vercel.app/stats?username=PrathamRex&theme=graywhite",
       "images": [
         {
-          "alt": "Chess.com Stats SVG Generator",
-          "alt:en-US": "Default theme",
-          "alt:pt-BR": "Tema default",
+          "alt": "灰白主题",
+          "alt:en-US": "Graywhite theme",
+          "alt:pt-BR": "Tema graywhite",
           "href": "https://chesscom-stats-svg.vercel.app/stats?username=PrathamRex&theme=graywhite"
         }
       ]
     },
     {
-      "description": "Light theme",
+      "description": "亮色主题",
       "description:en-US": "Light theme",
       "description:pt-BR": "Tema light",
       "annotate": "Chess.com Stats SVG Generator",
-      "alt": "Chess.com Stats SVG Generator",
+      "alt": "亮色主题 Chess.com SVG 状态图",
       "alt:en-US": "Chess.com Stats with light theme",
       "alt:pt-BR": "Chess.com Stats with light theme",
       "href": "https://chesscom-stats-svg.vercel.app/stats?username=PrathamRex&theme=light",
       "images": [
         {
-          "alt": "Chess.com Stats SVG Generator",
-          "alt:en-US": "Default theme",
-          "alt:pt-BR": "Tema default",
+          "alt": "亮色主题",
+          "alt:en-US": "Light theme",
+          "alt:pt-BR": "Tema light",
           "href": "https://chesscom-stats-svg.vercel.app/stats?username=PrathamRex&theme=light"
         }
       ]

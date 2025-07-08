@@ -1,14 +1,14 @@
 {
-  "enabled": false,
   "title": "Credly GitHub Readme Widgets",
   "title:pt-BR": "Credly GitHub Readme Widgets",
-  "description": "Get dynamically generated widgets with your Credly certifications for your GitHub profile README.",
+  "description": "获取为您的 GitHub 个人资料 Readme 动态生成的组件，这些组件包含您的 Credly 认证信息。",
   "description:en-US": "Get dynamically generated widgets with your Credly certifications for your GitHub profile README.",
   "description:pt-BR": "Tenha widgets gerados dinamicamente com as suas certificações do no Credly para o README do seu perfil no GitHub.",
   "tag": {
     "repo": "https://github.com/mechdeveloper/github-readme-widgets?tab=readme-ov-file",
     "onlineTool": "https://www.credly.com/",
-    "officialDoc": "https://github.com/mechdeveloper/github-readme-widgets"
+    "officialDoc": "https://github.com/mechdeveloper/github-readme-widgets",
+    "needRegister": true
   },
   "linkRules": {
     "querys": [
@@ -16,10 +16,10 @@
         "name": "username",
         "type": "string",
         "required": true,
-        "description": "Username registered in Credly website.",
+        "description": "Credly 网站的用户名",
         "description:en-US": "Username registered in Credly website.",
         "description:pt-BR": "Nome do usuário registrado site do Credly.",
-        "moreDescription": "Example: `ashishsinghbaghel`",
+        "moreDescription": "示例：`ashishsinghbaghel`",
         "moreDescription:en-US": "Example: `ashishsinghbaghel`",
         "moreDescription:pt-BR": "Exemplo: `ashishsinghbaghel`"
       },
@@ -27,7 +27,7 @@
         "name": "theme",
         "type": "string",
         "default": "default",
-        "description": "Theme color.",
+        "description": "主题色",
         "description:en-US": "Theme color.",
         "description:pt-BR": "Cor do tema.",
         "moreDescription": "可选值：`default`, `dark` or `tokyonight`。",
@@ -39,28 +39,16 @@
   },
   "examples": {
     "annotate": "Certifications",
-    "alt": "Credly Certifications Widget",
+    "alt": "Credly Certifications 小部件",
     "alt:en-US": "Credly Certifications Widget",
     "alt:pt-BR": "Widget com os certificados do Credly",
     "href": "https://github-readme-widgets.vercel.app/api?username=ashishsinghbaghel&theme=dark",
     "images": [
       {
-        "alt": "Credly Certifications Widget",
+        "alt": "Credly Certifications 小部件",
         "alt:en-US": "Credly Certifications Widget",
         "alt:pt-BR": "Widget com os certificados do Credly",
         "href": "https://github-readme-widgets.vercel.app/api?username=ashishsinghbaghel&theme=dark"
-      },
-      {
-        "alt": "Credly Certifications Widget",
-        "alt:en-US": "Credly Certifications Widget",
-        "alt:pt-BR": "Widget com os certificados do Credly",
-        "href": "https://github-readme-widgets.vercel.app/api?username=ashishsinghbaghel&theme=tokyonight"
-      },
-      {
-        "alt": "Credly Certifications Widget",
-        "alt:en-US": "Credly Certifications Widget",
-        "alt:pt-BR": "Widget com os certificados do Credly",
-        "href": "https://github-readme-widgets.vercel.app/api?username=ashishsinghbaghel&theme=default"
       }
     ]
   }
