@@ -6,9 +6,7 @@
   "description:en-US": "Holopin is the cool way to do digital badges.",
   "description:pt-BR": "Holopin é um jeito de exibir seus emblemas digitais de forma divertida.",
   "tag": {
-    "repo": "https://github.com/vinitshahdeo/holopin-readme-badge",
-    "onlineTool": "https://www.holopin.io/",
-    "officialDoc": "https://www.holopin.io/faq"
+    "repo": "https://www.holopin.io/"
   },
   "linkRules": {
     "params": [
@@ -18,25 +16,25 @@
         "description": "Your username registered in Holopin.io",
         "description:en-US": "Your username registered in Holopin.io",
         "description:pt-BR": "Nome do usuário reguistrado no Holopin.io",
-        "moreDescription": "Example: `mayannaoliveira`",
-        "moreDescription:en-US": "Example: `mayannaoliveira`",
-        "moreDescription:pt-BR": "Exemplo: `mayannaoliveira`"
+        "moreDescription": "Example: `vinitshahdeo`",
+        "moreDescription:en-US": "Example: `vinitshahdeo`",
+        "moreDescription:pt-BR": "Exemplo: `vinitshahdeo`"
       }
     ],
     "uriTemplate": "https://holopin.me/{username}"
   },
   "examples": {
-    "annotate": "An image of @mayannaoliveira Holopin badges",
+    "annotate": "An image of @vinitshahdeo Holopin badges",
     "alt": "Holopin Badge Board",
     "alt:en-US": "Holopin Badge Board",
     "alt:pt-BR": "Quadro de Emblemas do Holopin",
-    "href": "https://holopin.me/mayannaoliveira",
+    "href": "https://holopin.me/vinitshahdeo",
     "images": [
       {
         "alt": "Holopin Badge Board",
         "alt:en-US": "Holopin Badge Board",
         "alt:pt-BR": "Quadro de Emblemas do Holopin",
-        "href": "https://holopin.me/mayannaoliveira"
+        "href": "https://holopin.me/vinitshahdeo"
       }
     ]
   }

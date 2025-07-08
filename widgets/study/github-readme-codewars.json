@@ -1,4 +1,5 @@
 {
+  "enabled": true,
   "title": "Github Readme Codewars",
   "title:pt-BR": "Codewars no Readme do Github (Github Readme Codewars)",
   "description": "在您的个人 README 上显示您的 Codewars 统计信息。",
@@ -16,7 +17,10 @@
         "required": true,
         "description": "Codewars 用户名",
         "description:en-US": "Codewars username",
-        "description:pt-BR": "Nome do usuário no Codewars"
+        "description:pt-BR": "Nome do usuário no Codewars",
+        "moreDescription": "Example: `ignacio-cuadra`.",
+        "moreDescription:en-US": "Example: `ignacio-cuadra`.",
+        "moreDescription:pt-BR": "Exemplo: `ignacio-cuadra`."
       },
       {
         "name": "theme",
@@ -74,7 +78,7 @@
         "moreDescription:pt-BR": "Cor do símbolo em hexadecimal, rgb ou rgba."
       }
     ],
-    "uriTemplate": "https://codewars-stats-ignacio-cuadra.vercel.app/{?username,theme,backgroundColor,borderColor,textColor,primaryColor}"
+    "uriTemplate": "https://codewars-stats-ignacio-cuadra.vercel.app/{?username,theme}"
   },
   "examples": {
     "annotate": "Github Readme Codewars",

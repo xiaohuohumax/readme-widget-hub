@@ -1,0 +1,148 @@
+{
+  "enabled": false,
+  "title": "Codewars Readme Stats",
+  "title:pt-BR": "Estatísticas do Codewars no Readme",
+  "description": "Display your Codewars Stats at your GitHub Readme profile!",
+  "description:en-US": "Display your Codewars stats at your GitHub Readme profile!",
+  "description:pt-BR": "Exiba no seu perfil Readme do GitHub as Estatísticas do Codewars!",
+  "tag": {
+    "repo": "https://github.com/DiniFarb/codewars_readme_stats",
+    "onlineTool": "https://www.codewars.com",
+    "officialDoc": "https://github.com/DiniFarb/codewars_readme_stats"
+  },
+  "linkRules": {
+    "querys": [
+      {
+        "name": "username",
+        "type": "string",
+        "required": true,
+        "description": "Codewars username.",
+        "description:en-US": "Codewars username.",
+        "description:pt-BR": "Nome do usuário no Codewars."
+      },
+      {
+        "name": "top_languages",
+        "type": "boolean",
+        "required": false,
+        "description": "Extens the card with 3 icons of the top trained languages.",
+        "description:en-US": "Extens the card with 3 icons of the top trained languages.",
+        "description:pt-BR": "Amplia o cartão com 3 ícones dos principais idiomas treinados.",
+        "moreDescription": "Support: `true` or `false`.",
+        "moreDescription:en-US": "Support: `true` or `false`.",
+        "moreDescription:pt-BR": "Suporta: `true` or `false`."
+      },
+      {
+        "name": "stroke",
+        "type": "string",
+        "required": false,
+        "description": "Sets a border with the passed in color around the card.",
+        "description:en-US": "Sets a border with the passed in color around the card.",
+        "description:pt-BR": "Define a cor da borda ao redor do cartão.",
+        "moreDescription": "Support: `stroke=black`, `stroke=%23000000` or `stroke=rgb(0,0,0)`.",
+        "moreDescription:en-US": "Support: `stroke=black`, `stroke=%23000000` or `stroke=rgb(0,0,0)`.",
+        "moreDescription:pt-BR": "Suporta: `stroke=black`, `stroke=%23000000` or `stroke=rgb(0,0,0)`."
+      },
+      {
+        "name": "theme",
+        "type": "string",
+        "required": false,
+        "description": "Sets a theme for the card.",
+        "description:en-US": "Sets a theme for the card.",
+        "description:pt-BR": "Altera o tema do cartão.",
+        "moreDescription": "Support: `true` or `false`.",
+        "moreDescription:en-US": "Support: `dark` or `light`.",
+        "moreDescription:pt-BR": "Suporta: `dark` or `light`."
+      },
+      {
+        "name": "hide_clan",
+        "type": "boolean",
+        "required": false,
+        "description": "Removes the clan name from the card.",
+        "description:en-US": "Removes the clan name from the card.",
+        "description:pt-BR": "Remove do cartão o nome do clã.",
+        "moreDescription": "Support: `true` or `false`.",
+        "moreDescription:en-US": "Support: `true` or `false`.",
+        "moreDescription:pt-BR": "Suporta: `true` or `false`."
+      },
+      {
+        "name": "cache-control",
+        "type": "boolean",
+        "required": false,
+        "description": "Changes the cache-control http header value.",
+        "description:en-US": "Changes the cache-control http header value.",
+        "description:pt-BR": "Altera o valor do cabeçalho http do cache-control.",
+        "moreDescription": "Support: `true` or `false`.",
+        "moreDescription:en-US": "Support: `true` or `false`.",
+        "moreDescription:pt-BR": "Suporta: `true` or `false`."
+      },
+      {
+        "name": "animation",
+        "type": "boolean",
+        "required": false,
+        "description": "Can be used to disable the animations.",
+        "description:en-US": "Can be used to disable the animations.",
+        "description:pt-BR": "Pode ser usado para desabilitar as animações.",
+        "moreDescription": "Support: `true` or `false`.",
+        "moreDescription:en-US": "Support: `true` or `false`.",
+        "moreDescription:pt-BR": "Suporta: `true` or `false`."
+      }
+    ],
+    "uriTemplate": "https://github.r2v.ch/codewars{?user,top_languages,stroke,theme,cache_control,hide_clan,animation}"
+  },
+  "examples": [
+    {
+      "description": "Basic card",
+      "description:en-US": "Basic card",
+      "description:pt-BR": "Cartão básico",
+      "annotate": "dinifarb",
+      "alt": "Codewars Readme Stats",
+      "alt:en-US": "Codewars Readme Stats",
+      "alt:pt-BR": "Estatísticas do Codewars no Readme",
+      "href": "https://github.r2v.ch/codewars?user=dinifarb",
+      "images": [
+        {
+          "alt": "Codewars Readme Stats",
+          "alt:en-US": "Codewars Readme Stats",
+          "alt:pt-BR": "Estatísticas do Codewars no Readme",
+          "href": "https://github.r2v.ch/codewars?user=dinifarb"
+        }
+      ]
+    },
+    {
+      "description": "Theme light, stroke and cache control",
+      "description:en-US": "Theme light, stroke and cache control",
+      "description:pt-BR": "Tema claro com borda e controle de cache",
+      "annotate": "dinifarb",
+      "alt": "Codewars Readme Stats",
+      "alt:en-US": "Codewars Readme Stats",
+      "alt:pt-BR": "Estatísticas do Codewars no Readme",
+      "href": "https://github.r2v.ch/codewars?user=dinifarb&top_languages=false&stroke=%23BB432C&theme=light&cache_control=86400",
+      "images": [
+        {
+          "alt": "Codewars Readme Stats",
+          "alt:en-US": "Codewars Readme Stats",
+          "alt:pt-BR": "Estatísticas do Codewars no Readme",
+          "href": "https://github.r2v.ch/codewars?user=dinifarb&top_languages=false&stroke=%23BB432C&theme=light&cache_control=86400"
+        }
+      ]
+    },
+    {
+      "description": "Card with top language, stroke and theme",
+      "description:en-US": "Card with top language, stroke and theme",
+      "description:pt-BR": "Cartão com linguagens, borda e tema",
+      "annotate": "dinifarb",
+      "alt": "Codewars Readme Stats",
+      "alt:en-US": "Codewars Readme Stats",
+      "alt:pt-BR": "Estatísticas do Codewars no Readme",
+      "href": "https://github.r2v.ch/codewars?user=dinifarb&name=true&top_languages=true&stroke=%23b362ff&theme=purple_dark",
+      "images": [
+        {
+          "alt": "Codewars Readme Stats",
+          "alt:en-US": "Codewars Readme Stats",
+          "alt:pt-BR": "Estatísticas do Codewars no Readme",
+          "href": "https://github.r2v.ch/codewars?user=dinifarb&name=true&top_languages=true&stroke=%23b362ff&theme=purple_dark"
+        }
+      ]
+    }
+  ]
+}

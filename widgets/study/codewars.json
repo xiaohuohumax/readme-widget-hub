@@ -1,4 +1,5 @@
 {
+  "enabled": true,
   "title": "Codewars Profile Badges",
   "title:pt-BR": "Faixas do Codewars (Codewars Profile Badges)",
   "description": "以下是徽章和 SVG 格式。它们有3种不同的尺寸，可以嵌入到您想要的任何地方。每次从 Codewars 的服务器加载图像时，这些图像都会自动更新。",

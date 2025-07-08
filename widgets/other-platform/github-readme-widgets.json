@@ -11,57 +11,56 @@
     "officialDoc": "https://github.com/mechdeveloper/github-readme-widgets"
   },
   "linkRules": {
-    "params": [
+    "querys": [
       {
         "name": "username",
         "type": "string",
-        "description": "Username registered in Credly website",
-        "description:en-US": "Username registered in Credly website",
-        "description:pt-BR": "Nome do usuário registrado site do Credly",
-        "moreDescription": "Example: `mayannaoliveira`",
-        "moreDescription:en-US": "Example: `mayannaoliveira`",
-        "moreDescription:pt-BR": "Exemplo: `mayannaoliveira`"
-      }
-    ],
-    "querys": [
+        "required": true,
+        "description": "Username registered in Credly website.",
+        "description:en-US": "Username registered in Credly website.",
+        "description:pt-BR": "Nome do usuário registrado site do Credly.",
+        "moreDescription": "Example: `ashishsinghbaghel`",
+        "moreDescription:en-US": "Example: `ashishsinghbaghel`",
+        "moreDescription:pt-BR": "Exemplo: `ashishsinghbaghel`"
+      },
       {
         "name": "theme",
         "type": "string",
         "default": "default",
-        "description": "主题",
-        "description:en-US": "Theme color",
-        "description:pt-BR": "Cor do tema",
+        "description": "Theme color.",
+        "description:en-US": "Theme color.",
+        "description:pt-BR": "Cor do tema.",
         "moreDescription": "可选值：`default`, `dark` or `tokyonight`。",
         "moreDescription:en-US": "Supported: `default`, `dark` or `tokyonight`.",
         "moreDescription:pt-BR": "Suporta: `default`, `dark` or `tokyonight`."
       }
     ],
-    "uriTemplate": "https://github-readme-widgets.vercel.app/api?username={username}&theme={theme}"
+    "uriTemplate": "https://github-readme-widgets.vercel.app/api{?username,theme}"
   },
   "examples": {
     "annotate": "Certifications",
     "alt": "Credly Certifications Widget",
     "alt:en-US": "Credly Certifications Widget",
     "alt:pt-BR": "Widget com os certificados do Credly",
-    "href": "https://github-readme-widgets.vercel.app/api?username=mayannaoliveira&theme=dark",
+    "href": "https://github-readme-widgets.vercel.app/api?username=ashishsinghbaghel&theme=dark",
     "images": [
       {
         "alt": "Credly Certifications Widget",
         "alt:en-US": "Credly Certifications Widget",
         "alt:pt-BR": "Widget com os certificados do Credly",
-        "href": "https://github-readme-widgets.vercel.app/api?username=mayannaoliveira&theme=dark"
+        "href": "https://github-readme-widgets.vercel.app/api?username=ashishsinghbaghel&theme=dark"
       },
       {
         "alt": "Credly Certifications Widget",
         "alt:en-US": "Credly Certifications Widget",
         "alt:pt-BR": "Widget com os certificados do Credly",
-        "href": "https://github-readme-widgets.vercel.app/api?username=mayannaoliveira&theme=tokyonight"
+        "href": "https://github-readme-widgets.vercel.app/api?username=ashishsinghbaghel&theme=tokyonight"
       },
       {
         "alt": "Credly Certifications Widget",
         "alt:en-US": "Credly Certifications Widget",
         "alt:pt-BR": "Widget com os certificados do Credly",
-        "href": "https://github-readme-widgets.vercel.app/api?username=mayannaoliveira&theme=default"
+        "href": "https://github-readme-widgets.vercel.app/api?username=ashishsinghbaghel&theme=default"
       }
     ]
   }
