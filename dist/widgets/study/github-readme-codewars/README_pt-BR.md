@@ -33,7 +33,7 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `username` | `string` | `true` |  | Nome do usuário no Codewars |  |
+| `username` | `string` | `true` |  | Nome do usuário no Codewars | Exemplo: `ignacio-cuadra`. |
 | `theme` | `string` |  | `default` | Tema | Suporta: `default`, `light`,`dark`, `halloween`, `hacker` or `dracula`. |
 | `backgroundColor` | `number` |  | `#fffefe` | Cor de fundo do Codewars | Cor de fundo em hex, rgb ou rgba. |
 | `borderColor` | `number` |  | `#f2f0f0` | Cor da borda | Cor da borda em hex, rgb or rgba color. |
@@ -43,7 +43,7 @@
 </details>
 
 ```txt
-https://codewars-stats-ignacio-cuadra.vercel.app/{?username,theme,backgroundColor,borderColor,textColor,primaryColor}
+https://codewars-stats-ignacio-cuadra.vercel.app/{?username,theme}
 ```
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>

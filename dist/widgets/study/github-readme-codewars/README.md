@@ -33,7 +33,7 @@
 | 名称 | 类型 | 必填 | 默认值 | 参数描述 | 更多描述 |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-querys] | | | | | |
-| `username` | `string` | `true` |  | Codewars 用户名 |  |
+| `username` | `string` | `true` |  | Codewars 用户名 | Example: `ignacio-cuadra`. |
 | `theme` | `string` |  | `default` | 主题 | 支持: `default`, `light`,`dark`, `halloween`, `hacker` or `dracula`。 |
 | `backgroundColor` | `number` |  | `#fffefe` | 背景颜色 | 背景颜色为十六进制、RGB 或 RGBA 值。 |
 | `borderColor` | `number` |  | `#f2f0f0` | 边框颜色 | 边框颜色为十六进制、RGB 或 RGBA 值。 |
@@ -43,7 +43,7 @@
 </details>
 
 ```txt
-https://codewars-stats-ignacio-cuadra.vercel.app/{?username,theme,backgroundColor,borderColor,textColor,primaryColor}
+https://codewars-stats-ignacio-cuadra.vercel.app/{?username,theme}
 ```
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
