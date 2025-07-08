@@ -33,42 +33,60 @@
 
 | Name | Type | Required | Default | Description | More Description |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
-| ![ref-params] | | | | | |
-| `username` | `string` | `true` |  | Username registered in Credly website | Example: `mayannaoliveira` |
 | ![ref-querys] | | | | | |
-| `theme` | `string` |  | `default` | Theme color | Supported: `default`, `transparent`, `dark`, `highcontrast`, `catppuccin-latte`, `catppuccin-frappe`, `catppuccin-macchiato`, `catppuccin-mocha`, `vue`, `vue-dark`, `github_dark`, `github_dark_highcontrast`, `github_dark_dimmed`, `github_dark_tritanopia`, `github_light`, `github_light_highcontrast`, `github_light_tritanopia`, `whatsapp-light`, `whatsapp-dark`, `buefy`, `buefy-dark`, `solarized-light`, `solarized-dark`, `vision-friendly-dark`, `deuteranopia-friendly-dark`, `garden`, `shadow_red`, `shadow_green`, `shadow_blue`, `shadow_orange`, `shadow_purple`, `shadow_brown`, `gruvbox`, `gruvbox_light`, `apprentice`, `radical`, `tokyonight`, `shades-of-purple`, `ayu`, `ayu-light`, `ayu-mirage`, `merko`, `carbonfox`, `dawnfox`, `dayfox`, `duskfox`, `nightfox`, `nordfox`, `terafox`, `humoris`, `iceberg`, `laederon`, `zenburn`, `bluloco`, `bluloco-dark`, `aura`, `lava-light`, `lava-dark`, `neon`, `neon-dark`, `neon-palenight`, `neon-blurange`, `kacho_ga`, `kanagawa`, `kanagawa_light`, `space`, `space_light`, `lavender_breeze`, `lavender_dream`, `sunset-gradient`, `ocean-gradient`, `ambient-gradient`, `siny-gradient`, `purple-gradient`, `monochrome-light-gradient`, `monochrome-dark-gradient`, `endless-gradient` or `twitch-gradient`. |
-| `locate` | `string` |  | `English` | Locate (language) | Supported: `en`, `ar`, `fr`, `id`, `ja` or `ko`. |
+| `username` | `string` | `true` |  | Username registered in GitHub. | Example: `FajarKim`. |
+| `title_color` | `string` |  | `2f80ed` | Card's title color | Format: `HEX` e.g. `FF0000`. |
+| `text_color` | `string` |  | `434d58` | Body text color | Format: `HEX` e.g. `FF0000`. |
+| `icon_color` | `string` |  | `4c71f2` | Icons color | Format: `HEX` e.g. `FF0000`. |
+| `border_color` | `string` |  | `e4e2e2` | Card's border color | Format: `HEX` e.g. `FF0000`.Does not apply when `hide_border` is enabled. |
+| `bg_color` | `string` |  | `fffefe` | Card's background color. | Format: `HEX`, `gradient(angle,start,end)` e.g. `FF0000`, `30,E96443,904E95`. |
+| `stroke_color` | `string` |  | `e4e2e2` | Profile image border color | Format: `HEX` e.g. `FF0000`. Does not apply when `hide_stroke` is enabled. |
+| `username_color` | `string` |  | `434d58` | Username text color | Format: `HEX` e.g. `FF0000`. |
+| `theme` | `string` |  | `default` | Name of the theme, choose from [all available themes](https://github.com/FajarKim/github-readme-profile/tree/master/themes) | Supported: `default`, `transparent`, `dark` or `highcontrast`. |
+| `title` | `string` |  |  | Custom title text for the card | Before use, encode the text to URL format using a tool like [URL Encoder](https://www.urlencoder.org/). |
+| `locate` | `string` |  | `en` | Locate (language) | Supported: `en`, `ar`, `fr`, `id`, `ja` or `ko`. |
+| `border_width` | `number` |  | `1` | Sets the border's width manually |  |
+| `border_radius` | `number` |  | `4.5` | Corner rounding on the card |  |
+| `hide` | `string` |  |  | Hides the [specified items](https://github.com/FajarKim/github-readme-profile#hiding-individual-stats) from stats | Example: `&hide=repos,stars,forks,commits,prs,prs_merged,issues,contributed`. |
+| `show` | `string` |  |  | Shows [additional items](https://github.com/FajarKim/github-readme-profile?tab=readme-ov-file#showing-additional-individual-stats) on stats card | Example: `&show=reviews,issues_closed,discussions_started,discussions_answered`. |
+| `format` | `string` |  | `svg` | 输出格式卡片选项 | Supported: `svg`, `png`, `json`, or `xml`. |
+| `disabled_animations` | `boolean` |  | `false` | Disables all animations in the card | Supported:`false` or `true`. |
+| `hide_border` | `string` |  | `false` | Hides the card's border | Supported: `false` or `true`. |
+| `hide_stroke` | `boolean` |  | `false` | Hides the image's profile stroke in the card | Supported: `false` or `true`. |
+| `revert` | `boolean` |  | `false` | Inverts the display order, positioning stats to the left and the image to the right. | Supported: `false` or `true`. |
+| `photo_quality` | `number` |  | `15` | Quality of the profile image | Repesentada pela porcentagem (1-100). |
+| `photo_resize` | `number` |  | `150` | Resize the profile image to a specific width | In pixels. Minimum allowed value is 10px. |
 
 </details>
 
 ```txt
-https://gh-readme-profile.vercel.app/api?username={username}&theme={theme}
+https://gh-readme-profile.vercel.app/api{?username,title_color,text_color,icon_color,border_color,bg_color,stroke_color,username_color,theme,title,locate,border_width,border_radius,hide,show,format,disabled_animations,hide_border,hide_stroke,revert,photo_quality,photo_resize}
 ```
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 
 ### Examples
 
-#### Large card
+#### Card in Portuguese
 
 ```markdown
-<!-- crizmo -->
-![Discord Cards](https://discord-cards.onrender.com/api/card/784141856426033233?about=Exploring)
+<!-- FajarKim GitHub Readme Profile -->
+![GitHub Readme Profile](https://gh-readme-profile.vercel.app/api?username=FajarKim&theme=iceberg&locale=pt-BR&hide=forks,prs&show=reviews,issues_closed,discussions_started,discussions_answered)
 ```
 
 <div>
-  <img src="https://discord-cards.onrender.com/api/card/784141856426033233?about=Exploring" alt="Discord Cards" />
+  <img src="https://gh-readme-profile.vercel.app/api?username=FajarKim&#38;theme=iceberg&#38;locale=pt-BR&#38;hide=forks,prs&#38;show=reviews,issues_closed,discussions_started,discussions_answered" alt="GitHub Readme Profile" />
 </div>
 
-#### Compact card
+#### Card in English
 
 ```markdown
-<!-- crizmo -->
-![Discord Cards](https://discord-cards.onrender.com/api/compact/784141856426033233?about=Exploring)
+<!-- FajarKim GitHub Readme Profile -->
+![GitHub Readme Profile](https://gh-readme-profile.vercel.app/api?username=FajarKim&theme=duskfox&hide=commits,prs,prs_merged,issues,contributed)
 ```
 
 <div>
-  <img src="https://discord-cards.onrender.com/api/compact/784141856426033233?about=Exploring" alt="Discord Cards" />
+  <img src="https://gh-readme-profile.vercel.app/api?username=FajarKim&#38;theme=duskfox&#38;hide=commits,prs,prs_merged,issues,contributed" alt="GitHub Readme Profile" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
@@ -76,8 +94,6 @@ https://gh-readme-profile.vercel.app/api?username={username}&theme={theme}
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">
 </div>
-
-[ref-params]: https://img.shields.io/badge/Path%20Params-526E86
 
 [ref-querys]: https://img.shields.io/badge/Query%20Params-526E86
 

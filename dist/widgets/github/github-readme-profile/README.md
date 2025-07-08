@@ -20,7 +20,7 @@
 
 ## GitHub Readme Profile
 
-**Generate your Stats GitHub Profile in SVG.**
+**生成你的 SVG 格式 GitHub 统计个人资料。**
 
 [![ref-repo]](https://github.com/FajarKim/github-readme-profile)
 [![ref-online-tool]](https://gh-readme-profile-generator.vercel.app/)
@@ -33,42 +33,60 @@
 
 | 名称 | 类型 | 必填 | 默认值 | 参数描述 | 更多描述 |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
-| ![ref-params] | | | | | |
-| `username` | `string` | `true` |  | Username registered in Credly website | Example: `mayannaoliveira` |
 | ![ref-querys] | | | | | |
-| `theme` | `string` |  | `default` | 主题 | Supported: `default`, `default`, `transparent`, `dark`, `highcontrast`, `catppuccin-latte`, `catppuccin-frappe`, `catppuccin-macchiato`, `catppuccin-mocha`, `vue`, `vue-dark`, `github_dark`, `github_dark_highcontrast`, `github_dark_dimmed`, `github_dark_tritanopia`, `github_light`, `github_light_highcontrast`, `github_light_tritanopia`, `whatsapp-light`, `whatsapp-dark`, `buefy`, `buefy-dark`, `solarized-light`, `solarized-dark`, `vision-friendly-dark`, `deuteranopia-friendly-dark`, `garden`, `shadow_red`, `shadow_green`, `shadow_blue`, `shadow_orange`, `shadow_purple`, `shadow_brown`, `gruvbox`, `gruvbox_light`, `apprentice`, `radical`, `tokyonight`, `shades-of-purple`, `ayu`, `ayu-light`, `ayu-mirage`, `merko`, `carbonfox`, `dawnfox`, `dayfox`, `duskfox`, `nightfox`, `nordfox`, `terafox`, `humoris`, `iceberg`, `laederon`, `zenburn`, `bluloco`, `bluloco-dark`, `aura`, `lava-light`, `lava-dark`, `neon`, `neon-dark`, `neon-palenight`, `neon-blurange`, `kacho_ga`, `kanagawa`, `kanagawa_light`, `space`, `space_light`, `lavender_breeze`, `lavender_dream`, `sunset-gradient`, `ocean-gradient`, `ambient-gradient`, `siny-gradient`, `purple-gradient`, `monochrome-light-gradient`, `monochrome-dark-gradient`, `endless-gradient` or `twitch-gradient`。 |
-| `locate` | `string` |  | `English` | Locate (language) | Supported:`en`, `ar`, `fr`, `id`, `ja` or `ko`。 |
+| `username` | `string` | `true` |  | 用户名 | Example: `FajarKim`. |
+| `title_color` | `string` |  | `2f80ed` | 卡片标题颜色 | 格式：`HEX` 例如：`FF0000`。 |
+| `text_color` | `string` |  | `434d58` | 正文颜色 | 格式：`HEX` 例如：`FF0000`。 |
+| `icon_color` | `string` |  | `4c71f2` | 图标颜色 | 格式：`HEX` 例如：`FF0000`。 |
+| `border_color` | `string` |  | `e4e2e2` | 卡片颜色 | 格式：`HEX` 例如：`FF0000`。当启用 `hide_border` 时不适用。 |
+| `bg_color` | `string` |  | `fffefe` | Card's background color. | 格式：`HEX`, `gradient(angle,start,end)` 例如：`FF0000`, `30,E96443,904E95`。 |
+| `stroke_color` | `string` |  | `e4e2e2` | 头像边框颜色 | 格式：`HEX` 例如：`FF0000`。当 `hide_stroke` 开启时不适用。 |
+| `username_color` | `string` |  | `434d58` | 用户名颜色 | 格式：`HEX` 例如：`FF0000`。 |
+| `theme` | `string` |  | `default` | 主题 [全部可用主题](https://github.com/FajarKim/github-readme-profile/tree/master/themes) | 可选值：`default`,, `transparent`, `dark` or `highcontrast`。 |
+| `title` | `string` |  |  | 卡片的自定义标题文本 | 使用前，请使用 [URL Encoder](https://www.urlencoder.org/) 等工具将文本编码为 URL 格式。 |
+| `locate` | `string` |  | `en` | 语言 | 可选值：`en`, `ar`, `fr`, `id`, `ja` or `ko`。 |
+| `border_width` | `number` |  | `1` | 手动设置边框的宽度 |  |
+| `border_radius` | `number` |  | `4.5` | 卡片的圆角处理 |  |
+| `hide` | `string` |  |  | 隐藏指定的 [统计项](https://github.com/FajarKim/github-readme-profile#hiding-individual-stats) | 示例：`&hide=repos,stars,forks,commits,prs,prs_merged,issues,contributed`. |
+| `show` | `string` |  |  | 显示额外的 [统计项](https://github.com/FajarKim/github-readme-profile?tab=readme-ov-file#showing-additional-individual-stats) | 示例：`&show=reviews,issues_closed,discussions_started,discussions_answered`. |
+| `format` | `string` |  | `svg` | 输出格式卡片选项 | 可选值：`svg`, `png`, `json`, or `xml`。 |
+| `disabled_animations` | `boolean` |  | `false` | 禁用卡片中的所有动画效果 | 可选值：`false` or `true`。 |
+| `hide_border` | `string` |  | `false` | 隐藏卡片边框 | 可选值：`false` or `true`。 |
+| `hide_stroke` | `boolean` |  | `false` | 隐藏卡片中图像的轮廓 | 可选值：`false` or `true`。 |
+| `revert` | `boolean` |  | `false` | 反转显示顺序，将统计信息置于左侧，图片置于右侧。 | 可选值：`false` or `true`。 |
+| `photo_quality` | `number` |  | `15` | 个人资料图片的质量 | 以百分比表示（1-100）。 |
+| `photo_resize` | `number` |  | `150` | 将个人资料图片调整为特定宽度 | 以像素为单位。允许的最小值为 10px |
 
 </details>
 
 ```txt
-https://gh-readme-profile.vercel.app/api?username={username}&theme={theme}
+https://gh-readme-profile.vercel.app/api{?username,title_color,text_color,icon_color,border_color,bg_color,stroke_color,username_color,theme,title,locate,border_width,border_radius,hide,show,format,disabled_animations,hide_border,hide_stroke,revert,photo_quality,photo_resize}
 ```
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 
 ### 示例
 
-#### GitHub Certifications Widget
+#### 葡萄牙语卡片
 
 ```markdown
-<!-- crizmo -->
-![Discord 卡片](https://discord-cards.onrender.com/api/card/784141856426033233?about=Exploring)
+<!-- FajarKim GitHub Readme Profile -->
+![GitHub Readme Profile](https://gh-readme-profile.vercel.app/api?username=FajarKim&theme=iceberg&locale=pt-BR&hide=forks,prs&show=reviews,issues_closed,discussions_started,discussions_answered)
 ```
 
 <div>
-  <img src="https://discord-cards.onrender.com/api/card/784141856426033233?about=Exploring" alt="Discord 卡片" />
+  <img src="https://gh-readme-profile.vercel.app/api?username=FajarKim&#38;theme=iceberg&#38;locale=pt-BR&#38;hide=forks,prs&#38;show=reviews,issues_closed,discussions_started,discussions_answered" alt="GitHub Readme Profile" />
 </div>
 
-#### GitHub Certifications Widget
+#### 英语卡片
 
 ```markdown
-<!-- crizmo -->
-![Discord 卡片](https://discord-cards.onrender.com/api/compact/784141856426033233?about=Exploring)
+<!-- FajarKim GitHub Readme Profile -->
+![GitHub Readme Profile](https://gh-readme-profile.vercel.app/api?username=FajarKim&theme=duskfox&hide=commits,prs,prs_merged,issues,contributed)
 ```
 
 <div>
-  <img src="https://discord-cards.onrender.com/api/compact/784141856426033233?about=Exploring" alt="GitHub Certifications Widget" />
+  <img src="https://gh-readme-profile.vercel.app/api?username=FajarKim&#38;theme=duskfox&#38;hide=commits,prs,prs_merged,issues,contributed" alt="GitHub Readme Profile" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
@@ -76,8 +94,6 @@ https://gh-readme-profile.vercel.app/api?username={username}&theme={theme}
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">
 </div>
-
-[ref-params]: https://img.shields.io/badge/路径参数-526E86
 
 [ref-querys]: https://img.shields.io/badge/查询参数-526E86
 

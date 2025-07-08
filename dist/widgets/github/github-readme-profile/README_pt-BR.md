@@ -18,7 +18,7 @@
   <br/>
 </div>
 
-## GitHub Readme Profile
+## Perfil Readme do GitHub (GitHub Readme Profile)
 
 **Exiba suas estatísticas do perfil do GitHub em SVG.**
 
@@ -33,42 +33,60 @@
 
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
-| ![ref-params] | | | | | |
-| `username` | `string` | `true` |  | Nome do usuário registrado site do Credly | Exemplo: `mayannaoliveira` |
 | ![ref-querys] | | | | | |
-| `theme` | `string` |  | `default` | Cor do tema | Suporta: `default`, `transparent`, `dark`, `highcontrast`, `catppuccin-latte`, `catppuccin-frappe`, `catppuccin-macchiato`, `catppuccin-mocha`, `vue`, `vue-dark`, `github_dark`, `github_dark_highcontrast`, `github_dark_dimmed`, `github_dark_tritanopia`, `github_light`, `github_light_highcontrast`, `github_light_tritanopia`, `whatsapp-light`, `whatsapp-dark`, `buefy`, `buefy-dark`, `solarized-light`, `solarized-dark`, `vision-friendly-dark`, `deuteranopia-friendly-dark`, `garden`, `shadow_red`, `shadow_green`, `shadow_blue`, `shadow_orange`, `shadow_purple`, `shadow_brown`, `gruvbox`, `gruvbox_light`, `apprentice`, `radical`, `tokyonight`, `shades-of-purple`, `ayu`, `ayu-light`, `ayu-mirage`, `merko`, `carbonfox`, `dawnfox`, `dayfox`, `duskfox`, `nightfox`, `nordfox`, `terafox`, `humoris`, `iceberg`, `laederon`, `zenburn`, `bluloco`, `bluloco-dark`, `aura`, `lava-light`, `lava-dark`, `neon`, `neon-dark`, `neon-palenight`, `neon-blurange`, `kacho_ga`, `kanagawa`, `kanagawa_light`, `space`, `space_light`, `lavender_breeze`, `lavender_dream`, `sunset-gradient`, `ocean-gradient`, `ambient-gradient`, `siny-gradient`, `purple-gradient`, `monochrome-light-gradient`, `monochrome-dark-gradient`, `endless-gradient` or `twitch-gradient`. |
-| `locate` | `string` |  | `English` | Idioma | Suporta: `en`, `ar`, `fr`, `id`, `ja` or `ko`. |
+| `username` | `string` | `true` |  | Nome do usuário registrado no GitHub. | Exemplo: `FajarKim`. |
+| `title_color` | `string` |  | `2f80ed` | Cor do título no | Formato: `HEX` ex. `FF0000`. |
+| `text_color` | `string` |  | `434d58` | Cor do texto no corpo do cartão | Formato: `HEX` ex. `FF0000`. |
+| `icon_color` | `string` |  | `4c71f2` | Cor do ícones | Formato: `HEX` ex. `FF0000`. |
+| `border_color` | `string` |  | `e4e2e2` | Cor da borda do cartão | Formato: `HEX` ex. `FF0000`. Não se aplica quando o `hide_border` está habilitado. |
+| `bg_color` | `string` |  | `fffefe` | Cor de fundo do cartão. | Formato: `HEX`, `gradient(angle,start,end)` ex. `FF0000`, `30,E96443,904E95`. |
+| `stroke_color` | `string` |  | `e4e2e2` | Cor da borda na imagem do perfil | Formato: `HEX` ex. `FF0000`. Não se aplica quando `hide_stroke` está habilitado. |
+| `username_color` | `string` |  | `434d58` | Cor do texto do nome do usuário | Formato: `HEX` ex. `FF0000`. |
+| `theme` | `string` |  | `default` | Nome do teme, escolher um da lista com [todos os temas disponíveis](https://github.com/FajarKim/github-readme-profile/tree/master/themes) | Suporta: `default`, `transparent`, `dark` or `highcontrast`. |
+| `title` | `string` |  |  | Custom title text for the card | Before use, encode the text to URL format using a tool like [URL Encoder](https://www.urlencoder.org/). |
+| `locate` | `string` |  | `en` | Idioma | Suporta: `en`, `ar`, `fr`, `id`, `ja` or `ko`. |
+| `border_width` | `number` |  | `1` | Alterar a largura da borda manualmente |  |
+| `border_radius` | `number` |  | `4.5` | Corner rounding on the card |  |
+| `hide` | `string` |  |  | Ocultar os [itens específicos](https://github.com/FajarKim/github-readme-profile#hiding-individual-stats) from stats | Exemplo: `&hide=repos,stars,forks,commits,prs,prs_merged,issues,contributed`. |
+| `show` | `string` |  |  | Mostra [adicionais itens](https://github.com/FajarKim/github-readme-profile?tab=readme-ov-file#showing-additional-individual-stats) no cartão de estatísticas | Exemplo: `&show=reviews,issues_closed,discussions_started,discussions_answered`. |
+| `format` | `string` |  | `svg` | Formato de saída do cartão, opções | Suporta: `svg`, `png`, `json`, or `xml`. |
+| `disabled_animations` | `boolean` |  | `false` | Desativa todas as animações no cartão | Suporta:`false` or `true`. |
+| `hide_border` | `string` |  | `false` | Esconde a borda do cartão | Suporta: `false` or `true`. |
+| `hide_stroke` | `boolean` |  | `false` | Oculta a linha do perfil na imagem do cartão | Suporta: `false` or `true`. |
+| `revert` | `boolean` |  | `false` | Inverte a ordem de exibição, posicionando as estatísticas à esquerda e a imagem à direita. | Suporta: `false` or `true`. |
+| `photo_quality` | `number` |  | `15` | Qualidade da imagem do perfil | Repesentada pela porcentagem (1-100). |
+| `photo_resize` | `number` |  | `150` | Alterar o tamanho da imagem do perfil com a largura | Em pixels, Menor valor permitido é 10px. |
 
 </details>
 
 ```txt
-https://gh-readme-profile.vercel.app/api?username={username}&theme={theme}
+https://gh-readme-profile.vercel.app/api{?username,title_color,text_color,icon_color,border_color,bg_color,stroke_color,username_color,theme,title,locate,border_width,border_radius,hide,show,format,disabled_animations,hide_border,hide_stroke,revert,photo_quality,photo_resize}
 ```
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
 
 ### Exemplos
 
-#### Cartão grande
+#### Cartão em Português
 
 ```markdown
-<!-- crizmo -->
-![Cartões do Discord](https://discord-cards.onrender.com/api/card/784141856426033233?about=Exploring)
+<!-- FajarKim GitHub Readme Profile -->
+![Cartão do GitHub Readme Profile](https://gh-readme-profile.vercel.app/api?username=FajarKim&theme=iceberg&locale=pt-BR&hide=forks,prs&show=reviews,issues_closed,discussions_started,discussions_answered)
 ```
 
 <div>
-  <img src="https://discord-cards.onrender.com/api/card/784141856426033233?about=Exploring" alt="Cartões do Discord" />
+  <img src="https://gh-readme-profile.vercel.app/api?username=FajarKim&#38;theme=iceberg&#38;locale=pt-BR&#38;hide=forks,prs&#38;show=reviews,issues_closed,discussions_started,discussions_answered" alt="Cartão do GitHub Readme Profile" />
 </div>
 
-#### Cartão compacto
+#### Cartão em Inglês
 
 ```markdown
-<!-- crizmo -->
-![Cartões do Discord](https://discord-cards.onrender.com/api/compact/784141856426033233?about=Exploring)
+<!-- FajarKim GitHub Readme Profile -->
+![Cartão do GitHub Readme Profile](https://gh-readme-profile.vercel.app/api?username=FajarKim&theme=duskfox&hide=commits,prs,prs_merged,issues,contributed)
 ```
 
 <div>
-  <img src="https://discord-cards.onrender.com/api/compact/784141856426033233?about=Exploring" alt="Cartões do Discord" />
+  <img src="https://gh-readme-profile.vercel.app/api?username=FajarKim&#38;theme=duskfox&#38;hide=commits,prs,prs_merged,issues,contributed" alt="Cartão do GitHub Readme Profile" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
@@ -76,8 +94,6 @@ https://gh-readme-profile.vercel.app/api?username={username}&theme={theme}
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4D908E&height=100&section=footer">
 </div>
-
-[ref-params]: https://img.shields.io/badge/Caminho%20dos%20Parâmetros-526E86
 
 [ref-querys]: https://img.shields.io/badge/Parâmetros%20de%20Consulta-526E86
 

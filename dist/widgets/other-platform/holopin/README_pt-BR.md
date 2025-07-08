@@ -22,9 +22,7 @@
 
 **Holopin é um jeito de exibir seus emblemas digitais de forma divertida.**
 
-[![ref-repo]](https://github.com/vinitshahdeo/holopin-readme-badge)
-[![ref-online-tool]](https://www.holopin.io/)
-[![ref-official-doc]](https://www.holopin.io/faq)
+[![ref-repo]](https://www.holopin.io/)
 
 ### Parâmetros
 
@@ -34,7 +32,7 @@
 | Nome | Tipo | Obrigatório | Padrão | Descrição | Mais Observações |
 | -------------------- | -------------------- | ------------------------ | ----------------------- | --------------------------- | ------------------------------- |
 | ![ref-params] | | | | | |
-| `username` | `string` | `true` |  | Nome do usuário reguistrado no Holopin.io | Exemplo: `mayannaoliveira` |
+| `username` | `string` | `true` |  | Nome do usuário reguistrado no Holopin.io | Exemplo: `vinitshahdeo` |
 
 </details>
 
@@ -47,12 +45,12 @@ https://holopin.me/{username}
 ### Exemplos
 
 ```markdown
-<!-- An image of @mayannaoliveira Holopin badges -->
-![Quadro de Emblemas do Holopin](https://holopin.me/mayannaoliveira)
+<!-- 一张 @vinitshahdeo 的 Holopin 徽章图片 -->
+![Quadro de Emblemas do Holopin](https://holopin.me/vinitshahdeo)
 ```
 
 <div>
-  <img src="https://holopin.me/mayannaoliveira" alt="Quadro de Emblemas do Holopin" />
+  <img src="https://holopin.me/vinitshahdeo" alt="Quadro de Emblemas do Holopin" />
 </div>
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Voltar%20ao%20topo%20da%20página-555555?style=for-the-badge"></a></p>
@@ -66,7 +64,3 @@ https://holopin.me/{username}
 [ref-actions]: https://img.shields.io/badge/Parâmetros%20de%20Ação-526E86
 
 [ref-repo]: https://img.shields.io/badge/Repositório-555555?style=for-the-badge&logo=github
-
-[ref-online-tool]: https://img.shields.io/badge/Ferramentas%20Online-F94144?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpb25pY29uIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHBhdGggZD0iTTIwOCAzNTJoLTY0YTk2IDk2IDAgMDEwLTE5Mmg2NE0zMDQgMTYwaDY0YTk2IDk2IDAgMDEwIDE5MmgtNjRNMTYzLjI5IDI1NmgxODcuNDIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjM2Ii8+PC9zdmc+
-
-[ref-official-doc]: https://img.shields.io/badge/Documentação%20Oficial-277DA1?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpb25pY29uIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHBhdGggZD0iTTI1NiAxNjBjMTYtNjMuMTYgNzYuNDMtOTUuNDEgMjA4LTk2YTE1Ljk0IDE1Ljk0IDAgMDExNiAxNnYyODhhMTYgMTYgMCAwMS0xNiAxNmMtMTI4IDAtMTc3LjQ1IDI1LjgxLTIwOCA2NC0zMC4zNy0zOC04MC02NC0yMDgtNjQtOS44OCAwLTE2LTguMDUtMTYtMTcuOTNWODBhMTUuOTQgMTUuOTQgMCAwMTE2LTE2YzEzMS41Ny41OSAxOTIgMzIuODQgMjA4IDk2ek0yNTYgMTYwdjI4OCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMzIiLz48L3N2Zz4=

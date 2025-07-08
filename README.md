@@ -13,7 +13,7 @@
     <a href="https://github.com/xiaohuohumax/readme-widget-hub/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/readme-widget-hub" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/readme-widget-hub" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Freadme-widget-hub&countColor=%2337D67A&style=flat&labelStyle=lower" /></a>
-    <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/badge/badges-75-37D67A?labelColor=555555" /></a>
+    <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/badge/badges-82-37D67A?labelColor=555555" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/github/stars/xiaohuohumax/readme-widget-hub" /></a>
   </div>
   <div>
@@ -44,6 +44,7 @@
   * [Discord README Badge](dist/widgets/discord/discord-readme-badge/README.md)
   * [Lanyard Profile Readme](dist/widgets/discord/lanyard-profile-readme/README.md)
 * 娱乐
+  * [Chess.com Stats SVG Generator](dist/widgets/fun/chesscom-stats-svg/README.md)
   * [Genshin Card](dist/widgets/fun/genshin-card/README.md)
   * [Git Animals](dist/widgets/fun/gitanimals/README.md)
   * [Github Readme Steam Card](dist/widgets/fun/github-readme-steam-card/README.md)
@@ -51,12 +52,14 @@
 * Github
   * [Contributors Img](dist/widgets/github/contributors-img/README.md)
   * [GitHub Gists Readme](dist/widgets/github/gists-readme/README.md)
+  * [Git Streak Tracker](dist/widgets/github/git-streak-tracker/README.md)
   * [GitHub Achievements](dist/widgets/github/gitHub-achievements/README.md)
   * [Github Contribution Stats](dist/widgets/github/github-contribution-stats/README.md)
   * [Github Immortality](dist/widgets/github/github-immortality/README.md)
   * [GitHub Profile Summary Cards](dist/widgets/github/github-profile-summary-cards/README.md)
   * [GitHub Profile Trophy](dist/widgets/github/github-profile-trophy/README.md)
   * [Github Readme Activity Graph](dist/widgets/github/github-readme-activity-graph/README.md)
+  * [GitHub Readme Profile](dist/widgets/github/github-readme-profile/README.md)
   * [Github Readme Streak Stats](dist/widgets/github/github-readme-streak-stats/README.md)
   * [Github Stats Card](dist/widgets/github/github-stats-card/README.md)
   * [Github Stats](dist/widgets/github/github-stats/README.md)
@@ -76,8 +79,12 @@
   * [Data Card for Spotify](dist/widgets/music/spotify-data-card/README.md)
   * [Spotify Recently Played README](dist/widgets/music/spotify-recently-played-readme/README.md)
 * 其他平台
+  * [Github Stackoverflow Readme](dist/widgets/other-platform/github-readme-stackoverflow/README.md)
+  * [Credly GitHub Readme Widgets](dist/widgets/other-platform/github-readme-widgets/README.md)
   * [GitHub Readme YouTube Cards](dist/widgets/other-platform/github-readme-youtube-cards/README.md)
   * [GitHub Twitter Card Embed](dist/widgets/other-platform/github-twitter-card-embed/README.md)
+  * [Holopin Badge Board](dist/widgets/other-platform/holopin/README.md)
+  * [StackOverflow GitHub README Generator](dist/widgets/other-platform/stackoverflow-readme-generator/README.md)
   * [Stackoverflow Readme Profile](dist/widgets/other-platform/stackoverflow-readme-profile/README.md)
   * [Stats Cards](dist/widgets/other-platform/stats-cards/README.md)
 * 名言引用

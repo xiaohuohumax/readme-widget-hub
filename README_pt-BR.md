@@ -13,7 +13,7 @@
     <a href="https://github.com/xiaohuohumax/readme-widget-hub/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/readme-widget-hub" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/readme-widget-hub" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Freadme-widget-hub&countColor=%2337D67A&style=flat&labelStyle=lower" /></a>
-    <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/badge/badges-75-37D67A?labelColor=555555" /></a>
+    <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/badge/badges-82-37D67A?labelColor=555555" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/github/stars/xiaohuohumax/readme-widget-hub" /></a>
   </div>
   <div>
@@ -44,6 +44,7 @@
   * [Emblema do Discord no README (Discord README Badge)](dist/widgets/discord/discord-readme-badge/README_pt-BR.md)
   * [Lanyard Profile Readme](dist/widgets/discord/lanyard-profile-readme/README_pt-BR.md)
 * Divertidos
+  * [Chess.com Stats SVG Generator](dist/widgets/fun/chesscom-stats-svg/README_pt-BR.md)
   * [Cartão do Jogo Genshin (Genshin Card)](dist/widgets/fun/genshin-card/README_pt-BR.md)
   * [Git Animals](dist/widgets/fun/gitanimals/README_pt-BR.md)
   * [Cartão do Steam no Readme do GitHub (Github Readme Steam Card)](dist/widgets/fun/github-readme-steam-card/README_pt-BR.md)
@@ -51,12 +52,14 @@
 * Github
   * [Imagem dos Colaboradores (Contributors Img)](dist/widgets/github/contributors-img/README_pt-BR.md)
   * [Gists no Readme do GitHub (GitHub Gists Readme)](dist/widgets/github/gists-readme/README_pt-BR.md)
+  * [Rastreador de Frequências no Git (Git Streak Tracker)](dist/widgets/github/git-streak-tracker/README_pt-BR.md)
   * [Conquistas do GitHub (GitHub Achievements)](dist/widgets/github/gitHub-achievements/README_pt-BR.md)
   * [Estatísticas de Contribuição do Github (Github Contribution Stats)](dist/widgets/github/github-contribution-stats/README_pt-BR.md)
   * [Github Immortality](dist/widgets/github/github-immortality/README_pt-BR.md)
   * [Cartões de Resumo de Perfil do GitHub (GitHub Profile Summary Cards)](dist/widgets/github/github-profile-summary-cards/README_pt-BR.md)
   * [Troféus no Perfil do GitHub (GitHub Profile Trophy)](dist/widgets/github/github-profile-trophy/README_pt-BR.md)
   * [Gráfico de Atividade no Readme do Github (Github Readme Activity Graph)](dist/widgets/github/github-readme-activity-graph/README_pt-BR.md)
+  * [Perfil Readme do GitHub (GitHub Readme Profile)](dist/widgets/github/github-readme-profile/README_pt-BR.md)
   * [Github Readme Streak Stats](dist/widgets/github/github-readme-streak-stats/README_pt-BR.md)
   * [Cartão de Estatísticas do Github (Github Stats Card)](dist/widgets/github/github-stats-card/README_pt-BR.md)
   * [Estatísticas do GitHub (Github Stats)](dist/widgets/github/github-stats/README_pt-BR.md)
@@ -76,8 +79,12 @@
   * [Cartão com os Dados do Spotify (Data Card for Spotify)](dist/widgets/music/spotify-data-card/README_pt-BR.md)
   * [Últimas músicas escutadas no Spotify (Spotify Recently Played README)](dist/widgets/music/spotify-recently-played-readme/README_pt-BR.md)
 * Outras Plataformas
+  * [Github Stackoverflow Readme](dist/widgets/other-platform/github-readme-stackoverflow/README_pt-BR.md)
+  * [Credly GitHub Readme Widgets](dist/widgets/other-platform/github-readme-widgets/README_pt-BR.md)
   * [Cartões do YouTube no Readme do GitHub (GitHub Readme YouTube Cards)](dist/widgets/other-platform/github-readme-youtube-cards/README_pt-BR.md)
   * [Cartão do Twitter Incorporado no GitHub (GitHub Twitter Card Embed)](dist/widgets/other-platform/github-twitter-card-embed/README_pt-BR.md)
+  * [Quadro de Emblemas do Holopin](dist/widgets/other-platform/holopin/README_pt-BR.md)
+  * [StackOverflow GitHub README Generator](dist/widgets/other-platform/stackoverflow-readme-generator/README_pt-BR.md)
   * [Stackoverflow no Perfil Readme (Stackoverflow Readme Profile)](dist/widgets/other-platform/stackoverflow-readme-profile/README_pt-BR.md)
   * [Cartões de Estatísticas (Stats Cards)](dist/widgets/other-platform/stats-cards/README_pt-BR.md)
 * Citações
