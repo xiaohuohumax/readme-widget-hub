@@ -1,0 +1,254 @@
+enabled: false
+title: Readme Credly Badges
+title:pt-BR: Readme Credly Badges
+description: A GitHub Action that automatically updates your `README.md` (or any markdown file) with your [Credly](https://www.credly.com/) badge details, no manual edits required!
+description:en-US: A GitHub Action that automatically updates your `README.md` (or any markdown file) with your [Credly](https://www.credly.com/) badge details, no manual edits required!
+description:pt-BR: Uma ação do GitHub que atualiza automaticamente seu `README.md` (ou qualquer arquivo markdown) com os detalhes do seus emblemas [Credly](https://www.credly.com/), sem necessidade de edições manuais!
+tag:
+  repo: https://github.com/jd-35656/readme-credly-badges/
+  onlineTool: https://www.credly.com/
+  officialDoc: https://github.com/jd-35656/readme-credly-badges/
+  dependentAction: true
+usage: |
+  1. In the repository, create a `.github/workflows/` directory.
+  2. Add `update-badges.yaml` file with the following content:
+
+  ```yaml
+  name: Update Credly Badges
+
+  on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at 00:00 UTC
+  workflow_dispatch: # Optional: allows manual trigger
+
+  permissions:
+  contents: write # Required if using the default GITHUB_TOKEN
+
+  jobs:
+  update-readme:
+    name: Update README with Credly Badges
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Update Badges in README
+        uses: jd-35656/readme-credly-badges@v1
+        with:
+          credly_username: 'your-credly-username'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+  ```
+
+  3. In your repository, create or edit the `README.md` file to include:
+
+  ```markdown
+  ## Credly Badges
+  <!-- START CREDLY BADGES -->
+  <!-- END CREDLY BADGES -->
+  ```
+
+usage:en-US: |
+  1. In the repository, create a `.github/workflows/` directory.
+  2. Add `update-badges.yaml` file with the following content:
+
+  ```yaml
+  name: Update Credly Badges
+
+  on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at 00:00 UTC
+  workflow_dispatch: # Optional: allows manual trigger
+
+  permissions:
+  contents: write # Required if using the default GITHUB_TOKEN
+
+  jobs:
+  update-readme:
+    name: Update README with Credly Badges
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Update Badges in README
+        uses: jd-35656/readme-credly-badges@v1
+        with:
+          credly_username: 'your-credly-username'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+  ```
+
+  3. In your repository, create or edit the `README.md` file to include:
+
+  ```markdown
+  ## Credly Badges
+  <!-- START CREDLY BADGES -->
+  <!-- END CREDLY BADGES -->
+  ```
+
+usage:pt-BR: |
+  1. No repositório crie um diretório `.github/workflows/`.
+  2. Adicione o arquivo `update-badges.yaml` con o seguinte conteúdo:
+
+  ```yaml
+  name: Update Credly Badges
+
+  on:
+  schedule:
+    - cron: '0 0 * * *' # Executa diariamente às 00:00 UTC
+  workflow_dispatch: # Opcional: permite disparo manual
+
+  permissions:
+  contents: write # Required if using the default GITHUB_TOKEN
+
+  jobs:
+  update-readme:
+    name: Update README with Credly Badges
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Update Badges in README
+        uses: jd-35656/readme-credly-badges@v1
+        with:
+          credly_username: 'your-credly-username'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+  ```
+
+  3. In your repository, create or edit the `README.md` file to include:
+
+  ```markdown
+  ## Credly Badges
+  <!-- START CREDLY BADGES -->
+  <!-- END CREDLY BADGES -->
+  ```
+
+linkRules:
+  actions:
+    - name: credly_username
+      type: string
+      default: '`${{ github.actor }}`'
+      required: false
+      description: Your Credly username
+      description:en-US: Your Credly username
+      description:pt-BR: Your Credly username
+    - name: badge_size
+      type: string
+      default: 150x150
+      description: Badge image size (e.g., 150x150, 680x680)
+      description:en-US: Badge image size (e.g., 150x150, 680x680)
+      description:pt-BR: Tamanho da imagem do emblema (por exemplo, 150x150, 680x680)
+      moreDescription: 'Example: `150x150`.'
+      moreDescription:en-US: 'Example: `150x150`.'
+      moreDescription:pt-BR: 'Exemplo: `150x150`.'
+    - name: badge_sort_by
+      type: string
+      default: badge_sort_by
+      description: 'Sort order: `issued`, `updated`, or `accepted`.'
+      description:en-US: 'Sort order: `issued`, `updated`, or `accepted`.'
+      description:pt-BR: 'Organizaado por: `issued`, `updated`, ou `accepted`.'
+    - name: github_api_url
+      type: string
+      default: '`https://api.github.com`'
+      description: GitHub API URL (for GitHub Enterprise use).
+      description:en-US: GitHub API URL (for GitHub Enterprise use).
+      description:pt-BR: URL da API no GitHub (para uso do GitHub Enterprise).
+    - name: github_token
+      type: string
+      required: true
+      default: '`${{ github.token }}`'
+      description: Token with write access to the repository.
+      description:en-US: Token with write access to the repository.
+      description:pt-BR: Token com acesso para gravação do repositório.
+    - name: github_repo
+      type: string
+      default: '`${{ github.repository }}`'
+      description: Target GitHub repository.
+      description:en-US: Target GitHub repository.
+      description:pt-BR: Repositório GitHub de destino.
+    - name: github_branch
+      type: string
+      default: '`main`'
+      description: Branch where the target file is located.
+      description:en-US: Branch where the target file is located.
+      description:pt-BR: Branch onde o arquivo de destino está localizado.
+    - name: readme_file
+      type: string
+      default: '`README.md`'
+      description: Path to the markdown file to update.
+      description:en-US: Path to the markdown file to update.
+      description:pt-BR: Caminho para atualizar o arquivo markdown.
+    - name: commit_message
+      type: string
+      default: '`Updated README with new badges`'
+      description: Custom commit message.
+      description:en-US: Custom commit message.
+      description:pt-BR: Mensagem de commit personalizada.
+
+examples: |
+  ```markdown
+  ### Credly Badges
+
+  <!-- START CREDLY BADGES -->
+  [![HashiCorp Certified: Terraform Associate (003)](https://images.credly.com/size/150x150/images/ed4be915-68f8-428a-b332-40ded9084ee5/blob)](https://www.credly.com/badges/9818630e-28f4-4541-964c-e79041c4d601)
+  [![AWS Certified DevOps Engineer – Professional](https://images.credly.com/size/150x150/images/bd31ef42-d460-493e-8503-39592aaf0458/image.png)](https://www.credly.com/badges/d557a8cd-735a-4abe-8f83-0f2e4f514a2c)
+  [![Red Hat System Administration II (RH134) - Ver. 9.0](https://images.credly.com/size/150x150/images/b9d7d72b-ff77-4bd0-af19-7cedff6f6ae3/Red_Hat_System_Administration_II.png)](https://www.credly.com/badges/06bb5e5a-8069-4d4d-9f39-d608dbf84cd3)
+  [![Red Hat System Administration I (RH124) - Ver. 9.0](https://images.credly.com/size/150x150/images/cefff7f2-8ca9-40a1-a5f8-17139fccb048/Red_Hat_System_Administration_I.png)](https://www.credly.com/badges/adfadf9c-8271-43d7-8edb-ae2370fe272d)
+  [![AWS Certified Developer – Associate](https://images.credly.com/size/150x150/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png)](https://www.credly.com/badges/0def91c4-2a33-47a9-90fb-0cbaaaaca301)
+  [![AWS Certified Cloud Practitioner](https://images.credly.com/size/150x150/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png)](https://www.credly.com/badges/8cdd9a26-4452-410d-9d20-b351629dcf75)
+  [![AWS Partner: Technical Accredited](https://images.credly.com/size/150x150/images/a253b994-caa6-4dd1-bf0e-434dd012b1f6/image.png)](https://www.credly.com/badges/3ccfe59f-8525-4b35-bacb-d5955486bef4)
+  <!-- END CREDLY BADGES -->
+  ```
+
+  ### Credly Badges
+  <a href="https://www.credly.com/badges/9818630e-28f4-4541-964c-e79041c4d601"><img src="https://images.credly.com/size/150x150/images/ed4be915-68f8-428a-b332-40ded9084ee5/blob" alt="HashiCorp Certified: Terraform Associate (003)" width="100px"></a>
+  <a href="https://www.credly.com/badges/d557a8cd-735a-4abe-8f83-0f2e4f514a2c"><img src="https://images.credly.com/size/150x150/images/bd31ef42-d460-493e-8503-39592aaf0458/image.png" alt="AWS Certified DevOps Engineer – Professional" width="100px"></a>
+  <a href="https://www.credly.com/badges/06bb5e5a-8069-4d4d-9f39-d608dbf84cd3"><img src="https://images.credly.com/size/150x150/images/b9d7d72b-ff77-4bd0-af19-7cedff6f6ae3/Red_Hat_System_Administration_II.png" alt="Red Hat System Administration II (RH134) - Ver. 9.0" width="100px"></a>
+  <a href="https://www.credly.com/badges/adfadf9c-8271-43d7-8edb-ae2370fe272d"><img src="https://images.credly.com/size/150x150/images/cefff7f2-8ca9-40a1-a5f8-17139fccb048/Red_Hat_System_Administration_I.png" alt="Red Hat System Administration I (RH124) - Ver. 9.0" width="100px"></a>
+  <a href="https://www.credly.com/badges/0def91c4-2a33-47a9-90fb-0cbaaaaca301"><img src="https://images.credly.com/size/150x150/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png" alt="AWS Certified Developer – Associate" width="100px"></a>
+  <a href="https://www.credly.com/badges/8cdd9a26-4452-410d-9d20-b351629dcf75"><img src="https://images.credly.com/size/150x150/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" alt="AWS Certified Cloud Practitioner" width="100px"></a>
+  <a href="https://www.credly.com/badges/3ccfe59f-8525-4b35-bacb-d5955486bef4"><img src="https://images.credly.com/size/150x150/images/a253b994-caa6-4dd1-bf0e-434dd012b1f6/image.png" alt="AWS Partner: Technical Accredited" width="100px"></a>
+
+examples:en-US: |
+  ```markdown
+  ### Credly Badges
+
+  <!-- START CREDLY BADGES -->
+  [![HashiCorp Certified: Terraform Associate (003)](https://images.credly.com/size/150x150/images/ed4be915-68f8-428a-b332-40ded9084ee5/blob)](https://www.credly.com/badges/9818630e-28f4-4541-964c-e79041c4d601)
+  [![AWS Certified DevOps Engineer – Professional](https://images.credly.com/size/150x150/images/bd31ef42-d460-493e-8503-39592aaf0458/image.png)](https://www.credly.com/badges/d557a8cd-735a-4abe-8f83-0f2e4f514a2c)
+  [![Red Hat System Administration II (RH134) - Ver. 9.0](https://images.credly.com/size/150x150/images/b9d7d72b-ff77-4bd0-af19-7cedff6f6ae3/Red_Hat_System_Administration_II.png)](https://www.credly.com/badges/06bb5e5a-8069-4d4d-9f39-d608dbf84cd3)
+  [![Red Hat System Administration I (RH124) - Ver. 9.0](https://images.credly.com/size/150x150/images/cefff7f2-8ca9-40a1-a5f8-17139fccb048/Red_Hat_System_Administration_I.png)](https://www.credly.com/badges/adfadf9c-8271-43d7-8edb-ae2370fe272d)
+  [![AWS Certified Developer – Associate](https://images.credly.com/size/150x150/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png)](https://www.credly.com/badges/0def91c4-2a33-47a9-90fb-0cbaaaaca301)
+  [![AWS Certified Cloud Practitioner](https://images.credly.com/size/150x150/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png)](https://www.credly.com/badges/8cdd9a26-4452-410d-9d20-b351629dcf75)
+  [![AWS Partner: Technical Accredited](https://images.credly.com/size/150x150/images/a253b994-caa6-4dd1-bf0e-434dd012b1f6/image.png)](https://www.credly.com/badges/3ccfe59f-8525-4b35-bacb-d5955486bef4)
+  <!-- END CREDLY BADGES -->
+  ```
+
+  ### Credly Badges
+
+  <a href="https://www.credly.com/badges/9818630e-28f4-4541-964c-e79041c4d601"><img src="https://images.credly.com/size/150x150/images/ed4be915-68f8-428a-b332-40ded9084ee5/blob" alt="HashiCorp Certified: Terraform Associate (003)" width="100px"></a>
+  <a href="https://www.credly.com/badges/d557a8cd-735a-4abe-8f83-0f2e4f514a2c"><img src="https://images.credly.com/size/150x150/images/bd31ef42-d460-493e-8503-39592aaf0458/image.png" alt="AWS Certified DevOps Engineer – Professional" width="100px"></a>
+  <a href="https://www.credly.com/badges/06bb5e5a-8069-4d4d-9f39-d608dbf84cd3"><img src="https://images.credly.com/size/150x150/images/b9d7d72b-ff77-4bd0-af19-7cedff6f6ae3/Red_Hat_System_Administration_II.png" alt="Red Hat System Administration II (RH134) - Ver. 9.0" width="100px"></a>
+  <a href="https://www.credly.com/badges/adfadf9c-8271-43d7-8edb-ae2370fe272d"><img src="https://images.credly.com/size/150x150/images/cefff7f2-8ca9-40a1-a5f8-17139fccb048/Red_Hat_System_Administration_I.png" alt="Red Hat System Administration I (RH124) - Ver. 9.0" width="100px"></a>
+  <a href="https://www.credly.com/badges/0def91c4-2a33-47a9-90fb-0cbaaaaca301"><img src="https://images.credly.com/size/150x150/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png" alt="AWS Certified Developer – Associate" width="100px"></a>
+  <a href="https://www.credly.com/badges/8cdd9a26-4452-410d-9d20-b351629dcf75"><img src="https://images.credly.com/size/150x150/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" alt="AWS Certified Cloud Practitioner" width="100px"></a>
+  <a href="https://www.credly.com/badges/3ccfe59f-8525-4b35-bacb-d5955486bef4"><img src="https://images.credly.com/size/150x150/images/a253b994-caa6-4dd1-bf0e-434dd012b1f6/image.png" alt="AWS Partner: Technical Accredited" width="100px"></a>
+
+examples:pt-BR: |
+  ```markdown
+  ### Credly Badges
+
+  <!-- START CREDLY BADGES -->
+  [![HashiCorp Certified: Terraform Associate (003)](https://images.credly.com/size/150x150/images/ed4be915-68f8-428a-b332-40ded9084ee5/blob)](https://www.credly.com/badges/9818630e-28f4-4541-964c-e79041c4d601)
+  [![AWS Certified DevOps Engineer – Professional](https://images.credly.com/size/150x150/images/bd31ef42-d460-493e-8503-39592aaf0458/image.png)](https://www.credly.com/badges/d557a8cd-735a-4abe-8f83-0f2e4f514a2c)
+  [![Red Hat System Administration II (RH134) - Ver. 9.0](https://images.credly.com/size/150x150/images/b9d7d72b-ff77-4bd0-af19-7cedff6f6ae3/Red_Hat_System_Administration_II.png)](https://www.credly.com/badges/06bb5e5a-8069-4d4d-9f39-d608dbf84cd3)
+  [![Red Hat System Administration I (RH124) - Ver. 9.0](https://images.credly.com/size/150x150/images/cefff7f2-8ca9-40a1-a5f8-17139fccb048/Red_Hat_System_Administration_I.png)](https://www.credly.com/badges/adfadf9c-8271-43d7-8edb-ae2370fe272d)
+  [![AWS Certified Developer – Associate](https://images.credly.com/size/150x150/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png)](https://www.credly.com/badges/0def91c4-2a33-47a9-90fb-0cbaaaaca301)
+  [![AWS Certified Cloud Practitioner](https://images.credly.com/size/150x150/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png)](https://www.credly.com/badges/8cdd9a26-4452-410d-9d20-b351629dcf75)
+  [![AWS Partner: Technical Accredited](https://images.credly.com/size/150x150/images/a253b994-caa6-4dd1-bf0e-434dd012b1f6/image.png)](https://www.credly.com/badges/3ccfe59f-8525-4b35-bacb-d5955486bef4)
+  <!-- END CREDLY BADGES -->
+  ```
+
+  ### Credly Badges
+
+  <a href="https://www.credly.com/badges/9818630e-28f4-4541-964c-e79041c4d601"><img src="https://images.credly.com/size/150x150/images/ed4be915-68f8-428a-b332-40ded9084ee5/blob" alt="HashiCorp Certified: Terraform Associate (003)" width="100px"></a>
+  <a href="https://www.credly.com/badges/d557a8cd-735a-4abe-8f83-0f2e4f514a2c"><img src="https://images.credly.com/size/150x150/images/bd31ef42-d460-493e-8503-39592aaf0458/image.png" alt="AWS Certified DevOps Engineer – Professional" width="100px"></a>
+  <a href="https://www.credly.com/badges/06bb5e5a-8069-4d4d-9f39-d608dbf84cd3"><img src="https://images.credly.com/size/150x150/images/b9d7d72b-ff77-4bd0-af19-7cedff6f6ae3/Red_Hat_System_Administration_II.png" alt="Red Hat System Administration II (RH134) - Ver. 9.0" width="100px"></a>
+  <a href="https://www.credly.com/badges/adfadf9c-8271-43d7-8edb-ae2370fe272d"><img src="https://images.credly.com/size/150x150/images/cefff7f2-8ca9-40a1-a5f8-17139fccb048/Red_Hat_System_Administration_I.png" alt="Red Hat System Administration I (RH124) - Ver. 9.0" width="100px"></a>
+  <a href="https://www.credly.com/badges/0def91c4-2a33-47a9-90fb-0cbaaaaca301"><img src="https://images.credly.com/size/150x150/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png" alt="AWS Certified Developer – Associate" width="100px"></a>
+  <a href="https://www.credly.com/badges/8cdd9a26-4452-410d-9d20-b351629dcf75"><img src="https://images.credly.com/size/150x150/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" alt="AWS Certified Cloud Practitioner" width="100px"></a>
+  <a href="https://www.credly.com/badges/3ccfe59f-8525-4b35-bacb-d5955486bef4"><img src="https://images.credly.com/size/150x150/images/a253b994-caa6-4dd1-bf0e-434dd012b1f6/image.png" alt="AWS Partner: Technical Accredited" width="100px"></a>
