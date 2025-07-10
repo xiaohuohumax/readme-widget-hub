@@ -1,0 +1,155 @@
+{
+  "enabled": false,
+  "title": "Pixel GitHub Card Generator",
+  "title:pt-BR": "Pixel criação de cartão para GitHub (Pixel GitHub Card Generator)",
+  "description": "Generate pixel art profiles from your GitHub data.",
+  "description:en-US": "Generate pixel art profiles from your GitHub data.",
+  "description:pt-BR": "Geração de cartões pixelados com os dados do GitHub.",
+  "tag": {
+    "repo": "https://github.com/LuciNyan/pixel-profile",
+    "onlineTool": "https://pixel-profile-generator.vercel.app/",
+    "officialDoc": "https://github.com/LuciNyan/pixel-profile"
+  },
+  "linkRules": {
+    "querys": [
+      {
+        "name": "username",
+        "type": "string",
+        "required": true,
+        "description": "GitHub's username.",
+        "description:en-US": "GitHub's username.",
+        "description:pt-BR": "Nome do usuário no GitHub.",
+        "moreDescription": "Example: `imhalid`.",
+        "moreDescription:en-US": "Example: `imhalid`.",
+        "moreDescription:pt-BR": "Exemplo: `imhalid`."
+      },
+      {
+        "name": "screen_effect",
+        "type": "boolean",
+        "required": true,
+        "default": "false",
+        "description": "Dithering.",
+        "description:en-US": "Dithering.",
+        "description:pt-BR": "Efeito de tela.",
+        "moreDescription": "Screen Effect: `true` or `false`.",
+        "moreDescription:en-US": "Screen Effect: `true` or `false`.",
+        "moreDescription:pt-BR": "Screen Effect: `true` or `false`."
+      },
+      {
+        "name": "dithering",
+        "type": "boolean",
+        "required": true,
+        "default": "false",
+        "description": "Dithering.",
+        "description:en-US": "Dithering.",
+        "description:pt-BR": "Dithering.",
+        "moreDescription": "Example: `true` or `false`.",
+        "moreDescription:en-US": "Example: `true` or `false`.",
+        "moreDescription:pt-BR": "Exemplo: `true` ou `false`."
+      },
+      {
+        "name": "include_all_commits",
+        "type": "boolean",
+        "required": true,
+        "default": "true",
+        "description": "Include all commits.",
+        "description:en-US": "Include all commits.",
+        "description:pt-BR": "Incluir todos os commits.",
+        "moreDescription": "Example: `true` or `false`.",
+        "moreDescription:en-US": "Example: `true` or `false`.",
+        "moreDescription:pt-BR": "Exemplo: `true` ou `false`."
+      },
+      {
+        "name": "pixelate_avatar",
+        "type": "boolean",
+        "required": true,
+        "default": "true",
+        "description": "Pixelate avatar.",
+        "description:en-US": "Pixelate avatar.",
+        "description:pt-BR": "Avatar pixelizado.",
+        "moreDescription": "Example: `true` or `false`.",
+        "moreDescription:en-US": "Example: `true` or `false`.",
+        "moreDescription:pt-BR": "Exemplo: `true` ou `false`."
+      },
+      {
+        "name": "hide",
+        "type": "string",
+        "description": "Pixelate avatar.",
+        "description:en-US": "Pixelate avatar.",
+        "description:pt-BR": "Avatar pixelizado.",
+        "moreDescription": "Example: 'avatar', 'commits', 'contributions', 'issues', 'prs', 'rank', 'stars'.",
+        "moreDescription:en-US": "Example: 'avatar', 'commits', 'contributions', 'issues', 'prs', 'rank', 'stars'.",
+        "moreDescription:pt-BR": "Exemplo: 'avatar', 'commits', 'contributions', 'issues', 'prs', 'rank', 'stars'."
+      },
+      {
+        "name": "background",
+        "type": "string",
+        "required": true,
+        "default": "`#434343`",
+        "description": "Set background color/image. Supports a subset of CSS background property values.",
+        "description:en-US": "Set background color/image. Supports a subset of CSS background property values.",
+        "description:pt-BR": "Define a cor/imagem de fundo. Suporta um subconjunto de valores de propriedades de fundo CSS.",
+        "moreDescription": "Example: `#434343`.",
+        "moreDescription:en-US": "Example: `#434343`.",
+        "moreDescription:pt-BR": "Exemplo: `#434343`."
+      },
+      {
+        "name": "theme",
+        "type": "string",
+        "description": "Theme.",
+        "description:en-US": "Theme.",
+        "description:pt-BR": "Tema.",
+        "moreDescription": "Example: `journey`, `road_trip`, `fuji`, `summer`, `lax`, `crt`, or `monica`.",
+        "moreDescription:en-US": "Example: `journey`, `road_trip`, `fuji`, `summer`, `lax`, `crt`, or `monica`.",
+        "moreDescription:pt-BR": "Exemplo: `journey`, `road_trip`, `fuji`, `summer`, `lax`, `crt`, or `monica`."
+      },
+      {
+        "name": "color",
+        "type": "string",
+        "required": true,
+        "default": "`white`",
+        "description": "Set text color to any valid CSS color value.",
+        "description:en-US": "Set text color to any valid CSS color value.",
+        "description:pt-BR": "Alterar a cor do texto com alguma cor com valor do CSS.",
+        "moreDescription": "Example: `white`.",
+        "moreDescription:en-US": "Example: `white`.",
+        "moreDescription:pt-BR": "Exemplo: `white`."
+      }
+    ],
+    "uriTemplate": "https://pixel-profile.vercel.app/api/github-stats{?username,screen_effect,dithering,hide,include_all_commits,pixelate_avatar,background,theme,color}"
+  },
+  "examples": [
+    {
+      "description": "Default Card",
+      "description:en-US": "Default Card",
+      "description:pt-BR": "Cartão padrão",
+      "annotate": "imhalid",
+      "alt": "Github Card Generator",
+      "href": "https://pixel-profile.vercel.app/api/github-stats?username=imhalid&screen_effect=true&dithering=true&include_all_commits=true&pixelate_avatar=true&background=radial-gradient%28circle+at+50%25+50%25%2C+%233ddb82+0%25%2C+%231c1c45+100%25%29&color=%23ffffffFF",
+      "images": [
+        {
+          "alt": "Github Card Generator",
+          "alt:en-US": "Github Card Generator",
+          "alt:pt-BR": "Github Card Generator",
+          "href": "https://pixel-profile.vercel.app/api/github-stats?username=imhalid&screen_effect=true&dithering=true&include_all_commits=true&pixelate_avatar=true&background=radial-gradient%28circle+at+50%25+50%25%2C+%233ddb82+0%25%2C+%231c1c45+100%25%29&color=%23ffffffFF"
+        }
+      ]
+    },
+    {
+      "description": "Fuji theme without pixelated avatar",
+      "description:en-US": "Fuji theme without pixelated avatar",
+      "description:pt-BR": "Tema Fuji sem o pixelizado no avatar",
+      "annotate": "LuciNyan",
+      "alt": "Github Card Generator",
+      "href": "https://pixel-profile.vercel.app/api/github-stats?username=LuciNyan&theme=fuji&pixelate_avatar=false",
+      "images": [
+        {
+          "alt": "Github Card Generator",
+          "alt:en-US": "Github Card Generator",
+          "alt:pt-BR": "Github Card Generator",
+          "href": "https://pixel-profile.vercel.app/api/github-stats?username=LuciNyan&theme=fuji&pixelate_avatar=false"
+        }
+      ]
+    }
+  ]
+}

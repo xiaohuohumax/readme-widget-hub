@@ -1,0 +1,128 @@
+{
+  "enabled": false,
+  "title": "TIOJ Stats Card",
+  "title:pt-BR": "TIOJ Stats Card",
+  "description": "Show your TIOJ stats on your GitHub profile or your website!",
+  "description:en-US": "Show your TIOJ stats on your GitHub profile or your website!",
+  "description:pt-BR": "Exiba suas estatísticas do TIOJ no seu perfil do GitHub ou sua página web!",
+  "tag": {
+    "repo": "https://github.com/JacobLinCool/TIOJ-Stats-Card",
+    "onlineTool": "https://github.com/JacobLinCool/TIOJ-Stats-Card",
+    "officialDoc": "https://github.com/JacobLinCool/TIOJ-Stats-Card"
+  },
+  "linkRules": {
+    "querys": [
+      {
+        "name": "username",
+        "type": "string",
+        "required": true,
+        "default": "null",
+        "description": "Username in TIOJ's website.",
+        "description:en-US": "Username in TIOJ's website.",
+        "description:pt-BR": "Nome do usuário no site TIOJ.",
+        "moreDescription": "Example: `casperwang`.",
+        "moreDescription:en-US": "Example: `casperwang`.",
+        "moreDescription:pt-BR": "Example: `casperwang`."
+      },
+      {
+        "name": "style",
+        "type": "string",
+        "default": "default",
+        "description": "Card [Style](https://github.com/JacobLinCool/TIOJ-Stats-Card#styles).",
+        "description:en-US": "Card [Style](https://github.com/JacobLinCool/TIOJ-Stats-Card#styles).",
+        "description:pt-BR": "Estilo do [cartão](https://github.com/JacobLinCool/TIOJ-Stats-Card#styles).",
+        "moreDescription": "Example: `casperwang`.",
+        "moreDescription:en-US": "Example: `casperwang`.",
+        "moreDescription:pt-BR": "Example: `casperwang`."
+      },
+      {
+        "name": "width",
+        "type": "number",
+        "default": "500",
+        "description": "Card Width.",
+        "description:en-US": "Card Width.",
+        "description:pt-BR": "Largura do cartão.",
+        "moreDescription": "Example: `500`.",
+        "moreDescription:en-US": "Example: `500`.",
+        "moreDescription:pt-BR": "Example: `500`."
+      },
+      {
+        "name": "userId",
+        "type": "number",
+        "default": "200",
+        "description": "Card Height.",
+        "description:en-US": "Card Height.",
+        "description:pt-BR": "Altura do cartão.",
+        "moreDescription": "Example: `200`.",
+        "moreDescription:en-US": "Example: `200`.",
+        "moreDescription:pt-BR": "Example: `200`."
+      },
+      {
+        "name": "animation",
+        "type": "boolean",
+        "default": "true",
+        "description": "Enable Animation.",
+        "description:en-US": "Enable Animation.",
+        "description:pt-BR": "Habilitar animação.",
+        "moreDescription": "可选值：`true` `false`。",
+        "moreDescription:en-US": "Supported: `true` `false`.",
+        "moreDescription:pt-BR": "Suporta: `true` `false`."
+      },
+      {
+        "name": "border",
+        "type": "number",
+        "default": "1",
+        "description": "Border Width.",
+        "description:en-US": "Border Width.",
+        "description:pt-BR": "Largura da borda.",
+        "moreDescription": "Example: `1`.",
+        "moreDescription:en-US": "Example: `1`.",
+        "moreDescription:pt-BR": "Example: `1`."
+      },
+      {
+        "name": "border_radius",
+        "type": "number",
+        "default": "4",
+        "description": "Border Radius.",
+        "description:en-US": "Border Radius.",
+        "description:pt-BR": "Raio da borda.",
+        "moreDescription": "Example: `4`.",
+        "moreDescription:en-US": "Example: `4`.",
+        "moreDescription:pt-BR": "Example: `4`."
+      }
+    ],
+    "uriTemplate": "https://tioj.card.workers.dev/{?username,style,width,height,animation,border,border_radius}"
+  },
+  "examples": [
+    {
+      "description": "Default TIOJ Stats' card",
+      "description:en-US": "Default TIOJ Stats' card",
+      "description:pt-BR": "Cartão padrão TIOJ Stats",
+      "alt": "TIOJ Stats",
+      "href": "https://tioj.card.workers.dev/?username=casperwang",
+      "images": [
+        {
+          "alt": "TIOJ Stats",
+          "alt:en-US": "TIOJ Stats",
+          "alt:pt-BR": "TIOJ Stats",
+          "href": "https://tioj.card.workers.dev/?username=casperwang"
+        }
+      ]
+    },
+    {
+      "description": "Dark theme and border radius",
+      "description:en-US": "Dark theme and border radius",
+      "description:pt-BR": "Tema escuro e raio da borda",
+      "alt": "TIOJ Stats",
+      "href": "https://tioj.card.workers.dev/?username=casperwang&style=dark&border_radius=20",
+      "images": [
+        {
+          "alt": "TIOJ Stats",
+          "alt:en-US": "TIOJ Stats",
+          "alt:pt-BR": "TIOJ Stats",
+          "href": "https://tioj.card.workers.dev/?username=casperwang&style=dark&border_radius=20"
+        }
+      ]
+    }
+  ]
+}
