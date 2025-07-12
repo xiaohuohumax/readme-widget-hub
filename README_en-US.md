@@ -13,7 +13,7 @@
     <a href="https://github.com/xiaohuohumax/readme-widget-hub/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/readme-widget-hub" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/readme-widget-hub" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Freadme-widget-hub&countColor=%2337D67A&style=flat&labelStyle=lower" /></a>
-    <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/badge/badges-82-37D67A?labelColor=555555" /></a>
+    <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/badge/badges-84-37D67A?labelColor=555555" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/github/stars/xiaohuohumax/readme-widget-hub" /></a>
   </div>
   <div>
@@ -50,6 +50,7 @@
   * [Github Readme Steam Card](dist/widgets/fun/github-readme-steam-card/README_en-US.md)
   * [Steam Stats](dist/widgets/fun/steam-stat/README_en-US.md)
 * Github
+  * [AWESOME Github Stats](dist/widgets/github/awesome-github-stats/README_en-US.md)
   * [Contributors Img](dist/widgets/github/contributors-img/README_en-US.md)
   * [GitHub Gists Readme](dist/widgets/github/gists-readme/README_en-US.md)
   * [Git Streak Tracker](dist/widgets/github/git-streak-tracker/README_en-US.md)
@@ -68,12 +69,12 @@
   * [Github Chart API](dist/widgets/github/githubchart-api/README_en-US.md)
   * [Open Source Software Insight](dist/widgets/github/ossinsight/README_en-US.md)
   * [Pac-Man Contribution Graph Game](dist/widgets/github/pacman-contribution-graph/README_en-US.md)
+  * [Pixel GitHub Card Generator](dist/widgets/github/pixel-profile-generator/README_en-US.md)
   * [Repobeats](dist/widgets/github/repobeats/README_en-US.md)
   * [snk](dist/widgets/github/snk/README_en-US.md)
   * [Socialify](dist/widgets/github/socialify/README_en-US.md)
   * [Spark](dist/widgets/github/spark/README_en-US.md)
   * [GitHub Starlines](dist/widgets/github/starlines/README_en-US.md)
-  * [AWESOME Github Stats](dist/widgets/github/template/README_en-US.md)
 * Music
   * [Last.fm Recently Played README](dist/widgets/music/lastfm-recently-played-readme/README_en-US.md)
   * [Data Card for Spotify](dist/widgets/music/spotify-data-card/README_en-US.md)
@@ -110,6 +111,7 @@
 * [Gradgen](dist/widgets/gradgen/README_en-US.md)
 * [Iconify](dist/widgets/iconify/README_en-US.md)
 * [m3 Markdown Badges](dist/widgets/m3-Markdown-Badges/README_en-US.md)
+* [MOBA Icons](dist/widgets/mobaicons/README_en-US.md)
 * [NodeICO](dist/widgets/nodei-co/README_en-US.md)
 * [Open Collective](dist/widgets/open-collective/README_en-US.md)
 * [OpenSSF Best Practices Badge](dist/widgets/openssf-best-practices/README_en-US.md)
