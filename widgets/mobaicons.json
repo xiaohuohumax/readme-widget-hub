@@ -1,198 +1,160 @@
 {
-  "enabled": false,
   "title": "MOBA Icons",
   "title:pt-BR": "MOBA Icons",
-  "description": "The World's Most Advanced Icon Library Project, Meticulously Designed by [@Artist-MOBAI](https://github.com/Artist-MOBAI).",
+  "description": "全球最先进的图标库项目，由 [@Artist-MOBAI](https://github.com/Artist-MOBAI) 精心设计。",
   "description:en-US": "The World's Most Advanced Icon Library Project, Meticulously Designed by [@Artist-MOBAI](https://github.com/Artist-MOBAI).",
   "description:pt-BR": "The World's Most Advanced Icon Library Project, Meticulously Designed by [@Artist-MOBAI](https://github.com/Artist-MOBAI).",
   "tag": {
     "repo": "https://github.com/Artist-MOBAI/MOBAIcons",
-    "onlineTool": "https://github.com/Artist-MOBAI/MOBAIcons",
     "officialDoc": "https://github.com/Artist-MOBAI/MOBAIcons"
   },
-  "linkRules": {
-    "params": [
-      {
-        "name": "count",
-        "type": "number",
-        "required": false,
-        "description": "Plain text number.",
-        "description:en-US": "Plain text number.",
-        "description:pt-BR": "Número de texto simples.",
-        "moreDescription": "Example: `386.",
-        "moreDescription:en-US": "Example: `386`.",
-        "moreDescription:pt-BR": "Exemplo: `386`."
-      },
-      {
-        "name": "all",
-        "type": "string",
-        "required": false,
-        "description": "SVG grid composition .",
-        "description:en-US": "SVG grid composition .",
-        "description:pt-BR": "Composição de grade SVG.",
-        "moreDescription": "Complete grid containing all available icons.",
-        "moreDescription:en-US": "Complete grid containing all available icons.",
-        "moreDescription:pt-BR": "Exibe a grade completa com todos os ícones disponíveis."
-      },
-      {
-        "name": "list",
-        "type": "string",
-        "required": false,
-        "description": "Comma-separated text.",
-        "description:en-US": "Comma-separated text.",
-        "description:pt-BR": "Texto separado por vírgula.",
-        "moreDescription": "All icon names in plain text format.",
-        "moreDescription:en-US": "All icon names in plain text format.",
-        "moreDescription:pt-BR": "Todos os nomes dos ícones em formato de texto simples."
-      },
-      {
-        "name": "search",
-        "type": "string",
-        "required": false,
-        "description": "JSON array of matches.",
-        "description:en-US": "JSON array of matches.",
-        "description:pt-BR": "Array JSON das matrizes.",
-        "moreDescription": "Icon names matching the search query.",
-        "moreDescription:en-US": "Icon names matching the search query.",
-        "moreDescription:pt-BR": "Nomes de ícones que correspondem à consulta de pesquisa."
-      },
-      {
-        "name": "name",
-        "type": "string",
-        "required": true,
-        "description": "JSON array of matches.",
-        "description:en-US": "JSON array of matches.",
-        "description:pt-BR": "Array JSON das matrizes.",
-        "moreDescription": "Icon names matching the search query.",
-        "moreDescription:en-US": "Exemplo: name1,name2",
-        "moreDescription:pt-BR": "Exemplo: name1,name2 correspondem à consulta ne pesquisa."
-      }
-    ],
-    "querys": [
-      {
-        "name": "perline",
-        "type": "number",
-        "default": "15",
-        "required": false,
-        "description": "SVG grid composition.",
-        "description:en-US": "Plain text number.",
-        "description:pt-BR": "Composição de grade SVG.",
-        "moreDescription": "Search results with N icons per row (default: 15).",
-        "moreDescription:en-US": "Search results with N icons per row (default: 15).",
-        "moreDescription:pt-BR": "Resultados da pesquisa com N ícones por linha (padrão: 15)."
-      },
-      {
-        "name": "duplicate",
-        "type": "number",
-        "required": false,
-        "description": "SVG grid composition.",
-        "description:en-US": "Plain text number.",
-        "description:pt-BR": "Composição de grade SVG.",
-        "moreDescription": "Custom grid allowing duplicate icons in the list.",
-        "moreDescription:en-US": "Custom grid allowing duplicate icons in the list.",
-        "moreDescription:pt-BR": "Grade personalizada que permite ícones duplicados na lista."
-      },
-      {
-        "name": "sort",
-        "type": "number",
-        "required": false,
-        "description": "SVG grid composition.",
-        "description:en-US": "Plain text number.",
-        "description:pt-BR": "Composição de grade SVG.",
-        "moreDescription": "Custom grid with icons sorted alphabetically.",
-        "moreDescription:en-US": "Custom grid with icons sorted alphabetically.",
-        "moreDescription:pt-BR": "Grade personalizada com ícones classificados em ordem alfabética."
-      }
-    ],
-    "uriTemplate": "https://mobaicons.com/{icons,list,name,all}{?json,perline,sort,duplicate,q}"
-  },
+  "linkRules": [
+    {
+      "params": [
+        {
+          "name": "pathName",
+          "type": "string",
+          "description": "路径名",
+          "description:en-US": "Path Name",
+          "moreDescription": "可选值：`all` `icons` `i`",
+          "moreDescription:en-US": "Supported: `all` `icons` `i`"
+        }
+      ],
+      "description": "显示全部图标",
+      "description:en-US": "Show All Icons",
+      "uriTemplate": "https://mobaicons.com/{pathName}"
+    },
+    {
+      "params": [
+        {
+          "name": "pathName",
+          "type": "string",
+          "description": "路径名",
+          "description:en-US": "Path Name",
+          "moreDescription": "可选值：`icons` `i`",
+          "moreDescription:en-US": "Supported: `icons` `i`"
+        },
+        {
+          "name": "names",
+          "type": "string",
+          "description": "图标名",
+          "description:en-US": "Icon Name",
+          "moreDescription": "多个图标名用 `,` 分隔, 例如：`html,css,ts,hono`",
+          "moreDescription:en-US": "Multiple names are separated by `,`, e.g. `html,css,ts,hono`"
+        }
+      ],
+      "querys": [
+        {
+          "name": "sort",
+          "type": "boolean",
+          "default": "false",
+          "description": "是否按字母顺序排序",
+          "description:en-US": "Sort by Alphabetical Order"
+        },
+        {
+          "name": "duplicate",
+          "type": "boolean",
+          "default": "false",
+          "description": "是否显示重复的图标",
+          "description:en-US": "Show Duplicated Icons"
+        },
+        {
+          "name": "perline",
+          "type": "number",
+          "default": "15",
+          "description": "每行显示的图标数量",
+          "description:en-US": "Number of Icons per Line"
+        }
+      ],
+      "description": "显示指定图标",
+      "description:en-US": "Show Specified Icons",
+      "uriTemplate": "https://mobaicons.com/{pathName}/{names}{?sort,duplicate,perline}"
+    },
+    {
+      "params": [
+        {
+          "name": "value",
+          "type": "string",
+          "description": "搜索值",
+          "description:en-US": "Search Value"
+        }
+      ],
+      "querys": [
+        {
+          "name": "perline",
+          "type": "number",
+          "default": "15",
+          "description": "每行显示的图标数量",
+          "description:en-US": "Number of Icons per Line"
+        }
+      ],
+      "description": "搜索图标",
+      "description:en-US": "Search Icons",
+      "uriTemplate": "https://mobaicons.com/search/{value}{?perline}"
+    }
+  ],
   "examples": [
     {
-      "description": "Example `/icons/name1,name2?perline=N`",
-      "description:en-US": "Example `/icons/name1,name2?perline=N`",
-      "description:pt-BR": "Exemplo `/icons/name1,name2?perline=N`",
+      "description": "设置每行显示的图标数量",
+      "description:en-US": "Set Number of Icons per Line",
       "annotate": "MOBAIcons",
       "alt": "MOBAIconsr",
-      "alt:en-US": "MOBAIcons",
-      "alt:pt-BR": "MOBAIcons",
       "href": "https://mobaicons.com/icons/html,css,ts,hono,go,grpc,cloudflare,bun,js,astro,preact,react,vue,trpc?perline=7",
       "images": [
         {
           "alt": "MOBAIcons",
-          "alt:en-US": "MOBAIcons",
-          "alt:pt-BR": "MOBAIcons",
           "href": "https://mobaicons.com/icons/html,css,ts,hono,go,grpc,cloudflare,bun,js,astro,preact,react,vue,trpc?perline=7"
         }
       ]
     },
     {
-      "description": "Example `/icons/name1,name2?sort`",
-      "description:en-US": "Example `/icons/name1,name2?sort`",
-      "description:pt-BR": "Exemplo `/icons/name1,name2?sort`",
+      "description": "显示重复的图标",
+      "description:en-US": "Show Duplicated Icons",
       "annotate": "MOBAIcons",
       "alt": "MOBAIcons",
-      "alt:en-US": "MOBAIcons",
-      "alt:pt-BR": "MOBAIcons",
+      "href": "https://mobaicons.com/icons/ts,bun,hono,go,go,go,go,go?duplicate",
+      "images": [
+        {
+          "alt": "MOBAIcons",
+          "href": "https://mobaicons.com/icons/ts,bun,hono,go,go,go,go,go?duplicate"
+        }
+      ]
+    },
+    {
+      "description": "图标排序",
+      "description:en-US": "Icon Sorting",
+      "annotate": "MOBAIcons",
+      "alt": "MOBAIcons",
       "href": "https://mobaicons.com/icons/html,css,ts,hono,go,grpc,cloudflare?sort",
       "images": [
         {
           "alt": "MOBAIcons",
-          "alt:en-US": "MOBAIcons",
-          "alt:pt-BR": "MOBAIcons",
           "href": "https://mobaicons.com/icons/html,css,ts,hono,go,grpc,cloudflare?sort"
         }
       ]
     },
     {
-      "description": "Example `/icons/name1,name2,name2?duplicate`",
-      "description:en-US": "Example `/icons/name1,name2,name2?duplicate`",
-      "description:pt-BR": "Exemplo `/icons/name1,name2,name2?duplicate`",
+      "description": "搜索图标",
+      "description:en-US": "Search Icons",
       "annotate": "MOBAIcons",
       "alt": "MOBAIcons",
-      "alt:en-US": "MOBAIcons",
-      "alt:pt-BR": "MOBAIcons",
-      "href": "https://mobaicons.com/icons/ts,bun,hono,go,go,go,go,go",
+      "href": "https://mobaicons.com/search/react",
       "images": [
         {
           "alt": "MOBAIcons",
-          "alt:en-US": "MOBAIcons",
-          "alt:pt-BR": "MOBAIcons",
-          "href": "https://mobaicons.com/icons/ts,bun,hono,go,go,go,go,go"
+          "href": "https://mobaicons.com/search/react"
         }
       ]
     },
     {
-      "description": "Example `/icons/name1,name2?sort`",
-      "description:en-US": "Example `/icons/name1,name2?sort`",
-      "description:pt-BR": "Exemplo `/icons/name1,name2?sort`",
+      "description": "显示全部图标",
+      "description:en-US": "Show All Icons",
       "annotate": "MOBAIcons",
       "alt": "MOBAIcons",
-      "alt:en-US": "MOBAIcons",
-      "alt:pt-BR": "MOBAIcons",
-      "href": "https://mobaicons.com/icons/html,css,ts,hono,go,grpc,cloudflare?sort",
-      "images": [
-        {
-          "alt": "MOBAIcons",
-          "alt:en-US": "MOBAIcons",
-          "alt:pt-BR": "MOBAIcons",
-          "href": "https://mobaicons.com/icons/html,css,ts,hono,go,grpc,cloudflare?sort"
-        }
-      ]
-    },
-    {
-      "description": "Example `/all`",
-      "description:en-US": "Example `/all`",
-      "description:pt-BR": "Exemplo `/all`",
-      "annotate": "MOBAIcons",
-      "alt": "MOBAIcons",
-      "alt:en-US": "MOBAIcons",
-      "alt:pt-BR": "MOBAIcons",
       "href": "https://mobaicons.com/all",
       "images": [
         {
           "alt": "MOBAIcons",
-          "alt:en-US": "MOBAIcons",
-          "alt:pt-BR": "MOBAIcons",
           "href": "https://mobaicons.com/all"
         }
       ]

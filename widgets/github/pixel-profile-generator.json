@@ -1,8 +1,7 @@
 {
-  "enabled": false,
   "title": "Pixel GitHub Card Generator",
   "title:pt-BR": "Pixel criação de cartão para GitHub (Pixel GitHub Card Generator)",
-  "description": "Generate pixel art profiles from your GitHub data.",
+  "description": "依据你的 GitHub 数据生成像素艺术卡片。",
   "description:en-US": "Generate pixel art profiles from your GitHub data.",
   "description:pt-BR": "Geração de cartões pixelados com os dados do GitHub.",
   "tag": {
@@ -16,111 +15,87 @@
         "name": "username",
         "type": "string",
         "required": true,
-        "description": "GitHub's username.",
+        "description": "GitHub 用户名。",
         "description:en-US": "GitHub's username.",
         "description:pt-BR": "Nome do usuário no GitHub.",
-        "moreDescription": "Example: `imhalid`.",
+        "moreDescription": "例如：`imhalid`。",
         "moreDescription:en-US": "Example: `imhalid`.",
         "moreDescription:pt-BR": "Exemplo: `imhalid`."
       },
       {
-        "name": "screen_effect",
-        "type": "boolean",
-        "required": true,
-        "default": "false",
-        "description": "Dithering.",
-        "description:en-US": "Dithering.",
-        "description:pt-BR": "Efeito de tela.",
-        "moreDescription": "Screen Effect: `true` or `false`.",
-        "moreDescription:en-US": "Screen Effect: `true` or `false`.",
-        "moreDescription:pt-BR": "Screen Effect: `true` or `false`."
-      },
-      {
-        "name": "dithering",
-        "type": "boolean",
-        "required": true,
-        "default": "false",
-        "description": "Dithering.",
-        "description:en-US": "Dithering.",
-        "description:pt-BR": "Dithering.",
-        "moreDescription": "Example: `true` or `false`.",
-        "moreDescription:en-US": "Example: `true` or `false`.",
-        "moreDescription:pt-BR": "Exemplo: `true` ou `false`."
-      },
-      {
-        "name": "include_all_commits",
-        "type": "boolean",
-        "required": true,
-        "default": "true",
-        "description": "Include all commits.",
-        "description:en-US": "Include all commits.",
-        "description:pt-BR": "Incluir todos os commits.",
-        "moreDescription": "Example: `true` or `false`.",
-        "moreDescription:en-US": "Example: `true` or `false`.",
-        "moreDescription:pt-BR": "Exemplo: `true` ou `false`."
-      },
-      {
-        "name": "pixelate_avatar",
-        "type": "boolean",
-        "required": true,
-        "default": "true",
-        "description": "Pixelate avatar.",
-        "description:en-US": "Pixelate avatar.",
-        "description:pt-BR": "Avatar pixelizado.",
-        "moreDescription": "Example: `true` or `false`.",
-        "moreDescription:en-US": "Example: `true` or `false`.",
-        "moreDescription:pt-BR": "Exemplo: `true` ou `false`."
-      },
-      {
-        "name": "hide",
-        "type": "string",
-        "description": "Pixelate avatar.",
-        "description:en-US": "Pixelate avatar.",
-        "description:pt-BR": "Avatar pixelizado.",
-        "moreDescription": "Example: 'avatar', 'commits', 'contributions', 'issues', 'prs', 'rank', 'stars'.",
-        "moreDescription:en-US": "Example: 'avatar', 'commits', 'contributions', 'issues', 'prs', 'rank', 'stars'.",
-        "moreDescription:pt-BR": "Exemplo: 'avatar', 'commits', 'contributions', 'issues', 'prs', 'rank', 'stars'."
-      },
-      {
         "name": "background",
         "type": "string",
-        "required": true,
-        "default": "`#434343`",
-        "description": "Set background color/image. Supports a subset of CSS background property values.",
+        "default": "#434343",
+        "description": "设置背景颜色/图片。支持 CSS 背景属性的子集。",
         "description:en-US": "Set background color/image. Supports a subset of CSS background property values.",
-        "description:pt-BR": "Define a cor/imagem de fundo. Suporta um subconjunto de valores de propriedades de fundo CSS.",
-        "moreDescription": "Example: `#434343`.",
-        "moreDescription:en-US": "Example: `#434343`.",
-        "moreDescription:pt-BR": "Exemplo: `#434343`."
-      },
-      {
-        "name": "theme",
-        "type": "string",
-        "description": "Theme.",
-        "description:en-US": "Theme.",
-        "description:pt-BR": "Tema.",
-        "moreDescription": "Example: `journey`, `road_trip`, `fuji`, `summer`, `lax`, `crt`, or `monica`.",
-        "moreDescription:en-US": "Example: `journey`, `road_trip`, `fuji`, `summer`, `lax`, `crt`, or `monica`.",
-        "moreDescription:pt-BR": "Exemplo: `journey`, `road_trip`, `fuji`, `summer`, `lax`, `crt`, or `monica`."
+        "description:pt-BR": "Define a cor/imagem de fundo. Suporta um subconjunto de valores de propriedades de fundo CSS."
       },
       {
         "name": "color",
         "type": "string",
-        "required": true,
-        "default": "`white`",
-        "description": "Set text color to any valid CSS color value.",
+        "default": "white",
+        "description": "将文本颜色设置为任何有效的 CSS 颜色值。",
         "description:en-US": "Set text color to any valid CSS color value.",
-        "description:pt-BR": "Alterar a cor do texto com alguma cor com valor do CSS.",
-        "moreDescription": "Example: `white`.",
-        "moreDescription:en-US": "Example: `white`.",
-        "moreDescription:pt-BR": "Exemplo: `white`."
+        "description:pt-BR": "Alterar a cor do texto com alguma cor com valor do CSS."
+      },
+      {
+        "name": "hide",
+        "type": "string",
+        "description": "隐藏特定统计信息或元素。",
+        "description:en-US": "Hide specific statistics or elements.",
+        "description:pt-BR": "Esconder estatísticas ou elementos específicos.",
+        "moreDescription": "可选值：`avatar`, `commits`, `contributions`, `issues`, `prs`, `rank`, `stars`。",
+        "moreDescription:en-US": "Optional values: `avatar`, `commits`, `contributions`, `issues`, `prs`, `rank`, `stars`.",
+        "moreDescription:pt-BR": "Valores opcionais: `avatar`, `commits`, `contributions`, `issues`, `prs`, `rank`, `stars`."
+      },
+      {
+        "name": "include_all_commits",
+        "type": "boolean",
+        "default": "false",
+        "description": "统计所有提交。",
+        "description:en-US": "Count all commits.",
+        "description:pt-BR": "Contar todos os commits."
+      },
+      {
+        "name": "pixelate_avatar",
+        "type": "boolean",
+        "default": "true",
+        "description": "对头像应用像素化。",
+        "description:en-US": "Apply pixelation to avatar.",
+        "description:pt-BR": "Aplicar pixelização no avatar."
+      },
+      {
+        "name": "screen_effect",
+        "type": "boolean",
+        "default": "false",
+        "description": "启用弯曲屏幕效果。",
+        "description:en-US": "Enable curved screen effect.",
+        "description:pt-BR": "Habilitar efeito de tela curvada."
+      },
+      {
+        "name": "theme",
+        "type": "string",
+        "description": "主题。",
+        "description:en-US": "Theme.",
+        "description:pt-BR": "Tema.",
+        "moreDescription": "可选值：`journey`, `road_trip`, `fuji`, `summer`, `lax`, `crt`, `monica`。",
+        "moreDescription:en-US": "Optional values: `journey`, `road_trip`, `fuji`, `summer`, `lax`, `crt`, `monica`.",
+        "moreDescription:pt-BR": "Valores opcionais: `journey`, `road_trip`, `fuji`, `summer`, `lax`, `crt`, `monica`."
+      },
+      {
+        "name": "dithering",
+        "type": "boolean",
+        "default": "false",
+        "description": "使用 256 色调色板渲染图像并应用抖动。",
+        "description:en-US": "Render image with 256 color palette and apply dithering.",
+        "description:pt-BR": "Renderizar imagem com paleta de 256 cores e aplicar dithering."
       }
     ],
-    "uriTemplate": "https://pixel-profile.vercel.app/api/github-stats{?username,screen_effect,dithering,hide,include_all_commits,pixelate_avatar,background,theme,color}"
+    "uriTemplate": "https://pixel-profile.vercel.app/api/github-stats{?username,background,color,hide,include_all_commits,pixelate_avatar,screen_effect,theme,dithering}"
   },
   "examples": [
     {
-      "description": "Default Card",
+      "description": "默认卡片",
       "description:en-US": "Default Card",
       "description:pt-BR": "Cartão padrão",
       "annotate": "imhalid",
@@ -129,14 +104,12 @@
       "images": [
         {
           "alt": "Github Card Generator",
-          "alt:en-US": "Github Card Generator",
-          "alt:pt-BR": "Github Card Generator",
           "href": "https://pixel-profile.vercel.app/api/github-stats?username=imhalid&screen_effect=true&dithering=true&include_all_commits=true&pixelate_avatar=true&background=radial-gradient%28circle+at+50%25+50%25%2C+%233ddb82+0%25%2C+%231c1c45+100%25%29&color=%23ffffffFF"
         }
       ]
     },
     {
-      "description": "Fuji theme without pixelated avatar",
+      "description": "Fuji 主题并且不像素化头像",
       "description:en-US": "Fuji theme without pixelated avatar",
       "description:pt-BR": "Tema Fuji sem o pixelizado no avatar",
       "annotate": "LuciNyan",
@@ -145,8 +118,6 @@
       "images": [
         {
           "alt": "Github Card Generator",
-          "alt:en-US": "Github Card Generator",
-          "alt:pt-BR": "Github Card Generator",
           "href": "https://pixel-profile.vercel.app/api/github-stats?username=LuciNyan&theme=fuji&pixelate_avatar=false"
         }
       ]
