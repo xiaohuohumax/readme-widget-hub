@@ -32,11 +32,19 @@
 ## 📑 Widget Contents
 
 * [Shields.io](dist/widgets/shields-io/README_en-US.md)
-* [Badgen](dist/widgets/badgen/README_en-US.md)
-* [GitHub Readme Stats](dist/widgets/github-readme-stats/README_en-US.md)
-* [Custom Icon Badges](dist/widgets/custom-icon-badges/README_en-US.md)
-* [FOR THE BADGE](dist/widgets/for-the-badge/README_en-US.md)
 * [Readme Typing SVG](dist/widgets/readme-typing-svg/README_en-US.md)
+* Common
+  * [Badgen](dist/widgets/common/badgen/README_en-US.md)
+  * [Custom Icon Badges](dist/widgets/common/custom-icon-badges/README_en-US.md)
+  * [FOR THE BADGE](dist/widgets/common/for-the-badge/README_en-US.md)
+  * [Capsule Render](dist/widgets/common/capsule-render/README_en-US.md)
+  * [Gradgen](dist/widgets/common/gradgen/README_en-US.md)
+  * [Iconify](dist/widgets/common/iconify/README_en-US.md)
+  * [m3 Markdown Badges](dist/widgets/common/m3-Markdown-Badges/README_en-US.md)
+  * [MOBA Icons](dist/widgets/common/mobaicons/README_en-US.md)
+  * [Skill Icons](dist/widgets/common/skill-icons/README_en-US.md)
+  * [Version Badge](dist/widgets/common/version-badge/README_en-US.md)
+  * [Widget Bite](dist/widgets/common/widget-bite/README_en-US.md)
 * Discord
   * [Discord Markdown Badge](dist/widgets/discord/dcbadge/README_en-US.md)
   * [Discord Cards](dist/widgets/discord/discord-cards/README_en-US.md)
@@ -48,8 +56,11 @@
   * [Genshin Card](dist/widgets/fun/genshin-card/README_en-US.md)
   * [Git Animals](dist/widgets/fun/gitanimals/README_en-US.md)
   * [Github Readme Steam Card](dist/widgets/fun/github-readme-steam-card/README_en-US.md)
+  * [PlayBadges](dist/widgets/fun/play-badges/README_en-US.md)
+  * [README Jokes](dist/widgets/fun/readme-jokes/README_en-US.md)
   * [Steam Stats](dist/widgets/fun/steam-stat/README_en-US.md)
 * Github
+  * [GitHub Readme Stats](dist/widgets/github/github-readme-stats/README_en-US.md)
   * [AWESOME Github Stats](dist/widgets/github/awesome-github-stats/README_en-US.md)
   * [Contributors Img](dist/widgets/github/contributors-img/README_en-US.md)
   * [GitHub Gists Readme](dist/widgets/github/gists-readme/README_en-US.md)
@@ -74,11 +85,15 @@
   * [snk](dist/widgets/github/snk/README_en-US.md)
   * [Socialify](dist/widgets/github/socialify/README_en-US.md)
   * [Spark](dist/widgets/github/spark/README_en-US.md)
+  * [Star History](dist/widgets/github/star-history/README_en-US.md)
   * [GitHub Starlines](dist/widgets/github/starlines/README_en-US.md)
 * Music
   * [Last.fm Recently Played README](dist/widgets/music/lastfm-recently-played-readme/README_en-US.md)
   * [Data Card for Spotify](dist/widgets/music/spotify-data-card/README_en-US.md)
   * [Spotify Recently Played README](dist/widgets/music/spotify-recently-played-readme/README_en-US.md)
+* Open Source
+  * [Open Collective](dist/widgets/opensource/open-collective/README_en-US.md)
+  * [OpenSSF Best Practices Badge](dist/widgets/opensource/openssf-best-practices/README_en-US.md)
 * Other Platforms
   * [Github Stackoverflow Readme](dist/widgets/other-platform/github-readme-stackoverflow/README_en-US.md)
   * [Credly GitHub Readme Widgets](dist/widgets/other-platform/github-readme-widgets/README_en-US.md)
@@ -106,23 +121,10 @@
   * [Profile Counter](dist/widgets/visit-counter/profile-counter/README_en-US.md)
   * [Visitor Badge](dist/widgets/visit-counter/web-visitorbadge-nextjs/README_en-US.md)
 * [Badge Poser](dist/widgets/badge-poser/README_en-US.md)
-* [Capsule Render](dist/widgets/capsule-render/README_en-US.md)
 * [Deploy Badge](dist/widgets/deploy-badge/README_en-US.md)
-* [Gradgen](dist/widgets/gradgen/README_en-US.md)
-* [Iconify](dist/widgets/iconify/README_en-US.md)
-* [m3 Markdown Badges](dist/widgets/m3-Markdown-Badges/README_en-US.md)
-* [MOBA Icons](dist/widgets/mobaicons/README_en-US.md)
 * [NodeICO](dist/widgets/nodei-co/README_en-US.md)
-* [Open Collective](dist/widgets/open-collective/README_en-US.md)
-* [OpenSSF Best Practices Badge](dist/widgets/openssf-best-practices/README_en-US.md)
-* [PlayBadges](dist/widgets/play-badges/README_en-US.md)
-* [README Jokes](dist/widgets/readme-jokes/README_en-US.md)
 * [Sloc Cloc and Code](dist/widgets/scc/README_en-US.md)
-* [Skill Icons](dist/widgets/skill-icons/README_en-US.md)
-* [Star History](dist/widgets/star-history/README_en-US.md)
-* [Version Badge](dist/widgets/version-badge/README_en-US.md)
 * [WakaTime](dist/widgets/wakatime/README_en-US.md)
-* [Widget Bite](dist/widgets/widget-bite/README_en-US.md)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/Back%20to%20top-555555?style=for-the-badge"></a></p>
 

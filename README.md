@@ -32,11 +32,19 @@
 ## 📑 小部件目录
 
 * [Shields.io](dist/widgets/shields-io/README.md)
-* [Badgen](dist/widgets/badgen/README.md)
-* [GitHub Readme Stats](dist/widgets/github-readme-stats/README.md)
-* [Custom Icon Badges](dist/widgets/custom-icon-badges/README.md)
-* [FOR THE BADGE](dist/widgets/for-the-badge/README.md)
 * [Readme Typing SVG](dist/widgets/readme-typing-svg/README.md)
+* 通用
+  * [Badgen](dist/widgets/common/badgen/README.md)
+  * [Custom Icon Badges](dist/widgets/common/custom-icon-badges/README.md)
+  * [FOR THE BADGE](dist/widgets/common/for-the-badge/README.md)
+  * [Capsule Render](dist/widgets/common/capsule-render/README.md)
+  * [Gradgen](dist/widgets/common/gradgen/README.md)
+  * [Iconify](dist/widgets/common/iconify/README.md)
+  * [m3 Markdown Badges](dist/widgets/common/m3-Markdown-Badges/README.md)
+  * [MOBA Icons](dist/widgets/common/mobaicons/README.md)
+  * [Skill Icons](dist/widgets/common/skill-icons/README.md)
+  * [Version Badge](dist/widgets/common/version-badge/README.md)
+  * [Widget Bite](dist/widgets/common/widget-bite/README.md)
 * Discord
   * [Discord Markdown Badge](dist/widgets/discord/dcbadge/README.md)
   * [Discord Cards](dist/widgets/discord/discord-cards/README.md)
@@ -48,8 +56,11 @@
   * [Genshin Card](dist/widgets/fun/genshin-card/README.md)
   * [Git Animals](dist/widgets/fun/gitanimals/README.md)
   * [Github Readme Steam Card](dist/widgets/fun/github-readme-steam-card/README.md)
+  * [PlayBadges](dist/widgets/fun/play-badges/README.md)
+  * [README Jokes](dist/widgets/fun/readme-jokes/README.md)
   * [Steam Stats](dist/widgets/fun/steam-stat/README.md)
 * Github
+  * [GitHub Readme Stats](dist/widgets/github/github-readme-stats/README.md)
   * [AWESOME Github Stats](dist/widgets/github/awesome-github-stats/README.md)
   * [Contributors Img](dist/widgets/github/contributors-img/README.md)
   * [GitHub Gists Readme](dist/widgets/github/gists-readme/README.md)
@@ -74,11 +85,15 @@
   * [snk](dist/widgets/github/snk/README.md)
   * [Socialify](dist/widgets/github/socialify/README.md)
   * [Spark](dist/widgets/github/spark/README.md)
+  * [Star History](dist/widgets/github/star-history/README.md)
   * [GitHub Starlines](dist/widgets/github/starlines/README.md)
 * 音乐
   * [Last.fm Recently Played README](dist/widgets/music/lastfm-recently-played-readme/README.md)
   * [Data Card for Spotify](dist/widgets/music/spotify-data-card/README.md)
   * [Spotify Recently Played README](dist/widgets/music/spotify-recently-played-readme/README.md)
+* 开源
+  * [Open Collective](dist/widgets/opensource/open-collective/README.md)
+  * [OpenSSF Best Practices Badge](dist/widgets/opensource/openssf-best-practices/README.md)
 * 其他平台
   * [Github Stackoverflow Readme](dist/widgets/other-platform/github-readme-stackoverflow/README.md)
   * [Credly GitHub Readme Widgets](dist/widgets/other-platform/github-readme-widgets/README.md)
@@ -106,23 +121,10 @@
   * [Profile Counter](dist/widgets/visit-counter/profile-counter/README.md)
   * [Visitor Badge](dist/widgets/visit-counter/web-visitorbadge-nextjs/README.md)
 * [Badge Poser](dist/widgets/badge-poser/README.md)
-* [Capsule Render](dist/widgets/capsule-render/README.md)
 * [Deploy Badge](dist/widgets/deploy-badge/README.md)
-* [Gradgen](dist/widgets/gradgen/README.md)
-* [Iconify](dist/widgets/iconify/README.md)
-* [m3 Markdown Badges](dist/widgets/m3-Markdown-Badges/README.md)
-* [MOBA Icons](dist/widgets/mobaicons/README.md)
 * [NodeICO](dist/widgets/nodei-co/README.md)
-* [Open Collective](dist/widgets/open-collective/README.md)
-* [OpenSSF Best Practices Badge](dist/widgets/openssf-best-practices/README.md)
-* [PlayBadges](dist/widgets/play-badges/README.md)
-* [README Jokes](dist/widgets/readme-jokes/README.md)
 * [Sloc Cloc and Code](dist/widgets/scc/README.md)
-* [Skill Icons](dist/widgets/skill-icons/README.md)
-* [Star History](dist/widgets/star-history/README.md)
-* [Version Badge](dist/widgets/version-badge/README.md)
 * [WakaTime](dist/widgets/wakatime/README.md)
-* [Widget Bite](dist/widgets/widget-bite/README.md)
 
 <p align="right"><a href="#readme-top"><img src="https://img.shields.io/badge/回到顶部-555555?style=for-the-badge"></a></p>
 
