@@ -1,5 +1,12 @@
 # readme-widget-hub
 
+## 4.2.6
+
+### Patch Changes
+
+- Updated dependencies
+  - @readme-widget-hub/render@2.8.0
+
 ## 4.2.5
 
 ### Patch Changes

@@ -15,6 +15,7 @@ export interface RenderIndexDocOptions {
   features: Feature[]
   doc: Doc
   localeCode: string
+  startPageUrl: string
 }
 
 export function renderIndexDoc(options: RenderIndexDocOptions) {

@@ -59,6 +59,7 @@ export default {
           features: widget2Features(localeUrlPrefix, flatWidgets),
           doc: meta.doc,
           localeCode: localeUrlPrefix,
+          startPageUrl: env.VITE_START_PAGE_URL,
         }),
       })
 

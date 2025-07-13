@@ -1,5 +1,11 @@
 # @readme-widget-hub/render
 
+## 2.8.0
+
+### Minor Changes
+
+- 开始阅读支持动态配置
+
 ## 2.7.0
 
 ### Minor Changes

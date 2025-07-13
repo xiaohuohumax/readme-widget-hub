@@ -1,5 +1,16 @@
 # readme-widget-hub
 
+## 4.3.0
+
+### Minor Changes
+
+- 开始阅读支持动态配置
+
+### Patch Changes
+
+- Updated dependencies
+  - @readme-widget-hub/render@2.8.0
+
 ## 4.2.2
 
 ### Patch Changes

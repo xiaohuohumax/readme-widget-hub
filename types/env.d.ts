@@ -19,6 +19,8 @@ interface ImportMetaEnv {
   readonly VITE_DOCS_SERVER_PORT: string
   /** 小部件在线页面 URL */
   readonly VITE_ONLINE_PAGE_URL: string
+  /** 文档首页页面 URL */
+  readonly VITE_START_PAGE_URL: string
 }
 
 interface ImportMeta {
