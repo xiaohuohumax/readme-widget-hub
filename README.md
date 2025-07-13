@@ -31,9 +31,9 @@
 
 ## 📑 小部件目录
 
-* [Shields.io](dist/widgets/shields-io/README.md)
 * [Readme Typing SVG](dist/widgets/readme-typing-svg/README.md)
 * 通用
+  * [Shields.io](dist/widgets/common/shields-io/README.md)
   * [Badgen](dist/widgets/common/badgen/README.md)
   * [Custom Icon Badges](dist/widgets/common/custom-icon-badges/README.md)
   * [FOR THE BADGE](dist/widgets/common/for-the-badge/README.md)

@@ -31,9 +31,9 @@
 
 ## 📑 Conteúdo dos Widgets
 
-* [Shields.io](dist/widgets/shields-io/README_pt-BR.md)
 * [Texto Animado em SVG (Readme Typing SVG)](dist/widgets/readme-typing-svg/README_pt-BR.md)
 * 通用
+  * [Shields.io](dist/widgets/common/shields-io/README_pt-BR.md)
   * [Badgen](dist/widgets/common/badgen/README_pt-BR.md)
   * [Badges com Ícones Customizados (Custom Icon Badges)](dist/widgets/common/custom-icon-badges/README_pt-BR.md)
   * [Emblemas do FOR THE BADGE](dist/widgets/common/for-the-badge/README_pt-BR.md)

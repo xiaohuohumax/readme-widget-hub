@@ -31,9 +31,9 @@
 
 ## 📑 Widget Contents
 
-* [Shields.io](dist/widgets/shields-io/README_en-US.md)
 * [Readme Typing SVG](dist/widgets/readme-typing-svg/README_en-US.md)
 * Common
+  * [Shields.io](dist/widgets/common/shields-io/README_en-US.md)
   * [Badgen](dist/widgets/common/badgen/README_en-US.md)
   * [Custom Icon Badges](dist/widgets/common/custom-icon-badges/README_en-US.md)
   * [FOR THE BADGE](dist/widgets/common/for-the-badge/README_en-US.md)
