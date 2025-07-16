@@ -1,13 +1,11 @@
 {
-  "enabled": false,
   "title": "Quotify For Readme",
   "title:pt-BR": "Quotify For Readme",
-  "description": "Programming, Normal Or Even Mixed Quotes For Your Readme.",
+  "description": "为你的 Readme 提供编程、普通或混合类型的名言。",
   "description:en-US": "Programming, Normal Or Even Mixed Quotes For Your Readme.",
   "description:pt-BR": "Programação, citações normais ou variadas para o seu Readme.",
   "tag": {
     "repo": "https://github.com/Vishal-beep136/github-readme-quotify",
-    "onlineTool": "https://github.com/Vishal-beep136/github-readme-quotify",
     "officialDoc": "https://github.com/Vishal-beep136/github-readme-quotify"
   },
   "linkRules": {
@@ -16,10 +14,10 @@
         "name": "mode",
         "type": "string",
         "default": "programming",
-        "description": "Quotes mode decides which type of qoutes you want.",
+        "description": "你想获取哪种类型的名言。",
         "description:en-US": "Quotes mode decides which type of qoutes you want.",
         "description:pt-BR": "Nome do usuário registrado site do Chess.com",
-        "moreDescription": "Available: `programming`,`normal` or `mixed`.",
+        "moreDescription": "可选值：`programming`,`normal` 或 `mixed`。",
         "moreDescription:en-US": "Available: `programming`,`normal` or `mixed`.",
         "moreDescription:pt-BR": "Disponível: `programming`,`normal` or `mixed`."
       },
@@ -27,98 +25,88 @@
         "name": "type",
         "type": "string",
         "default": "vertical",
-        "description": "Card type.",
+        "description": "卡片类型。",
         "description:en-US": "Card type.",
         "description:pt-BR": "Tipo do cartão.",
-        "moreDescription": "Supported: `horizontal` or `vertical`.",
+        "moreDescription": "可选值：`horizontal` 或 `vertical`。",
         "moreDescription:en-US": "Supported: `horizontal` or `vertical`.",
         "moreDescription:pt-BR": "Suporta: `horizontal` or `vertical`."
       },
       {
         "name": "theme",
         "type": "number",
-        "default": "10",
-        "description": "Card theme.",
+        "default": "light",
+        "description": "卡片主题。",
         "description:en-US": "Card theme.",
         "description:pt-BR": "Tema do cartão.",
-        "moreDescription": "Supported: `dark`, `chartreuse-dark`, `radical`, `merko`, `gruvbox`, `tokyonight`, `algolia`, `monokai`, `dracula` or `nord`.",
+        "moreDescription": "可选值：`dark`, `chartreuse-dark`, `radical`, `merko`, `gruvbox`, `tokyonight`, `algolia`, `monokai`, `dracula` 或 `nord`。",
         "moreDescription:en-US": "Supported: `dark`, `chartreuse-dark`, `radical`, `merko`, `gruvbox`, `tokyonight`, `algolia`, `monokai`, `dracula` or `nord`.",
         "moreDescription:pt-BR": "Suporta: `dark`, `chartreuse-dark`, `radical`, `merko`, `gruvbox`, `tokyonight`, `algolia`, `monokai`, `dracula` or `nord`."
       },
       {
         "name": "quote",
         "type": "boolean",
-        "default": "true",
-        "description": "Customize your quote if you want to display your own otherwise not needed.",
+        "description": "自定义你的名言。",
         "description:en-US": "Customize your quote if you want to display your own otherwise not needed.",
         "description:pt-BR": "Personalize sua cotação se quiser exibi-la, pois de outra forma não seria necessária.",
-        "moreDescription": "Example: `&quote=My%20Quote`.",
+        "moreDescription": "例如：`&quote=My%20Quote`。",
         "moreDescription:en-US": "Example: `&quote=My%20Quote`.",
         "moreDescription:pt-BR": "Exemplo: `&quote=My%20Quote`."
       },
       {
         "name": "author",
         "type": "boolean",
-        "default": "true",
-        "description": "Disable animations",
-        "description:en-US": "Disable animations",
-        "description:pt-BR": "Desabilitar animações",
-        "moreDescription": "Example: `&author=Me`.",
-        "moreDescription:en-US": "Example: `&author=Me`.",
-        "moreDescription:pt-BR": "Exemplo: `&author=Me`."
+        "default": "Me",
+        "description": "作者名。",
+        "description:en-US": "Author name.",
+        "description:pt-BR": "Nome do autor."
       }
     ],
     "uriTemplate": "https://github-readme-quotify.vercel.app/api{?mode,type,theme,quote,author}"
   },
   "examples": [
     {
-      "description": "Theme monokai, mixed mode and horizontal type",
+      "description": "Monokai 主题，混合模式，水平类型",
       "description:en-US": "Theme monokai, mixed mode and horizontal type",
       "description:pt-BR": "Tema monokai, modo variado e tipo horizontal",
       "annotate": "Quotify For Readme",
       "alt": "Quotify For Readme",
-      "alt:en-US": "Quotify For Readme",
-      "alt:pt-BR": "Quotify For Readme",
       "href": "https://github-readme-quotify.vercel.app/api?mode=mixed&type=horizontal&theme=monokai",
       "images": [
         {
-          "alt": "Quotify For Readme",
-          "alt:en-US": "Theme monokai",
-          "alt:pt-BR": "Tema monokai",
+          "alt": "Monokai 主题，混合模式，水平类型",
+          "alt:en-US": "Theme monokai, mixed mode and horizontal type",
+          "alt:pt-BR": "Tema monokai, modo variado e tipo horizontal",
           "href": "https://github-readme-quotify.vercel.app/api?mode=mixed&type=horizontal&theme=monokai"
         }
       ]
     },
     {
-      "description": "Catppuccin theme, vertical type and mode programming",
+      "description": "Catppuccin 主题，垂直类型，编程模式",
       "description:en-US": "Catppuccin theme, vertical type and mode programming",
       "description:pt-BR": "Tema Catppuccin, tipo vertical e modo programação",
       "annotate": "Quotify For Readme",
       "alt": "Quotify For Readme",
-      "alt:en-US": "Quotify For Readme",
-      "alt:pt-BR": "Quotify For Readme",
       "href": "https://github-readme-quotify.vercel.app/api?mode=programming&type=vertical&theme=catppuccin",
       "images": [
         {
-          "alt": "Quotify For Readme",
-          "alt:en-US": "Catppuccin theme, vertical type and mode mixed",
-          "alt:pt-BR": "Tema Catppuccin, tipo vertical e modo variado",
+          "alt": "Catppuccin 主题，垂直类型，编程模式",
+          "alt:en-US": "Catppuccin theme, vertical type and mode programming",
+          "alt:pt-BR": "Tema Catppuccin, tipo vertical e modo programação",
           "href": "https://github-readme-quotify.vercel.app/api?mode=programming&type=vertical&theme=catppuccin"
         }
       ]
     },
     {
-      "description": "Custom quote, type vertical and dracula theme",
+      "description": "自定义名言，垂直类型，Dracula 主题",
       "description:en-US": "Custom quote, type vertical and dracula theme",
       "description:pt-BR": "Citação customizada, tipo vertical e tema dracula",
       "annotate": "Quotify For Readme",
       "alt": "Quotify For Readme",
-      "alt:en-US": "Quotify For Readme",
-      "alt:pt-BR": "Quotify For Readme",
       "href": "https://github-readme-quotify.vercel.app/api?mode=mixed&type=horizontal&theme=dracula&quote=If%20you%20think%20you%20can%2C%20you%20can.%20And%20if%20you%20think%20you%20can%27t%2C%20you%27re%20right.&author=Henry%20Ford",
       "images": [
         {
-          "alt": "Quotify For Readme",
+          "alt": "自定义名言，垂直类型，Dracula 主题",
           "alt:en-US": "Custom quote, type vertical and dracula theme",
           "alt:pt-BR": "Citação customizada, tipo vertical e tema dracula",
           "href": "https://github-readme-quotify.vercel.app/api?mode=mixed&type=horizontal&theme=dracula&quote=If%20you%20think%20you%20can%2C%20you%20can.%20And%20if%20you%20think%20you%20can%27t%2C%20you%27re%20right.&author=Henry%20Ford"
