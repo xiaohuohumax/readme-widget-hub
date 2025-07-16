@@ -13,7 +13,7 @@
     <a href="https://github.com/xiaohuohumax/readme-widget-hub/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/readme-widget-hub" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/readme-widget-hub" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Freadme-widget-hub&countColor=%2337D67A&style=flat&labelStyle=lower" /></a>
-    <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/badge/badges-84-37D67A?labelColor=555555" /></a>
+    <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/badge/badges-87-37D67A?labelColor=555555" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/github/stars/xiaohuohumax/readme-widget-hub" /></a>
   </div>
   <div>
@@ -106,13 +106,16 @@
 * Citações
   * [Citações no Readme do Github (PiyushSuthar)](dist/widgets/quotes/github-readme-quotes_1/README_pt-BR.md)
   * [Citações no Readme do Github (shravan20)](dist/widgets/quotes/github-readme-quotes_2/README_pt-BR.md)
+  * [Quotify For Readme](dist/widgets/quotes/github-readme-quotify/README_pt-BR.md)
 * Aprendizado
+  * [Estatísticas do Codewars no Readme](dist/widgets/study/codewars-readme-stats/README_pt-BR.md)
   * [Faixas do Codewars (Codewars Profile Badges)](dist/widgets/study/codewars/README_pt-BR.md)
   * [Cartão com as Estatísticas do Duolingo (Duolingo Stats Card)](dist/widgets/study/duolingo-stats-card/README_pt-BR.md)
   * [Cartão de Estatísticas do GeeksForGeeks (GeeksForGeeks Stats Card)](dist/widgets/study/geeksforgeeks-stats-card/README_pt-BR.md)
   * [Codewars no Readme do Github (Github Readme Codewars)](dist/widgets/study/github-readme-codewars/README_pt-BR.md)
   * [Exibir o Badge do LeetCode (LeetCode Badge Showcase)](dist/widgets/study/leetcode-badge-showcase/README_pt-BR.md)
   * [Cartão de Estatísticas do LeetCode (LeetCode Stats Card)](dist/widgets/study/leetcode-stats-card/README_pt-BR.md)
+  * [TIOJ Stats Card](dist/widgets/study/tioj-stats-card/README_pt-BR.md)
 * Contador de Visitas
   * [Contador de Visitas do Perfil no GitHub](dist/widgets/visit-counter/github-profile-views-counter/README_pt-BR.md)
   * [Contador de Visitas no Perfil](dist/widgets/visit-counter/go-u8views/README_pt-BR.md)

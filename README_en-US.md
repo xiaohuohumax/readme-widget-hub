@@ -13,7 +13,7 @@
     <a href="https://github.com/xiaohuohumax/readme-widget-hub/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/readme-widget-hub" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/readme-widget-hub" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Freadme-widget-hub&countColor=%2337D67A&style=flat&labelStyle=lower" /></a>
-    <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/badge/badges-84-37D67A?labelColor=555555" /></a>
+    <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/badge/badges-87-37D67A?labelColor=555555" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/github/stars/xiaohuohumax/readme-widget-hub" /></a>
   </div>
   <div>
@@ -106,13 +106,16 @@
 * Quotes
   * [Github Readme Quotes (PiyushSuthar)](dist/widgets/quotes/github-readme-quotes_1/README_en-US.md)
   * [Github Readme Quotes (shravan20)](dist/widgets/quotes/github-readme-quotes_2/README_en-US.md)
+  * [Quotify For Readme](dist/widgets/quotes/github-readme-quotify/README_en-US.md)
 * Study
+  * [Codewars Readme Stats](dist/widgets/study/codewars-readme-stats/README_en-US.md)
   * [Codewars Profile Badges](dist/widgets/study/codewars/README_en-US.md)
   * [Duolingo Stats Card](dist/widgets/study/duolingo-stats-card/README_en-US.md)
   * [GeeksForGeeks Stats Card](dist/widgets/study/geeksforgeeks-stats-card/README_en-US.md)
   * [Github Readme Codewars](dist/widgets/study/github-readme-codewars/README_en-US.md)
   * [LeetCode Badge Showcase](dist/widgets/study/leetcode-badge-showcase/README_en-US.md)
   * [LeetCode Stats Card](dist/widgets/study/leetcode-stats-card/README_en-US.md)
+  * [TIOJ Stats Card](dist/widgets/study/tioj-stats-card/README_en-US.md)
 * Visit Counter
   * [GitHub Profile Views Counter](dist/widgets/visit-counter/github-profile-views-counter/README_en-US.md)
   * [Profile views counter](dist/widgets/visit-counter/go-u8views/README_en-US.md)
