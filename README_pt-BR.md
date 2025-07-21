@@ -13,7 +13,7 @@
     <a href="https://github.com/xiaohuohumax/readme-widget-hub/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/readme-widget-hub" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/readme-widget-hub" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Freadme-widget-hub&countColor=%2337D67A&style=flat&labelStyle=lower" /></a>
-    <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/badge/badges-87-37D67A?labelColor=555555" /></a>
+    <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/badge/badges-89-37D67A?labelColor=555555" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/github/stars/xiaohuohumax/readme-widget-hub" /></a>
   </div>
   <div>
@@ -104,6 +104,8 @@
   * [Stackoverflow no Perfil Readme (Stackoverflow Readme Profile)](dist/widgets/other-platform/stackoverflow-readme-profile/README_pt-BR.md)
   * [Cartões de Estatísticas (Stats Cards)](dist/widgets/other-platform/stats-cards/README_pt-BR.md)
 * Citações
+  * [Cartão de Citações Diárias (Daily Quotes Card)](dist/widgets/quotes/github-readme-daily-quotes/README_pt-BR.md)
+  * [Gerador de Citações Filosóficas (Philosophical Quotes Generator)](dist/widgets/quotes/github-readme-philosophical-quotes/README_pt-BR.md)
   * [Citações no Readme do Github (PiyushSuthar)](dist/widgets/quotes/github-readme-quotes_1/README_pt-BR.md)
   * [Citações no Readme do Github (shravan20)](dist/widgets/quotes/github-readme-quotes_2/README_pt-BR.md)
   * [Quotify For Readme](dist/widgets/quotes/github-readme-quotify/README_pt-BR.md)
