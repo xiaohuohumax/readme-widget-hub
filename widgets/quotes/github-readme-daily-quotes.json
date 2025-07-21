@@ -1,13 +1,11 @@
 {
-  "enabled": false,
   "title": "Daily Quotes Card",
   "title:pt-BR": "Cartão de Citações Diárias (Daily Quotes Card)",
-  "description": "Inspiring Quotes on your GitHub Profile.",
+  "description": "在你的 Github 个人资料上的励志名言。",
   "description:en-US": "Inspiring Quotes on your GitHub Profile",
   "description:pt-BR": "Citações inspiradoras para o seu perfil do GitHub.",
   "tag": {
     "repo": "https://github.com/cheehwatang/github-readme-daily-quotes",
-    "onlineTool": "https://github.com/cheehwatang/github-readme-daily-quotes",
     "officialDoc": "https://github.com/cheehwatang/github-readme-daily-quotes"
   },
   "linkRules": {
@@ -16,137 +14,101 @@
         "name": "theme",
         "type": "string",
         "default": "github_dark",
-        "description": "Check here [all available themes](https://github.com/cheehwatang/github-readme-daily-quotes/blob/master/src/app/themes/README.md).",
-        "description:en-US": "Check here [all available themes](https://github.com/cheehwatang/github-readme-daily-quotes/blob/master/src/app/themes/README.md).",
-        "description:pt-BR": "Verifique aqui [todos os temas disponíveis](https://github.com/cheehwatang/github-readme-daily-quotes/blob/master/src/app/themes/README.md).",
-        "moreDescription": "Supported: `merko`, `onedark`, `cobalt`.",
-        "moreDescription:en-US": "Supported: `merko`, `onedark`, `cobalt`.",
-        "moreDescription:pt-BR": "Suporta: `merko`, `onedark`, `cobalt`."
+        "description": "[所有可用主题](https://github.com/cheehwatang/github-readme-daily-quotes/blob/master/src/app/themes/README.md)。",
+        "description:en-US": "[all available themes](https://github.com/cheehwatang/github-readme-daily-quotes/blob/master/src/app/themes/README.md).",
+        "description:pt-BR": "[todos os temas disponíveis](https://github.com/cheehwatang/github-readme-daily-quotes/blob/master/src/app/themes/README.md)."
       },
       {
         "name": "font",
         "type": "string",
         "default": "helvetica",
-        "description": "Check here [all available fonts](https://github.com/cheehwatang/github-readme-daily-quotes/blob/master/src/app/fonts/README.md).",
-        "description:en-US": "Check here [all available fonts](https://github.com/cheehwatang/github-readme-daily-quotes/blob/master/src/app/fonts/README.md).",
-        "description:pt-BR": "Verifique aqui [todas as fonts disponíveis](https://github.com/cheehwatang/github-readme-daily-quotes/blob/master/src/app/fonts/README.md).",
-        "moreDescription": "Supported: `ubuntu_mono`, `pt_mono`, `rokkitt`.",
-        "moreDescription:en-US": "Supported: `ubuntu_mono`, `pt_mono`, `rokkitt`.",
-        "moreDescription:pt-BR": "Suporta: `ubuntu_mono`, `pt_mono`, `rokkitt`."
+        "description": "[所有可用字体](https://github.com/cheehwatang/github-readme-daily-quotes/blob/master/src/app/fonts/README.md)。",
+        "description:en-US": "[all available fonts](https://github.com/cheehwatang/github-readme-daily-quotes/blob/master/src/app/fonts/README.md).",
+        "description:pt-BR": "[todas as fonts disponíveis](https://github.com/cheehwatang/github-readme-daily-quotes/blob/master/src/app/fonts/README.md)."
       },
       {
         "name": "quote",
         "type": "string",
-        "description": "Customize your quote.",
+        "description": "自定义你的名言。",
         "description:en-US": "Customize your quote.",
-        "description:pt-BR": "Customização da citação.",
-        "moreDescription": "Supported: `ubuntu_mono`, `pt_mono`, `rokkitt`.",
-        "moreDescription:en-US": "Supported: `ubuntu_mono`, `pt_mono`, `rokkitt`.",
-        "moreDescription:pt-BR": "Suporta: `ubuntu_mono`, `pt_mono`, `rokkitt`."
+        "description:pt-BR": "Customização da citação."
       },
       {
         "name": "author",
         "type": "string",
-        "description": "The name of the quote's author.",
+        "description": "名言的作者的名字。",
         "description:en-US": "The name of the quote's author.",
-        "description:pt-BR": "O nome do autor da citação.",
-        "moreDescription": "Supported: `true` or `false`.",
-        "moreDescription:en-US": "Supported: `true` or `false`.",
-        "moreDescription:pt-BR": "Suporta: `true` or `false`."
-      },
-      {
-        "name": "bg_color",
-        "type": "string",
-        "default": "`0d1117`",
-        "description": "Card's background color (hex color).",
-        "description:en-US": "Card's background color (hex color).",
-        "description:pt-BR": "Cor de fundo do cartão (cor hexadecimal).",
-        "moreDescription": "Supported: `true` or `false`.",
-        "moreDescription:en-US": "Supported: `true` or `false`.",
-        "moreDescription:pt-BR": "Suporta: `true` or `false`."
+        "description:pt-BR": "O nome do autor da citação."
       },
       {
         "name": "category",
         "type": "string",
-        "description": "Check here [all available categories](https://github.com/cheehwatang/github-readme-daily-quotes#quotes-from-category).",
-        "description:en-US": "Check here [all available categories](https://github.com/cheehwatang/github-readme-daily-quotes#quotes-from-category).",
-        "description:pt-BR": "Verifique aqui [todas as categorias disponíveis](https://github.com/cheehwatang/github-readme-daily-quotes#quotes-from-category).",
-        "moreDescription": "Supported: `true` or `false`.",
-        "moreDescription:en-US": "Supported: `true` or `false`.",
-        "moreDescription:pt-BR": "Suporta: `true` or `false`."
+        "description": "[所有可用分类](https://github.com/cheehwatang/github-readme-daily-quotes#quotes-from-category)。",
+        "description:en-US": "[all available categories](https://github.com/cheehwatang/github-readme-daily-quotes#quotes-from-category).",
+        "description:pt-BR": "[todas as categorias disponíveis](https://github.com/cheehwatang/github-readme-daily-quotes#quotes-from-category)."
+      },
+      {
+        "name": "bg_color",
+        "type": "string",
+        "default": "0d1117",
+        "description": "卡片背景色（十六进制颜色）。",
+        "description:en-US": "Card's background color (hex color).",
+        "description:pt-BR": "Cor de fundo do cartão (cor hexadecimal)."
       },
       {
         "name": "quote_color",
         "type": "string",
-        "default": "`58a6ff`",
-        "description": "Quote text color (hex color).",
+        "default": "58a6ff",
+        "description": "引用文字颜色（十六进制颜色）。",
         "description:en-US": "Quote text color (hex color).",
-        "description:pt-BR": "Cor do texto da citação (cor hexadecimal).",
-        "moreDescription": "Example: `58a6ff`.",
-        "moreDescription:en-US": "Example: `58a6ff`.",
-        "moreDescription:pt-BR": "Exemplo: `58a6ff`."
+        "description:pt-BR": "Cor do texto da citação (cor hexadecimal)."
       },
       {
         "name": "author_color",
         "type": "string",
-        "default": "`c3d1d9`",
-        "description": "Author text color (hex color).",
+        "default": "c3d1d9",
+        "description": "作者文字颜色（十六进制颜色）。",
         "description:en-US": "Author text color (hex color).",
-        "description:pt-BR": "Cor do texto do Autor (cor hexadecimal).",
-        "moreDescription": "Example: `c3d1d9`.",
-        "moreDescription:en-US": "Example: `c3d1d9`.",
-        "moreDescription:pt-BR": "Exemplo: `c3d1d9`."
+        "description:pt-BR": "Cor do texto do Autor (cor hexadecimal)."
       },
       {
         "name": "accent_color",
         "type": "string",
-        "default": "`1f6feb`",
-        "description": "Accent color for the quotation marks and spacer (hex color).",
+        "default": "1f6feb",
+        "description": "引号和间隔符号的强调色（十六进制颜色）。",
         "description:en-US": "Accent color for the quotation marks and spacer (hex color).",
-        "description:pt-BR": "Cor de destaque para aspas e espaçadores (cor hexadecimal).",
-        "moreDescription": "Example: `1f6feb`.",
-        "moreDescription:en-US": "Example: `1f6feb`.",
-        "moreDescription:pt-BR": "Exemplo: `1f6feb`."
+        "description:pt-BR": "Cor de destaque para aspas e espaçadores (cor hexadecimal)."
       },
       {
         "name": "border_color",
         "type": "string",
-        "default": "`e4e2e2`",
-        "description": "Card's border color (hex color).",
+        "default": "e4e2e2",
+        "description": "卡片边框颜色（十六进制颜色）。",
         "description:en-US": "Card's border color (hex color).",
-        "description:pt-BR": "Cor da borda do cartão (cor hexadecimal).",
-        "moreDescription": "Example: `e4e2e2`.",
-        "moreDescription:en-US": "Example: `e4e2e2`.",
-        "moreDescription:pt-BR": "Exemplo: `e4e2e2`."
+        "description:pt-BR": "Cor da borda do cartão (cor hexadecimal)."
       },
       {
         "name": "border_width",
         "type": "number",
         "default": "1",
-        "description": "Card's border width (in px) (range from 0 - 5).",
-        "description:en-US": "Card's border width (in px) (range from 0 - 5)..",
-        "description:pt-BR": "Borda do cartão na largura em (px) (limite de 0 - 5).",
-        "moreDescription": "Example: `1`.",
-        "moreDescription:en-US": "Example: `1`.",
-        "moreDescription:pt-BR": "Exemplo: `1`."
+        "description": "卡片边框宽度（以像素为单位）（范围从 0 - 5）。",
+        "description:en-US": "Card's border width (in px) (range from 0 - 5).",
+        "description:pt-BR": "Borda do cartão na largura em (px) (limite de 0 - 5)."
       },
       {
-        "name": "userId",
+        "name": "border_radius",
         "type": "number",
         "default": "8",
-        "description": "Card's border radius (in px) (range from 0 - 40).",
+        "description": "卡片的边框半径（以像素为单位）（范围从 0 - 40 ）。",
         "description:en-US": "Card's border radius (in px) (range from 0 - 40).",
-        "description:pt-BR": "Raio da borda do cartão em (px) (limite de 0 - 40).",
-        "moreDescription": "Example: `8`.",
-        "moreDescription:en-US": "Example: `8`.",
-        "moreDescription:pt-BR": "Exemplo: `8`."
+        "description:pt-BR": "Raio da borda do cartão em (px) (limite de 0 - 40)."
       }
     ],
-    "uriTemplate": "https://readme-daily-quotes.vercel.app/api{?theme,category,font,quote,author,category,bg_color,quote_color,author_color,accent_color,border_color,border_width,border_radius}"
+    "uriTemplate": "https://readme-daily-quotes.vercel.app/api{?theme,font,quote,author,category,bg_color,quote_color,author_color,accent_color,border_color,border_width,userId}"
   },
   "examples": [
     {
-      "description": "Light theme and programming category",
+      "description": "明亮主题和编程分类",
       "description:en-US": "Light theme and programming category",
       "description:pt-BR": "Tema claro e categoria programação",
       "annotate": "Github Readme Daily Quotes",
@@ -155,14 +117,12 @@
       "images": [
         {
           "alt": "Github Readme Daily Quotes",
-          "alt:en-US": "Github Readme Daily Quotes",
-          "alt:pt-BR": "Github Readme Daily Quotes",
           "href": "https://readme-daily-quotes.vercel.app/api?theme=light&category=programming"
         }
       ]
     },
     {
-      "description": "Font Garamond and theme Radical",
+      "description": "Garamond 字体 和 Radical 主题",
       "description:en-US": "Font Garamond and theme Radical",
       "description:pt-BR": "Font Garamond e tema Radical",
       "alt": "Github Readme Daily Quotes",
@@ -170,8 +130,6 @@
       "images": [
         {
           "alt": "Github Readme Daily Quotes",
-          "alt:en-US": "Github Readme Daily Quotes",
-          "alt:pt-BR": "Github Readme Daily Quotes",
           "href": "https://readme-daily-quotes.vercel.app/api?font=garamond&theme=radical"
         }
       ]
