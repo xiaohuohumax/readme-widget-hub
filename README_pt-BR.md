@@ -13,7 +13,7 @@
     <a href="https://github.com/xiaohuohumax/readme-widget-hub/pulls"><img src="https://img.shields.io/github/issues-pr/xiaohuohumax/readme-widget-hub" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub/issues"><img src="https://img.shields.io/github/issues/xiaohuohumax/readme-widget-hub" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fxiaohuohumax%2Freadme-widget-hub&countColor=%2337D67A&style=flat&labelStyle=lower" /></a>
-    <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/badge/badges-89-37D67A?labelColor=555555" /></a>
+    <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/badge/badges-91-37D67A?labelColor=555555" /></a>
     <a href="https://github.com/xiaohuohumax/readme-widget-hub"><img src="https://img.shields.io/github/stars/xiaohuohumax/readme-widget-hub" /></a>
   </div>
   <div>
@@ -59,11 +59,12 @@
   * [PlayBadges](dist/widgets/fun/play-badges/README_pt-BR.md)
   * [Piadas no README (README Jokes)](dist/widgets/fun/readme-jokes/README_pt-BR.md)
   * [Estatísticas do Steam (Steam Stats)](dist/widgets/fun/steam-stat/README_pt-BR.md)
+* Gist Box
+  * [Gists no Readme do GitHub (GitHub Gists Readme)](dist/widgets/gist-box/gists-readme/README_pt-BR.md)
 * Github
   * [Estatísticas no Readme do GitHub (GitHub Readme Stats)](dist/widgets/github/github-readme-stats/README_pt-BR.md)
   * [AWESOME Github Stats](dist/widgets/github/awesome-github-stats/README_pt-BR.md)
   * [Imagem dos Colaboradores (Contributors Img)](dist/widgets/github/contributors-img/README_pt-BR.md)
-  * [Gists no Readme do GitHub (GitHub Gists Readme)](dist/widgets/github/gists-readme/README_pt-BR.md)
   * [Rastreador de Frequências no Git (Git Streak Tracker)](dist/widgets/github/git-streak-tracker/README_pt-BR.md)
   * [Conquistas do GitHub (GitHub Achievements)](dist/widgets/github/gitHub-achievements/README_pt-BR.md)
   * [Estatísticas de Contribuição do Github (Github Contribution Stats)](dist/widgets/github/github-contribution-stats/README_pt-BR.md)
@@ -78,6 +79,7 @@
   * [GitHub Widgetbox](dist/widgets/github/github-widgetbox/README_pt-BR.md)
   * [Emblema do Workflows do GitHub (GitHub Workflows Badge)](dist/widgets/github/github-workflows/README_pt-BR.md)
   * [Gráfico da API do Github (Github Chart API)](dist/widgets/github/githubchart-api/README_pt-BR.md)
+  * [My Badges](dist/widgets/github/my-badges/README_pt-BR.md)
   * [Open Source Software Insight](dist/widgets/github/ossinsight/README_pt-BR.md)
   * [Jogo Pac-Man no Gráfico de Contribuição (Pac-Man Contribution Graph Game)](dist/widgets/github/pacman-contribution-graph/README_pt-BR.md)
   * [Pixel criação de cartão para GitHub (Pixel GitHub Card Generator)](dist/widgets/github/pixel-profile-generator/README_pt-BR.md)
@@ -117,6 +119,7 @@
   * [Codewars no Readme do Github (Github Readme Codewars)](dist/widgets/study/github-readme-codewars/README_pt-BR.md)
   * [Exibir o Badge do LeetCode (LeetCode Badge Showcase)](dist/widgets/study/leetcode-badge-showcase/README_pt-BR.md)
   * [Cartão de Estatísticas do LeetCode (LeetCode Stats Card)](dist/widgets/study/leetcode-stats-card/README_pt-BR.md)
+  * [Readme Credly Badges](dist/widgets/study/readme-credly-badges/README_pt-BR.md)
   * [TIOJ Stats Card](dist/widgets/study/tioj-stats-card/README_pt-BR.md)
 * Contador de Visitas
   * [Contador de Visitas do Perfil no GitHub](dist/widgets/visit-counter/github-profile-views-counter/README_pt-BR.md)
