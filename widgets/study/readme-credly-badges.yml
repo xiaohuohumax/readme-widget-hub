@@ -1,17 +1,15 @@
-enabled: false
 title: Readme Credly Badges
 title:pt-BR: Readme Credly Badges
-description: A GitHub Action that automatically updates your `README.md` (or any markdown file) with your [Credly](https://www.credly.com/) badge details, no manual edits required!
+description: 一个自动更新 README 文件中 Credly 徽章详情的 Python GitHub Action。
 description:en-US: A GitHub Action that automatically updates your `README.md` (or any markdown file) with your [Credly](https://www.credly.com/) badge details, no manual edits required!
 description:pt-BR: Uma ação do GitHub que atualiza automaticamente seu `README.md` (ou qualquer arquivo markdown) com os detalhes do seus emblemas [Credly](https://www.credly.com/), sem necessidade de edições manuais!
 tag:
   repo: https://github.com/jd-35656/readme-credly-badges/
-  onlineTool: https://www.credly.com/
   officialDoc: https://github.com/jd-35656/readme-credly-badges/
   dependentAction: true
 usage: |
-  1. In the repository, create a `.github/workflows/` directory.
-  2. Add `update-badges.yaml` file with the following content:
+  1. 在仓库中创建一个 `.github/workflows/` 目录。
+  2. 添加 `update-badges.yaml` 文件，内容如下：
 
   ```yaml
   name: Update Credly Badges
@@ -37,7 +35,7 @@ usage: |
           github_token: ${{ secrets.GITHUB_TOKEN }}
   ```
 
-  3. In your repository, create or edit the `README.md` file to include:
+  3. 在你的仓库中，创建或编辑 `README.md` 文件以包含：
 
   ```markdown
   ## Credly Badges
@@ -121,67 +119,66 @@ linkRules:
   actions:
     - name: credly_username
       type: string
-      default: '`${{ github.actor }}`'
-      required: false
-      description: Your Credly username
+      default: '{github.actor}'
+      description: 你的 Credly 用户名
       description:en-US: Your Credly username
       description:pt-BR: Your Credly username
     - name: badge_size
       type: string
       default: 150x150
-      description: Badge image size (e.g., 150x150, 680x680)
+      description: 徽章大小 (例如，150x150, 680x680)
       description:en-US: Badge image size (e.g., 150x150, 680x680)
       description:pt-BR: Tamanho da imagem do emblema (por exemplo, 150x150, 680x680)
-      moreDescription: 'Example: `150x150`.'
-      moreDescription:en-US: 'Example: `150x150`.'
-      moreDescription:pt-BR: 'Exemplo: `150x150`.'
     - name: badge_sort_by
       type: string
-      default: badge_sort_by
-      description: 'Sort order: `issued`, `updated`, or `accepted`.'
-      description:en-US: 'Sort order: `issued`, `updated`, or `accepted`.'
-      description:pt-BR: 'Organizaado por: `issued`, `updated`, ou `accepted`.'
+      default: issued
+      description: 徽章排序方式
+      description:en-US: Sort order.
+      description:pt-BR: Organizaado por.
+      moreDescription: 可选值：`issued` `updated` `accepted`。
+      moreDescription:en-US: 'Optional values: `issued` `updated` `accepted`.'
+      moreDescription:pt-BR: 'Valores opcionais: `issued` `updated` `accepted`.'
     - name: github_api_url
       type: string
-      default: '`https://api.github.com`'
-      description: GitHub API URL (for GitHub Enterprise use).
+      default: https://api.github.com
+      description: GitHub API URL（用于 GitHub 企业版）。
       description:en-US: GitHub API URL (for GitHub Enterprise use).
       description:pt-BR: URL da API no GitHub (para uso do GitHub Enterprise).
     - name: github_token
       type: string
       required: true
-      default: '`${{ github.token }}`'
-      description: Token with write access to the repository.
+      default: '{github.token}'
+      description: 具有写入权限的令牌。
       description:en-US: Token with write access to the repository.
       description:pt-BR: Token com acesso para gravação do repositório.
     - name: github_repo
       type: string
-      default: '`${{ github.repository }}`'
-      description: Target GitHub repository.
+      default: '{github.repository}'
+      description: 目标 GitHub 仓库。
       description:en-US: Target GitHub repository.
       description:pt-BR: Repositório GitHub de destino.
     - name: github_branch
       type: string
-      default: '`main`'
-      description: Branch where the target file is located.
+      default: main
+      description: 目标文件所在的分支。
       description:en-US: Branch where the target file is located.
       description:pt-BR: Branch onde o arquivo de destino está localizado.
     - name: readme_file
       type: string
-      default: '`README.md`'
-      description: Path to the markdown file to update.
+      default: README.md
+      description: 更新 markdown 文件的路径。
       description:en-US: Path to the markdown file to update.
       description:pt-BR: Caminho para atualizar o arquivo markdown.
     - name: commit_message
       type: string
-      default: '`Updated README with new badges`'
-      description: Custom commit message.
+      default: Updated README with new badges
+      description: 自定义提交信息。
       description:en-US: Custom commit message.
       description:pt-BR: Mensagem de commit personalizada.
 
 examples: |
   ```markdown
-  ### Credly Badges
+  ### Credly 徽章
 
   <!-- START CREDLY BADGES -->
   [![HashiCorp Certified: Terraform Associate (003)](https://images.credly.com/size/150x150/images/ed4be915-68f8-428a-b332-40ded9084ee5/blob)](https://www.credly.com/badges/9818630e-28f4-4541-964c-e79041c4d601)
@@ -194,7 +191,7 @@ examples: |
   <!-- END CREDLY BADGES -->
   ```
 
-  ### Credly Badges
+  ### Credly 徽章
   <a href="https://www.credly.com/badges/9818630e-28f4-4541-964c-e79041c4d601"><img src="https://images.credly.com/size/150x150/images/ed4be915-68f8-428a-b332-40ded9084ee5/blob" alt="HashiCorp Certified: Terraform Associate (003)" width="100px"></a>
   <a href="https://www.credly.com/badges/d557a8cd-735a-4abe-8f83-0f2e4f514a2c"><img src="https://images.credly.com/size/150x150/images/bd31ef42-d460-493e-8503-39592aaf0458/image.png" alt="AWS Certified DevOps Engineer – Professional" width="100px"></a>
   <a href="https://www.credly.com/badges/06bb5e5a-8069-4d4d-9f39-d608dbf84cd3"><img src="https://images.credly.com/size/150x150/images/b9d7d72b-ff77-4bd0-af19-7cedff6f6ae3/Red_Hat_System_Administration_II.png" alt="Red Hat System Administration II (RH134) - Ver. 9.0" width="100px"></a>

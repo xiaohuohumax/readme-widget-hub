@@ -1,17 +1,15 @@
-enabled: false
 title: My Badges
 title:pt-BR: My Badges
-description: My Badges is a GitHub Action that generates badges for your profile README.md. Badges will be updated automatically every day. And you will get new badges as you progress, or as community adds new badges. **Yes, you can [add your own badges](https://github.com/my-badges/my-badges/blob/master/CONTRIBUTING.md)!**
+description: My Badges 是一个 GitHub Action，用于为你的个人资料 README.md 生成徽章。徽章将每天自动更新。随着你的进步，或者社区添加新的徽章，你将获得新的徽章。是的，你也可以[添加自己的徽章](https://github.com/my-badges/my-badges/blob/master/CONTRIBUTING.md)！
 description:en-US: My Badges is a GitHub Action that generates badges for your profile README.md. Badges will be updated automatically every day. And you will get new badges as you progress, or as community adds new badges. **Yes, you can [add your own badges](https://github.com/my-badges/my-badges/blob/master/CONTRIBUTING.md)!**
 description:pt-BR: My Badges é um GitHub Action que gera emblemas para seu perfil README.md. Esses emblemas serão atualizados todos os dias automaticamente. E você tirar ganhar novos emblemas conforme seu progresso, ou novos emblemas da comunidade. **Sim, você pode [adicionar seus próprios emblemas](https://github.com/my-badges/my-badges/blob/master/CONTRIBUTING.md)!**
 tag:
   repo: https://github.com/my-badges/my-badges
-  onlineTool: https://github.com/my-badges/my-badges
   officialDoc: https://github.com/my-badges/my-badges
   dependentAction: true
 usage: |
-  1. In the repository, create a `.github/workflows/` directory.
-  2. Add `my-badges.yml` file with the following content:
+  1. 在仓库中创建一个 `.github/workflows/` 目录。
+  2. 添加 `my-badges.yml` 文件，内容如下：
 
   ```yaml
   name: my-badges
@@ -34,7 +32,7 @@ usage: |
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   ```
 
-  3. In your repository, create or edit the `README.md` file to include:
+  3. 在你的仓库中，创建或编辑 `README.md` 文件以包含：
 
   ```markdown
   ## My Badges
@@ -109,26 +107,68 @@ usage:pt-BR: |
 
 linkRules:
   actions:
-    - name: GITHUB_TOKEN
+    - name: env.GITHUB_TOKEN
       type: string
-      required: true
-      description: GitHub Token
+      description: GitHub 令牌
       description:en-US: GitHub Token
       description:pt-BR: Token do GitHub
-      moreDescription: The workflow will use a default runner token.
+      moreDescription: 这个工作流将使用默认的运行器令牌。
       moreDescription:en-US: The workflow will use a default runner token.
       moreDescription:pt-BR: O workflow irá utilizar o token padrão que já está em execução.
-    - name: GITHUB_USER
+    - name: env.GITHUB_USER
       type: string
-      description: GitHub Username
+      description: GitHub 用户名
       description:en-US: GitHub Username
       description:pt-BR: Usuário do GitHub
-    - name: GITHUB_REPO
+    - name: env.GITHUB_REPO
       type: string
       default: '{user/user}'
-      description: Repository name to push badges.
+      description: 用于推送徽章的仓库名称
       description:en-US: Repository name to push badges.
       description:pt-BR: Nome do repositório que vai atualizar os emblemas.
+    - name: data
+      type: string
+      description: 生成徽章的 JSON 路径。
+      description:en-US: Path to JSON to generate badges.
+      description:pt-BR: Caminho para o JSON que irá gerar os emblemas.
+      moreDescription: 如果为空，将所需数据从 GH API 获取。
+      moreDescription:en-US: If empty, required data will be obtained from the GH API.
+      moreDescription:pt-BR: Se estiver vazio, os dados necessários serão obtidos da API do GH.
+    - name: size
+      type: number
+      default: '64'
+      description: 徽章大小，像素为单位。
+      description:en-US: Badge size for README.md, px.
+      description:pt-BR: Tamanho do emblemas, em pixels.
+    - name: dryrun
+      type: boolean
+      description: 生成徽章，但跳过将它们推送到 git 仓库。
+      description:en-US: Generate badges, but skip pushing them to git.
+      description:pt-BR: Gera os emblemas, mas pula o envio para o repositório.
+    - name: pick
+      type: string
+      description: 要选择的徽章列表。
+      description:en-US: List of badges to pick.
+      description:pt-BR: Lista de emblemas a serem selecionados.
+      moreDescription: 传递 `--pick="a-commit,ab-commit,revert-revert-commit"` 仅生成指定条目。如果为空，获取所有徽章。
+      moreDescription:en-US: Pass `--pick="a-commit,ab-commit,revert-revert-commit"` to generate only the specified entries. If empty gets all of them.
+      moreDescription:pt-BR: Passe `--pick="a-commit,ab-commit,revert-revert-commit"` para gerar apenas os itens especificados. Se vazio, busca todos os emblemas.
+    - name: omit
+      type: string
+      description: 要排除的徽章列表。
+      description:en-US: List of badges to exclude.
+      description:pt-BR: Lista de emblemas a serem excluídos.
+      moreDescription: 例如，如果你不好意思炫耀你的星星： `--omit=stars-100,stars-500,stars-1000` ，甚至更短： `--omit=stars-*`。
+      moreDescription:en-US: "For example, if you're too shy to flex your stars: `--omit:stars-100,stars-500,stars-1000` or even shorter `--omit:stars-*`."
+      moreDescription:pt-BR: 'Por exemplo, se você não gosta de brilhar seus estrelas: `--omit:stars-100,stars-500,stars-1000`, até mesmo `--omit:stars-*`.'
+    - name: compact
+      type: boolean
+      description: 在 README.md 中代表最高等级的徽章。
+      description:en-US: Represent the highest tier badges in README.md.
+      description:pt-BR: Representa os emblemas de maior nível no README.md.
+      moreDescription: 例如，如果你有 `stars-100` 和 `stars-500` 两种成就，只会显示最后一个。
+      moreDescription:en-US: For example, If you have both `stars-100` and `stars-500` achievements, only the last one will be shown.
+      moreDescription:pt-BR: Por exemplo, se você tiver as conquistas de `stars-100` e `stars-500`, somente a última será mostrada.
 examples: |
   ```markdown
   <!-- my-badges start -->
